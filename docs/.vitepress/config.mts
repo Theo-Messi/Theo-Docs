@@ -23,9 +23,9 @@ export default defineConfig({
 
   // markdown
   markdown: {
-    theme: "material-theme-palenight",
+    // theme: "material-theme-palenight",
     lineNumbers: true,
-    math: true
+    math: true,
   },
 
   // 网站头
@@ -34,22 +34,22 @@ export default defineConfig({
     //强制开启为深色模式
     // ["script", {}, `document.documentElement.classList.add('dark')`],
 
-    //谷歌分析
-    // [
-    //   "script",
-    //   {
-    //     async: "",
-    //     src: "https://www.googletagmanager.com/gtag/js?id=G-5ZXYVJQV7V",
-    //   },
-    // ],
-    // [
-    //   "script",
-    //   {},
-    //   `window.dataLayer = window.dataLayer || [];
-    //   function gtag(){dataLayer.push(arguments);}
-    //   gtag('js', new Date());
-    //   gtag('config', 'G-5ZXYVJQV7V');`,
-    // ],
+    // 谷歌分析
+    [
+      "script",
+      {
+        async: "",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-2H93CC808K",
+      },
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2H93CC808K');`,
+    ],
   ],
 
   locales: {
@@ -68,15 +68,15 @@ export default defineConfig({
     //  siteTitle: false,    false去除网站标题 只显示logo
     // GitHub编辑页面
     editLink: {
-      pattern: "https://github.com/vanhiupun/blog/blob/master/docs/:path",
+      pattern: "https://github.com/vanhiupun/Vite-Blog/blob/master/docs/:path",
     },
     // 导航栏
     nav: [
-      { text: "VPS教程", link: '/VPS/01' },
-      { text: "京东Cookie教程",link: '/JD/01' },
-      { text: "OpenWrt教程", link: '/OpenWrt/01'},
-      { text: "网络技术教程", link: '/skill/01'},
-      { text: "Markdown", link: 'MD/test'},
+      { text: "VPS教程", link: "/VPS/01" },
+      { text: "京东Cookie教程", link: "/JD/01" },
+      { text: "OpenWrt教程", link: "/OpenWrt/01" },
+      { text: "网络技术教程", link: "/skill/01" },
+      { text: "Markdown", link: "MD/test" },
     ],
     // 侧边栏
     sidebar: {
@@ -93,50 +93,56 @@ export default defineConfig({
         'Copyright © 2019 - Present <a href="https://github.com/vanhiupun">Theo</a>',
     },
     // // algolia搜索
-    // search: {
-    //   provider: "algolia",
-    //   options: {
-    //     appId: "TFKQL3PYD7",
-    //     apiKey: "07180615367ee93252015ef2d522ea6f",
-    //     indexName: "theovan",
-    //     locales: {
-    //       root: {
-    //         placeholder: "搜索文档",
-    //         translations: {
-    //           button: {
-    //             buttonText: "搜索文档",
-    //             buttonAriaLabel: "搜索文档",
-    //           },
-    //           modal: {
-    //             searchBox: {
-    //               resetButtonTitle: "清除查询条件",
-    //               resetButtonAriaLabel: "清除查询条件",
-    //               cancelButtonText: "取消",
-    //               cancelButtonAriaLabel: "取消",
-    //             },
-    //             startScreen: {
-    //               recentSearchesTitle: "搜索历史",
-    //               noRecentSearchesText: "没有搜索历史",
-    //               saveRecentSearchButtonTitle: "保存至搜索历史",
-    //               removeRecentSearchButtonTitle: "从搜索历史中移除",
-    //               favoriteSearchesTitle: "收藏",
-    //               removeFavoriteSearchButtonTitle: "从收藏中移除",
-    //             },
-    //             errorScreen: {
-    //               titleText: "无法获取结果",
-    //               helpText: "你可能需要检查你的网络连接",
-    //             },
-    //             footer: {
-    //               selectText: "选择",
-    //               navigateText: "切换",
-    //               closeText: "关闭",
-    //               searchByText: "搜索提供者",
-    //             },
-    //             noResultsScreen: {
-    //               noResultsText: "无法找到相关结果",
-    //               suggestedQueryText: "你可以尝试查询",
-    //               reportMissingResultsText: "你认为该查询应该有结果？",
-    //               reportMissingResultsLinkText: "点击反馈",
-    //             },
+    search: {
+      provider: "algolia",
+      options: {
+        appId: "ET4Y1NVDC3",
+        apiKey: "094b9789c092705bab9a56f24a0ac0cf",
+        indexName: "theovanxyz",
+        locales: {
+          root: {
+            placeholder: "搜索文档",
+            translations: {
+              button: {
+                buttonText: "搜索文档",
+                buttonAriaLabel: "搜索文档",
               },
-            },);
+              modal: {
+                searchBox: {
+                  resetButtonTitle: "清除查询条件",
+                  resetButtonAriaLabel: "清除查询条件",
+                  cancelButtonText: "取消",
+                  cancelButtonAriaLabel: "取消",
+                },
+                startScreen: {
+                  recentSearchesTitle: "搜索历史",
+                  noRecentSearchesText: "没有搜索历史",
+                  saveRecentSearchButtonTitle: "保存至搜索历史",
+                  removeRecentSearchButtonTitle: "从搜索历史中移除",
+                  favoriteSearchesTitle: "收藏",
+                  removeFavoriteSearchButtonTitle: "从收藏中移除",
+                },
+                errorScreen: {
+                  titleText: "无法获取结果",
+                  helpText: "你可能需要检查你的网络连接",
+                },
+                footer: {
+                  selectText: "选择",
+                  navigateText: "切换",
+                  closeText: "关闭",
+                  searchByText: "搜索提供者",
+                },
+                noResultsScreen: {
+                  noResultsText: "无法找到相关结果",
+                  suggestedQueryText: "你可以尝试查询",
+                  reportMissingResultsText: "你认为该查询应该有结果？",
+                  reportMissingResultsLinkText: "点击反馈",
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+});

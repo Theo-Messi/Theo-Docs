@@ -10,6 +10,11 @@ export function Sidebartelevision() {
         { text: "开启防火墙端口与root登陆", link: "03" },
         { text: "一键脚本部署开ARM机器", link: "04" },
         { text: "VPS全能工具箱", link: "05" },
+        { text: "安装哪吒面板", link: "06" },
+        { text: "V2Ray搭建详细教程", link: "07" },
+        { text: "X-ui搭建详细教程", link: "08" },
+        { text: "VPS一键检测流媒体解锁", link: "09" },
+        { text: "一键检测机场奈飞解锁", link: "10" },
       ],
     },
   ];
