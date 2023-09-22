@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.0.0-rc.14"
+    "vitepress": "^1.0.0-rc.15"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
