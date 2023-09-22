@@ -12,3 +12,4 @@ TODOs.md
 pnpm-global
 docs/.vitepress/cache
 package-lock.json
+pnpm-lock.yaml
