@@ -3,15 +3,10 @@ import * as SidebarMjs from "./Sidebar.mjs";
 import * as navbarMjs from "./navbar.mjs";
 
 export default defineConfig({
-  // description:
-  //   "引领您进入五彩斑斓的视听世界，并涵盖了 Netflix 、Disney+ 、Spotify会员 和 YouTube会员 的精彩领域",
+  description: "",
   lastUpdated: true,
-
-  // 开启后网址后缀无'html'
-  cleanUrls: true,
-
-  //true强制开启深色模式 false强制开启浅色模式
-  // appearance: false,
+  cleanUrls: true, // 开启后网址后缀无'html'
+  // appearance: false,   //true强制开启深色模式 false强制开启浅色模式
 
   // 站点地图
   sitemap: {
@@ -23,19 +18,19 @@ export default defineConfig({
 
   // markdown
   markdown: {
-    // theme: "material-theme-palenight",
-    lineNumbers: true,
-    math: true,
+    theme: {
+      light: "github-light",
+      dark: "github-dark-dimmed",
+    },
+    // lineNumbers: true,
   },
 
   // 网站头
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
-    //强制开启为深色模式
-    // ["script", {}, `document.documentElement.classList.add('dark')`],
-
-    // 谷歌分析
+    // ["script", {}, `document.documentElement.classList.add('dark')`],    //强制开启为深色模式
     [
+      // 谷歌分析
       "script",
       {
         async: "",
@@ -54,46 +49,50 @@ export default defineConfig({
 
   locales: {
     root: {
-      title: "Theo",
+      title: "Note library",
       label: "中文",
       lang: "cn",
     },
   },
 
   themeConfig: {
-    // logo
-    logo: { light: "/favicon.ico", dark: "/favicon.ico" },
-    // 社交链接
-    socialLinks: [{ icon: "github", link: "https://github.com/vanhiupun" }],
-    //  siteTitle: false,    false去除网站标题 只显示logo
-    // GitHub编辑页面
+    logo: { light: "/favicon.ico", dark: "/favicon.ico" }, // logo
+    socialLinks: [{ icon: "github", link: "https://github.com/vanhiupun" }], // 社交链接
+    // siteTitle: false,    // false去除网站标题 只显示logo
     editLink: {
+      // GitHub编辑页面
       pattern: "https://github.com/vanhiupun/Vite-Blog/blob/master/docs/:path",
+      text: "为此页提供修改建议",
     },
-    // 导航栏
-    nav: [
-      { text: "VPS", link: "/VPS/01" },
-      { text: "Docker安装青龙", link: "/docker/01" },
-      { text: "OpenWrt", link: "/OpenWrt/01" },
-      { text: "网络技术", link: "/skill/01" },
-      { text: "Markdown", link: "MD/test" },
-    ],
+
+    outline: { label: "本页目录" }, //目录
+
+    lastUpdated: { text: "上次更新" }, //上次更新
+
+    nav: navbarMjs.nav(), // 导航栏
+
     // 侧边栏
     sidebar: {
       "/": { base: "/", items: SidebarMjs.Sidebartelevision() },
       "/VPS/": { base: "/VPS/", items: SidebarMjs.Sidebartelevision() },
-      "/OpenWrt/": { base: "/OpenWrt/", items: SidebarMjs.SidebarScientific() },
-      "/docker/": { base: "/cookie/", items: SidebarMjs.SidebarSharing() },
+      "/ESXI/": { base: "/ESXI/", items: SidebarMjs.SidebarScientific() },
+      "/Docker/": { base: "/Docker/", items: SidebarMjs.SidebarSharing() },
       "/skill/": { base: "/skill/", items: SidebarMjs.SidebarAirport() },
+      "/metaphysics/": {
+        base: "/metaphysics/",
+        items: SidebarMjs.Sidebarmetaphysics(),
+      },
     },
-    // 底部信息
+
     footer: {
+      // 底部信息
       message: "Released Under The MIT License.",
       copyright:
         'Copyright © 2019 - Present <a href="https://github.com/vanhiupun">Theo</a>',
     },
-    // // algolia搜索
+
     search: {
+      // algolia搜索
       provider: "algolia",
       options: {
         appId: "ET4Y1NVDC3",
@@ -104,8 +103,7 @@ export default defineConfig({
             placeholder: "搜索文档",
             translations: {
               button: {
-                buttonText: "搜索文档",
-                buttonAriaLabel: "搜索文档",
+                buttonText: "搜索",
               },
               modal: {
                 searchBox: {
@@ -117,7 +115,7 @@ export default defineConfig({
                 startScreen: {
                   recentSearchesTitle: "搜索历史",
                   noRecentSearchesText: "没有搜索历史",
-                  saveRecentSearchButtonTitle: "保存至搜索历史",
+                  saveRecentSearchButtonTitle: "保存到搜索历史",
                   removeRecentSearchButtonTitle: "从搜索历史中移除",
                   favoriteSearchesTitle: "收藏",
                   removeFavoriteSearchButtonTitle: "从收藏中移除",
@@ -130,13 +128,13 @@ export default defineConfig({
                   selectText: "选择",
                   navigateText: "切换",
                   closeText: "关闭",
-                  searchByText: "搜索提供者",
+                  searchByText: "搜索供应商",
                 },
                 noResultsScreen: {
                   noResultsText: "无法找到相关结果",
                   suggestedQueryText: "你可以尝试查询",
-                  reportMissingResultsText: "你认为该查询应该有结果？",
-                  reportMissingResultsLinkText: "点击反馈",
+                  reportMissingResultsText: "你认为这个查询应该有结果？",
+                  reportMissingResultsLinkText: "向我们反馈",
                 },
               },
             },

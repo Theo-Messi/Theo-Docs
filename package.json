@@ -1,14 +1,10 @@
 {
   "devDependencies": {
-    "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.0.0-rc.14"
+    "vitepress": "^1.0.0-rc.20"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
-  },
-  "dependencies": {
-    "vitepress-plugin-pagefind": "^0.2.9"
   }
 }
