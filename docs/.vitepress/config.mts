@@ -1,14 +1,34 @@
 import { defineConfig } from "vitepress";
-import * as SidebarMjs from "./Sidebar.mjs";
-import * as navbarMjs from "./navbar.mjs";
+import * as Sidebar from "./Sidebar.js";
+import * as navbar from "./navbar.js";
 
 export default defineConfig({
-  // description:
-  //   "引领您进入五彩斑斓的视听世界，并涵盖了 Netflix 、Disney+ 、Spotify会员 和 YouTube会员 的精彩领域",
+  // 站点名称
+  title: "Note library",
+
+  // 站点语言
+  lang: "cn",
+
+  // 站点介绍
+  description:
+    "网络技术,VPS,ESXI,OpenWrt,青龙面板,风水玄学,picgo,github,图床,梅林固件,华硕,fancyss,科学上网,clasn,独角数卡,homebrew,git,docker,linux,markdown,甲骨文,谷歌云,防火墙,流媒体,京东,阿里云",
+
+  // 上次更新时间戳
   lastUpdated: true,
 
   // 开启后网址后缀无'html'
   cleanUrls: true,
+
+  // 源目录
+  srcDir: "src",
+
+  // markdown-it插件配置
+  markdown: {
+    theme: {
+      light: "github-light",
+      dark: "github-dark-dimmed",
+    },
+  },
 
   //true强制开启深色模式 false强制开启浅色模式
   // appearance: false,
@@ -21,17 +41,12 @@ export default defineConfig({
     },
   },
 
-  // markdown
-  markdown: {
-    // theme: "material-theme-palenight",
-    lineNumbers: true,
-    math: true,
-  },
-
   // 网站头
   head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
-    //强制开启为深色模式
+    // LOGO
+    ["link", { rel: "icon", href: "https://theovan.xyz/logo.svg" }],
+
+    // 强制开启为深色模式
     // ["script", {}, `document.documentElement.classList.add('dark')`],
 
     // 谷歌分析
@@ -48,51 +63,63 @@ export default defineConfig({
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+
       gtag('config', 'G-2H93CC808K');`,
     ],
   ],
 
-  locales: {
-    root: {
-      title: "Theo",
-      label: "中文",
-      lang: "cn",
-    },
-  },
-
   themeConfig: {
-    // logo
-    logo: { light: "/favicon.ico", dark: "/favicon.ico" },
+    // // logo
+    logo: "/logo.svg",
+
     // 社交链接
     socialLinks: [{ icon: "github", link: "https://github.com/vanhiupun" }],
-    //  siteTitle: false,    false去除网站标题 只显示logo
+
+    // false去除网站标题 只显示logo
+    // siteTitle: false,
+
     // GitHub编辑页面
     editLink: {
-      pattern: "https://github.com/vanhiupun/Vite-Blog/blob/master/docs/:path",
+      pattern:
+        "https://github.com/vanhiupun/Vite-Blog/blob/master/docs/src/:path",
+      text: "为此页提供修改建议",
     },
+
+    // 目录设置
+    outline: "deep", // 索引级别
+    outlineTitle: "目录", // 目录文本
+
+    // 上次更新
+    lastUpdated: { text: "上次更新" },
+
     // 导航栏
-    nav: [
-      { text: "VPS", link: "/VPS/01" },
-      { text: "Docker安装青龙", link: "/docker/01" },
-      { text: "OpenWrt", link: "/OpenWrt/01" },
-      { text: "网络技术", link: "/skill/01" },
-      { text: "Markdown", link: "MD/test" },
-    ],
+    nav: navbar.nav(),
+
     // 侧边栏
     sidebar: {
-      "/": { base: "/", items: SidebarMjs.Sidebartelevision() },
-      "/VPS/": { base: "/VPS/", items: SidebarMjs.Sidebartelevision() },
-      "/OpenWrt/": { base: "/OpenWrt/", items: SidebarMjs.SidebarScientific() },
-      "/docker/": { base: "/cookie/", items: SidebarMjs.SidebarSharing() },
-      "/skill/": { base: "/skill/", items: SidebarMjs.SidebarAirport() },
+      // VPS使用指南
+      "/VPS/": { base: "/VPS/", items: Sidebar.Sidebartelevision() },
+      // ESXI安装指南
+      "/ESXI/": { base: "/ESXI/", items: Sidebar.SidebarScientific() },
+      // 青龙面板
+      "/Docker/": { base: "/Docker/", items: Sidebar.SidebarSharing() },
+      // 网络技术
+      "/skill/": { base: "/skill/", items: Sidebar.SidebarAirport() },
+      // 风水玄学
+      "/metaphysics/": {
+        base: "/metaphysics/",
+        items: Sidebar.Sidebarmetaphysics(),
+      },
     },
+
     // 底部信息
     footer: {
       message: "Released Under The MIT License.",
       copyright:
-        'Copyright © 2019 - Present <a href="https://github.com/vanhiupun">Theo</a>',
+        'Copyright © 2019 - 2023 <a href="https://github.com/vanhiupun" target="_blank">Theo</a> . All Rights Reserved.',
     },
-    // // algolia搜索
+
+    // algolia搜索
     search: {
       provider: "algolia",
       options: {
@@ -104,8 +131,7 @@ export default defineConfig({
             placeholder: "搜索文档",
             translations: {
               button: {
-                buttonText: "搜索文档",
-                buttonAriaLabel: "搜索文档",
+                buttonText: "搜索",
               },
               modal: {
                 searchBox: {
@@ -117,7 +143,7 @@ export default defineConfig({
                 startScreen: {
                   recentSearchesTitle: "搜索历史",
                   noRecentSearchesText: "没有搜索历史",
-                  saveRecentSearchButtonTitle: "保存至搜索历史",
+                  saveRecentSearchButtonTitle: "保存到搜索历史",
                   removeRecentSearchButtonTitle: "从搜索历史中移除",
                   favoriteSearchesTitle: "收藏",
                   removeFavoriteSearchButtonTitle: "从收藏中移除",
@@ -130,13 +156,13 @@ export default defineConfig({
                   selectText: "选择",
                   navigateText: "切换",
                   closeText: "关闭",
-                  searchByText: "搜索提供者",
+                  searchByText: "搜索供应商",
                 },
                 noResultsScreen: {
                   noResultsText: "无法找到相关结果",
                   suggestedQueryText: "你可以尝试查询",
-                  reportMissingResultsText: "你认为该查询应该有结果？",
-                  reportMissingResultsLinkText: "点击反馈",
+                  reportMissingResultsText: "你认为这个查询应该有结果？",
+                  reportMissingResultsLinkText: "向我们反馈",
                 },
               },
             },
