@@ -72,10 +72,10 @@ export default defineConfig({
     },
     // 导航栏
     nav: [
-      { text: "VPS教程", link: "/VPS/01" },
-      { text: "京东Cookie教程", link: "/JD/01" },
-      { text: "OpenWrt教程", link: "/OpenWrt/01" },
-      { text: "网络技术教程", link: "/skill/01" },
+      { text: "VPS", link: "/VPS/01" },
+      { text: "Docker安装青龙", link: "/docker/01" },
+      { text: "OpenWrt", link: "/OpenWrt/01" },
+      { text: "网络技术", link: "/skill/01" },
       { text: "Markdown", link: "MD/test" },
     ],
     // 侧边栏
@@ -83,7 +83,7 @@ export default defineConfig({
       "/": { base: "/", items: SidebarMjs.Sidebartelevision() },
       "/VPS/": { base: "/VPS/", items: SidebarMjs.Sidebartelevision() },
       "/OpenWrt/": { base: "/OpenWrt/", items: SidebarMjs.SidebarScientific() },
-      "/JD/": { base: "/JD/", items: SidebarMjs.SidebarSharing() },
+      "/docker/": { base: "/cookie/", items: SidebarMjs.SidebarSharing() },
       "/skill/": { base: "/skill/", items: SidebarMjs.SidebarAirport() },
     },
     // 底部信息

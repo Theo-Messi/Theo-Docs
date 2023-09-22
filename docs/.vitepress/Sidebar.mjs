@@ -38,13 +38,24 @@ export function SidebarScientific() {
 export function SidebarSharing() {
   return [
     {
-      text: "京东Cookie教程",
+      text: "安装青龙面板",
       collapsed: true,
-      base: "/JD/",
+      base: "/docker/",
       items: [
-        { text: "插件版", link: "01" },
-        { text: "浏览器版", link: "02" },
-        { text: "Boxjs", link: "03" },
+        { text: "安装Docker", link: "01" },
+        { text: "安装青龙面板", link: "02" },
+        { text: "阿里云盘签到", link: "06" },
+        { text: "京东签到", link: "07" },
+      ],
+    },
+    {
+      text: "获取京东Cookie",
+      collapsed: true,
+      base: "/docker/",
+      items: [
+        { text: "插件版", link: "03" },
+        { text: "浏览器版", link: "04" },
+        { text: "Boxjs", link: "05" },
       ],
     },
   ];
