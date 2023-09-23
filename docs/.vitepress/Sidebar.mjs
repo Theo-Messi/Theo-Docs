@@ -1,8 +1,8 @@
 export function Sidebartelevision() {
   return [
     {
-      text: "VPS教程",
-      collapsed: true,
+      // text: "VPS教程",
+      // collapsed: true,
       base: "/VPS/",
       items: [
         { text: "甲骨文云与谷歌云防火墙设置", link: "01" },
@@ -23,8 +23,8 @@ export function Sidebartelevision() {
 export function SidebarScientific() {
   return [
     {
-      text: "OpenWrt教程",
-      collapsed: true,
+      // text: "OpenWrt教程",
+      // collapsed: true,
       base: "/OpenWrt/",
       items: [
         { text: "关闭IPV6", link: "01" },
@@ -39,7 +39,7 @@ export function SidebarSharing() {
   return [
     {
       text: "安装青龙面板",
-      collapsed: true,
+      // collapsed: true,
       base: "/docker/",
       items: [
         { text: "安装Docker", link: "01" },
@@ -50,7 +50,7 @@ export function SidebarSharing() {
     },
     {
       text: "获取京东Cookie",
-      collapsed: true,
+      // collapsed: true,
       base: "/docker/",
       items: [
         { text: "插件版", link: "03" },
@@ -64,14 +64,11 @@ export function SidebarSharing() {
 export function SidebarAirport() {
   return [
     {
-      text: "网络技术教程",
-      collapsed: true,
+      // text: "网络技术教程",
+      // collapsed: true,
       base: "/skill/",
       items: [
         { text: "PicGo + Github 搭建图床", link: "01" },
-        // { text: "一元机场", link: "02" },
-        // { text: "薯条机场", link: "03" },
-        // { text: "Bridge the Wise", link: "04" },
       ],
     },
   ];
