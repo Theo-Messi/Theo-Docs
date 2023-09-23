@@ -42,7 +42,7 @@ features:
 
   - title: 一元机场
     details: 一元机场是 2022 年创立的机场，由于价格便宜到「离谱」，现今风头正盛，可以说现在的名气不亚于当年跑路的速蛙云。甚至有好事者创立了「一元机场」的百度贴吧。
-    link: https://一元机场.com/#/register?code=tFcXfJEu
+    link: https://一元机场.click/#/register?code=tFcXfJEu
 
   - title: 薯条机场
     details: 薯条机场（CNIX）是一家老牌翻墙机场，提供 IPLC 内网专线节点，翻墙协议为 Shadowsocks。薯条节点数量超级多，并且有 IPv6 接入，很有特点。

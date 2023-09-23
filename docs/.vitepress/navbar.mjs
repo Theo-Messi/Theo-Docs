@@ -58,7 +58,7 @@ export function NavServe() {
       items: [
         {
           text: "一元机场",
-          link: "https://xn--4gq62f52gdss.com/#/register?code=tFcXfJEu",
+          link: "https://一元机场.click/#/register?code=tFcXfJEu",
         },
         {
           text: "薯条机场",
