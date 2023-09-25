@@ -69,15 +69,20 @@ export default defineConfig({
     // GitHub编辑页面
     editLink: {
       pattern: "https://github.com/vanhiupun/Vite-Blog/blob/master/docs/:path",
+      text: "为此页提供修改建议",
     },
+    //目录
+    outline: {
+      label: "本页目录",
+    },
+    //上次更新
+    lastUpdated: {
+      text: "上次更新",
+    },
+
     // 导航栏
-    nav: [
-      { text: "VPS", link: "/VPS/01" },
-      { text: "Docker安装青龙", link: "/docker/01" },
-      { text: "OpenWrt", link: "/OpenWrt/01" },
-      { text: "网络技术", link: "/skill/01" },
-      { text: "Markdown", link: "MD/test" },
-    ],
+    nav: navbarMjs.nav(),
+
     // 侧边栏
     sidebar: {
       "/": { base: "/", items: SidebarMjs.Sidebartelevision() },
