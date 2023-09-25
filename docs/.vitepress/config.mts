@@ -24,7 +24,7 @@ export default defineConfig({
   // markdown
   markdown: {
     // theme: "material-theme-palenight",
-    lineNumbers: true,
+    // lineNumbers: true,
     math: true,
   },
 
