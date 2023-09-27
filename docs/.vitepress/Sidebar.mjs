@@ -24,27 +24,26 @@ export function SidebarScientific() {
   return [
     {
       text: "ESXi 8.0安装",
-      collapsed: true,
+      // collapsed: true,
       base: "/ESXI/",
       items: [
-        { text: "介绍及准备工作", link: "04" },
-        { text: "ESXI写盘", link: "05" },
-        { text: "主板BIOS设置", link: "06" },
-        { text: "ESXI安装", link: "07" },
-        { text: "ESXI后台配置", link: "08" },
-        { text: "ESXI前台配置", link: "09" },
-        { text: "ESXI安装Openwrt", link: "10" },
-        
+        { text: "介绍及准备工作", link: "ESXI-01" },
+        { text: "ESXI写盘", link: "ESXI-02" },
+        { text: "主板BIOS设置", link: "ESXI-03" },
+        { text: "ESXI安装", link: "ESXI-04" },
+        { text: "ESXI后台配置", link: "ESXI-05" },
+        { text: "ESXI前台配置", link: "ESXI-06" },
       ],
     },
     {
-      text: "OpenWrt设置",
-      collapsed: true,
+      text: "ESXI — OpenWrt",
+      // collapsed: true,
       base: "/ESXI/",
       items: [
-        { text: "关闭IPV6", link: "01" },
-        { text: "PPPOE拨号", link: "02" },
-        { text: "ESXI里的OpenWrt扩容", link: "03" },
+        { text: "ESXI安装Openwrt", link: "OP-01" },
+        { text: "关闭IPV6", link: "OP-02" },
+        { text: "PPPOE拨号", link: "OP-03" },
+        { text: "OpenWrt扩容内存", link: "OP-04" },
       ],
     },
   ];
@@ -55,22 +54,22 @@ export function SidebarSharing() {
     {
       text: "安装青龙面板",
       // collapsed: true,
-      base: "/docker/",
+      base: "/Docker/",
       items: [
-        { text: "安装Docker", link: "01" },
-        { text: "安装青龙面板", link: "02" },
-        { text: "阿里云盘签到", link: "06" },
-        { text: "京东签到", link: "07" },
+        { text: "安装Docker", link: "QL-01" },
+        { text: "安装青龙面板", link: "QL-02" },
+        { text: "阿里云盘签到", link: "QL-03" },
+        { text: "京东签到", link: "QL-04" },
       ],
     },
     {
       text: "获取京东Cookie",
       // collapsed: true,
-      base: "/docker/",
+      base: "/Docker/",
       items: [
-        { text: "插件版", link: "03" },
-        { text: "浏览器版", link: "04" },
-        { text: "Boxjs", link: "05" },
+        { text: "插件版", link: "JD-01" },
+        { text: "浏览器版", link: "JD-02" },
+        { text: "Boxjs", link: "JD-03" },
       ],
     },
   ];
@@ -82,9 +81,7 @@ export function SidebarAirport() {
       // text: "网络技术教程",
       // collapsed: true,
       base: "/skill/",
-      items: [
-        { text: "PicGo + Github 搭建图床", link: "01" },
-      ],
+      items: [{ text: "PicGo + Github 搭建图床", link: "01" }],
     },
   ];
 }

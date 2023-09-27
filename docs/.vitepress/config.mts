@@ -88,7 +88,7 @@ export default defineConfig({
       "/": { base: "/", items: SidebarMjs.Sidebartelevision() },
       "/VPS/": { base: "/VPS/", items: SidebarMjs.Sidebartelevision() },
       "/ESXI/": { base: "/ESXI/", items: SidebarMjs.SidebarScientific() },
-      "/docker/": { base: "/cookie/", items: SidebarMjs.SidebarSharing() },
+      "/Docker/": { base: "/Docker/", items: SidebarMjs.SidebarSharing() },
       "/skill/": { base: "/skill/", items: SidebarMjs.SidebarAirport() },
     },
     // 底部信息
