@@ -23,9 +23,24 @@ export function Sidebartelevision() {
 export function SidebarScientific() {
   return [
     {
-      // text: "OpenWrt教程",
-      // collapsed: true,
-      base: "/OpenWrt/",
+      text: "ESXi 8.0安装",
+      collapsed: true,
+      base: "/ESXI/",
+      items: [
+        { text: "介绍及准备工作", link: "04" },
+        { text: "ESXI写盘", link: "05" },
+        { text: "主板BIOS设置", link: "06" },
+        { text: "ESXI安装", link: "07" },
+        { text: "ESXI后台配置", link: "08" },
+        { text: "ESXI前台配置", link: "09" },
+        { text: "ESXI安装Openwrt", link: "10" },
+        
+      ],
+    },
+    {
+      text: "OpenWrt设置",
+      collapsed: true,
+      base: "/ESXI/",
       items: [
         { text: "关闭IPV6", link: "01" },
         { text: "PPPOE拨号", link: "02" },

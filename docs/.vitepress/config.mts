@@ -87,7 +87,7 @@ export default defineConfig({
     sidebar: {
       "/": { base: "/", items: SidebarMjs.Sidebartelevision() },
       "/VPS/": { base: "/VPS/", items: SidebarMjs.Sidebartelevision() },
-      "/OpenWrt/": { base: "/OpenWrt/", items: SidebarMjs.SidebarScientific() },
+      "/ESXI/": { base: "/ESXI/", items: SidebarMjs.SidebarScientific() },
       "/docker/": { base: "/cookie/", items: SidebarMjs.SidebarSharing() },
       "/skill/": { base: "/skill/", items: SidebarMjs.SidebarAirport() },
     },
