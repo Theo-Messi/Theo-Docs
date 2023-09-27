@@ -72,6 +72,15 @@ export function SidebarSharing() {
         { text: "Boxjs", link: "JD-03" },
       ],
     },
+    {
+      text: "获取阿里云盘Cookie",
+      // collapsed: true,
+      base: "/Docker/",
+      items: [
+        { text: "自动获取 - refresh_token", link: "AL-01" },
+        { text: "手动获取 - refresh_token", link: "AL-02" },
+      ],
+    },
   ];
 }
 
