@@ -81,7 +81,10 @@ export function SidebarAirport() {
       // text: "网络技术教程",
       // collapsed: true,
       base: "/skill/",
-      items: [{ text: "PicGo + Github 搭建图床", link: "01" }],
+      items: [
+        { text: "PicGo + Github 搭建图床", link: "01" },
+        { text: "Markdown使用", link: "test" },
+      ],
     },
   ];
 }
