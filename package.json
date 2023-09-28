@@ -7,8 +7,5 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
-  },
-  "dependencies": {
-    "vitepress-plugin-pagefind": "^0.2.10"
   }
 }
