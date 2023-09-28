@@ -23,7 +23,10 @@ export default defineConfig({
 
   // markdown
   markdown: {
-    // theme: "material-theme-palenight",
+    theme: {
+      light: "material-theme-lighter",
+      dark: "material-theme-ocean",
+    },
     // lineNumbers: true,
     math: true,
   },
