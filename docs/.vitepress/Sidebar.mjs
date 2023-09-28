@@ -27,7 +27,7 @@ export function SidebarScientific() {
       // collapsed: true,
       base: "/ESXI/",
       items: [
-        { text: "介绍及准备工作", link: "ESXI-01" },
+        { text: "安装指南", link: "ESXI-01" },
         { text: "ESXI写盘", link: "ESXI-02" },
         { text: "主板BIOS设置", link: "ESXI-03" },
         { text: "ESXI安装", link: "ESXI-04" },
