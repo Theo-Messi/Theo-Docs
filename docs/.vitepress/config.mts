@@ -20,8 +20,8 @@ export default defineConfig({
   markdown: {
     math: true,
     theme: {
-      light: "material-theme-lighter",
-      dark: "material-theme-ocean",
+      light: "github-light",
+      dark: "github-dark-dimmed",
     },
     // lineNumbers: true,
   },
