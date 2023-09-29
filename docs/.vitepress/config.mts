@@ -3,15 +3,10 @@ import * as SidebarMjs from "./Sidebar.mjs";
 import * as navbarMjs from "./navbar.mjs";
 
 export default defineConfig({
-  // description:
-  //   "引领您进入五彩斑斓的视听世界，并涵盖了 Netflix 、Disney+ 、Spotify会员 和 YouTube会员 的精彩领域",
+  description: "",
   lastUpdated: true,
-
-  // 开启后网址后缀无'html'
-  cleanUrls: true,
-
-  //true强制开启深色模式 false强制开启浅色模式
-  // appearance: false,
+  cleanUrls: true, // 开启后网址后缀无'html'
+  // appearance: false,   //true强制开启深色模式 false强制开启浅色模式
 
   // 站点地图
   sitemap: {
@@ -23,22 +18,20 @@ export default defineConfig({
 
   // markdown
   markdown: {
+    math: true,
     theme: {
       light: "material-theme-lighter",
       dark: "material-theme-ocean",
     },
     // lineNumbers: true,
-    math: true,
   },
 
   // 网站头
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
-    //强制开启为深色模式
-    // ["script", {}, `document.documentElement.classList.add('dark')`],
-
-    // 谷歌分析
+    // ["script", {}, `document.documentElement.classList.add('dark')`],    //强制开启为深色模式
     [
+      // 谷歌分析
       "script",
       {
         async: "",
@@ -64,27 +57,20 @@ export default defineConfig({
   },
 
   themeConfig: {
-    // logo
-    logo: { light: "/favicon.ico", dark: "/favicon.ico" },
-    // 社交链接
-    socialLinks: [{ icon: "github", link: "https://github.com/vanhiupun" }],
-    //  siteTitle: false,    false去除网站标题 只显示logo
-    // GitHub编辑页面
+    logo: { light: "/favicon.ico", dark: "/favicon.ico" }, // logo
+    socialLinks: [{ icon: "github", link: "https://github.com/vanhiupun" }], // 社交链接
+    // siteTitle: false,    // false去除网站标题 只显示logo
     editLink: {
+      // GitHub编辑页面
       pattern: "https://github.com/vanhiupun/Vite-Blog/blob/master/docs/:path",
       text: "为此页提供修改建议",
     },
-    //目录
-    outline: {
-      label: "本页目录",
-    },
-    //上次更新
-    lastUpdated: {
-      text: "上次更新",
-    },
 
-    // 导航栏
-    nav: navbarMjs.nav(),
+    outline: { label: "本页目录" }, //目录
+
+    lastUpdated: { text: "上次更新" }, //上次更新
+
+    nav: navbarMjs.nav(), // 导航栏
 
     // 侧边栏
     sidebar: {
@@ -94,14 +80,16 @@ export default defineConfig({
       "/Docker/": { base: "/Docker/", items: SidebarMjs.SidebarSharing() },
       "/skill/": { base: "/skill/", items: SidebarMjs.SidebarAirport() },
     },
-    // 底部信息
+
     footer: {
+      // 底部信息
       message: "Released Under The MIT License.",
       copyright:
         'Copyright © 2019 - Present <a href="https://github.com/vanhiupun">Theo</a>',
     },
-    // // algolia搜索
+
     search: {
+      // algolia搜索
       provider: "algolia",
       options: {
         appId: "ET4Y1NVDC3",
