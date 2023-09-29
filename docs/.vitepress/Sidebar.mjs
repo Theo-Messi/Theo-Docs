@@ -1,15 +1,29 @@
 export function Sidebartelevision() {
   return [
     {
-      // text: "VPS教程",
+      text: "基础设置",
       // collapsed: true,
       base: "/VPS/",
       items: [
         { text: "甲骨文云与谷歌云防火墙设置", link: "01" },
-        { text: "简化重装系统", link: "02" },
         { text: "开启防火墙端口与root登陆", link: "03" },
+      ],
+    },
+    {
+      text: "进阶使用",
+      // collapsed: true,
+      base: "/VPS/",
+      items: [
+        { text: "简化重装系统", link: "02" },
         { text: "一键脚本部署开ARM机器", link: "04" },
         { text: "VPS全能工具箱", link: "05" },
+      ],
+    },
+    {
+      text: "搭建服务",
+      // collapsed: true,
+      base: "/VPS/",
+      items: [
         { text: "安装哪吒面板", link: "06" },
         { text: "V2Ray搭建详细教程", link: "07" },
         { text: "X-ui搭建详细教程", link: "08" },
@@ -93,6 +107,7 @@ export function SidebarAirport() {
       items: [
         { text: "PicGo + Github 搭建图床", link: "01" },
         { text: "Homebrew 使用", link: "02" },
+        { text: "梅林固件刷机需知", link: "03" },
         { text: "Markdown 使用", link: "test" },
       ],
     },
