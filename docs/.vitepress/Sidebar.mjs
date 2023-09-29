@@ -110,6 +110,8 @@ export function SidebarAirport() {
         { text: "PicGo + Github 搭建图床", link: "01" },
         { text: "Homebrew 使用", link: "02" },
         { text: "梅林固件刷机需知", link: "03" },
+        { text: "fancyss - 科学上网", link: "04" },
+        { text: "梅林固件安装Clash", link: "05" },
         { text: "Markdown 使用", link: "test" },
       ],
     },
