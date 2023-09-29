@@ -5,8 +5,10 @@ export function Sidebartelevision() {
       // collapsed: true,
       base: "/VPS/",
       items: [
-        { text: "甲骨文云与谷歌云防火墙设置", link: "01" },
-        { text: "开启防火墙端口与root登陆", link: "03" },
+        { text: "甲骨文云防火墙设置", link: "01" },
+        { text: "谷歌云防火墙设置", link: "12" },
+        { text: "开启 Root 登陆", link: "03" },
+        { text: "开启防火墙端口", link: "11" },
       ],
     },
     {
