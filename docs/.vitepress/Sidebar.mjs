@@ -112,6 +112,7 @@ export function SidebarAirport() {
         { text: "梅林固件刷机需知", link: "03" },
         { text: "fancyss - 科学上网", link: "04" },
         { text: "梅林固件安装Clash", link: "05" },
+        { text: "搭建独角数卡网站", link: "06" },
         { text: "Markdown 使用", link: "test" },
       ],
     },
