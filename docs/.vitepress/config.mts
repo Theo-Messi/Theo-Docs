@@ -50,7 +50,7 @@ export default defineConfig({
 
   locales: {
     root: {
-      title: "Theo",
+      title: "Note library",
       label: "中文",
       lang: "cn",
     },

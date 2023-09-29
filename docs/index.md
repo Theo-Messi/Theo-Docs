@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Theo
+title: Home
 # titleTemplate: 全方位流媒体观影指南
 hero:
-  name: Theo的笔记库
+  name: Theo's Note library
   # text: 观影指南
   tagline: You don't have to be the same
   image: https://vitepress.dev/vitepress-logo-large.webp
