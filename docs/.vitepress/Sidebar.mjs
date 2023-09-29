@@ -92,7 +92,8 @@ export function SidebarAirport() {
       base: "/skill/",
       items: [
         { text: "PicGo + Github 搭建图床", link: "01" },
-        { text: "Markdown使用", link: "test" },
+        { text: "Homebrew 使用", link: "02" },
+        { text: "Markdown 使用", link: "test" },
       ],
     },
   ];
