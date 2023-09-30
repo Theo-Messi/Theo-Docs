@@ -113,6 +113,7 @@ export function SidebarAirport() {
         { text: "fancyss - 科学上网", link: "04" },
         { text: "梅林固件安装Clash", link: "05" },
         { text: "搭建独角数卡网站", link: "06" },
+        { text: "Git 使用", link: "07" },
         { text: "Markdown 使用", link: "test" },
       ],
     },
