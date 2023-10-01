@@ -128,6 +128,11 @@ export function Sidebarmetaphysics() {
       items: [
         { text: "风水玄学 - 灵宠篇", link: "01" },
         { text: "风水玄学 - 植物篇", link: "02" },
+        { text: "道德经 - 全篇", link: "03" },
+        { text: "周易六十四卦 - 对照表", link: "04" },
+        { text: "周易六十四卦 - 上篇", link: "05" },
+        { text: "周易六十四卦 - 下篇", link: "06" },
+        { text: "流年星宿", link: "07" },
       ],
     },
   ];
