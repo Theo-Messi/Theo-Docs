@@ -133,6 +133,7 @@ export function Sidebarmetaphysics() {
         { text: "周易六十四卦 - 上篇", link: "05" },
         { text: "周易六十四卦 - 下篇", link: "06" },
         { text: "流年星宿", link: "07" },
+        { text: "小六壬", link: "08" },
       ],
     },
   ];
