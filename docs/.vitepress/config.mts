@@ -78,6 +78,10 @@ export default defineConfig({
       "/ESXI/": { base: "/ESXI/", items: SidebarMjs.SidebarScientific() },
       "/Docker/": { base: "/Docker/", items: SidebarMjs.SidebarSharing() },
       "/skill/": { base: "/skill/", items: SidebarMjs.SidebarAirport() },
+      "/metaphysics/": {
+        base: "/metaphysics/",
+        items: SidebarMjs.Sidebarmetaphysics(),
+      },
     },
 
     footer: {

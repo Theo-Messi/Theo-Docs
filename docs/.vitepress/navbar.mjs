@@ -8,5 +8,6 @@ export function nav() {
       link: "/Docker/QL-01",
       activeMatch: "/Docker/",
     },
+    { text: "风水玄学", link: "/metaphysics/01", activeMatch: "/metaphysics/" },
   ];
 }

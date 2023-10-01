@@ -119,3 +119,16 @@ export function SidebarAirport() {
     },
   ];
 }
+export function Sidebarmetaphysics() {
+  return [
+    {
+      // text: "风水",
+      // collapsed: true,
+      base: "/metaphysics/",
+      items: [
+        { text: "风水玄学 - 灵宠篇", link: "01" },
+        { text: "风水玄学 - 植物篇", link: "02" },
+      ],
+    },
+  ];
+}
