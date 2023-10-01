@@ -9,5 +9,6 @@ export function nav() {
       activeMatch: "/Docker/",
     },
     { text: "风水玄学", link: "/metaphysics/01", activeMatch: "/metaphysics/" },
+    { text: "赞助", link: "https://github.com/sponsors/vanhiupun" },
   ];
 }
