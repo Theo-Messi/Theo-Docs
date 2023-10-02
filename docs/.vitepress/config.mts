@@ -1,8 +1,13 @@
 import { defineConfig } from "vitepress";
-import * as SidebarMjs from "./Sidebar.mjs";
-import * as navbarMjs from "./navbar.mjs";
+import * as Sidebar from "./Sidebar.js";
+import * as navbar from "./navbar.js";
 
 export default defineConfig({
+  vite: {
+    ssr: {
+      noExternal: ["@nolebase/vitepress-plugin-enhanced-readabilities"],
+    },
+  },
   description: "",
   lastUpdated: true,
   cleanUrls: true, // 开启后网址后缀无'html'
@@ -69,18 +74,18 @@ export default defineConfig({
 
     lastUpdated: { text: "上次更新" }, //上次更新
 
-    nav: navbarMjs.nav(), // 导航栏
+    nav: navbar.nav(), // 导航栏
 
     // 侧边栏
     sidebar: {
-      "/": { base: "/", items: SidebarMjs.Sidebartelevision() },
-      "/VPS/": { base: "/VPS/", items: SidebarMjs.Sidebartelevision() },
-      "/ESXI/": { base: "/ESXI/", items: SidebarMjs.SidebarScientific() },
-      "/Docker/": { base: "/Docker/", items: SidebarMjs.SidebarSharing() },
-      "/skill/": { base: "/skill/", items: SidebarMjs.SidebarAirport() },
+      "/": { base: "/", items: Sidebar.Sidebartelevision() },
+      "/VPS/": { base: "/VPS/", items: Sidebar.Sidebartelevision() },
+      "/ESXI/": { base: "/ESXI/", items: Sidebar.SidebarScientific() },
+      "/Docker/": { base: "/Docker/", items: Sidebar.SidebarSharing() },
+      "/skill/": { base: "/skill/", items: Sidebar.SidebarAirport() },
       "/metaphysics/": {
         base: "/metaphysics/",
-        items: SidebarMjs.Sidebarmetaphysics(),
+        items: Sidebar.Sidebarmetaphysics(),
       },
     },
 
