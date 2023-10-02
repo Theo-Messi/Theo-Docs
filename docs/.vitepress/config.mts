@@ -3,6 +3,11 @@ import * as SidebarMjs from "./Sidebar.mjs";
 import * as navbarMjs from "./navbar.mjs";
 
 export default defineConfig({
+  vite: {
+    ssr: {
+      noExternal: ["@nolebase/vitepress-plugin-enhanced-readabilities"],
+    },
+  },
   description: "",
   lastUpdated: true,
   cleanUrls: true, // 开启后网址后缀无'html'
