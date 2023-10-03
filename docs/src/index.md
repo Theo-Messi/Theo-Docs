@@ -1,15 +1,15 @@
 ---
 layout: home
-title: Home
+title: 首页
 # titleTemplate: 全方位流媒体观影指南
 hero:
-  name: Theo's Note library
-  # text: 观影指南
-  tagline: You don't have to be the same
-  image: https://vitepress.dev/vitepress-logo-large.webp
+  name: Note library
+  text:
+  # tagline: You don't have to be the same
+  image: /home.png
   actions:
     - theme: brand
-      text: 立即开始 →
+      text: 立即开始
       link: /skill/01
     - theme: alt
       text: GitHub

@@ -3,15 +3,17 @@ import * as Sidebar from "./Sidebar.js";
 import * as navbar from "./navbar.js";
 
 export default defineConfig({
-  vite: {
-    ssr: {
-      noExternal: ["@nolebase/vitepress-plugin-enhanced-readabilities"],
-    },
-  },
-  description: "",
+  title: "Note library",
+  lang: "cn",
+  description:
+    "网络技术,VPS,ESXI,OpenWrt,青龙面板,风水玄学,picgo,github,图床,梅林固件,华硕,fancyss,科学上网,clasn,独角数卡,homebrew,git,docker,linux,markdown,甲骨文,谷歌云,防火墙,流媒体,京东,阿里云",
   lastUpdated: true,
   cleanUrls: true, // 开启后网址后缀无'html'
+  srcDir: "src",
   // appearance: false,   //true强制开启深色模式 false强制开启浅色模式
+  vite: {
+    ssr: { noExternal: ["@nolebase/vitepress-plugin-enhanced-readabilities"] },
+  },
 
   // 站点地图
   sitemap: {
@@ -32,7 +34,7 @@ export default defineConfig({
 
   // 网站头
   head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["link", { rel: "icon", href: "/logo.svg" }],
     // ["script", {}, `document.documentElement.classList.add('dark')`],    //强制开启为深色模式
     [
       // 谷歌分析
@@ -52,28 +54,17 @@ export default defineConfig({
     ],
   ],
 
-  locales: {
-    root: {
-      title: "Note library",
-      label: "中文",
-      lang: "cn",
-    },
-  },
-
   themeConfig: {
-    logo: { light: "/favicon.ico", dark: "/favicon.ico" }, // logo
+    logo: "/logo.svg", // logo
     socialLinks: [{ icon: "github", link: "https://github.com/vanhiupun" }], // 社交链接
-    // siteTitle: false,    // false去除网站标题 只显示logo
+    // siteTitle: false, // false去除网站标题 只显示logo
     editLink: {
-      // GitHub编辑页面
-      pattern: "https://github.com/vanhiupun/Vite-Blog/blob/master/docs/:path",
+      pattern:
+        "https://github.com/vanhiupun/Vite-Blog/blob/master/docs/src/:path",
       text: "为此页提供修改建议",
-    },
-
+    }, // GitHub编辑页面
     outline: { label: "本页目录" }, //目录
-
     lastUpdated: { text: "上次更新" }, //上次更新
-
     nav: navbar.nav(), // 导航栏
 
     // 侧边栏
@@ -90,11 +81,10 @@ export default defineConfig({
     },
 
     footer: {
-      // 底部信息
       message: "Released Under The MIT License.",
       copyright:
         'Copyright © 2019 - Present <a href="https://github.com/vanhiupun">Theo</a>',
-    },
+    }, // 底部信息
 
     search: {
       // algolia搜索
