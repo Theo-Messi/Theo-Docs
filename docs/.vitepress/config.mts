@@ -11,9 +11,6 @@ export default defineConfig({
   cleanUrls: true, // 开启后网址后缀无'html'
   srcDir: "src",
   // appearance: false,   //true强制开启深色模式 false强制开启浅色模式
-  vite: {
-    ssr: { noExternal: ["@nolebase/vitepress-plugin-enhanced-readabilities"] },
-  },
 
   // 站点地图
   sitemap: {
@@ -50,6 +47,7 @@ export default defineConfig({
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+
       gtag('config', 'G-2H93CC808K');`,
     ],
   ],
@@ -83,7 +81,7 @@ export default defineConfig({
     footer: {
       message: "Released Under The MIT License.",
       copyright:
-        'Copyright © 2019 - Present <a href="https://github.com/vanhiupun">Theo</a>',
+        'Copyright © 2019 - 2023 <a href="https://github.com/vanhiupun" target="_blank">Theo</a> . All Rights Reserved.',
     }, // 底部信息
 
     search: {

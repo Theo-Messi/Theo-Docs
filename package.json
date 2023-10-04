@@ -6,8 +6,5 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
-  },
-  "dependencies": {
-    "@nolebase/vitepress-plugin-enhanced-readabilities": "^1.2.1"
   }
 }

@@ -117,6 +117,7 @@ export function SidebarAirport() {
         { text: "Docker 入门使用", link: "08" },
         { text: "Linux 命令合集", link: "09" },
         { text: "Markdown 入门使用", link: "10" },
+        { text: "为 vitepress 主题添加 giscus评论插件", link: "11" },
       ],
     },
   ];
