@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 立即开始
-      link: /skill/01
+      link: /skill/JL-01
     - theme: alt
       text: GitHub
       link: https://github.com/vanhiupun
