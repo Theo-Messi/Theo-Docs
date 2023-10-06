@@ -1,19 +1,28 @@
 ---
 layout: home
 title: 首页
-# titleTemplate: 全方位流媒体观影指南
+titleTemplate: Theo Notes
 hero:
   name: Note library
   text:
-  # tagline: You don't have to be the same
+  tagline: You don't have to be the same
   image: /home.png
   actions:
     - theme: brand
-      text: 立即开始
+      text: 文档记录
       link: /skill/JL-01
+
+    - theme: brand
+      text: 前端物语
+      link: /fe/javascript/types
+
     - theme: alt
-      text: GitHub
+      text: 在 GitHub 上查看
       link: https://github.com/vanhiupun
+
+    - theme: alt
+      text: 赞助
+      link: https://github.com/sponsors/vanhiupun
 
 features:
   - title: 银河录像局
