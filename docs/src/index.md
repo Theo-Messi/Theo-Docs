@@ -62,10 +62,10 @@ features:
     link: /Docker/QL-01
     linkText: 青龙面板
 
-  - title: 风水玄学
+  - title: 玄学五术
     icon:
       src: ./8g.webp
     details: 记录周易与命理知识
-    link: /metaphysics/01
-    linkText: 风水玄学
+    link: /metaphysics/山/简介
+    linkText: 玄学五术
 ---
