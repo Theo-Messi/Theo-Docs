@@ -94,7 +94,7 @@ export function navxx() {
         { text: "玄学五术-命", link: "/metaphysics/命/简介" },
         { text: "玄学五术-相", link: "/metaphysics/相/简介" },
         { text: "玄学五术-卜", link: "/metaphysics/卜/简介" },
-        { text: "相关资料", link: "/metaphysics/道德经" },
+        { text: "相关经典", link: "/metaphysics/相关经典/道德经" },
         { text: "灵宠", link: "/metaphysics/宠物篇" },
       ],
     },

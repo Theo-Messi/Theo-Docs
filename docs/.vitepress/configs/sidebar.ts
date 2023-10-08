@@ -361,7 +361,18 @@ export function SideFS() {
       // 分组路径
       base: "/metaphysics/相/",
       // 分组页面
-      items: [{ text: "简介", link: "简介" }],
+      items: [
+        { text: "简介", link: "简介" },
+        { text: "冰鉴", link: "冰鉴" },
+        { text: "公笃相法", link: "公笃相法" },
+        { text: "柳庄神相", link: "柳庄神相" },
+        { text: "观人于微", link: "观人于微" },
+        { text: "麻衣神相", link: "麻衣神相" },
+        { text: "神相金较剪", link: "神相金较剪" },
+        { text: "神相全编", link: "神相全编" },
+        { text: "神相铁关刀", link: "神相铁关刀" },
+        { text: "太清神鉴", link: "太清神鉴" },
+      ],
     },
     {
       text: "玄学五术 - 卜",
@@ -386,11 +397,11 @@ export function SideFS() {
     },
     {
       // 分组名称
-      text: "相关资料",
+      text: "相关经典",
       // 下拉开关
       collapsed: true,
       // 分组路径
-      base: "/metaphysics/",
+      base: "/metaphysics/相关经典/",
       // 分组页面
       items: [
         { text: "道德经", link: "道德经" },
@@ -398,6 +409,11 @@ export function SideFS() {
         { text: "三字经", link: "三字经" },
         { text: "太上清静经", link: "太上清静经" },
         { text: "道教八大神咒", link: "道教八大神咒" },
+        { text: "淮南子", link: "淮南子" },
+        { text: "黄庭内景经", link: "黄庭内景经" },
+        { text: "黄庭外景经", link: "黄庭外景经" },
+        { text: "太上皇庭中景经", link: "太上皇庭中景经" },
+        { text: "下清宫", link: "下清宫" },
       ],
     },
     {
