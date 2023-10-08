@@ -2,12 +2,13 @@ import type { DefaultTheme } from "vitepress";
 // 导航栏设置
 
 export const nav: DefaultTheme.Config["nav"] = [
+  { text: "导航", link: "nav" },
   { text: "文档记录", items: navdocs(), activeMatch: "/skill/" },
   { text: "前端物语", items: navfe(), activeMatch: "/fe/" },
   { text: "VPS使用指南", items: navvps(), activeMatch: "/VPS/" },
   { text: "ESXI安装指南", items: navesxi(), activeMatch: "/ESXI/" },
   { text: "青龙面板", items: navql(), activeMatch: "/Docker/" },
-  { text: "风水玄学", link: "/metaphysics/01", activeMatch: "/metaphysics/" },
+  { text: "玄学宝典", link: "/metaphysics/简言", activeMatch: "/metaphysics/" },
   { text: "赞助", link: "https://github.com/sponsors/vanhiupun" },
 ];
 
@@ -83,3 +84,19 @@ export function navql() {
     },
   ];
 }
+// 玄学五术
+// export function navxx() {
+//   return [
+//     {
+//       items: [
+//         { text: "玄学五术-山", link: "/metaphysics/山/简介" },
+//         { text: "玄学五术-医", link: "/metaphysics/医/简介" },
+//         { text: "玄学五术-命", link: "/metaphysics/命/简介" },
+//         { text: "玄学五术-相", link: "/metaphysics/相/简介" },
+//         { text: "玄学五术-卜", link: "/metaphysics/卜/简介" },
+//         { text: "相关经典", link: "/metaphysics/相关经典/道德经" },
+//         { text: "灵宠", link: "/metaphysics/宠物篇" },
+//       ],
+//     },
+//   ];
+// }
