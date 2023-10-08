@@ -317,7 +317,45 @@ export function SideFS() {
   return [
     {
       // 分组名称
-      // text: "风水",
+      text: "玄学五术 - 山医命相卜",
+      // 下拉开关
+      // collapsed: true,
+      // 分组路径
+      base: "/metaphysics/",
+      // 分组页面
+      items: [
+        {
+          text: "玄学五术 - 山",
+          items: [{ text: "简介", link: "山/01" }],
+        },
+        {
+          text: "玄学五术 - 医",
+          items: [{ text: "简介", link: "医/01" }],
+        },
+        {
+          text: "玄学五术 - 命",
+          items: [
+            { text: "简介", link: "命/01" },
+            { text: "生辰八字", link: "命/09" },
+            { text: "流年星宿", link: "命/07" },
+          ],
+        },
+        {
+          text: "玄学五术 - 相",
+          items: [{ text: "简介", link: "相/01" }],
+        },
+        {
+          text: "玄学五术 - 卜",
+          items: [
+            { text: "简介", link: "卜/01" },
+            { text: "小六壬", link: "卜/08" },
+          ],
+        },
+      ],
+    },
+    {
+      // 分组名称
+      text: "相关资料",
       // 下拉开关
       // collapsed: true,
       // 分组路径
@@ -325,13 +363,20 @@ export function SideFS() {
       // 分组页面
       items: [
         { text: "道德经 - 全篇", link: "03" },
-        { text: "周易六十四卦 - 对照表", link: "04" },
-        { text: "周易六十四卦 - 上篇", link: "05" },
-        { text: "周易六十四卦 - 下篇", link: "06" },
-        { text: "灵宠篇", link: "01" },
+        { text: "周易六十四卦", link: "zy" },
+      ],
+    },
+    {
+      // 分组名称
+      text: "灵宠",
+      // 下拉开关
+      // collapsed: true,
+      // 分组路径
+      base: "/metaphysics/",
+      // 分组页面
+      items: [
+        { text: "宠物篇", link: "01" },
         { text: "植物篇", link: "02" },
-        { text: "流年星宿", link: "07" },
-        { text: "小六壬", link: "08" },
       ],
     },
   ];
