@@ -317,66 +317,91 @@ export function SideFS() {
   return [
     {
       // 分组名称
-      text: "玄学五术 - 山医命相卜",
+      text: "玄学五术 - 山",
       // 下拉开关
-      // collapsed: true,
+      collapsed: true,
       // 分组路径
-      base: "/metaphysics/",
+      base: "/metaphysics/山/",
+      // 分组页面
+      items: [{ text: "简介", link: "简介" }],
+    },
+    {
+      // 分组名称
+      text: "玄学五术 - 医",
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: "/metaphysics/医/",
       // 分组页面
       items: [
-        {
-          text: "玄学五术 - 山",
-          items: [{ text: "简介", link: "山/01" }],
-        },
-        {
-          text: "玄学五术 - 医",
-          items: [{ text: "简介", link: "医/01" }],
-        },
-        {
-          text: "玄学五术 - 命",
-          items: [
-            { text: "简介", link: "命/01" },
-            { text: "生辰八字", link: "命/09" },
-            { text: "流年星宿", link: "命/07" },
-          ],
-        },
-        {
-          text: "玄学五术 - 相",
-          items: [{ text: "简介", link: "相/01" }],
-        },
-        {
-          text: "玄学五术 - 卜",
-          items: [
-            { text: "简介", link: "卜/01" },
-            { text: "小六壬", link: "卜/08" },
-          ],
-        },
+        { text: "简介", link: "简介" },
+        { text: "伤寒杂病论(共十六卷)", link: "伤寒杂病论" },
+        { text: "金匮要略(药方)", link: "金匮要略" },
+      ],
+    },
+    {
+      // 分组名称
+      text: "玄学五术 - 命",
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: "/metaphysics/命/",
+      // 分组页面
+      items: [
+        { text: "简介", link: "简介" },
+        { text: "生辰八字", link: "生辰八字" },
+        { text: "流年星宿", link: "流年星宿" },
+      ],
+    },
+    {
+      // 分组名称
+      text: "玄学五术 - 相",
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: "/metaphysics/相/",
+      // 分组页面
+      items: [{ text: "简介", link: "简介" }],
+    },
+    {
+      text: "玄学五术 - 卜",
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: "/metaphysics/卜/",
+      // 分组页面
+      items: [
+        { text: "简介", link: "简介" },
+        { text: "小六壬", link: "小六壬" },
       ],
     },
     {
       // 分组名称
       text: "相关资料",
       // 下拉开关
-      // collapsed: true,
+      collapsed: true,
       // 分组路径
       base: "/metaphysics/",
       // 分组页面
       items: [
-        { text: "道德经 - 全篇", link: "03" },
-        { text: "周易六十四卦", link: "zy" },
+        { text: "道德经", link: "道德经" },
+        { text: "周易六十四卦", link: "周易六十四卦" },
+        { text: "三字经", link: "三字经" },
+        { text: "太上清静经", link: "太上清静经" },
+        { text: "道教八大神咒", link: "道教八大神咒" },
       ],
     },
     {
       // 分组名称
       text: "灵宠",
       // 下拉开关
-      // collapsed: true,
+      collapsed: true,
       // 分组路径
       base: "/metaphysics/",
       // 分组页面
       items: [
-        { text: "宠物篇", link: "01" },
-        { text: "植物篇", link: "02" },
+        { text: "宠物篇", link: "宠物篇" },
+        { text: "植物篇", link: "植物篇" },
       ],
     },
   ];

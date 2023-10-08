@@ -8,7 +8,7 @@ export const nav: DefaultTheme.Config["nav"] = [
   { text: "VPS使用指南", items: navvps(), activeMatch: "/VPS/" },
   { text: "ESXI安装指南", items: navesxi(), activeMatch: "/ESXI/" },
   { text: "青龙面板", items: navql(), activeMatch: "/Docker/" },
-  { text: "风水玄学", link: "/metaphysics/01", activeMatch: "/metaphysics/" },
+  { text: "玄学五术", items: navxx(), activeMatch: "/metaphysics/" },
   { text: "赞助", link: "https://github.com/sponsors/vanhiupun" },
 ];
 
@@ -80,6 +80,22 @@ export function navql() {
         { text: "安装青龙面板", link: "/Docker/QL-01" },
         { text: "获取京东Cookie", link: "/Docker/JD-01" },
         { text: "获取阿里云盘Cookie", link: "/Docker/AL-01" },
+      ],
+    },
+  ];
+}
+// 玄学五术
+export function navxx() {
+  return [
+    {
+      items: [
+        { text: "玄学五术-山", link: "/metaphysics/山/简介" },
+        { text: "玄学五术-医", link: "/metaphysics/医/简介" },
+        { text: "玄学五术-命", link: "/metaphysics/命/简介" },
+        { text: "玄学五术-相", link: "/metaphysics/相/简介" },
+        { text: "玄学五术-卜", link: "/metaphysics/卜/简介" },
+        { text: "相关资料", link: "/metaphysics/道德经" },
+        { text: "灵宠", link: "/metaphysics/宠物篇" },
       ],
     },
   ];
