@@ -2,6 +2,7 @@ import type { DefaultTheme } from "vitepress";
 // 导航栏设置
 
 export const nav: DefaultTheme.Config["nav"] = [
+  { text: "导航", link: "nav" },
   { text: "文档记录", items: navdocs(), activeMatch: "/skill/" },
   { text: "前端物语", items: navfe(), activeMatch: "/fe/" },
   { text: "VPS使用指南", items: navvps(), activeMatch: "/VPS/" },
