@@ -8,7 +8,11 @@ export const nav: DefaultTheme.Config["nav"] = [
   { text: "VPS使用指南", items: navvps(), activeMatch: "/VPS/" },
   { text: "ESXI安装指南", items: navesxi(), activeMatch: "/ESXI/" },
   { text: "青龙面板", items: navql(), activeMatch: "/Docker/" },
-  { text: "玄学宝典", link: "/metaphysics/简言", activeMatch: "/metaphysics/" },
+  {
+    text: "玄学宝典",
+    link: "/玄学宝典/提交书籍与纠错",
+    activeMatch: "/玄学宝典/",
+  },
   { text: "赞助", link: "https://github.com/sponsors/vanhiupun" },
 ];
 
@@ -89,13 +93,13 @@ export function navql() {
 //   return [
 //     {
 //       items: [
-//         { text: "玄学五术-山", link: "/metaphysics/山/简介" },
-//         { text: "玄学五术-医", link: "/metaphysics/医/简介" },
-//         { text: "玄学五术-命", link: "/metaphysics/命/简介" },
-//         { text: "玄学五术-相", link: "/metaphysics/相/简介" },
-//         { text: "玄学五术-卜", link: "/metaphysics/卜/简介" },
-//         { text: "相关经典", link: "/metaphysics/相关经典/道德经" },
-//         { text: "灵宠", link: "/metaphysics/宠物篇" },
+//         { text: "玄学五术-山", link: "/玄学宝典/山/简介" },
+//         { text: "玄学五术-医", link: "/玄学宝典/医/简介" },
+//         { text: "玄学五术-命", link: "/玄学宝典/命/简介" },
+//         { text: "玄学五术-相", link: "/玄学宝典/相/简介" },
+//         { text: "玄学五术-卜", link: "/玄学宝典/卜/简介" },
+//         { text: "相关经典", link: "/玄学宝典/相关经典/道德经" },
+//         { text: "灵宠", link: "/玄学宝典/宠物篇" },
 //       ],
 //     },
 //   ];

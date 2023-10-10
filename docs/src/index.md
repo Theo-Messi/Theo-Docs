@@ -66,6 +66,6 @@ features:
     icon:
       src: ./8g.webp
     details: 记录周易与命理知识
-    link: /metaphysics/简言
+    link: /玄学宝典/简言
     linkText: 玄学宝典
 ---
