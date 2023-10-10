@@ -1,4 +1,5 @@
 import type { DefaultTheme } from "vitepress";
+import { SideFS } from "./SideFS";
 
 // 侧边栏配置
 export const sidebar: DefaultTheme.Config["sidebar"] = {
@@ -13,10 +14,7 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
   // 文档记录
   "/skill/": { base: "/skill/", items: Sideskill() },
   // 风水玄学
-  "/metaphysics/": {
-    base: "/metaphysics/",
-    items: SideFS(),
-  },
+  "/玄学宝典/": { base: "/玄学宝典/", items: SideFS() },
 };
 
 // 文档记录
@@ -307,156 +305,6 @@ export function SideDocker() {
       items: [
         { text: "自动获取 - refresh_token", link: "AL-01" },
         { text: "手动获取 - refresh_token", link: "AL-02" },
-      ],
-    },
-  ];
-}
-
-// 风水玄学
-export function SideFS() {
-  return [
-    { text: "简言", base: "/metaphysics/", link: "简言" },
-    { text: "纠错递新", base: "/metaphysics/", link: "纠错递新" },
-    {
-      // 分组名称
-      text: "山篇",
-      // 下拉开关
-      collapsed: true,
-      // 分组路径
-      base: "/metaphysics/山/",
-      // 分组页面
-      items: [],
-    },
-    {
-      // 分组名称
-      text: "医篇",
-      // 下拉开关
-      collapsed: true,
-      // 分组路径
-      base: "/metaphysics/医/",
-      // 分组页面
-      items: [
-        { text: "伤寒杂病论(共十六卷)", link: "伤寒杂病论" },
-        { text: "金匮要略(药方)", link: "金匮要略" },
-      ],
-    },
-    {
-      // 分组名称
-      text: "命篇",
-      // 下拉开关
-      collapsed: true,
-      // 分组路径
-      base: "/metaphysics/命/",
-      // 分组页面
-      items: [
-        { text: "生辰八字", link: "生辰八字" },
-        { text: "流年星宿", link: "流年星宿" },
-        { text: "八字基础知识", link: "八字基础知识" },
-        { text: "八字案例分析", link: "八字案例分析" },
-        { text: "八字理论进阶版", link: "八字理论进阶版" },
-        { text: "八字如何看健康与疾病", link: "八字如何看健康与疾病" },
-        { text: "滴天髓­", link: "滴天髓­" },
-        { text: "斗数发微轮", link: "斗数发微轮" },
-        { text: "斗数骨髓赋", link: "斗数骨髓赋" },
-        { text: "女命骨髓赋", link: "女命骨髓赋" },
-        { text: "观命经验谈", link: "观命经验谈" },
-        { text: "滴天髓阐微(六亲论)", link: "滴天髓阐微(六亲论)" },
-        { text: "滴天髓阐微(通神论)", link: "滴天髓阐微(通神论)" },
-        { text: "命理约言", link: "命理约言" },
-        { text: "十喻歌", link: "十喻歌" },
-        { text: "星学大成-杂诗", link: "星学大成-杂诗" },
-        { text: "玄微论", link: "玄微论" },
-        { text: "造化元钥(评注)", link: "造化元钥(评注)" },
-        { text: "增补太微赋", link: "增补太微赋" },
-        { text: "重补斗数彀率", link: "重补斗数彀率" },
-        { text: "格局章", link: "格局章" },
-        { text: "鬼谷遗文", link: "鬼谷遗文" },
-        { text: "李虚中命书", link: "李虚中命书" },
-        { text: "命理探源", link: "命理探源" },
-        { text: "千里命稿", link: "千里命稿" },
-        { text: "情色命理", link: "情色命理" },
-        { text: "穷通宝鉴", link: "穷通宝鉴" },
-        { text: "三命通会(卷一)", link: "三命通会(卷一)" },
-        { text: "三命通会(卷二)", link: "三命通会(卷二)" },
-        { text: "三命通会(卷三)", link: "三命通会(卷三)" },
-        { text: "三命通会(卷四)", link: "三命通会(卷四)" },
-        { text: "三命通会(卷五)", link: "三命通会(卷五)" },
-        { text: "三命通会(卷六)", link: "三命通会(卷六)" },
-        { text: "三命通会(卷七)", link: "三命通会(卷七)" },
-        { text: "邵子全书·皇极经世", link: "邵子全书·皇极经世" },
-        { text: "子平管见", link: "子平管见" },
-        { text: "子平真诠(研究)", link: "子平真诠(研究)" },
-        { text: "御定子平", link: "御定子平" },
-        { text: "渊海子平(赋论)", link: "渊海子平(赋论)" },
-        { text: "渊海子平(格局篇)", link: "渊海子平(格局篇)" },
-        { text: "渊海子平(基础篇)", link: "渊海子平(基础篇)" },
-        { text: "渊海子平(六亲篇)", link: "渊海子平(六亲篇)" },
-        { text: "渊海子平(女命篇)", link: "渊海子平(女命篇)" },
-        { text: "渊海子平(神煞篇)", link: "渊海子平(神煞篇)" },
-        { text: "渊海子平(十神篇)", link: "渊海子平(十神篇)" },
-      ],
-    },
-    {
-      // 分组名称
-      text: "相篇",
-      // 下拉开关
-      collapsed: true,
-      // 分组路径
-      base: "/metaphysics/相/",
-      // 分组页面
-      items: [
-        { text: "冰鉴", link: "冰鉴" },
-        { text: "公笃相法", link: "公笃相法" },
-        { text: "柳庄神相", link: "柳庄神相" },
-        { text: "观人于微", link: "观人于微" },
-        { text: "麻衣神相", link: "麻衣神相" },
-        { text: "神相金较剪", link: "神相金较剪" },
-        { text: "神相全编", link: "神相全编" },
-        { text: "神相铁关刀", link: "神相铁关刀" },
-        { text: "太清神鉴", link: "太清神鉴" },
-      ],
-    },
-    {
-      text: "卜篇",
-      // 下拉开关
-      collapsed: true,
-      // 分组路径
-      base: "/metaphysics/卜/",
-      // 分组页面
-      items: [{ text: "小六壬", link: "小六壬" }],
-    },
-    {
-      // 分组名称
-      text: "相关经典",
-      // 下拉开关
-      collapsed: true,
-      // 分组路径
-      base: "/metaphysics/相关经典/",
-      // 分组页面
-      items: [
-        { text: "道德经", link: "道德经" },
-        { text: "周易六十四卦", link: "周易六十四卦" },
-        { text: "三字经", link: "三字经" },
-        { text: "太上清静经", link: "太上清静经" },
-        { text: "道教八大神咒", link: "道教八大神咒" },
-        { text: "淮南子", link: "淮南子" },
-        { text: "黄庭内景经", link: "黄庭内景经" },
-        { text: "黄庭外景经", link: "黄庭外景经" },
-        { text: "太上皇庭中景经", link: "太上皇庭中景经" },
-        { text: "下清宫", link: "下清宫" },
-      ],
-    },
-    {
-      // 分组名称
-      text: "灵宠",
-      // 下拉开关
-      collapsed: true,
-      // 分组路径
-      base: "/metaphysics/",
-      // 分组页面
-      items: [
-        { text: "宠物篇", link: "宠物篇" },
-        { text: "植物篇", link: "植物篇" },
       ],
     },
   ];
