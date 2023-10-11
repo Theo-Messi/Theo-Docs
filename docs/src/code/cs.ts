@@ -4,4 +4,4 @@ function foo() {
 }
 // #endregion snippet
 
-export default foo;
+export default foo
