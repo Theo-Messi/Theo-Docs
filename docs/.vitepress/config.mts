@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { nav, sidebar, algolia, head } from "./configs";
+import timeline from "vitepress-markdown-timeline";
 
 export default defineConfig({
   // 站点名称
@@ -29,6 +30,9 @@ export default defineConfig({
     theme: {
       light: "github-light",
       dark: "github-dark-dimmed",
+    },
+    config: (md) => {
+      md.use(timeline);
     },
   },
 

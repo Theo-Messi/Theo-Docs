@@ -3,7 +3,7 @@ import { h, watch } from "vue";
 import { useData, EnhanceAppContext } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import "./custom.css";
-
+import "vitepress-markdown-timeline/dist/theme/index.css";
 let homePageStyle: HTMLStyleElement | undefined;
 
 export default {
