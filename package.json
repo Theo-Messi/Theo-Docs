@@ -1,8 +1,9 @@
 {
   "devDependencies": {
-    "@types/node": "^20.8.3",
-    "sass": "^1.69.0",
-    "vitepress": "1.0.0-rc.20"
+    "@types/node": "^20.8.5",
+    "prettier": "3.0.3",
+    "sass": "^1.69.3",
+    "vitepress": "1.0.0-rc.21"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "@mdit-vue/shared": "^1.0.0",
+    "vitepress-markdown-timeline": "^1.2.1",
     "vue": "^3.3.4"
   }
 }

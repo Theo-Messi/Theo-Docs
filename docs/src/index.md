@@ -64,8 +64,8 @@ features:
 
   - title: 玄学宝典
     icon:
-      src: ./8g.webp
-    details: 记录周易与命理知识
-    link: /玄学宝典/简言
+      src: ./bagua.png
+    details: 中华经典国学书籍 包含传统五术(山医命相卜)以及各门各派经典文学作品
+    link: /玄学宝典/提交书籍与纠错
     linkText: 玄学宝典
 ---
