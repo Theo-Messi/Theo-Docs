@@ -202,10 +202,10 @@
     --vp-c-default-3: var(--vp-c-gray-3);
     --vp-c-default-soft: var(--vp-c-gray-soft);
 
-    --vp-c-brand-1: var(--vp-c-indigo-1);
-    --vp-c-brand-2: var(--vp-c-indigo-2);
-    --vp-c-brand-3: var(--vp-c-indigo-3);
-    --vp-c-brand-soft: var(--vp-c-indigo-soft);
+    --vp-c-brand-1: var(--vp-c-green-1);
+    --vp-c-brand-2: var(--vp-c-green-2);
+    --vp-c-brand-3: var(--vp-c-green-3);
+    --vp-c-brand-soft: var(--vp-c-green-soft);
 
     /* 已弃用：使用 `--vp-c-brand-1` 代替。 */
     --vp-c-brand: var(--vp-c-brand-1);
