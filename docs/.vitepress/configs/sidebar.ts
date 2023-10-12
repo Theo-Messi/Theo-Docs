@@ -32,7 +32,8 @@ export function Sideskill() {
         { text: 'PicGo + Github 搭建图床', link: 'JL-01' },
         { text: '搭建独角数卡网站', link: 'JL-02' },
         { text: 'vitepress 主题添加 giscus 评论', link: 'JL-03' },
-        { text: 'VS Code 使用技巧', link: 'JL-04' }
+        { text: 'VS Code 使用技巧', link: 'JL-04' },
+        { text: '为项目添加 Prettier 格式化代码', link: 'JL-05' }
       ]
     },
     {
