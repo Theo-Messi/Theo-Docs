@@ -1,4 +1,3 @@
-*.md
 *.vue
 dist
 pnpm-lock.yaml
@@ -7,3 +6,4 @@ template
 temp
 !CHANGELOG.md
 .temp
+玄学宝典

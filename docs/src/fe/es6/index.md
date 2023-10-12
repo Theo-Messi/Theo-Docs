@@ -855,7 +855,11 @@ Object.fromEntries(new URLSearchParams(params)) // {name: 'maomao', age: '18'}
 ```js
 // 可选链操作符之前的写法
 const firstName =
-  (message && message.body && message.body.user && message.body.user.firstName) || 'default'
+  (message &&
+    message.body &&
+    message.body.user &&
+    message.body.user.firstName) ||
+  'default'
 
 // 可选链操作符简化写法
 const firstName = message?.body?.user?.firstName || 'default'

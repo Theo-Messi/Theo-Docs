@@ -371,7 +371,7 @@ flex: 2 2 10%;
 网上很多文章都说 `@import` 引入的 `CSS` 将在页面加载完毕后被加载，其实这个说法是有问题的，比如下面这段代码，我在 `style` 标签里面使用的 `@import`，难道还要在页面加载完毕后再去加载
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>关于 @import 的加载顺序</title>
