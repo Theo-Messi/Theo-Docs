@@ -61,8 +61,10 @@ export function Sideskill() {
       // 分组页面
       items: [
         { text: "刷机需知", link: "ML-01" },
-        { text: "安装 科学上网", link: "ML-02" },
-        { text: "安装 Clash", link: "ML-03" },
+        { text: "科学上网 - 安装", link: "ML-02" },
+        { text: "科学上网 - 配置", link: "ML-04" },
+        { text: "Merlin Clash - 安装", link: "ML-03" },
+        { text: "Merlin Clash - 配置", link: "ML-05" },
       ],
     },
   ];
