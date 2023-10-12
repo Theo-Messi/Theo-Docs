@@ -19,6 +19,9 @@ devDependencies:
   '@types/node':
     specifier: ^20.8.4
     version: registry.npmmirror.com/@types/node@20.8.4
+  prettier:
+    specifier: 3.0.3
+    version: registry.npmmirror.com/prettier@3.0.3
   sass:
     specifier: ^1.69.3
     version: registry.npmmirror.com/sass@1.69.3
@@ -1063,6 +1066,14 @@ packages:
     resolution: {integrity: sha512-mKUD7RRkQQM6s7Rkmi7IFkoEHjuFqRQUaXamO61E6Nn7vqF/bo7EZCmSyrUnp2UWHw0O7XjZ2eeXis+m7tf4lg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/preact/-/preact-10.18.1.tgz}
     name: preact
     version: 10.18.1
+    dev: true
+
+  registry.npmmirror.com/prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/prettier/-/prettier-3.0.3.tgz}
+    name: prettier
+    version: 3.0.3
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   registry.npmmirror.com/readdirp@3.6.0:
