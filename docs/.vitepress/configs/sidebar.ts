@@ -30,7 +30,6 @@ export function Sideskill() {
       // 分组页面
       items: [
         { text: 'PicGo + Github 搭建图床', link: 'JL-01' },
-        { text: '搭建独角数卡网站', link: 'JL-02' },
         { text: 'vitepress 主题添加 giscus 评论', link: 'JL-03' },
         { text: 'VS Code 使用技巧', link: 'JL-04' },
         { text: '为项目添加 Prettier 格式化代码', link: 'JL-05' }
@@ -222,7 +221,8 @@ export function SideVPS() {
         { text: 'V2Ray搭建详细教程', link: '07' },
         { text: 'X-ui搭建详细教程', link: '08' },
         { text: 'VPS一键检测流媒体解锁', link: '09' },
-        { text: '一键检测机场奈飞解锁', link: '10' }
+        { text: '一键检测机场奈飞解锁', link: '10' },
+        { text: '搭建独角数卡网站', link: '13' }
       ]
     }
   ]
