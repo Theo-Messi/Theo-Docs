@@ -1,0 +1,87 @@
+.vp-doc .custom-block {
+  margin: 28px 0;
+  padding: 20px 24px 4px 42px;
+  border-radius: 8px;
+  overflow-x: auto;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 500;
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-bg-soft);
+}
+
+.dark .vp-doc .custom-block {
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc .custom-block:before {
+  content: 'ⓘ';
+  position: absolute;
+  font-weight: 600;
+  font-size: 15px;
+  top: 20px;
+  left: 17px;
+}
+
+.vp-doc .custom-block.warning:before,
+.vp-doc .custom-block.danger:before {
+  content: '⚠';
+  font-size: 17px;
+  top: 19px;
+  left: 16ppx;
+}
+
+.vp-doc .custom-block .custom-block-title {
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--vp-c-text-1);
+  transition: color 0.5s;
+}
+
+.vp-doc .custom-block.tip {
+  border: 1px solid var(--vp-c-brand-1);
+}
+
+.vp-doc .custom-block.tip:before {
+  color: var(--vp-c-brand-1);
+}
+
+.vp-doc .custom-block.warning {
+  border: 1px solid var(--vp-c-yellow-1);
+}
+
+.vp-doc .custom-block.warning:before {
+  color: var(--vp-c-yellow-1);
+}
+
+.vp-doc .custom-block.danger {
+  border: 1px solid var(--vp-c-red-1);
+}
+
+.vp-doc .custom-block.danger .custom-block-title,
+.vp-doc .custom-block.danger:before {
+  color: var(--vp-c-red-1);
+}
+
+.vp-doc .custom-block ul li:before {
+  top: 0.55rem;
+}
+
+.vp-doc .custom-block ol li:before {
+  top: 1px;
+  font-size: 14px;
+}
+
+/* .vp-doc .custom-block :not(pre)>code {
+    font-size: 13px;
+    background-color: rgba(27, 31, 35, 0.05);
+}
+
+.dark .vp-doc .custom-block :not(pre)>code {
+    background-color: rgba(0, 0, 0, 0.2);
+} */
