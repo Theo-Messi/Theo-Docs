@@ -1,11 +1,5 @@
 ---
-outline: deep
 title: ESXI安装
-editLink: true
-head:
-  - - meta
-    - name: keywords
-      content: ESXi 虚拟机
 ---
 
 ## ESXI 开始引导

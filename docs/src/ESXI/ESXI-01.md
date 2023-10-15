@@ -1,11 +1,5 @@
 ---
-outline: deep
 title: 安装指南
-editLink: true
-head:
-  - - meta
-    - name: keywords
-      content: ESXi 虚拟机
 ---
 
 ## ESXI 介绍
