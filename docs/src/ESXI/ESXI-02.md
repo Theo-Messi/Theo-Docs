@@ -1,11 +1,5 @@
 ---
-outline: deep
 title: ESXI写盘
-editLink: true
-head:
-  - - meta
-    - name: keywords
-      content: ESXi 虚拟机
 ---
 
 ## Ventoy 写盘

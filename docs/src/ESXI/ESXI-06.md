@@ -1,11 +1,5 @@
 ---
-outline: deep
 title: ESXI前台配置
-editLink: true
-head:
-  - - meta
-    - name: keywords
-      content: ESXi 虚拟机
 ---
 
 ## 步骤 1 - 给电脑分配 IP
