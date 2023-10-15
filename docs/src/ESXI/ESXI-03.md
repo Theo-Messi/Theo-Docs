@@ -1,11 +1,5 @@
 ---
-outline: deep
 title: 主板BIOS设置
-editLink: true
-head:
-  - - meta
-    - name: keywords
-      content: ESXi 虚拟机
 ---
 
 ## 步骤 1 - 进入 BIOS 设置，

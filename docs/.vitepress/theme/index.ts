@@ -1,10 +1,14 @@
 // .vitepress/theme/index.ts */
-import { h, watch } from 'vue'
-import { useData, EnhanceAppContext } from 'vitepress'
+import { h, watch, onMounted, nextTick } from 'vue'
+import { useData, EnhanceAppContext, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import mediumZoom from 'medium-zoom'
+
 import './custom.css'
-import './vt-doc-custom-blocks.css'
+import './custom-blocks.css'
 import 'vitepress-markdown-timeline/dist/theme/index.css'
+import './index.css'
+
 let homePageStyle: HTMLStyleElement | undefined
 
 export default {
@@ -20,5 +24,19 @@ export default {
     }
 
     return h(DefaultTheme.Layout, props)
+  },
+  setup() {
+    const route = useRoute()
+    const initZoom = () => {
+      mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' })
+      mediumZoom('.main img', { background: 'var(--vp-c-bg)' })
+    }
+    onMounted(() => {
+      initZoom()
+    })
+    watch(
+      () => route.path,
+      () => nextTick(() => initZoom())
+    )
   }
 }

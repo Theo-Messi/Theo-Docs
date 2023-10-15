@@ -1,11 +1,5 @@
 ---
-outline: deep
 title: ESXI后台配置
-editLink: true
-head:
-  - - meta
-    - name: keywords
-      content: ESXi 虚拟机
 ---
 
 安装完成后，会进入一个后台配置界面。
