@@ -29,6 +29,7 @@ export function Sideskill() {
       base: '/skill/',
       // 分组页面
       items: [
+        { text: 'VitePress实现单击图片放大', link: 'JL-07' },
         { text: 'NPM 使用国内镜像及恢复默认源', link: 'JL-06' },
         { text: '为项目添加 Prettier 格式化代码', link: 'JL-05' },
         { text: 'VS Code 使用技巧', link: 'JL-04' },
