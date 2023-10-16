@@ -3,7 +3,9 @@ import { h, watch, onMounted, nextTick } from 'vue'
 import { useData, EnhanceAppContext, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import mediumZoom from 'medium-zoom'
+import { inject } from '@vercel/analytics'
 
+inject()
 import './custom.css'
 import './custom-blocks.css'
 import 'vitepress-markdown-timeline/dist/theme/index.css'
