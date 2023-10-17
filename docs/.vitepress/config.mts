@@ -84,6 +84,15 @@ export default defineConfig({
       next: '下一篇'
     },
 
+    // 移动端 - 外观
+    darkModeSwitchLabel: '外观',
+
+    // 移动端 - 返回顶部
+    returnToTopLabel: '返回顶部',
+
+    // 移动端 - menu
+    sidebarMenuLabel: '文章',
+
     // 导航栏
     nav,
 
