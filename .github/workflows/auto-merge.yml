@@ -1,7 +1,7 @@
 name: Dependabot Auto Merge
 on:
   pull_request:
-    types: [ labeled, edited ]
+    types: [labeled, edited]
 
 jobs:
   dependabot:
