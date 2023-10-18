@@ -8,11 +8,8 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: 'VPS使用指南', items: navvps(), activeMatch: '/VPS/' },
   { text: 'ESXI安装指南', items: navesxi(), activeMatch: '/ESXI/' },
   { text: '青龙面板', items: navql(), activeMatch: '/Docker/' },
-  {
-    text: '玄学宝典',
-    link: '/玄学宝典/提交书籍与纠错',
-    activeMatch: '/玄学宝典/'
-  },
+  { text: '流媒体森林', link: 'https://theovan.wiki/' },
+  { text: '玄学宝典', link: 'https://xx.theovan.xyz/' },
   { text: '赞助', link: 'https://github.com/sponsors/vanhiupun' }
 ]
 
