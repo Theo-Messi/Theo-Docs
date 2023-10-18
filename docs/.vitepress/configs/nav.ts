@@ -8,9 +8,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: 'VPS使用指南', items: navvps(), activeMatch: '/VPS/' },
   { text: 'ESXI安装指南', items: navesxi(), activeMatch: '/ESXI/' },
   { text: '青龙面板', items: navql(), activeMatch: '/Docker/' },
-  { text: '流媒体森林', link: 'https://theovan.wiki/' },
-  { text: '玄学宝典', link: 'https://xx.theovan.xyz/' },
-  { text: '赞助', link: 'https://github.com/sponsors/vanhiupun' }
+  { text: '我的网站', items: navzd() }
 ]
 
 // 文档记录
@@ -85,19 +83,16 @@ export function navql() {
     }
   ]
 }
-// 玄学五术
-// export function navxx() {
-//   return [
-//     {
-//       items: [
-//         { text: "玄学五术-山", link: "/玄学宝典/山/简介" },
-//         { text: "玄学五术-医", link: "/玄学宝典/医/简介" },
-//         { text: "玄学五术-命", link: "/玄学宝典/命/简介" },
-//         { text: "玄学五术-相", link: "/玄学宝典/相/简介" },
-//         { text: "玄学五术-卜", link: "/玄学宝典/卜/简介" },
-//         { text: "相关经典", link: "/玄学宝典/相关经典/道德经" },
-//         { text: "灵宠", link: "/玄学宝典/宠物篇" },
-//       ],
-//     },
-//   ];
-// }
+// 个人站点
+export function navzd() {
+  return [
+    {
+      items: [
+        { text: '流媒体森林', link: 'https://theovan.wiki/' },
+        { text: '玄学宝典', link: 'https://xx.theovan.xyz/' },
+        { text: 'ChatGPT', link: 'https://ai.theovan.xyz/' },
+        { text: '赞助我', link: 'https://github.com/sponsors/vanhiupun' }
+      ]
+    }
+  ]
+}
