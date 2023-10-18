@@ -29,6 +29,7 @@ export function Sideskill() {
       base: '/skill/',
       // 分组页面
       items: [
+        { text: 'VitePress 打造个人前端导航网站', link: 'JL-09' },
         { text: 'oh-my-zsh 安装 & 配置', link: 'JL-08' },
         { text: 'VitePress实现单击图片放大', link: 'JL-07' },
         { text: 'NPM 使用国内镜像及恢复默认源', link: 'JL-06' },
