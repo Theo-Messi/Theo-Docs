@@ -66,6 +66,6 @@ features:
     icon:
       src: ./bagua.png
     details: 中华经典国学书籍 包含传统五术(山医命相卜)以及各门各派经典文学作品
-    link: /玄学宝典/提交书籍与纠错
+    link: https://xx.theovan.xyz
     linkText: 玄学宝典
 ---

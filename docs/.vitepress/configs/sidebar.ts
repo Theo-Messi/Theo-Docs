@@ -1,5 +1,4 @@
 import type { DefaultTheme } from 'vitepress'
-import { SideFS } from './SideFS'
 
 // 侧边栏配置
 export const sidebar: DefaultTheme.Config['sidebar'] = {
@@ -12,9 +11,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   // 青龙面板
   '/Docker/': { base: '/Docker/', items: SideDocker() },
   // 文档记录
-  '/skill/': { base: '/skill/', items: Sideskill() },
-  // 风水玄学
-  '/玄学宝典/': { base: '/玄学宝典/', items: SideFS() }
+  '/skill/': { base: '/skill/', items: Sideskill() }
 }
 
 // 文档记录
