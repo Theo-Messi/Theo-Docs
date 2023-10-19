@@ -3,16 +3,16 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '导航', link: 'nav' },
-  { text: '文档记录', items: navdocs(), activeMatch: '/skill/' },
-  { text: '前端物语', items: navfe(), activeMatch: '/fe/' },
-  { text: 'VPS使用指南', items: navvps(), activeMatch: '/VPS/' },
-  { text: 'ESXI安装指南', items: navesxi(), activeMatch: '/ESXI/' },
-  { text: '青龙面板', items: navql(), activeMatch: '/Docker/' },
-  { text: '我的网站', items: navzd() }
+  { text: '文档记录', items: Nav_Docs(), activeMatch: '/skill/' },
+  { text: '前端物语', items: Nav_Fe(), activeMatch: '/fe/' },
+  { text: 'VPS使用指南', items: Nav_Vps(), activeMatch: '/VPS/' },
+  { text: 'ESXI安装指南', items: Nav_Esxi(), activeMatch: '/ESXI/' },
+  { text: '青龙面板', items: Nav_Ql(), activeMatch: '/Docker/' },
+  { text: '我的网站', items: Nav_Zd() }
 ]
 
 // 文档记录
-export function navdocs() {
+export function Nav_Docs() {
   return [
     {
       items: [
@@ -25,7 +25,7 @@ export function navdocs() {
 }
 
 // 前端物语
-export function navfe() {
+export function Nav_Fe() {
   return [
     {
       items: [
@@ -47,7 +47,7 @@ export function navfe() {
 }
 
 // VPS使用指南
-export function navvps() {
+export function Nav_Vps() {
   return [
     {
       items: [
@@ -60,7 +60,7 @@ export function navvps() {
 }
 
 // ESXI安装指南
-export function navesxi() {
+export function Nav_Esxi() {
   return [
     {
       items: [
@@ -72,7 +72,7 @@ export function navesxi() {
 }
 
 // 青龙面板
-export function navql() {
+export function Nav_Ql() {
   return [
     {
       items: [
@@ -84,7 +84,7 @@ export function navql() {
   ]
 }
 // 个人站点
-export function navzd() {
+export function Nav_Zd() {
   return [
     {
       items: [
