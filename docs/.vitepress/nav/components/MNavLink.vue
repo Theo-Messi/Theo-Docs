@@ -14,6 +14,7 @@ const props = defineProps<{
   link: NavLink['link']
 }>()
 
+// 计算title
 const formatTitle = computed(() => {
   if (!props.title) {
     return ''
@@ -21,11 +22,13 @@ const formatTitle = computed(() => {
   return slugify(props.title)
 })
 
+// 计算svg
 const svg = computed(() => {
   if (typeof props.icon === 'object') return props.icon.svg
   return ''
 })
 
+// 计算badge
 const formatBadge = computed(() => {
   if (typeof props.badge === 'string') {
     return { text: props.badge, type: 'info' }
@@ -76,8 +79,11 @@ const formatBadge = computed(() => {
 
 <style lang="scss" scoped>
 .m-nav-link {
+  // 设置图标大小
   --m-nav-icon-box-size: 40px;
+  // 设置图标大小
   --m-nav-icon-size: 24px;
+  // 设置图标间距
   --m-nav-box-gap: 12px;
 
   display: block;
@@ -171,8 +177,11 @@ const formatBadge = computed(() => {
 
 @media (max-width: 960px) {
   .m-nav-link {
+    // 设置图标大小
     --m-nav-icon-box-size: 36px;
+    // 设置图标大小
     --m-nav-icon-size: 20px;
+    // 设置图标间距
     --m-nav-box-gap: 8px;
 
     .title {

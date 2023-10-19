@@ -5,12 +5,14 @@ import { slugify } from '@mdit-vue/shared'
 import MNavLink from './MNavLink.vue'
 import type { NavLink } from '../types'
 
+// 定义props，title为字符串，noIcon为布尔值，items为NavLink类型的数组
 const props = defineProps<{
   title: string
   noIcon?: boolean
   items: NavLink[]
 }>()
 
+// 定义一个计算属性，用于格式化title
 const formatTitle = computed(() => {
   return slugify(props.title)
 })
