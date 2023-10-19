@@ -1,3 +1,4 @@
+// 导出接口NavLink
 export interface NavLink {
   /** 站点图标 */
   icon?: string | { svg: string }
@@ -15,7 +16,10 @@ export interface NavLink {
   link: string
 }
 
+// 导出接口NavData
 export interface NavData {
+  /** 页面标题 */
   title: string
+  /** 导航链接 */
   items: NavLink[]
 }
