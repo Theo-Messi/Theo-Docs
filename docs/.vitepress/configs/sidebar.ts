@@ -49,7 +49,8 @@ export function Sidebar_Skill() {
         { text: 'Git', link: 'RM-02' },
         { text: 'Docker', link: 'RM-03' },
         { text: 'Linux', link: 'RM-04' },
-        { text: 'Markdown', link: 'RM-05' }
+        { text: 'Markdown', link: 'RM-05' },
+        { text: 'PNPM', link: 'RM-06' }
       ]
     },
     {
