@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { nav, sidebar, algolia, head } from './configs'
 import timeline from 'vitepress-markdown-timeline'
 
+// 导出默认配置
 export default defineConfig({
   // 站点名称
   title: 'Theo Notes',
