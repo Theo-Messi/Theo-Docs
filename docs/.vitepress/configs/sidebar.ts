@@ -3,19 +3,19 @@ import type { DefaultTheme } from 'vitepress'
 // 侧边栏配置
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   // VPS使用指南
-  '/VPS/': { base: '/VPS/', items: SideVPS() },
+  '/VPS/': { base: '/VPS/', items: Sidebar_Vps() },
   // 前端物语
-  '/fe/': { base: '/fe/', items: Sidefe() },
+  '/fe/': { base: '/fe/', items: Sidebar_Fe() },
   // ESXI安装指南
-  '/ESXI/': { base: '/ESXI/', items: SideESXI() },
+  '/ESXI/': { base: '/ESXI/', items: Sidebar_Esxi() },
   // 青龙面板
-  '/Docker/': { base: '/Docker/', items: SideDocker() },
+  '/Docker/': { base: '/Docker/', items: Sidebar_Docker() },
   // 文档记录
-  '/skill/': { base: '/skill/', items: Sideskill() }
+  '/skill/': { base: '/skill/', items: Sidebar_Skill() }
 }
 
 // 文档记录
-export function Sideskill() {
+export function Sidebar_Skill() {
   return [
     {
       // 分组名称
@@ -84,7 +84,7 @@ export function Sideskill() {
 }
 
 // 前端物语
-export function Sidefe() {
+export function Sidebar_Fe() {
   return [
     {
       // 分组名称
@@ -190,7 +190,7 @@ export function Sidefe() {
 }
 
 // VPS使用指南
-export function SideVPS() {
+export function Sidebar_Vps() {
   return [
     {
       // 分组名称
@@ -242,7 +242,7 @@ export function SideVPS() {
 }
 
 // ESXI安装指南
-export function SideESXI() {
+export function Sidebar_Esxi() {
   return [
     {
       // 分组名称
@@ -280,7 +280,7 @@ export function SideESXI() {
 }
 
 // 青龙面板
-export function SideDocker() {
+export function Sidebar_Docker() {
   return [
     {
       // 分组名称
