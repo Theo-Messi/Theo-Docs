@@ -91,7 +91,7 @@ export function Nav_Zd() {
         { text: '流媒体森林', link: 'https://theovan.wiki/' },
         { text: '玄学宝典', link: 'https://xx.theovan.xyz/' },
         { text: 'ChatGPT', link: 'https://ai.theovan.xyz/' },
-        { text: '赞助我', link: 'https://github.com/sponsors/vanhiupun' }
+        { text: '赞助我', link: 'https://github.com/sponsors/Theo-messi' }
       ]
     }
   ]
