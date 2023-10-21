@@ -60,7 +60,7 @@ export default defineConfig({
     logo: '/avatar.png',
 
     // 社交链接
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vanhiupun' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Theo-messi' }],
 
     // false去除网站标题 只显示logo
     // siteTitle: false,
@@ -68,7 +68,7 @@ export default defineConfig({
     // GitHub编辑页面
     editLink: {
       pattern:
-        'https://github.com/vanhiupun/Vite-Blog/blob/master/docs/src/:path',
+        'https://github.com/Theo-messi/VitePress/blob/main/docs/src/:path',
       text: '为此页提供修改建议'
     },
 
@@ -107,7 +107,7 @@ export default defineConfig({
     footer: {
       message: 'Released Under The MIT License.',
       copyright:
-        'Copyright © 2019 - 2023 <a href="https://github.com/vanhiupun" target="_blank">Theo</a> . All Rights Reserved.'
+        'Copyright © 2019 - 2023 <a href="https://github.com/Theo-messi" target="_blank">Theo</a> . All Rights Reserved.'
     }
   }
 })
