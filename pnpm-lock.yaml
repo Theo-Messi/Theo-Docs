@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^1.69.4
     version: 1.69.4
   vitepress:
-    specifier: 1.0.0-rc.23
-    version: 1.0.0-rc.23(@algolia/client-search@4.20.0)(@types/node@20.8.7)(sass@1.69.4)(search-insights@2.9.0)
+    specifier: 1.0.0-rc.24
+    version: 1.0.0-rc.24(@algolia/client-search@4.20.0)(@types/node@20.8.7)(sass@1.69.4)(search-insights@2.9.0)
 
 packages:
 
@@ -485,6 +485,17 @@ packages:
     dependencies:
       server-only: 0.0.1
     dev: false
+
+  /@vitejs/plugin-vue@4.3.1(vite@4.5.0)(vue@3.3.6):
+    resolution: {integrity: sha512-tUBEtWcF7wFtII7ayNiLNDTCE1X1afySEo+XNVMNkFXaThENyCowIEX095QqbJZGTgoOcSVDJGlnde2NG4jtbQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^4.0.0
+      vue: ^3.2.25
+    dependencies:
+      vite: 4.5.0(@types/node@20.8.7)(sass@1.69.4)
+      vue: 3.3.6
+    dev: true
 
   /@vue/compiler-core@3.3.6:
     resolution: {integrity: sha512-2JNjemwaNwf+MkkatATVZi7oAH1Hx0B04DdPH3ZoZ8vKC1xZVP7nl4HIsk8XYd3r+/52sqqoz9TWzYc3yE9dqA==}
@@ -992,8 +1003,8 @@ packages:
       dayjs: 1.11.10
     dev: false
 
-  /vitepress@1.0.0-rc.23(@algolia/client-search@4.20.0)(@types/node@20.8.7)(sass@1.69.4)(search-insights@2.9.0):
-    resolution: {integrity: sha512-0YoBt8aFgbRt2JtYaCeTqq4W21q5lbGso+g1ZwkYYS35ExJxORssRJunhFuUcby8QeN4BP/88QDgsVSIVLAfXQ==}
+  /vitepress@1.0.0-rc.24(@algolia/client-search@4.20.0)(@types/node@20.8.7)(sass@1.69.4)(search-insights@2.9.0):
+    resolution: {integrity: sha512-RpnL8cnOGwiRlBbrYQUm9sYkJbtyOt/wYXk2diTcokY4yvks/5lq9LuSt+MURWB6ZqwpSNHvTmxgaSfLoG0/OA==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4.3.2
@@ -1007,6 +1018,7 @@ packages:
       '@docsearch/css': 3.5.2
       '@docsearch/js': 3.5.2(@algolia/client-search@4.20.0)(search-insights@2.9.0)
       '@types/markdown-it': 13.0.4
+      '@vitejs/plugin-vue': 4.3.1(vite@4.5.0)(vue@3.3.6)
       '@vue/devtools-api': 6.5.1
       '@vueuse/core': 10.5.0(vue@3.3.6)
       '@vueuse/integrations': 10.5.0(focus-trap@7.5.4)(vue@3.3.6)
