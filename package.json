@@ -3,7 +3,7 @@
     "@types/node": "^20.8.7",
     "prettier": "3.0.3",
     "sass": "^1.69.4",
-    "vitepress": "1.0.0-rc.23"
+    "vitepress": "1.0.0-rc.24"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
