@@ -15,7 +15,13 @@ export const head: HeadConfig[] = [
   // 设置og站点名称
   ['meta', { name: 'og:site_name', content: 'Theo Notes' }],
   // 设置og图片
-  ['meta', { name: 'og:image', content: 'https://theovan.xyz/avatar.png' }]
+  ['meta', { name: 'og:image', content: 'https://theovan.xyz/avatar.png' }],
+  // 设置google adsense账号
+  [
+    'meta',
+    { name: 'google-adsense-account', content: 'ca-pub-1897692334666835' }
+  ]
+
   // 强制开启为深色模式
   // ["script", {}, `document.documentElement.classList.add('dark')`],
 ]
