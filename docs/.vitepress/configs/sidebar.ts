@@ -297,7 +297,8 @@ export function Sidebar_Docker() {
         { text: '安装Docker', link: 'QL-01' },
         { text: '安装青龙面板', link: 'QL-02' },
         { text: '阿里云盘签到', link: 'QL-03' },
-        { text: '京东签到', link: 'QL-04' }
+        { text: '京东签到', link: 'QL-04' },
+        { text: 'BiliBili 签到', link: 'QL-05' }
       ]
     },
     {
