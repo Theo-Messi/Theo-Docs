@@ -1,21 +1,21 @@
-# 模块化
+# Modular
 
-::: tip 什么是模块化？
+::: tip What is modularity?
 
-百度百科中的解释: 模块化是指解决一个复杂问题时自顶向下逐层把系统划分成若干模块的过程，有多种属性，分别反映其内部特性。
+Explanation from Baidu Encyclopedia: Modularization refers to the process of dividing a system into several modules from top to bottom when solving a complex problem. It has a variety of attributes that reflect its internal characteristics.
 
-在编程中 模块化是将一个复杂的应用程序，按照一定的规则拆分成若干个文件(代码块)，并进行组合。文件内部的数据与实现都是私有的，只是对外暴露一些接口(方法、变量)与其他模块进行通信
+In programming, modularization is to split a complex application into several files (code blocks) according to certain rules and combine them. The data and implementation inside the file are private, but some interfaces (methods, variables) are exposed to the outside to communicate with other modules.
 
 :::
 
-模块化的好处
+Benefits of modularity
 
-- 避免命名空间的冲突
-- 提高代码的复用性
-- 提高维护性
-- 更好的分离，实现按需加载
+- Avoid namespace conflicts
+- Improve code reusability
+- Improve maintainability
+- Better separation and on-demand loading
 
-目前前端主流的模块规范是
+The current mainstream module specification for the front end is
 
 - `CommonJS`
 - `ESModule`
@@ -25,18 +25,18 @@
 
 ## CommonJS
 
-[`CommonJS`](https://www.commonjs.org/) 规范是一种同步加载模块的方式，其主要用于服务端，即 `Node` 中的
+[`CommonJS`](https://www.commonjs.org/) specification is a way to load modules synchronously, which is mainly used on the server side, that is, in `Node`
 
-- `module.exports` 用于规定当前模块对外输出的接口
-- `exports` 是 `module.exports` 属性的引用
-- `require` 用于加载模块文件(读入并执行一个 `JavaScript` 文件并返回该模块的 `exports` 对象)
+- `module.exports` is used to specify the external output interface of the current module
+- `exports` is a reference to the `module.exports` property
+- `require` is used to load module files (read and execute a `JavaScript` file and return the `exports` object of the module)
 
 ```js
 /* util.js */
 const name = 'maomao'
 exports.name = name
 module.exports.log = function () {
-  console.log(name)
+   console.log(name)
 }
 
 /* index.js */
@@ -45,64 +45,64 @@ util.name
 util.log()
 ```
 
-::: tip exports 和 module.exports
+::: tip exports and module.exports
 
-- `exports` 是 `module` 对象的一个属性
-- `exports` 是 `module.exports` 的一个引用，在默认情况下 `module.exports` 和 `exports` 指向**同一个空对象**
-- 模块导出的是 `module.exports`
-
-:::
-
-::: tip CommonJS 模块的特点
-
-- 所有代码都运行在模块作用域，不会污染全局作用域
-- 模块可以多次加载，但只会在第一次加载时运行一次，然后运行结果就被缓存了，以后再加载时就直接读取缓存结果。要想让模块再次运行必须清除缓存
-- 模块加载的顺序按其在代码中出现的顺序
+- `exports` is a property of the `module` object
+- `exports` is a reference to `module.exports`, by default `module.exports` and `exports` point to the same empty object\*\*
+- The module exports `module.exports`
 
 :::
 
-## ESModule
+::: tip Features of CommonJS modules
 
-`ESModule` 是 `ES6` 在语言标准的层面上实现的模块功能，主要由 `export` 和 `import` 构成
-
-- `export` 命令用于规定模块的对外接口
-- `import` 命令用于输入其他模块提供的功能
-
-[ES6 常用知识 —— ESModule](/fe/es6/#esmodule)
-
-::: tip ESModule 与 CommonJS 的差异
-
-- `CommonJS` 是动态语法可以写在判断里；`ESModule` 静态语法只能写在顶层
-- `CommonJS` 模块输出的是一个值的拷贝；`ESModule` 输出的是值的引用
-  - `CommonJS` 模块一旦输出一个值模块内部的变化就影响不到这个值
-  - `ESModule` 模块在 `JavaScript` 引擎对脚本静态分析时，遇到模块加载命令 `import`，就会生成一个只读引用，等到脚本真正执行时再根据这个只读引用到被加载的那个模块里面去取值(`ESModule` 是动态引用，并且不会缓存值，模块里面的变量绑定其所在的模块)
-- `CommonJS` 模块是运行时加载；`ESModule` 是编译时输出接口。
-  - `CommonJS` 加载的是一个对象（即 `module.exports` 属性），该对象只有在脚本运行完才会生成
-  - `ESModule` 不是对象，它的对外接口只是一种静态定义，在代码静态解析阶段就会生成
-- `CommonJS` 模块的 `require()` 是同步加载模块；`ESModule` 的 `import` 命令是异步加载，有一个独立的模块依赖的解析阶段。
-- 顶层的 `this` 指向不同
-  - `CommonJS` 模块中的顶层 `this` 指向模块本身
-  - `ESModule` 模块中的顶层 `this` 指向 `undefined`
-- 模块的循环加载
-  - `CommonJS` 模块在加载模块后就会执行整个脚本并在内存生成一个对象，当出现某个模块被"循环加载"，就只输出已经执行的部分，还未执行的部分不会输出
-  - `ESModule` 根本不会关心是否发生了"循环加载"，只是生成一个指向被加载模块的引用，需要开发者自己保证，真正取值的时候能够取到值。
+- All code runs in the module scope and will not pollute the global scope
+- The module can be loaded multiple times, but it will only be run once when it is loaded for the first time. Then the running results will be cached, and the cached results will be read directly when loading in the future. To make the module run again the cache must be cleared
+- Modules are loaded in the order they appear in the code
 
 :::
 
-## AMD
+##ESModule
 
-`AMD` 规范全称是 Asynchronous Module Definition，即异步模块定义，主要用于浏览器。<br>
-`AMD` 规范完整描述了模块的定义、依赖关系、引用关系以及加载机制。其代表库是 [RequireJS](https://requirejs.org/)
+`ESModule` is a module function implemented by `ES6` at the language standard level, mainly composed of `export` and `import`
 
-### 相关 api 及使用
+- The `export` command is used to specify the external interface of the module
+- The `import` command is used to import functions provided by other modules
 
-- `define()`: 定义模块
-- `require()`: 调用模块
+[ES6 Common Knowledge——ESModule](/fe/es6/#esmodule)
+
+::: tip Differences between ESModule and CommonJS
+
+- `CommonJS` is a dynamic syntax that can be written in the judgment; `ESModule` static syntax can only be written at the top level
+- `CommonJS` module outputs a copy of the value; `ESModule` outputs a reference to the value
+  - Once the `CommonJS` module outputs a value, changes within the module will not affect the value.
+  - When the `ESModule` module encounters the module loading command `import` when the `JavaScript` engine statically analyzes the script, it will generate a read-only reference. When the script is actually executed, it will use this read-only reference to the loaded module. Get the value inside (`ESModule` is a dynamic reference and does not cache the value. The variables in the module are bound to the module in which it is located)
+- `CommonJS` module is loaded at runtime; `ESModule` is a compile-time output interface.
+  - `CommonJS` loads an object (i.e. `module.exports` property), which will only be generated after the script is run.
+  - `ESModule` is not an object. Its external interface is just a static definition, which will be generated during the static analysis phase of the code.
+- The `require()` of the `CommonJS` module loads the module synchronously; the `import` command of `ESModule` loads asynchronously, with an independent resolution phase for module dependencies.
+- Top-level `this` points to different
+  - The top-level `this` in a `CommonJS` module points to the module itself
+  - Top-level `this` in the `ESModule` module points to `undefined`
+- Cyclic loading of modules
+  - The `CommonJS` module will execute the entire script and generate an object in the memory after loading the module. When a module is "loop loaded", only the executed part will be output, and the unexecuted part will not be output.
+  - `ESModule` does not care at all whether "cyclic loading" occurs, it just generates a reference to the loaded module. The developer needs to ensure that the value can be obtained when the value is actually obtained.
+
+:::
+
+##AMD
+
+The full name of the `AMD` specification is Asynchronous Module Definition, which is mainly used in browsers. <br>
+The `AMD` specification fully describes the module definition, dependencies, reference relationships and loading mechanism. Its representative library is [RequireJS](https://requirejs.org/)
+
+### Related APIs and usage
+
+- `define()`: define module
+- `require()`: call module
 
 ```js
-/* 先通过 script 加载 RequireJS */
+/* First load RequireJS through script */
 
-/* 定义模块 utils.js */
+/* Define module utils.js */
 define(['utils'], function () {
   function log() {}
   return {
@@ -110,7 +110,7 @@ define(['utils'], function () {
   }
 })
 
-/* 调用模块 */
+/* Call module */
 require(['./utils'], function (utils) {
   utils.log()
 })
@@ -118,19 +118,19 @@ require(['./utils'], function (utils) {
 
 ## CMD
 
-`CMD` 规范全称是 Common Module Definition，即通用模块定义，其代表库是 [SeaJS](https://seajs.github.io/seajs/docs/)
+The full name of the `CMD` specification is Common Module Definition, which is a common module definition, and its representative library is [SeaJS](https://seajs.github.io/seajs/docs/)
 
-> `CMD` 规范是在 `AMD` 规范的基础上改进的一种规范，其解决了 `AMD` 规范对依赖模块的执行时机的问题
+> The `CMD` specification is an improved specification based on the `AMD` specification, which solves the problem of the execution timing of dependent modules in the `AMD` specification.
 
-### 相关 api 及使用
+### Related APIs and usage
 
-- `define()`: 定义模块
-- `seajs.use()`: 调用模块
+- `define()`: define module
+- `seajs.use()`: call module
 
 ```js
-/* 先通过 script 加载 SeaJS */
+/* First load SeaJS through script */
 
-/* 定义模块 utils.js */
+/* Define module utils.js */
 define(function (require, exports, module) {
   function log() {}
   return {
@@ -138,52 +138,52 @@ define(function (require, exports, module) {
   }
 })
 
-/* 调用模块 */
+/* Call module */
 seajs.use(['./utils.js'], function (utils) {
   utils.log()
 })
 ```
 
-::: tip AMD 和 CMD 的区别
+::: tip The difference between AMD and CMD
 
 - `AMD`
-  - 依赖前置: 在定义模块的时需要声明其依赖的模块
-  - 在加载模块完成后就会执行该模块，当所有模块都加载执行完后会进入 require 的回调函数执行主逻辑
+  - Dependency prefix: When defining a module, you need to declare the modules it depends on.
+  - After loading the module, the module will be executed. When all modules are loaded and executed, the callback function of require will be entered to execute the main logic.
 - `CMD`
-  - 就近依赖: 只有当用到某个具体模块时再去加载
-  - 加载完某个依赖模块后并不执行，当所有依赖模块加载完成后进入主逻辑，遇到 require 语句的时候才执行对应的模块
+  - Nearby dependencies: only load a specific module when it is used
+  - After a dependent module is loaded, it is not executed. When all dependent modules are loaded, the main logic is entered, and the corresponding module is executed only when a require statement is encountered.
 
-两者最大的区别是对依赖模块的执行时机处理不同
+The biggest difference between the two is the different processing of execution timing of dependent modules
 
 :::
 
-## UMD
+##UMD
 
-`UMD` 只是一种通用的写法，是为了解决当时存在多种流行而不统一的规范而产生的一种通用规范<br>
-`UMD` 实际是 **`AMD + CommonJS + 全局变量`** 这三种规范的结合
+`UMD` is just a common way of writing. It was a universal specification produced to solve the problem of multiple popular and inconsistent specifications at that time<br>
+`UMD` is actually a combination of **`AMD + CommonJS + global variables`** these three specifications
 
 ```js
 ;(function (root, factory) {
-  // CommonJs 模块规范 Node 环境
+  // CommonJs module specification Node environment
   if (typeof module === 'object') {
     module.exports = factory(require('jquery'))
   }
-  // AMD 模块规范
+  // AMD module specification
   else if (typeof define === 'function' && define.amd) {
     define(['jquery'], factory)
   }
-  // 挂载全局变量(global 即全局对象)
+  // Mount global variables (global is the global object)
   else {
     root.returnExports = factory(root.jQuery)
   }
 })(this, function ($) {
-  // 定义属性
+  // define properties
   const name = 'jquery'
 
-  // 定义方法
+  // define method
   function log() {}
 
-  //    暴露公共方法
+  // Expose public methods
   return {
     name,
     log
@@ -191,6 +191,6 @@ seajs.use(['./utils.js'], function (utils) {
 })
 ```
 
-## 相关文章
+## related articles
 
-[深入 CommonJs 与 ES6 Module](https://segmentfault.com/a/1190000017878394)
+[In-depth CommonJs and ES6 Module](https://segmentfault.com/a/1190000017878394)

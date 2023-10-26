@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Front-end Nav
-      link: nav
+      link: /en/nav
 
     - theme: alt
       text: Front-end Story

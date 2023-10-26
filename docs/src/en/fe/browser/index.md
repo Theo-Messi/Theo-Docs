@@ -1,185 +1,186 @@
-# 浏览器知识
+# Browser knowledge
 
-## 基础知识
+## Basic knowledge
 
-### 线程和进程
+### Threads and processes
 
-> 进程（process）和线程（thread）是操作系统的基本概念
+> Process and thread are the basic concepts of the operating system
 
-进程是 CPU 资源分配的最小单位（是能拥有资源和独立运行的最小单位）<br />
-线程是 CPU 调度的最小单位（是建立在进程基础上的一次程序运行单位）<br />
+A process is the smallest unit of CPU resource allocation (the smallest unit that can own resources and run independently)<br />
+Thread is the smallest unit of CPU scheduling (a program running unit based on a process)<br />
 
-**一个进程就是一个程序的运行实例**：启动一个程序时，操作系统会为该程序创建一块内存，用来存放代码、运行中的数据和一个执行任务的主线程，我们把这样的一个运行环境叫**进程**
+**A process is a running instance of a program**: When starting a program, the operating system will create a memory for the program to store code, running data and a main thread for executing tasks. We refer to such a The running environment is called **process**
 
-**线程是进程内的一个执行单元**：线程是不能单独存在的，是依附于进程并由进程来启动和管理的
+**A thread is an execution unit within a process**: A thread cannot exist alone. It is attached to the process and is started and managed by the process.
 
-::: tip 进程和线程的关系特点
+::: tip Characteristics of the relationship between processes and threads
 
-- 进程是拥有资源的基本单位；线程是调度和分配的基本单位（是进程内的一个执行单元，也是进程内的可调度实体）
-- 进程之间相互隔离，互不干扰
-- 一个进程中可以并发执行多个线程
-- 一个线程只能隶属于一个进程，而一个进程是可以拥有多个线程的（但至少有一个主线程）
-- 同一进程的所有线程共享该进程的所有数据
-- 进程中的任意一线程执行出错，都会导致整个进程的崩溃
-- 当一个进程关闭之后，操作系统会回收进程所占用的内存
-
-:::
-
-### Chrome 打开一个页面会有几个进程？
-
-> 最新的 Chrome 多进程架构图
-
-![Chrome 多进程架构图](./images/chrome-framework.png)
-
-- **浏览器主进程**：负责界面显示、用户交互、子进程管理，同时提供存储等功能
-- **渲染进程**：负责将 `HTML` `CSS` 和 `JavaScript` 转换为用户可以与之交互的网页
-  - 排版引擎 Blink 和 JavaScript 引擎 V8 都是运行在该进程中
-  - 默认情况下 Chrome 会为每个 Tab 标签创建一个渲染进程
-  - 出于安全考虑渲染进程都是运行在沙箱模式下
-- **GPU 进程**：负责网页、Chrome 的 UI 界面的绘制
-- **网络进程**：负责页面的网络资源加载（之前是作为一个模块运行在浏览器进程）
-- **插件进程**：负责插件的运行（因为插件易崩溃所以需要通过插件进程来隔离，以保证插件崩溃不会对浏览器和页面造成影响）
-
-[Chrome 架构：仅仅打开了 1 个页面，为什么有 4 个进程？—— 浏览器工作原理与实践](https://time.geekbang.org/column/article/113513)
-
-## 跨域
-
-::: tip 跨域的原因 —— 浏览器的同源策略
-
-[同源策略](https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy)是浏览器一个重要的安全策略，它用于限制一个 `origin` 的文档或者它加载的脚本如何能与另一个源的资源进行交互。它能帮助阻隔恶意文档，减少可能被攻击的媒介
-
-同源的定义是两个 `URL` 的 **协议**、**域名**(子域名 + 主域名)、**端口号** 都相同，否则就会出现跨域
+- Process is the basic unit of resource ownership; thread is the basic unit of scheduling and allocation (it is an execution unit within the process and a schedulable entity within the process)
+- Processes are isolated from each other and do not interfere with each other
+- Multiple threads can be executed concurrently in a process
+- A thread can only belong to one process, and a process can have multiple threads (but at least one main thread)
+- All threads of the same process share all data of that process
+- Any execution error in any thread in the process will cause the entire process to collapse.
+- When a process is closed, the operating system will reclaim the memory occupied by the process
 
 :::
 
-::: tip 同源策略的限制范围
+### How many processes will there be when Chrome opens a page?
 
-1. 限制跨源网络访问: `AJAX` 请求不能发送
-2. 限制跨源脚本 `API` 访问: `DOM` 无法获得
-3. 限制跨源数据存储访问: `Cookie` `LocalStorage` 和 `IndexDB` 无法读取
+> The latest Chrome multi-process architecture diagram
 
-一般常说的跨域指网络跨域
+![Chrome multi-process architecture diagram](./images/chrome-framework.png)
+
+- **Browser main process**: Responsible for interface display, user interaction, sub-process management, and also provides storage and other functions
+- **Rendering Process**: Responsible for converting `HTML` `CSS` and `JavaScript` into web pages that users can interact with
+  - The typesetting engine Blink and the JavaScript engine V8 both run in this process
+  - By default Chrome creates a rendering process for each Tab
+  - For security reasons, the rendering process runs in sandbox mode
+- **GPU process**: Responsible for the drawing of web pages and Chrome's UI interface
+- **Network Process**: Responsible for loading the network resources of the page (previously it ran as a module in the browser process)
+- **Plugin Process**: Responsible for the running of the plug-in (because plug-ins are prone to crashing, they need to be isolated through the plug-in process to ensure that plug-in crashes will not affect the browser and the page)
+
+[Chrome Architecture: Only 1 page is opened, why are there 4 processes? ——Browser working principle and practice](https://time.geekbang.org/column/article/113513)
+
+## Cross domain
+
+::: tip The reason for cross-domain - the browser’s same-origin policy
+
+[Same origin policy](https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy) is an important security policy for browsers. It is used to restrict an `origin` document or How the script it loads can interact with resources from another source. It can help block malicious documents and reduce possible attack vectors
+
+The definition of homology is that the **protocol**, **domain name** (subdomain name + main domain name), and **port number** of the two `URL` are the same, otherwise there will be cross-domain
 
 :::
 
-### 常用的跨域解决方案
+::: tip The restriction range of the same-origin policy
 
-::: tip 常用的跨域解决方案
+1. Restrict cross-origin network access: `AJAX` requests cannot be sent
+2. Restrict cross-origin script `API` access: `DOM` cannot be obtained
+3. Restrict cross-source data storage access: `Cookie` `LocalStorage` and `IndexDB` cannot be read
+
+Generally speaking, cross-domain refers to network cross-domain
+
+:::
+
+### Commonly used cross-domain solutions
+
+::: tip Commonly used cross-domain solutions
 
 1. **CORS**
 2. **JSONP**
-3. Nginx 反向代理
+3. Nginx reverse proxy
 4. WebSocket
-5. postMessage
-6. document.domain
+   5.postMessage
+   6.document.domain
 
 :::
 
-### CORS 跨源资源共享
+### CORS cross-origin resource sharing
 
-[CORS (跨源资源共享)](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS) 是 [HTTP](https://developer.mozilla.org/zh-CN/docs/Glossary/HTTP) 的一部分，它允许浏览器向跨源服务器发出 `XMLHttpRequest` 请求，从而解决了 `AJAX` 只能同源使用的限制。
+[CORS (Cross-Origin Resource Sharing)](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS) is [HTTP](https://developer.mozilla.org/zh-CN /docs/Glossary/HTTP), which allows the browser to issue `XMLHttpRequest` requests to cross-origin servers, thereby solving the limitation that `AJAX` can only be used from the same origin.
 
-> `CORS` 需要浏览器和服务器同时支持，目前所有浏览器均已支持，只需服务器配置即可使用
+> `CORS` needs to be supported by both the browser and the server. Currently, all browsers support it. You only need to configure the server to use it.
 
-浏览器将 `CORS` 请求分成两类: **简单请求**和**非简单请求**
+Browsers divide `CORS` requests into two categories: **simple requests** and **non-simple requests**
 
-#### 简单请求
+#### Simple request
 
-::: tip 简单请求必须同时满足以下条件
+::: tip A simple request must meet the following conditions at the same time
 
-> 日常开发只会关注前两点
+> Daily development will only focus on the first two points
 
-- 请求方法是以下三种方法之一
+- The request method is one of the following three methods
   - `HEAD`
   - `GET`
   - `POST`
-- 只使用了如下的安全首部字段，不得人为设置其他首部字段
+- Only the following security header fields are used, and other header fields are not allowed to be artificially set.
   - `Accept`
   - `Accept-Language`
   - `Content-Language`
-  - `Content-Type` 仅限以下三种
+  - `Content-Type` is limited to the following three types
     - `application/x-www-form-urlencoded`
     - `multipart/form-data`
     - `text/plain`
-- 请求中的任意 `XMLHttpRequestUpload` 对象均没有注册任何事件监听器(使用 `XMLHttpRequest.upload` 属性访问`XMLHttpRequestUpload` 对象)
-- 请求中没有使用 `ReadableStream` 对象
+- No event listeners are registered for any `XMLHttpRequestUpload` objects in the request (use the `XMLHttpRequest.upload` property to access the `XMLHttpRequestUpload` object)
+- No `ReadableStream` object was used in the request
 
 :::
 
-##### 简单请求基本流程
+##### Simple request basic process
 
-1. 浏览器会直接发出 `CORS` 请求并在请求头信息之中增加一个 `Origin` 字段(用来说明本次请求来自哪个源(协议 + 域名 + 端口))
-2. 服务器判断 `Origin` 字段决定是否同意这次请求
-   1. 通过请求会在响应头增加 `CORS` 相关的字段(以`Access-Control-`开头)
-   2. 拒绝请求时不会增加 `CORS` 相关的字段，浏览器会抛出异常
+1. The browser will directly issue a `CORS` request and add an `Origin` field to the request header information (used to indicate which source the request comes from (protocol + domain name + port))
+2. The server judges the `Origin` field to decide whether to agree to the request.
+   1. Through the request, `CORS` related fields will be added to the response header (starting with `Access-Control-`)
+   2. When rejecting a request, the `CORS` related fields will not be added, and the browser will throw an exception.
 
-::: tip 简单请求响应头中的 CORS 字段
+::: tip CORS field in simple request response header
 
-- `Access-Control-Allow-Origin`: 只能是 `*`(接受任意域名的请求)或者是请求时 `Origin` 字段的值
-- `Access-Control-Allow-Credentials`(可选): 是一个布尔值,表示是否允许发送 `Cookie`
-- `Access-Control-Expose-Headers`(可选): `CORS` 请求时 `XMLHttpRequest` 对象的 `getResponseHeader()` 方法只能拿到 6 个基本字段：`Cache-Control、Content-Language、Content-Type、Expires、Last-Modified、Pragma`。如果想拿到其他字段就必须在 `Access-Control-Expose-Headers` 里面指定
-
-:::
-
-::: tip CORS 中的 Cookie 设置
-
-`CORS` 请求默认不发送 `Cookie`，如果需要发送需要满足如下条件
-
-- 服务器必须设置 `Access-Control-Allow-Credentials: true`
-- `Access-Control-Allow-Origin` 字段不能为 `*`
-- `AJAX` 请求的配置项需设置 `withCredentials = true`
+- `Access-Control-Allow-Origin`: can only be `*` (accept requests from any domain name) or the value of the `Origin` field in the request
+- `Access-Control-Allow-Credentials` (optional): is a Boolean value indicating whether to allow sending `Cookie`
+- `Access-Control-Expose-Headers` (optional): When making a `CORS` request, the `getResponseHeader()` method of the `XMLHttpRequest` object can only get 6 basic fields: `Cache-Control, Content-Language, Content -Type, Expires, Last-Modified, Pragma`. If you want to get other fields, you must specify them in `Access-Control-Expose-Headers`
 
 :::
 
-#### 非简单请求
+::: tip Cookie settings in CORS
 
-非简单请求是那种对服务器有特殊要求的请求，如请求方法是 `PUT` 或 `DELETE`，或者 `Content-Type` 字段的类型是 `application/json`。<br />
-非简单请求会在正式通信之前增加一次 `HTTP` 查询请求，称为**预检请求**，用于获取服务器是否允许该实际请求，同时避免跨域请求对服务器的用户数据产生预期之外的影响
+`CORS` requests do not send `Cookie` by default. If they need to be sent, the following conditions must be met.
 
-::: tip 预检请求
+- Server must set `Access-Control-Allow-Credentials: true`
+- The `Access-Control-Allow-Origin` field cannot be `*`
+- The configuration item requested by `AJAX` needs to be set to `withCredentials = true`
 
-预检请求用的请求方法是 `OPTIONS` 表示这个请求是用来询问的
+:::
 
-- 在预检请求请求头信息里会包含如下字段
-  - `Origin`: 表示本次请求来自哪个源
-  - `Access-Control-Request-Method`: 用于列出浏览器的 `CORS` 请求会用到哪些 `HTTP` 方法
-  - `Access-Control-Request-Headers`(可选): 指定浏览器 `CORS` 请求会额外发送的头信息字段
-- 服务器通过后会在预检请求响应头中设置如下字段
+#### Non-simple request
+
+Non-simple requests are requests that have special requirements for the server, such as the request method is `PUT` or `DELETE`, or the type of the `Content-Type` field is `application/json`. <br />
+Non-simple requests will add an `HTTP` query request before the formal communication, called a **preflight request**, which is used to obtain whether the server allows the actual request and to avoid cross-domain requests from causing unexpected effects on the server's user data. Impact
+
+::: tip preflight request
+
+The request method used for preflight requests is `OPTIONS`, indicating that this request is for inquiry
+
+- The following fields will be included in the preflight request header information
+  - `Origin`: indicates which source this request comes from
+  - `Access-Control-Request-Method`: Used to list which `HTTP` methods will be used by the browser's `CORS` request
+  - `Access-Control-Request-Headers` (optional): Specify the additional header fields that the browser will send in `CORS` requests.
+- After the server passes, the following fields will be set in the preflight request response header.
   - `Access-Control-Allow-Origin`
-  - `Access-Control-Allow-Credentials`(可选)
-  - `Access-Control-Allow-Methods`: 表示服务器支持的所有跨域请求的方法(为了避免多次预检请求)
-  - `Access-Control-Allow-Headers`: 表示服务器支持的所有头信息字段，不限于浏览器在预检中请求的字段
-  - `Access-Control-Max-Age`(可选): 用来指定本次预检请求的有效期单位为秒，在有效期内将不发出另一条预检请求
+  - `Access-Control-Allow-Credentials` (optional)
+  - `Access-Control-Allow-Methods`: Represents all cross-domain request methods supported by the server (to avoid multiple preflight requests)
+  - `Access-Control-Allow-Headers`: Indicates all header fields supported by the server, not limited to fields requested by the browser in preflight
+  - `Access-Control-Max-Age` (optional): Used to specify the validity period of this preflight request in seconds. During the validity period, another preflight request will not be issued.
 
 :::
 
-一旦服务器通过了预检请求，以后每次浏览器正常的 `CORS` 请求，就都跟简单请求一样会有一个 `Origin` 头信息字段。服务器的回应也都会有一个 `Access-Control-Allow-Origin` 头信息字段
+Once the server passes the preflight request, every subsequent normal `CORS` request from the browser will have an `Origin` header field just like a simple request. The server's response will also have an `Access-Control-Allow-Origin` header field
 
-::: details CORS 请求过程
-![CORS 请求过程](./images/cors-process.png)
+::: details CORS request process
+![CORS request process](./images/cors-process.png)
 :::
 
-[参考资料 —— 跨域资源共享 CORS 详解](http://www.ruanyifeng.com/blog/2016/04/cors.html)
+[Reference material - Detailed explanation of CORS for cross-domain resource sharing](http://www.ruanyifeng.com/blog/2016/04/cors.html)
 
-### JSONP
+###JSONP
 
-`JSONP` 是利用 `<script>` 标签没有跨域限制的漏洞，当前源可以得到从其他来源动态产生的 `JSON` 数据
+`JSONP` exploits the vulnerability of the `<script>` tag that does not have cross-domain restrictions. The current source can obtain `JSON` data dynamically generated from other sources.
 
-**`JSONP` 请求过程流程**
+**`JSONP` request process flow**
 
-1. 前端定义一个解析的回调函数
-2. 创建 `script` 标签，其 `src` 指向接口地址并拼接好参数和回调函数名
-3. 后端处理数据并将其拼接到前端传入的回调函数中(拼接好的数据必须是一个合法的 `JavaScript` 脚本 )
-4. 浏览器执行后端返回的 `JavaScript` 脚本代码(调用定义好的回调函数)并删除刚创建的 `script` 标签
+1. Define a parsed callback function on the front end
+2. Create a `script` tag, whose `src` points to the interface address and splices the parameters and callback function name
+3. The backend processes the data and splices it into the callback function passed in by the frontend (the spliced data must be a legal `JavaScript` script)
+4. The browser executes the `JavaScript` script code returned by the backend (calls the defined callback function) and deletes the newly created `script` tag
 
-::: details JSONP 代码实现
+::: details JSONP code implementation
 
 ```js
 function normalizeParams(params) {
   if (!params) {
     return ''
   }
-  return Object.keys(params)
+  returnObject
+    .keys(params)
     .map((key) => `${key}=${params[key]}`)
     .join('&')
 }
@@ -202,7 +203,7 @@ function jsonp(url, params) {
 
 jsonp('https://www.baidu.com/sugrec', {
   prod: 'pc',
-  wd: '跨域'
+  wd: 'Cross domain'
 }).then((res) => {
   console.log(res)
 })
@@ -210,284 +211,282 @@ jsonp('https://www.baidu.com/sugrec', {
 
 :::
 
-::: tip JSONP 跨域优缺点
+::: tip JSONP cross-domain advantages and disadvantages
 
-- 优点: 实现简单，兼容性好
-- 缺点
-  - 只支持 `GET` 请求
-  - 容易遭受 `XSS` 攻击
-
-:::
-
-[了解更多跨域解决方案请点击 —— 10 种跨域解决方案](https://juejin.cn/post/6844904126246027278)
-
-## 浏览器缓存机制
-
-- 1. 浏览器在发送请求前先判断是否命中强缓存
-  - 命中则不发送请求直接使用缓存，否则进行下一步
-- 2. 浏览器发送请求后会由服务器判断是否命中协商缓存
-  - 命中则从缓存获取资源，否则进行下一步
-- 3. 浏览器直接使用服务器返回的资源并更新缓存
-
-### 强缓存（200 OK）
-
-- `Expires` 是服务器告诉浏览器的缓存过期时间（值为 `GMT` 时间，即格林尼治时间）
-  - `HTTP1.0` 的产物
-  - 受本地时间影响
-  - 设置的值为 `max-age=xxx`（xxx 是 秒）
-- `Cache-Control` 用于控制缓存的行为
-  - 是 `HTTP1.1` 的产物
-  - 取值
-    - `public`：允许被客户端和代理服务器缓存
-    - `private`：只允许被客户端缓存（默认值）
-    - `no-cache`：允许被客户端和代理服务器缓存，但在使用缓存时需要经过协商缓存来验证决定
-    - `no-store`：所有内容都不会被缓存，即不使用强制缓存也不使用协商缓存每次请求都会下载完整的资源
-    - `maxage=xxx`：设置客户端和代理服务器的缓存时间，表示缓存内容将在 xxx 秒后失效
-    - `s-maxage=xxx`：设置代理服务器的缓存时间（优先级比 `max-age` 高）
-
-::: warning Cache-Control 注意点
-`no-cache` 名字存在误导，其并不是不缓存数据，只是在使用缓存时需要经过协商缓存来验证决定<br />
-`max-age=0` 和 `no-cache` 效果一致
-:::
-
-#### 缓存位置
-
-- 内存缓存（memory cache）
-  - 快速读取（内存缓存将编译解析后的文件，直接存入该进程的内存中，占据该进程一定的内存资源，以方便下次运行使用时的快速读取）
-  - 进程关闭时数据会被清除
-  - 不请求网络资源，资源存在内存中一般 `JS` 和图片文件会存入内存
-  - 状态码：`200（from memory cache）`
-- 硬盘缓存（disk cache）
-  - 写入硬盘文件进行 `I/O` 操作
-  - 进程关闭时数据不会被清除
-  - 速度比 `memory cache` 慢
-  - 不请求网络资源，资源存在磁盘中一般非脚本会存在磁盘中，如 `css`
-  - 状态码：`200（from disk cache）`
-- 代理服务器缓存（server worker）
-  - 可以拦截处理页面的所有网络请求
-  - 仅 `HTTPS` 下可用、存在兼容问题
-  - 状态码：`200（from service worker）`
-
-### 协商缓存（304 Not Modified）
-
-#### `Last-Modified` 和 `If-Modified-Since`
-
-`Last-Modified` 表示资源的最后修改时间，值为 `GMT` 格式时间字符串，精确到秒
-
-- 浏览器第一次请求时，服务器会在响应头中返回请求资源的上次更新时间 `Last-Modified`
-- 当浏览器再次请求时，会在请求头中携带 `If-Modified-Since` 值为上次请求返回的 `Last-Modified`
-- 服务器收到请求后，会根据请求头中的 `If-Modified-Since` 和该资源在服务器的最后被修改时间做对比
-  - 大于 `If-Modified-Since` 重新返回资源文件，状态码为 200
-  - 小于 `If-Modified-Since` 资源无更新继续使用缓存文件，状态码为 304
-
-::: tip Last-Modified 存在的问题
-
-- 时间精度为秒级会出现误差情况，对文件修改精度有严格要求的场景不能满足
-- 在集群服务器上各个服务器上的文件时间可能不同
-- 如果用旧文件覆盖新文件，因为时间更前浏览器不会请求旧文件
-- 编辑了文件但未修改，会导致缓存失效
+- Advantages: simple implementation, good compatibility
+- shortcoming
+  - Only supports `GET` requests
+  - Vulnerable to `XSS` attacks
 
 :::
 
-#### ETag 和 If-None-Match
+[To learn more about cross-domain solutions, please click - 10 cross-domain solutions](https://juejin.cn/post/6844904126246027278)
 
-`ETag` 是服务器通过算法对资源内容计算出的一个唯一标识（文件 `hash`）其有强弱之分
+## Browser caching mechanism
 
-- 强 `Etag`
+- 1. The browser first determines whether the strong cache is hit before sending the request.
+  - If there is a hit, the cache will be used directly without sending the request, otherwise proceed to the next step.
+- 2. After the browser sends the request, the server will determine whether the negotiation cache is hit.
+  - If there is a hit, obtain the resource from the cache, otherwise proceed to the next step.
+- 3. The browser directly uses the resources returned by the server and updates the cache
+
+### Strong cache (200 OK)
+
+- `Expires` is the cache expiration time that the server tells the browser (the value is `GMT` time, that is, Greenwich Time)
+  - A product of `HTTP1.0`
+  - Affected by local time
+  - The value set is `max-age=xxx` (xxx is seconds)
+- `Cache-Control` is used to control cache behavior
+  - A product of `HTTP1.1`
+  - value
+    - `public`: allowed to be cached by clients and proxy servers
+    - `private`: only allowed to be cached by clients (default value)
+    - `no-cache`: Allows caching by clients and proxy servers, but requires a negotiated cache to verify the decision when using the cache
+    - `no-store`: All content will not be cached, that is, neither forced caching nor negotiated caching will be used. The complete resource will be downloaded on each request.
+    - `maxage=xxx`: Set the cache time of the client and proxy server, indicating that the cached content will expire after xxx seconds
+    - `s-maxage=xxx`: Set the cache time of the proxy server (higher priority than `max-age`)
+
+::: warning Cache-Control Notes
+The name `no-cache` is misleading. It does not mean that the data is not cached, but that when using the cache, the cache needs to be negotiated to verify the decision<br />
+`max-age=0` has the same effect as `no-cache`
+:::
+
+#### Cache location
+
+- memory cache
+  - Fast reading (the memory cache will store the compiled and parsed files directly into the memory of the process, occupying a certain amount of memory resources of the process to facilitate fast reading during the next run)
+  - Data will be cleared when the process is closed
+  - No network resources are requested. Resources are stored in memory. Generally, `JS` and image files will be stored in memory.
+  - Status code: `200 (from memory cache)`
+- Disk cache
+  - Write to hard disk files for `I/O` operations
+  - Data will not be cleared when the process is closed
+  - Slower than `memory cache`
+  - Do not request network resources. Resources are stored in the disk. Generally, non-scripts will be stored in the disk, such as `css`
+  - Status code: `200 (from disk cache)`
+- Proxy server cache (server worker)
+  - Can intercept all network requests for processing pages
+  - Only available under `HTTPS`, there are compatibility issues
+  - Status code: `200 (from service worker)`
+
+### Negotiation cache (304 Not Modified)
+
+#### `Last-Modified` and `If-Modified-Since`
+
+`Last-Modified` represents the last modified time of the resource, the value is a `GMT` format time string, accurate to seconds
+
+- When the browser makes the first request, the server will return the last update time of the requested resource `Last-Modified` in the response header.
+- When the browser requests again, it will carry the `If-Modified-Since` value in the request header which is the `Last-Modified` returned by the last request.
+- After the server receives the request, it will compare the `If-Modified-Since` in the request header with the last modification time of the resource on the server.
+  - If it is greater than `If-Modified-Since`, the resource file will be returned with status code 200
+  - If the resource is less than `If-Modified-Since` and has not been updated, the cache file will continue to be used, and the status code is 304.
+
+::: Problems with tip Last-Modified
+
+- Errors may occur when the time accuracy is second level, which cannot be met in scenarios that have strict requirements on file modification accuracy.
+- File times on individual servers in a cluster may be different
+- If you overwrite a new file with an old one, the browser will not request the old file because the time has changed.
+- Editing the file but not modifying it will cause the cache to become invalid.
+
+:::
+
+#### ETag and If-None-Match
+
+`ETag` is a unique identifier (file `hash`) calculated by the server on the resource content through an algorithm. It is divided into strong and weak ones.
+
+- Strong `Etag`
   - `ETag: "<etag_value>"`
-  - 资源发生任何改变都会立刻更新
-  - 难生成，利于比较
-- 弱 `Etag`（使用 `W/` 标识）
+  - Any changes to resources will be updated immediately
+  - Difficult to generate, easy to compare
+- Weak `Etag` (use `W/` flag)
   - `ETag: W/"<etag_value>"`
-  - 只在资源发生本质变化时更新
-  - 易生成，不利于比较
+  - Only update when the resource changes substantially
+  - Easy to generate, not conducive to comparison
 
-##### 过程
+##### process
 
-- 浏览器第一次请求时，服务器会在响应头中返回当前资源文件的一个唯一标识 `ETag`
-- 当浏览器再次请求时，会在请求头中携带 `If-None-Match` 值为上次请求返回的 `ETag`
-- 通过接收的 `ETag` 和服务器重新生成的 `ETag` 进行对比
-  - 不一致 重新返回资源文件，状态码为 200
-  - 一致 资源无更新继续使用缓存文件，状态码为 304
+- When the browser makes the first request, the server will return a unique identifier of the current resource file `ETag` in the response header.
+- When the browser requests again, it will carry the `If-None-Match` value in the request header which is the `ETag` returned by the previous request.
+- Compare the received `ETag` with the `ETag` regenerated by the server
+  - Inconsistent Return to resource file with status code 200
+  - Consistent resources are not updated and continue to use the cache file, the status code is 304
 
-::: tip Last-Modified 和 Etag 对比
+::: tip Last-Modified and Etag comparison
 
-- 精确度上：`Etag` 优于 `Last-Modified`
-- 性能上：`Etag < Last-Modified` 每次生成 `ETag` 都需要进行读写操作，而 `Last-Modified` 只需要读取操作
-- 优先级：服务器校验优先考虑 `Etag`（先判断 `Etag` 是否变化，如果 `Etag` 没有变化再判断 `Last-Modified`）
+- Accuracy: `Etag` is better than `Last-Modified`
+- Performance: `Etag < Last-Modified` requires read and write operations every time `ETag` is generated, while `Last-Modified` only requires read operations
+- Priority: Server verification gives priority to `Etag` (first determine whether `Etag` has changed, if `Etag` has not changed, then determine `Last-Modified`)
 
 :::
 
-### 应用场景
+### Application scenarios
 
-| 强缓存                                       | 协商缓存                      |
-| -------------------------------------------- | ----------------------------- |
-| 不常变化的文件<br />带 hash 值的 css js 图片 | 频繁变动的文件<br />html 文件 |
+| Strong cache                                                       | Negotiate cache                              |
+| ------------------------------------------------------------------ | -------------------------------------------- |
+| Files that change infrequently<br />Css js images with hash values | Files that change frequently<br />html files |
 
-### 用户行为对缓存的影响
+### The impact of user behavior on caching
 
-- 地址栏输入
-  - 查找 `disk cache`（磁盘缓存）中是否有匹配，有则使用缓存，没有则发送网络请求
-- 普通刷新（F5）
-  - 因为浏览器 `tab` 标签并没有关闭，因此 `memory cache` （内存缓存）是可用的，会被优先使用，其次使用 `disk cache`（磁盘缓存）
-  - 跳过强缓存规则，直接走协商缓存
-- 强制刷新（Ctrl + F5）
-  - 浏览器不使用缓存，因此发送的请求头部均带有 `Cache-control: no-cache` （为了兼容还带了 `Pragma: no-cache`）服务器直接返回 200 和最新内容。
-  - 跳过所有缓存规则
+- Address bar input
+  - Check if there is a match in the `disk cache` (disk cache), if so, use the cache, if not, send a network request
+- Normal refresh (F5)
+  - Because the browser `tab` tag is not closed, `memory cache` (memory cache) is available and will be used first, followed by `disk cache` (disk cache)
+  - Skip strong caching rules and go directly to negotiated caching
+- Force refresh (Ctrl + F5)
+  - The browser does not use caching, so the request headers sent are all sent with `Cache-control: no-cache` (`Pragma: no-cache` is also included for compatibility). The server directly returns 200 and the latest content.
+  - Skip all caching rules
 
-## 浏览器存储
+## Browser storage
 
-### Cookie
+### Cookies
 
-`Cookie`（也叫 `Web Cookie` 或浏览器 `Cookie`）是服务器发送到用户浏览器并保存在本地的一小块数据，它会在浏览器下次向同一服务器再发起请求时被携带并发送到服务器上。通常，它用于告知服务端两个请求是否来自同一浏览器，如保持用户的登录状态。`Cookie` 使基于无状态的 `HTTP` 协议记录稳定的状态信息成为了可能，`Cookie` 在存储时是以键值对的形式存在的
+`Cookie` (also called `Web Cookie` or browser `Cookie`) is a small piece of data sent by the server to the user's browser and saved locally. It will be carried the next time the browser makes a request to the same server. and sent to the server. Usually, it is used to tell the server whether two requests come from the same browser, such as keeping the user logged in. `Cookie` makes it possible to record stable state information based on the stateless `HTTP` protocol. `Cookie` exists in the form of key-value pairs when stored.
 
-`Cookie` 主要用于以下三个方面：
+`Cookie` is mainly used in the following three aspects:
 
-- 会话状态管理（如用户登录状态、购物车、游戏分数或其它需要记录的信息）
-- 个性化设置（如用户自定义设置、主题等）
-- 浏览器行为跟踪（如跟踪分析用户行为等）
+- Session state management (such as user login status, shopping cart, game scores or other information that needs to be recorded)
+- Personalized settings (such as user-defined settings, themes, etc.)
+- Browser behavior tracking (such as tracking and analyzing user behavior, etc.)
 
-`Cookie` 的本职工作并非本地存储，而是“维持状态”，因当时并没有其它合适的存储办法而作为唯一的存储手段，所以会用其进行本地存储
+The main job of `Cookie` is not local storage, but "maintaining state". Since there was no other suitable storage method at the time, it was used as the only storage method, so it was used for local storage.
 
-#### Cookie 的生成和使用
+#### Generation and use of cookies
 
-- 服务器生成，通过 `http response header` 中的 `set-cookie`
-- 在 `JavaScript` 中使用 `document.cookie` 进行读写
+- Server generated, via `set-cookie` in `http response header`
+- Use `document.cookie` in `JavaScript` for reading and writing
 
 ```js
-/* 读取 */
+/* read */
 document.cookie
 
-/* 写入 */
+/* write */
 document.cookie = 'name=maomao'
 ```
 
-::: tip Cookie 的缺点
+::: Disadvantages of tip Cookies
 
-- `Cookie` 最大只能有 `4KB` 同时大多数浏览器对一个站点的 `Cookie` 个数也是有限制的
-- 同一个域名下的所有请求都会携带 `Cookie` 从而带来不必要的开销和安全问题
+- `Cookie` can only have a maximum size of `4KB`. At the same time, most browsers also have limits on the number of `Cookie` for a site.
+- All requests under the same domain name will carry `Cookie`, causing unnecessary overhead and security issues.
 
 :::
 
 ### Web Storage
 
-[Web Storage](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Storage_API)是 `HTML5` 专门为浏览器存储而提供的数据存储机制，其大小限制为 `5MB ~ 10MB` ([去查看当前浏览器下 Web Storage 的容量限制](http://dev-test.nemikor.com/web-storage/support-test/))，数据仅保存在客户端不与服务器进行通信
+[Web Storage](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Storage_API) is a data storage mechanism provided by `HTML5` specifically for browser storage. Its size limit is `5MB ~ 10MB` ([Check the capacity limit of Web Storage under the current browser](http://dev-test.nemikor.com/web-storage/support-test/)), the data is only saved on the client and not communicated with the server communication
 
-`Web Storage` 提供了两种机制供我们使用
+`Web Storage` provides two mechanisms for us to use
 
-- `Local Storage`(本地存储)
-- `Session Storage`(会话存储)
+- `Local Storage`(local storage)
+- `Session Storage` (session storage)
 
 ::: tip LocalStorage
 
-- 保存的数据长期存在
-- 在同源的所有标签页和窗口之间共享数据
+- Saved data persists for a long time
+- Share data between all tabs and windows from the same source
 
 :::
 
 ::: tip SessionStorage
 
-- 数据只存在于当前浏览器的标签页
-- **在新标签或窗口打开一个页面时会复制顶级浏览会话的上下文作为新会话的上下文**
-  - 在当前标签中打开一个同域下的页面时会复制当前标签页中的 `SessionStorage` 数据
-  - 复制的 `SessionStorage` 数据是独立的，不会相互影响(类似深拷贝)
-- 重新加载或恢复页面仍会保持原来的数据
-- 关闭对应浏览器标签或窗口后数据会被清除
+- Data only exists in the current browser tab
+- **When opening a page in a new tab or window the context of the top browsing session is copied as the context of the new session**
+  - When opening a page under the same domain in the current tab, the `SessionStorage` data in the current tab will be copied.
+  - The copied `SessionStorage` data is independent and will not affect each other (similar to deep copy)
+- Reloading or restoring the page will still maintain the original data
+- Data will be cleared after closing the corresponding browser tab or window
 
 :::
 
-#### API 使用
+#### API usage
 
-> 以 `localStorage` 为例
+> Take `localStorage` as an example
 
 ```js
-/* 存储数据 setItem() */
+/* Store data setItem() */
 localStorage.setItem('name', 'maomao')
 
-/* 读取数据 getItem() */
+/* Read data getItem() */
 localStorage.getItem('name')
 
-/* 删除指定数据 removeItem() */
+/* Delete the specified data removeItem() */
 localStorage.removeItem('name')
 
-/* 清空数据 clear() */
+/* Clear data clear() */
 localStorage.clear()
 ```
 
-::: tip sessionStorage localStorage 和 cookie 的区别
+::: tip The difference between sessionStorage localStorage and cookie
 
-- 相同点
-  - 都是在客户端保存数据
-  - 存储数据的类型都是字符串
-- 不同点
-  - 生命周期
-    - `Cookie`: 可以设置失效时间(默认是关闭浏览器后失效)
-    - `localStorage`: 除非被手动清除否则将会永久保存
-    - `sessionStorage`: 仅在当前浏览器的标签页下有效，关闭标签或窗口后就会被清除
-  - 数据大小
+- Same point
+  - All data is saved on the client side
+  - The types of data stored are all strings
+- difference
+  - life cycle - `Coo
+kie`: You can set the expiration time (the default is to expire after closing the browser) - `localStorage`: will be saved permanently unless cleared manually. - `sessionStorage`: only valid under the current browser tab, it will be cleared after closing the tab or window
+  - Data size
     - `Cookie`: 4KB
-    - `localStorage` 和 `sessionStorage`: `5MB ~ 10MB`
-  - http 请求
-    - `Cookie`: 每次都会携带在 `HTTP` 请求头中
-    - `localStorage` 和 `sessionStorage`: 仅在客户储保存不会与服务器通信
+    - `localStorage` and `sessionStorage`: `5MB ~ 10MB`
+  - http request
+    - `Cookie`: will be carried in the `HTTP` request header every time
+    - `localStorage` and `sessionStorage`: only in client storage and will not communicate with the server
 
 :::
 
 ### IndexedDB
 
-[IndexedDB](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API) 是一个运行在浏览器上的非关系型数据库，用于**在客户端存储大量结构化数据**
+[IndexedDB](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API) is a non-relational database that runs on the browser and is used to store large amounts of structured data on the client. data\*\*
 
-::: tip IndexedDB 的特点
+::: tip Features of IndexedDB
 
-- 存储空间大(一般来说不少于 `250MB` 甚至没有上限)
-- 支持存储二进制数据(`ArrayBuffer` 和 `Blob`)
-- 键值对储存
-- 同源限制
-- 执行的操作是异步执行，以免阻塞应用程序
-- 是一个事务型数据库系统
+- Large storage space (generally not less than `250MB` or even no upper limit)
+- Supports storing binary data (`ArrayBuffer` and `Blob`)
+- Key-value pair storage
+- Same origin restriction
+- The operations performed are performed asynchronously to avoid blocking the application
+- Is a transactional database system
 
 :::
 
-#### API 使用
+#### API usage
 
-打开/创建一个 IndexedDB 数据库，并指定数据库的版本号 (版本号只能为整数)
+Open/create an IndexedDB database and specify the version number of the database (the version number can only be an integer)
 
 ```js
 const request = window.indexedDB.open('myDatabase', 1)
 let db
 
-// 成功回调
+// Success callback
 request.onsuccess = function (event) {
-  // 获取 indexedDB 实例
+  // Get indexedDB instance
   db = event.target.result
-  // 也可以使用 request.result 获取 indexedDB 实例
-  console.log('连接 IndexedDB 成功')
+  // You can also use request.result to get the indexedDB instance
+  console.log('Connection to IndexedDB successful')
 }
 
-// 失败回调
+//Failure callback
 request.onerror = function () {
-  console.log('连接 IndexedDB 失败')
+  console.log('Failed to connect to IndexedDB')
 }
 ```
 
-创建一个对象仓库(类似于数据库中的表)
+Create an object warehouse (similar to a table in a database)
 
 ```js
-// upgradeneeded 事件会在初始化数据库或版本发生更新时被调用
+// The upgradeneeded event will be called when the database is initialized or the version is updated.
 request.onupgradeneeded = function (event) {
   const db = event.target.result
-  // 创建对象仓库并指定主键
+  //Create an object warehouse and specify the primary key
   const objectStore = db.createObjectStore('userInfo', {
     keyPath: 'id',
     autoIncrement: false
   })
-  console.log('创建对象仓库成功')
+  console.log('Object warehouse created successfully')
 
   /**
-   * 定义存储对象的数据项
-   * 第一个参数是创建的索引名称，可以为空
-   * 第二个参数是索引使用的关键名称，可以为空
-   * 第三个参数是可选配置参数，可以不传，常用参数之一就是 unique ，表示该字段是否唯一，不能重复
+   * Define the data items of the storage object
+   * The first parameter is the name of the created index and can be empty
+   * The second parameter is the key name used by the index and can be empty
+   * The third parameter is an optional configuration parameter and does not need to be passed. One of the commonly used parameters is unique, which indicates whether the field is unique and cannot be repeated.
    */
   objectStore.createIndex('id', 'id', {
     unique: true
@@ -496,19 +495,19 @@ request.onupgradeneeded = function (event) {
 }
 ```
 
-添加数据
+adding data
 
 ```js
-// 创建事务指并定表格名称和读写权限
+//Create a transaction and specify the table name and read and write permissions
 const transaction = db.transaction(['userInfo'], 'readwrite')
-// 获取 Object Store 对象
+// Get the Object Store object
 const objectStore = transaction.objectStore('userInfo')
 
-/* 添加数据 */
+/* adding data */
 objectStore.add({ id: 1, name: 'test' })
 ```
 
-获取数据
+retrieve data
 
 ```js
 const transaction = db.transaction(['userInfo'], 'readonly')
@@ -516,11 +515,11 @@ const objectStore = transaction.objectStore('userInfo')
 
 const objectStoreRequest = objectStore.get(1)
 objectStoreRequest.onsuccess = function () {
-  console.log('获取数据', objectStoreRequest.result)
+  console.log('Get data', objectStoreRequest.result)
 }
 ```
 
-修改数据
+change the data
 
 ```js
 const transaction = db.transaction(['userInfo'], 'readwrite')
@@ -534,7 +533,7 @@ objectStoreRequest.onsuccess = function () {
 }
 ```
 
-删除数据
+delete data
 
 ```js
 const transaction = db.transaction(['userInfo'], 'readwrite')
@@ -542,14 +541,14 @@ const objectStore = transaction.objectStore('userInfo')
 
 const objectStoreRequest = objectStore.delete(1)
 objectStoreRequest.onsuccess = function () {
-  console.log('删除成功')
+  console.log('Deletion successful')
 }
 ```
 
-::: tip 在日常开发中可以使用如下类库简化代码量
+::: tip In daily development, you can use the following class libraries to simplify the amount of code
 
-- [localForage](https://github.com/localForage/localForage) 一个提供 `name:value` 的简单语法的客户端数据存储垫片，基于 `IndexedDB` 实现，并在不持支 `IndexedDB` 的浏览器中自动回退到 `WebSQL` 和 `localStorage`
-- [Dexie.js](https://github.com/dexie/Dexie.js) 对 `IndexedDB` 的封装，通过提供更友好和简单语法进行快速的编码开发
-- [PouchDB](https://github.com/pouchdb/pouchdb) 对 `IndexedDB` 的封装，通过提供更友好和简单语法进行快速的编码开发
+- [localForage](https://github.com/localForage/localForage) A client-side data storage shim that provides a simple syntax of `name:value`, implemented based on `IndexedDB`, and can be used when `IndexedDB` is not supported The browser automatically falls back to `WebSQL` and `localStorage`
+- [Dexie.js](https://github.com/dexie/Dexie.js) encapsulates `IndexedDB`, providing a more friendly and simple syntax for rapid coding development
+- [PouchDB](https://github.com/pouchdb/pouchdb) encapsulates `IndexedDB`, providing a more friendly and simple syntax for rapid coding development
 
 :::

@@ -1,32 +1,32 @@
 ---
-title: 主板BIOS设置
+title: Motherboard BIOS settings
 ---
 
-## 步骤 1 - 进入 BIOS 设置，
+## Step 1 - Enter BIOS Setup,
 
-开机按 `del`/`esc`
+Press `del`/`esc` when booting
 
-## 步骤 2 - 开启 VT-x
+## Step 2 - Turn on VT-x
 
-进入 `BIOS` 后，首先打开`处理器的虚拟化`（即 `VT-x`）。
+After entering `BIOS`, first turn on `processor virtualization` (ie `VT-x`).
 
-> VT-x 是 intel 运用 Virtualization 虚拟化技术中的一个指令集。提供 X86 平台的硬件辅助虚拟化解决方案。能够将单台电脑软件环境分割为多个独立分区，每个分区均可以按照需要模拟电脑的一项技术。将多种系统整合到一台服务器或电脑中，使同一个物理平台能够同时运行多个同类或不同类的操作系统，以分别作为不同业务和应用的支撑平台。
+> VT-x is an instruction set used by Intel using Virtualization virtualization technology. Provides hardware-assisted virtualization solutions for the X86 platform. A technology that can divide a single computer software environment into multiple independent partitions, each of which can simulate a computer as needed. Integrate multiple systems into one server or computer, so that the same physical platform can run multiple operating systems of the same or different types at the same time to serve as support platforms for different businesses and applications.
 
-## 步骤 3 - 开启 VT-d
+## Step 3 - Turn on VT-d
 
-> 英特尔定向 I/O 虚拟化技术 (VT-d) 是英特尔虚拟化技术 (VT) 的扩展，它向硬件提供虚拟化解决方案协助。英特尔 VT-d 能帮助用户提高系统的安全性和可靠性，并改善 I/O 设备在虚拟化环境中的性能。这些都从本质上帮助 IT 管理人员通过减少潜在的停机时间而降低总拥有成本；并通过更充分地利用数据中心资源而增大生产性吞吐量。
+> Intel Virtualization Technology for Directed I/O (VT-d) is an extension of Intel Virtualization Technology (VT) that provides virtualization solution assistance to hardware. Intel VT-d can help users improve system security and reliability and improve I/O device performance in virtualized environments. These essentially help IT managers lower total cost of ownership by reducing potential downtime; and increase productive throughput by making fuller use of data center resources.
 
-## 步骤 4 - 开启 AES
+## Step 4 - Turn on AES
 
-> **AES 指令集**：高级加密标准指令集（英特尔高级加密标准新指令，简称 AES-NI）是一个 x86 指令集架构的扩展，用于 Intel 和 AMD 微处理器，由 Intel 在 2008 年 3 月提出。该指令集的目的是改进应用程序使用 高级加密标准（AES）执行加密和解密的速度，可以提高出国留学的速度。
+> **AES Instruction Set**: Advanced Encryption Standard Instruction Set (Intel Advanced Encryption Standard New Instructions, AES-NI for short) is an extension of the x86 instruction set architecture for Intel and AMD microprocessors, introduced by Intel in 2008 proposed in March. The purpose of this instruction set is to improve the speed with which applications perform encryption and decryption using the Advanced Encryption Standard (AES), which can increase the speed of studying abroad.
 
-## 步骤 5 - 开启睿频加速技术
+## Step 5 - Turn on Turbo Boost technology
 
-在 `CPU 技术设置选项`中，找到 `Intel Turbo Mode Tech` 选项，有的主板可能会显示 `Intel Turbo Boost Tech`。至于 `C-STATE`就先不开了。
+In the `CPU Technology Settings Options`, find the `Intel Turbo Mode Tech` option. Some motherboards may display `Intel Turbo Boost Tech`. As for `C-STATE`, I won’t open it yet.
 
-> C-STATE 是 CPU 的电源管理功能，它会根据 CPU 的负载来管理 CPU 的能耗，和睿频加速技术结合，在运行单线程应用时，C-STATE 会关闭或降低其他核心的能耗，把这些能源加到执行程序的核心上提高 CPU 的执行效率。
-> C-STATE 的模式从 C0 开始，C0 表示 “正常” 的 CPU 运行模式（CPU 已 100% 激活）。C 后的数字越大，表示 CPU 进入休眠模式的程度越深。换言之，关闭的电路和时钟信号越多，完全唤醒 CPU 进入 C0 模式需要的时间越长。
+> C-STATE is the power management function of the CPU. It manages the energy consumption of the CPU according to the load of the CPU. Combined with the Turbo acceleration technology, when running a single-threaded application, C-STATE will turn off or reduce the energy consumption of other cores. , add these energy to the core of executing the program to improve the execution efficiency of the CPU.
+> The mode of C-STATE starts from C0, which represents the "normal" CPU operating mode (CPU is 100% activated). The larger the number after C, the deeper the CPU enters sleep mode. In other words, the more circuits and clock signals that are turned off, the longer it will take to fully wake the CPU into C0 mode.
 
-## 步骤 6 - 设置 USB 启动
+## Step 6 - Set up USB boot
 
-在`BOOT`里把`U盘`设置为第一启动项。
+Set the `U disk` as the first boot item in `BOOT`.

@@ -1,21 +1,21 @@
 ---
-title: ESXI安装
+title: ESXI installation
 ---
 
-## ESXI 开始引导
+## ESXI starts booting
 
-:::tip 注意
-看到跑码界面，马上按键盘上的 Shift+O,在屏幕下方删除多余命令，手工录入命令
+:::tip note
+When you see the code running interface, immediately press Shift+O on the keyboard, delete redundant commands at the bottom of the screen, and enter the commands manually
 :::
 
 ```sh
 cdromBoot runweasel autoPartitionOSDataSize=4096
 ```
 
-注意区分大小写。录入完成后回车继续。
+Note that it is case sensitive. After the input is completed, press Enter to continue.
 
-这个命令的意思是安装 ESXI 时，系统占用空间为 4096MB,也就是 4GB，如果不录入该命令，ESXI8.0 默认会让 VMFSL 系统分区占用 100 多个 G，可用的 VMFS 就没多少了。当然如果你的 R1 硬盘足够大，不录入也可以
+This command means that when installing ESXI, the system occupies 4096MB, which is 4GB. If you do not enter this command, ESXI8.0 will make the VMFSL system partition occupy more than 100 G by default, and there will not be much available VMFS. Of course, if your R1 hard drive is large enough, you can do it without typing.
 
-## ESXI 扫描磁盘
+## ESXI scan disk
 
-后续安装，ESXI 会扫描磁盘，选择硬盘，之后设置 root 账号的密码，确认安装信息，最后重启设备
+For subsequent installation, ESXI will scan the disk, select the hard disk, then set the password of the root account, confirm the installation information, and finally restart the device.

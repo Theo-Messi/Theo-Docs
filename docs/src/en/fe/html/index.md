@@ -1,38 +1,38 @@
-# HTML 理论知识点
+# HTML theoretical knowledge points
 
-## HTML 语义化
+## HTML semantics
 
-`HTML` 语义化是指根据内容的结构化（内容语义化）来选择合适的标签（代码语义化），即**用正确的标签做正确的事情**
+`HTML` semantics refers to selecting appropriate tags (code semantics) based on the structure of the content (content semantics), that is, **using the right tags to do the right thing**
 
-::: tip 语义化的优点
+::: tip Advantages of semantics
 
-`HTML` 语义化增强文档的可识别性
+`HTML` semantics enhance document recognizability
 
-- 可以使页面在没有 `CSS` 样式表的情况下也能呈现出很好的内容结构
-- 有利于 `SEO` 优化（爬虫依赖 `HTML` 的标签来确定渲染关键字的权重）
-- 方便其他设备解析（屏幕阅读器、盲人阅读器）提升了用户体验
-- 增强了代码的可读性和可维护性
+- Allows the page to present a good content structure even without `CSS` style sheet
+- Conducive to `SEO` optimization (crawlers rely on `HTML` tags to determine the weight of rendering keywords)
+- Convenient for other devices to parse (screen readers, blind readers) to improve user experience
+- Enhanced code readability and maintainability
 
 :::
 
-### 常用的语义化标签
+### Commonly used semantic tags
 
-- `<article>`：表示文章主体部分
-- `<aside>`：表示跟文章主体不那么相关的部分，一般包含导航、广告等工具性质的内容
-- `<details> 和 <summary>`：表示可以查看或隐藏的其他详细信息
-- `<figure> 和 <figcaption>`：表示与文章相关的图像、照片等流内容
-- `<footer>`：通常出现在尾部，包含作者信息、相关链接、版权信息等
-- `<header>`：表示导航或者介绍性的内容
-- `<h1> ~ <h6>`：表示文章中不同层级的标题
-- `<main>`：表示文章的主要内容
-- `<nav>`：表示导航
-  - 在 `header` 中大多表示文章目录
-  - 在 `aside` 中大多是关联页面或者是整站地图
-- `<section>`：表示文章中的“节”或“段”
-- `<time>`：表示日期或时间
+- `<article>`: indicates the main part of the article
+- `<aside>`: Indicates the part that is not so relevant to the main body of the article, generally including navigation, advertising and other tool-like content.
+- `<details> and <summary>`: Indicate additional details that can be viewed or hidden
+- `<figure> and <figcaption>`: represent streaming content such as images and photos related to the article
+- `<footer>`: usually appears at the end, including author information, related links, copyright information, etc.
+- `<header>`: represents navigation or introductory content
+- `<h1> ~ <h6>`: Indicates titles at different levels in the article
+- `<main>`: indicates the main content of the article
+- `<nav>`: indicates navigation
+  - In `header` it mostly represents the article directory
+  - Most of the `aside` are related pages or whole site maps
+- `<section>`: represents the "section" or "paragraph" in the article
+- `<time>`: represents date or time
 
-`HTML5` 标签选择流程图
+`HTML5` tag selection flow chart
 
-![HTML5 标签选择流程图](./images/html-semantic.png)
+![HTML5 tag selection flow chart](./images/html-semantic.png)
 
-[HTML 中的语义 —— MDN](https://developer.mozilla.org/zh-CN/docs/Glossary/Semantics)
+[Semantics in HTML - MDN](https://developer.mozilla.org/zh-CN/docs/Glossary/Semantics)

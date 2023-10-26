@@ -1,6 +1,6 @@
 import { nav, sidebar } from '../configs/en'
 import { defineConfig } from 'vitepress'
-import timeline from 'vitepress-markdown-timeline'
+
 export default defineConfig({
   // 站点名称
   title: 'Theo Notes',
@@ -12,31 +12,9 @@ export default defineConfig({
   description:
     '网络技术,VPS,ESXI,OpenWrt,青龙面板,风水玄学,picgo,github,图床,梅林固件,华硕,fancyss,科学上网,clasn,独角数卡,homebrew,git,docker,linux,markdown,甲骨文,谷歌云,防火墙,流媒体,京东,阿里云',
 
-  // 上次更新时间戳
-  lastUpdated: true,
-
-  // 开启后网址后缀无'html'
-  cleanUrls: true,
-
-  // markdown-it插件配置
-  markdown: {
-    theme: {
-      light: 'github-light',
-      dark: 'github-dark-dimmed'
-    },
-    config: (md) => {
-      md.use(timeline)
-    }
-    // container: {
-    //   tipLabel: '提示',
-    //   warningLabel: '警告',
-    //   dangerLabel: '危险',
-    //   infoLabel: '信息',
-    //   detailsLabel: '详细信息'
-    // }
-  },
   //true强制开启深色模式 false强制开启浅色模式
   // appearance: false,
+
   themeConfig: {
     // // logo
     logo: '/avatar.png',

@@ -1,101 +1,101 @@
-# 前端页面渲染方式
+# Front-end page rendering method
 
-## CSR 客户端渲染
+## CSR client rendering
 
-> `CSR` 客户端渲染（Client Side Rendering）
+> `CSR` Client Side Rendering
 
-客户端渲染是指浏览器在请求页面 `URL` 后，服务端直接返回一个空的静态 `HTML` 文件，这个 HTML 文件需要再加载 `JavaScript` 脚本和 `CSS` 样式表，浏览器加载和执行这些文件去动态改变 `DOM` 树的结构，使页面渲染成用户所需要的界面，这种动态渲染的方式就是客户端渲染 （CSR）
+Client-side rendering means that after the browser requests the page `URL`, the server directly returns an empty static `HTML` file. This HTML file needs to be loaded with `JavaScript` scripts and `CSS` style sheets for the browser to load and execute. These files dynamically change the structure of the `DOM` tree so that the page can be rendered into the interface required by the user. This dynamic rendering method is client-side rendering (CSR).
 
-### 优点
+### advantage
 
-- **局部刷新**：无需每次都进行完整页面请求
-- **懒加载**：首次加载时可以只加载可视区域内的数据
-- 丰富的站点交互
-- 减轻服务器压力
-- 前后端分离
+- **Partial Refresh**: No need to make full page request every time
+- **Lazy loading**: When loading for the first time, you can only load the data in the visible area
+- Rich site interaction
+- Reduce server pressure
+- Separation of front and rear ends
 
-### 缺点
+### shortcoming
 
-- 不利于 SEO
-- **首屏渲染慢**：需要等待 `JavaScript` 脚本文件加载完毕后才开始渲染页面
+- Not good for SEO
+- **Slow first screen rendering**: You need to wait for the `JavaScript` script file to be loaded before starting to render the page.
 
 ::: tip SEO
-SEO（Search Engine Optimization）：**搜索引擎优化**，利用搜索引擎的规则提高网站在有关搜索引擎内的自然排名。目的是让其在行业内占据领先地位，获得品牌收益。
+SEO (Search Engine Optimization): **Search Engine Optimization**, using the rules of search engines to improve the natural ranking of the website within the relevant search engines. The purpose is to allow it to occupy a leading position in the industry and gain brand benefits.
 :::
 
-## SSR 服务端渲染
+## SSR server-side rendering
 
-> `SSR` 服务端渲染（Server Side Rendering）
+> `SSR` Server Side Rendering
 
-服务端渲染是指浏览器在请求页面 `URL` 时，服务端将我们需要的 `HTML` 文本组装好，并返回给浏览器，这个 `HTML` 文本被浏览器解析之后，不需要经过 `JavaScript` 脚本的下载过程，就能直接构建出我们所希望的 `DOM` 树并展示到页面中。这个服务端组装 `HTML` 的过程就叫做服务端渲染（SSR）
+Server-side rendering means that when the browser requests the page `URL`, the server assembles the `HTML` text we need and returns it to the browser. After this `HTML` text is parsed by the browser, it does not need to go through `JavaScript `The script download process can directly build the `DOM` tree we want and display it on the page. This process of server-side assembly of `HTML` is called server-side rendering (SSR).
 
-### 优点
+### advantage
 
-- 有利于 SEO
-- 首屏渲染快
+- Good for SEO
+- Fast first screen rendering
 
-### 缺点
+### shortcoming
 
-- 占用服务器资源
-- 用户体验不好：新页面都需要在服务端重新渲染整个页面，不能局部渲染
-- 模板维护成本高
+- Taking up server resources
+- Poor user experience: new pages need to re-render the entire page on the server side, and cannot be partially rendered
+- High template maintenance costs
 
-## 同构渲染
+## Isomorphic rendering
 
-同构渲染是一种现代化服务端渲染方案，实际上是将 `CSR` 客户端渲染和 `SSR` 服务端渲染的优势结合起来实现互补；<br />
-其流程是先在 `Node.js` 中进行服务端渲染生成 `HTML`，然后通过客户端渲染接管页面交互
+Isomorphic rendering is a modern server-side rendering solution that actually combines the advantages of `CSR` client-side rendering and `SSR` server-side rendering to achieve complementarity;<br />
+The process is to first perform server-side rendering in `Node.js` to generate `HTML`, and then take over page interaction through client-side rendering.
 
-- 同构：是指同一套代码可以**同时运行在服务端和客户端**
-  - 路由同构
-  - 数据同构
-  - 渲染同构
-- 脱水（`dehydrate`）：在服务端渲染直出 `HTML` 前将预取的数据注入到 `window` 中
-- 注水（`hydrate`）：在客户端进行渲染前将 `window` 上绑定的数据传入到对应组件中
+- Isomorphism: means that the same set of code can run on both the server and the client at the same time\*\*
+  - Routing isomorphism
+  - Data isomorphism
+  - Rendering isomorphism
+- Dehydrate (`dehydrate`): Inject the prefetched data into `window` before rendering `HTML` directly on the server side
+- Water injection (`hydrate`): Pass the data bound on `window` to the corresponding component before rendering on the client
 
-![同构渲染流程](./images/page-rendering-isomorphism.png)
+![Isomorphic rendering process](./images/page-rendering-isomorphism.png)
 
-::: tip 为什么需要数据的脱水和注水？
-保证服务端和客户端端渲染的组件具有相同的 `props` 和 `DOM` 结构
+::: tip Why is data dehydration and water filling required?
+Ensure that server-side and client-side rendered components have the same `props` and `DOM` structures
 :::
 
-### 优点
+### advantage
 
-- 有利于 SEO
-- 首屏渲染快
-- **局部刷新**：无需每次都进行完整页面请求
+- Good for SEO
+- Fast first screen rendering
+- **Partial Refresh**: No need to make full page request every time
 
-### 缺点
+### shortcoming
 
-- `Node` 服务的性能压力
-- 服务端和浏览器环境的差异
+- Performance pressure of `Node` service
+- Differences between server and browser environments
 
-### 开箱即用的 SSR 框架
+### Out-of-the-box SSR framework
 
-- [Next.js](https://github.com/vercel/next.js) `React` 应用开发框架
-- [Nuxt.js](https://github.com/nuxt/nuxt.js) `Vue.js` 通用应用框架
+- [Next.js](https://github.com/vercel/next.js) `React` application development framework
+- [Nuxt.js](https://github.com/nuxt/nuxt.js) `Vue.js` universal application framework
 
-## SSG 静态站点生成
+## SSG static site generation
 
-> `SSG` 静态网站生成（Static Site Generation）
+> `SSG` Static Site Generation
 
-静态站点生成是指在构建时就会为每个页面生成包含内容的 `HTML` 文件，当浏览器在请求页面 `URL` 时，服务端直接返回 HTML 即可。
+Static site generation means that an `HTML` file containing content is generated for each page during construction. When the browser requests the page `URL`, the server directly returns HTML.
 
-### 优点
+### advantage
 
-- 有利于 SEO
-- 首屏渲染快
-- 减轻服务器压力
+- Good for SEO
+- Fast first screen rendering
+- Reduce server pressure
 
-### 缺点
+### shortcoming
 
-- 每次更改内容时都需要重新构建和部署应用程序
-- 无法生成用户相关内容
+- Application needs to be rebuilt and deployed every time content is changed
+- Unable to generate user-related content
 
-::: tip SSG 应用场景
+::: tip SSG application scenarios
 
-SSG 适合应用在页面内容在构建时就能确定的场景
+SSG is suitable for scenarios where the page content can be determined when it is built.
 
-- 静态官网
-- 文档网站
+- Static official website
+- Documentation website
 
 :::

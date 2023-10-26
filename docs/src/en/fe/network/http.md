@@ -1,143 +1,143 @@
-# HTTP
+#HTTP
 
-[HTTP](https://developer.mozilla.org/zh-CN/docs/Web/HTTP) 全称为 HyperText Transfer Protocol，即超文本传输协议，是一个用于传输超媒体文档(例如 `HTML`)的应用层协议
+[HTTP](https://developer.mozilla.org/zh-CN/docs/Web/HTTP) stands for HyperText Transfer Protocol, which is a protocol for transmitting hypermedia documents (such as `HTML`) application layer protocol
 
-::: tip HTTP 协议的主要特点
+::: tip Main features of HTTP protocol
 
-- 是一个应用层协议
-- **遵循经典的“客户端-服务端”模型**(客户端发送请求，服务器返回响应)
-- **灵活可扩展**
-  - 语义上的自由，只规定了报文的基本格式，报文里的各个组成部分可以由开发者任意定制
-  - 传输格式的多样性
-- **无连接**: 每完成一个请求就断开连接(HTTP/1.1 后默认开启长连接)
-- **无状态**: HTTP 协议对于事务处理没有记忆能力(每个请求之间、浏览器和服务器之间都是相互独立毫无关联的)
-- **可靠传输**: HTTP 协议是一个可靠的传输协议(基于 TCP/IP 协议)
-- **明文传输**: 协议里的报文直接使用文本形式传输(HTTP/2.0 后改为二进制传输)
+- is an application layer protocol
+- **Follow the classic "client-server" model** (client sends request, server returns response)
+- **Flexible and scalable**
+  - Semantic freedom, only stipulates the basic format of the message, and each component of the message can be customized by the developer.
+  - Diversity of transmission formats
+- **No connection**: Disconnect every time a request is completed (long connections are enabled by default after HTTP/1.1)
+- **Stateless**: The HTTP protocol has no memory for transaction processing (each request, the browser and the server are independent of each other)
+- **Reliable transmission**: HTTP protocol is a reliable transmission protocol (based on TCP/IP protocol)
+- **Clear text transmission**: Messages in the protocol are directly transmitted in text form (changed to binary transmission after HTTP/2.0)
 
 :::
 
-## HTTP 协议的演变
+## Evolution of the HTTP protocol
 
-[HTTP 协议演进与各版本特性](https://mp.weixin.qq.com/s/RuHaKgwpCMvPQeEwe31k2A)
+[HTTP protocol evolution and characteristics of each version](https://mp.weixin.qq.com/s/RuHaKgwpCMvPQeEwe31k2A)
 
 ### HTTP/0.9
 
-> 1990 年问世
+> Launched in 1990
 
-功能简陋，只有一个 `GET` 方法，且只支持纯文本内容
+The function is simple, there is only one `GET` method, and it only supports plain text content
 
 ### HTTP/1.0
 
-> 1996 年 5 月正式发布
+> Officially released in May 1996
 
-- 任何格式的内容都可以发送
-- 请求和响应增加了头信息
-- 新增方法：`POST HEAD`
-- 添加了状态码、多字符集支持、权限、缓存、内容编码等功能
+- Content in any format can be sent
+- Added header information to requests and responses
+- New method: `POST HEAD`
+- Added status codes, multi-character set support, permissions, caching, content encoding and other functions
 
 ### HTTP/1.1
 
-> 1997 年 1 月发布，是**目前主流的 HTTP 协议版本**
+> Released in January 1997, it is the **currently mainstream HTTP protocol version**
 
-- **长连接**：TCP 连接默认不关闭可以被多个请求复用
-- **管道机制**：在同一个 TCP 链接里面，客户端可以同时发送多个请求
-- **分块传输编码**
-- 缓存处理：`Cache-Control` 和 `Etag/If-None-Match`
-- 断点续传
-- 增加了 `TLS` 支持：支持 `HTTPS` 传输
-- 新增方法：`PUT PATCH OPTIONS DELETE`
+- **Long connection**: TCP connection is not closed by default and can be reused by multiple requests
+- **Pipeline mechanism**: In the same TCP link, the client can send multiple requests at the same time
+- **chunked transfer encoding**
+- Cache handling: `Cache-Control` and `Etag/If-None-Match`
+- http
+- Added `TLS` support: supports `HTTPS` transmission
+- New method: `PUT PATCH OPTIONS DELETE`
 
-::: warning HTTP/1.1 缺点
+::: warning HTTP/1.1 Disadvantages
 
-- 单路连接请求低效：每个 TCP 连接只能对应一个 HTTP 请求
-- 队头阻塞：当顺序发送的请求序列中的一个请求因为某种原因被阻塞时，在后面排队的所有请求也一并被阻塞，会导致客户端迟迟收不到数据。
-- 头信息冗余
-- 只允许由客户端主动发起请求
-- 明文传输
+- Single-way connection request is inefficient: each TCP connection can only correspond to one HTTP request
+- Head-of-queue blocking: When a request in the sequence of requests sent sequentially is blocked for some reason, all requests queued later will also be blocked, causing the client to be unable to receive data for a long time.
+- Redundant header information
+- Only requests initiated by the client are allowed
+- Clear text transmission
 
 :::
 
 ### HTTP/2.0
 
-> 2015 年发布，主要基于 SPDY 协议（2009 年谷歌公开了自行研发的 SPDY 协议，主要解决 HTTP/1.1 效率不高的问题）
+> Released in 2015, mainly based on the SPDY protocol (in 2009, Google disclosed its self-developed SPDY protocol, which mainly solved the problem of low efficiency of HTTP/1.1)
 
-- **二进制传输**：头信息和数据体都是二进制
-- **多路复用/二进制分帧**：在一个 TCP 连接中可以同时发送多个请求
-- **头部压缩**（使用 HPACK 算法进行压缩）
-- **服务器推送**：允许服务器未经请求主动向客户端发送资源
-- **请求优先级**
+- **Binary transmission**: header information and data body are both binary
+- **Multiplexing/Binary Framing**: Multiple requests can be sent simultaneously in one TCP connection
+- **Header Compression** (compression using HPACK algorithm)
+- **Server Push**: Allows the server to proactively send resources to the client without request
+- **Request Priority**
 
-::: warning HTTP/2.0 缺点
+::: warning HTTP/2.0 Disadvantages
 
-- 建立连接时间长（本质上是 TCP 的问题）
-- 没有彻底解决队头阻塞问题
-- 弱网环境表现不佳
+- Long time to establish connection (essentially a TCP problem)
+- The problem of head-of-line blocking is not completely solved
+- Poor performance in weak network environment
 
 :::
 
 ### HTTP/3.0
 
-HTTP/3.0 又称为 HTTP Over QUIC，其弃用 TCP 协议，改为使用基于 UDP 协议的 QUIC 协议来实现
+HTTP/3.0, also known as HTTP Over QUIC, abandons the TCP protocol and instead uses the QUIC protocol based on the UDP protocol.
 
-- 实现了类似 TCP 的流量控制、传输可靠性的功能
-- 实现了快速握手功能
-- 集成了 TLS 加密功能
-- 多路复用，彻底解决 TCP 中队头阻塞的问题
+- Implements TCP-like flow control and transmission reliability functions
+- Implemented fast handshake function
+- Integrated TLS encryption
+- Multiplexing to completely solve the problem of TCP squadron head blocking
 
-## HTTP 状态码
+## HTTP status code
 
-`HTTP` 状态码的职责是当客户端向服务器端发送请求时，描述返回的请求结果。借助状态码，用户可以知道服务器端是正常处理了请求，还是出现了错误。
+The responsibility of the `HTTP` status code is to describe the returned request result when the client sends a request to the server. With the help of status codes, users can know whether the server processed the request normally or whether an error occurred.
 
-主要有以下 `5` 响应类别的状态码
+There are mainly the following `5` response category status codes
 
-- `1XX` 是信息性状态码，表示接收的请求正在处理
-- `2XX` 是成功状态码，表示请求正常处理完毕
-- `3XX` 是重定向状态码，表示需要进行附加操作以完成请求
-- `4XX` 是客户端错误状态码，表示服务器无法处理请求
-- `5XX` 是服务器错误状态码，表示服务器处理请求出错
+- `1XX` is an informational status code indicating that the received request is being processed
+- `2XX` is a success status code, indicating that the request has been processed normally.
+- `3XX` is a redirect status code indicating that additional operations are required to complete the request
+- `4XX` is a client error status code, indicating that the server cannot process the request
+- `5XX` is a server error status code, indicating that the server has an error in processing the request.
 
-### 2XX 成功
+### 2XX Success
 
-- `200 OK` 表示从客户端发来的请求在服务器端被正常处理
-- `204 No Content` 表示请求成功但在返回的响应报文中不含实体的主体部分
-- `206 Partial Content` 表示客户端进行了范围请求
+- `200 OK` means that the request sent from the client is processed normally on the server side
+- `204 No Content` means that the request is successful but the returned response message does not contain the body part of the entity.
+- `206 Partial Content` indicates that the client made a range request
 
-### 3XX 重定向
+### 3XX redirect
 
-- `301 Moved Permanently` 永久性重定向，表示资源已被分配了新的 `URL`
-- `302 Found` 临时性重定向，表示资源临时被分配了新的 `URL`
-- `303 See Other` 表示资源存在着另一个 `URL`，应使用 `GET` 方法定向获取请求的资源
-- `304 Not Modified` 表示客户端发送附带条件的请求时，服务器端允许请求访问资源但未满足条件的情况
-- `307 Temporary Redirect` 临时重定向，和 `302 Found` 有着相同的含义
+- `301 Moved Permanently` permanent redirection, indicating that the resource has been assigned a new `URL`
+- `302 Found` temporary redirection, indicating that the resource has been temporarily assigned a new `URL`
+- `303 See Other` means that there is another `URL` for the resource, and the `GET` method should be used to obtain the requested resource.
+- `304 Not Modified` means that when the client sends a request with conditions, the server allows the request to access the resource but the conditions are not met.
+- `307 Temporary Redirect` has the same meaning as `302 Found`
 
-### 4XX 客户端错误
+### 4XX client error
 
-- `400 Bad Request` 表示请求报文中存在语法错误
-- `401 Unauthorized` 表示发送的请求需要有通过 `HTTP` 认证的认证信息
-- `403 Forbidden` 表示对请求资源的访问被服务器拒绝
-- `404 Not Found` 表示服务器上无法找到请求的资源
+- `400 Bad Request` means there is a syntax error in the request message
+- `401 Unauthorized` means that the request sent needs to have authentication information passed `HTTP` authentication
+- `403 Forbidden` means that access to the requested resource was denied by the server
+- `404 Not Found` means the requested resource cannot be found on the server
 
-### 5XX 服务器错误
+### 5XX server error
 
-- `500 Internal Server Error` 表示服务器端在执行请求时发生了错误
-- `503 Service Unavailable` 表示服务器暂时处于超负载或正在进行停机维护，现在无法处理请求
+- `500 Internal Server Error` means that an error occurred on the server side when executing the request.
+- `503 Service Unavailable` means that the server is temporarily overloaded or is undergoing downtime for maintenance and is currently unable to process requests.
 
-## GET 和 POST 的区别
+## The difference between GET and POST
 
-> 安全是指请求方法不会破坏服务器上的资源
+> Security means that the request method will not destroy resources on the server
 >
-> 幂等是指多次执行相同的操作，其结果都是相同的
+> Impotence means that if you perform the same operation multiple times, the result will be the same
 
-- **语义上**（最本质的区别）
-  - `GET` 是从服务器获取指定的资源，`GET` 方法是安全、幂等、可被缓存的
-  - `POST` 是根据请求负荷（报文 body）对指定的资源做出处理，具体的处理方式视资源类型而不同。`POST` 不安全、不幂等、（大部分实现）不可缓存。
+- **Semantic** (the most essential difference)
+  - `GET` is to obtain the specified resource from the server. The `GET` method is safe, idempotent, and can be cached
+  - `POST` processes the specified resource based on the request load (message body). The specific processing method varies depending on the resource type. `POST` is not safe, not idempotent, and (in most implementations) not cacheable.
 
-在实际过程中开发者不一定会按照 RFC 规范定义的语义来实现 `GET` 和 `POST` 方法
+In the actual process, developers may not necessarily implement the `GET` and `POST` methods according to the semantics defined by the RFC specification.
 
-- 可以用 `GET` 方法实现新增或删除数据的请求，这样实现的 `GET` 方法自然就不是安全和幂等；
-- 可以用 `POST` 方法实现查询数据的请求，这样实现的 `POST` 方法自然就是安全和幂等
+- You can use the `GET` method to implement requests to add or delete data. The `GET` method implemented in this way is naturally not safe and idempotent;
+- You can use the `POST` method to implement a request to query data. The `POST` method implemented in this way is naturally safe and idempotent.
 
-::: tip GET 请求可以带 body 吗？
-RFC 规范并没有规定 `GET` 请求不能带 body。只是因为 RFC 规范定义的 `GET` 请求是获取资源，所以根据这个语义不需要用到 body。<br />
-**理论上任何 HTTP 请求都可以带 body，任何 HTTP 请求的 URL 也可以携带查询参数**
+::: tip Can GET request include body?
+The RFC specification does not stipulate that `GET` requests cannot carry bodies. Just because the `GET` request defined by the RFC specification is to obtain resources, there is no need to use the body according to this semantics. <br />
+**Theoretically any HTTP request can carry a body, and the URL of any HTTP request can also carry query parameters**
 :::

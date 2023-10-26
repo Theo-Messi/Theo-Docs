@@ -1,30 +1,30 @@
-# 继承
+#Inheritance
 
-::: tip 温馨提示
-阅读[《JavaScript 高级程序设计（第 4 版）》](https://www.ituring.com.cn/book/2472)和各个大佬的文章所归纳的总结，**如有异议按你的理解为主**
+::: tip Tips
+Read ["JavaScript Advanced Programming (4th Edition)"](https://www.ituring.com.cn/book/2472) and the summary summarized in the articles of various experts. **If you have any objection, please press your Understand first**
 :::
 
-继承是面向对象编程中的一个最为人津津乐道的概念，其描述了类与类之间的父子关系，主要作用是提升代码复用性让代码更为简洁。
+Inheritance is one of the most talked-about concepts in object-oriented programming. It describes the parent-child relationship between classes. Its main function is to improve code reusability and make the code more concise.
 
-很多面向对象语言都支持两种继承：
+Many object-oriented languages support two types of inheritance:
 
-- 接口继承：只继承方法签名
-- 实现继承：直接继承实际的方法
+- Interface inheritance: only inherit method signatures
+- Implement inheritance: directly inherit the actual method
 
-接口继承在 `ECMAScript` 中是不可能的，因为函数没有签名，因此实现继承是 `ECMAScript` 唯一支持的继承方式，而且其**实现继承主要是依靠原型链来实现**的。
+Interface inheritance is not possible in `ECMAScript` because functions have no signatures, so implementation inheritance is the only inheritance method supported by `ECMAScript`, and its **implementation inheritance mainly relies on the prototype chain**.
 
-## 原型链继承
+## Prototype chain inheritance
 
-构造函数、原型和实例的关系：每个构造函数都有一个原型对象，原型有一个属性指回构造函数，而实例有一个内部指针指向原型。如果原型是另一个类型的实例呢？那就意味着这个原型本身有一个内部指针指向另一个原型，相应地另一个原型也有一个指针指向另一个构造函数。这样就在实例和原型之间构造了一条原型链。这就是原型链的基本构想
+The relationship between constructors, prototypes and instances: Each constructor has a prototype object, the prototype has a property pointing back to the constructor, and the instance has an internal pointer pointing to the prototype. What if the prototype is an instance of another type? That means that the prototype itself has an internal pointer to another prototype, which in turn has a pointer to another constructor. This creates a prototype chain between the instance and the prototype. This is the basic idea of the prototype chain
 
-::: tip 原型链继承
+::: tip prototype chain inheritance
 
-原型链继承是通过重写子类的原型**将父类的实例作为子类的原型**
+Prototype chain inheritance is to use the instance of the parent class as the prototype of the subclass by overriding the prototype of the subclass\*\*
 
-缺点
+shortcoming
 
-- 父类上的引用类型属性会被所有实例共享，其中一个实例进行修改时会影响其他实例
-- 创建子类实例时不能向父类构造函数传参
+- Reference type attributes on the parent class will be shared by all instances. Modification of one instance will affect other instances.
+- When creating a subclass instance, parameters cannot be passed to the parent class constructor.
 
 :::
 
@@ -42,7 +42,7 @@ function SubType() {
   this.subproperty = false
 }
 
-// 关键点：创建父类 SuperType 的实例并将其赋值给子类的原型 SubType.prototype
+// Key point: Create an instance of the parent class SuperType and assign it to the prototype of the subclass SubType.prototype
 SubType.prototype = new SuperType()
 
 SubType.prototype.getSubValue = function () {
@@ -51,25 +51,25 @@ SubType.prototype.getSubValue = function () {
 
 const instance1 = new SubType()
 console.log('instance1', instance1.getSuperValue()) // 'Super'
-// 在其中一个子类实例上修改父类上的引用属性
+// Modify the reference attribute on the parent class on one of the subclass instances
 instance1.colors.push('black')
 
 const instance2 = new SubType()
 console.log('instance2', instance2.getSuperValue()) // 'Super'
-// 在另一个子类实例上输出父类上的引用属性
+// Output the reference attribute on the parent class on another subclass instance
 console.log('instance2', instance2.colors) // ['red', 'blue', 'green', 'black']
 ```
 
-## 借用构造函数继承（经典继承）
+## Borrowing constructor inheritance (classic inheritance)
 
-::: tip 借用构造函数继承（经典继承）
+::: tip Borrowing constructor inheritance (classic inheritance)
 
-借用构造函数继承是**使用父类的构造函数来增强子类实例**等同于复制父类的实例给子类（不使用原型）
+Borrowing constructor inheritance is **using the parent class's constructor to enhance the child class instance** which is equivalent to copying the instance of the parent class to the child class (without using a prototype)
 
-缺点
+shortcoming
 
-- 方法都在构造函数中定义，每次创建实例都会创建一遍方法（影响性能）
-- 只能继承父类的实例属性和方法，不能继承原型属性和方法
+- Methods are defined in the constructor, and each time an instance is created, the method will be created (affecting performance)
+- You can only inherit instance properties and methods from the parent class, but not prototype properties and methods.
 
 :::
 
@@ -83,7 +83,7 @@ function SuperType(name) {
 }
 
 function SubType(name) {
-  // 继承 SuperType
+  //Inherit SuperType
   SuperType.call(this, name)
 }
 
@@ -99,35 +99,35 @@ console.log('instance2', instance2.colors) // ['red', 'blue', 'green']
 console.log(instance1.log === instance2.log) // false
 ```
 
-## 组合继承
+## Combination inheritance
 
-::: tip 组合继承
+::: tip combined inheritance
 
-组合继承（有时候也叫伪经典继承）是上面两种继承的组合，将两者的优点集中了起来。基本的思路是**使用原型链继承原型上的属性和方法，通过借用构造函数来实现对实例属性的继承**。这样既可以把方法定义在原型上实现函数复用，又可以让每个实例都有其自己的属性
+Combination inheritance (sometimes also called pseudo-classical inheritance) is a combination of the above two inheritances, which combines the advantages of both. The basic idea is to use the prototype chain to inherit the properties and methods on the prototype, and to inherit the instance properties by borrowing the constructor. In this way, methods can be defined on the prototype to achieve function reuse, and each instance can have its own attributes.
 
-- 优点：弥补了原型链和借用构造函数的不足，**是 `JavaScript` 中使用最多的继承模式**。而且组合继承也保留了 `instanceof` 操作符和 `isPrototypeOf()` 方法识别合成对象的能力
-- 缺点：由于调用了两次父类的构造函数，导致父类中的实例属性和方法既存在于子类的实例中又存在于子类的原型中
+- Advantages: It makes up for the shortcomings of the prototype chain and borrowed constructors, and is the most commonly used inheritance pattern in JavaScript. Moreover, combined inheritance also retains the ability of the `instanceof` operator and the `isPrototypeOf()` method to identify synthetic objects.
+- Disadvantage: Because the constructor of the parent class is called twice, the instance attributes and methods in the parent class exist in both the instance of the subclass and the prototype of the subclass.
 
 :::
 
 ```js
 function SuperType(name) {
-  // 定义属性
+  // define properties
   this.name = name
   this.colors = ['red', 'blue', 'green']
 }
-// 定义方法
+// define method
 SuperType.prototype.sayName = function () {
   console.log(this.name)
 }
 
 function SubType(name, age) {
-  // 继承属性（第二次调用：创建子类实例时调用）
+  //Inherited properties (second call: called when creating a subclass instance)
   SuperType.call(this, name)
   this.age = age
 }
 
-// 继承方法（第一次调用：给子类原型赋值时调用）
+// Inherited method (first call: called when assigning a value to the subclass prototype)
 SubType.prototype = new SuperType()
 SubType.prototype.constructor = SubType
 SubType.prototype.sayAge = function () {
@@ -146,26 +146,26 @@ instance2.sayName() // 'maomao1996'
 instance2.sayAge() // 27
 ```
 
-组合继承缺点图解
+Illustration of disadvantages of combined inheritance
 
-![组合继承缺点](./images/combination-inheritance.png)
+![Disadvantages of combination inheritance](./images/combination-inheritance.png)
 
-## 原型式继承
+## Prototypal inheritance
 
-::: tip 原型式继承
+::: tip Prototypal inheritance
 
-原型式继承是**利用一个空对象作为中介，将某个对象直接赋值给空对象构造函数的原型**
+Prototypal inheritance is **using an empty object as an intermediary to directly assign an object to the prototype of the empty object constructor**
 
-缺点（和原型链继承一样）
+Disadvantages (same as prototype chain inheritance)
 
-- 引用类型属性会被所有实例共享，其中一个实例进行修改时会影响其他实例
-- 无法传递参数
-- 每次创建对象都会创建一遍方法
+- Reference type properties are shared by all instances, and modifications to one instance will affect other instances.
+- Unable to pass parameters
+- Each time an object is created, a method will be created
 
 :::
 
 ```js
-// 借用临时构造函数，将传入的对象作为其原型对象并返回其实例
+// Borrow the temporary constructor, use the incoming object as its prototype object and return its instance
 function object(obj) {
   function F() {}
   F.prototype = obj
@@ -173,7 +173,7 @@ function object(obj) {
 }
 ```
 
-`object()` 方法就是 `ES5` `Object.create` 的模拟实现：**将传入的对象作为创建的对象的原型**
+The `object()` method is a simulated implementation of `ES5` `Object.create`: **use the passed in object as the prototype of the created object**
 
 ```js
 const person = {
@@ -190,39 +190,39 @@ instance2.colors.push('white')
 console.log(person.colors) // ['red', 'blue', 'green', 'black', 'white']
 ```
 
-::: warning 注意点
+::: warning Notes
 
-修改 `instance1.name` 时，`instance2.name` 的值并未发生改变，并不是因为 `instance1` 和 `instance2` 有独立的 `name` 值，而是因为 `instance1.name = 'maomao'` 是给 `instance1` 添加了 `name` 值，并非修改了原型上的 `name` 值
+When modifying `instance1.name`, the value of `instance2.name` has not changed, not because `instance1` and `instance2` have independent `name` values, but because `instance1.name = 'maomao'` The `name` value is added to `instance1`, not the `name` value on the prototype is modified.
 
-![原型式继承注意点](./images/prototypal-inheritance.png)
+![Notes on prototypal inheritance](./images/prototypal-inheritance.png)
 
 :::
 
-## 寄生式继承
+## Parasitic inheritance
 
-::: tip 寄生式继承
+::: tip Parasitic inheritance
 
-寄生式继承和原型式继承比较接近，其主要实现**是创建一个实现继承的函数，以某种方式增强对象，然后返回这个对象**
+Parasitic inheritance is close to prototypal inheritance. Its main implementation** is to create a function that implements inheritance, enhance the object in some way, and then return this object**
 
-缺点
+shortcoming
 
-- 引用类型属性会被所有实例共享，其中一个实例进行修改时会影响其他实例
-- 无法传递参数
-- 每次创建对象都会创建一遍方法
+- Reference type properties are shared by all instances, and modifications to one instance will affect other instances.
+- Unable to pass parameters
+- Each time an object is created, a method will be created
 
 :::
 
 ```js
 function createAnother(original) {
-  // 通过 Object.create 创建一个新对象
+  //Create a new object via Object.create
   const clone = Object.create(original)
 
-  // 以某种方式增强这个对象（新增属性和方法）
+  // Enhance this object in some way (add new properties and methods)
   clone.sayHi = function () {
     console.log('hi')
   }
 
-  // 返回这个对象
+  //Return this object
   return clone
 }
 
@@ -242,25 +242,25 @@ console.log('instance2', instance2.colors) // ['red', 'blue', 'green', 'black']
 console.log(instance1.sayHi === instance2.sayHi) // false
 ```
 
-## 寄生组合式继承
+## Parasitic combined inheritance
 
-::: tip 寄生组合式继承
-寄生组合式继承对组合继承进行了改良，优化调用两次父类构造函数的问题，就得到了一个 `ES6` 之前最佳的继承方式：**通过借用构造函数继承属性，再使用寄生式继承来继承父类原型，然后将返回的新对象赋值给子类原型**
+::: tip Parasitic Combinatorial Inheritance
+Parasitic combined inheritance improves combined inheritance and optimizes the problem of calling the parent class constructor twice, resulting in the best inheritance method before `ES6`: **Inherit properties by borrowing constructors, and then use parasitic inheritance To inherit the parent class prototype, and then assign the returned new object to the subclass prototype**
 
-优点：只调用一次父类构造函数，并且因此避免了在父类原型上面创建不必要的、多余的属性。与此同时原型链还能保持不变；因此还能够正常使用 `instanceof` 和 `isPrototypeOf`
+Advantages: The parent class constructor is only called once, and thus avoids creating unnecessary and redundant properties on the parent class prototype. At the same time the prototype chain remains unchanged; therefore `instanceof` and `isPrototypeOf` can still be used normally
 :::
 
 ```js
 function inheritPrototype(subType, superType) {
-  // 创建对象：创建父类原型的一个副本
+  //Create object: Create a copy of the parent class prototype
   const prototype = Object.create(superType.prototype)
-  // 增强对象：解决因重写原型导致默认 constructor 丢失的问题
+  // Enhanced object: solve the problem of default constructor being lost due to overriding the prototype
   prototype.constructor = subType
-  // 指定对象：将新创建的对象赋值给子类的原型
+  //Specify object: assign the newly created object to the prototype of the subclass
   subType.prototype = prototype
 }
 
-// 父类初始化实例属性和原型属性
+//The parent class initializes instance properties and prototype properties
 function SuperType(name) {
   this.name = name
   this.colors = ['red', 'blue', 'green']
@@ -269,16 +269,16 @@ SuperType.prototype.sayName = function () {
   alert(this.name)
 }
 
-// 借用构造函数传递增强子类实例属性（支持传参和避免篡改）
+// Borrow constructor to pass enhanced subclass instance attributes (support parameter passing and avoid tampering)
 function SubType(name, age) {
   SuperType.call(this, name)
   this.age = age
 }
 
-// 将父类原型指向子类
+// Point the parent class prototype to the child class
 inheritPrototype(SubType, SuperType)
 
-// 新增子类原型属性
+//Add subclass prototype attributes
 SubType.prototype.sayAge = function () {
   alert(this.age)
 }
@@ -290,13 +290,13 @@ const instance2 = new SubType('maomao1996', 27)
 instance2.colors.push('A') // ['red', 'blue', 'green', 'A']
 ```
 
-![寄生组合式继承](./images/parasitic-combination-inheritance.png)
+![Parasitic Combination Inheritance](./images/parasitic-combination-inheritance.png)
 
-## ES6 类继承 extends
+## ES6 class inheritance extends
 
-> `ES6` 的 `class` 只是**一个语法糖本质上依然是函数**，它的绝大部分功能，`ES5` 都可以做到，新的 `class` 写法只是让对象原型的写法更加清晰、更像面向对象编程的语法而已
+> The `class` of `ES6` is just a syntax sugar, which is still essentially a function. Most of its functions can be achieved by `ES5`. The new `class` way of writing just makes the object prototype more convenient. Clear, more like object-oriented programming syntax
 
-`class` 可以通过 `extends` 关键字实现继承，让子类继承父类的属性和方法。`extends` 的写法比 `ES5` 的原型链继承，要清晰和方便很多
+`class` can achieve inheritance through the `extends` keyword, allowing subclasses to inherit the properties and methods of the parent class. The writing method of `extends` is much clearer and more convenient than the prototype chain inheritance of `ES5`
 
 ```js
 class Point {
@@ -311,12 +311,12 @@ class Point {
 
 class ColorPoint extends Point {
   constructor(x, y, color) {
-    super(x, y) // 调用父类的 constructor(x, y)
+    super(x, y) // Call the parent class's constructor(x, y)
     this.color = color
   }
 
   toString() {
-    return this.color + ' ' + super.toString() // 调用父类的 toString()
+    return this.color + ' ' + super.toString() // Call the toString() of the parent class
   }
 }
 
@@ -324,26 +324,26 @@ const colorPoint = new ColorPoint('1', '2', 'red')
 console.log(colorPoint.toString()) // red 12
 ```
 
-::: tip ES5 和 ES6 的继承机制
+::: tip The inheritance mechanism of ES5 and ES6
 
-- `ES5` 的继承机制
-  - 先创造一个独立的子类的实例对象，然后再将父类的方法添加到这个对象上面，即**实例在前，继承在后**
-- `ES6` 的继承机制
-  - 先将父类的属性和方法，加到一个空的对象上面，然后再将该对象作为子类的实例，即**继承在前，实例在后**
+- `ES5` inheritance mechanism
+  - First create an instance object of an independent subclass, and then add the methods of the parent class to this object, that is, **instance first, inheritance last**
+- `ES6` inheritance mechanism
+  - First add the attributes and methods of the parent class to an empty object, and then use the object as an instance of the subclass, that is, **inheritance first, instance last**
 
 :::
 
-[通过 babel 编译来了解其背后的实现原理](https://babeljs.io/repl/#?browsers=&build=&builtIns=false&corejs=false&spec=false&loose=true&code_lz=MYGwhgzhAEAKD2BLAdgF2gbwFDWseyEqATgK7CrzEAUAHgDTQCeAlJjrtKgBaIQB0taAF5otDrh59-TEcw4BfLEqyhIMAMLwQVBCnQBTWqgPIAJjD1p2ufIRLlKNBs0b4dxNtk7QIpAA4GzoysEly8Au5UclHEispAA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=env&prettier=false&targets=&version=7.15.3&externalPlugins=&assumptions=%7B%7D)
+[Understand the implementation principle behind it through babel compilation](https://babeljs.io/repl/#?browsers=&build=&builtIns=false&corejs=false&spec=false&loose=true&code_lz=MYGwhgzhAEAKD2BLAdgF2gbwFDWseyEqATgK7CrzEAUAHgDTQCeAlJjrtKgBaIQB0taAF5otD rh59-TEcw4BfLEqyhIMAMLwQVBCnQBTWqgPIAJjD1p2ufIRLlKNBs0b4dxNtk7QIpAA4GzoysEly8Au5UclHEispAA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate =true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=env&prettier=false&targets=&version=7.15.3&externalPlugins=&assumptions=%7B%7D)
 
 ```js
-// 实现继承（类似于 ES5 的寄生组合式继承）
+// Implement inheritance (similar to ES5's parasitic composable inheritance)
 function _inheritsLoose(subClass, superClass) {
   subClass.prototype = Object.create(superClass.prototype)
   subClass.prototype.constructor = subClass
   _setPrototypeOf(subClass, superClass)
 }
 
-// 模拟 ES6 的 Reflect.setPrototypeOf 方法
+// Simulate ES6's Reflect.setPrototypeOf method
 function _setPrototypeOf(o, p) {
   _setPrototypeOf =
     Object.setPrototypeOf ||
@@ -354,39 +354,39 @@ function _setPrototypeOf(o, p) {
   return _setPrototypeOf(o, p)
 }
 
-// 父类构造函数
+// Parent class constructor
 var Point = function Point(x, y) {
   this.x = x
   this.y = y
 }
 
-// 子类构造函数
+// Subclass constructor
 var ColorPoint = /*#__PURE__*/ (function (_Point) {
   _inheritsLoose(ColorPoint, _Point)
 
   function ColorPoint(x, y, color) {
-    var _this
+    var_this
 
     _this = _Point.call(this, x, y) || this
     _this.color = color
-    return _this
+    return_this
   }
 
-  return ColorPoint
+  returnColorPoint
 })(Point)
 ```
 
-## 总结
+## Summarize
 
-- 原型链继承：通过重写子类的原型**将父类的实例作为子类的原型**
-- 借用构造函数继承：**使用父类的构造函数来增强子类实例**等同于复制父类的实例给子类（不使用原型）
-- 组合继承：**使用原型链继承原型上的属性和方法，通过借用构造函数来实现对实例属性的继承**
-- 原型式继承：**利用一个空对象作为中介，将某个对象直接赋值给空对象构造函数的原型**
-- 寄生式继承：**创建一个实现继承的函数，以某种方式增强对象，然后返回这个对象**
-- 寄生组合式继承：**通过借用构造函数继承属性，再使用寄生式继承来继承父类原型，然后将返回的新对象赋值给子类原型**
+- Prototype chain inheritance: By rewriting the prototype of the subclass **use the instance of the parent class as the prototype of the subclass**
+- Borrowed constructor inheritance: **Using the constructor of the parent class to enhance the subclass instance** is equivalent to copying the instance of the parent class to the subclass (without using a prototype)
+- Combined inheritance: **Use the prototype chain to inherit properties and methods on the prototype, and inherit instance properties by borrowing constructors**
+- Prototypal inheritance: **Use an empty object as an intermediary to directly assign an object to the prototype of the empty object constructor**
+- Parasitic inheritance: **Create a function that implements inheritance, enhance the object in some way, and then return this object**
+- Parasitic combined inheritance: **Inherit properties by borrowing constructors, then use parasitic inheritance to inherit the parent class prototype, and then assign the returned new object to the child class prototype**
 
-## 相关文章
+## related articles
 
-- [JavaScript 常用八种继承方案](https://github.com/yygmind/blog/issues/7)
-- [JavaScript 深入之继承的多种方式和优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
-- [ES6 系列之 Babel 是如何编译 Class 的(下)](https://github.com/mqyqingfeng/Blog/issues/106)
+- [Eight commonly used inheritance schemes in JavaScript](https://github.com/yygmind/blog/issues/7)
+- [Various methods, advantages and disadvantages of JavaScript in-depth inheritance](https://github.com/mqyqingfeng/Blog/issues/16)
+- [How Babel compiles Class in ES6 series (Part 2)](https://github.com/mqyqingfeng/Blog/issues/106)

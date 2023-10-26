@@ -1,15 +1,15 @@
 ---
-title: ESXI写盘
+title: ESXI write disk
 ---
 
-## Ventoy 写盘
+## Ventoy write disk
 
-- U 盘插入 PC
-- 电脑运行 Ventoy2Disk.exe
-- Ventoy 配置选项中将分区类型改为 GPT,安全启动支持打勾
+- Insert the USB flash drive into the PC
+- The computer is running Ventoy2Disk.exe
+- Change the partition type to GPT in the Ventoy configuration options, and check the secure boot support
 
-## Balenaetcher 写盘
+## Balenaetcher write disk
 
-- U 盘插入 PC
-- 电脑运行 Balenaetcher
-- 从文件烧录-选择 U 盘-现在烧录
+- Insert the USB flash drive into the PC
+- Computer running Balenaetcher
+- Burn from file-select USB flash drive-burn now

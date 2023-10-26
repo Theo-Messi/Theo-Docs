@@ -14,7 +14,6 @@
     "@mdit-vue/shared": "^1.0.0",
     "@vercel/analytics": "^1.1.1",
     "medium-zoom": "^1.0.8",
-    "vitepress-markdown-timeline": "^1.2.1",
     "vue": "^3.3.7"
   }
 }

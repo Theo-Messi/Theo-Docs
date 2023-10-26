@@ -1,50 +1,50 @@
-# 类型转换
+#Type conversion
 
-::: tip 温馨提示
-阅读[《你不知道的 JavaScript（中卷）》](https://www.ituring.com.cn/book/1563)和各个大佬的文章所归纳的总结，**如有异议按你的理解为主**
+::: tip Tips
+Read ["JavaScript You Don't Know (Volume 2)"](https://www.ituring.com.cn/book/1563) and the summary summarized in the articles of various experts. **If you have any objection, please press your Understand first**
 :::
 
-将值从一种类型转换为另一种类型称为**类型转换** <br>
-在 `JavaScript` 中进行类型转换时，根据调用形式的不同可以分为以下两种:
+Converting a value from one type to another is called type conversion <br>
+When performing type conversion in `JavaScript`, it can be divided into the following two types according to the calling form:
 
-- **显式类型转换**
-- **隐式类型转换**
+- **Explicit type conversion**
+- **Implicit type conversion**
 
-## 抽象操作 (内部的类型转换规则)
+## Abstract operations (internal type conversion rules)
 
-在了解类型转换前我们需要知道 `JavaScript` 的 **抽象操作** (类型转换规则)
+Before understanding type conversion, we need to know the **abstract operations** (type conversion rules) of `JavaScript`
 
-> **抽象操作** 是指仅供内部使用的操作
+> **Abstract operations** are operations for internal use only
 
-- `ToPrimitive` 将引用类型转换成相应的基本类型值
-- `ToString` 将非字符串值转换成字符串
-- `ToBoolean` 将非布尔值转换成布尔值
-- `ToNumber` 将非数字值转换成数字值
+- `ToPrimitive` converts the reference type into the corresponding basic type value
+- `ToString` converts non-string values into strings
+- `ToBoolean` converts non-Boolean values into Boolean values
+- `ToNumber` converts non-numeric values into numeric values
 
 ### ToPrimitive
 
-`ToPrimitive` 用来处理引用类型到基本类型的类型转换
+`ToPrimitive` is used to handle type conversion from reference types to basic types.
 
-::: tip ToPrimitive 转换规则
+::: tip ToPrimitive conversion rules
 
-- 检查是否存在 `Symbol.toPrimitive()`
-  - 基本类型直接返回
-  - 引用类型抛出 `TypeError` 错误
-- 检查是否存在 `valueOf()`
-  - 基本类型直接返回
-  - 引用类型则继续调用 `toString()`
-- 调用 `toString()`
-  - 基本类型直接返回
-  - 引用类型抛出 `TypeError` 错误
+- Check if `Symbol.toPrimitive()` exists
+  - Basic types are returned directly
+  - Reference types throw `TypeError`
+- Check if `valueOf()` exists
+  - Basic types are returned directly
+  - For reference types, continue to call `toString()`
+- Call `toString()`
+  - Basic types are returned directly
+  - Reference types throw `TypeError`
 
 :::
 
-::: warning 注意点
+::: warning points to note
 
-- 使用 `Object.create(null)` 创建的对象没有原型，即不存在 `valueOf()` 和 `toString()`，当对其进行类型转换时会抛出 `TypeError` 错误
-- 在做显式类型转换时 `valueOf()` 和 `toString()` 的调用顺序会根据转换目标不同去做相应调整
-  - 默认情况下都是先调用 `valueOf()` 再调用 `toString()`
-  - 当需要转换的目标为字符串时，会先调用 `toString()` 再调用 `valueOf()`
+- The object created using `Object.create(null)` has no prototype, that is, there is no `valueOf()` and `toString()`, and a `TypeError` will be thrown when type conversion is performed on it.
+- When doing explicit type conversion, the calling order of `valueOf()` and `toString()` will be adjusted accordingly according to the conversion target.
+  - By default, `valueOf()` is called first and then `toString()`
+  - When the target to be converted is a string, `toString()` will be called first and then `valueOf()`
 
 :::
 
@@ -52,160 +52,160 @@
 
 ### ToString
 
-`ToString` 用来处理非字符串到字符串的类型转换
+`ToString` is used to handle non-string to string type conversion
 
-::: tip ToString 转换规则
+::: tip ToString conversion rules
 
-- 基本类型
+- basic type
   - `undefined` => `'undefined'`
   - `null` => `'null'`
   - `true` => `'true'`
   - `false` => `'false'`
   - `number`
-    - 普通数值直接加引号
-    - 极小和极大的数字将转换成指数形式的字符串
+    - Ordinary values ​​are directly enclosed in quotation marks.
+    - Very small and very large numbers will be converted to exponential form strings
     - `+0 0 -0` => `'0'`
     - `Infinity` => `'Infinity'`
-- 引用类型会先调用 `ToPrimitive` 逻辑将其转换成基本类型，如果返回的基本类型不是字符串，再遵循以上规则进行转换
+- The reference type will first call the `ToPrimitive` logic to convert it into a basic type. If the returned basic type is not a string, then follow the above rules for conversion.
 
 :::
 
 ### ToBoolean
 
-`ToBoolean` 用来处理非布尔值到布尔值的类型转换，在 `JavaScript` 中，布尔类型分为真值(`true`)和假值(`false`)
+`ToBoolean` is used to handle type conversion from non-Boolean values to Boolean values. In `JavaScript`, Boolean types are divided into true values (`true`) and false values (`false`)
 
-- **假值**：可以被强制类型转换为 `false` 的值
-- **真值**：除假值之外的值
+- **false**: a value that can be cast to `false`
+- **True value**: Value other than false value
 
-::: tip ToBoolean 转换规则
+::: tip ToBoolean conversion rule
 
-- 以下值会被转换成假值(`false`)
+- The following values will be converted to false values (`false`)
   - **`undefined`**
   - **`null`**
   - **`false`**
   - **`+0 0 -0 NaN`**
   - **`''`**
-- 除假值之外的值都会被转换成真值(`true`)
+- Values other than false values will be converted to true values (`true`)
 
 :::
 
 ### ToNumber
 
-`ToNumber` 用来处理非数字值到数字值的类型转换
+`ToNumber` is used to handle type conversion from non-numeric values to numeric values.
 
-::: tip ToNumber 转换规则
+::: tip ToNumber conversion rules
 
-- 基本类型
+- basic type
   - `undefined` => `NaN`
   - `null` => `0`
   - `true` => `1`
   - `false` => `0`
   - `string`
-    - 空字符串(`''`) => `0`
-    - 非数字字符串 => `NaN`
-- 引用类型会先调用 `ToPrimitive` 逻辑将其转换成基本类型，如果返回的基本类型不是数值，再遵循以上规则进行转换
+    - Empty string (`''`) => `0`
+    - non-numeric string => `NaN`
+- The reference type will first call the `ToPrimitive` logic to convert it into a basic type. If the returned basic type is not a numeric value, it will be converted according to the above rules.
 
 :::
 
-## 显式类型转换
+## Explicit type conversion
 
-显式类型转换是指显式的去调用类型转换方法
+Explicit type conversion refers to explicitly calling the type conversion method
 
-- 转换成布尔值
+- Convert to boolean
   - `Boolean()`
-- 转换成数值
+- Convert to numerical value
   - `Number()`
   - `parseInt()`
   - `parseFloat()`
-- 转换成字符串
+- Convert to string
   - `String()`
 
-::: warning 注意点
+::: warning Notes
 
-- `Number()` 转换的是整个值
-- `parseInt()` 和 `parseFloat()` 转换的是部分值，是对字符串逐个进行解析和转换，如果传入的参数不是字符串，会先对其进行字符串的转换
+- `Number()` converts the entire value
+- `parseInt()` and `parseFloat()` convert partial values, parsing and converting strings one by one. If the parameter passed in is not a string, it will be converted to a string first.
 
 :::
 
-## 隐式类型转换
+## Implicit type conversion
 
-隐式类型转换是指在执行过程中，当实际操作的值与 `JavaScript` 内部期望得到的值不同时，就会对其做隐式类型转换(即不易察觉的类型转换)<br>
-在 `JavaScript` 中有以下场景会发生隐式类型转换
+Implicit type conversion means that during execution, when the actual value of the operation is different from the value expected internally by `JavaScript`, implicit type conversion (ie, imperceptible type conversion) will be performed<br>
+Implicit type conversion occurs in the following scenarios in `JavaScript`
 
-- 相等运算符 (`==`)
-- 四则运算符 (`+ - * /`)
-- 关系运算符 (`> < >= <=`)
-- 逻辑操作符 (`&& ||`)
-- 条件判断语句
+- Equality operator (`==`)
+- Four arithmetic operators (`+ - * /`)
+- Relational operators (`> < >= <=`)
+- Logical operators (`&& ||`)
+- Conditional judgment statements
   - `if()`
   - `while()`
-  - 三元运算符
+  - Ternary operator
 
-### 相等运算符运算规则（重点）
+### Equality operator operation rules (emphasis)
 
-**为什么 `0 == null` 是 `false` ？**
+**Why `0 == null` is `false`? **
 
 ```js
 0 == null // false
 ```
 
-[ECMA-262 规范 7.2.12 小节对相等运算符的描述](https://www.ecma-international.org/ecma-262/6.0/#sec-abstract-equality-comparison)
+[Description of equality operators in section 7.2.12 of the ECMA-262 specification](https://www.ecma-international.org/ecma-262/6.0/#sec-abstract-equality-comparison)
 
-1. 如果 `x` 不是正常值（比如抛出一个错误），中断执行；
-2. 如果 `y` 不是正常值，中断执行；
-3. 如果 `Type(x)` 与 `Type(y)` 相同，执行严格相等运算 `x === y`；
-4. 如果 `x` 是 `null`，`y` 是 `undefined`，返回 `true`；
-5. 如果 `x` 是 `undefined`，`y` 是 `null`，返回 `true`；
-6. 如果 `Type(x)` 是数值，`Type(y)` 是字符串，返回 `x == ToNumber(y)` 的结果；
-7. 如果 `Type(x)` 是字符串，`Type(y)` 是数值，返回 `ToNumber(x) == y` 的结果；
-8. 如果 `Type(x)` 是布尔值，返回 `ToNumber(x) == y` 的结果；
-9. 如果 `Type(y)` 是布尔值，返回 `x == ToNumber(y)` 的结果；
-10. 如果 `Type(x)` 是字符串或数值或 `Symbol` 值，`Type(y)` 是对象，返回 `x == ToPrimitive(y)` 的结果；
-11. 如果 `Type(x)` 是对象，`Type(y)` 是字符串或数值或 `Symbol` 值，返回 `ToPrimitive(x) == y` 的结果；
-12. 返回 `false`。
+1. If `x` is not a normal value (such as throwing an error), interrupt execution;
+2. If `y` is not a normal value, interrupt execution;
+3. If `Type(x)` is the same as `Type(y)`, perform strict equality operation `x === y`;
+4. If `x` is `null` and `y` is `undefined`, return `true`;
+5. If `x` is `undefined` and `y` is `null`, return `true`;
+6. If `Type(x)` is a numeric value and `Type(y)` is a string, return the result of `x == ToNumber(y)`;
+7. If `Type(x)` is a string and `Type(y)` is a numeric value, return the result of `ToNumber(x) == y`;
+8. If `Type(x)` is a Boolean value, return the result of `ToNumber(x) == y`;
+9. If `Type(y)` is a Boolean value, return the result of `x == ToNumber(y)`;
+10. If `Type(x)` is a string or numeric value or `Symbol` value, and `Type(y)` is an object, return the result of `x == ToPrimitive(y)`;
+11. If `Type(x)` is an object and `Type(y)` is a string or numeric value or `Symbol` value, return the result of `ToPrimitive(x) == y`;
+12. Return `false`.
 
-> [Type(x)](https://262.ecma-international.org/6.0/#sec-ecmascript-data-types-and-values) 是 `the type of x` 的简写，其中的 `type` 是 ECMA-262 规范中定义的 ECMAScript 语言和规范类型
+> [Type(x)](https://262.ecma-international.org/6.0/#sec-ecmascript-data-types-and-values) is the abbreviation of `the type of x`, where `type` Is the ECMAScript language and specification type defined in the ECMA-262 specification
 
-所以在计算 `0 == null` 时，由于 `0` 的类型是数值，`null` 的类型是 `Null`（这是规格 [4.3.13 小节](https://www.ecma-international.org/ecma-262/6.0/#sec-terms-and-definitions-null-type)的规定，是内部 `Type` 运算的结果，跟 `typeof` 运算符无关）；<br />
-因此上面的前 11 步都得不到结果，要到第 12 步才能得到 `false`。
+So when calculating `0 == null`, since the type of `0` is numeric, the type of `null` is `Null` (this is the specification [section 4.3.13](https://www.ecma-international. org/ecma-262/6.0/#sec-terms-and-definitions-null-type), which is the result of the internal `Type` operation and has nothing to do with the `typeof` operator);<br />
+Therefore, the first 11 steps above will not get the result, and you will not get `false` until step 12.
 
-[相等运算符 —— ECMAScript 6 入门](https://es6.ruanyifeng.com/#docs/spec#%E7%9B%B8%E7%AD%89%E8%BF%90%E7%AE%97%E7%AC%A6)
+[Equality Operator - Getting Started with ECMAScript 6](https://es6.ruanyifeng.com/#docs/spec#%E7%9B%B8%E7%AD%89%E8%BF%90%E7%AE%97 %E7%AC%A6)
 
-::: tip 相等运算符运算规则总结
+::: tip Summary of equality operator operation rules
 
-- 同类型比较时，执行严格相等运算 `x === y`
-- `undefined` 与 `null` 比较时返回 `true`
-- `string` 与 `number` 进行比较时，先将 `string` 做 `ToNumber` 处理，再进行比较
-- `boolean` 与其它类型进行比较时，先将 `boolean` 做 `ToNumber` 处理，再进行比较
-- `引用类型` 与 `基本类型` 进行比较时，将 `引用类型` 做 `ToPrimitive` 处理，再进行比较
-- `undefined` `null` 与其它类型的比较时都返回 `false`
-
-:::
-
-### 四则运算符运算规则
-
-::: tip 四则运算符运算规则
-
-- `-`(减) `*`(乘) `/`(除) 运算符: 先对操作数做 `ToNumber` 处理再执行运算
-- `+`(加) 运算符
-  - 做一元运算时，对操作数做 `ToNumber` 处理
-  - 做二元运算时
-    - 当其中一个操作数为 `string` 时，将另一个操作数做 `ToString` 处理再执行字符串拼接
-    - 当一个操作数为 `number` 另一个操作数为基本类型时，将基本类型做 `ToNumber` 处理再执行运算
-    - 当一个操作数为 `number` 另一个操作数为引用类型时，都会先做 `ToString` 处理再执行字符串拼接
+- When comparing the same type, perform strict equality operation `x === y`
+- Returns `true` when comparing `undefined` to `null`
+- When comparing `string` with `number`, first process `string` with `ToNumber` and then compare it.
+- When comparing `boolean` with other types, first process `boolean` with `ToNumber` and then compare it.
+- When comparing `reference type` with `basic type`, perform `ToPrimitive` on the `reference type` and then compare
+- `undefined` `null` returns `false` when compared with other types
 
 :::
 
-### 关系、逻辑、条件运算符运算规则
+### Four arithmetic operators operation rules
 
-::: tip 关系运算符运算规则
+::: tip Four arithmetic operators operation rules
 
-- 将引用类型做 `ToPrimitive` 处理
-- 如果两个参数都是 `string` 类型时进行 `Unicode 编码` 大小比较
-- 否则将两个参数做 `ToNumber` 处理，再进行数值大小比较
+- `-`(subtraction) `*`(multiplication) `/`(division) Operator: first perform `ToNumber` processing on the operand and then perform the operation
+- `+`(addition) operator
+  - When doing unary operations, perform `ToNumber` processing on the operands
+  - When doing binary operations
+    - When one of the operands is `string`, perform `ToString` on the other operand and then perform string concatenation
+    - When one operand is `number` and the other operand is a basic type, the basic type is processed by `ToNumber` and then the operation is performed.
+    - When one operand is `number` and the other operand is a reference type, `ToString` will be processed first and then string concatenation will be performed.
 
 :::
 
-::: tip 逻辑操作符与条件判断语句
-在**逻辑操作符**与**条件判断语句**中都是做 `ToBoolean` 处理
+### Relational, logical, conditional operator operation rules
+
+::: tip relational operator operation rules
+
+- Process reference types with `ToPrimitive`
+- Perform `Unicode encoding` size comparison if both parameters are of `string` type
+- Otherwise, perform `ToNumber` processing on the two parameters, and then compare the numerical values.
+
+:::
+
+::: tip logical operators and conditional judgment statements
+`ToBoolean` processing is done in **logical operators** and **conditional judgment statements**
 :::
