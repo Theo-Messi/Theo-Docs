@@ -20,9 +20,9 @@ export function Nav_Docs_en() {
   return [
     {
       items: [
-        { text: '日常记录', link: '/en/skill/JL-01' },
-        { text: '入门指南', link: '/en/skill/RM-01' },
-        { text: '梅林操作文档', link: '/en/skill/ML-01' }
+        { text: 'daily records', link: '/en/skill/JL-01' },
+        { text: 'Getting Started Guide', link: '/en/skill/RM-01' },
+        { text: 'Merlin operation documentation', link: '/en/skill/ML-01' }
       ]
     }
   ]
@@ -34,20 +34,20 @@ export function Nav_Fe_en() {
     {
       items: [
         {
-          text: 'JavaScript 基础知识',
+          text: 'JavaScript basic knowledge',
           link: '/en/fe/javascript/types'
         },
         { text: 'HTML / CSS', link: '/en/fe/html/' },
-        { text: 'ES6 常用知识点', link: '/en/fe/es6/' },
+        { text: 'ES6 Common knowledge points', link: '/en/fe/es6/' },
         { text: 'TypeScript', link: '/en/fe/typescript/base' }
       ]
     },
     {
       items: [
-        { text: '工程化项目原理', link: '/en/fe/gc/GC-01' },
-        { text: '浏览器知识', link: '/en/fe/browser/' },
-        { text: '概念知识点', link: '/en/fe/concept/module' },
-        { text: '编程题', link: '/en/fe/coding/' }
+        { text: 'Engineering project principles', link: '/en/fe/gc/GC-01' },
+        { text: 'Browser knowledge', link: '/en/fe/browser/' },
+        { text: 'Concept knowledge points', link: '/en/fe/concept/module' },
+        { text: 'Programming questions', link: '/en/fe/coding/' }
       ]
     }
   ]
@@ -58,9 +58,9 @@ export function Nav_Vps_en() {
   return [
     {
       items: [
-        { text: '基础设置', link: '/en/VPS/01' },
-        { text: '进阶使用', link: '/en/VPS/02' },
-        { text: '搭建服务', link: '/en/VPS/06' }
+        { text: 'Basic Settings', link: '/en/VPS/01' },
+        { text: 'Advanced use', link: '/en/VPS/02' },
+        { text: 'Build services', link: '/en/VPS/06' }
       ]
     }
   ]
@@ -71,7 +71,7 @@ export function Nav_Esxi_en() {
   return [
     {
       items: [
-        { text: 'ESXi 8.0安装', link: '/en/ESXI/ESXI-01' },
+        { text: 'ESXi 8.0 Install', link: '/en/ESXI/ESXI-01' },
         { text: 'ESXI — OpenWrt', link: '/en/ESXI/OP-01' }
       ]
     }
@@ -83,9 +83,9 @@ export function Nav_Ql_en() {
   return [
     {
       items: [
-        { text: '安装青龙面板', link: '/en/Docker/QL-01' },
-        { text: '获取京东Cookie', link: '/en/Docker/JD-01' },
-        { text: '获取阿里云盘Cookie', link: '/en/Docker/AL-01' }
+        { text: 'Install Qinglong panel', link: '/en/Docker/QL-01' },
+        { text: 'Get Jingdong Cookie', link: '/en/Docker/JD-01' },
+        { text: 'Get Alibaba cloud disk Cookie', link: '/en/Docker/AL-01' }
       ]
     }
   ]
@@ -98,7 +98,7 @@ export function Nav_Zd_en() {
         { text: '流媒体森林', link: 'https://theovan.wiki/' },
         { text: '玄学宝典', link: 'https://xx.theovan.xyz/' },
         { text: 'ChatGPT', link: 'https://ai.theovan.xyz/' },
-        { text: '赞助我', link: 'https://github.com/sponsors/Theo-messi' }
+        { text: 'Sponsor', link: 'https://github.com/sponsors/Theo-messi' }
       ]
     }
   ]

@@ -19,28 +19,34 @@ export function Sidebar_Skill_en() {
   return [
     {
       // 分组名称
-      text: '日常记录',
+      text: 'daily records',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/en/skill/',
       // 分组页面
       items: [
-        { text: '使用 nvm 管理不同版本的 node', link: 'JL-11' },
-        { text: '使用 GPG 签名 Git Commit', link: 'JL-10' },
-        { text: 'VitePress 打造个人前端导航网站', link: 'JL-09' },
-        { text: 'oh-my-zsh 安装 & 配置', link: 'JL-08' },
-        { text: 'VitePress实现单击图片放大', link: 'JL-07' },
-        { text: 'NPM 使用国内镜像及恢复默认源', link: 'JL-06' },
-        { text: '为项目添加 Prettier 格式化代码', link: 'JL-05' },
-        { text: 'VS Code 使用技巧', link: 'JL-04' },
-        { text: 'VitePress 添加 Giscu评论', link: 'JL-03' },
-        { text: 'PicGo + Github 搭建图床', link: 'JL-01' }
+        { text: 'Use nvm to manage different versions of node', link: 'JL-11' },
+        { text: 'Sign Git Commit using GPG', link: 'JL-10' },
+        {
+          text: 'VitePress builds a personal front-end navigation website',
+          link: 'JL-09'
+        },
+        { text: 'oh-my-zsh installation & configuration', link: 'JL-08' },
+        { text: 'VitePress implements click-to-enlarge images', link: 'JL-07' },
+        {
+          text: 'NPM uses domestic mirrors and restores default sources',
+          link: 'JL-06'
+        },
+        { text: 'Add Prettier formatting code to your project', link: 'JL-05' },
+        { text: 'VS Code usage tips', link: 'JL-04' },
+        { text: 'VitePress Add Giscu Comments', link: 'JL-03' },
+        { text: 'PicGo + Github to build a picture bed', link: 'JL-01' }
       ]
     },
     {
       // 分组名称
-      text: '入门指南',
+      text: 'Getting Started Guide',
       // 下拉开关
       // collapsed: true,
       // 分组路径
@@ -57,28 +63,31 @@ export function Sidebar_Skill_en() {
     },
     {
       // 分组名称
-      text: '梅林操作文档',
+      text: 'Merlin operation documentation',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/en/skill/',
       // 分组页面
       items: [
-        { text: '刷机需知', link: 'ML-01' },
         {
-          text: '科学上网',
+          text: 'What you need to know about flashing your machine',
+          link: 'ML-01'
+        },
+        {
+          text: 'Scientific Internet',
           collapsed: true,
           items: [
-            { text: '科学上网 - 安装', link: 'ML-02' },
-            { text: '科学上网 - 配置', link: 'ML-04' }
+            { text: 'Scientific Internet - Install', link: 'ML-02' },
+            { text: 'Scientific Internet - Configuration', link: 'ML-04' }
           ]
         },
         {
           text: 'Merlin Clash',
           collapsed: true,
           items: [
-            { text: 'Merlin Clash - 安装', link: 'ML-03' },
-            { text: 'Merlin Clash - 配置', link: 'ML-05' }
+            { text: 'Merlin Clash - Install', link: 'ML-03' },
+            { text: 'Merlin Clash - Configuration', link: 'ML-05' }
           ]
         }
       ]
@@ -91,18 +100,18 @@ export function Sidebar_Fe_en() {
   return [
     {
       // 分组名称
-      text: 'JavaScript 基础知识',
+      text: 'JavaScript basic knowledge',
       // 下拉开关
       collapsed: false,
       // 分组路径
       base: '/en/fe/javascript/',
       // 分组页面
       items: [
-        { text: '数据类型', link: 'types' },
-        { text: '引用类型的拷贝', link: 'clone' },
-        { text: '类型转换', link: 'conversions' },
-        { text: '原型和原型链', link: 'prototype' },
-        { text: '继承', link: 'inherit' }
+        { text: 'Data Types', link: 'types' },
+        { text: 'copy of reference type', link: 'clone' },
+        { text: 'type conversion', link: 'conversions' },
+        { text: 'Prototypes and prototype chains', link: 'prototype' },
+        { text: 'inherit', link: 'inherit' }
       ]
     },
     {
@@ -113,7 +122,7 @@ export function Sidebar_Fe_en() {
       // 分组路径
       base: '/en/fe/es6',
       // 分组页面
-      items: [{ text: 'ES6 常用知识点', link: '/' }]
+      items: [{ text: 'ES6 Common knowledge points', link: '/' }]
     },
     {
       // 分组名称
@@ -123,7 +132,7 @@ export function Sidebar_Fe_en() {
       // 分组路径
       base: '/en/fe/typescript/',
       // 分组页面
-      items: [{ text: '基础知识', link: 'base' }]
+      items: [{ text: 'basic knowledge', link: 'base' }]
     },
     {
       // 分组名称
@@ -134,49 +143,49 @@ export function Sidebar_Fe_en() {
       base: '/en/fe/',
       // 分组页面
       items: [
-        { text: 'HTML 理论知识点', link: 'html/' },
-        { text: 'CSS 理论知识点', link: 'css/' }
+        { text: 'HTML theoretical knowledge points', link: 'html/' },
+        { text: 'CSS theoretical knowledge points', link: 'css/' }
       ]
     },
     {
       // 分组名称
-      text: '工程化项目原理',
+      text: 'Engineering project principles',
       // 下拉开关
       collapsed: false,
       // 分组路径
       base: '/en/fe/gc/',
       // 分组页面
       items: [
-        { text: '掌握 package ', link: 'GC-01' },
-        { text: '掌握 tsconfig ', link: 'GC-02' },
-        { text: 'JS 模块化原理 ', link: 'GC-03' }
+        { text: 'master package ', link: 'GC-01' },
+        { text: 'master tsconfig ', link: 'GC-02' },
+        { text: 'JS Modular principle ', link: 'GC-03' }
       ]
     },
     {
       // 分组名称
-      text: '浏览器知识',
+      text: 'Browser knowledge',
       // 下拉开关
       collapsed: false,
       // 分组路径
       base: '/en/fe/',
       // 分组页面
       items: [
-        { text: '浏览器相关知识点', link: 'browser/' },
+        { text: 'Browser related knowledge points', link: 'browser/' },
         { text: 'TCP', link: 'network/tcp' },
         { text: 'HTTP', link: 'network/http' }
       ]
     },
     {
       // 分组名称
-      text: '概念知识点',
+      text: 'Concept knowledge points',
       // 下拉开关
       collapsed: false,
       // 分组路径
       base: '/en/fe/concept/',
       // 分组页面
       items: [
-        { text: '模块化', link: 'module' },
-        { text: '前端页面渲染方式', link: 'page-rendering' }
+        { text: 'Modular', link: 'module' },
+        { text: 'Front-end page rendering method', link: 'page-rendering' }
       ]
     },
     {
@@ -187,7 +196,7 @@ export function Sidebar_Fe_en() {
       // 分组路径
       base: '/en/fe/',
       // 分组页面
-      items: [{ text: '编程题', link: 'coding/' }]
+      items: [{ text: 'Programming questions', link: 'coding/' }]
     }
   ]
 }
@@ -197,48 +206,54 @@ export function Sidebar_Vps_en() {
   return [
     {
       // 分组名称
-      text: '基础设置',
+      text: 'Basic Setting',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/en/VPS/',
       // 分组页面
       items: [
-        { text: '甲骨文云防火墙设置', link: '01' },
-        { text: '谷歌云防火墙设置', link: '12' },
-        { text: '开启 Root 登陆', link: '03' },
-        { text: '开启防火墙端口', link: '11' }
+        { text: 'Oracle Cloud - Firewall Settings', link: '01' },
+        { text: 'Google Cloud - Firewall Settings', link: '12' },
+        { text: 'Enable Root login', link: '03' },
+        { text: 'Open firewall port', link: '11' }
       ]
     },
     {
       // 分组名称
-      text: '进阶使用',
+      text: 'Advanced use',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/en/VPS/',
       // 分组页面
       items: [
-        { text: '简化重装系统', link: '02' },
-        { text: '一键脚本部署开ARM机器', link: '04' },
-        { text: 'VPS全能工具箱', link: '05' }
+        { text: 'Simplify system reinstallation', link: '02' },
+        { text: 'One-click script deployment to open ARM machine', link: '04' },
+        { text: 'VPS All-purpose toolbox', link: '05' }
       ]
     },
     {
       // 分组名称
-      text: '搭建服务',
+      text: 'Build services',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/en/VPS/',
       // 分组页面
       items: [
-        { text: '安装哪吒面板', link: '06' },
-        { text: 'V2Ray搭建详细教程', link: '07' },
-        { text: 'X-ui搭建详细教程', link: '08' },
-        { text: 'VPS一键检测流媒体解锁', link: '09' },
-        { text: '一键检测机场奈飞解锁', link: '10' },
-        { text: '搭建独角数卡网站', link: '13' }
+        { text: 'Install Nezha panel', link: '06' },
+        { text: 'V2Ray Build detailed tutorial', link: '07' },
+        { text: 'X-ui Build detailed tutorial', link: '08' },
+        {
+          text: 'VPS One-click detection and unlocking of streaming media',
+          link: '09'
+        },
+        {
+          text: 'One-click detection of airport Netflix unlocking',
+          link: '10'
+        },
+        { text: 'Build a unicorn digital card website', link: '13' }
       ]
     }
   ]
@@ -249,19 +264,19 @@ export function Sidebar_Esxi_en() {
   return [
     {
       // 分组名称
-      text: 'ESXi 8.0安装',
+      text: 'ESXi 8.0 Install',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/en/ESXI/',
       // 分组页面
       items: [
-        { text: '安装指南', link: 'ESXI-01' },
-        { text: 'ESXI写盘', link: 'ESXI-02' },
-        { text: '主板BIOS设置', link: 'ESXI-03' },
-        { text: 'ESXI安装', link: 'ESXI-04' },
-        { text: 'ESXI后台配置', link: 'ESXI-05' },
-        { text: 'ESXI前台配置', link: 'ESXI-06' }
+        { text: 'Installation guide', link: 'ESXI-01' },
+        { text: 'ESXI write disk', link: 'ESXI-02' },
+        { text: 'Motherboard BIOS settings', link: 'ESXI-03' },
+        { text: 'ESXI installation', link: 'ESXI-04' },
+        { text: 'ESXI backend configuration', link: 'ESXI-05' },
+        { text: 'ESXI frontend configuration', link: 'ESXI-06' }
       ]
     },
     {
@@ -273,10 +288,10 @@ export function Sidebar_Esxi_en() {
       base: '/en/ESXI/',
       // 分组页面
       items: [
-        { text: 'ESXI安装Openwrt', link: 'OP-01' },
-        { text: '关闭IPV6', link: 'OP-02' },
-        { text: 'PPPOE拨号', link: 'OP-03' },
-        { text: 'OpenWrt扩容内存', link: 'OP-04' }
+        { text: 'ESXI installation Openwrt', link: 'OP-01' },
+        { text: 'Turn off IPv6', link: 'OP-02' },
+        { text: 'PPPOE dial-up', link: 'OP-03' },
+        { text: 'OpenWrt memory expansion', link: 'OP-04' }
       ]
     }
   ]
@@ -287,45 +302,45 @@ export function Sidebar_Docker_en() {
   return [
     {
       // 分组名称
-      text: '安装青龙面板',
+      text: 'Install Qinglong panel',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/en/Docker/',
       // 分组页面
       items: [
-        { text: '安装Docker', link: 'QL-01' },
-        { text: '安装青龙面板', link: 'QL-02' },
-        { text: '阿里云盘签到', link: 'QL-03' },
-        { text: '京东签到', link: 'QL-04' },
-        { text: 'BiliBili 签到', link: 'QL-05' }
+        { text: 'Install Docker', link: 'QL-01' },
+        { text: 'Install Qinglong panel', link: 'QL-02' },
+        { text: 'Alibaba cloud disk sign-in', link: 'QL-03' },
+        { text: 'JingDong sign in', link: 'QL-04' },
+        { text: 'BiliBili Sign in', link: 'QL-05' }
       ]
     },
     {
       // 分组名称
-      text: '获取京东Cookie',
+      text: 'Get JingDong Cookie',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/en/Docker/',
       //分组页面
       items: [
-        { text: '插件版', link: 'JD-01' },
-        { text: '浏览器版', link: 'JD-02' },
+        { text: 'Plug-in version', link: 'JD-01' },
+        { text: 'Browser version', link: 'JD-02' },
         { text: 'Boxjs', link: 'JD-03' }
       ]
     },
     {
       // 分组名称
-      text: '获取阿里云盘Cookie',
+      text: 'Get Alibaba cloud disk Cookie',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/en/Docker/',
       // 分组页面
       items: [
-        { text: '自动获取 - refresh_token', link: 'AL-01' },
-        { text: '手动获取 - refresh_token', link: 'AL-02' }
+        { text: 'Automatic acquisition - refresh_token', link: 'AL-01' },
+        { text: 'Get manually - refresh_token', link: 'AL-02' }
       ]
     }
   ]
