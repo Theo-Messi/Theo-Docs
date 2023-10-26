@@ -982,6 +982,12 @@ packages:
       fsevents: 2.3.3
     dev: true
 
+  /vitepress-markdown-timeline@1.2.1:
+    resolution: {integrity: sha512-XPYl/btTcTzW+XF20ITB51L8jPjbS72tSKPcv/CHJgM+3LbBvW8Az/X7RcBTJSXDNOwCY5mGkjA7CXQtuxOKgw==}
+    dependencies:
+      dayjs: 1.11.10
+    dev: false
+
   /vitepress@1.0.0-rc.24(@algolia/client-search@4.20.0)(@types/node@20.8.9)(sass@1.69.5)(search-insights@2.9.0):
     resolution: {integrity: sha512-RpnL8cnOGwiRlBbrYQUm9sYkJbtyOt/wYXk2diTcokY4yvks/5lq9LuSt+MURWB6ZqwpSNHvTmxgaSfLoG0/OA==}
     hasBin: true
