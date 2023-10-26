@@ -8,7 +8,6 @@ import { inject } from '@vercel/analytics'
 inject()
 import './custom.css'
 import './custom-blocks.css'
-import 'vitepress-markdown-timeline/dist/theme/index.css'
 import './index.css'
 
 let homePageStyle: HTMLStyleElement | undefined
