@@ -6,6 +6,12 @@ import locales from './locales'
 export default defineConfig({
   locales: locales.locales,
 
+  // 站点名称
+  title: 'Theo',
+
+  //'force-dark'强制开启深色模式 false强制开启浅色模式
+  // appearance: 'force-dark',
+
   // markdown-it插件配置
   markdown: {
     theme: {
