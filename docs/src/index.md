@@ -1,7 +1,7 @@
 ---
 layout: home
 title: 首页
-titleTemplate: Theo Notes
+titleTemplate: Theo
 hero:
   name: Note library
   text:
