@@ -2,18 +2,12 @@ import { nav, sidebar } from '../configs/en'
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  // 站点名称
-  title: 'Theo Notes',
-
   // 站点语言
-  lang: 'en',
+  lang: 'en-US',
 
   // 站点介绍
   description:
-    '网络技术,VPS,ESXI,OpenWrt,青龙面板,风水玄学,picgo,github,图床,梅林固件,华硕,fancyss,科学上网,clasn,独角数卡,homebrew,git,docker,linux,markdown,甲骨文,谷歌云,防火墙,流媒体,京东,阿里云',
-
-  //true强制开启深色模式 false强制开启浅色模式
-  // appearance: false,
+    'Network technology, VPS, ESXI, OpenWrt, Qinglong panel, Feng Shui metaphysics, picgo, github, picture bed, Merlin firmware, ASUS, fancyss, scientific Internet, clasn, unicorn card, homebrew, git, docker, linux, markdown, Oracle , Google Cloud, firewall, streaming media, JD.com, Alibaba Cloud',
 
   themeConfig: {
     // // logo

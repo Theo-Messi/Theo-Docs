@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-titleTemplate: Theo Notes
+titleTemplate: Theo
 hero:
   name: Note library
   text:
