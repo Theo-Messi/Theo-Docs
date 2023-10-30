@@ -23,7 +23,4 @@ export const head: HeadConfig[] = [
     'meta',
     { name: 'google-adsense-account', content: 'ca-pub-1897692334666835' }
   ]
-
-  // 强制开启为深色模式
-  // ["script", {}, `document.documentElement.classList.add('dark')`],
 ]
