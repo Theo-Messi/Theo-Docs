@@ -6,11 +6,11 @@ editLink: false
 ---
 
 <script setup>
-import MNavLinks from '../../../docs/.vitepress/nav/components/MNavLinks.vue'
+import MNavLinks from '../../.vitepress/nav/components/MNavLinks.vue'
 
-import { NAV_DATA } from '../../../docs/.vitepress/nav/data'
+import { NAV_DATA } from '../../.vitepress/nav/data'
 </script>
-<style src="../../../docs/.vitepress/nav/nav.scss"></style>
+<style src="../../.vitepress/nav/nav.scss"></style>
 
 <!-- # 前端导航 -->
 

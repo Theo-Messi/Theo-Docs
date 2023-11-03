@@ -10,5 +10,5 @@ TODOs.md
 .vscode
 .idea
 pnpm-global
-docs/.vitepress/cache
+.vitepress/cache
 package-lock.json
