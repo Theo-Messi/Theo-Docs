@@ -6,9 +6,9 @@
     "vitepress": "1.0.0-rc.24"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
   "dependencies": {
     "@mdit-vue/shared": "^1.0.0",
