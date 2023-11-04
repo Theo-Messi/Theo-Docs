@@ -9,7 +9,7 @@ export const algolia: DefaultTheme.AlgoliaSearchOptions = {
       placeholder: '搜索文档',
       translations: {
         button: {
-          buttonText: '搜索'
+          buttonText: '搜索文档'
         },
         modal: {
           searchBox: {
