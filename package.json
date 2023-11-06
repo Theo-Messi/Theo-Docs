@@ -16,7 +16,7 @@
     "lint-staged": "^15.0.2",
     "medium-zoom": "^1.0.8",
     "simple-git-hooks": "^2.9.0",
-    "vue": "^3.3.7"
+    "vue": "^3.3.8"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
