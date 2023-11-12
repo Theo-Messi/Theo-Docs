@@ -13,7 +13,7 @@
   "dependencies": {
     "@mdit-vue/shared": "^1.0.0",
     "@vercel/analytics": "^1.1.1",
-    "lint-staged": "^15.0.2",
+    "lint-staged": "^15.1.0",
     "medium-zoom": "^1.0.8",
     "simple-git-hooks": "^2.9.0",
     "vue": "^3.3.8"
