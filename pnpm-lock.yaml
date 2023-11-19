@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^1.69.5
     version: 1.69.5
   vitepress:
-    specifier: 1.0.0-rc.26
-    version: 1.0.0-rc.26(@algolia/client-search@4.20.0)(@types/node@20.9.2)(sass@1.69.5)(search-insights@2.9.0)
+    specifier: 1.0.0-rc.29
+    version: 1.0.0-rc.29(@algolia/client-search@4.20.0)(@types/node@20.9.2)(sass@1.69.5)(search-insights@2.9.0)
 
 packages:
 
@@ -1134,6 +1134,11 @@ packages:
     resolution: {integrity: sha512-BECkorDF1TY2rGKt9XHdSeP9TP29yUbrAaCh/C03wpyf1vx3uYcP/+8XlMcpTkgoU0rBVnHMAOaP83Rc9Tm+TQ==}
     dev: true
 
+  /mrmime@1.0.1:
+    resolution: {integrity: sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw==}
+    engines: {node: '>=10'}
+    dev: true
+
   /ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: false
@@ -1405,8 +1410,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitepress@1.0.0-rc.26(@algolia/client-search@4.20.0)(@types/node@20.9.2)(sass@1.69.5)(search-insights@2.9.0):
-    resolution: {integrity: sha512-bAeph87NheD7bM/+E1AsJx8N6bGnP+5k0gZmtXbSgKAzNSFZBgAPcl7CoWzETST5pPpH/ZGRPhWSefcBX9Yfjg==}
+  /vitepress@1.0.0-rc.29(@algolia/client-search@4.20.0)(@types/node@20.9.2)(sass@1.69.5)(search-insights@2.9.0):
+    resolution: {integrity: sha512-6sKmyEvH16SgMqkHzRwwadt9Uju13AOIqouzOVEg3Rk6X9mds6jLsq2GxnAJvg0s6bl/0Qs/cw+f8SNki82ltw==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4.3.2
@@ -1427,6 +1432,7 @@ packages:
       focus-trap: 7.5.4
       mark.js: 8.11.1
       minisearch: 6.2.0
+      mrmime: 1.0.1
       shiki: 0.14.5
       vite: 5.0.0(@types/node@20.9.2)(sass@1.69.5)
       vue: 3.3.8
