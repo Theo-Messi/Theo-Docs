@@ -1,9 +1,9 @@
 {
   "devDependencies": {
-    "@types/node": "^20.9.4",
+    "@types/node": "^20.10.0",
     "prettier": "3.1.0",
     "sass": "^1.69.5",
-    "vitepress": "1.0.0-rc.30"
+    "vitepress": "1.0.0-rc.31"
   },
   "scripts": {
     "dev": "vitepress dev",
@@ -16,7 +16,7 @@
     "lint-staged": "^15.1.0",
     "medium-zoom": "^1.1.0",
     "simple-git-hooks": "^2.9.0",
-    "vue": "^3.3.8"
+    "vue": "^3.3.9"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
