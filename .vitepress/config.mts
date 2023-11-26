@@ -15,8 +15,8 @@ export default defineConfig({
   // markdown-it插件配置
   markdown: {
     theme: {
-      light: 'github-light',
-      dark: 'github-dark-dimmed'
+      light: 'min-light',
+      dark: 'min-dark'
     },
     container: {
       tipLabel: '提示',
