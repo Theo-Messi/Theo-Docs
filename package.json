@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@types/node": "^20.10.2",
+    "@types/node": "^20.10.3",
     "prettier": "3.1.0",
     "sass": "^1.69.5",
     "vitepress": "1.0.0-rc.31"
@@ -13,7 +13,7 @@
   "dependencies": {
     "@mdit-vue/shared": "^1.0.0",
     "@vercel/analytics": "^1.1.1",
-    "lint-staged": "^15.1.0",
+    "lint-staged": "^15.2.0",
     "medium-zoom": "^1.1.0",
     "simple-git-hooks": "^2.9.0",
     "vue": "^3.3.9"
