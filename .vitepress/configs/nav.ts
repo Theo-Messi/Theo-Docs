@@ -5,9 +5,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: '导航', link: 'nav' },
   { text: '文档记录', items: Nav_Docs(), activeMatch: '/skill/' },
   { text: '前端物语', items: Nav_Fe(), activeMatch: '/fe/' },
-  { text: 'VPS使用指南', items: Nav_Vps(), activeMatch: '/VPS/' },
-  { text: 'ESXI安装指南', items: Nav_Esxi(), activeMatch: '/ESXI/' },
-  { text: '青龙面板', items: Nav_Ql(), activeMatch: '/Docker/' },
+  { text: '操作指南', items: Nav_Cz() },
   { text: '我的网站', items: Nav_Zd() }
 ]
 
@@ -45,36 +43,26 @@ export function Nav_Fe() {
     }
   ]
 }
-
-// VPS使用指南
-export function Nav_Vps() {
+// 操作指南
+export function Nav_Cz() {
   return [
     {
+      text: 'VPS操作指南',
       items: [
         { text: '基础设置', link: '/VPS/01' },
         { text: '进阶使用', link: '/VPS/02' },
         { text: '搭建服务', link: '/VPS/06' }
       ]
-    }
-  ]
-}
-
-// ESXI安装指南
-export function Nav_Esxi() {
-  return [
+    },
     {
+      text: 'ESXI操作指南',
       items: [
         { text: 'ESXi 8.0安装', link: '/ESXI/ESXI-01' },
         { text: 'ESXI — OpenWrt', link: '/ESXI/OP-01' }
       ]
-    }
-  ]
-}
-
-// 青龙面板
-export function Nav_Ql() {
-  return [
+    },
     {
+      text: '青龙面板操作指南',
       items: [
         { text: '安装青龙面板', link: '/Docker/QL-01' },
         { text: '获取京东Cookie', link: '/Docker/JD-01' },
@@ -83,6 +71,7 @@ export function Nav_Ql() {
     }
   ]
 }
+
 // 个人站点
 export function Nav_Zd() {
   return [
