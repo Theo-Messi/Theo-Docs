@@ -8,7 +8,6 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: '操作指南', items: Nav_Cz() },
   { text: '观影指南', items: Nav_Streaming() },
   { text: '账号合租', items: Nav_Sharing() },
-  { text: '科学上网', items: Nav_Scientific() },
   { text: 'Netflix 机场', items: Nav_Airport() },
   { text: '一键直达', items: Nav_Serve() }
 ]
@@ -103,19 +102,6 @@ export function Nav_Sharing() {
         { text: '银河录像局 - AI服务', link: '/Sharing/02' },
         { text: '蜜糖商店 - 流媒体账号', link: '/Sharing/03' },
         { text: '奈飞小铺 - 流媒体账号', link: '/Sharing/04' }
-      ]
-    }
-  ]
-}
-
-// 科学上网指南
-export function Nav_Scientific() {
-  return [
-    {
-      items: [
-        { text: '路由器与客户端选择', link: '/Scientific/01' },
-        { text: '线路的区别与选择', link: '/Scientific/02' },
-        { text: '关于机场常用服务器线路的科普', link: '/Scientific/03' }
       ]
     }
   ]
