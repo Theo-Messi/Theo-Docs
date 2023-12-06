@@ -12,8 +12,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/Docker/': { base: '/Docker/', items: Sidebar_Docker() },
   // 文档记录
   '/skill/': { base: '/skill/', items: Sidebar_Skill() },
-  // 科学上网指南
-  '/Scientific/': { base: '/Scientific/', items: Sidebar_Scientific() },
   // 账号合租平台
   '/Sharing/': { base: '/Sharing/', items: Sidebar_Sharing() },
   // 推荐 Netflix 机场
@@ -345,7 +343,7 @@ export function Sidebar_Streaming() {
       // 分组名称
       text: 'Netflix 观看指南',
       // 下拉菜单
-      collapsed: true,
+      // collapsed: true,
       // 分组路径
       base: '/Streaming/',
       // 分组页面
@@ -364,7 +362,7 @@ export function Sidebar_Streaming() {
       // 分组名称
       text: 'Disney+ 观看指南',
       // 下拉菜单
-      collapsed: true,
+      // collapsed: true,
       // 分组路径
       base: '/Streaming/',
       // 分组页面
@@ -380,7 +378,7 @@ export function Sidebar_Streaming() {
       // 分组名称
       text: 'Spotify Premium 指南',
       // 下拉菜单
-      collapsed: true,
+      // collapsed: true,
       // 分组路径
       base: '/Streaming/',
       // 分组页面
@@ -390,7 +388,7 @@ export function Sidebar_Streaming() {
       // 分组名称
       text: 'YouTube Premium 会员权益及订阅指南',
       // 下拉菜单
-      collapsed: true,
+      // collapsed: true,
       // 分组路径
       base: '/Streaming/',
       // 分组页面
@@ -402,7 +400,7 @@ export function Sidebar_Streaming() {
       // 分组名称
       text: 'Hulu 国内观看指南',
       // 下拉菜单
-      collapsed: true,
+      // collapsed: true,
       // 分组路径
       base: '/Streaming/',
       // 分组页面
@@ -412,7 +410,7 @@ export function Sidebar_Streaming() {
       // 分组名称
       text: 'HBO Max 国内观看指南',
       // 下拉菜单
-      collapsed: true,
+      // collapsed: true,
       // 分组路径
       base: '/Streaming/',
       // 分组页面
@@ -437,26 +435,6 @@ export function Sidebar_Sharing() {
         { text: '银河录像局 - AI服务', link: '02' },
         { text: '蜜糖商店 - 流媒体账号', link: '03' },
         { text: '奈飞小铺 - 流媒体账号', link: '04' }
-      ]
-    }
-  ]
-}
-
-// 科学上网指南
-export function Sidebar_Scientific() {
-  return [
-    {
-      // 分组名称
-      // text: "科学上网指南",
-      // 下拉菜单
-      // collapsed: true,
-      // 分组路径
-      base: '/Scientific/',
-      // 分组页面
-      items: [
-        { text: '路由器与客户端选择', link: '01' },
-        { text: '线路的区别与选择', link: '02' },
-        { text: '关于机场常用服务器线路的科普', link: '03' }
       ]
     }
   ]
