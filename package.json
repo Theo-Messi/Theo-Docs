@@ -11,7 +11,7 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
-    "@mdit-vue/shared": "^1.0.0",
+    "@mdit-vue/shared": "^2.0.0",
     "@vercel/analytics": "^1.1.1",
     "lint-staged": "^15.2.0",
     "medium-zoom": "^1.1.0",
