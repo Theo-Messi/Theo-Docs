@@ -8,7 +8,6 @@
     "skipLibCheck": true,
     "noUnusedLocals": true,
     "resolveJsonModule": true,
-    "verbatimModuleSyntax": true,
     "jsx": "preserve",
     "lib": ["esnext", "dom", "dom.iterable"]
   },
