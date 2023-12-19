@@ -6,9 +6,7 @@ import mediumZoom from 'medium-zoom'
 import { inject } from '@vercel/analytics'
 
 inject()
-import './custom.css'
-import './custom-blocks.css'
-import './index.css'
+import './styles/index.scss'
 
 export default {
   extends: DefaultTheme,

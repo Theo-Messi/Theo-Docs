@@ -552,7 +552,7 @@
   display: none;
 }
 
-
+/** 导航栏透明设置 **/
 :root {
   --vp-nav-bg-color: transparent;
 }
@@ -578,4 +578,13 @@
 .VPNavBar,
 .VPLocalNav.reached-top {
   border-bottom: none;
+}
+
+/** 图片放大设置 **/
+.medium-zoom-overlay {
+  z-index: 20;
+}
+
+.medium-zoom-image {
+  z-index: 21;
 }
