@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import { slugify } from '@mdit-vue/shared'
 
 import MNavLink from './MNavLink.vue'
-import type { NavLink } from '../types'
+import type { NavLink } from '../../../src/nav/types'
 
 // 定义props，title为字符串，noIcon为布尔值，items为NavLink类型的数组
 const props = defineProps<{
@@ -45,9 +45,7 @@ const formatTitle = computed(() => {
 }
 
 @each $media,
-  $size
-    in (500px: 140px, 640px: 155px, 768px: 175px, 960px: 200px, 1440px: 240px)
-{
+$size in (500px: 140px, 640px: 155px, 768px: 175px, 960px: 200px, 1440px: 240px) {
   @media (min-width: $media) {
     .m-nav-links {
       grid-template-columns: repeat(auto-fill, minmax($size, 1fr));
