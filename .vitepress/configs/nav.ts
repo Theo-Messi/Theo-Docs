@@ -2,13 +2,13 @@ import type { DefaultTheme } from 'vitepress'
 // 导航栏设置
 
 export const nav: DefaultTheme.Config['nav'] = [
-  { text: '前端导航', link: 'nav' },
-  { text: '文档记录', items: Nav_Docs(), activeMatch: '/skill/' },
-  { text: '前端物语', items: Nav_Fe(), activeMatch: '/fe/' },
-  { text: '操作指南', items: Nav_Cz() },
-  { text: '观影指南', items: Nav_Streaming() },
-  { text: '账号合租', items: Nav_Sharing() },
-  { text: 'Netflix 机场', items: Nav_Airport() },
+  { text: '前端导航', link: '/nav', activeMatch: '^/nav' },
+  { text: '文档记录', items: Nav_Docs(), activeMatch: '^/skill/' },
+  { text: '前端物语', items: Nav_Fe(), activeMatch: '^/fe/' },
+  { text: '操作指南', items: Nav_Cz(), activeMatch: '^/VPS/' },
+  { text: '观影指南', items: Nav_Streaming(), activeMatch: '^/Streaming/' },
+  { text: '账号合租', items: Nav_Sharing(), activeMatch: '^/Sharing/' },
+  { text: 'Netflix 机场', items: Nav_Airport(), activeMatch: '^/Airport/' },
   { text: '一键直达', items: Nav_Serve() }
 ]
 
