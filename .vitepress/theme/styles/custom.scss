@@ -577,6 +577,13 @@
   bottom: 0;
   backdrop-filter: saturate(180%) blur(12px);
   z-index: -1;
+  background-image: url("/grid.svg");
+}
+
+// 侧边栏设置背景
+.VPSidebar,
+.VPSidebar-content {
+  background: var(--vp-nav-bg-color) !important;
 }
 
 .VPNavBar,
@@ -591,4 +598,15 @@
 
 .medium-zoom-image {
   z-index: 21;
+}
+
+// 背景图片设置
+
+html.dark {
+  color-scheme: dark;
+}
+
+.dark .VPContent {
+  background-color: rgb(10, 10, 11);
+  background-image: url("/grid.svg");
 }
