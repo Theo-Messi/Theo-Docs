@@ -3,27 +3,14 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '前端导航', link: '/nav', activeMatch: '^/nav' },
-  { text: '文档记录', items: Nav_Docs(), activeMatch: '^/skill/' },
+  { text: '文档记录', link: '/skill/JL-01', activeMatch: '^/skill/' },
   { text: '前端物语', items: Nav_Fe(), activeMatch: '^/fe/' },
-  { text: '操作指南', items: Nav_Cz(), activeMatch: '^/VPS/' },
+  { text: '操作指南', items: Nav_Cz(), activeMatch: '^/guide/' },
   { text: '观影指南', items: Nav_Streaming(), activeMatch: '^/Streaming/' },
   { text: '账号合租', items: Nav_Sharing(), activeMatch: '^/Sharing/' },
   { text: 'Netflix 机场', items: Nav_Airport(), activeMatch: '^/Airport/' },
   { text: '一键直达', items: Nav_Serve() }
 ]
-
-// 文档记录
-export function Nav_Docs() {
-  return [
-    {
-      items: [
-        { text: '日常记录', link: '/skill/JL-01' },
-        { text: '入门指南', link: '/skill/RM-01' },
-        { text: '梅林操作文档', link: '/skill/ML-01' }
-      ]
-    }
-  ]
-}
 
 // 前端物语
 export function Nav_Fe() {
@@ -50,26 +37,45 @@ export function Nav_Fe() {
 export function Nav_Cz() {
   return [
     {
-      text: 'VPS操作指南',
+      text: 'VPS服务器',
       items: [
-        { text: '基础设置', link: '/VPS/01' },
-        { text: '进阶使用', link: '/VPS/02' },
-        { text: '搭建服务', link: '/VPS/06' }
+        { text: '基础设置', link: '/guide/VPS/01' },
+        { text: '进阶使用', link: '/guide/VPS/02' },
+        { text: '搭建服务', link: '/guide/VPS/06' }
       ]
     },
     {
-      text: 'ESXI操作指南',
+      text: 'ESXI虚拟机',
       items: [
-        { text: 'ESXi 8.0安装', link: '/ESXI/ESXI-01' },
-        { text: 'ESXI — OpenWrt', link: '/ESXI/OP-01' }
+        { text: 'ESXi 8.0安装', link: '/guide/ESXI/ESXI-01' },
+        { text: 'ESXI — OpenWrt', link: '/guide/ESXI/OP-01' }
       ]
     },
     {
-      text: '青龙面板操作指南',
+      text: '青龙面板',
       items: [
-        { text: '安装青龙面板', link: '/Docker/QL-01' },
-        { text: '获取京东Cookie', link: '/Docker/JD-01' },
-        { text: '获取阿里云盘Cookie', link: '/Docker/AL-01' }
+        { text: '安装青龙面板', link: '/guide/QL/QL-01' },
+        { text: '获取京东Cookie', link: '/guide/QL/JD-01' },
+        { text: '获取阿里云盘Cookie', link: '/guide/QL/AL-01' }
+      ]
+    },
+    {
+      text: '华硕路由器固件',
+      items: [
+        { text: '刷机须知', link: '/guide/asus/ML-01' },
+        { text: '科学上网', link: '/guide/asus/ML-02' },
+        { text: 'Merlin Clash', link: '/guide/asus/ML-03 ' }
+      ]
+    },
+    {
+      text: '入门指南',
+      items: [
+        { text: 'Homebrew', link: '/guide/RM/RM-01' },
+        { text: 'Git', link: '/guide/RM/RM-02' },
+        { text: 'Docker', link: '/guide/RM/RM-03' },
+        { text: 'Linux', link: '/guide/RM/RM-04' },
+        { text: 'Markdown', link: '/guide/RM/RM-05' },
+        { text: 'PNPM', link: '/guide/RM/RM-06' }
       ]
     }
   ]
