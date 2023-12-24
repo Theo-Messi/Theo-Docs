@@ -3,13 +3,17 @@ import type { DefaultTheme } from 'vitepress'
 // 侧边栏配置
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   // VPS使用指南
-  '/VPS/': { base: '/VPS/', items: Sidebar_Vps() },
+  '/guide/VPS/': { base: '/guide/VPS/', items: Sidebar_Vps() },
   // 前端物语
   '/fe/': { base: '/fe/', items: Sidebar_Fe() },
+  // 华硕路由器固件
+  '/guide/asus/': { base: '/guide/asus/', items: Sidebar_Asus() },
+  // 入门指南
+  '/guide/RM/': { base: '/guide/RM/', items: Sidebar_Rm() },
   // ESXI安装指南
-  '/ESXI/': { base: '/ESXI/', items: Sidebar_Esxi() },
+  '/guide/ESXI/': { base: '/guide/ESXI/', items: Sidebar_Esxi() },
   // 青龙面板
-  '/Docker/': { base: '/Docker/', items: Sidebar_Docker() },
+  '/guide/QL/': { base: '/guide/QL/', items: Sidebar_QL() },
   // 文档记录
   '/skill/': { base: '/skill/', items: Sidebar_Skill() },
   // 账号合租平台
@@ -25,68 +29,23 @@ export function Sidebar_Skill() {
   return [
     {
       // 分组名称
-      text: '日常记录',
+      text: '文档记录',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/skill/',
       // 分组页面
       items: [
-        { text: '使用 nvm 管理不同版本的 node', link: 'JL-11' },
-        { text: '使用 GPG 签名 Git Commit', link: 'JL-10' },
-        { text: 'VitePress 打造个人前端导航网站', link: 'JL-09' },
-        { text: 'oh-my-zsh 安装 & 配置', link: 'JL-08' },
-        { text: 'VitePress实现单击图片放大', link: 'JL-07' },
-        { text: 'NPM 使用国内镜像及恢复默认源', link: 'JL-06' },
-        { text: '为项目添加 Prettier 格式化代码', link: 'JL-05' },
-        { text: 'VS Code 使用技巧', link: 'JL-04' },
+        { text: 'PicGo + Github 搭建图床', link: 'JL-01' },
         { text: 'VitePress 添加 Giscu评论', link: 'JL-03' },
-        { text: 'PicGo + Github 搭建图床', link: 'JL-01' }
-      ]
-    },
-    {
-      // 分组名称
-      text: '入门指南',
-      // 下拉开关
-      // collapsed: true,
-      // 分组路径
-      base: '/skill/',
-      // 分组页面
-      items: [
-        { text: 'Homebrew', link: 'RM-01' },
-        { text: 'Git', link: 'RM-02' },
-        { text: 'Docker', link: 'RM-03' },
-        { text: 'Linux', link: 'RM-04' },
-        { text: 'Markdown', link: 'RM-05' },
-        { text: 'PNPM', link: 'RM-06' }
-      ]
-    },
-    {
-      // 分组名称
-      text: '梅林操作文档',
-      // 下拉开关
-      // collapsed: true,
-      // 分组路径
-      base: '/skill/',
-      // 分组页面
-      items: [
-        { text: '刷机需知', link: 'ML-01' },
-        {
-          text: '科学上网',
-          collapsed: true,
-          items: [
-            { text: '科学上网 - 安装', link: 'ML-02' },
-            { text: '科学上网 - 配置', link: 'ML-04' }
-          ]
-        },
-        {
-          text: 'Merlin Clash',
-          collapsed: true,
-          items: [
-            { text: 'Merlin Clash - 安装', link: 'ML-03' },
-            { text: 'Merlin Clash - 配置', link: 'ML-05' }
-          ]
-        }
+        { text: 'VS Code 使用技巧', link: 'JL-04' },
+        { text: '为项目添加 Prettier 格式化代码', link: 'JL-05' },
+        { text: 'NPM 使用国内镜像及恢复默认源', link: 'JL-06' },
+        { text: 'VitePress实现单击图片放大', link: 'JL-07' },
+        { text: 'oh-my-zsh 安装 & 配置', link: 'JL-08' },
+        { text: 'VitePress 打造个人前端导航网站', link: 'JL-09' },
+        { text: '使用 GPG 签名 Git Commit', link: 'JL-10' },
+        { text: '使用 nvm 管理不同版本的 node', link: 'JL-11' }
       ]
     }
   ]
@@ -197,7 +156,63 @@ export function Sidebar_Fe() {
     }
   ]
 }
+// 华硕路由器固件
+export function Sidebar_Asus() {
+  return [
+    {
+      // 分组名称
+      text: '梅林操作文档',
+      // 下拉开关
+      // collapsed: true,
+      // 分组路径
+      base: '/guide/asus/',
+      // 分组页面
+      items: [
+        { text: '刷机需知', link: 'ML-01' },
+        { text: '固件平台介绍', link: 'ML-06' },
+        {
+          text: '科学上网',
+          // collapsed: true,
+          items: [
+            { text: '科学上网 - 安装', link: 'ML-02' },
+            { text: '科学上网 - 配置', link: 'ML-04' }
+          ]
+        },
+        {
+          text: 'Merlin Clash',
+          // collapsed: true,
+          items: [
+            { text: 'Merlin Clash - 安装', link: 'ML-03' },
+            { text: 'Merlin Clash - 配置', link: 'ML-05' }
+          ]
+        }
+      ]
+    }
+  ]
+}
 
+// 入门指南
+export function Sidebar_Rm() {
+  return [
+    {
+      // 分组名称
+      text: '入门指南',
+      // 下拉开关
+      // collapsed: true,
+      // 分组路径
+      base: '/guide/RM/',
+      // 分组页面
+      items: [
+        { text: 'Homebrew', link: 'RM-01' },
+        { text: 'Git', link: 'RM-02' },
+        { text: 'Docker', link: 'RM-03' },
+        { text: 'Linux', link: 'RM-04' },
+        { text: 'Markdown', link: 'RM-05' },
+        { text: 'PNPM', link: 'RM-06' }
+      ]
+    }
+  ]
+}
 // VPS使用指南
 export function Sidebar_Vps() {
   return [
@@ -207,7 +222,7 @@ export function Sidebar_Vps() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/VPS/',
+      base: '/guide/VPS/',
       // 分组页面
       items: [
         { text: '甲骨文云防火墙设置', link: '01' },
@@ -222,7 +237,7 @@ export function Sidebar_Vps() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/VPS/',
+      base: '/guide/VPS/',
       // 分组页面
       items: [
         { text: '简化重装系统', link: '02' },
@@ -236,7 +251,7 @@ export function Sidebar_Vps() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/VPS/',
+      base: '/guide/VPS/',
       // 分组页面
       items: [
         { text: '安装哪吒面板', link: '06' },
@@ -259,7 +274,7 @@ export function Sidebar_Esxi() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/ESXI/',
+      base: '/guide/ESXI/',
       // 分组页面
       items: [
         { text: '安装指南', link: 'ESXI-01' },
@@ -276,7 +291,7 @@ export function Sidebar_Esxi() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/ESXI/',
+      base: '/guide/ESXI/',
       // 分组页面
       items: [
         { text: 'ESXI安装Openwrt', link: 'OP-01' },
@@ -289,7 +304,7 @@ export function Sidebar_Esxi() {
 }
 
 // 青龙面板
-export function Sidebar_Docker() {
+export function Sidebar_QL() {
   return [
     {
       // 分组名称
@@ -297,7 +312,7 @@ export function Sidebar_Docker() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/Docker/',
+      base: '/guide/QL/',
       // 分组页面
       items: [
         { text: '安装Docker', link: 'QL-01' },
@@ -313,7 +328,7 @@ export function Sidebar_Docker() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/Docker/',
+      base: '/guide/QL/',
       //分组页面
       items: [
         { text: '插件版', link: 'JD-01' },
@@ -327,7 +342,7 @@ export function Sidebar_Docker() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/Docker/',
+      base: '/guide/QL/',
       // 分组页面
       items: [
         { text: '自动获取 - refresh_token', link: 'AL-01' },
