@@ -45,7 +45,8 @@ export function Sidebar_Skill() {
         { text: 'oh-my-zsh 安装 & 配置', link: 'JL-08' },
         { text: 'VitePress 打造个人前端导航网站', link: 'JL-09' },
         { text: '使用 GPG 签名 Git Commit', link: 'JL-10' },
-        { text: '使用 nvm 管理不同版本的 node', link: 'JL-11' }
+        { text: '使用 nvm 管理不同版本的 node', link: 'JL-11' },
+        { text: '优化 iOS/Android 来电、信息界面体验', link: 'JL-12' }
       ]
     }
   ]
