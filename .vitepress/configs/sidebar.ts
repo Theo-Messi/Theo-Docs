@@ -170,23 +170,9 @@ export function Sidebar_Asus() {
       // 分组页面
       items: [
         { text: '刷机需知', link: 'ML-01' },
-        { text: '固件平台介绍', link: 'ML-06' },
-        {
-          text: '科学上网',
-          // collapsed: true,
-          items: [
-            { text: '科学上网 - 安装', link: 'ML-02' },
-            { text: '科学上网 - 配置', link: 'ML-04' }
-          ]
-        },
-        {
-          text: 'Merlin Clash',
-          // collapsed: true,
-          items: [
-            { text: 'Merlin Clash - 安装', link: 'ML-03' },
-            { text: 'Merlin Clash - 配置', link: 'ML-05' }
-          ]
-        }
+        { text: '固件平台介绍', link: 'ML-04' },
+        { text: 'fancyss', link: 'ML-02' },
+        { text: 'Merlin Clash', link: 'ML-03' }
       ]
     }
   ]

@@ -63,8 +63,9 @@ export function Nav_Cz() {
       text: '华硕路由器固件',
       items: [
         { text: '刷机须知', link: '/guide/asus/ML-01' },
-        { text: '科学上网', link: '/guide/asus/ML-02' },
-        { text: 'Merlin Clash', link: '/guide/asus/ML-03 ' }
+        { text: '固件平台介绍', link: '/guide/asus/ML-04' },
+        { text: 'fancyss', link: '/guide/asus/ML-02' },
+        { text: 'Merlin Clash', link: '/guide/asus/ML-03' }
       ]
     },
     {

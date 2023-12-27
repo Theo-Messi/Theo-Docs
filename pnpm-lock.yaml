@@ -783,20 +783,20 @@ packages:
     resolution: {integrity: sha512-tUMGBEKC6QP3ekhSLt/7oAGQu98gXgaMXrbZKay9Haijf5oXhsQQb8533hxxc4+MBup+WeWGn0/uxiEBCoK9tw==}
     dev: true
 
-  /@vueuse/core@10.7.0(vue@3.4.0-rc.3):
-    resolution: {integrity: sha512-4EUDESCHtwu44ZWK3Gc/hZUVhVo/ysvdtwocB5vcauSV4B7NiGY5972WnsojB3vRNdxvAt7kzJWE2h9h7C9d5w==}
+  /@vueuse/core@10.7.1(vue@3.4.0-rc.3):
+    resolution: {integrity: sha512-74mWHlaesJSWGp1ihg76vAnfVq9NTv1YT0SYhAQ6zwFNdBkkP+CKKJmVOEHcdSnLXCXYiL5e7MaewblfiYLP7g==}
     dependencies:
       '@types/web-bluetooth': 0.0.20
-      '@vueuse/metadata': 10.7.0
-      '@vueuse/shared': 10.7.0(vue@3.4.0-rc.3)
+      '@vueuse/metadata': 10.7.1
+      '@vueuse/shared': 10.7.1(vue@3.4.0-rc.3)
       vue-demi: 0.14.6(vue@3.4.0-rc.3)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
     dev: true
 
-  /@vueuse/integrations@10.7.0(focus-trap@7.5.4)(vue@3.4.0-rc.3):
-    resolution: {integrity: sha512-rxiMYgS+91n93qXpHZF9NbHhppWY6IJyVTDxt4acyChL0zZVx7P8FAAfpF1qVK8e4wfjerhpEiMJ0IZ1GWUZ2A==}
+  /@vueuse/integrations@10.7.1(focus-trap@7.5.4)(vue@3.4.0-rc.3):
+    resolution: {integrity: sha512-cKo5LEeKVHdBRBtMTOrDPdR0YNtrmN9IBfdcnY2P3m5LHVrsD0xiHUtAH1WKjHQRIErZG6rJUa6GA4tWZt89Og==}
     peerDependencies:
       async-validator: '*'
       axios: '*'
@@ -836,8 +836,8 @@ packages:
       universal-cookie:
         optional: true
     dependencies:
-      '@vueuse/core': 10.7.0(vue@3.4.0-rc.3)
-      '@vueuse/shared': 10.7.0(vue@3.4.0-rc.3)
+      '@vueuse/core': 10.7.1(vue@3.4.0-rc.3)
+      '@vueuse/shared': 10.7.1(vue@3.4.0-rc.3)
       focus-trap: 7.5.4
       vue-demi: 0.14.6(vue@3.4.0-rc.3)
     transitivePeerDependencies:
@@ -845,12 +845,12 @@ packages:
       - vue
     dev: true
 
-  /@vueuse/metadata@10.7.0:
-    resolution: {integrity: sha512-GlaH7tKP2iBCZ3bHNZ6b0cl9g0CJK8lttkBNUX156gWvNYhTKEtbweWLm9rxCPIiwzYcr/5xML6T8ZUEt+DkvA==}
+  /@vueuse/metadata@10.7.1:
+    resolution: {integrity: sha512-jX8MbX5UX067DYVsbtrmKn6eG6KMcXxLRLlurGkZku5ZYT3vxgBjui2zajvUZ18QLIjrgBkFRsu7CqTAg18QFw==}
     dev: true
 
-  /@vueuse/shared@10.7.0(vue@3.4.0-rc.3):
-    resolution: {integrity: sha512-kc00uV6CiaTdc3i1CDC4a3lBxzaBE9AgYNtFN87B5OOscqeWElj/uza8qVDmk7/U8JbqoONLbtqiLJ5LGRuqlw==}
+  /@vueuse/shared@10.7.1(vue@3.4.0-rc.3):
+    resolution: {integrity: sha512-v0jbRR31LSgRY/C5i5X279A/WQjD6/JsMzGa+eqt658oJ75IvQXAeONmwvEMrvJQKnRElq/frzBR7fhmWY5uLw==}
     dependencies:
       vue-demi: 0.14.6(vue@3.4.0-rc.3)
     transitivePeerDependencies:
@@ -1578,8 +1578,8 @@ packages:
       '@types/markdown-it': 13.0.7
       '@vitejs/plugin-vue': 5.0.0(vite@5.0.10)(vue@3.4.0-rc.3)
       '@vue/devtools-api': 6.5.1
-      '@vueuse/core': 10.7.0(vue@3.4.0-rc.3)
-      '@vueuse/integrations': 10.7.0(focus-trap@7.5.4)(vue@3.4.0-rc.3)
+      '@vueuse/core': 10.7.1(vue@3.4.0-rc.3)
+      '@vueuse/integrations': 10.7.1(focus-trap@7.5.4)(vue@3.4.0-rc.3)
       focus-trap: 7.5.4
       mark.js: 8.11.1
       minisearch: 6.3.0
