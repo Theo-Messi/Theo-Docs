@@ -4,6 +4,7 @@ import { useData, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import mediumZoom from 'medium-zoom'
 import { inject } from '@vercel/analytics'
+import MLayout from './components/MLayout.vue'
 
 inject()
 import './styles/index.scss'
@@ -20,7 +21,7 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
-    return h(DefaultTheme.Layout, props)
+    return h(MLayout, props)
   },
   setup() {
     // 获取当前路由
