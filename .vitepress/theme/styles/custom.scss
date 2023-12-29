@@ -359,15 +359,15 @@
   --vp-button-alt-active-text: var(--vp-c-text-1);
   --vp-button-alt-active-bg: var(--vp-c-default-1);
 
-  --vp-button-sponsor-border: var(--vp-c-text-2);
-  --vp-button-sponsor-text: var(--vp-c-text-2);
-  --vp-button-sponsor-bg: transparent;
+  --vp-button-sponsor-border: var(--vp-c-sponsor);
+  --vp-button-sponsor-text: var(--vp-c-white);
+  --vp-button-sponsor-bg: var(--vp-c-sponsor);
   --vp-button-sponsor-hover-border: var(--vp-c-sponsor);
-  --vp-button-sponsor-hover-text: var(--vp-c-sponsor);
-  --vp-button-sponsor-hover-bg: transparent;
+  --vp-button-sponsor-hover-text: var(--vp-c-white);
+  --vp-button-sponsor-hover-bg: var(--vp-c-sponsor);
   --vp-button-sponsor-active-border: var(--vp-c-sponsor);
-  --vp-button-sponsor-active-text: var(--vp-c-sponsor);
-  --vp-button-sponsor-active-bg: transparent;
+  --vp-button-sponsor-active-text: var(--vp-c-white);
+  --vp-button-sponsor-active-bg: var(--vp-c-sponsor);
 }
 
 /**
