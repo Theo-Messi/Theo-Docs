@@ -47,8 +47,9 @@ export function Nav_Cz() {
     {
       text: 'ESXI虚拟机',
       items: [
-        { text: 'ESXi 8.0安装', link: '/guide/ESXI/ESXI-01' },
-        { text: 'ESXI — OpenWrt', link: '/guide/ESXI/OP-01' }
+        { text: 'ESXi 8.0 部署指南', link: '/guide/ESXI/ESXI-01' },
+        { text: 'ESXI 部署 OpenWrt', link: '/guide/ESXI/OP-01' },
+        { text: 'ESXI 部署 AdGuardHome', link: '/guide/ESXI/AD-01' }
       ]
     },
     {
