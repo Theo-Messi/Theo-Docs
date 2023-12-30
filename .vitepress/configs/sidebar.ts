@@ -257,7 +257,7 @@ export function Sidebar_Esxi() {
   return [
     {
       // 分组名称
-      text: 'ESXi 8.0安装',
+      text: 'ESXi 8.0 部署指南',
       // 下拉开关
       // collapsed: true,
       // 分组路径
@@ -265,26 +265,40 @@ export function Sidebar_Esxi() {
       // 分组页面
       items: [
         { text: '安装指南', link: 'ESXI-01' },
-        { text: 'ESXI写盘', link: 'ESXI-02' },
-        { text: '主板BIOS设置', link: 'ESXI-03' },
-        { text: 'ESXI安装', link: 'ESXI-04' },
-        { text: 'ESXI后台配置', link: 'ESXI-05' },
-        { text: 'ESXI前台配置', link: 'ESXI-06' }
+        { text: 'ESXI 写盘', link: 'ESXI-02' },
+        { text: '主板 BIOS 设置', link: 'ESXI-03' },
+        { text: 'ESXI 安装', link: 'ESXI-04' },
+        { text: 'ESXI 后台配置', link: 'ESXI-05' },
+        { text: 'ESXI 前台配置', link: 'ESXI-06' }
       ]
     },
     {
       // 分组名称
-      text: 'ESXI — OpenWrt',
+      text: 'ESXI 部署 OpenWrt',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/guide/ESXI/',
       // 分组页面
       items: [
-        { text: 'ESXI安装Openwrt', link: 'OP-01' },
-        { text: '关闭IPV6', link: 'OP-02' },
-        { text: 'PPPOE拨号', link: 'OP-03' },
-        { text: 'OpenWrt扩容内存', link: 'OP-04' }
+        { text: '安装 Openwrt', link: 'OP-01' },
+        { text: '关闭 IPV6', link: 'OP-02' },
+        { text: 'PPPOE 拨号', link: 'OP-03' },
+        { text: 'OpenWrt 扩容内存', link: 'OP-04' }
+      ]
+    },
+    {
+      // 分组名称
+      text: 'ESXI 部署 AdGuardHome',
+      // 下拉开关
+      // collapsed: true,
+      // 分组路径
+      base: '/guide/ESXI/',
+      // 分组页面
+      items: [
+        { text: '安装 AdGuardHome', link: 'AD-01' },
+        { text: '配置 AdGuardHome', link: 'AD-02' },
+        { text: '配置 OpenWrt', link: 'AD-03' }
       ]
     }
   ]
