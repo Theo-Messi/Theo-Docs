@@ -1,10 +1,10 @@
 {
   "devDependencies": {
-    "@types/node": "^20.10.5",
+    "@types/node": "^20.10.6",
     "prettier": "3.1.1",
     "sass": "^1.69.6",
     "sitemap": "^7.1.1",
-    "vitepress": "1.0.0-rc.33"
+    "vitepress": "1.0.0-rc.34"
   },
   "scripts": {
     "dev": "vitepress dev",
@@ -18,7 +18,7 @@
     "lint-staged": "^15.2.0",
     "medium-zoom": "^1.1.0",
     "simple-git-hooks": "^2.9.0",
-    "vue": "^3.4.0"
+    "vue": "^3.4.3"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
