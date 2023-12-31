@@ -7,22 +7,20 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 export const head: HeadConfig[] = [
   // 设置图标
   ['link', { rel: 'icon', href: 'https://theovan.xyz/avatar.jpg' }],
-
   // 设置主题颜色
   ['meta', { name: 'theme-color', content: '#5f67ee' }],
-
+  // 设置作者
+  ['meta', { name: 'author', content: 'Theo-messi' }],
+  // 版权所有
+  ['meta', { name: 'copyright', content: 'Theo-messi' }],
   // 设置og类型
   ['meta', { name: 'og:type', content: 'website' }],
-
   // 设置og语言
   ['meta', { name: 'og:locale', content: 'cn' }],
-
   // 设置og站点名称
   ['meta', { name: 'og:site_name', content: 'Theo Notes' }],
-
   // 设置og图片
   ['meta', { name: 'og:image', content: 'https://theovan.xyz/avatar.png' }],
-
   // 设置站点SEO
   [
     'meta',
