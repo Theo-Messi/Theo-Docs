@@ -298,7 +298,8 @@ export function Sidebar_Esxi() {
       items: [
         { text: '安装 AdGuardHome', link: 'AD-01' },
         { text: '配置 AdGuardHome', link: 'AD-02' },
-        { text: '配置 OpenWrt', link: 'AD-03' }
+        { text: '配置 OpenWrt', link: 'AD-03' },
+        { text: '扩容 AdGuardHome', link: 'AD-04' }
       ]
     }
   ]

@@ -8,16 +8,47 @@ const links: { url: string; lastmod: PageData['lastUpdated'] }[] = []
 
 // 导出默认配置
 export default defineConfig({
+  // 站点名称
+  title: 'Theo Docs',
   // 站点语言
   lang: 'zh-Hans',
-
   // 站点介绍
   description:
     '网络技术,VPS,ESXI,OpenWrt,青龙面板,风水玄学,picgo,github,图床,梅林固件,华硕,fancyss,科学上网,clash,独角数卡,homebrew,git,docker,linux,markdown,甲骨文,谷歌云,防火墙,流媒体,京东,阿里云,YouTube,Premium,机场,流媒体,解锁,线路,科学上网,梯子,特殊服务,出国服务,奈飞,Netflix,迪士尼,YouTube,油管,hulu,一元机场,FlyingBird,Bridge the Wise,HBO Max,Spotify,奈飞小铺,蜜糖商店,银河录像局',
 
+  //'force-dark'强制开启深色模式 false强制开启浅色模式
+  // appearance: 'force-dark',
+
+  // markdown-it插件配置
+  markdown: {
+    theme: {
+      light: 'min-light',
+      dark: 'min-dark'
+    },
+    container: {
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
+    }
+  },
+
+  // 源目录
+  srcDir: 'src',
+
+  // 网站头部
+  head,
+
+  // 上次更新时间戳
+  lastUpdated: true,
+
+  // 开启后网址后缀无'html'
+  cleanUrls: true,
+
   themeConfig: {
     // // logo
-    logo: '/avatar.png',
+    logo: { src: '/avatar.png', width: 24, height: 24 },
 
     // 社交链接
     socialLinks: [{ icon: 'github', link: 'https://github.com/Theo-messi' }],
@@ -69,39 +100,6 @@ export default defineConfig({
         'Copyright © 2019 - 2023 <a href="https://github.com/Theo-messi" target="_blank">Theo</a> . All Rights Reserved.'
     }
   },
-
-  // 站点名称
-  title: 'Theo Docs',
-
-  //'force-dark'强制开启深色模式 false强制开启浅色模式
-  // appearance: 'force-dark',
-
-  // markdown-it插件配置
-  markdown: {
-    theme: {
-      light: 'min-light',
-      dark: 'min-dark'
-    },
-    container: {
-      tipLabel: '提示',
-      warningLabel: '警告',
-      dangerLabel: '危险',
-      infoLabel: '信息',
-      detailsLabel: '详细信息'
-    }
-  },
-
-  // 源目录
-  srcDir: 'src',
-
-  // 网站头部
-  head,
-
-  // 上次更新时间戳
-  lastUpdated: true,
-
-  // 开启后网址后缀无'html'
-  cleanUrls: true,
 
   // 站点地图
   transformHtml: (_, id, { pageData }) => {
