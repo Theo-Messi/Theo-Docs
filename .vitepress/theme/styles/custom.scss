@@ -1,7 +1,3 @@
-/**
- * Colors: Solid
- * -------------------------------------------------------------------------- */
-
 :root {
   --vp-c-white: #ffffff;
   --vp-c-black: #000000;
@@ -14,34 +10,6 @@
   --vp-c-neutral: var(--vp-c-white);
   --vp-c-neutral-inverse: var(--vp-c-black);
 }
-
-/**
-    * Colors: Palette
-    *
-    * 用于强调色的原始颜色。 这些颜色都参考了
-    * 按功能颜色，例如“文本”、“背景”或“品牌”。
-    *
-    * 每种颜色都具有完全相同的色标系统，具有 3 个纯色级别
-    * 具有不同亮度的颜色，以及 1 种柔和的颜色。
-    *
-    * - `XXX-1`：最纯色，主要用于彩色文本。 它必须
-    * 满足在“XXX-soft”之上使用时的对比度。
-    *
-    * - `XXX-2`：主要用于按钮悬停状态的颜色。
-    *
-    * - `XXX-3`: 纯色背景的颜色，例如按钮的背景颜色。
-    * 必须满足纯白色（#ffffff）文字的对比度
-    * 其顶部。
-    *
-    * - `XXX-soft`：用于微妙背景的颜色，例如自定义容器
-    * 或徽章。 放置“XXX-1”颜色时必须满足对比度
-    *    在它的上面。
-    *
-    * 柔和的颜色必须是半透明的alpha通道。 这一点至关重要
-    * 因为它允许在彼此之上添加多种“软”颜色
-    * 创建重音，例如当内部有内联代码块时
-    * 定制容器。
-    * ------------------------------------------------- -------------------------- */
 
 :root {
   --vp-c-gray-1: #dddde3;
@@ -99,21 +67,6 @@
   --vp-c-red-soft: rgba(244, 63, 94, 0.16);
 }
 
-/**
-   * Colors: Background
-    *
-    * - `bg`：用于主屏幕的背景颜色。
-    *
-    * - `bg-alt`：在“侧边栏”等地方使用的替代背景颜色，
-    * 或“代码块”。
-    *
-    * - `bg-elv`：提升的背景颜色。 这用于“浮动”的部分，
-    * 例如“对话框”。
-    *
-    * - `bg-soft`：背景颜色，稍微区分一些组件
-    *   这一页。 用于“碳广告”或“桌子”等内容。
-    * ---------------------------------------------------------------------------- */
-
 :root {
   --vp-c-bg: #ffffff;
   --vp-c-bg-alt: #f6f6f7;
@@ -128,19 +81,6 @@
   --vp-c-bg-soft: #202127;
 }
 
-/**
-    * Colors: Borders
-    *
-    * - `divider`：用于分隔符。 这是用来划分部分的
-    * 在相同的组件内，例如在“h2”标题上有分隔符。
-    *
-    * - `border`：这是为交互式组件的边框设计的。
-    * 例如，这应用于按钮轮廓。
-    *
-    * - `gutter`：用于划分页面中的组件。 例如
-    * 页眉和页尾部分。
-    * ---------------------------------------------------------------------------- */
-
 :root {
   --vp-c-border: #c2c2c4;
   --vp-c-divider: #e2e2e3;
@@ -153,16 +93,6 @@
   --vp-c-gutter: #000000;
 }
 
-/**
-    * Colors: Text
-    *
-    * - `text-1`：用于主要文本。
-    *
-    * - `text-2`：用于静音文本，例如“非活动菜单”或“信息文本”。
-    *
-    * - `text-3`：用于微妙的文本，例如“占位符”或“插入符号图标”。
-    * ------------------------------------------------- -------------------------- */
-
 :root {
   --vp-c-text-1: rgba(60, 60, 67);
   --vp-c-text-2: rgba(60, 60, 67, 0.78);
@@ -174,27 +104,6 @@
   --vp-c-text-2: rgba(235, 235, 245, 0.6);
   --vp-c-text-3: rgba(235, 235, 245, 0.38);
 }
-
-/**
-    * Colors: Function
-    *
-    * - `default`：纯粹用于微妙指示的颜色，没有任何
-    * 附加特殊含义，例如菜单悬停状态的背景颜色。
-    *
-    * - `brand`：用于主要品牌颜色，例如链接文本、按钮
-    * 品牌主题等
-    *
-    * - `tip`：用于表示有用的信息。 默认主题使用
-    * 默认情况下的品牌颜色。
-    *
-    * - `warning`: 用于向用户表示警告。 用于定制
-    * 容器、徽章等
-    *
-    * - `danger`：用于向用户显示错误或危险消息。 用过的
-    * 在定制容器、徽章等中。
-    *
-    * 要了解缩放系统，请参阅“颜色：调色板”部分。
-    * ------------------------------------------------- -------------------------- */
 
 :root {
   --vp-c-default-1: var(--vp-c-gray-1);
@@ -224,48 +133,6 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
-}
-
-/**
-   * Typography
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-font-family-base: 'Chinese Quotes', 'Inter var', 'Inter', ui-sans-serif,
-    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --vp-font-family-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
-    Consolas, 'Liberation Mono', 'Courier New', monospace;
-}
-
-/**
-   * Shadows
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
-  --vp-shadow-2: 0 3px 12px rgba(0, 0, 0, 0.07), 0 1px 4px rgba(0, 0, 0, 0.07);
-  --vp-shadow-3: 0 12px 32px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.08);
-  --vp-shadow-4: 0 14px 44px rgba(0, 0, 0, 0.12), 0 3px 9px rgba(0, 0, 0, 0.12);
-  --vp-shadow-5: 0 18px 56px rgba(0, 0, 0, 0.16), 0 4px 12px rgba(0, 0, 0, 0.16);
-}
-
-/**
-   * Icons
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-icon-copy: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' height='20' width='20' stroke='rgba(128,128,128,1)' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2'/%3E%3C/svg%3E");
-  --vp-icon-copied: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' height='20' width='20' stroke='rgba(128,128,128,1)' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2m-6 9 2 2 4-4'/%3E%3C/svg%3E");
-}
-
-/**
-   * Layouts
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-layout-max-width: 1440px;
 }
 
 /**
@@ -305,78 +172,6 @@
 }
 
 /**
-   * Component: Custom Block
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-custom-block-font-size: 14px;
-  --vp-custom-block-code-font-size: 13px;
-
-  --vp-custom-block-info-border: transparent;
-  --vp-custom-block-info-text: var(--vp-c-text-1);
-  --vp-custom-block-info-bg: var(--vp-c-default-soft);
-  --vp-custom-block-info-code-bg: var(--vp-c-default-soft);
-
-  --vp-custom-block-tip-border: transparent;
-  --vp-custom-block-tip-text: var(--vp-c-text-1);
-  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
-  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
-
-  --vp-custom-block-warning-border: transparent;
-  --vp-custom-block-warning-text: var(--vp-c-text-1);
-  --vp-custom-block-warning-bg: var(--vp-c-warning-soft);
-  --vp-custom-block-warning-code-bg: var(--vp-c-warning-soft);
-
-  --vp-custom-block-danger-border: transparent;
-  --vp-custom-block-danger-text: var(--vp-c-text-1);
-  --vp-custom-block-danger-bg: var(--vp-c-danger-soft);
-  --vp-custom-block-danger-code-bg: var(--vp-c-danger-soft);
-
-  --vp-custom-block-details-border: var(--vp-custom-block-info-border);
-  --vp-custom-block-details-text: var(--vp-custom-block-info-text);
-  --vp-custom-block-details-bg: var(--vp-custom-block-info-bg);
-  --vp-custom-block-details-code-bg: var(--vp-custom-block-info-code-bg);
-}
-
-/**
-   * Component: Input
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-input-border-color: var(--vp-c-border);
-  --vp-input-bg-color: var(--vp-c-bg-alt);
-
-  --vp-input-switch-bg-color: var(--vp-c-gray-soft);
-}
-
-/**
-   * Component: Nav
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-nav-height: 56px;
-  --vp-nav-bg-color: var(--vp-c-bg);
-  --vp-nav-screen-bg-color: var(--vp-c-bg);
-  --vp-nav-logo-height: 24px;
-}
-
-.hide-nav {
-  --vp-nav-height: 0px;
-}
-
-.hide-nav .VPSidebar {
-  --vp-nav-height: 22px;
-}
-
-/**
-   * Colors Backdrop
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-backdrop-bg-color: rgba(0, 0, 0, 0.6);
-}
-
-/**
    * Component: Home
    * -------------------------------------------------------------------------- */
 
@@ -405,54 +200,6 @@
   :root {
     --vp-home-hero-image-filter: blur(72px);
   }
-}
-
-/**
-   * Component: Badge
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-badge-info-border: transparent;
-  --vp-badge-info-text: var(--vp-c-text-2);
-  --vp-badge-info-bg: var(--vp-c-default-soft);
-
-  --vp-badge-tip-border: transparent;
-  --vp-badge-tip-text: var(--vp-c-brand-1);
-  --vp-badge-tip-bg: var(--vp-c-brand-soft);
-
-  --vp-badge-warning-border: transparent;
-  --vp-badge-warning-text: var(--vp-c-warning-1);
-  --vp-badge-warning-bg: var(--vp-c-warning-soft);
-
-  --vp-badge-danger-border: transparent;
-  --vp-badge-danger-text: var(--vp-c-danger-1);
-  --vp-badge-danger-bg: var(--vp-c-danger-soft);
-}
-
-/**
-   * Component: Carbon Ads
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-carbon-ads-text-color: var(--vp-c-text-1);
-  --vp-carbon-ads-poweredby-color: var(--vp-c-text-2);
-  --vp-carbon-ads-bg-color: var(--vp-c-bg-soft);
-  --vp-carbon-ads-hover-text-color: var(--vp-c-brand-1);
-  --vp-carbon-ads-hover-poweredby-color: var(--vp-c-text-1);
-}
-
-/**
-    * Component: Local Search
-    * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-local-search-bg: var(--vp-c-bg);
-  --vp-local-search-result-bg: var(--vp-c-bg);
-  --vp-local-search-result-border: var(--vp-c-divider);
-  --vp-local-search-result-selected-bg: var(--vp-c-bg);
-  --vp-local-search-result-selected-border: var(--vp-c-brand-1);
-  --vp-local-search-highlight-bg: var(--vp-c-brand-1);
-  --vp-local-search-highlight-text: var(--vp-c-neutral-inverse);
 }
 
 /* markdown图片明暗设置 */
@@ -531,7 +278,7 @@ html.dark {
 }
 
 .dark .VPContent {
-  background-color: rgb(10, 10, 11);
+  background-color: rgb(10, 10, 10);
   background-image: url('/grid.svg');
 }
 
