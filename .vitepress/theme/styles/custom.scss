@@ -252,19 +252,6 @@
 }
 
 /**
-   * Z-indexes
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-z-index-footer: 10;
-  --vp-z-index-local-nav: 20;
-  --vp-z-index-nav: 30;
-  --vp-z-index-layout-top: 40;
-  --vp-z-index-backdrop: 50;
-  --vp-z-index-sidebar: 60;
-}
-
-/**
    * Icons
    * -------------------------------------------------------------------------- */
 
@@ -279,59 +266,6 @@
 
 :root {
   --vp-layout-max-width: 1440px;
-}
-
-/**
-   * Component: Header Anchor
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-header-anchor-symbol: '#';
-}
-
-/**
-   * Component: Code
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-code-line-height: 1.7;
-  --vp-code-font-size: 0.875em;
-  --vp-code-color: var(--vp-c-brand-1);
-  --vp-code-link-color: var(--vp-c-brand-1);
-  --vp-code-link-hover-color: var(--vp-c-brand-2);
-  --vp-code-bg: var(--vp-c-default-soft);
-
-  --vp-code-block-color: var(--vp-c-text-2);
-  --vp-code-block-bg: var(--vp-c-bg-alt);
-  --vp-code-block-divider-color: var(--vp-c-gutter);
-
-  --vp-code-lang-color: var(--vp-c-text-3);
-
-  --vp-code-line-highlight-color: var(--vp-c-default-soft);
-  --vp-code-line-number-color: var(--vp-c-text-3);
-
-  --vp-code-line-diff-add-color: var(--vp-c-green-soft);
-  --vp-code-line-diff-add-symbol-color: var(--vp-c-green-1);
-
-  --vp-code-line-diff-remove-color: var(--vp-c-red-soft);
-  --vp-code-line-diff-remove-symbol-color: var(--vp-c-red-1);
-
-  --vp-code-line-warning-color: var(--vp-c-yellow-soft);
-  --vp-code-line-error-color: var(--vp-c-red-soft);
-
-  --vp-code-copy-code-border-color: var(--vp-c-divider);
-  --vp-code-copy-code-bg: var(--vp-c-bg-soft);
-  --vp-code-copy-code-hover-border-color: var(--vp-c-divider);
-  --vp-code-copy-code-hover-bg: var(--vp-c-bg);
-  --vp-code-copy-code-active-text: var(--vp-c-text-2);
-  --vp-code-copy-copied-text-content: 'Copied';
-
-  --vp-code-tab-divider: var(--vp-code-block-divider-color);
-  --vp-code-tab-text-color: var(--vp-c-text-2);
-  --vp-code-tab-bg: var(--vp-code-block-bg);
-  --vp-code-tab-hover-text-color: var(--vp-c-text-1);
-  --vp-code-tab-active-text-color: var(--vp-c-text-1);
-  --vp-code-tab-active-bar-color: var(--vp-c-brand-1);
 }
 
 /**
@@ -432,23 +366,6 @@
 
 .hide-nav .VPSidebar {
   --vp-nav-height: 22px;
-}
-
-/**
-   * Component: Local Nav
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-local-nav-bg-color: var(--vp-c-bg);
-}
-
-/**
-   * Component: Sidebar
-   * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-sidebar-width: 272px;
-  --vp-sidebar-bg-color: var(--vp-c-bg-alt);
 }
 
 /**
