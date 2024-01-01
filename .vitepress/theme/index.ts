@@ -1,10 +1,8 @@
 // .vitepress/theme/index.ts */
-import { h, watch, onMounted, nextTick } from 'vue'
-import { useData, useRoute } from 'vitepress'
+import { h } from 'vue'
+import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import mediumZoom from 'medium-zoom'
 import { inject } from '@vercel/analytics'
-import MLayout from './components/MLayout.vue'
 
 inject()
 import './styles/index.scss'
@@ -21,26 +19,6 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
-    return h(MLayout, props)
-  },
-  setup() {
-    // 获取当前路由
-    const route = useRoute()
-    // 初始化缩放
-    const initZoom = () => {
-      // 设置图片缩放
-      mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' })
-      // 设置图片缩放
-      mediumZoom('.main img', { background: 'var(--vp-c-bg)' })
-    }
-    // 组件加载完成时执行
-    onMounted(() => {
-      initZoom()
-    })
-    // 监听路由变化，当路由变化时执行initZoom函数
-    watch(
-      () => route.path,
-      () => nextTick(() => initZoom())
-    )
+    return h(DefaultTheme.Layout, props)
   }
 }
