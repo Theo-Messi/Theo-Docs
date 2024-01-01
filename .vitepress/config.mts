@@ -95,7 +95,7 @@ export default defineConfig({
     footer: {
       message: 'Released Under The MIT License.',
       copyright:
-        'Copyright © 2019 - 2023 <a href="https://github.com/Theo-messi" target="_blank">Theo</a> . All Rights Reserved.'
+        'Copyright © 2019 - 2024 <a href="https://github.com/Theo-messi" target="_blank">Theo</a> . All Rights Reserved.'
     }
   },
 
