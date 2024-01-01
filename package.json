@@ -16,7 +16,6 @@
     "@mdit-vue/shared": "^2.0.0",
     "@vercel/analytics": "^1.1.1",
     "lint-staged": "^15.2.0",
-    "medium-zoom": "^1.1.0",
     "simple-git-hooks": "^2.9.0",
     "vue": "^3.4.3"
   },
