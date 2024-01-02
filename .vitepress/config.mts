@@ -89,7 +89,10 @@ export default defineConfig({
     sidebar,
 
     // algolia搜索
-    algolia,
+    search: {
+      provider: 'algolia',
+      options: algolia
+    },
 
     // 底部信息
     footer: {
