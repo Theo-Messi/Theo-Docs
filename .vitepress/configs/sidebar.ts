@@ -244,7 +244,7 @@ export function Sidebar_vps() {
         { text: '安装哪吒面板', link: 'Install-Nezha-panel' },
         { text: 'V2Ray搭建详细教程', link: 'V2Ray' },
         { text: 'X-ui搭建详细教程', link: 'X-ui' },
-        { text: 'VPS一键检测流媒体解锁', link: 'streaming-Unlocked' },
+        { text: 'VPS一键检测流媒体解锁', link: 'Streaming-Unlocked' },
         { text: '一键检测机场奈飞解锁', link: 'Netflix-Unlocked' },
         { text: '搭建独角数卡网站', link: 'Unicorn-Number-Card' }
       ]
