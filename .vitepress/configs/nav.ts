@@ -137,7 +137,7 @@ export function Nav_Serve() {
       text: '推荐机场',
       //分组页面
       items: [
-        { text: '一元机场', link: 'https://一元机场.click/#/register?code=tFcXfJEuu' },
+        { text: '一元机场', link: 'https://xn--4gq62f52gdss.art/#/register?code=tFcXfJEuu' },
         { text: 'FlyingBird - 飞鸟机场', link: 'https://fbaff01.flyb-aff01.com/auth/register?code=RZP3' },
         { text: 'Bridge the Wise', link: 'https://patriot.ninja/aff.php?aff=1471' }
       ]
