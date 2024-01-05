@@ -193,9 +193,7 @@ function jsonp(url, params) {
     }
     params.cb = callback
     const scriptEle = document.createElement('script')
-    scriptEle.src = `${url}${url.includes('?') ? '&' : '?'}${normalizeParams(
-      params
-    )}`
+    scriptEle.src = `${url}${url.includes('?') ? '&' : '?'}${normalizeParams(params)}`
     document.body.appendChild(scriptEle)
   })
 }

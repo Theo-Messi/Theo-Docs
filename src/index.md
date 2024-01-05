@@ -11,20 +11,20 @@ hero:
   text: 一站式服务
   tagline: 引领您进入五彩斑斓的视听世界，并涵盖了 Netflix 、Disney+ 、Spotify会员 和 YouTube会员 的精彩领域
   image:
-    src: 'home.png'
+    src: 'index/home.png'
     alt: 全方位流媒体观影指南
   actions:
     - theme: brand
       text: 账号合租
-      link: /Sharing/01
+      link: /sharing/Account-sharing-guide
 
     - theme: alt
       text: Netflix 机场
-      link: /Airport/01
+      link: /airport/Unlock-Netflix
 
     - theme: brand
       text: 文档记录
-      link: /skill/JL-01
+      link: /record/build-picture-bed
 
     - theme: sponsor
       text: 赞助
@@ -32,71 +32,71 @@ hero:
 features:
   - title: FlyingBird - 飞鸟机场
     details: FlyingBird 飞鸟机场是一家成立于2022年的新机场，支持 Shadowsocks 协议，小众精品，节点不多，全 IPLC 专线机场。
-    link: /Airport/03
+    link: /airport/FlyingBird
 
   - title: 一元机场
     details: 一元机场是 2022 年创立的机场，由于价格便宜到「离谱」，现今风头正盛，可以说现在的名气不亚于当年跑路的速蛙云。甚至有好事者创立了「一元机场」的百度贴吧。
-    link: /Airport/02
+    link: /airport/yiyuan
 
   - title: Bridge the Wise
     details: 其名字来源于 People’s Daily 的名言：智者建桥，愚者建墙，他们最开始接触的中国电影并不好看，同时也很理解下载资源很不方便的奈飞，所以他们就建立了一个中转机场，只为了能够给国内的同胞们提供便捷的观看服务。
-    link: /Airport/04
+    link: /airport/Bridge-the-Wise
 
   - title: Netflix
     icon:
-      src: netflix-color1.svg
+      src: index/netflix.svg
       width: 30
       height: 30
     details: 以其丰富的原创内容和电影库著称，是电影和电视剧爱好者的理想选择。
-    link: /Streaming/Netflix-01
+    link: /streaming/Netflix-introduce
 
   - title: Disney+
     icon:
-      src: disney.svg
+      src: index/disney.svg
       width: 60
       height: 60
     details: 以经典的迪士尼、漫威和星球大战系列为主打，适合所有年龄层的观众。
-    link: /Streaming/Disney-01
+    link: /streaming/Disney-introduce
 
   - title: Spotify
     icon:
-      src: spotify-color.svg
+      src: index/spotify.svg
       width: 30
       height: 30
     details: 拥有庞大的音乐库，允许免费听歌，是音乐迷的天堂。
-    link: /Streaming/Spotify-01
+    link: /streaming/Spotify
 
   - title: YouTube会员
     icon:
-      src: youtube-color 2.svg
+      src: index/youtube.svg
       width: 30
       height: 30
     details: 提供无广告观看体验和独家内容，让您沉浸在丰富的视频世界中。
-    link: /Streaming/YouTube-01
+    link: /streaming/YouTube
 
   - title: Hulu
     icon:
-      src: Hulu_Logo.svg
+      src: index/Hulu.svg
       width: 60
       height: 60
     details: 提供的影视作品包括你在 Netflix 以及其他流媒体平台上看到的所有内容，对于能够访问并在线观看的用户来说，Hulu是可选择的最佳的流媒体。
-    link: /Streaming/Hulu-01
+    link: /streaming/Hulu
 
   - title: HBO Max
     icon:
-      src: HBO_Max_Logo.svg
+      src: index/HBO.svg
       width: 60
       height: 60
     details: 根据AT＆T的数据，至2021 年6 月30 日为止，HBO Max在全球已经有6750万名付费用户，在美国的HBO Max用户则为4350 万，其中包含350万名HBO付费电视客户
-    link: /Streaming/HBO-Max-01
+    link: /streaming/HBO-Max
 
   - title: 银河录像局
     icon:
-      src: yh.png
+      src: index/yh.png
       width: 80
       height: 80
     details: 国内可靠的智能奈飞合租平台，提供 Netflix Spotify YouTube Disney+ HBO 等流媒体服务以及 ChatGPT Plus(OpenAI)、MidJourney 等AI服务
-    link: /Sharing/02
+    link: /sharing/nf-video
 
   - title: 蜜糖商店
     icon:
@@ -104,7 +104,7 @@ features:
       width: 30
       height: 30
     details: 行业领先的流媒体账号合租服务平台，以优质的一站式服务为核心，为您提供同时满足安全、稳定、便捷的高效合租体验。
-    link: /Sharing/03
+    link: /sharing/metshop
 
   - title: 奈飞小铺
     icon:
@@ -112,53 +112,47 @@ features:
       width: 30
       height: 30
     details: 业内首家以 独立站 + 微信公众号 + 自动发货 + 自助售后 + 无限续费 模式运营的独立 Netflix 合租账号售卖平台，目前也是业内最大的奈飞账号（及其他流媒体服务账号）合租平台。
-    link: /Sharing/04
+    link: /sharing/ihezu
 
   - title: 文档记录
     icon:
       src: https://vitejs.dev/logo-with-shadow.png
       width: 30
     details: 日常记录
-    link: /skill/JL-01
-    # linkText: 文档记录
+    link: /record/build-picture-bed
 
   - title: 前端物语
     icon:
-      src: ./fe.png
+      src: index/fe.png
       width: 30
     details: 整理前端常用知识点 <small>(面试八股文)</small><br/>"如有异议按你理解为主"
     link: /fe/javascript/types
-    # linkText: 前端常用知识
 
   - title: VPS使用指南
     icon:
-      src: ./VPS.png
+      src: index/VPS.png
       width: 40
     details: 基础设置/进阶使用/搭建服务
-    link: /guide/VPS/01
-    # linkText: VPS使用指南
+    link: /guide/vps/01
 
   - title: ESXI安装指南
     icon:
       src: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj48cGF0aCBkPSJNMzg0IDY4LjA3OHYxMDYuNDEzaDE2VjY4LjA3OEE2OC4xNTYgNjguMTU2IDAgMCAwIDMzMS45MjIgMEgyMjQuMDQ0bC0xNiAxNmgxMjMuODc4QTUyLjEzNyA1Mi4xMzcgMCAwIDEgMzg0IDY4LjA3OFoiIGZpbGw9IiM3OGJlMjAiLz48cGF0aCBkPSJNMTcyLjczOCAzODRINjguMDc4QTUyLjEzOCA1Mi4xMzggMCAwIDEgMTYgMzMxLjkyMlY2OC4wNzhBNTIuMTM4IDUyLjEzOCAwIDAgMSA2OC4wNzggMTZoMTA0LjU2NWwxNi0xNkg2OC4wNzhBNjguMTU2IDY4LjE1NiAwIDAgMCAwIDY4LjA3OHYyNjMuODQ0QTY4LjE1NiA2OC4xNTYgMCAwIDAgNjguMDc4IDQwMGgxMDQuNjZaIiBmaWxsPSIjMDBjMWQ1Ii8+PHBhdGggZD0iTTYyLjg0NCA3OC4yN1YyNTUuOGExNS40NTggMTUuNDU4IDAgMCAwIDE1LjQ0IDE1LjQ0MmgyMi4zMzJ2MTZINzguMjg0YTMxLjQ3NiAzMS40NzYgMCAwIDEtMzEuNDQtMzEuNDQyVjc4LjI3YTMxLjQ3NiAzMS40NzYgMCAwIDEgMzEuNDQtMzEuNDRIMjUxLjVhMzEuNDc2IDMxLjQ3NiAwIDAgMSAzMS40NCAzMS40NHYxOC4wNTRoLTE2Vjc4LjI3YTE1LjQ1NyAxNS40NTcgMCAwIDAtMTUuNDQtMTUuNDRINzguMjg0YTE1LjQ1NyAxNS40NTcgMCAwIDAtMTUuNDQgMTUuNDRabTg0LjcwNSAyNzQuMzc0aDI1LjE4OXYtMTZoLTI1LjE4OWExNS40NTcgMTUuNDU3IDAgMCAxLTE1LjQ0MS0xNS40NFYxNDMuNjczYTE1LjQ1OSAxNS40NTkgMCAwIDEgMTUuNDQxLTE1LjQ0MUgzMjAuNzZhMTUuNDU3IDE1LjQ1NyAwIDAgMSAxNS40NCAxNS40NDF2MzAuODE4aDE2di0zMC44MThhMzEuNDc2IDMxLjQ3NiAwIDAgMC0zMS40NC0zMS40NDFIMTQ3LjU0OWEzMS40NzYgMzEuNDc2IDAgMCAwLTMxLjQ0MSAzMS40NDFWMzIxLjJhMzEuNDc2IDMxLjQ3NiAwIDAgMCAzMS40NDEgMzEuNDQ0WiIgZmlsbD0iIzAwOTFkYSIvPjxwYXRoIGQ9Ik0yNDcuMTI1IDI5NC41NGE0NS45NzQgNDUuOTc0IDAgMSAxIDQ1Ljk3NS00NS45NzQgNDYuMDI2IDQ2LjAyNiAwIDAgMS00NS45NzUgNDUuOTc0Wm0wLTc1Ljk0OGEyOS45NzQgMjkuOTc0IDAgMSAwIDI5Ljk3NSAyOS45NzQgMzAuMDA4IDMwLjAwOCAwIDAgMC0yOS45NzUtMjkuOTc0Wk0zNTMuMjA3IDQwMC42MjNhNDUuOTc0IDQ1Ljk3NCAwIDEgMSA0NS45NzUtNDUuOTc1IDQ2LjAyNiA0Ni4wMjYgMCAwIDEtNDUuOTc1IDQ1Ljk3NVptMC03NS45NDhhMjkuOTc0IDI5Ljk3NCAwIDEgMCAyOS45NzUgMjkuOTczIDMwLjAwOCAzMC4wMDggMCAwIDAtMjkuOTc1LTI5Ljk3M1pNMzk5LjEyNyAyOTIuNjQyaC04OC4xNXYtODguMTUxaDg4LjE1Wm0tNzIuMTUtMTZoNTYuMTV2LTU2LjE1MWgtNTYuMTVaTTI5MC44ODkgMzk4Ljg4aC04OC4xNTF2LTg4LjE1MWg4OC4xNTFabS03Mi4xNTEtMTZoNTYuMTUxdi01Ni4xNTFoLTU2LjE1MVoiIGZpbGw9IiMxZDQyOGEiLz48L3N2Zz4=
       width: 30
     details: ESXI安装过程全解析</br>安装OpenWrt...
-    link: /guide/ESXI/ESXI-01
-    # linkText: ESXI安装指南
+    link: /guide/esxi/esxi-01
 
   - title: 青龙面板
     icon:
       src: https://qn.whyour.cn/logo.png
       width: 30
     details: 安装青龙面板</br>搭建京东签到与阿里云盘签到</br>获取<small>京东Cookie/阿里云盘Cookie</small>
-    link: /guide/QL/QL-01
-    # linkText: 青龙面板
+    link: /guide/ql/ql-01
 
   - title: 玄学宝典
     icon:
-      src: ./bagua.png
+      src: index/bagua.png
       width: 30
     details: 中华经典国学书籍 包含传统五术(山医命相卜)以及各门各派经典文学作品
     link: https://xx.theovan.xyz
-    # linkText: 玄学宝典
 ---

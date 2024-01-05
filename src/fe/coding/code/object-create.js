@@ -2,9 +2,7 @@ function create(proto, properties) {
   // 如果 proto 不是 null 或非原始包装对象，抛出 TypeError 异常
   const type = typeof proto
   if (type !== 'object' && type !== 'function') {
-    throw new TypeError(
-      'Object prototype may only be an Object or null: ' + proto
-    )
+    throw new TypeError('Object prototype may only be an Object or null: ' + proto)
   }
 
   function F() {}
