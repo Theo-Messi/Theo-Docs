@@ -18,7 +18,7 @@ export const head: HeadConfig[] = [
   // 设置og语言
   ['meta', { name: 'og:locale', content: 'cn' }],
   // 设置og站点名称
-  ['meta', { name: 'og:site_name', content: 'Theo Notes' }],
+  ['meta', { name: 'og:site_name', content: 'Theo Docs' }],
   // 设置og图片
   ['meta', { name: 'og:image', content: 'https://theovan.xyz/avatar.png' }],
   // 设置站点SEO

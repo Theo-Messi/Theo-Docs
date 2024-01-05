@@ -3,12 +3,12 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '前端导航', link: '/nav', activeMatch: '^/nav' },
-  { text: '文档记录', link: '/skill/JL-01', activeMatch: '^/skill/' },
+  { text: '文档记录', link: '/record/build-picture-bed', activeMatch: '^/record/' },
   { text: '前端物语', items: Nav_Fe(), activeMatch: '^/fe/' },
   { text: '操作指南', items: Nav_Cz(), activeMatch: '^/guide/' },
-  { text: '观影指南', items: Nav_Streaming(), activeMatch: '^/Streaming/' },
-  { text: '账号合租', items: Nav_Sharing(), activeMatch: '^/Sharing/' },
-  { text: 'Netflix 机场', items: Nav_Airport(), activeMatch: '^/Airport/' },
+  { text: '观影指南', items: Nav_streaming(), activeMatch: '^/streaming/' },
+  { text: '账号合租', items: Nav_sharing(), activeMatch: '^/sharing/' },
+  { text: 'Netflix 机场', items: Nav_airport(), activeMatch: '^/airport/' },
   { text: '一键直达', items: Nav_Serve() }
 ]
 
@@ -39,93 +39,91 @@ export function Nav_Cz() {
     {
       text: 'VPS服务器',
       items: [
-        { text: '基础设置', link: '/guide/VPS/01' },
-        { text: '进阶使用', link: '/guide/VPS/02' },
-        { text: '搭建服务', link: '/guide/VPS/06' }
+        { text: '基础设置', link: '/guide/vps/Oracle-Cloud' },
+        { text: '进阶使用', link: '/guide/vps/Simplify-system-reinstallation' },
+        { text: '搭建服务', link: '/guide/vps/Install-Nezha-panel' }
       ]
     },
     {
       text: 'ESXI虚拟机',
       items: [
-        { text: 'ESXi 8.0 部署指南', link: '/guide/ESXI/ESXI-01' },
-        { text: 'ESXI 部署 OpenWrt', link: '/guide/ESXI/OP-01' },
-        { text: 'ESXI 部署 AdGuardHome', link: '/guide/ESXI/AD-01' }
+        { text: 'ESXi 8.0 部署指南', link: '/guide/esxi/Installation-guide' },
+        { text: 'ESXI 部署 OpenWrt', link: '/guide/esxi/Installation-Openwrt' },
+        { text: 'ESXI 部署 AdGuardHome', link: '/guide/esxi/Install-AdGuardHome' }
       ]
     },
     {
       text: '青龙面板',
       items: [
-        { text: '安装青龙面板', link: '/guide/QL/QL-01' },
-        { text: '获取京东Cookie', link: '/guide/QL/JD-01' },
-        { text: '获取阿里云盘Cookie', link: '/guide/QL/AL-01' }
+        { text: '安装青龙面板', link: '/guide/ql/Install-Qinglong-panel' },
+        { text: '获取京东Cookie', link: '/guide/ql/JD-Cookie-plug-in' },
+        { text: '获取阿里云盘Cookie', link: '/guide/ql/Alipan-Get-cookies-automatically' }
       ]
     },
     {
       text: '华硕路由器固件',
       items: [
-        { text: '刷机须知', link: '/guide/asus/ML-01' },
-        { text: '固件平台介绍', link: '/guide/asus/ML-04' },
-        { text: 'fancyss', link: '/guide/asus/ML-02' },
-        { text: 'Merlin Clash', link: '/guide/asus/ML-03' }
+        { text: '刷机须知', link: '/guide/asus/Flashing-prerequisites' },
+        { text: '固件平台介绍', link: '/guide/asus/Firmware-platform-introduction' },
+        { text: 'fancyss', link: '/guide/asus/fancyss' },
+        { text: 'Merlin Clash', link: '/guide/asus/Merlin-Clash' }
       ]
     },
     {
       text: '入门指南',
       items: [
-        { text: 'Homebrew', link: '/guide/RM/RM-01' },
-        { text: 'Git', link: '/guide/RM/RM-02' },
-        { text: 'Docker', link: '/guide/RM/RM-03' },
-        { text: 'Linux', link: '/guide/RM/RM-04' },
-        { text: 'Markdown', link: '/guide/RM/RM-05' },
-        { text: 'PNPM', link: '/guide/RM/RM-06' }
+        { text: 'Homebrew', link: '/guide/Getting-Started-Guide/Homebrew' },
+        { text: 'Git', link: '/guide/Getting-Started-Guide/Git' },
+        { text: 'Docker', link: '/guide/Getting-Started-Guide/Docker' },
+        { text: 'Linux', link: '/guide/Getting-Started-Guide/Linux' },
+        { text: 'Markdown', link: '/guide/Getting-Started-Guide/Markdown' },
+        { text: 'PNPM', link: '/guide/Getting-Started-Guide/PNPM' }
       ]
     }
   ]
 }
 
 // 流媒体观影指南
-export function Nav_Streaming() {
+export function Nav_streaming() {
   return [
     {
       items: [
-        { text: 'Netflix', link: '/Streaming/Netflix-01' },
-        { text: 'Disney+', link: '/Streaming/Disney-01' },
-        { text: 'Spotify会员', link: '/Streaming/Spotify-01' },
-        { text: 'YouTube会员', link: '/Streaming/YouTube-01' },
-        { text: 'Hulu', link: '/Streaming/Hulu-01' },
-        { text: 'HBO Max', link: '/Streaming/HBO-Max-01' }
+        { text: 'Netflix', link: '/streaming/Netflix-introduce' },
+        { text: 'Disney+', link: '/streaming/Disney-introduce' },
+        { text: 'Spotify会员', link: '/streaming/Spotify' },
+        { text: 'YouTube会员', link: '/streaming/YouTube' },
+        { text: 'Hulu', link: '/streaming/Hulu' },
+        { text: 'HBO Max', link: '/streaming/HBO-Max' }
       ]
     }
   ]
 }
 
 // 🔥账号合租平台
-export function Nav_Sharing() {
+export function Nav_sharing() {
   return [
     {
-      items: [{ text: '账号合租指南', link: '/Sharing/01' }]
+      items: [{ text: '账号合租指南', link: '/sharing/Account-sharing-guide' }]
     },
     {
       items: [
-        { text: '银河录像局 - AI服务', link: '/Sharing/02' },
-        { text: '蜜糖商店 - 流媒体账号', link: '/Sharing/03' },
-        { text: '奈飞小铺 - 流媒体账号', link: '/Sharing/04' }
+        { text: '银河录像局 - AI服务', link: '/sharing/nf-video' },
+        { text: '蜜糖商店 - 流媒体账号', link: '/sharing/metshop' },
+        { text: '奈飞小铺 - 流媒体账号', link: '/sharing/ihezu' }
       ]
     }
   ]
 }
 
 // 推荐 Netflix 机场
-export function Nav_Airport() {
+export function Nav_airport() {
   return [
-    {
-      items: [{ text: '解锁 4K Netflix 机场指南', link: '/Airport/01' }]
-    },
+    { items: [{ text: '解锁 4K Netflix 机场指南', link: '/airport/Unlock-Netflix' }] },
     {
       items: [
-        { text: 'FlyingBird - 飞鸟机场', link: '/Airport/03' },
-        { text: 'Bridge the Wise', link: '/Airport/04' },
-        { text: '一元机场', link: '/Airport/02' }
+        { text: 'FlyingBird - 飞鸟机场', link: '/airport/FlyingBird' },
+        { text: 'Bridge the Wise', link: '/airport/Bridge-the-Wise' },
+        { text: '一元机场', link: '/airport/yiyuan' }
       ]
     }
   ]
@@ -139,18 +137,9 @@ export function Nav_Serve() {
       text: '推荐机场',
       //分组页面
       items: [
-        {
-          text: '一元机场',
-          link: 'https://一元机场.click/#/register?code=tFcXfJEuu'
-        },
-        {
-          text: 'FlyingBird - 飞鸟机场',
-          link: 'https://fbaff01.flyb-aff01.com/auth/register?code=RZP3'
-        },
-        {
-          text: 'Bridge the Wise',
-          link: 'https://patriot.ninja/aff.php?aff=1471'
-        }
+        { text: '一元机场', link: 'https://一元机场.click/#/register?code=tFcXfJEuu' },
+        { text: 'FlyingBird - 飞鸟机场', link: 'https://fbaff01.flyb-aff01.com/auth/register?code=RZP3' },
+        { text: 'Bridge the Wise', link: 'https://patriot.ninja/aff.php?aff=1471' }
       ]
     },
 
@@ -159,14 +148,8 @@ export function Nav_Serve() {
       text: '账号合租平台',
       // 分组页面
       items: [
-        {
-          text: '银河录像局 - AI服务',
-          link: 'https://nf.video/kaIuE'
-        },
-        {
-          text: '蜜糖商店 - 流媒体账号',
-          link: 'https://metshop.vip?referrerUserNo=MTU51076'
-        },
+        { text: '银河录像局 - AI服务', link: 'https://nf.video/kaIuE' },
+        { text: '蜜糖商店 - 流媒体账号', link: 'https://metshop.vip?referrerUserNo=MTU51076' },
         { text: '奈飞小铺 - 流媒体账号', link: 'https://ihezu.love/UKTer6' }
       ]
     },
@@ -174,12 +157,7 @@ export function Nav_Serve() {
       // 分组名称
       text: '其他服务',
       // 分组页面
-      items: [
-        {
-          text: 'SMS 海外接码平台',
-          link: 'https://sms-activate.org/?ref=8170513'
-        }
-      ]
+      items: [{ text: 'SMS 海外接码平台', link: 'https://sms-activate.org/?ref=8170513' }]
     },
     {
       // 分组名称

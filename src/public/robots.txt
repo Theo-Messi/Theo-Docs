@@ -1,3 +1,0 @@
-Sitemap: https://theovan.xyz/sitemap.xml
-
-User-agent: *

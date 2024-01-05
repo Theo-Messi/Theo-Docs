@@ -3,50 +3,50 @@ import type { DefaultTheme } from 'vitepress'
 // 侧边栏配置
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   // VPS使用指南
-  '/guide/VPS/': { base: '/guide/VPS/', items: Sidebar_Vps() },
+  '/guide/vps/': { base: '/guide/vps/', items: Sidebar_vps() },
   // 前端物语
   '/fe/': { base: '/fe/', items: Sidebar_Fe() },
   // 华硕路由器固件
   '/guide/asus/': { base: '/guide/asus/', items: Sidebar_Asus() },
   // 入门指南
-  '/guide/RM/': { base: '/guide/RM/', items: Sidebar_Rm() },
-  // ESXI安装指南
-  '/guide/ESXI/': { base: '/guide/ESXI/', items: Sidebar_Esxi() },
+  '/guide/Getting-Started-Guide/': { base: '/guide/Getting-Started-Guide/', items: Sidebar_Guide() },
+  // esxi安装指南
+  '/guide/esxi/': { base: '/guide/esxi/', items: Sidebar_esxi() },
   // 青龙面板
-  '/guide/QL/': { base: '/guide/QL/', items: Sidebar_QL() },
+  '/guide/ql/': { base: '/guide/ql/', items: Sidebar_ql() },
   // 文档记录
-  '/skill/': { base: '/skill/', items: Sidebar_Skill() },
+  '/record/': { base: '/record/', items: Sidebar_record() },
   // 账号合租平台
-  '/Sharing/': { base: '/Sharing/', items: Sidebar_Sharing() },
+  '/sharing/': { base: '/sharing/', items: Sidebar_sharing() },
   // 推荐 Netflix 机场
-  '/Airport/': { base: '/Airport/', items: Sidebar_Airport() },
+  '/airport/': { base: '/airport/', items: Sidebar_airport() },
   // 流媒体观影指南
-  '/Streaming/': { base: '/Streaming/', items: Sidebar_Streaming() }
+  '/streaming/': { base: '/streaming/', items: Sidebar_streaming() }
 }
 
 // 文档记录
-export function Sidebar_Skill() {
+export function Sidebar_record() {
   return [
     {
       // 分组名称
-      text: '文档记录',
+      // text: '文档记录',
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/skill/',
+      base: '/record/',
       // 分组页面
       items: [
-        { text: 'PicGo + Github 搭建图床', link: 'JL-01' },
-        { text: 'VitePress 添加 Giscu评论', link: 'JL-03' },
-        { text: 'VS Code 使用技巧', link: 'JL-04' },
-        { text: '为项目添加 Prettier 格式化代码', link: 'JL-05' },
-        { text: 'NPM 使用国内镜像及恢复默认源', link: 'JL-06' },
-        { text: 'VitePress实现单击图片放大', link: 'JL-07' },
-        { text: 'oh-my-zsh 安装 & 配置', link: 'JL-08' },
-        { text: 'VitePress 打造个人前端导航网站', link: 'JL-09' },
-        { text: '使用 GPG 签名 Git Commit', link: 'JL-10' },
-        { text: '使用 nvm 管理不同版本的 node', link: 'JL-11' },
-        { text: '优化 iOS/Android 来电、信息界面体验', link: 'JL-12' }
+        { text: 'PicGo + Github 搭建图床', link: 'build-picture-bed' },
+        { text: 'VitePress 添加 Giscu评论', link: 'giscu' },
+        { text: 'VS Code 使用技巧', link: 'vscode' },
+        { text: '为项目添加 Prettier 格式化代码', link: 'prettier' },
+        { text: 'NPM 使用国内镜像及恢复默认源', link: 'npm-mirror' },
+        { text: 'VitePress实现单击图片放大', link: 'Picture-enlargement' },
+        { text: 'oh-my-zsh 安装 & 配置', link: 'oh-my-zsh' },
+        { text: 'VitePress 打造个人前端导航网站', link: 'Front-end-navigation' },
+        { text: '使用 GPG 签名 Git Commit', link: 'gpg' },
+        { text: '使用 nvm 管理不同版本的 node', link: 'nvm' },
+        { text: '优化 iOS/Android 来电、信息界面体验', link: 'vcards' }
       ]
     }
   ]
@@ -162,24 +162,24 @@ export function Sidebar_Asus() {
   return [
     {
       // 分组名称
-      text: '梅林操作文档',
+      // text: '梅林操作文档',
       // 下拉开关
       // collapsed: true,
       // 分组路径
       base: '/guide/asus/',
       // 分组页面
       items: [
-        { text: '刷机需知', link: 'ML-01' },
-        { text: '固件平台介绍', link: 'ML-04' },
-        { text: 'fancyss', link: 'ML-02' },
-        { text: 'Merlin Clash', link: 'ML-03' }
+        { text: '刷机需知', link: 'Flashing-prerequisites' },
+        { text: '固件平台介绍', link: 'Firmware-platform-introduction' },
+        { text: 'fancyss', link: 'fancyss' },
+        { text: 'Merlin Clash', link: 'Merlin-Clash' }
       ]
     }
   ]
 }
 
 // 入门指南
-export function Sidebar_Rm() {
+export function Sidebar_Guide() {
   return [
     {
       // 分组名称
@@ -187,21 +187,21 @@ export function Sidebar_Rm() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/RM/',
+      base: '/guide/Getting-Started-Guide/',
       // 分组页面
       items: [
-        { text: 'Homebrew', link: 'RM-01' },
-        { text: 'Git', link: 'RM-02' },
-        { text: 'Docker', link: 'RM-03' },
-        { text: 'Linux', link: 'RM-04' },
-        { text: 'Markdown', link: 'RM-05' },
-        { text: 'PNPM', link: 'RM-06' }
+        { text: 'Homebrew', link: 'Homebrew' },
+        { text: 'Git', link: 'Git' },
+        { text: 'Docker', link: 'Docker' },
+        { text: 'Linux', link: 'Linux' },
+        { text: 'Markdown', link: 'Markdown' },
+        { text: 'PNPM', link: 'PNPM' }
       ]
     }
   ]
 }
-// VPS使用指南
-export function Sidebar_Vps() {
+// vps使用指南
+export function Sidebar_vps() {
   return [
     {
       // 分组名称
@@ -209,13 +209,13 @@ export function Sidebar_Vps() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/VPS/',
+      base: '/guide/vps/',
       // 分组页面
       items: [
-        { text: '甲骨文云防火墙设置', link: '01' },
-        { text: '谷歌云防火墙设置', link: '12' },
-        { text: '开启 Root 登陆', link: '03' },
-        { text: '开启防火墙端口', link: '11' }
+        { text: '甲骨文云防火墙设置', link: 'Oracle-Cloud' },
+        { text: '谷歌云防火墙设置', link: 'Google-Cloud' },
+        { text: '开启 Root 登陆', link: 'root-login' },
+        { text: '开启防火墙端口', link: 'firewall-port' }
       ]
     },
     {
@@ -224,12 +224,12 @@ export function Sidebar_Vps() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/VPS/',
+      base: '/guide/vps/',
       // 分组页面
       items: [
-        { text: '简化重装系统', link: '02' },
-        { text: '一键脚本部署开ARM机器', link: '04' },
-        { text: 'VPS全能工具箱', link: '05' }
+        { text: '简化重装系统', link: 'Simplify-system-reinstallation' },
+        { text: '一键脚本部署开ARM机器', link: 'One-click-script' },
+        { text: 'VPS全能工具箱', link: 'All-purpose-toolbox' }
       ]
     },
     {
@@ -238,22 +238,22 @@ export function Sidebar_Vps() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/VPS/',
+      base: '/guide/vps/',
       // 分组页面
       items: [
-        { text: '安装哪吒面板', link: '06' },
-        { text: 'V2Ray搭建详细教程', link: '07' },
-        { text: 'X-ui搭建详细教程', link: '08' },
-        { text: 'VPS一键检测流媒体解锁', link: '09' },
-        { text: '一键检测机场奈飞解锁', link: '10' },
-        { text: '搭建独角数卡网站', link: '13' }
+        { text: '安装哪吒面板', link: 'Install-Nezha-panel' },
+        { text: 'V2Ray搭建详细教程', link: 'V2Ray' },
+        { text: 'X-ui搭建详细教程', link: 'X-ui' },
+        { text: 'VPS一键检测流媒体解锁', link: 'streaming-Unlocked' },
+        { text: '一键检测机场奈飞解锁', link: 'Netflix-Unlocked' },
+        { text: '搭建独角数卡网站', link: 'Unicorn-Number-Card' }
       ]
     }
   ]
 }
 
-// ESXI安装指南
-export function Sidebar_Esxi() {
+// esxi安装指南
+export function Sidebar_esxi() {
   return [
     {
       // 分组名称
@@ -261,15 +261,15 @@ export function Sidebar_Esxi() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/ESXI/',
+      base: '/guide/esxi/',
       // 分组页面
       items: [
-        { text: '安装指南', link: 'ESXI-01' },
-        { text: 'ESXI 写盘', link: 'ESXI-02' },
-        { text: '主板 BIOS 设置', link: 'ESXI-03' },
-        { text: 'ESXI 安装', link: 'ESXI-04' },
-        { text: 'ESXI 后台配置', link: 'ESXI-05' },
-        { text: 'ESXI 前台配置', link: 'ESXI-06' }
+        { text: '安装指南', link: 'Installation-guide' },
+        { text: 'ESXI 写盘', link: 'write-disk' },
+        { text: '主板 BIOS 设置', link: 'bios' },
+        { text: 'ESXI 安装', link: 'esxi-Install' },
+        { text: 'ESXI 后台配置', link: 'Backend-configuration' },
+        { text: 'ESXI 前台配置', link: 'Front-desk-configuration' }
       ]
     },
     {
@@ -278,13 +278,13 @@ export function Sidebar_Esxi() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/ESXI/',
+      base: '/guide/esxi/',
       // 分组页面
       items: [
-        { text: '安装 Openwrt', link: 'OP-01' },
-        { text: '关闭 IPV6', link: 'OP-02' },
-        { text: 'PPPOE 拨号', link: 'OP-03' },
-        { text: 'OpenWrt 扩容内存', link: 'OP-04' }
+        { text: '安装 Openwrt', link: 'Installation-Openwrt' },
+        { text: '关闭 IPV6', link: 'Turn-off-IPv6' },
+        { text: 'PPPOE 拨号', link: 'PPPOE-dial-up' },
+        { text: 'OpenWrt 扩容内存', link: 'OpenWrt-Expand-memory' }
       ]
     },
     {
@@ -293,20 +293,20 @@ export function Sidebar_Esxi() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/ESXI/',
+      base: '/guide/esxi/',
       // 分组页面
       items: [
-        { text: '安装 AdGuardHome', link: 'AD-01' },
-        { text: '配置 AdGuardHome', link: 'AD-02' },
-        { text: '配置 OpenWrt', link: 'AD-03' },
-        { text: '扩容 AdGuardHome', link: 'AD-04' }
+        { text: '安装 AdGuardHome', link: 'Install-AdGuardHome' },
+        { text: '配置 AdGuardHome', link: 'Configure-AdGuardHome' },
+        { text: '配置 OpenWrt', link: 'Configure-OpenWrt' },
+        { text: '扩容 AdGuardHome', link: 'Expanding-AdGuardHome' }
       ]
     }
   ]
 }
 
 // 青龙面板
-export function Sidebar_QL() {
+export function Sidebar_ql() {
   return [
     {
       // 分组名称
@@ -314,14 +314,14 @@ export function Sidebar_QL() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/QL/',
+      base: '/guide/ql/',
       // 分组页面
       items: [
-        { text: '安装Docker', link: 'QL-01' },
-        { text: '安装青龙面板', link: 'QL-02' },
-        { text: '阿里云盘签到', link: 'QL-03' },
-        { text: '京东签到', link: 'QL-04' },
-        { text: 'BiliBili 签到', link: 'QL-05' }
+        { text: '安装 Docker', link: 'Install-Docker' },
+        { text: '安装 青龙面板', link: 'Install-Qinglong-panel' },
+        { text: '阿里云盘签到', link: 'Alipan-sign-in' },
+        { text: '京东签到', link: 'JD-sign-in' },
+        { text: 'BiliBili 签到', link: 'BiliBili-sign-in' }
       ]
     },
     {
@@ -330,12 +330,12 @@ export function Sidebar_QL() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/QL/',
+      base: '/guide/ql/',
       //分组页面
       items: [
-        { text: '插件版', link: 'JD-01' },
-        { text: '浏览器版', link: 'JD-02' },
-        { text: 'Boxjs', link: 'JD-03' }
+        { text: '插件版', link: 'JD-Cookie-plug-in' },
+        { text: '浏览器版', link: 'JD-Cookie-Browser' },
+        { text: 'Boxjs', link: 'JD-Cookie-Boxjs' }
       ]
     },
     {
@@ -344,17 +344,23 @@ export function Sidebar_QL() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/QL/',
+      base: '/guide/ql/',
       // 分组页面
       items: [
-        { text: '自动获取 - refresh_token', link: 'AL-01' },
-        { text: '手动获取 - refresh_token', link: 'AL-02' }
+        {
+          text: '自动获取 - refresh_token',
+          link: 'Alipan-Get-cookies-automatically'
+        },
+        {
+          text: '手动获取 - refresh_token',
+          link: 'Alipan-Get-cookies-manually'
+        }
       ]
     }
   ]
 }
 // 流媒体观影指南
-export function Sidebar_Streaming() {
+export function Sidebar_streaming() {
   return [
     {
       // 分组名称
@@ -362,17 +368,17 @@ export function Sidebar_Streaming() {
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/Streaming/',
+      base: '/streaming/',
       // 分组页面
       items: [
-        { text: 'Netflix 介绍', link: 'Netflix-01' },
-        { text: 'Netflix 如何看4K及适配硬件', link: 'Netflix-02' },
-        { text: 'Netflix 常见使用问题及答案', link: 'Netflix-03' },
-        { text: 'Netflix 常见错误提示及解决方案', link: 'Netflix-04' },
-        { text: 'Netflix 秘密分类的技巧', link: 'Netflix-05' },
-        { text: 'Netflix 全球各国影视剧数量', link: 'Netflix-06' },
-        { text: 'Netflix 常用浏览器插件汇总', link: 'Netflix-07' },
-        { text: 'Netflix 总结', link: 'Netflix-08' }
+        { text: '介绍', link: 'Netflix-introduce' },
+        { text: '如何看4K及适配硬件', link: 'Netflix-watch-4K-and-adapting-hardware' },
+        { text: '常见使用问题及答案', link: 'Netflix-Frequently-asked-questions-and-answers' },
+        { text: '常见错误提示及解决方案', link: 'Netflix-Common-error-tips-and-solutions' },
+        { text: '秘密分类的技巧', link: 'Netflix-secret-classification' },
+        { text: '全球各国影视剧数量', link: 'Netflix-Number-of-movies-and-TV-series' },
+        { text: '常用浏览器插件汇总', link: 'Netflix-Browser-plug-in-summary' },
+        { text: '总结与建议', link: 'Netflix-Summarize' }
       ]
     },
     {
@@ -381,14 +387,14 @@ export function Sidebar_Streaming() {
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/Streaming/',
+      base: '/streaming/',
       // 分组页面
       items: [
-        { text: 'Disney+ 介绍', link: 'Disney-01' },
-        { text: 'Disney+ 订阅指南', link: 'Disney-02' },
-        { text: 'Disney+ 合租介绍', link: 'Disney-03' },
-        { text: 'Disney+ 会员使用指南', link: 'Disney-04' },
-        { text: 'Disney+ 总结与建议', link: 'Disney-05' }
+        { text: '介绍', link: 'Disney-introduce' },
+        { text: '订阅指南', link: 'Disney-Subscription-Guide' },
+        { text: '合租介绍', link: 'Disney-Introduction-to-shared-housing' },
+        { text: '会员使用指南', link: 'Disney-Member-User-Guide' },
+        { text: '总结与建议', link: 'Disney-Summary-and-suggestions' }
       ]
     },
     {
@@ -397,9 +403,9 @@ export function Sidebar_Streaming() {
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/Streaming/',
+      base: '/streaming/',
       // 分组页面
-      items: [{ text: 'Spotify Premium 指南', link: 'Spotify-01' }]
+      items: [{ text: 'Spotify Premium 指南', link: 'Spotify' }]
     },
     {
       // 分组名称
@@ -407,11 +413,9 @@ export function Sidebar_Streaming() {
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/Streaming/',
+      base: '/streaming/',
       // 分组页面
-      items: [
-        { text: 'YouTube Premium 会员权益及订阅指南', link: 'YouTube-01' }
-      ]
+      items: [{ text: 'YouTube Premium 会员权益及订阅指南', link: 'YouTube' }]
     },
     {
       // 分组名称
@@ -419,9 +423,9 @@ export function Sidebar_Streaming() {
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/Streaming/',
+      base: '/streaming/',
       // 分组页面
-      items: [{ text: 'Hulu 国内观看指南', link: 'Hulu-01' }]
+      items: [{ text: 'Hulu 国内观看指南', link: 'Hulu' }]
     },
     {
       // 分组名称
@@ -429,15 +433,15 @@ export function Sidebar_Streaming() {
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/Streaming/',
+      base: '/streaming/',
       // 分组页面
-      items: [{ text: 'HBO Max 国内观看指南', link: 'HBO-Max-01' }]
+      items: [{ text: 'HBO Max 国内观看指南', link: 'HBO-Max' }]
     }
   ]
 }
 
 // 账号合租平台
-export function Sidebar_Sharing() {
+export function Sidebar_sharing() {
   return [
     {
       // 分组名称
@@ -445,20 +449,20 @@ export function Sidebar_Sharing() {
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/Sharing/',
+      base: '/sharing/',
       // 分组页面
       items: [
-        { text: '账号合租指南', link: '01' },
-        { text: '银河录像局 - AI服务', link: '02' },
-        { text: '蜜糖商店 - 流媒体账号', link: '03' },
-        { text: '奈飞小铺 - 流媒体账号', link: '04' }
+        { text: '账号合租指南', link: 'Account-sharing-guide' },
+        { text: '银河录像局 - AI服务', link: 'nf-video' },
+        { text: '蜜糖商店 - 流媒体账号', link: 'metshop' },
+        { text: '奈飞小铺 - 流媒体账号', link: 'ihezu' }
       ]
     }
   ]
 }
 
 // 推荐 Netflix 机场
-export function Sidebar_Airport() {
+export function Sidebar_airport() {
   return [
     {
       // 分组名称
@@ -466,13 +470,13 @@ export function Sidebar_Airport() {
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/Airport/',
+      base: '/airport/',
       // 分组页面
       items: [
-        { text: '解锁 4K Netflix 机场指南', link: '01' },
-        { text: 'FlyingBird - 飞鸟机场', link: '03' },
-        { text: 'Bridge the Wise', link: '04' },
-        { text: '一元机场', link: '02' }
+        { text: '解锁 4K Netflix 机场指南', link: 'Unlock-Netflix' },
+        { text: 'FlyingBird - 飞鸟机场', link: 'FlyingBird' },
+        { text: 'Bridge the Wise', link: 'Bridge-the-Wise' },
+        { text: '一元机场', link: 'yiyuan' }
       ]
     }
   ]
