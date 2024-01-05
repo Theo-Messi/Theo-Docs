@@ -31,7 +31,7 @@ export const NAV_DATA: NavData[] = [
         // icon: "https://theovan.wiki/yh.png",
         title: '一元机场',
         desc: '一元机场是 2022 年创立的机场，由于价格便宜到「离谱」，现今风头正盛，可以说现在的名气不亚于当年跑路的速蛙云。甚至有好事者创立了「一元机场」的百度贴吧。',
-        link: 'https://一元机场.click/#/register?code=tFcXfJEu'
+        link: 'https://xn--4gq62f52gdss.art/#/register?code=tFcXfJEu'
       },
       {
         // icon: "https://theovan.wiki/yh.png",
