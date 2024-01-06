@@ -18,22 +18,10 @@ Disney+ 是一家流行的在线视频平台，提供丰富的电影和电视剧
 2.  逐集更新剧集，减少多人同时观看的冲突。
 3.  提供丰富的电影和电视剧资源。
 
-## 如何合租 Disney+
+## Disney+ 账号合租
 
-推荐两个目前我自己也在用的 Disney+ 合租平台：[奈飞小铺](https://ihezu.love/UKTer6)和[蜜糖商店](https://metshop.vip?referrerUserNo=MTU51076)。
-
-## Disney+ 合租平台推荐一：奈飞小铺
-
-- 官网：[https://nf.ihezu.com](https://ihezu.love/UKTer6)
-- 付款方式：支付宝
-- 最高优惠码（8.9 折）： `theonf`
-
-奈飞小铺是较早的流媒体账号合租平台，提供 Disney+、Netflix、Youtube 和 Spotify 等服务。Disney+ 年付合租价格为 ¥119.76/年，使用优惠码 `theonf` 后为 ¥106.59/年。
-
-## Disney+ 合租平台推荐二：蜜糖商店
-
-- 官网：[https://metshop.vip](https://metshop.vip?referrerUserNo=MTU51076)
-- 公众号：扫描上方二维码
-- 付款方式：支付宝、微信
-
-蜜糖商店（Metshop）是一家知名的流媒体账号合租网站，提供 Disney+、Netflix、HBO Go&Max、Prime Video、Spotify、Hulu 等服务。蜜糖商店的 Disney+ 是港区中文账号，支持独立观影记录和 4K 高清。使用优惠码后，Disney+ 年费合租价格仅为 ¥106.2/年。
+|  合租平台  |                        官方网站                         |      优惠码      |      价格       |
+| :--------: | :-----------------------------------------------------: | :--------------: | :-------------: |
+|  奈飞小铺  |          [官方网站](https://ihezu.love/UKTer6)          |   **`theonf`**   |  **114** 元/年  |
+|  蜜糖商店  | [官方网站](https://metshop.vip?referrerUserNo=MTU51076) | **`metshop666`** |  **118** 元/年  |
+| 银河录像局 |           [官方网站](https://nf.video/kaIuE)            |    **`Theo`**    | **136.8** 元/年 |
