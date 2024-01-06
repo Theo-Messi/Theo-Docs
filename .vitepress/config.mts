@@ -56,7 +56,7 @@ export default defineConfig({
 
     // GitHub编辑页面
     editLink: {
-      pattern: 'https://github.com/Theo-messi/VitePress/blob/main/src/:path',
+      pattern: 'https://github.com/Theo-messi/Theo-Docs/blob/main/src/:path',
       text: '为此页提供修改建议'
     },
 
