@@ -5,7 +5,7 @@ export const NAV_DATA: NavData[] = [
     title: '流媒体合租平台',
     items: [
       {
-        icon: 'https://theovan.wiki/yh.png',
+        icon: 'https://theovan.wiki/index/yh.png',
         title: '银河录像局',
         desc: '国内可靠的智能流媒体/AI服务合租平台',
         link: 'https://nf.video/kaIuE'
@@ -277,7 +277,7 @@ export const NAV_DATA: NavData[] = [
     title: 'CSS 相关',
     items: [
       {
-        icon: 'https://postcss.org/assets/logo-3e39b0aa.svg',
+        icon: 'https://postcss.org/assets/postcss-rBJUTTlj.svg',
         title: 'PostCSS',
         desc: '一个用 JavaScript 转换 CSS 的工具',
         link: 'https://postcss.org'
