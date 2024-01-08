@@ -195,7 +195,8 @@ export function Sidebar_Guide() {
         { text: 'Docker', link: 'Docker' },
         { text: 'Linux', link: 'Linux' },
         { text: 'Markdown', link: 'Markdown' },
-        { text: 'PNPM', link: 'PNPM' }
+        { text: 'PNPM', link: 'PNPM' },
+        { text: 'Vim', link: 'Vim' }
       ]
     }
   ]
