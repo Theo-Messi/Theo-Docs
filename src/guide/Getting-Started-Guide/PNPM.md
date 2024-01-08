@@ -2,8 +2,6 @@
 title: pnpm 安装与使用
 ---
 
----
-
 ![](https://m.theovan.xyz/img/pnpm-install-922fbb8bb4d96b8f602a40e6cd07ee13.svg)
 
 ## 安装

@@ -77,7 +77,8 @@ export function Nav_Cz() {
         { text: 'Docker', link: '/guide/Getting-Started-Guide/Docker' },
         { text: 'Linux', link: '/guide/Getting-Started-Guide/Linux' },
         { text: 'Markdown', link: '/guide/Getting-Started-Guide/Markdown' },
-        { text: 'PNPM', link: '/guide/Getting-Started-Guide/PNPM' }
+        { text: 'PNPM', link: '/guide/Getting-Started-Guide/PNPM' },
+        { text: 'Vim', link: '/guide/Getting-Started-Guide/Vim' }
       ]
     }
   ]
