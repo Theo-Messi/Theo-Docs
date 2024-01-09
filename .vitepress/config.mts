@@ -96,10 +96,8 @@ export default defineConfig({
 
     // 底部信息
     footer: {
-      message:
-        'Released Under The <a href="https://github.com/Theo-messi/Theo-Docs/blob/main/license" target="_blank">MIT License</a>.',
-      copyright:
-        'Copyright © 2019 - 2024 <a href="https://github.com/Theo-messi" target="_blank">Theo</a> . All Rights Reserved.'
+      message: `Released Under The <a href="https://github.com/Theo-messi/Theo-Docs/blob/main/license" target="_blank">MIT License</a>.`,
+      copyright: `Copyright © 2019 - ${new Date().getFullYear()} <a href="https://github.com/Theo-messi" target="_blank">Theo</a> . All Rights Reserved.`
     }
   },
 
