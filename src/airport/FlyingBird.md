@@ -8,15 +8,15 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu 一元机场 FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
 ---
 
-:::tip 双蛋快乐！！ - MERRY CHRISTMAS and HAPPY NEW YEAR!
+:::tip 活动待更新
 
-忙忙碌碌，走走停停，又一年。
+<!-- 忙忙碌碌，走走停停，又一年。
 飞鸟感恩有你活动来咯！
 
 1. 月/季/半年付 85折 , **`优惠码：202485`**
 2. 年付8折（站内折上折，高达64折 ，**`优惠码：202480`**
 
-<font color="#FF0000"> 活动时间：即日起至2024年1月10日23点59分 </font>
+<font color="#FF0000"> 活动时间：即日起至2024年1月10日23点59分 </font> -->
 
 ==> [FlyingBird 注册链接](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3)
 
