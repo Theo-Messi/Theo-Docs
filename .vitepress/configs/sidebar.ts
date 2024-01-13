@@ -14,10 +14,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/guide/ql/': { base: '/guide/ql/', items: Sidebar_ql() },
   // 文档记录
   '/record/': { base: '/record/', items: Sidebar_record() },
-  // 账号合租平台
-  '/sharing/': { base: '/sharing/', items: Sidebar_sharing() },
-  // 推荐 Netflix 机场
-  '/airport/': { base: '/airport/', items: Sidebar_airport() },
+  // 服务推荐
+  '/serve/': { base: '/serve/', items: Sidebar_serve() },
   // 流媒体观影指南
   '/streaming/': { base: '/streaming/', items: Sidebar_streaming() }
 }
@@ -335,43 +333,46 @@ export function Sidebar_streaming() {
 }
 
 // 账号合租平台
-export function Sidebar_sharing() {
+export function Sidebar_serve() {
   return [
     {
       // 分组名称
-      // text: "账号合租平台",
+      text: '账号合租平台',
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/sharing/',
+      base: '/serve/',
       // 分组页面
       items: [
-        { text: '账号合租指南', link: 'Account-sharing-guide' },
-        { text: '银河录像局 - AI服务', link: 'nf-video' },
-        { text: '蜜糖商店 - 流媒体账号', link: 'metshop' },
-        { text: '奈飞小铺 - 流媒体账号', link: 'ihezu' }
+        { text: '账号合租指南', link: 'sharing/Account-sharing-guide' },
+        { text: '银河录像局', link: 'sharing/nf-video' },
+        { text: '蜜糖商店', link: 'sharing/metshop' },
+        { text: '奈飞小铺', link: 'sharing/ihezu' }
       ]
-    }
-  ]
-}
-
-// 推荐 Netflix 机场
-export function Sidebar_airport() {
-  return [
+    },
     {
       // 分组名称
-      // text: "推荐机场",
+      text: '优质机场',
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/airport/',
+      base: '/serve/',
       // 分组页面
       items: [
-        { text: '解锁 4K Netflix 机场指南', link: 'Unlock-Netflix' },
-        { text: 'FlyingBird - 飞鸟机场', link: 'FlyingBird' },
-        { text: 'Bridge the Wise', link: 'Bridge-the-Wise' },
-        { text: '一元机场', link: 'yiyuan' }
+        { text: 'FlyingBird - 飞鸟机场', link: 'airport/FlyingBird' },
+        { text: 'Bridge the Wise', link: 'airport/Bridge-the-Wise' },
+        { text: '一元机场', link: 'airport/yiyuan' }
       ]
+    },
+    {
+      // 分组名称
+      text: '接码平台',
+      // 下拉菜单
+      // collapsed: true,
+      // 分组路径
+      base: '/serve/',
+      // 分组页面
+      items: [{ text: 'SMS-Activate', link: 'code/SMS-Activate' }]
     }
   ]
 }

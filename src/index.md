@@ -16,11 +16,11 @@ hero:
   actions:
     - theme: brand
       text: 账号合租
-      link: /sharing/Account-sharing-guide
+      link: /serve/sharing/Account-sharing-guide
 
     - theme: alt
-      text: Netflix 机场
-      link: /airport/Unlock-Netflix
+      text: 机场推荐
+      link: /serve/airport/FlyingBird
 
     - theme: brand
       text: 玄学宝典
@@ -33,15 +33,15 @@ hero:
 features:
   - title: FlyingBird - 飞鸟机场
     details: FlyingBird 飞鸟机场是一家成立于2022年的新机场，支持 Shadowsocks 协议，小众精品，节点不多，全 IPLC 专线机场。
-    link: /airport/FlyingBird
+    link: /serve/airport/FlyingBird
 
   - title: 一元机场
     details: 一元机场是 2022 年创立的机场，由于价格便宜到「离谱」，现今风头正盛，可以说现在的名气不亚于当年跑路的速蛙云。甚至有好事者创立了「一元机场」的百度贴吧。
-    link: /airport/yiyuan
+    link: /serve/airport/yiyuan
 
   - title: Bridge the Wise
     details: 其名字来源于 People’s Daily 的名言：智者建桥，愚者建墙，他们最开始接触的中国电影并不好看，同时也很理解下载资源很不方便的奈飞，所以他们就建立了一个中转机场，只为了能够给国内的同胞们提供便捷的观看服务。
-    link: /airport/Bridge-the-Wise
+    link: /serve/airport/Bridge-the-Wise
 
   - title: 银河录像局
     icon:
@@ -49,7 +49,7 @@ features:
       width: 60
       height: 60
     details: 国内可靠的智能奈飞合租平台，提供 Netflix Spotify YouTube Disney+ HBO 等流媒体服务以及 ChatGPT Plus(OpenAI)、MidJourney 等AI服务
-    link: /sharing/nf-video
+    link: /serve/sharing/nf-video
 
   - title: 蜜糖商店
     icon:
@@ -57,7 +57,7 @@ features:
       width: 30
       height: 30
     details: 行业领先的流媒体账号合租服务平台，以优质的一站式服务为核心，为您提供同时满足安全、稳定、便捷的高效合租体验。
-    link: /sharing/metshop
+    link: /serve/sharing/metshop
 
   - title: 奈飞小铺
     icon:
@@ -65,7 +65,7 @@ features:
       width: 30
       height: 30
     details: 业内首家以 独立站 + 微信公众号 + 自动发货 + 自助售后 + 无限续费 模式运营的独立 Netflix 合租账号售卖平台，目前也是业内最大的奈飞账号（及其他流媒体服务账号）合租平台。
-    link: /sharing/ihezu
+    link: /serve/sharing/ihezu
 
   - title: Netflix
     icon:
