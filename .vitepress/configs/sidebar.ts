@@ -4,8 +4,6 @@ import type { DefaultTheme } from 'vitepress'
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   // VPS使用指南
   '/guide/vps/': { base: '/guide/vps/', items: Sidebar_vps() },
-  // 前端物语
-  '/fe/': { base: '/fe/', items: Sidebar_Fe() },
   // 华硕路由器固件
   '/guide/asus/': { base: '/guide/asus/', items: Sidebar_Asus() },
   // 入门指南
@@ -52,111 +50,6 @@ export function Sidebar_record() {
   ]
 }
 
-// 前端物语
-export function Sidebar_Fe() {
-  return [
-    {
-      // 分组名称
-      text: 'JavaScript 基础知识',
-      // 下拉开关
-      collapsed: false,
-      // 分组路径
-      base: '/fe/javascript/',
-      // 分组页面
-      items: [
-        { text: '数据类型', link: 'types' },
-        { text: '引用类型的拷贝', link: 'clone' },
-        { text: '类型转换', link: 'conversions' },
-        { text: '原型和原型链', link: 'prototype' },
-        { text: '继承', link: 'inherit' }
-      ]
-    },
-    {
-      // 分组名称
-      // text: "ES6 常用知识点",
-      // 下拉开关
-      // collapsed: false,
-      // 分组路径
-      base: '/fe/es6',
-      // 分组页面
-      items: [{ text: 'ES6 常用知识点', link: '/' }]
-    },
-    {
-      // 分组名称
-      text: 'TypeScript',
-      // 下拉开关
-      collapsed: false,
-      // 分组路径
-      base: '/fe/typescript/',
-      // 分组页面
-      items: [{ text: '基础知识', link: 'base' }]
-    },
-    {
-      // 分组名称
-      text: 'HTML / CSS',
-      // 下拉开关
-      collapsed: false,
-      // 分组路径
-      base: '/fe/',
-      // 分组页面
-      items: [
-        { text: 'HTML 理论知识点', link: 'html/' },
-        { text: 'CSS 理论知识点', link: 'css/' }
-      ]
-    },
-    {
-      // 分组名称
-      text: '工程化项目原理',
-      // 下拉开关
-      collapsed: false,
-      // 分组路径
-      base: '/fe/gc/',
-      // 分组页面
-      items: [
-        { text: '掌握 package ', link: 'GC-01' },
-        { text: '掌握 tsconfig ', link: 'GC-02' },
-        { text: 'JS 模块化原理 ', link: 'GC-03' }
-      ]
-    },
-    {
-      // 分组名称
-      text: '浏览器知识',
-      // 下拉开关
-      collapsed: false,
-      // 分组路径
-      base: '/fe/',
-      // 分组页面
-      items: [
-        { text: '浏览器相关知识点', link: 'browser/' },
-        { text: 'TCP', link: 'network/tcp' },
-        { text: 'HTTP', link: 'network/http' }
-      ]
-    },
-    {
-      // 分组名称
-      text: '概念知识点',
-      // 下拉开关
-      collapsed: false,
-      // 分组路径
-      base: '/fe/concept/',
-      // 分组页面
-      items: [
-        { text: '模块化', link: 'module' },
-        { text: '前端页面渲染方式', link: 'page-rendering' }
-      ]
-    },
-    {
-      // 分组名称
-      // text: "编程题",
-      // 下拉开关
-      collapsed: false,
-      // 分组路径
-      base: '/fe/',
-      // 分组页面
-      items: [{ text: '编程题', link: 'coding/' }]
-    }
-  ]
-}
 // 华硕路由器固件
 export function Sidebar_Asus() {
   return [
