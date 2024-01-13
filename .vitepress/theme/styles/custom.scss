@@ -211,3 +211,13 @@
 :root:is(.dark) img[src$='#light'] {
   display: none;
 }
+
+/* 灰度模式 */
+// html {
+//   filter: grayscale(95%);
+//   -webkit-filter: grayscale(95%); /* webkit */
+//   -moz-filter: grayscale(95%); /* firefox */
+//   -ms-filter: grayscale(95%); /* ie9 */
+//   -o-filter: grayscale(95%); /* opera */
+//   filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=.95);
+// }
