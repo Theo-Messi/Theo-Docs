@@ -30,7 +30,7 @@ _斜体文本_
 
 ## 图片
 
-![alt 属性文本](https://theovan.xyz/home.png)
+![alt 属性文本](https://theovan.xyz/index/home.png)
 
 ## 视频
 
