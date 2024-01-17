@@ -4,7 +4,7 @@
     "prettier": "3.2.3",
     "sass": "^1.69.7",
     "sitemap": "^7.1.1",
-    "vitepress": "1.0.0-rc.37"
+    "vitepress": "1.0.0-rc.39"
   },
   "scripts": {
     "dev": "vitepress dev",
