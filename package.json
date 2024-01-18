@@ -4,7 +4,8 @@
     "prettier": "3.2.3",
     "sass": "^1.69.7",
     "sitemap": "^7.1.1",
-    "vitepress": "1.0.0-rc.39"
+    "vitepress": "1.0.0-rc.39",
+    "vitepress-plugin-google-analytics": "^1.0.2"
   },
   "scripts": {
     "dev": "vitepress dev",
@@ -14,7 +15,6 @@
   },
   "dependencies": {
     "@mdit-vue/shared": "^2.0.0",
-    "@vercel/analytics": "^1.1.1",
     "lint-staged": "^15.2.0",
     "simple-git-hooks": "^2.9.0",
     "vue": "^3.4.14"
