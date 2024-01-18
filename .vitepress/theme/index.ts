@@ -2,9 +2,8 @@
 import { h } from 'vue'
 import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import { inject } from '@vercel/analytics'
+import googleAnalytics from 'vitepress-plugin-google-analytics'
 
-inject()
 import './styles/index.scss'
 
 export default {
@@ -20,5 +19,10 @@ export default {
     }
 
     return h(DefaultTheme.Layout, props)
+  },
+  enhanceApp: (ctx) => {
+    googleAnalytics({
+      id: 'G-6QN23XNMXB'
+    })
   }
 }
