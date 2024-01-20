@@ -17,7 +17,7 @@
     "@mdit-vue/shared": "^2.0.0",
     "lint-staged": "^15.2.0",
     "simple-git-hooks": "^2.9.0",
-    "vue": "^3.4.14"
+    "vue": "^3.4.15"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
