@@ -26,14 +26,14 @@ devDependencies:
     specifier: 3.2.3
     version: 3.2.3
   sass:
-    specifier: ^1.69.7
-    version: 1.69.7
+    specifier: ^1.70.0
+    version: 1.70.0
   sitemap:
     specifier: ^7.1.1
     version: 7.1.1
   vitepress:
     specifier: 1.0.0-rc.39
-    version: 1.0.0-rc.39(@algolia/client-search@4.22.0)(@types/node@20.11.4)(sass@1.69.7)(search-insights@2.13.0)
+    version: 1.0.0-rc.39(@algolia/client-search@4.22.0)(@types/node@20.11.4)(sass@1.70.0)(search-insights@2.13.0)
   vitepress-plugin-google-analytics:
     specifier: ^1.0.2
     version: 1.0.2
@@ -614,7 +614,7 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.0.11(@types/node@20.11.4)(sass@1.69.7)
+      vite: 5.0.11(@types/node@20.11.4)(sass@1.70.0)
       vue: 3.4.14
     dev: true
 
@@ -1271,8 +1271,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /sass@1.69.7:
-    resolution: {integrity: sha512-rzj2soDeZ8wtE2egyLXgOOHQvaC2iosZrkF6v3EUG+tBwEvhqUCzm0VP3k9gHF9LXbSrRhT5SksoI56Iw8NPnQ==}
+  /sass@1.70.0:
+    resolution: {integrity: sha512-uUxNQ3zAHeAx5nRFskBnrWzDUJrrvpCPD5FNAoRvTi0WwremlheES3tg+56PaVtCs5QDRX5CBLxxKMDJMEa1WQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -1416,7 +1416,7 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /vite@5.0.11(@types/node@20.11.4)(sass@1.69.7):
+  /vite@5.0.11(@types/node@20.11.4)(sass@1.70.0):
     resolution: {integrity: sha512-XBMnDjZcNAw/G1gEiskiM1v6yzM4GE5aMGvhWTlHAYYhxb7S3/V1s3m2LDHa8Vh6yIWYYB0iJwsEaS523c4oYA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -1448,7 +1448,7 @@ packages:
       esbuild: 0.19.11
       postcss: 8.4.33
       rollup: 4.9.3
-      sass: 1.69.7
+      sass: 1.70.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
@@ -1457,7 +1457,7 @@ packages:
     resolution: {integrity: sha512-ri8bFUAmt3c/DtPrALauGBIUr2gIJ11c1qNRhwd3/+aiuYZBfQpOosSxcO1AswgwRxP9FwBS6Z7jgdDVyXb2hA==}
     dev: true
 
-  /vitepress@1.0.0-rc.39(@algolia/client-search@4.22.0)(@types/node@20.11.4)(sass@1.69.7)(search-insights@2.13.0):
+  /vitepress@1.0.0-rc.39(@algolia/client-search@4.22.0)(@types/node@20.11.4)(sass@1.70.0)(search-insights@2.13.0):
     resolution: {integrity: sha512-EcgoRlAAp37WOxUOYv45oxyhLrcy3Upey+mKpqW3ldsg6Ol4trPndRBk2GO0QiSvEKlb9BMerk49D/bFICN6kg==}
     hasBin: true
     peerDependencies:
@@ -1482,7 +1482,7 @@ packages:
       shikiji: 0.9.19
       shikiji-core: 0.9.19
       shikiji-transformers: 0.9.19
-      vite: 5.0.11(@types/node@20.11.4)(sass@1.69.7)
+      vite: 5.0.11(@types/node@20.11.4)(sass@1.70.0)
       vue: 3.4.14
     transitivePeerDependencies:
       - '@algolia/client-search'
