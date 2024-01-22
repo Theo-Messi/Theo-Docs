@@ -28,10 +28,13 @@ export default defineConfig({
       dark: 'min-dark'
     },
     container: {
-      tipLabel: '提示',
-      warningLabel: '警告',
-      dangerLabel: '危险',
       infoLabel: '信息',
+      noteLabel: '信息',
+      tipLabel: '提示',
+      importantLabel: '重要',
+      warningLabel: '警告',
+      cautionLabel: '警告',
+      dangerLabel: '危险',
       detailsLabel: '详细信息'
     },
     config(md) {
