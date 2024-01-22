@@ -179,45 +179,45 @@ _斜体文本_
 
 ```
 ::: info
-This is an info box.
+[这是一个链接](https://theovan.xyz/)
 :::
 
 ::: tip
-This is a tip.
+[这是一个链接](https://theovan.xyz/)
 :::
 
 ::: warning
-This is a warning.
+[这是一个链接](https://theovan.xyz/)
 :::
 
 ::: danger
-This is a dangerous warning.
+[这是一个链接](https://theovan.xyz/)
 :::
 
 ::: details
-This is a details block.
+[这是一个链接](https://theovan.xyz/)
 :::
 ```
 
 **输出**
 ::: info
-This is an info box.
+[这是一个链接](https://theovan.xyz/)
 :::
 
 ::: tip
-This is a tip.
+[这是一个链接](https://theovan.xyz/)
 :::
 
 ::: warning
-This is a warning.
+[这是一个链接](https://theovan.xyz/)
 :::
 
 ::: danger
-This is a dangerous warning.
+[这是一个链接](https://theovan.xyz/)
 :::
 
 ::: details
-This is a details block.
+[这是一个链接](https://theovan.xyz/)
 :::
 
 ## 自定义容器
@@ -226,7 +226,7 @@ This is a details block.
 
 ````
 ::: danger STOP
-Danger zone, do not proceed
+[这是一个链接](https://theovan.xyz/)
 :::
 
 ::: details Click me to view the code
@@ -240,7 +240,7 @@ console.log('Hello, VitePress!')
 
 **输出**
 ::: danger STOP
-Danger zone, do not proceed
+[这是一个链接](https://theovan.xyz/)
 :::
 
 ::: details Click me to view the code
@@ -250,6 +250,44 @@ console.log('Hello, VitePress!')
 ```
 
 :::
+
+## GitHub 风格容器
+
+**输入**
+
+```md
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+```
+
+**输出**
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
 
 ## 语法高亮
 
