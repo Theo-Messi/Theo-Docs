@@ -3,6 +3,7 @@ import { algolia, head, nav, sidebar } from './configs'
 import { SitemapStream } from 'sitemap'
 import { createWriteStream } from 'node:fs'
 import { resolve } from 'node:path'
+import { transposeTables } from './transpose-tables'
 
 const links: { url: string; lastmod: PageData['lastUpdated'] }[] = []
 
@@ -32,6 +33,9 @@ export default defineConfig({
       dangerLabel: '危险',
       infoLabel: '信息',
       detailsLabel: '详细信息'
+    },
+    config(md) {
+      transposeTables(md)
     }
   },
 
