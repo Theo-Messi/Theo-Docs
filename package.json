@@ -3,7 +3,6 @@
     "@types/node": "^20.11.7",
     "prettier": "3.2.4",
     "sass": "^1.70.0",
-    "sitemap": "^7.1.1",
     "vitepress": "1.0.0-rc.40",
     "vitepress-plugin-google-analytics": "^1.0.2"
   },
