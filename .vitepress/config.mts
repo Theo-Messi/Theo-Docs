@@ -1,11 +1,6 @@
 import { defineConfig, PageData } from 'vitepress'
 import { algolia, head, nav, sidebar } from './configs'
-import { SitemapStream } from 'sitemap'
-import { createWriteStream } from 'node:fs'
-import { resolve } from 'node:path'
 import { transposeTables } from './transpose-tables'
-
-const links: { url: string; lastmod: PageData['lastUpdated'] }[] = []
 
 // 导出默认配置
 export default defineConfig({
@@ -21,6 +16,10 @@ export default defineConfig({
   //'force-dark'强制开启深色模式 false强制开启浅色模式
   // appearance: 'force-dark',
 
+  // 站点地图
+  sitemap: {
+    hostname: 'https://theovan.xyz'
+  },
   // markdown-it插件配置
   markdown: {
     theme: {
@@ -106,25 +105,5 @@ export default defineConfig({
       message: `Released Under The <a href="https://github.com/Theo-messi/Theo-Docs/blob/main/license" target="_blank">MIT License</a>.`,
       copyright: `Copyright © 2019 - ${new Date().getFullYear()} <a href="https://github.com/Theo-messi" target="_blank">Theo</a> . All Rights Reserved.`
     }
-  },
-
-  // 站点地图
-  transformHtml: (_, id, { pageData }) => {
-    if (!/[\\/]404\.html$/.test(id))
-      links.push({
-        // you might need to change this if not using clean urls mode
-        url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
-        lastmod: pageData.lastUpdated
-      })
-  },
-  buildEnd: async ({ outDir }) => {
-    const sitemap = new SitemapStream({
-      hostname: 'https://theovan.wiki/'
-    })
-    const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
-    sitemap.pipe(writeStream)
-    links.forEach((link) => sitemap.write(link))
-    sitemap.end()
-    await new Promise((r) => writeStream.on('finish', r))
   }
 })
