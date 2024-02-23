@@ -42,7 +42,8 @@ export function Sidebar_record() {
         { text: 'VitePress 打造个人前端导航网站', link: 'Front-end-navigation' },
         { text: '使用 GPG 签名 Git Commit', link: 'gpg' },
         { text: '使用 nvm 管理不同版本的 node', link: 'nvm' },
-        { text: '优化 iOS/Android 来电、信息界面体验', link: 'vcards' }
+        { text: '优化 iOS/Android 来电、信息界面体验', link: 'vcards' },
+        { text: '宝塔面板部署vitepress（自动发布静态）', link: 'aaPanel-deployment' }
       ]
     }
   ]
