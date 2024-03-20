@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@types/node": "^20.11.25",
+    "@types/node": "^20.11.30",
     "prettier": "3.2.5",
     "sass": "^1.72.0",
     "vitepress": "1.0.0-rc.45",
