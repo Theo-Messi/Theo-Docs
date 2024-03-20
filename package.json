@@ -15,7 +15,7 @@
   "dependencies": {
     "@mdit-vue/shared": "^2.0.0",
     "lint-staged": "^15.2.2",
-    "simple-git-hooks": "^2.10.0",
+    "simple-git-hooks": "^2.11.0",
     "vue": "^3.4.21"
   },
   "simple-git-hooks": {
