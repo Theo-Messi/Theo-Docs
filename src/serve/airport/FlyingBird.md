@@ -8,7 +8,7 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu 一元机场 FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
 ---
 
-:::tip 恭祝新春！活动来了！
+<!-- :::tip 恭祝新春！活动来了！
 
 春节后，上半年活动会少之又少，所以赶紧上车！
 
@@ -19,7 +19,7 @@ head:
 
 ==> [FlyingBird 注册链接](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3)
 
-:::
+::: -->
 
 ## [FlyingBird 简介](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3)
 
