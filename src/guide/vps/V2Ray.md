@@ -12,7 +12,7 @@ title: V2Ray搭建详细教程
 ## 安装 V2Ray
 
 ```sh
-wget -qO- -o- https://git.io/v2ray.sh
+bash <(wget -qO- -o- https://git.io/v2ray.sh)
 ```
 
 - 脚本特意弄了一个时间显示，给反馈用来检测安装时间的
