@@ -12,9 +12,9 @@ head:
 
 |    合租平台    |                        官方网站                         |    优惠码    |            价格表             |
 | :------------: | :-----------------------------------------------------: | :----------: | :---------------------------: |
-|  **奈飞小铺**  |          [官方网站](https://ihezu.love/UKTer6)          | **`theonf`** | [查看](nf-video#chatgpt-plus) |
+|  **奈飞小铺**  |          [官方网站](https://ihezu.love/UKTer6)          | **`theonf`** |  [查看](ihezu#奈飞小铺定价)   |
 |  **蜜糖商店**  | [官方网站](https://metshop.vip?referrerUserNo=MTU51076) |  **`————`**  | [查看](metshop#蜜糖商店定价)  |
-| **银河录像局** |           [官方网站](https://nf.video/kaIuE)            |  **`Theo`**  |  [查看](ihezu#奈飞小铺定价)   |
+| **银河录像局** |           [官方网站](https://nf.video/kaIuE)            |  **`Theo`**  | [查看](nf-video#chatgpt-plus) |
 
 ## 省心之选：Netflix 账号合租
 
