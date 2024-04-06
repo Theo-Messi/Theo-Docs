@@ -21,6 +21,8 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'og:site_name', content: 'Theo Docs' }],
   // 设置og图片
   ['meta', { name: 'og:image', content: 'https://theovan.xyz/avatar.png' }],
+  // 设置百度收录
+  ['meta', { name: 'baidu-site-verification', content: 'codeva-B6BrBqHfK6' }],
   // 设置站点SEO
   [
     'meta',
