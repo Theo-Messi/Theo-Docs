@@ -2,7 +2,7 @@
   "devDependencies": {
     "@types/node": "^20.12.2",
     "prettier": "3.2.5",
-    "sass": "^1.72.0",
+    "sass": "^1.74.1",
     "vitepress": "1.0.1",
     "vitepress-plugin-google-analytics": "^1.0.2"
   },
