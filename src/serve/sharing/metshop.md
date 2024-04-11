@@ -15,18 +15,18 @@ Metshop作为行业领先的流媒体账号合租服务平台，以优质的一�
 目前，Metshop平台可以订阅全球 6 大热门流媒体会员账号：
 Netflix、Disney+、HBO GO/MAX、Spotify、hulu
 
-[**点击进入蜜糖商店购买**](https://metshop.vip?referrerUserNo=MTU51076)
+[**点击进入蜜糖商店购买**](https://metshop.cn?referrerUserNo=MTU51076)
 
 ## 蜜糖商店定价
 
-|    账号类型     | 1 个月 | 3 个月 | 6 个月 | 12 个月 | 每月价格 |                        合租链接                        |
-| :-------------: | :----: | :----: | :----: | :-----: | :------: | :----------------------------------------------------: |
-|     Netflix     |  ¥ 18  |  ¥ 56  | ¥ 110  |  ¥ 216  |   ¥ 18   | [Metshop](https://metshop.vip?referrerUserNo=MTU51076) |
-|     Disney      |  N/A   |  ¥ 45  |  ¥ 78  |  ¥ 118  |  ¥ 9.8   | [Metshop](https://metshop.vip?referrerUserNo=MTU51076) |
-| YouTube Premium |  N/A   |  N/A   |  N/A   |  ¥ 198  |  ¥ 16.5  | [Metshop](https://metshop.vip?referrerUserNo=MTU51076) |
-|     HOB GO      |  ¥ 20  |  ¥ 58  | ¥ 114  |  ¥ 220  |  ¥ 18.3  | [Metshop](https://metshop.vip?referrerUserNo=MTU51076) |
-|     Spotify     |  N/A   |  ¥ 38  |  ¥ 72  |  ¥ 118  |  ¥ 9.8   | [Metshop](https://metshop.vip?referrerUserNo=MTU51076) |
-|      Hulu       |  ¥ 25  |  ¥ 75  | ¥ 148  |  ¥ 288  |   ¥ 24   | [Metshop](https://metshop.vip?referrerUserNo=MTU51076) |
+|    账号类型     | 1 个月 | 3 个月 | 6 个月 | 12 个月 | 每月价格 |                       合租链接                        |
+| :-------------: | :----: | :----: | :----: | :-----: | :------: | :---------------------------------------------------: |
+|     Netflix     |  ¥ 18  |  ¥ 56  | ¥ 110  |  ¥ 216  |   ¥ 18   | [Metshop](https://metshop.cn?referrerUserNo=MTU51076) |
+|     Disney      |  N/A   |  ¥ 45  |  ¥ 78  |  ¥ 118  |  ¥ 9.8   | [Metshop](https://metshop.cn?referrerUserNo=MTU51076) |
+| YouTube Premium |  N/A   |  N/A   |  N/A   |  ¥ 198  |  ¥ 16.5  | [Metshop](https://metshop.cn?referrerUserNo=MTU51076) |
+|     HOB GO      |  ¥ 20  |  ¥ 58  | ¥ 114  |  ¥ 220  |  ¥ 18.3  | [Metshop](https://metshop.cn?referrerUserNo=MTU51076) |
+|     Spotify     |  N/A   |  ¥ 38  |  ¥ 72  |  ¥ 118  |  ¥ 9.8   | [Metshop](https://metshop.cn?referrerUserNo=MTU51076) |
+|      Hulu       |  ¥ 25  |  ¥ 75  | ¥ 148  |  ¥ 288  |   ¥ 24   | [Metshop](https://metshop.cn?referrerUserNo=MTU51076) |
 
 ## 蜜糖商店特点
 
@@ -59,4 +59,4 @@ Netflix、Disney+、HBO GO/MAX、Spotify、hulu
 
 - 推荐度：❤ ❤ ❤ ❤ ❤
 
-## [蜜糖商店注册链接](https://metshop.vip?referrerUserNo=MTU51076)
+## [蜜糖商店注册链接](https://metshop.cn?referrerUserNo=MTU51076)

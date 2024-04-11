@@ -17,11 +17,11 @@ head:
 
 <font color="#FF0000"> 活动时间：即日起至2024年2月24日23点59分 </font>
 
-==> [FlyingBird 注册链接](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3)
+==> [FlyingBird 注册链接](https://fbaff02.flyb-aff01.com/auth/register?code=RZP3)
 
 ::: -->
 
-## [FlyingBird 简介](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3)
+## [FlyingBird 简介](https://fbaff02.flyb-aff01.com/auth/register?code=RZP3)
 
 飞鸟机场的前身是多个老牌机场的融合衍生，主打快速稳定，全专线 IPLC，没有倍率，不限网速，不限客户端并且可以多用户同时使用。有着老牌机场的稳定、也有着新晋机场的诚意，目前活动买多少给多少，价格区间比较多，用户的选择比较多。从我自己使用来看，值得推荐为 2022 年的稳定机场。
 
@@ -32,19 +32,19 @@ head:
 :::tip
 
 - **使用`新浪`或者`163`邮箱注册**
-- [FlyingBird 注册链接](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3)
+- [FlyingBird 注册链接](https://fbaff02.flyb-aff01.com/auth/register?code=RZP3)
   :::
 
-## [FlyingBird 定价](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3)
+## [FlyingBird 定价](https://fbaff02.flyb-aff01.com/auth/register?code=RZP3)
 
 | 月付套餐类型 | 流量  | 价格 | 流媒体解锁 |                               套餐购买                               |
 | :----------: | :---: | :--: | :--------: | :------------------------------------------------------------------: |
-|   **青铜**   | 100G  | ¥15  |     ✅     | [FlyingBird](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3) |
-|   **白银**   | 200G  | ¥30  |     ✅     | [FlyingBird](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3) |
-|   **黄金**   | 500G  | ¥75  |     ✅     | [FlyingBird](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3) |
-|   **钻石**   | 1000G | ¥150 |     ✅     | [FlyingBird](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3) |
+|   **青铜**   | 100G  | ¥15  |     ✅     | [FlyingBird](https://fbaff02.flyb-aff01.com/auth/register?code=RZP3) |
+|   **白银**   | 200G  | ¥30  |     ✅     | [FlyingBird](https://fbaff02.flyb-aff01.com/auth/register?code=RZP3) |
+|   **黄金**   | 500G  | ¥75  |     ✅     | [FlyingBird](https://fbaff02.flyb-aff01.com/auth/register?code=RZP3) |
+|   **钻石**   | 1000G | ¥150 |     ✅     | [FlyingBird](https://fbaff02.flyb-aff01.com/auth/register?code=RZP3) |
 
-## [FlyingBird 特点](https://fbaff01.flyb-aff01.com/auth/register?code=RZP3)
+## [FlyingBird 特点](https://fbaff02.flyb-aff01.com/auth/register?code=RZP3)
 
 - 速度快，在专线的加持下开启代理后访问国际网站速度极快；
 - 安全系数好，所有线路使用物理专线出境传办理，安全性有确保；
