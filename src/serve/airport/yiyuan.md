@@ -23,7 +23,7 @@ head:
 
 | 套餐类型 |   流量   | 月付 | 年付 | 流媒体解锁 |                             套餐购买                              |
 | :------: | :------: | :--: | :--: | :--------: | :---------------------------------------------------------------: |
-|  传家宝  | 500G/月  | N/A  | ¥ 12 |     ✅     | [一元机场](https://xn--4gq62f52gdss.ink/#/register?code=tFcXfJEu) |
+|  传家宝  |  50G/月  | N/A  | ¥ 12 |     ✅     | [一元机场](https://xn--4gq62f52gdss.ink/#/register?code=tFcXfJEu) |
 | 传世珍宝 | 400G/月  | ¥ 5  | ¥ 39 |     ✅     | [一元机场](https://xn--4gq62f52gdss.ink/#/register?code=tFcXfJEu) |
 | 艺术典藏 | 8000G/月 | ¥ 7  | ¥ 59 |     ✅     | [一元机场](https://xn--4gq62f52gdss.ink/#/register?code=tFcXfJEu) |
 
