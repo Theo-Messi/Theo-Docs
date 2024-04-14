@@ -1,5 +1,12 @@
 ---
 title: 安装 Openwrt
+head:
+  - - meta
+    - name: keywords
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
+  - - meta
+    - name: description
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
 ---
 
 ### 步骤 1 - 选择虚拟机选项卡，点击创建/注册虚拟机

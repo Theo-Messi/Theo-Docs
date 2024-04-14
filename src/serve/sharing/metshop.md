@@ -1,11 +1,12 @@
 ---
-outline: deep
 title: 蜜糖商店
-editLink: true
 head:
   - - meta
     - name: keywords
-      content: 机场 流媒体 解锁 线路 科学上网 Netflix Disney YouTube Premium HOB GO Spotify Hulu 奈飞小铺 蜜糖商店
+      content: 机场 流媒体 解锁 线路 科学上网 Netflix Disney YouTube Premium HOB GO Spotify Hulu 奈飞小铺 蜜糖商店 银河录像局
+  - - meta
+    - name: description
+      content: Metshop作为行业领先的流媒体账号合租服务平台，以优质的一站式服务为核心，为您提供同时满足安全、稳定、便捷的高效合租体验。
 ---
 
 ### 蜜糖商店简介

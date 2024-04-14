@@ -1,5 +1,12 @@
 ---
 title: X-ui搭建详细教程
+head:
+  - - meta
+    - name: keywords
+      content: X-ui搭建详细教程
+  - - meta
+    - name: description
+      content: X-ui搭建详细教程
 ---
 
 ## 功能介绍

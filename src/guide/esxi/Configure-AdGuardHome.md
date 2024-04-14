@@ -1,5 +1,12 @@
 ---
 title: 配置 AdGuardHome
+head:
+  - - meta
+    - name: keywords
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
+  - - meta
+    - name: description
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
 ---
 
 ## 端口配置

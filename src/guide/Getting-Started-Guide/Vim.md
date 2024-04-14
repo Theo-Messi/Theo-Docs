@@ -1,5 +1,12 @@
 ---
 title: Vim 入门使用
+head:
+  - - meta
+    - name: keywords
+      content: Vim
+  - - meta
+    - name: description
+      content: Vim 入门使用
 ---
 
 ## 什么是 vim？

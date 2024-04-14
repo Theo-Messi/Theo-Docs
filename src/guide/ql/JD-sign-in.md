@@ -1,5 +1,12 @@
 ---
 title: 京东签到
+head:
+  - - meta
+    - name: keywords
+      content: 京东签到,京东签到脚本,京东签到自动任务,京东签到自动脚本,京东签到自动执行
+  - - meta
+    - name: description
+      content: 京东签到,京东签到脚本,京东签到自动任务,京东签到自动脚本,京东签到自动执行
 ---
 
 :::tip 注意

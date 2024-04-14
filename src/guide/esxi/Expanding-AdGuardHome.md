@@ -1,5 +1,12 @@
 ---
 title: 扩容 AdGuardHome
+head:
+  - - meta
+    - name: keywords
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
+  - - meta
+    - name: description
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
 ---
 
 ## 首先使虚拟机处于关闭状态,然后点击编辑

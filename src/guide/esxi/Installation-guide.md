@@ -1,5 +1,12 @@
 ---
 title: 安装指南
+head:
+  - - meta
+    - name: keywords
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
+  - - meta
+    - name: description
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
 ---
 
 ## ESXI 介绍

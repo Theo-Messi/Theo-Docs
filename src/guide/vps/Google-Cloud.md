@@ -1,5 +1,12 @@
 ---
 title: 谷歌云防火墙设置
+head:
+  - - meta
+    - name: keywords
+      content: 谷歌云 防火墙 设置
+  - - meta
+    - name: description
+      content: 谷歌云 防火墙 设置
 ---
 
 ### 进入控制台点击左上角导航-vpc 网络-防火墙

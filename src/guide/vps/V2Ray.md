@@ -1,5 +1,12 @@
 ---
 title: V2Ray搭建详细教程
+head:
+  - - meta
+    - name: keywords
+      content: V2Ray搭建详细教程
+  - - meta
+    - name: description
+      content: V2Ray搭建详细教程
 ---
 
 ## 准备工作

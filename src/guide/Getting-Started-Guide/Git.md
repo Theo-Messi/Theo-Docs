@@ -1,5 +1,12 @@
 ---
 title: Git 入门使用
+head:
+  - - meta
+    - name: keywords
+      content: GIT
+  - - meta
+    - name: description
+      content: GIT 入门使用
 ---
 
 ## 设置用户信息

@@ -1,5 +1,12 @@
 ---
 title: 开启 Root 登陆
+head:
+  - - meta
+    - name: keywords
+      content: VPS 服务器 开启 Root 登陆
+  - - meta
+    - name: description
+      content: VPS 服务器 开启 Root 登陆
 ---
 
 ### 取得 Root 权限

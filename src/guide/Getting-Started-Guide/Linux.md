@@ -1,5 +1,12 @@
 ---
 title: Linux 命令合集
+head:
+  - - meta
+    - name: keywords
+      content: Linux
+  - - meta
+    - name: description
+      content: Linux 命令合集
 ---
 
 ## Linux 目录结构

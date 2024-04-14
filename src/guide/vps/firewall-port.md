@@ -1,5 +1,12 @@
 ---
 title: 开启防火墙端口
+head:
+  - - meta
+    - name: keywords
+      content: VPS 防火墙 端口
+  - - meta
+    - name: description
+      content: 本文介绍如何在VPS上开启防火墙端口
 ---
 
 ## 对外开放端口

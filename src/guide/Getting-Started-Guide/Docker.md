@@ -1,5 +1,12 @@
 ---
 title: Docker 入门使用
+head:
+  - - meta
+    - name: keywords
+      content: Docker 虚拟化
+  - - meta
+    - name: description
+      content: Docker 虚拟化
 ---
 
 ## Docker 技术简介

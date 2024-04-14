@@ -1,5 +1,12 @@
 ---
 title: PPPOE拨号
+head:
+  - - meta
+    - name: keywords
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
+  - - meta
+    - name: description
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
 ---
 
 ## 前言

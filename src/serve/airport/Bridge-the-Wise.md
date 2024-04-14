@@ -1,11 +1,12 @@
 ---
-outline: deep
 title: Bridge the Wise
-editLink: true
 head:
   - - meta
     - name: keywords
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu 一元机场 FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+  - - meta
+    - name: description
+      content: 本文主要为大家介绍 Bridge the Wise 这款机场，这是一家非常实用的机场，其名字来源于 People’s Daily 的名言：智者建桥，愚者建墙，而这个机场的创作者是一群在海外的中国人，因为他们最开始接触的中国电影并不好看，很多搞笑的剧情都无法正常播放，而自己又非常喜欢国外的那些搞笑级别的电影。同时也很理解下载资源很不方便的奈飞，所以他们就建立了一个中转机场，只为了能够给国内的同胞们提供便捷的观看服务。
 ---
 
 ## [Bridge The Wise 简介](https://patriot.ninja/aff.php?aff=1471)

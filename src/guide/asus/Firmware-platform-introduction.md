@@ -1,5 +1,12 @@
 ---
 title: 固件平台介绍
+head:
+  - - meta
+    - name: keywords
+      content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
+  - - meta
+    - name: description
+      content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
 ---
 
 从2016年华硕发布RT-AC86U后，华硕的博通机型进入了新一台的平台，为==hnd==平台的机型，hnd是英文==high end==的简称，hnd机型最大的特点就是固件的后缀是.w，其次是固件的内核比较新（> 4.1）；

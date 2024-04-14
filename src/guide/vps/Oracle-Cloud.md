@@ -1,5 +1,12 @@
 ---
 title: 甲骨文云防火墙设置
+head:
+  - - meta
+    - name: keywords
+      content: 甲骨文云防火墙设置
+  - - meta
+    - name: description
+      content: 甲骨文云防火墙设置
 ---
 
 ### 进入控制台-虚拟云网络

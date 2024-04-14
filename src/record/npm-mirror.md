@@ -1,5 +1,12 @@
 ---
 title: NPM 使用国内镜像及恢复默认源
+head:
+  - - meta
+    - name: keywords
+      content: NPM, 国内镜像, 恢复默认源
+  - - meta
+    - name: description
+      content: NPM 使用国内镜像及恢复默认源
 ---
 
 ### 验证当前NPM源地址

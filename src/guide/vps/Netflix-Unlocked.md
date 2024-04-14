@@ -1,5 +1,12 @@
 ---
 title: 一键检测机场奈飞解锁
+head:
+  - - meta
+    - name: keywords
+      content: 一键检测机场奈飞解锁
+  - - meta
+    - name: description
+      content: 一键检测机场奈飞解锁
 ---
 
 ## 脚本特性

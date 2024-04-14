@@ -1,5 +1,12 @@
 ---
 title: Boxjs版
+head:
+  - - meta
+    - name: keywords
+      content: Boxjs版
+  - - meta
+    - name: description
+      content: Boxjs版
 ---
 
 ## 前提条件：

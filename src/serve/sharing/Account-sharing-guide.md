@@ -1,11 +1,12 @@
 ---
-outline: deep
 title: 账号合租指南
-editLink: true
 head:
   - - meta
     - name: keywords
-      content: 机场 流媒体 解锁 线路 科学上网 Netflix Disney YouTube Premium HOB GO Spotify Hulu 奈飞小铺 蜜糖商店
+      content: 机场 流媒体 解锁 线路 科学上网 Netflix Disney YouTube Premium HOB GO Spotify Hulu 奈飞小铺 蜜糖商店 银河录像局
+  - - meta
+    - name: description
+      content: 奈飞小铺、蜜糖商店、银河录像局等账号合租平台，稳定好用的 Netflix 合租平台推荐
 ---
 
 ## 稳定好用的 Netflix 合租平台推荐

@@ -1,5 +1,12 @@
 ---
 title: OpenWrt扩容内存
+head:
+  - - meta
+    - name: keywords
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
+  - - meta
+    - name: description
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
 ---
 
 ## 1.把固件刷入到 ESXi 里的虚拟机里

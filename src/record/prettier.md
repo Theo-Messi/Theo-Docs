@@ -1,5 +1,12 @@
 ---
 title: 为项目添加 Prettier 格式化代码
+head:
+  - - meta
+    - name: keywords
+      content: Prettier
+  - - meta
+    - name: description
+      content: 记录为项目添加 Prettier 格式化代码的过程
 ---
 
 ## 安装 Prettier

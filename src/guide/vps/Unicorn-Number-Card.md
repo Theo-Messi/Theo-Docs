@@ -1,5 +1,12 @@
 ---
 title: 搭建独角数卡网站
+head:
+  - - meta
+    - name: keywords
+      content: 搭建独角数卡网站
+  - - meta
+    - name: description
+      content: 搭建独角数卡网站
 ---
 
 ## 更新系统

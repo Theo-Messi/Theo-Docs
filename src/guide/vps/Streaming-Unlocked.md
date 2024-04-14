@@ -1,5 +1,12 @@
 ---
 title: VPS一键检测流媒体解锁
+head:
+  - - meta
+    - name: keywords
+      content: VPS一键检测流媒体解锁
+  - - meta
+    - name: description
+      content: VPS一键检测流媒体解锁
 ---
 
 ## 支持 OS/Platform

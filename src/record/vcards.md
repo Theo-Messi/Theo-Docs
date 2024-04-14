@@ -1,5 +1,12 @@
 ---
 title: 优化 iOS/Android 来电、信息界面体验
+head:
+  - - meta
+    - name: keywords
+      content: CardDAV vCards 优化 iOS/Android 来电、信息界面体验
+  - - meta
+    - name: description
+      content: 优化 iOS/Android 来电、信息界面体验
 ---
 
 ![CardDAV](https://user-images.githubusercontent.com/2666735/59692672-0b6bdf00-9218-11e9-881e-5856e263f3aa.png)

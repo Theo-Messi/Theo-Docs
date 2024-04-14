@@ -1,5 +1,12 @@
 ---
 title: 插件版
+head:
+  - - meta
+    - name: keywords
+      content:
+  - - meta
+    - name: description
+      content: 插件版
 ---
 
 ## 浏览器要求：

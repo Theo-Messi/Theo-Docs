@@ -1,5 +1,12 @@
 ---
 title: 使用 nvm 管理不同版本的 node
+head:
+  - - meta
+    - name: keywords
+      content: nvm,node,npm
+  - - meta
+    - name: description
+      content: 使用 nvm 管理不同版本的 node
 ---
 
 ## nvm 与 n 的区别

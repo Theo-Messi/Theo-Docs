@@ -1,5 +1,12 @@
 ---
 title: BiliBili 签到
+head:
+  - - meta
+    - name: keywords
+      content: BiliBili 签到
+  - - meta
+    - name: description
+      content: BiliBili 签到
 ---
 
 ## 步骤

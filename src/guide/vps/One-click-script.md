@@ -1,5 +1,12 @@
 ---
 title: 一键脚本部署开ARM机器
+head:
+  - - meta
+    - name: keywords
+      content: R探长 java oci 甲骨文 脚本 部署
+  - - meta
+    - name: description
+      content: R探长 java oci 甲骨文 脚本 部署
 ---
 
 ## 准备工作

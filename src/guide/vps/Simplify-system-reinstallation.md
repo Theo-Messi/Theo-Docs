@@ -1,5 +1,12 @@
 ---
 title: 简化重装系统
+head:
+  - - meta
+    - name: keywords
+      content: 简化重装系统
+  - - meta
+    - name: description
+      content: 简化重装系统
 ---
 
 `dd.sh` 是一款强大的 Bash 脚本，它可以帮助我们在线安装不同操作系统的版本。在本篇文章中，我将介绍如何使用该脚本，并提供一些注意事项和建议。

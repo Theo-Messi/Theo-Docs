@@ -1,11 +1,12 @@
 ---
-outline: deep
 title: 一元机场
-editLink: true
 head:
   - - meta
     - name: keywords
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu 一元机场 FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+  - - meta
+    - name: description
+      content: 一元机场 是一个专注于提供稳定、快速、安全的科学上网服务的机场
 ---
 
 ## [一元机场 简介](https://xn--4gq62f52gdss.ink/#/register?code=tFcXfJEu)

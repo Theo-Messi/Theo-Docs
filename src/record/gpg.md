@@ -1,5 +1,12 @@
 ---
 title: 使用 GPG 签名 Git Commit
+head:
+  - - meta
+    - name: keywords
+      content: GPG,Git,Signature
+  - - meta
+    - name: description
+      content: 使用 GPG 签名 Git Commit
 ---
 
 ## GPG 安装

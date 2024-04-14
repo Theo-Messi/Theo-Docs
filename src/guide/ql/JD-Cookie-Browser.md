@@ -1,5 +1,12 @@
 ---
 title: 浏览器版
+head:
+  - - meta
+    - name: keywords
+      content: JD-Cookie-Browser
+  - - meta
+    - name: description
+      content: 京东自动签到脚本
 ---
 
 ## 浏览器要求：

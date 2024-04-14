@@ -1,5 +1,12 @@
 ---
 title: ESXI后台配置
+head:
+  - - meta
+    - name: keywords
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
+  - - meta
+    - name: description
+      content: ESXI 虚拟机 虚拟化 X86 64 PVE
 ---
 
 安装完成后，会进入一个后台配置界面。

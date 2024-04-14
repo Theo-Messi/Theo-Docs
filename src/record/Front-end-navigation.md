@@ -1,5 +1,12 @@
 ---
 title: VitePress 打造个人前端导航网站
+head:
+  - - meta
+    - name: keywords
+      content: VitePress,个人前端导航网站,导航网站
+  - - meta
+    - name: description
+      content: VitePress 打造个人前端导航网站
 ---
 
 ### 第 1 步 - 修改index.ts
