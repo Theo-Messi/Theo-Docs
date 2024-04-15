@@ -43,7 +43,8 @@ export function Sidebar_record() {
         { text: '使用 GPG 签名 Git Commit', link: 'gpg' },
         { text: '使用 nvm 管理不同版本的 node', link: 'nvm' },
         { text: '优化 iOS/Android 来电、信息界面体验', link: 'vcards' },
-        { text: '宝塔面板部署vitepress（自动发布静态）', link: 'aaPanel-deployment' }
+        { text: '宝塔面板部署vitepress（自动发布静态）', link: 'aaPanel-deployment' },
+        { text: '添加 1Panel 第三方应用商店', link: '1Panel-third-party-app-store' }
       ]
     }
   ]
@@ -134,6 +135,7 @@ export function Sidebar_vps() {
       base: '/guide/vps/',
       // 分组页面
       items: [
+        { text: '安装 1Panel 面板', link: 'Install-1Panel' },
         { text: '安装哪吒面板', link: 'Install-Nezha-panel' },
         { text: 'V2Ray搭建详细教程', link: 'V2Ray' },
         { text: 'X-ui搭建详细教程', link: 'X-ui' },
