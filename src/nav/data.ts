@@ -37,7 +37,7 @@ export const NAV_DATA: NavData[] = [
         // icon: "https://theovan.wiki/yh.png",
         title: '飞鸟机场',
         desc: 'FlyingBird 飞鸟机场是一家成立于2022年的新机场，支持 Shadowsocks 协议，小众精品，节点不多，全 IPLC 专线机场。',
-        link: 'https://fbaff02.flyb-aff01.com/auth/register?code=RZP3'
+        link: 'https://fbinv01.fbaff.cc/auth/register?code=RZP3'
       },
       {
         // icon: "https://theovan.wiki/yh.png",
