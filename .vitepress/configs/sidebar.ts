@@ -107,7 +107,7 @@ export function Sidebar_vps() {
       // 分组页面
       items: [
         { text: '甲骨文云防火墙设置', link: 'Oracle-Cloud' },
-        { text: '谷歌云防火墙设置', link: 'Google-Cloud' },
+        { text: 'Ubuntu 系统安装及设置', link: 'Ubuntu-system-installation-and-setup' },
         { text: '开启 Root 登陆', link: 'root-login' },
         { text: '开启防火墙端口', link: 'firewall-port' }
       ]
