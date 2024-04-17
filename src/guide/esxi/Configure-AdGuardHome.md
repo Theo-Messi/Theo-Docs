@@ -16,11 +16,11 @@ head:
 
 ## 设置账号密码
 
-![](https://m.theovan.xyz/img/20231230205626.png)
+![](https://m.theovan.cn/img/20231230205626.png)
 
 ## 常规设置 部分
 
-![](https://m.theovan.xyz/img/20231230205838.png)
+![](https://m.theovan.cn/img/20231230205838.png)
 
 ## DNS 设置
 

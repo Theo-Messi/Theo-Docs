@@ -33,7 +33,7 @@ head:
 - 点击搜索，输入`key`或`pin`，
 - 如下图所示的`pt\_key`，复制`pt\_key`的`value`值。此插件可以看到 Cookie 的有效期。
 
-![](https://m.theovan.xyz/img/20230910183701.png)
+![](https://m.theovan.cn/img/20230910183701.png)
 
 ## 按照以下格式形成自己的 jd_cookie
 

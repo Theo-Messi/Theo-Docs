@@ -13,11 +13,11 @@ head:
 
 **新建exsi虚拟主机，2CPU 2G内存 10G硬盘**
 
-![](https://m.theovan.xyz/img/20231230203658.png)
+![](https://m.theovan.cn/img/20231230203658.png)
 
 **使用ubuntu x64 镜像**
 
-![](https://m.theovan.xyz/img/20231230203757.png)
+![](https://m.theovan.cn/img/20231230203757.png)
 
 ## 官方一键安装脚本
 
@@ -49,4 +49,4 @@ sudo /opt/AdGuardHome/AdGuardHome -s start|stop|restart|status|install|uninstall
 
 安装完成之后访问地址为 http://ip:3000/ ,此为ubuntu的静态IP地址+3000端口号
 
-![](https://m.theovan.xyz/img/20231230204830.png)
+![](https://m.theovan.cn/img/20231230204830.png)

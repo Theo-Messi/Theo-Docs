@@ -21,17 +21,17 @@ head:
 打开`telegram`，找到刚才关注的机器人，发送指令`/sart`，开始！（若有什么疑问，可以发送`/help`）
 
 在输入框里面输入`/raninfo`，为了防止误触，需要输入两次，机器人会返回两行字符串，这些是我们 VPS 的标识！
-![](https://m.theovan.xyz/img/202309032107312.png)
+![](https://m.theovan.cn/img/202309032107312.png)
 
 ## 获取甲骨文 API 密钥
 
 点击甲骨文右上角的人头像，来到会员中心（也就是更改密码的界面），找到左下角的 API 密钥，点击右边的添加 API 密钥。
-![](https://m.theovan.xyz/img/20230903211053.png)
+![](https://m.theovan.cn/img/20230903211053.png)
 
 点击上图的 “下载私有密钥”，并保存到本地设备，这样会得到一个 `****.pem` 的文件，这个是我们的 API 密钥文件，请妥善保管！
 
 点击添加，会弹出 “配置文件预览” 的窗口，我们需要记录里面的：“配置文件预览”！
-![](https://m.theovan.xyz/img/202309032112188.png)
+![](https://m.theovan.cn/img/202309032112188.png)
 
 ## VPS 端部署
 
@@ -57,16 +57,16 @@ wget -O gz_client_bot.tar.gz  https://github.com/semicons/java_oci_manage/releas
 
 我们需要编辑 VPS 如下文件：`/root/client_config`，如下图所示：
 
-![](https://m.theovan.xyz/img/202309032121395.png)
+![](https://m.theovan.cn/img/202309032121395.png)
 
 确认配置文件无误以后，我们在 VPS 执行：`bash sh_client_bot.sh `
 
-![](https://m.theovan.xyz/img/202309032126839.png)
+![](https://m.theovan.cn/img/202309032126839.png)
 
 ## R 探长的小助理
 
 消息栏输入 `/oracle` (oracle 云管理)，如下图所示：
-![](https://m.theovan.xyz/img/202309032123801.png)
+![](https://m.theovan.cn/img/202309032123801.png)
 
 ## VPS-bot 相关命令
 
