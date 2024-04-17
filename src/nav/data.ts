@@ -5,7 +5,7 @@ export const NAV_DATA: NavData[] = [
     title: '流媒体合租平台',
     items: [
       {
-        icon: 'https://theovan.wiki/index/yh.png',
+        icon: 'https://theovan.cn/index/yh.png',
         title: '银河录像局',
         desc: '国内可靠的智能流媒体/AI服务合租平台',
         link: 'https://nf.video/kaIuE'
@@ -28,19 +28,19 @@ export const NAV_DATA: NavData[] = [
     title: '优质机场推荐',
     items: [
       {
-        // icon: "https://theovan.wiki/yh.png",
+        // icon: "https://theovan.cn/yh.png",
         title: '一元机场',
         desc: '一元机场是 2022 年创立的机场，由于价格便宜到「离谱」，现今风头正盛，可以说现在的名气不亚于当年跑路的速蛙云。甚至有好事者创立了「一元机场」的百度贴吧。',
         link: 'https://xn--4gq62f52gdss.ink/#/register?code=tFcXfJEu'
       },
       {
-        // icon: "https://theovan.wiki/yh.png",
+        // icon: "https://theovan.cn/yh.png",
         title: '飞鸟机场',
         desc: 'FlyingBird 飞鸟机场是一家成立于2022年的新机场，支持 Shadowsocks 协议，小众精品，节点不多，全 IPLC 专线机场。',
         link: 'https://fbinv01.fbaff.cc/auth/register?code=RZP3'
       },
       {
-        // icon: "https://theovan.wiki/yh.png",
+        // icon: "https://theovan.cn/yh.png",
         title: 'Bridge the Wise',
         desc: '其名字来源于 People’s Daily 的名言：智者建桥，愚者建墙，他们最开始接触的中国电影并不好看，同时也很理解下载资源很不方便的奈飞，所以他们就建立了一个中转机场，只为了能够给国内的同胞们提供便捷的观看服务。',
         link: 'https://patriot.ninja/aff.php?aff=1471'

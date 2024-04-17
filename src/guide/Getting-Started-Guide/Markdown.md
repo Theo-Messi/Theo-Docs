@@ -74,36 +74,36 @@ _斜体文本_
 **输入**
 
 ```
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 ```
 
 **输出**
 
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 
 ## 图片
 
 **输入**
 
 ```
-![alt 属性文本](https://theovan.xyz/index/home.png)
+![alt 属性文本](https://theovan.cn/index/home.png)
 ```
 
 **输出**
 
-![alt 属性文本](https://theovan.xyz/index/home.png)
+![alt 属性文本](https://theovan.cn/index/home.png)
 
 ## 视频
 
 **输入**
 
 ```
-<video src="https://m.theovan.xyz/img/video.mp4" controls="controls" width="500" height="300"></video>
+<video src="https://m.theovan.cn/img/video.mp4" controls="controls" width="500" height="300"></video>
 ```
 
 **输出**
 
-<video src="https://m.theovan.xyz/img/video.mp4" controls="controls" width="500" height="300"></video>
+<video src="https://m.theovan.cn/img/video.mp4" controls="controls" width="500" height="300"></video>
 
 ## 音乐
 
@@ -186,45 +186,45 @@ _斜体文本_
 
 ```
 ::: info
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 
 ::: tip
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 
 ::: warning
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 
 ::: danger
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 
 ::: details
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 ```
 
 **输出**
 ::: info
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 
 ::: tip
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 
 ::: warning
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 
 ::: danger
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 
 ::: details
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 
 ## 自定义容器
@@ -233,7 +233,7 @@ _斜体文本_
 
 ````
 ::: danger STOP
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 
 ::: details Click me to view the code
@@ -247,7 +247,7 @@ console.log('Hello, VitePress!')
 
 **输出**
 ::: danger STOP
-[这是一个链接](https://theovan.xyz/)
+[这是一个链接](https://theovan.cn/)
 :::
 
 ::: details Click me to view the code

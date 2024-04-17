@@ -6,7 +6,7 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 // 导出head配置
 export const head: HeadConfig[] = [
   // 设置图标
-  ['link', { rel: 'icon', href: 'https://theovan.xyz/avatar.jpg' }],
+  ['link', { rel: 'icon', href: 'https://theovan.cn/avatar.jpg' }],
   // 设置主题颜色
   ['meta', { name: 'theme-color', content: '#5f67ee' }],
   // 设置作者
@@ -20,7 +20,7 @@ export const head: HeadConfig[] = [
   // 设置og站点名称
   ['meta', { name: 'og:site_name', content: 'Theo Docs' }],
   // 设置og图片
-  ['meta', { name: 'og:image', content: 'https://theovan.xyz/avatar.png' }],
+  ['meta', { name: 'og:image', content: 'https://theovan.cn/avatar.png' }],
   // 设置百度收录
   ['meta', { name: 'baidu-site-verification', content: 'codeva-B6BrBqHfK6' }],
   // 设置站点SEO

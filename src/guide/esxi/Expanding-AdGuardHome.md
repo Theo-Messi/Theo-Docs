@@ -13,7 +13,7 @@ head:
 
 修改内存为 25 GB 保存并开启虚拟机
 
-![](https://m.theovan.xyz/img/20231231142111.png)
+![](https://m.theovan.cn/img/20231231142111.png)
 
 ## SSH 到虚拟机
 
@@ -21,7 +21,7 @@ head:
 df -h
 ```
 
-![](https://m.theovan.xyz/img/20231231142451.png)
+![](https://m.theovan.cn/img/20231231142451.png)
 
 ## 挂载扩容硬盘
 

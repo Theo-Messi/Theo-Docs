@@ -53,25 +53,25 @@ Merlin Clash 是一款运行在 KoolCenter 软件中心上的 Clash GUI 插件�
 
 切换到配置文件页，在 `Clash-Yaml 配置下载` 一栏粘贴 clash 订阅地址。
 
-![](https://m.theovan.xyz/img/MerlinClash2.jpeg)
+![](https://m.theovan.cn/img/MerlinClash2.jpeg)
 
 ---
 
 在下方 `重命名` 栏输入自定义配置文件名后(以命名为 Clash 为例)，点击 `Clash 订阅` 。如下图所示， Clash-Yaml 配置下载成功，并被命名为 Clash.yaml。
 
-![](https://m.theovan.xyz/img/MerlinClash3.jpeg)
+![](https://m.theovan.cn/img/MerlinClash3.jpeg)
 
 ## 启动
 
 切换至 `首页功能` 页，打开 `Merlin Clash 开关` 选择配置文件 `Clash` 后`保存&启动`。
 
-![](https://m.theovan.xyz/img/MerlinClash4.jpeg)
+![](https://m.theovan.cn/img/MerlinClash4.jpeg)
 
 ---
 
 启动成功后 `插件运行状态` 如下图所示。启动默认不选择节点，且 `连通性检查` 只检测当前浏览器情况，并非设备和插件网络情况。
 
-![](https://m.theovan.xyz/img/MerlinClash5.jpeg)
+![](https://m.theovan.cn/img/MerlinClash5.jpeg)
 
 ## 代理
 
@@ -79,7 +79,7 @@ Merlin Clash 插件启动后，在 `首页功能` 页下方找到 `Clash 管理�
 
 通过 `Clash 管理面板` 可以快捷进行 `节点切换` `模式变更` 等常用功能设置。
 
-![](https://m.theovan.xyz/img/MerlinClash6.jpeg)
+![](https://m.theovan.cn/img/MerlinClash6.jpeg)
 
 ---
 
@@ -87,12 +87,12 @@ Merlin Clash 插件启动后，在 `首页功能` 页下方找到 `Clash 管理�
 
 切换至 `代理` 页，点击 `手动选择` 展开节点列表并选择要连接使用的节点即启动代理。
 
-![](https://m.theovan.xyz/img/MerlinClash7.png)
+![](https://m.theovan.cn/img/MerlinClash7.png)
 
 ---
 
 切换至 `配置` 页，点击 `Mode` 展开列表并选择要使用的代理模式。( 常用 Rule、Global )
-![](https://m.theovan.xyz/img/MerlinClash8.png)
+![](https://m.theovan.cn/img/MerlinClash8.png)
 
 :::tip
 在管理面板中的所有设置都立即生效。
