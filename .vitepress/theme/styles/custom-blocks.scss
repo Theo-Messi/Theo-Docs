@@ -3,13 +3,12 @@
   position: relative;
 }
 
-
 .dark .custom-block {
   color: var(--vp-c-text-1);
 }
 
 .custom-block:before,
-.custom-block.important:before{
+.custom-block.important:before {
   content: 'ⓘ';
   position: absolute;
   font-weight: 600;
@@ -62,11 +61,10 @@
   border: 1px solid var(--vp-c-red-1);
 }
 
-
 .custom-block.danger .custom-block-title,
 .custom-block.danger:before,
 .custom-block.caution .custom-block-title,
-.custom-block.caution:before{
+.custom-block.caution:before {
   color: var(--vp-c-red-1);
 }
 

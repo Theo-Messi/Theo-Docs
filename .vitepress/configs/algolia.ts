@@ -1,9 +1,9 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const algolia: DefaultTheme.AlgoliaSearchOptions = {
-  appId: 'ET4Y1NVDC3',
-  apiKey: '094b9789c092705bab9a56f24a0ac0cf',
-  indexName: 'theovanxyz',
+  appId: '03JRDY2ZDV',
+  apiKey: '73ff8603a2466ad14faa14246334de84',
+  indexName: 'theovan',
   placeholder: '搜索文档',
   translations: {
     button: {
