@@ -25,7 +25,7 @@ export function Sidebar_record() {
   return [
     {
       // 分组名称
-      // text: '文档记录',
+      text: '文档记录',
       // 下拉开关
       // collapsed: true,
       // 分组路径
@@ -33,18 +33,45 @@ export function Sidebar_record() {
       // 分组页面
       items: [
         { text: 'PicGo + Github 搭建图床', link: 'build-picture-bed' },
-        { text: 'VitePress 添加 Giscu评论', link: 'giscu' },
         { text: 'VS Code 使用技巧', link: 'vscode' },
         { text: '为项目添加 Prettier 格式化代码', link: 'prettier' },
         { text: 'NPM 使用国内镜像及恢复默认源', link: 'npm-mirror' },
-        { text: 'VitePress实现单击图片放大', link: 'Picture-enlargement' },
         { text: 'oh-my-zsh 安装 & 配置', link: 'oh-my-zsh' },
-        { text: 'VitePress 打造个人前端导航网站', link: 'Front-end-navigation' },
         { text: '使用 GPG 签名 Git Commit', link: 'gpg' },
         { text: '使用 nvm 管理不同版本的 node', link: 'nvm' },
-        { text: '优化 iOS/Android 来电、信息界面体验', link: 'vcards' },
-        { text: '宝塔面板部署vitepress（自动发布静态）', link: 'aaPanel-deployment' },
+        { text: '优化 iOS/Android 来电信息界面', link: 'vcards' },
         { text: '添加 1Panel 第三方应用商店', link: '1Panel-third-party-app-store' }
+      ]
+    },
+    {
+      // 分组名称
+      text: 'VitePress 搭建记录',
+      // 下拉开关
+      // collapsed: true,
+      // 分组路径
+      base: '/record/vitepress/',
+      // 分组页面
+      items: [
+        { text: '添加 Giscu评论', link: 'giscu' },
+        { text: '实现单击图片放大', link: 'Picture-enlargement' },
+        { text: '打造个人前端导航网站', link: 'Front-end-navigation' },
+        { text: '宝塔面板部署', link: 'aaPanel-deployment' }
+      ]
+    },
+    {
+      // 分组名称
+      text: 'OpenWrt / iStore OS 把玩记录',
+      // 下拉开关
+      // collapsed: true,
+      // 分组路径
+      base: '/record/openwrt/',
+      // 分组页面
+      items: [
+        { text: '实时抓包', link: 'openwrt-real-time-packet-capture' },
+        { text: '动态DNS设置', link: 'ddns-settings' },
+        { text: 'iStore 插件包', link: 'iStore-plugin-package' },
+        { text: '刷新 DNS 缓存', link: 'clear-dns-cache' },
+        { text: 'iStoreOS 文件共享步骤', link: 'iStoreOS-file-sharing-steps' }
       ]
     }
   ]
