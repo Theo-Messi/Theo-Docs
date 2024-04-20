@@ -3,10 +3,10 @@ title: H3C NX30Pro 刷 openwrt
 head:
   - - meta
     - name: keywords
-      content: openwrt istore os DNS
+      content: openwrt H3C NX30Pro uboot
   - - meta
     - name: description
-      content: openwrt istore os DNS
+      content: openwrt H3C NX30Pro uboot
 ---
 
 ## 准备工作

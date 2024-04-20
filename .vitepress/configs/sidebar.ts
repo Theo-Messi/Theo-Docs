@@ -72,7 +72,8 @@ export function Sidebar_record() {
         { text: 'iStore 插件包', link: 'iStore-plugin-package' },
         { text: '刷新 DNS 缓存', link: 'clear-dns-cache' },
         { text: 'iStoreOS 文件共享步骤', link: 'iStoreOS-file-sharing-steps' },
-        { text: 'H3C NX30Pro 刷 openwrt', link: 'H3C-NX30Pro' }
+        { text: 'H3C NX30Pro 刷 openwrt', link: 'H3C-NX30Pro' },
+        { text: 'openwrt 安装 clouddrive2', link: 'openwrt-install-clouddrive2' }
       ]
     }
   ]
