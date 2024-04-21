@@ -3,10 +3,10 @@ title: 关闭IPV6
 head:
   - - meta
     - name: keywords
-      content: ESXI 虚拟机 虚拟化 X86 64 PVE
+      content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt PPPOE IPV6
   - - meta
     - name: description
-      content: ESXI 虚拟机 虚拟化 X86 64 PVE
+      content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt PPPOE IPV6
 ---
 
 ## WAN 口设置

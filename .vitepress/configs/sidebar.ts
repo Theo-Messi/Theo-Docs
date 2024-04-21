@@ -3,15 +3,15 @@ import type { DefaultTheme } from 'vitepress'
 // 侧边栏配置
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   // VPS使用指南
-  '/guide/vps/': { base: '/guide/vps/', items: Sidebar_vps() },
+  '/vps/': { base: '/vps/', items: Sidebar_vps() },
   // 华硕路由器固件
-  '/guide/asus/': { base: '/guide/asus/', items: Sidebar_Asus() },
-  // 入门指南
-  '/guide/Getting-Started-Guide/': { base: '/guide/Getting-Started-Guide/', items: Sidebar_Guide() },
-  // esxi安装指南
-  '/guide/esxi/': { base: '/guide/esxi/', items: Sidebar_esxi() },
+  '/ASUS-Router/': { base: '/ASUS-Router/', items: Sidebar_Asus() },
+  // ESXi安装指南
+  '/ESXi/': { base: '/ESXi/', items: Sidebar_ESXi() },
   // 青龙面板
-  '/guide/ql/': { base: '/guide/ql/', items: Sidebar_ql() },
+  '/vps/ql/': { base: '/vps/ql/', items: Sidebar_ql() },
+  // 入门指南
+  '/Getting-Started-Guide/': { base: '/Getting-Started-Guide/', items: Sidebar_Guide() },
   // 文档记录
   '/record/': { base: '/record/', items: Sidebar_record() },
   // 服务推荐
@@ -54,26 +54,7 @@ export function Sidebar_record() {
       items: [
         { text: '添加 Giscu评论', link: 'giscu' },
         { text: '实现单击图片放大', link: 'Picture-enlargement' },
-        { text: '打造个人前端导航网站', link: 'Front-end-navigation' },
         { text: '宝塔面板部署', link: 'aaPanel-deployment' }
-      ]
-    },
-    {
-      // 分组名称
-      text: 'OpenWrt / iStore OS 把玩记录',
-      // 下拉开关
-      // collapsed: true,
-      // 分组路径
-      base: '/record/openwrt/',
-      // 分组页面
-      items: [
-        { text: '实时抓包', link: 'openwrt-real-time-packet-capture' },
-        { text: '动态DNS设置', link: 'ddns-settings' },
-        { text: 'iStore 插件包', link: 'iStore-plugin-package' },
-        { text: '刷新 DNS 缓存', link: 'clear-dns-cache' },
-        { text: 'iStoreOS 文件共享步骤', link: 'iStoreOS-file-sharing-steps' },
-        { text: 'H3C NX30Pro 刷 openwrt', link: 'H3C-NX30Pro' },
-        { text: 'openwrt 安装 clouddrive2', link: 'openwrt-install-clouddrive2' }
       ]
     }
   ]
@@ -88,7 +69,7 @@ export function Sidebar_Asus() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/asus/',
+      base: '/ASUS-Router/',
       // 分组页面
       items: [
         { text: '刷机需知', link: 'Flashing-prerequisites' },
@@ -109,7 +90,7 @@ export function Sidebar_Guide() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/Getting-Started-Guide/',
+      base: '/Getting-Started-Guide/',
       // 分组页面
       items: [
         { text: 'Homebrew', link: 'Homebrew' },
@@ -132,7 +113,7 @@ export function Sidebar_vps() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/vps/',
+      base: '/vps/',
       // 分组页面
       items: [
         { text: '甲骨文云防火墙设置', link: 'Oracle-Cloud' },
@@ -147,7 +128,7 @@ export function Sidebar_vps() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/vps/',
+      base: '/vps/',
       // 分组页面
       items: [
         { text: '简化重装系统', link: 'Simplify-system-reinstallation' },
@@ -161,23 +142,23 @@ export function Sidebar_vps() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/vps/',
+      base: '/vps/',
       // 分组页面
       items: [
-        { text: '安装 1Panel 面板', link: 'Install-1Panel' },
         { text: '安装哪吒面板', link: 'Install-Nezha-panel' },
         { text: 'V2Ray搭建详细教程', link: 'V2Ray' },
         { text: 'X-ui搭建详细教程', link: 'X-ui' },
         { text: 'VPS一键检测流媒体解锁', link: 'Streaming-Unlocked' },
         { text: '一键检测机场奈飞解锁', link: 'Netflix-Unlocked' },
-        { text: '搭建独角数卡网站', link: 'Unicorn-Number-Card' }
+        { text: '搭建独角数卡网站', link: 'Unicorn-Number-Card' },
+        { text: '安装 1Panel 面板', link: 'Install-1Panel' }
       ]
     }
   ]
 }
 
-// esxi安装指南
-export function Sidebar_esxi() {
+// ESXi安装指南
+export function Sidebar_ESXi() {
   return [
     {
       // 分组名称
@@ -185,45 +166,33 @@ export function Sidebar_esxi() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/esxi/',
+      base: '/ESXi/Install/',
       // 分组页面
       items: [
-        { text: '安装指南', link: 'Installation-guide' },
-        { text: 'ESXI 写盘', link: 'write-disk' },
-        { text: '主板 BIOS 设置', link: 'bios' },
-        { text: 'ESXI 安装', link: 'esxi-Install' },
-        { text: 'ESXI 后台配置', link: 'Backend-configuration' },
-        { text: 'ESXI 前台配置', link: 'Front-desk-configuration' }
+        { text: 'ESXi 安装指南', link: 'guide' },
+        { text: '安装 Openwrt', link: 'Openwrt' },
+        { text: '安装 AdGuardHome', link: 'AdGuardHome' },
+        { text: '安装 Windows 11', link: 'Windows11' }
       ]
     },
     {
       // 分组名称
-      text: 'ESXI 部署 OpenWrt',
+      text: 'OpenWrt / iStore OS 把玩记录',
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/esxi/',
+      base: '/ESXi/openwrt/',
       // 分组页面
       items: [
-        { text: '安装 Openwrt', link: 'Installation-Openwrt' },
-        { text: '关闭 IPV6', link: 'Turn-off-IPv6' },
-        { text: 'PPPOE 拨号', link: 'PPPOE-dial-up' },
-        { text: 'OpenWrt 扩容内存', link: 'OpenWrt-Expand-memory' }
-      ]
-    },
-    {
-      // 分组名称
-      text: 'ESXI 部署 AdGuardHome',
-      // 下拉开关
-      // collapsed: true,
-      // 分组路径
-      base: '/guide/esxi/',
-      // 分组页面
-      items: [
-        { text: '安装 AdGuardHome', link: 'Install-AdGuardHome' },
-        { text: '配置 AdGuardHome', link: 'Configure-AdGuardHome' },
-        { text: '配置 OpenWrt', link: 'Configure-OpenWrt' },
-        { text: '扩容 AdGuardHome', link: 'Expanding-AdGuardHome' }
+        { text: 'iStore 插件包', link: 'iStore-plugin-package' },
+        { text: 'PPPOE拨号', link: 'PPPOE-dial-up' },
+        { text: '关闭IPV6', link: 'Turn-off-IPv6' },
+        { text: '实时抓包', link: 'openwrt-real-time-packet-capture' },
+        { text: '动态DNS设置', link: 'ddns-settings' },
+        { text: '刷新 DNS 缓存', link: 'clear-dns-cache' },
+        { text: 'iStoreOS 文件共享步骤', link: 'iStoreOS-file-sharing-steps' },
+        { text: 'H3C NX30Pro 刷 openwrt', link: 'H3C-NX30Pro' },
+        { text: 'openwrt 安装 clouddrive2', link: 'openwrt-install-clouddrive2' }
       ]
     }
   ]
@@ -238,7 +207,7 @@ export function Sidebar_ql() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/ql/',
+      base: '/vps/ql/',
       // 分组页面
       items: [
         { text: '安装 Docker', link: 'Install-Docker' },
@@ -254,7 +223,7 @@ export function Sidebar_ql() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/ql/',
+      base: '/vps/ql/',
       //分组页面
       items: [
         { text: '插件版', link: 'JD-Cookie-plug-in' },
@@ -268,7 +237,7 @@ export function Sidebar_ql() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/guide/ql/',
+      base: '/vps/ql/',
       // 分组页面
       items: [
         {
