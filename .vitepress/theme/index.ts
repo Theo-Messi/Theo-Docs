@@ -2,7 +2,7 @@
 import DefaultTheme from 'vitepress/theme'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 
-import './styles/index.scss'
+import './styles/index.css'
 
 export default {
   extends: DefaultTheme,
