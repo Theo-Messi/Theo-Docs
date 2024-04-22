@@ -1,9 +1,7 @@
 {
   "devDependencies": {
-    "@types/node": "^20.12.7",
     "prettier": "3.2.5",
-    "sass": "^1.75.0",
-    "vitepress": "1.1.0",
+    "vitepress": "1.1.3",
     "vitepress-plugin-google-analytics": "^1.0.2"
   },
   "scripts": {
@@ -13,10 +11,8 @@
     "prettier": "pnpm exec prettier . --write"
   },
   "dependencies": {
-    "@mdit-vue/shared": "^2.1.0",
     "lint-staged": "^15.2.2",
-    "simple-git-hooks": "^2.11.1",
-    "vue": "^3.4.21"
+    "simple-git-hooks": "^2.11.1"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
