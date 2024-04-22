@@ -13,7 +13,7 @@
     "prettier": "pnpm exec prettier . --write"
   },
   "dependencies": {
-    "@mdit-vue/shared": "^2.1.0",
+    "@mdit-vue/shared": "^2.1.2",
     "lint-staged": "^15.2.2",
     "simple-git-hooks": "^2.11.1",
     "vue": "^3.4.21"

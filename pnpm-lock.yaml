@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@mdit-vue/shared':
-    specifier: ^2.1.0
-    version: 2.1.0
+    specifier: ^2.1.2
+    version: 2.1.2
   lint-staged:
     specifier: ^15.2.2
     version: 15.2.2
@@ -447,8 +447,8 @@ packages:
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
 
-  /@mdit-vue/shared@2.1.0:
-    resolution: {integrity: sha512-eLPdmaB9f7VGjC6AzA5Q2pOzj1s5uJMtF+925SQTjlZIzlJbv1KFwjcO57dlr8aOzF1XrWm8j8nB1qYlecW4Ig==}
+  /@mdit-vue/shared@2.1.2:
+    resolution: {integrity: sha512-5+YHKRyULDqMZsYq+8Ttev0P/osgAoNm2OPYrJtvxLfc1jyrZNiDUCjO2jec7Nk3qyGVZe6FKtXTNLVE+ZRhZw==}
     dependencies:
       '@mdit-vue/types': 2.1.0
       '@types/markdown-it': 14.0.1
