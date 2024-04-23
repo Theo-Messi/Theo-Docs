@@ -17,7 +17,9 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   // 服务推荐
   '/serve/': { base: '/serve/', items: Sidebar_serve() },
   // 流媒体观影指南
-  '/streaming/': { base: '/streaming/', items: Sidebar_streaming() }
+  '/streaming/': { base: '/streaming/', items: Sidebar_streaming() },
+  // 阿里云盘分享
+  '/Ali/': { base: '/Ali/', items: Sidebar_Ali() }
 }
 
 // 文档记录
@@ -192,7 +194,8 @@ export function Sidebar_ESXi() {
         { text: '刷新 DNS 缓存', link: 'clear-dns-cache' },
         { text: 'iStoreOS 文件共享步骤', link: 'iStoreOS-file-sharing-steps' },
         { text: 'H3C NX30Pro 刷 openwrt', link: 'H3C-NX30Pro' },
-        { text: 'openwrt 安装 clouddrive2', link: 'openwrt-install-clouddrive2' }
+        { text: 'openwrt 安装 clouddrive2', link: 'openwrt-install-clouddrive2' },
+        { text: '旁路由设置', link: 'Bypass' }
       ]
     }
   ]
@@ -374,6 +377,47 @@ export function Sidebar_serve() {
       base: '/serve/',
       // 分组页面
       items: [{ text: 'SMS-Activate', link: 'code/SMS-Activate' }]
+    }
+  ]
+}
+
+export function Sidebar_Ali() {
+  return [
+    {
+      // 分组名称
+      text: '电影',
+      // 下拉菜单
+      // collapsed: true,
+      // 分组路径
+      base: '/Ali/Movie/',
+      // 分组页面
+      items: [
+        { text: '暗夜博士：莫比亚斯', link: 'Morbius' },
+        { text: '首尔之春', link: '首尔之春' }
+      ]
+    },
+    {
+      // 分组名称
+      text: '电视剧',
+      // 下拉菜单
+      // collapsed: true,
+      // 分组路径
+      base: '/Ali/TV/',
+      // 分组页面
+      items: [
+        { text: '武林外传', link: '武林外传' },
+        { text: '死期将至', link: '死期将至' }
+      ]
+    },
+    {
+      // 分组名称
+      text: '工具',
+      // 下拉菜单
+      // collapsed: true,
+      // 分组路径
+      base: '/Ali/Tool/',
+      // 分组页面
+      items: [{ text: '正在建设中', link: '正在建设中' }]
     }
   ]
 }
