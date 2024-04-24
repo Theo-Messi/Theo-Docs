@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/node": "^20.12.7",
     "prettier": "3.2.5",
     "vitepress": "1.1.3",
     "vitepress-plugin-google-analytics": "^1.0.2"
