@@ -393,7 +393,10 @@ export function Sidebar_Ali() {
       // 分组页面
       items: [
         { text: '暗夜博士：莫比亚斯', link: 'Morbius' },
-        { text: '首尔之春', link: '首尔之春' }
+        { text: '首尔之春', link: '首尔之春' },
+        { text: '掠食城市', link: '掠食城市' },
+        { text: '这个杀手不太冷', link: '这个杀手不太冷' },
+        { text: '周处除三害', link: '周处除三害' }
       ]
     },
     {
@@ -406,7 +409,8 @@ export function Sidebar_Ali() {
       // 分组页面
       items: [
         { text: '武林外传', link: '武林外传' },
-        { text: '死期将至', link: '死期将至' }
+        { text: '死期将至', link: '死期将至' },
+        { text: '幕府将军', link: '幕府将军' }
       ]
     },
     {
