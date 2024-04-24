@@ -89,6 +89,27 @@ deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal-proposed main restricted unive
 
 :::
 
+## 恢复默认源
+
+### 备份当前的软件源列表
+
+```sh
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+```
+
+### 恢复默认的软件源
+
+```sh
+sudo sh -c 'echo "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main restricted universe multiverse" > /etc/apt/sources.list'
+```
+
+### 更新软件包缓存
+
+```sh
+sudo apt update
+sudo apt upgrade
+```
+
 ## 删除系统自带软件
 
 ```sh
