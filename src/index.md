@@ -59,6 +59,10 @@ hero:
       text: 玄学宝典
       link: https://xx.theovan.xyz
 
+    - theme: alt
+      text: 云盘资源
+      link: /Ali/Movie-collection
+
     - theme: sponsor
       text: 赞助
       link: https://github.com/sponsors/Theo-messi
