@@ -1,3 +1,4 @@
+import { link } from 'fs'
 import type { DefaultTheme } from 'vitepress'
 
 // 侧边栏配置
@@ -385,43 +386,16 @@ export function Sidebar_Ali() {
   return [
     {
       // 分组名称
-      text: '电影',
+      // text: '电影合集',
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/Ali/Movie/',
+      base: '/Ali/',
       // 分组页面
       items: [
-        { text: '暗夜博士：莫比亚斯', link: 'Morbius' },
-        { text: '首尔之春', link: '首尔之春' },
-        { text: '掠食城市', link: '掠食城市' },
-        { text: '这个杀手不太冷', link: '这个杀手不太冷' },
-        { text: '周处除三害', link: '周处除三害' }
+        { text: '电影合集', link: 'Movie-collection' },
+        { text: '电视剧合集', link: 'TV-series-collection' }
       ]
-    },
-    {
-      // 分组名称
-      text: '电视剧',
-      // 下拉菜单
-      // collapsed: true,
-      // 分组路径
-      base: '/Ali/TV/',
-      // 分组页面
-      items: [
-        { text: '武林外传', link: '武林外传' },
-        { text: '死期将至', link: '死期将至' },
-        { text: '幕府将军', link: '幕府将军' }
-      ]
-    },
-    {
-      // 分组名称
-      text: '工具',
-      // 下拉菜单
-      // collapsed: true,
-      // 分组路径
-      base: '/Ali/Tool/',
-      // 分组页面
-      items: [{ text: '正在建设中', link: '正在建设中' }]
     }
   ]
 }
