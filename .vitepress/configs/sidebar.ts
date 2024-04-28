@@ -392,10 +392,7 @@ export function Sidebar_Ali() {
       // 分组路径
       base: '/Ali/',
       // 分组页面
-      items: [
-        { text: '电影合集', link: 'Movie-collection' },
-        { text: '电视剧合集', link: 'TV-series-collection' }
-      ]
+      items: [{ text: '阿里云盘合集', link: 'Movie-collection' }]
     }
   ]
 }
