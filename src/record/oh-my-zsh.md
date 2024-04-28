@@ -22,7 +22,9 @@ brew install zsh zsh-completions
 ```zsh
 # 把zsh设为默认shell，如果shell列表中没有zsh或者你没有使用chsh权限的时候，不起作用
 echo $SHELL
-[sudo] chsh -s $(which zsh)  或 chsh -s /bin/zsh
+sudo chsh -s $(which zsh)
+# 或
+chsh -s /bin/zsh
 ```
 
 ## oh-my-zsh 安装 & 配置
@@ -51,7 +53,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 vim ~/.zshrc
 
 # 找到 ZSH_THEME
-ZSH_THEME="cloud"
+ZSH_THEME="awesomepanda"
 
 # ZSH_THEME="样式名称"
 ```
@@ -115,4 +117,14 @@ plugins=(
 
 # 最后
 source ~/.zshrc
+```
+
+## 进阶修改
+
+```sh
+# 启动错误命令自动更正
+ENABLE_CORRECTION="true"
+
+# 在命令执行的过程中，使用小红点进行提示
+COMPLETION_WAITING_DOTS="true"
 ```

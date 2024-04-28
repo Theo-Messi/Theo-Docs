@@ -13,21 +13,42 @@ head:
 
 [访问Ubuntu官网下载](https://cn.ubuntu.com/download/desktop)
 
+## 开启SSH服务远程登录
+
+#### 安装net-tools和openssh-server
+
+```sh
+sudo apt-get install net-tools
+sudo apt-get install openssh-server
+```
+
+#### 查看是否开启ssh服务
+
+```sh
+dpkg -l | grep ssh
+
+```
+
+如果看到`sshd`那说明`ssh-server`已经启动了 如果没有则可以这样启动：
+
+```sh
+sudo /etc/init.d/ssh start
+# 或
+sudo service ssh start
+```
+
+## 安装 vim 和 htop
+
+```sh
+sudo apt-get install vim htop
+```
+
 ## 更新软件源为国内源
 
 ### 编辑文件
 
 ```sh
 vi /etc/apt/sources.list
-```
-
-### 更新缓存
-
-编辑文件完成后，执行如下命令进行更新缓存
-
-```sh
-sudo apt update
-sudo apt upgrade
 ```
 
 ### 镜像源地址
@@ -89,21 +110,9 @@ deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal-proposed main restricted unive
 
 :::
 
-## 恢复默认源
+### 更新缓存
 
-### 备份当前的软件源列表
-
-```sh
-sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
-```
-
-### 恢复默认的软件源
-
-```sh
-sudo sh -c 'echo "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main restricted universe multiverse" > /etc/apt/sources.list'
-```
-
-### 更新软件包缓存
+编辑文件完成后，执行如下命令进行更新缓存
 
 ```sh
 sudo apt update
@@ -134,41 +143,11 @@ sudo apt-get --purge remove thunderbird totem rhythmbox empathy brasero simple-s
 - \*gnome-orca 屏幕阅读器
 - gnome-sudoku 数独
 
-## 安装vim
-
-```sh
-sudo apt-get install vim
-```
-
 ## 自动卸载不需要的依赖
 
 ```sh
 sudo apt-get --purge autoremove
 sudo apt-get upgrade	#更新软件仓库
-```
-
-## 开启SSH服务远程登录
-
-#### 安装net-tools和openssh-server
-
-```sh
-sudo apt-get install net-tools
-sudo apt-get install openssh-server
-```
-
-#### 查看是否开启ssh服务
-
-```sh
-dpkg -l | grep ssh
-
-```
-
-如果看到`sshd`那说明`ssh-server`已经启动了 如果没有则可以这样启动：
-
-```sh
-sudo /etc/init.d/ssh start
-# 或
-sudo service ssh start
 ```
 
 ## 卸载桌面环境
@@ -212,4 +191,68 @@ sudo ntpdate cn.pool.ntp.org
 
 ```sh
 sudo hwclock --systohc
+```
+
+## 修改主机名
+
+```sh
+vim /etc/hostname
+
+```
+
+主机名存放在`/etc/hostname`文件中，编辑`hostname`并输入新的主机名保存即可。
+
+```sh
+reboot #重启
+hostname #重新查看主机名
+```
+
+## 开启 Root 登陆
+
+### 取得 Root 权限
+
+先从浏览器打开或者 SSH 工具连接服务器，登陆成功之后输入一下命令
+
+```bash
+sudo -i #切换到root
+passwd #修改密码
+```
+
+### 修改 ssh 配置文件
+
+```bash
+vi /etc/ssh/sshd_config #编辑文件
+PermitRootLogin yes #默认为no，需要开启root用户访问改为yes
+PasswordAuthentication yes #默认为no，改为yes开启密码登陆
+```
+
+:::tip
+按`i`进入编辑模式，按`esc`退出，输入`:wq`保存
+:::
+
+### 重启服务器
+
+```bash
+reboot    #重启服务器
+```
+
+## 恢复默认源
+
+### 备份当前的软件源列表
+
+```sh
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+```
+
+### 恢复默认的软件源
+
+```sh
+sudo sh -c 'echo "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main restricted universe multiverse" > /etc/apt/sources.list'
+```
+
+### 更新软件包缓存
+
+```sh
+sudo apt update
+sudo apt upgrade
 ```

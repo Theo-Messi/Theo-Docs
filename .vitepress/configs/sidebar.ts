@@ -44,7 +44,9 @@ export function Sidebar_record() {
         { text: '使用 nvm 管理不同版本的 node', link: 'nvm' },
         { text: '优化 iOS/Android 来电信息界面', link: 'vcards' },
         { text: '添加 1Panel 第三方应用商店', link: '1Panel-third-party-app-store' },
-        { text: 'Tabby 配置同步（第三方插件+gist）', link: 'tabby-sync' }
+        { text: 'Tabby 配置同步', link: 'tabby-sync' },
+        { text: 'Ubuntu 开机自动挂载 NAS磁盘', link: 'ubuntu-mount-nas' },
+        { text: '添加 群晖DSM7.X 第三方套件源', link: 'Synology-third-party-suite' }
       ]
     },
     {
@@ -122,7 +124,6 @@ export function Sidebar_vps() {
       items: [
         { text: '甲骨文云防火墙设置', link: 'Oracle-Cloud' },
         { text: 'Ubuntu 系统安装及设置', link: 'Ubuntu-system-installation-and-setup' },
-        { text: '开启 Root 登陆', link: 'root-login' },
         { text: '开启防火墙端口', link: 'firewall-port' }
       ]
     },
@@ -155,7 +156,8 @@ export function Sidebar_vps() {
         { text: 'VPS一键检测流媒体解锁', link: 'Streaming-Unlocked' },
         { text: '一键检测机场奈飞解锁', link: 'Netflix-Unlocked' },
         { text: '搭建独角数卡网站', link: 'Unicorn-Number-Card' },
-        { text: '安装 1Panel 面板', link: 'Install-1Panel' }
+        { text: '安装 1Panel 面板', link: 'Install-1Panel' },
+        { text: 'Docker 搭建 aria2+AriaNg', link: 'aria2+AriaNg' }
       ]
     }
   ]

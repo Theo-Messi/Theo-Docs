@@ -3,10 +3,10 @@ title: Tabby 配置同步（第三方插件+gist）
 head:
   - - meta
     - name: keywords
-      content:
+      content: Tabby 配置同步（第三方插件+gist）
   - - meta
     - name: description
-      content:
+      content: Tabby 配置同步（第三方插件+gist）
 ---
 
 ## 安装插件
