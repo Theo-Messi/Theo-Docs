@@ -43,7 +43,8 @@ export function Sidebar_record() {
         { text: '使用 GPG 签名 Git Commit', link: 'gpg' },
         { text: '使用 nvm 管理不同版本的 node', link: 'nvm' },
         { text: '优化 iOS/Android 来电信息界面', link: 'vcards' },
-        { text: '添加 1Panel 第三方应用商店', link: '1Panel-third-party-app-store' }
+        { text: '添加 1Panel 第三方应用商店', link: '1Panel-third-party-app-store' },
+        { text: 'Tabby 配置同步（第三方插件+gist）', link: 'tabby-sync' }
       ]
     },
     {
