@@ -119,6 +119,47 @@ plugins=(
 source ~/.zshrc
 ```
 
+### zsh-completions
+
+```zsh
+# 安装步骤
+brew install zsh-completions
+
+vim ~/.zshrc
+# 在文件里找到plugins，添加
+plugins=(
+  autojump
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  zsh-completions
+)
+
+# 添加如下配置
+FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+# 使配置生效
+source ~/.zshrc
+
+# 删除~/.zcompdump文件
+rm -f ~/.zcompdump
+
+# 重新生成~/.zcompdump文件
+compinit
+```
+
+:::tip 执行compinit命令的时候，可能回提示如下警告：
+
+`zsh compinit: insecure directories`
+
+这是权限造成的，执行如下的命令，然后再重新执行compinit命令即可。
+
+```sh
+chmod go-w '/usr/local/share'
+```
+
+这个命令的意思是修改`/usr/local/share`文件夹的权限，使得此文件夹对组成员用户和其他用户不可写。
+:::
+
 ## 进阶修改
 
 ```sh
