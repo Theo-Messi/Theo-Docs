@@ -1,6 +1,5 @@
-import { defineConfig, PageData } from 'vitepress'
-import { algolia, head, nav, sidebar } from './configs'
-import { transposeTables } from './transpose-tables'
+import { defineConfig } from 'vitepress'
+import { algolia, head, nav, sidebar, transposeTables } from './configs'
 
 // 导出默认配置
 export default defineConfig({
