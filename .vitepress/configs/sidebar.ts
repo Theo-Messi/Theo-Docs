@@ -20,7 +20,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   // 流媒体观影指南
   '/streaming/': { base: '/streaming/', items: Sidebar_streaming() },
   // 阿里云盘分享
-  '/Ali/': { base: '/Ali/', items: Sidebar_Ali() }
+  '/shared/': { base: '/shared/', items: Sidebar_Shared() }
 }
 
 // 文档记录
@@ -385,7 +385,7 @@ export function Sidebar_serve() {
   ]
 }
 
-export function Sidebar_Ali() {
+export function Sidebar_Shared() {
   return [
     {
       // 分组名称
@@ -393,9 +393,9 @@ export function Sidebar_Ali() {
       // 下拉菜单
       // collapsed: true,
       // 分组路径
-      base: '/Ali/',
+      base: '/shared/',
       // 分组页面
-      items: [{ text: '阿里云盘合集', link: 'Movie-collection' }]
+      items: [{ text: '阿里云盘合集', link: 'Ali-shared' }]
     }
   ]
 }

@@ -8,8 +8,8 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: '把玩服务器', items: Nav_Vps(), activeMatch: '^/vps/' },
   { text: 'ASUS Router', link: '/ASUS-Router/Flashing-prerequisites', activeMatch: '^/ASUS-Router/' },
   { text: '流媒体观影', link: '/streaming/Netflix-introduce', activeMatch: '^/streaming/' },
-  { text: '服务推荐', link: 'serve/sharing/Account-sharing-guide', activeMatch: '^/serve/' },
-  { text: '阿里云盘分享', link: '/Ali/Movie-collection', activeMatch: '^/Ali/' }
+  { text: '服务推荐', link: '/serve/sharing/Account-sharing-guide', activeMatch: '^/serve/' },
+  { text: '阿里云盘分享', link: '/shared/Ali-shared', activeMatch: '^/shared/' }
 ]
 
 // 操作指南

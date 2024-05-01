@@ -61,7 +61,7 @@ hero:
 
     - theme: alt
       text: 云盘资源
-      link: /Ali/Movie-collection
+      link: /shared/Ali-shared
 
     - theme: sponsor
       text: 赞助
