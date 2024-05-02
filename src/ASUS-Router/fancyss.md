@@ -164,16 +164,6 @@ tx：华硕天选青色皮肤
 3. **packages**：不同平台的离线安装包的最新版本，用于插件的在线更新
 4. **rules**：插件的规则文件，如 gfwlist.conf、chnroute.txt、cdn.txt
 
-## 提示检测非法关键词
-
-如果提示检测到离线安装包名有非法关键词，开启路由器的 SSH 功能，登录并输入以下命令后，再进行离线安装。(arm380/X7.x 版本固件需要请将软件中心更新到 1.4.8 及以上)
-
-```sh
-sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh
-```
-
-**如果更新了梅林 386 改版固件，状态出现双:x:的，请使用离线装功能覆盖安装一次科学上网插件。**
-
 ## 相关链接
 
 - **fancyss 3.0**更新日志：https://github.com/hq450/fancyss/blob/3.0/Changelog.txt

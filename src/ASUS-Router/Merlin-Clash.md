@@ -29,7 +29,7 @@ Merlin Clash 是一款运行在[KoolCenter](https://www.koolcenter.com/)软件�
 
 ![梅林固件安装Clash](https://cdn.apphb.cn/bbs_applehub_cn/2023/02/01145d3043141842-1024x420.png)
 
-要是提示含非法关键词，安装失败的，可查看后面写的-解决梅林新版软件中心禁止安装含非法关键词的插件。
+要是提示含非法关键词，安装失败的，可查看[提示检测非法关键词](/ASUS-Router/illegal-keywords)
 
 ## 安装补丁
 
