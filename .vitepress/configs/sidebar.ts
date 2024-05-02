@@ -81,7 +81,9 @@ export function Sidebar_Asus() {
         { text: '刷机需知', link: 'Flashing-prerequisites' },
         { text: '固件平台介绍', link: 'Firmware-platform-introduction' },
         { text: 'fancyss', link: 'fancyss' },
-        { text: 'Merlin Clash', link: 'Merlin-Clash' }
+        { text: 'Merlin Clash', link: 'Merlin-Clash' },
+        { text: '官改/梅林固件 常用命令集合', link: 'common-commands' },
+        { text: '提示检测非法关键词', link: 'illegal-keywords' }
       ]
     }
   ]
