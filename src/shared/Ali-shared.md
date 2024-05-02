@@ -15,6 +15,9 @@ head:
 
 ## 电影列表
 
+<details open> 
+    <summary><strong>查看详情</strong></summary>
+
 |         资源名称         |               资源链接               |
 | :----------------------: | :----------------------------------: |
 |         **破墓**         | https://www.alipan.com/s/uDzfQx6Nt4J |
@@ -63,7 +66,12 @@ head:
 |  **300勇士：帝国崛起**   | https://www.alipan.com/s/NUd2BVfSgfk |
 |   **刀锋战士 三部曲**    | https://www.alipan.com/s/6rCtKgBrcsU |
 
+</details>
+
 ## 剧集列表
+
+<details open> 
+    <summary><strong>查看详情</strong></summary>
 
 |      资源名称      |               资源链接               |
 | :----------------: | :----------------------------------: |
@@ -83,7 +91,12 @@ head:
 |    **眼泪女王**    | https://www.alipan.com/s/8gqmCok9qY5 |
 |    **东京喰种**    | https://www.alipan.com/s/XEQDKM8eD7Q |
 
+</details>
+
 ## 合集列表
+
+<details open> 
+    <summary><strong>查看详情</strong></summary>
 
 |       资源名称       |               资源链接               |
 | :------------------: | :----------------------------------: |
@@ -91,9 +104,16 @@ head:
 |  **豆瓣电影TOP250**  | https://www.alipan.com/s/f3E1FespyVa |
 |  **远鉴字幕组剧集**  | https://www.alipan.com/s/ToD3yXLgtDE |
 
+</details>
+
 ## 其他资源
+
+<details open> 
+    <summary><strong>查看详情</strong></summary>
 
 |      资源名称      |               资源链接               |
 | :----------------: | :----------------------------------: |
 |   **倪海厦书籍**   | https://www.alipan.com/s/gsFdjQUsneW |
 | **10000套PPT素材** | https://www.alipan.com/s/NhvBXzTkE8F |
+
+</details>
