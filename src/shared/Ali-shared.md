@@ -65,6 +65,21 @@ head:
 |      **逃出白垩纪**      | https://www.alipan.com/s/gbJwWQ6oWjt |
 |  **300勇士：帝国崛起**   | https://www.alipan.com/s/NUd2BVfSgfk |
 |   **刀锋战士 三部曲**    | https://www.alipan.com/s/6rCtKgBrcsU |
+|      **加勒比海盗**      | https://www.alipan.com/s/wVQXkbgD4oo |
+|         **红雀**         | https://www.alipan.com/s/bjmsevPYD5k |
+|         **超体**         | https://www.alipan.com/s/CZrzQetVtUW |
+|       **超级战舰**       | https://www.alipan.com/s/Ea9nVALpuQL |
+|       **十三罗汉**       | https://www.alipan.com/s/jYHtyAUbSxP |
+|      **流浪地球2**       | https://www.alipan.com/s/Eq1JA4VxLME |
+|       **拆弹部队**       | https://www.alipan.com/s/KqkACErHUxp |
+|      **决战中途岛**      | https://www.alipan.com/s/FqYoE7qwbdp |
+|       **勇敢的心**       | https://www.alipan.com/s/PZZDKN2cwFG |
+|      **银河护卫队**      | https://www.alipan.com/s/LyRneomGTFb |
+|        **蜘蛛侠**        | https://www.alipan.com/s/Npqx2WBGLYw |
+|       **极速车王**       | https://www.alipan.com/s/MWrYGbgWtBF |
+|       **三日刺杀**       | https://www.alipan.com/s/GaM9zpFEfvF |
+|       **星际特工**       | https://www.alipan.com/s/DY1RBKNgicV |
+|      **V字仇杀队**       | https://www.alipan.com/s/RaFyceg4z8U |
 
 </details>
 
