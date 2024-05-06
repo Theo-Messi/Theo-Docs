@@ -23,7 +23,7 @@ head:
 |         **破墓**         | https://www.alipan.com/s/uDzfQx6Nt4J |
 |        **沙丘2**         | https://www.alipan.com/s/wFiwoVr5Khj |
 |    **飞驰人生两部全**    | https://www.alipan.com/s/AV2oTiA9n3i |
-|      **功夫熊猫4**       | https://www.alipan.com/s/kKvXczLcHME |
+|      **功夫熊猫4**       | https://www.alipan.com/s/ozeD7XG1eom |
 |        **永恒族**        | https://www.alipan.com/s/ddxrYj1Rp23 |
 |    **行骗天下全系列**    | https://www.alipan.com/s/5uwmiyudZmW |
 |    **猩球崛起 全3部**    | https://www.alipan.com/s/EozsNSJboQu |
@@ -80,6 +80,12 @@ head:
 |       **三日刺杀**       | https://www.alipan.com/s/GaM9zpFEfvF |
 |       **星际特工**       | https://www.alipan.com/s/DY1RBKNgicV |
 |      **V字仇杀队**       | https://www.alipan.com/s/RaFyceg4z8U |
+|       **爱乐之城**       | https://www.alipan.com/s/wrEzsyEAQ7h |
+|   **大侦探福尔摩斯2**    | https://www.alipan.com/s/xmT4yoVhB7w |
+|       **惊奇队长**       | https://www.alipan.com/s/34f3289PFan |
+|     **孤独的幸存者**     | https://www.alipan.com/s/ePrXvxKZKt8 |
+|       **无敌浩克**       | https://www.alipan.com/s/4pKjuQ3pF9  |
+|         **鲨滩**         | https://www.alipan.com/s/qsrmGWUqpTP |
 
 </details>
 
