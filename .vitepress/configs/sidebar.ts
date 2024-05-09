@@ -12,7 +12,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   // 青龙面板
   '/vps/ql/': { base: '/vps/ql/', items: Sidebar_ql() },
   // 入门指南
-  '/Getting-Started-Guide/': { base: '/Getting-Started-Guide/', items: Sidebar_Guide() },
+  '/Getting-Started-Guide/': {
+    base: '/Getting-Started-Guide/',
+    items: Sidebar_Guide()
+  },
   // 文档记录
   '/record/': { base: '/record/', items: Sidebar_record() },
   // 服务推荐
@@ -43,10 +46,16 @@ export function Sidebar_record() {
         { text: '使用 GPG 签名 Git Commit', link: 'gpg' },
         { text: '使用 nvm 管理不同版本的 node', link: 'nvm' },
         { text: '优化 iOS/Android 来电信息界面', link: 'vcards' },
-        { text: '添加 1Panel 第三方应用商店', link: '1Panel-third-party-app-store' },
+        {
+          text: '添加 1Panel 第三方应用商店',
+          link: '1Panel-third-party-app-store'
+        },
         { text: 'Tabby 配置同步', link: 'tabby-sync' },
         { text: 'Ubuntu 开机自动挂载 NAS磁盘', link: 'ubuntu-mount-nas' },
-        { text: '添加 群晖DSM7.X 第三方套件源', link: 'Synology-third-party-suite' }
+        {
+          text: '添加 群晖DSM7.X 第三方套件源',
+          link: 'Synology-third-party-suite'
+        }
       ]
     },
     {
@@ -125,7 +134,10 @@ export function Sidebar_vps() {
       // 分组页面
       items: [
         { text: '甲骨文云防火墙设置', link: 'Oracle-Cloud' },
-        { text: 'Ubuntu 系统安装及设置', link: 'Ubuntu-system-installation-and-setup' },
+        {
+          text: 'Ubuntu 系统安装及设置',
+          link: 'Ubuntu-system-installation-and-setup'
+        },
         { text: '开启防火墙端口', link: 'firewall-port' }
       ]
     },
@@ -200,7 +212,10 @@ export function Sidebar_ESXi() {
         { text: '刷新 DNS 缓存', link: 'clear-dns-cache' },
         { text: 'iStoreOS 文件共享步骤', link: 'iStoreOS-file-sharing-steps' },
         { text: 'H3C NX30Pro 刷 openwrt', link: 'H3C-NX30Pro' },
-        { text: 'openwrt 安装 clouddrive2', link: 'openwrt-install-clouddrive2' },
+        {
+          text: 'openwrt 安装 clouddrive2',
+          link: 'openwrt-install-clouddrive2'
+        },
         { text: '旁路由设置', link: 'Bypass' }
       ]
     }
@@ -274,11 +289,23 @@ export function Sidebar_streaming() {
       // 分组页面
       items: [
         { text: '介绍', link: 'Netflix-introduce' },
-        { text: '如何看4K及适配硬件', link: 'Netflix-watch-4K-and-adapting-hardware' },
-        { text: '常见使用问题及答案', link: 'Netflix-Frequently-asked-questions-and-answers' },
-        { text: '常见错误提示及解决方案', link: 'Netflix-Common-error-tips-and-solutions' },
+        {
+          text: '如何看4K及适配硬件',
+          link: 'Netflix-watch-4K-and-adapting-hardware'
+        },
+        {
+          text: '常见使用问题及答案',
+          link: 'Netflix-Frequently-asked-questions-and-answers'
+        },
+        {
+          text: '常见错误提示及解决方案',
+          link: 'Netflix-Common-error-tips-and-solutions'
+        },
         { text: '秘密分类的技巧', link: 'Netflix-secret-classification' },
-        { text: '全球各国影视剧数量', link: 'Netflix-Number-of-movies-and-TV-series' },
+        {
+          text: '全球各国影视剧数量',
+          link: 'Netflix-Number-of-movies-and-TV-series'
+        },
         { text: '常用浏览器插件汇总', link: 'Netflix-Browser-plug-in-summary' },
         { text: '总结与建议', link: 'Netflix-Summarize' }
       ]
