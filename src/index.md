@@ -61,7 +61,7 @@ hero:
 
     - theme: alt
       text: 云盘资源
-      link: /shared/Ali-shared
+      link: https://share.theovan.cn/
 
     - theme: sponsor
       text: 赞助

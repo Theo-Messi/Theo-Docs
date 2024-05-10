@@ -14,7 +14,7 @@ head:
 ## 下载并运行
 
 ```sh
-wget www.joeyblog.live/jb/dd.sh  #下载脚本
+wget jhb.ovh/jb/dd.sh  #下载脚本
 bash dd.sh #运行脚本
 ```
 

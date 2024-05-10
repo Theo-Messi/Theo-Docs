@@ -79,8 +79,8 @@ export const head: HeadConfig[] = [
     {
       rel: 'icon',
       type: 'image/png',
-      sizes: '192x192',
-      href: '/android-icon-192x192.png'
+      sizes: '36x36',
+      href: '/android-icon-36x36.png'
     }
   ],
   [
@@ -88,8 +88,17 @@ export const head: HeadConfig[] = [
     {
       rel: 'icon',
       type: 'image/png',
-      sizes: '32x32',
-      href: '/android-icon-32x32.png'
+      sizes: '48x48',
+      href: '/android-icon-48x48.png'
+    }
+  ],
+  [
+    'link',
+    {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '72x72',
+      href: '/android-icon-72x72.png'
     }
   ],
   [
@@ -106,8 +115,17 @@ export const head: HeadConfig[] = [
     {
       rel: 'icon',
       type: 'image/png',
-      sizes: '16x16',
-      href: '/android-icon-16x16.png'
+      sizes: '144x144',
+      href: '/android-icon-144x144.png'
+    }
+  ],
+  [
+    'link',
+    {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '192x192',
+      href: '/android-icon-192x192.png'
     }
   ],
   // 设置作者

@@ -21,9 +21,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   // 服务推荐
   '/serve/': { base: '/serve/', items: Sidebar_serve() },
   // 流媒体观影指南
-  '/streaming/': { base: '/streaming/', items: Sidebar_streaming() },
-  // 阿里云盘分享
-  '/shared/': { base: '/shared/', items: Sidebar_Shared() }
+  '/streaming/': { base: '/streaming/', items: Sidebar_streaming() }
 }
 
 // 文档记录
@@ -410,21 +408,6 @@ export function Sidebar_serve() {
       base: '/serve/',
       // 分组页面
       items: [{ text: 'SMS-Activate', link: 'code/SMS-Activate' }]
-    }
-  ]
-}
-
-export function Sidebar_Shared() {
-  return [
-    {
-      // 分组名称
-      // text: '电影合集',
-      // 下拉菜单
-      // collapsed: true,
-      // 分组路径
-      base: '/shared/',
-      // 分组页面
-      items: [{ text: '阿里云盘合集', link: 'Ali-shared' }]
     }
   ]
 }
