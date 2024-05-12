@@ -156,7 +156,7 @@ export const head: HeadConfig[] = [
   // 创建一个数组，其中包含两个元素，分别是meta和description
   ['meta', { name: 'description', content: 'zh-CN' }],
   // 设置百度收录
-  ['meta', { name: 'baidu-site-verification', content: 'codeva-B6BrBqHfK6' }],
+  ['meta', { name: 'baidu-site-verification', content: 'codeva-SMUPLYe8bP' }],
   // 设置站点SEO
   [
     'meta',

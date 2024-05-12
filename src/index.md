@@ -32,7 +32,7 @@ head:
       content: 16826854815998093032
   - - meta
     - name: baidu-site-verification
-      content: code-1kPQj1VZh
+      content: codeva-SMUPLYe8bP
   - - meta
     - name: og:locale
       content: zh-CN
