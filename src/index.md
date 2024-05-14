@@ -48,6 +48,14 @@ hero:
     alt: 全方位流媒体观影指南
   actions:
     - theme: brand
+      text: 云盘资源
+      link: https://share.theovan.cn/
+
+    - theme: brand
+      text: 玄学宝典
+      link: https://xx.theovan.xyz
+
+    - theme: alt
       text: 账号合租
       link: /serve/sharing/Account-sharing-guide
 
@@ -55,16 +63,8 @@ hero:
       text: 机场推荐
       link: /serve/airport/FlyingBird
 
-    - theme: brand
-      text: 玄学宝典
-      link: https://xx.theovan.xyz
-
-    - theme: alt
-      text: 云盘资源
-      link: https://share.theovan.cn/
-
     - theme: sponsor
-      text: 赞助
+      text: Sponsor me
       link: https://github.com/sponsors/Theo-messi
 
 features:
