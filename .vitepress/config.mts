@@ -19,11 +19,16 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://theovan.cn'
   },
+
   // markdown-it插件配置
   markdown: {
     theme: {
       light: 'min-light',
       dark: 'min-dark'
+    },
+    image: {
+      // 默认禁用图片懒加载
+      lazyLoading: true
     },
     container: {
       infoLabel: '信息',
