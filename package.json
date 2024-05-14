@@ -1,11 +1,11 @@
 {
   "devDependencies": {
-    "@types/node": "^20.12.11",
-    "prettier": "3.2.5",
-    "vitepress": "1.1.4",
-    "vitepress-plugin-google-analytics": "^1.0.2",
+    "@types/node": "^20.12.12",
     "lint-staged": "^15.2.2",
-    "simple-git-hooks": "^2.11.1"
+    "prettier": "3.2.5",
+    "simple-git-hooks": "^2.11.1",
+    "vitepress": "1.1.4",
+    "vitepress-plugin-google-analytics": "^1.0.2"
   },
   "scripts": {
     "dev": "vitepress dev",
