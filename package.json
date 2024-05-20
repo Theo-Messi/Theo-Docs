@@ -1,13 +1,13 @@
 {
   "devDependencies": {
-    "@shikijs/vitepress-twoslash": "^1.5.2",
-    "@types/node": "^20.12.12",
-    "lint-staged": "^15.2.2",
+    "@shikijs/vitepress-twoslash": "1.6.0",
+    "@types/node": "20.12.12",
+    "@vercel/analytics": "1.2.2",
+    "lint-staged": "15.2.2",
     "prettier": "3.2.5",
-    "simple-git-hooks": "^2.11.1",
-    "vitepress": "1.1.4",
-    "@vercel/analytics": "^1.2.2",
-    "vitepress-plugin-google-analytics": "^1.0.2"
+    "simple-git-hooks": "2.11.1",
+    "vitepress": "1.2.0",
+    "vitepress-plugin-google-analytics": "1.0.2"
   },
   "scripts": {
     "dev": "vitepress dev",
