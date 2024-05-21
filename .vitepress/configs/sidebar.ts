@@ -169,7 +169,8 @@ export function Sidebar_vps() {
         { text: '一键检测机场奈飞解锁', link: 'Netflix-Unlocked' },
         { text: '搭建独角数卡网站', link: 'Unicorn-Number-Card' },
         { text: '安装 1Panel 面板', link: 'Install-1Panel' },
-        { text: 'Docker 搭建 aria2+AriaNg', link: 'aria2+AriaNg' }
+        { text: 'Docker 搭建 aria2+AriaNg', link: 'aria2+AriaNg' },
+        { text: '一键安装 小雅Xiaoya全家桶', link: 'xiaoya-alist' }
       ]
     }
   ]
