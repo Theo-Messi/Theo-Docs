@@ -3,7 +3,7 @@ title: VitePress实现单击图片放大
 head:
   - - meta
     - name: keywords
-      content: VitePress,图片放大,medium-zoom
+      content: VitePress 图片放大 medium-zoom
   - - meta
     - name: description
       content: VitePress实现单击图片放大

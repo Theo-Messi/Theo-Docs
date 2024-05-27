@@ -3,7 +3,7 @@ title: 插件版
 head:
   - - meta
     - name: keywords
-      content:
+      content: 插件版
   - - meta
     - name: description
       content: 插件版

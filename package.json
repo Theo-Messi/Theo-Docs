@@ -1,19 +1,22 @@
 {
-  "devDependencies": {
-    "@shikijs/vitepress-twoslash": "1.6.0",
-    "@types/node": "20.12.12",
-    "@vercel/analytics": "1.3.1",
-    "lint-staged": "15.2.2",
-    "prettier": "3.2.5",
-    "simple-git-hooks": "2.11.1",
-    "vitepress": "1.2.0",
-    "vitepress-plugin-google-analytics": "1.0.2"
-  },
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
     "prettier": "pnpm exec prettier . --write"
+  },
+  "devDependencies": {
+    "@shikijs/vitepress-twoslash": "^1.6.0",
+    "prettier": "3.2.5",
+    "vitepress": "1.2.2",
+    "vitepress-plugin-google-analytics": "^1.0.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "@vercel/analytics": "^1.3.1",
+    "lint-staged": "^15.2.5",
+    "simple-git-hooks": "^2.11.1",
+    "vue": "^3.4.27"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

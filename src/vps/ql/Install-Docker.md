@@ -3,7 +3,7 @@ title: 安装Docker
 head:
   - - meta
     - name: keywords
-      content: Docker,安装,教程
+      content: Docker 安装 教程
   - - meta
     - name: description
       content: 本文介绍如何在CentOS 7.x/Ubuntu 18.04/Debian 10.x上安装Docker。

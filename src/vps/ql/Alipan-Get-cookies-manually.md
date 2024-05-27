@@ -3,10 +3,10 @@ title: 手动获取-refresh_token
 head:
   - - meta
     - name: keywords
-      content: 阿里云盘,refresh_token,手动获取
+      content: 阿里云盘 refresh_token 手动获取
   - - meta
     - name: description
-      content: 阿里云盘自动签到,refresh_token,手动获取
+      content: 阿里云盘 refresh_token 手动获取
 ---
 
 ### 手动获取

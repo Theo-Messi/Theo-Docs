@@ -29,7 +29,7 @@ head:
       content: telephone=no
   - - meta
     - name: google-site-verification
-      content: 16826854815998093032
+      content: '16826854815998093032'
   - - meta
     - name: baidu-site-verification
       content: codeva-SMUPLYe8bP
