@@ -2,43 +2,6 @@
 layout: home
 title: 流媒体森林
 titleTemplate: 全方位流媒体观影指南
-head:
-  - - meta
-    - name: keywords
-      content: 网络技术,VPS,ESXi,OpenWrt,青龙面板,风水玄学,picgo,github,图床,梅林固件,华硕,fancyss,科学上网,clash,独角数卡,homebrew,git,docker,linux,markdown,甲骨文,谷歌云,防火墙,流媒体,京东,阿里云,YouTube,Premium,机场,流媒体,解锁,线路,科学上网,梯子,特殊服务,出国服务,奈飞,Netflix,迪士尼,YouTube,油管,hulu,一元机场,FlyingBird,Bridge the Wise,HBO Max,Spotify,奈飞小铺,蜜糖商店,银河录像局
-  - - meta
-    - name: description
-      content: 流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、一元机场、Bridge the Wise、HBO Max、Spotify、奈飞小铺、蜜糖商店、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。
-  - - meta
-    - name: author
-      content: Theo-messi
-  - - meta
-    - name: og:type
-      content: website
-  - - meta
-    - name: og:title
-      content: 流媒体森林
-  - - meta
-    - name: og:description
-    - content: 流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、一元机场、Bridge the Wise、HBO Max、Spotify、奈飞小铺、蜜糖商店、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。
-  - - meta
-    - name: viewport
-      content: width=device-width, initial-scale=1, maximum-scale=1
-  - - meta
-    - name: format-detection
-      content: telephone=no
-  - - meta
-    - name: google-site-verification
-      content: '16826854815998093032'
-  - - meta
-    - name: baidu-site-verification
-      content: codeva-SMUPLYe8bP
-  - - meta
-    - name: og:locale
-      content: zh-CN
-  - - meta
-    - name: description
-      content: zh-CN
 hero:
   name: 全方位流媒体
   text: 一站式服务
