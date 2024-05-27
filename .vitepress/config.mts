@@ -1,12 +1,5 @@
 import { defineConfig } from 'vitepress'
-import {
-  algolia,
-  head,
-  nav,
-  sidebar,
-  transposeTables,
-  socialLinks
-} from './configs'
+import { algolia, head, nav, sidebar, transposeTables, socialLinks } from './configs'
 import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 
 // 导出默认配置

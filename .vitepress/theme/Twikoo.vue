@@ -16,10 +16,7 @@ function initTwikoo() {
 }
 
 function initLightGallery() {
-  var commentContents = [
-    ...document.getElementsByClassName('vp-doc'),
-    ...document.getElementsByClassName('tk-content')
-  ]
+  var commentContents = [...document.getElementsByClassName('vp-doc'), ...document.getElementsByClassName('tk-content')]
   for (var i = 0; i < commentContents.length; i++) {
     var commentItem = commentContents[i]
     var imgEls = commentItem.getElementsByTagName('img')
@@ -85,14 +82,8 @@ onMounted(() => {
     ></component>
 
     <!-- lightGallery -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css"
-    />
-    <component
-      :is="'script'"
-      src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"
-    ></component>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery.css" />
+    <component :is="'script'" src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.min.js"></component>
 
     <!-- Twikoo -->
     <div id="twikoo"></div>
