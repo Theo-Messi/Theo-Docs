@@ -3,7 +3,7 @@ title: 安装哪吒面板
 head:
   - - meta
     - name: keywords
-      content: 哪吒监控, 哪吒监控面板, 哪吒监控安装, 哪吒监控部署, 哪吒监控使用, 哪吒监控文档, 哪吒监控教程
+      content: 哪吒监控 哪吒监控面板 哪吒监控安装 哪吒监控部署 哪吒监控使用 哪吒监控文档 哪吒监控教程
   - - meta
     - name: description
       content: 哪吒监控是一个轻量级监控系统，支持监控 Linux、Windows、AIX、ESXi、KVM、Docker、Ceph、Zabbix、OpenStack、MongoDB、MySQL、Redis、PostgreSQL、Docker、Kubernetes、Docker Swarm、HAProxy、Nginx、Tomcat、Apache 等主流服务器、数据库、中间件、云原生等监控。

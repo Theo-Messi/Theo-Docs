@@ -3,10 +3,10 @@ title: Ubuntu 系统安装及设置
 head:
   - - meta
     - name: keywords
-      content:
+      content: Ubuntu 系统安装及设置
   - - meta
     - name: description
-      content:
+      content: Ubuntu 系统安装及设置
 ---
 
 ## Ubuntu系统下载
