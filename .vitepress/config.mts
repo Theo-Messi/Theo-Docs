@@ -108,8 +108,9 @@ export default defineConfig({
 
     // 底部信息
     footer: {
-      message: `<font size="2"> 根据  <a href="https://github.com/Theo-messi/Theo-Docs/blob/main/license" target="_blank">MIT 许可证</a>  发布 </br> <a href="" target="_blank" >鄂ICP备2024xxxxxx号</a>  ｜ <a href="" target="_blank" >鄂公网安备 xxxxxxxxxx号</a></font>`,
-      copyright: `<font size="2">Copyright © 2019 - ${new Date().getFullYear()} <a href="https://github.com/Theo-messi" target="_blank">Theo-Messi</a> . All Rights Reserved.</font size="2">`
+      message: `<font size="2">Released under the <a href="https://github.com/Theo-messi/Theo-Docs/blob/main/license" target="_blank">MIT License</a>.</font size="2">`,
+      copyright: `<font size="2">Copyright © 2019 - ${new Date().getFullYear()} <a href="https://github.com/Theo-messi" target="_blank">Theo-Messi</a></br>
+      <a href="https://111.com" target="_blank">鄂ICP备2022005864号-2</a>｜<a href="https://111.com" target="_blank">鄂公网安备12011202000677号</a></font size="2">`
     }
   }
 })
