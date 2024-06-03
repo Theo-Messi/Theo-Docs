@@ -6,7 +6,7 @@
     "prettier": "pnpm exec prettier . --write"
   },
   "devDependencies": {
-    "@shikijs/vitepress-twoslash": "^1.6.0",
+    "@shikijs/vitepress-twoslash": "^1.6.1",
     "prettier": "3.2.5",
     "vitepress": "1.2.2",
     "vitepress-plugin-google-analytics": "^1.0.2"
