@@ -6,13 +6,13 @@
     "prettier": "pnpm exec prettier . --write"
   },
   "devDependencies": {
-    "@shikijs/vitepress-twoslash": "^1.6.0",
-    "prettier": "3.3.0",
-    "vitepress": "1.2.2",
+    "@shikijs/vitepress-twoslash": "^1.6.2",
+    "prettier": "3.3.1",
+    "vitepress": "1.2.3",
     "vitepress-plugin-google-analytics": "^1.0.2"
   },
   "dependencies": {
-    "@types/node": "^20.14.0",
+    "@types/node": "^20.14.2",
     "@vercel/analytics": "^1.3.1",
     "lint-staged": "^15.2.5",
     "medium-zoom": "^1.1.0",

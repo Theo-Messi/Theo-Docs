@@ -24,8 +24,8 @@ export default defineConfig({
   // markdown-it插件配置
   markdown: {
     theme: {
-      light: 'min-light',
-      dark: 'min-dark'
+      light: 'catppuccin-latte',
+      dark: 'dracula-soft'
     },
     image: {
       // 默认禁用图片懒加载
@@ -77,7 +77,7 @@ export default defineConfig({
     outlineTitle: '本页目录', // 目录文本
 
     // 上次更新
-    lastUpdated: { text: '上次更新' },
+    lastUpdated: { text: '最后更新于' },
 
     // 文章翻页
     docFooter: {
