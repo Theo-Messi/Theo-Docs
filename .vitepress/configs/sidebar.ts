@@ -281,13 +281,13 @@ export function Sidebar_streaming() {
     {
       // 分组名称
       text: 'Netflix 观看指南',
+      link: 'Netflix-introduce',
       // 下拉菜单
       // collapsed: true,
       // 分组路径
       base: '/streaming/',
       // 分组页面
       items: [
-        { text: '介绍', link: 'Netflix-introduce' },
         {
           text: '如何看4K及适配硬件',
           link: 'Netflix-watch-4K-and-adapting-hardware'
@@ -312,13 +312,13 @@ export function Sidebar_streaming() {
     {
       // 分组名称
       text: 'Disney+ 观看指南',
+      link: 'Disney-introduce',
       // 下拉菜单
       // collapsed: true,
       // 分组路径
       base: '/streaming/',
       // 分组页面
       items: [
-        { text: '介绍', link: 'Disney-introduce' },
         { text: '订阅指南', link: 'Disney-Subscription-Guide' },
         { text: '合租介绍', link: 'Disney-Introduction-to-shared-housing' },
         { text: '会员使用指南', link: 'Disney-Member-User-Guide' },
@@ -328,42 +328,46 @@ export function Sidebar_streaming() {
     {
       // 分组名称
       text: 'Spotify Premium 指南',
+      link: 'Spotify',
       // 下拉菜单
       // collapsed: true,
       // 分组路径
       base: '/streaming/',
       // 分组页面
-      items: [{ text: 'Spotify Premium 指南', link: 'Spotify' }]
+      items: []
     },
     {
       // 分组名称
       text: 'YouTube Premium 会员权益及订阅指南',
+      link: 'YouTube',
       // 下拉菜单
       // collapsed: true,
       // 分组路径
       base: '/streaming/',
       // 分组页面
-      items: [{ text: 'YouTube Premium 会员权益及订阅指南', link: 'YouTube' }]
+      items: []
     },
     {
       // 分组名称
       text: 'Hulu 国内观看指南',
+      link: 'Hulu',
       // 下拉菜单
       // collapsed: true,
       // 分组路径
       base: '/streaming/',
       // 分组页面
-      items: [{ text: 'Hulu 国内观看指南', link: 'Hulu' }]
+      items: []
     },
     {
       // 分组名称
       text: 'HBO Max 国内观看指南',
+      link: 'HBO-Max',
       // 下拉菜单
       // collapsed: true,
       // 分组路径
       base: '/streaming/',
       // 分组页面
-      items: [{ text: 'HBO Max 国内观看指南', link: 'HBO-Max' }]
+      items: []
     }
   ]
 }
@@ -374,13 +378,13 @@ export function Sidebar_serve() {
     {
       // 分组名称
       text: '账号合租平台',
+      link: 'sharing/Account-sharing-guide',
       // 下拉菜单
       // collapsed: true,
       // 分组路径
       base: '/serve/',
       // 分组页面
       items: [
-        { text: '账号合租指南', link: 'sharing/Account-sharing-guide' },
         { text: '银河录像局', link: 'sharing/nf-video' },
         { text: '蜜糖商店', link: 'sharing/metshop' },
         { text: '奈飞小铺', link: 'sharing/ihezu' }
