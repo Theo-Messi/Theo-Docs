@@ -13,7 +13,6 @@
     <a href="https://xx.theovan.cn">玄学宝典</a> -
     <a href="https://share.theovan.cn/">阿里云盘资源分享</a>
 </br>
-    <a href="https://xn--4gq62f52gdss.ink/#/register?code=tFcXfJEu">一元机场</a> -
     <a href="https://fbinv01.fbaff.cc/auth/register?code=RZP3">FlyingBird</a> -
     <a href="https://patriot.ninja/aff.php?aff=1471">Bridge the Wise</a>
 </br>

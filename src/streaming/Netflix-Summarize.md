@@ -3,10 +3,10 @@ title: Netflix 总结
 head:
   - - meta
     - name: keywords
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu 一元机场 FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu 一元机场 FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
 ---
 
 在这里，我们详细介绍了如何在中国观看 Netflix，包括使用代理服务来解锁区域限制、购买 Netflix 账号、选择合适的套餐以及 Netflix 支持的设备等方面的内容。同时，我们还推荐了一些热门的 Netflix 剧集，并介绍了 Netflix 的原创内容，旨在为您在观看 Netflix 时提供更丰富的选择。

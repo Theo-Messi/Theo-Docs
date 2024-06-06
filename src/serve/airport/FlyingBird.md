@@ -3,13 +3,13 @@ title: FlyingBird - 飞鸟机场
 head:
   - - meta
     - name: keywords
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu 一元机场 FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu 一元机场 FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
 ---
 
-:::tip 千呼万唤始出来！五一活动！来了来了！最宠你们的，还是飞鸟！
+<!-- :::tip 千呼万唤始出来！五一活动！来了来了！最宠你们的，还是飞鸟！
 
 1. 月/季/半年付 85折 , 优惠码：`245185` 可重复使用3次
 2. 年付8折（站内折上折，高达64折 ）优惠码：`245180` 可重复使用3次
@@ -18,7 +18,7 @@ head:
 
 ==> [FlyingBird 注册链接](https://fbinv01.fbaff.cc/auth/register?code=RZP3)
 
-:::
+::: -->
 
 ## [FlyingBird 简介](https://fbinv01.fbaff.cc/auth/register?code=RZP3)
 

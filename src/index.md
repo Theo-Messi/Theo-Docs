@@ -35,9 +35,6 @@ features:
   - title: FlyingBird - 飞鸟机场
     details: FlyingBird 飞鸟机场是一家成立于2022年的新机场，支持 Shadowsocks 协议，小众精品，节点不多，全 IPLC 专线机场。
     link: /serve/airport/FlyingBird
-  - title: 一元机场
-    details: 一元机场是 2022 年创立的机场，由于价格便宜到「离谱」，现今风头正盛，可以说现在的名气不亚于当年跑路的速蛙云。甚至有好事者创立了「一元机场」的百度贴吧。
-    link: /serve/airport/yiyuan
   - title: Bridge the Wise
     details: 其名字来源于 People’s Daily 的名言：智者建桥，愚者建墙，他们最开始接触的中国电影并不好看，同时也很理解下载资源很不方便的奈飞，所以他们就建立了一个中转机场，只为了能够给国内的同胞们提供便捷的观看服务。
     link: /serve/airport/Bridge-the-Wise

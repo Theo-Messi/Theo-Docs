@@ -396,8 +396,7 @@ export function Sidebar_serve() {
       // 分组页面
       items: [
         { text: 'FlyingBird - 飞鸟机场', link: 'airport/FlyingBird' },
-        { text: 'Bridge the Wise', link: 'airport/Bridge-the-Wise' },
-        { text: '一元机场', link: 'airport/yiyuan' }
+        { text: 'Bridge the Wise', link: 'airport/Bridge-the-Wise' }
       ]
     },
     {
