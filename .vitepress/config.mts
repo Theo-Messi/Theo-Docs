@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { algolia, head, nav, sidebar, transposeTables, socialLinks } from './configs'
 import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
+import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
+import footnote_plugin from 'markdown-it-footnote'
 
 // 导出默认配置
 export default defineConfig({
@@ -43,10 +45,20 @@ export default defineConfig({
     },
     codeTransformers: [transformerTwoslash()],
     config(md) {
-      transposeTables(md)
+      transposeTables(md), md.use(footnote_plugin)
     }
   },
 
+  // 插件配置
+  vite: {
+    plugins: [
+      GitChangelog({
+        // 填写在此处填写您的仓库链接
+        repoURL: () => 'https://github.com/Theo-messi/Theo-Docs'
+      }),
+      GitChangelogMarkdownSection()
+    ]
+  },
   // 源目录
   srcDir: 'src',
 
@@ -77,7 +89,14 @@ export default defineConfig({
     outlineTitle: '本页目录', // 目录文本
 
     // 上次更新
-    lastUpdated: { text: '最后更新于' },
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'full',
+        hourCycle: 'h24'
+      }
+    },
 
     // 文章翻页
     docFooter: {
@@ -85,14 +104,21 @@ export default defineConfig({
       next: '下一篇'
     },
 
-    // 移动端 - 外观
-    darkModeSwitchLabel: '外观',
-
     // 移动端 - 返回顶部
     returnToTopLabel: '返回顶部',
 
     // 移动端 - menu
     sidebarMenuLabel: '文章',
+
+    // 主题模式切换
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
+    darkModeSwitchLabel: '主题模式',
+
+    // markdown 外部链接图标
+    externalLinkIcon: true,
+    // 语言切换
+    langMenuLabel: '切换语言',
 
     // 导航栏
     nav,

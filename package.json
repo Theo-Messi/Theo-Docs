@@ -6,7 +6,8 @@
     "prettier": "pnpm exec prettier . --write"
   },
   "devDependencies": {
-    "@shikijs/vitepress-twoslash": "^1.6.2",
+    "@nolebase/vitepress-plugin-git-changelog": "^2.1.1",
+    "@shikijs/vitepress-twoslash": "^1.6.3",
     "prettier": "3.3.1",
     "vitepress": "1.2.3",
     "vitepress-plugin-google-analytics": "^1.0.2"
@@ -15,6 +16,7 @@
     "@types/node": "^20.14.2",
     "@vercel/analytics": "^1.3.1",
     "lint-staged": "^15.2.5",
+    "markdown-it-footnote": "^4.0.0",
     "medium-zoom": "^1.1.0",
     "simple-git-hooks": "^2.11.1",
     "vue": "^3.4.27"
