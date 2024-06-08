@@ -44,7 +44,7 @@ Merlin Clash 是一款运行在[KoolCenter](https://www.koolcenter.com/)软件�
 # Merlin Clash - 配置
 
 :::tip 注意事项
-**Merlin Clash** 和 **科学上网** 插件不能同时启用，请确保配置和启动 **Merlin Clash** 插件前彻底关闭或卸载原有的 **科学上网** 插件。
+`Merlin Clash` 和 `科学上网` 插件不能同时启用，请确保配置和启动 `Merlin Clash` 插件前彻底关闭或卸载原有的 `科学上网` 插件。
 :::
 Merlin Clash 是一款运行在 KoolCenter 软件中心上的 Clash GUI 插件，支持 SS/SSR/Trojan/V2Ray 等多种协议。
 基于硬件限制，并非所有架构的路由器都能正常运行插件，请前往 Merlin Clash 官方文档中心查看自己路由器的软硬件版本是否支持，并前往其官方插件发布频道按照文档操作安装即可。
