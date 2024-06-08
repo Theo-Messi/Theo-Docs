@@ -131,17 +131,17 @@ export function Sidebar_vps() {
       base: '/vps/',
       // 分组页面
       items: [
-        { text: '甲骨文云防火墙设置', link: 'Oracle-Cloud' },
         {
-          text: 'Ubuntu 系统安装及设置',
-          link: 'Ubuntu-system-installation-and-setup'
+          text: 'Ubuntu 系统优化设置',
+          link: 'Ubuntu'
         },
+        { text: '甲骨文云防火墙设置', link: 'Oracle-Cloud' },
         { text: '开启防火墙端口', link: 'firewall-port' }
       ]
     },
     {
       // 分组名称
-      text: '进阶使用',
+      text: '系统工具',
       // 下拉开关
       // collapsed: true,
       // 分组路径

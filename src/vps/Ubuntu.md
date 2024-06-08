@@ -1,12 +1,12 @@
 ---
-title: Ubuntu 系统安装及设置
+title: Ubuntu 系统优化设置
 head:
   - - meta
     - name: keywords
-      content: Ubuntu 系统安装及设置
+      content: Ubuntu 系统优化设置
   - - meta
     - name: description
-      content: Ubuntu 系统安装及设置
+      content: Ubuntu 系统优化设置
 ---
 
 ## Ubuntu系统下载

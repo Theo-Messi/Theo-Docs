@@ -52,8 +52,8 @@ export function Nav_Vps() {
   return [
     {
       items: [
-        { text: '基础设置', link: '/vps/Oracle-Cloud' },
-        { text: '进阶使用', link: '/vps/Simplify-system-reinstallation' },
+        { text: '基础设置', link: '/vps/Ubuntu' },
+        { text: '系统工具', link: '/vps/Simplify-system-reinstallation' },
         { text: '搭建服务', link: '/vps/Install-Nezha-panel' },
         { text: '青龙面板', link: '/vps/ql/Install-Qinglong-panel' }
       ]
