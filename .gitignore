@@ -175,3 +175,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 # End of https://www.toptal.com/developers/gitignore/api/vue,visualstudiocode,node,macos,windows
+.vercel
