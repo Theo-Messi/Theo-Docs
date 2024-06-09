@@ -108,12 +108,13 @@ export function Sidebar_Guide() {
       base: '/Getting-Started-Guide/',
       // 分组页面
       items: [
-        { text: 'Homebrew', link: 'Homebrew' },
+        { text: 'Vercel-CLI', link: 'Vercel-CLI' },
+        { text: 'HomeBrew', link: 'Homebrew' },
         { text: 'Git', link: 'Git' },
         { text: 'Docker', link: 'Docker' },
         { text: 'Linux', link: 'Linux' },
         { text: 'Markdown', link: 'Markdown' },
-        { text: 'PNPM', link: 'PNPM' },
+        { text: 'Pnpm', link: 'PNPM' },
         { text: 'Vim', link: 'Vim' }
       ]
     }

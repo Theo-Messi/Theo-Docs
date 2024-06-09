@@ -9,7 +9,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   },
   {
     text: '入门指南',
-    link: '/Getting-Started-Guide/Homebrew',
+    link: '/Getting-Started-Guide/Vercel-CLI',
     activeMatch: '^/Getting-Started-Guide/'
   },
   { text: 'VMware ESXi', items: Nav_ESXi(), activeMatch: '^/ESXi/' },
