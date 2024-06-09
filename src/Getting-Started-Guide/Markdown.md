@@ -9,6 +9,12 @@ head:
       content: Markdown 入门使用
 ---
 
+## 待办列表
+
+- [x] 事项 1
+- [ ] 事项 2
+- [x] 事项 3
+
 ## 字体
 
 **输入**
@@ -86,12 +92,12 @@ _斜体文本_
 **输入**
 
 ```
-![alt 属性文本](https://theovan.cn/index/home.png)
+![alt 属性文本](/index/home.png)
 ```
 
 **输出**
 
-![alt 属性文本](https://theovan.cn/index/home.png)
+![alt 属性文本](/index/home.png)
 
 ## 视频
 

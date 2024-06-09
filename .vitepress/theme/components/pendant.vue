@@ -35,7 +35,11 @@ const asideSponsors = computed(() => {
 
 <template>
   <VPDocAsideSponsors :data="asideSponsors" />
-  <a class="banner mp" href="https://fbinv01.fbaff.cc/auth/register?code=RZP3" target="_blank">
+  <a
+    class="banner mp"
+    href="https://fbinv01.fbaff.cc/auth/register?code=RZP3"
+    target="_blank"
+  >
     <!-- <img
       width="22"
       height="22"
@@ -57,22 +61,38 @@ const asideSponsors = computed(() => {
     </span>
   </a>
   <a class="banner mp" href="https://share.theovan.cn/" target="_blank">
-    <img width="22" height="22" src="https://m.theovan.cn/docs/202405101119004.png" />
+    <img
+      width="22"
+      height="22"
+      src="https://m.theovan.cn/docs/202405101119004.png"
+    />
     <span>
       <p class="extra-info">快速获取热门影视资源</p>
       <p class="heading">阿里云盘资源分享</p>
       <p class="extra-info">转存观看!</p>
     </span>
   </a>
-  <a class="banner mp" href="/serve/sharing/Account-sharing-guide" target="_blank">
-    <img width="22" height="22" src="https://cdn.iconscout.com/icon/free/png-256/free-netflix-2296042-1912001.png" />
+  <a
+    class="banner mp"
+    href="/serve/sharing/Account-sharing-guide"
+    target="_blank"
+  >
+    <img
+      width="22"
+      height="22"
+      src="https://cdn.iconscout.com/icon/free/png-256/free-netflix-2296042-1912001.png"
+    />
     <span>
       <p class="extra-info">流媒体账号合租</p>
       <p class="heading">流媒体帐号合租</p>
       <p class="extra-info">转存观看!</p>
     </span>
   </a>
-  <a class="banner mp" href="https://github.com/sponsors/Theo-messi" target="_blank">
+  <a
+    class="banner mp"
+    href="https://github.com/sponsors/Theo-messi"
+    target="_blank"
+  >
     <img width="22" height="22" src="/爱心.png" />
     <span>
       <!-- <p class="extra-info">Sponsor for me</p> -->
@@ -159,7 +179,12 @@ const asideSponsors = computed(() => {
 }
 
 .banner .heading {
-  background-image: linear-gradient(120deg, var(--vp-c-brand-3) 32%, var(--vp-c-brand-2), var(--vp-c-brand-1));
+  background-image: linear-gradient(
+    120deg,
+    var(--vp-c-brand-3) 32%,
+    var(--vp-c-brand-2),
+    var(--vp-c-brand-1)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -172,7 +197,12 @@ const asideSponsors = computed(() => {
 }
 
 .banner.mp .heading {
-  background-image: linear-gradient(120deg, var(--vp-c-brand-3) 32%, var(--vp-c-brand-2), var(--vp-c-brand-1));
+  background-image: linear-gradient(
+    120deg,
+    var(--vp-c-brand-3) 32%,
+    var(--vp-c-brand-2),
+    var(--vp-c-brand-1)
+  );
 }
 
 .banner.mp .Activity {

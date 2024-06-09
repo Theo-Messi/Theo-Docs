@@ -43,7 +43,8 @@
   --c-bg-accent: var(--c-white-dark);
   --code-bg-color: var(--c-white-dark);
   --code-inline-bg-color: var(--c-white-dark);
-  --code-font-family: 'dm', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  --code-font-family: 'dm', source-code-pro, Menlo, Monaco, Consolas,
+    'Courier New', monospace;
   --code-font-size: 16px;
 }
 
@@ -83,7 +84,11 @@ html.dark:root {
   --vp-c-mute-dark: var(--c-black-lighter);
   --vp-c-mute-darker: var(--c-black-darker);
 
-  --vp-home-hero-name-background: -webkit-linear-gradient(78deg, var(--c-yellow-2) 30%, var(--c-green-2));
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    78deg,
+    var(--c-yellow-2) 30%,
+    var(--c-green-2)
+  );
 }
 
 html.dark .DocSearch {
@@ -112,8 +117,16 @@ html.dark .DocSearch {
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(292deg, var(--c-yellow-2) 50%, var(--c-green-2));
-  --vp-home-hero-image-background-image: linear-gradient(15deg, var(--c-yellow-2) 65%, var(--c-green-1) 30%);
+  --vp-home-hero-name-background: linear-gradient(
+    292deg,
+    var(--c-yellow-2) 50%,
+    var(--c-green-2)
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    15deg,
+    var(--c-yellow-2) 65%,
+    var(--c-green-1) 30%
+  );
   --vp-home-hero-image-filter: blur(40px);
 }
 

@@ -1,8 +1,12 @@
 import { defineConfig } from 'vitepress'
-import { algolia, head, nav, sidebar, transposeTables, socialLinks } from './configs'
+import { algolia, head, nav, sidebar, table, socialLinks } from './configs'
 import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
-import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
+import {
+  GitChangelog,
+  GitChangelogMarkdownSection
+} from '@nolebase/vitepress-plugin-git-changelog/vite'
 import footnote_plugin from 'markdown-it-footnote'
+import taskLists from 'markdown-it-task-checkbox'
 
 // 导出默认配置
 export default defineConfig({
@@ -45,7 +49,7 @@ export default defineConfig({
     },
     codeTransformers: [transformerTwoslash()],
     config(md) {
-      transposeTables(md), md.use(footnote_plugin)
+      table(md), md.use(footnote_plugin), md.use(taskLists)
     }
   },
 
