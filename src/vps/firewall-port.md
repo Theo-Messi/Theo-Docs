@@ -13,25 +13,26 @@ head:
 
 ::: code-group
 
-```sh [Ubuntu]
-iptables -P INPUT ACCEPT
-iptables -P FORWARD ACCEPT
-iptables -P OUTPUT ACCEPT
-iptables -F
-netfilter-persistent save
+```sh [Ubuntu/Debian]
+# 设置默认策略为 ACCEPT 并清空规则
+sudo iptables -P INPUT ACCEPT
+sudo iptables -P FORWARD ACCEPT
+sudo iptables -P OUTPUT ACCEPT
+sudo iptables -F
+# 保存防火墙规则
+sudo netfilter-persistent save
 ```
 
 ```sh [Centos]
-# 删除多余附件
-systemctl stop oracle-cloud-agent
-systemctl disable oracle-cloud-agent
-systemctl stop oracle-cloud-agent-updater
-systemctl disable oracle-cloud-agent-updater
+# 停止并禁用不必要的服务
+sudo systemctl stop oracle-cloud-agent
+sudo systemctl disable oracle-cloud-agent
+sudo systemctl stop oracle-cloud-agent-updater
+sudo systemctl disable oracle-cloud-agent-updater
 
-# 停止firewall
-systemctl stop firewalld.service
-# 禁止firewall开机启动
-systemctl disable firewalld.service
+# 停止并禁用防火墙
+sudo systemctl stop firewalld.service
+sudo systemctl disable firewalld.service
 ```
 
 :::

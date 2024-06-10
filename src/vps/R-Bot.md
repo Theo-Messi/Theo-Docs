@@ -11,26 +11,28 @@ head:
 
 ## 准备工作
 
-- VPS（可以科学上网）推荐系统 Ubuntu、Debian
-- 确定 VPS 9527 端口开放！可以通过 [这里](https://tool.chinaz.com/port) 检测
+- **VPS 系统：** VPS（可以科学上网）推荐系统 Ubuntu、Debian
+- **端口检查：** 确保 VPS 的 `9527` 端口开放！可以通过 [这里](https://tool.chinaz.com/port) 检测
 - Telegram 关注 机器人[R 探长的小助理](https://t.me/radiance_helper_bot)[R 探长](https://t.me/agentONE_R)
 - 项目地址：[点击访问](https://github.com/semicons/java_oci_manage)
 
 ## 获取 VPS INFO
 
-打开`telegram`，找到刚才关注的机器人，发送指令`/sart`，开始！（若有什么疑问，可以发送`/help`）
+1. 打开 Telegram，关注机器人并发送`/start`
 
-在输入框里面输入`/raninfo`，为了防止误触，需要输入两次，机器人会返回两行字符串，这些是我们 VPS 的标识！
+2. 发送指令 `/raninfo`，两次确认后获取 VPS 标识。
+
 ![](https://m.theovan.cn/img/202309032107312.png)
 
 ## 获取甲骨文 API 密钥
 
-点击甲骨文右上角的人头像，来到会员中心（也就是更改密码的界面），找到左下角的 API 密钥，点击右边的添加 API 密钥。
+1. 登录甲骨文，访问会员中心。
+2. 找到 API 密钥并添加，下载 `.pem` 文件并妥善保存。
+
 ![](https://m.theovan.cn/img/20230903211053.png)
 
-点击上图的 “下载私有密钥”，并保存到本地设备，这样会得到一个 `****.pem` 的文件，这个是我们的 API 密钥文件，请妥善保管！
+3. 点击添加，会弹出 “配置文件预览” 的窗口，我们需要记录里面的：“配置文件预览”！
 
-点击添加，会弹出 “配置文件预览” 的窗口，我们需要记录里面的：“配置文件预览”！
 ![](https://m.theovan.cn/img/202309032112188.png)
 
 ## VPS 端部署
@@ -38,8 +40,9 @@ head:
 ### 更新及安装组件
 
 ```bash
-apt update -y               #Debian/Ubuntu 命令
-apt install -y curl tar wget   #Debian/Ubuntu 命令
+# 更新软件包索引，安装必要组件
+sudo apt update -y               #Debian/Ubuntu 命令
+sudo apt install -y curl tar wget   #Debian/Ubuntu 命令
 ```
 
 ### Linux 一键安装/更新

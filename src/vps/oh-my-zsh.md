@@ -11,15 +11,10 @@ head:
 
 ## zsh 安装 & 配置
 
-### 安装
+::: code-group
 
-```zsh
+```sh [Mac]
 brew install zsh zsh-completions
-```
-
-### 更改默认shell
-
-```zsh
 # 把zsh设为默认shell，如果shell列表中没有zsh或者你没有使用chsh权限的时候，不起作用
 echo $SHELL
 sudo chsh -s $(which zsh)
@@ -27,29 +22,57 @@ sudo chsh -s $(which zsh)
 chsh -s /bin/zsh
 ```
 
+```sh [Linux]
+sudo apt-get install zsh
+chsh -s /bin/zsh
+```
+
+:::
+
+## 安装git
+
+::: tip
+如有请忽略此步
+:::
+::: code-group
+
+```sh [Mac]
+brew install git
+```
+
+```sh [Linux]
+sudo apt-get install git
+```
+
+:::
+
 ## oh-my-zsh 安装 & 配置
 
 ### 安装
 
 ::: code-group
 
-```zsh [Homebrew]
+```sh [Homebrew]
 brew install zsh
 ```
 
-```zsh [wget]
-sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+```sh [wget]
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-```zsh [curl]
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```sh [curl]
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+```sh [fetch]
+sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 :::
 
 ### 配置主题
 
-```zsh
+```sh
 vim ~/.zshrc
 
 # 找到 ZSH_THEME
@@ -60,7 +83,7 @@ ZSH_THEME="awesomepanda"
 
 ### 随机主题
 
-```zsh
+```sh
 ZSH_THEME="random"
 ```
 
@@ -68,7 +91,9 @@ ZSH_THEME="random"
 
 ### autojump
 
-```zsh
+::: code-group
+
+```sh [Mac]
 # 安装步骤
 brew install autojump
 
@@ -84,9 +109,26 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zshrc
 ```
 
+```sh [Linux]
+# 安装步骤
+cd ~/.oh-my-zsh/custom/plugins/
+git clone https://github.com/wting/autojump.git
+
+vim ~/.zshrc
+# 在文件里找到plugins，添加
+plugins=(autojump)
+
+# 最后
+source ~/.zshrc
+```
+
+:::
+
 ### zsh-autosuggestion
 
-```zsh
+::: code-group
+
+```sh [Mac]
 # 安装步骤
 brew install zsh-autosuggestion
 
@@ -101,9 +143,29 @@ plugins=(
 source ~/.zshrc
 ```
 
+```sh [Linux]
+# 安装步骤
+cd ~/.oh-my-zsh/custom/plugins/
+git clone https://github.com/zsh-users/zsh-autosuggestions.git
+
+vim ~/.zshrc
+# 在文件里找到plugins，添加
+plugins=(
+  autojump
+  zsh-autosuggestions
+)
+
+# 最后
+source ~/.zshrc
+```
+
+:::
+
 ### zsh-syntax-highlighting
 
-```zsh
+::: code-group
+
+```sh [Mac]
 # 安装步骤
 brew install zsh-syntax-highlighting
 
@@ -119,9 +181,30 @@ plugins=(
 source ~/.zshrc
 ```
 
+```sh [Linux]
+# 安装步骤
+cd ~/.oh-my-zsh/custom/plugins/
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+
+vim ~/.zshrc
+# 在文件里找到plugins，添加
+plugins=(
+  autojump
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
+
+# 最后
+source ~/.zshrc
+```
+
+:::
+
 ### zsh-completions
 
-```zsh
+::: code-group
+
+```sh [Mac]
 # 安装步骤
 brew install zsh-completions
 
@@ -147,6 +230,32 @@ rm -f ~/.zcompdump
 compinit
 ```
 
+```sh [Linux]
+# 安装步骤
+cd ~/.oh-my-zsh/custom/plugins/
+git clone https://github.com/zsh-users/zsh-completions.git
+
+# 添加如下配置
+fpath=(path/to/zsh-completions/src $fpath)
+
+# 删除~/.zcompdump文件
+rm -f ~/.zcompdump; compinit
+
+vim ~/.zshrc
+# 在文件里找到plugins，添加
+plugins=(
+  autojump
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  zsh-completions
+)
+
+# 最后
+source ~/.zshrc
+```
+
+:::
+
 :::tip 执行compinit命令的时候，可能回提示如下警告：
 
 `zsh compinit: insecure directories`
@@ -163,6 +272,9 @@ chmod go-w '/usr/local/share'
 ## 进阶修改
 
 ```sh
+# 如果粘贴 URL 和其他文本出现混乱，请取消注释以下行。
+DISABLE_MAGIC_FUNCTIONS="true"
+
 # 启动错误命令自动更正
 ENABLE_CORRECTION="true"
 

@@ -40,7 +40,7 @@ export function Nav_ESXi() {
       items: [
         { text: 'ESXi 8.0 部署指南', link: '/ESXi/Install/guide' },
         {
-          text: 'OpenWrt / iStore OS 把玩记录',
+          text: 'OpenWrt/iStoreOS',
           link: '/ESXi/openwrt/openwrt-real-time-packet-capture'
         }
       ]
@@ -52,8 +52,8 @@ export function Nav_Vps() {
   return [
     {
       items: [
-        { text: '基础设置', link: '/vps/Ubuntu' },
-        { text: '系统工具', link: '/vps/Simplify-system-reinstallation' },
+        { text: 'Debian/Ubuntu', link: '/vps/Ubuntu' },
+        { text: '系统工具', link: '/vps/dd.sh' },
         { text: '搭建服务', link: '/vps/Install-Nezha-panel' },
         { text: '青龙面板', link: '/vps/ql/Install-Qinglong-panel' }
       ]
