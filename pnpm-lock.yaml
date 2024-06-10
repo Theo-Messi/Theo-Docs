@@ -906,8 +906,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  lilconfig@3.1.1:
-    resolution: {integrity: sha512-O18pf7nyvHTckunPWCV1XUNXU1piu01y2b7ATJ0ppkUkk8ocqVWBrYjJBCwHDjD/ZWcfyrA0P4gKhzWGi5EINQ==}
+  lilconfig@3.1.2:
+    resolution: {integrity: sha512-eop+wDAvpItUys0FWkHIKeC9ybYrTGbU41U5K7+bttZZeohvnY7M9dZ5kB21GNWiFT2q1OoPTvncPCgSOVO5ow==}
     engines: {node: '>=14'}
 
   lint-staged@15.2.5:
@@ -1312,16 +1312,16 @@ packages:
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
-  twoslash-protocol@0.2.6:
-    resolution: {integrity: sha512-8NbJlYeRdBcCTQ7ui7pdRPC1NL16aOnoYNz06oBW+W0qWNuiQXHgE8UeNvbA038aDd6ZPuuD5WedsBIESocB4g==}
+  twoslash-protocol@0.2.7:
+    resolution: {integrity: sha512-iRPdeHx5kpg/abMS2IOyMioY2C2zJaCDJLZQhd7IyJ/S5ZVKOXQgddz4xZyFTeSWKbAC+XsgYbc+lpljgFc3Mw==}
 
-  twoslash-vue@0.2.6:
-    resolution: {integrity: sha512-tuR/45Xb3mg3WGb7Ek7+WH/bBStw79OCbiFmnqK/51lcfjxaz7RCIQEcH2rAMY52NjwbOqw9om+DKVfgA4BYdA==}
+  twoslash-vue@0.2.7:
+    resolution: {integrity: sha512-Y8+Pjinl+okTjFLYkfjqtwqB80Pyy5cYn+IFdHHP1GjVEjnGcxAr/cWRnpCs2ycqddXuXtkAcXuam4qsN23jIQ==}
     peerDependencies:
       typescript: '*'
 
-  twoslash@0.2.6:
-    resolution: {integrity: sha512-DcAKIyXMB6xNs+SOw/oF8GvUr/cfJSqznngVXYbAUIVfTW3M8vWSEoCaz/RgSD+M6vwtK8DJ4/FmYBF5MN8BGw==}
+  twoslash@0.2.7:
+    resolution: {integrity: sha512-kd1ZEmQhTFjTc1SKTDFYTINVbnnykaPIjFtGYemHKawuogCcmTnuonzCtMplAoTOeAjmsjzFezZgoolLph87cw==}
     peerDependencies:
       typescript: '*'
 
@@ -1446,8 +1446,8 @@ packages:
     resolution: {integrity: sha512-G8ura3S+3Z2G+mkgNRq8dqaFZAuxfsxpBB8OCTGRTCtp+l/v9nbFNmCUP1BZMts3G1142MsZfn6eeUKrr4PD1Q==}
     engines: {node: '>=18'}
 
-  yaml@2.4.3:
-    resolution: {integrity: sha512-sntgmxj8o7DE7g/Qi60cqpLBA3HG3STcDA0kO+WfB05jEKhZMbY7umNm2rBpQvsmZ16/lPXCJGW2672dgOUkrg==}
+  yaml@2.4.5:
+    resolution: {integrity: sha512-aBx2bnqDzVOyNKfsysjA2ms5ZlnjSAW2eG3/L5G/CSujfjLJTJsEw1bGw8kCf04KodQWk1pxlGnZ56CRxiawmg==}
     engines: {node: '>= 14'}
     hasBin: true
 
@@ -1781,7 +1781,7 @@ snapshots:
   '@shikijs/twoslash@1.6.3(typescript@5.4.5)':
     dependencies:
       '@shikijs/core': 1.6.3
-      twoslash: 0.2.6(typescript@5.4.5)
+      twoslash: 0.2.7(typescript@5.4.5)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -1794,8 +1794,8 @@ snapshots:
       mdast-util-gfm: 3.0.0
       mdast-util-to-hast: 13.2.0
       shiki: 1.6.3
-      twoslash: 0.2.6(typescript@5.4.5)
-      twoslash-vue: 0.2.6(typescript@5.4.5)
+      twoslash: 0.2.7(typescript@5.4.5)
+      twoslash-vue: 0.2.7(typescript@5.4.5)
       vue: 3.4.27(typescript@5.4.5)
     transitivePeerDependencies:
       - '@nuxt/kit'
@@ -2276,7 +2276,7 @@ snapshots:
       needle: 3.3.1
       source-map: 0.6.1
 
-  lilconfig@3.1.1: {}
+  lilconfig@3.1.2: {}
 
   lint-staged@15.2.5:
     dependencies:
@@ -2284,12 +2284,12 @@ snapshots:
       commander: 12.1.0
       debug: 4.3.5
       execa: 8.0.1
-      lilconfig: 3.1.1
+      lilconfig: 3.1.2
       listr2: 8.2.1
       micromatch: 4.0.7
       pidtree: 0.6.0
       string-argv: 0.3.2
-      yaml: 2.4.3
+      yaml: 2.4.5
     transitivePeerDependencies:
       - supports-color
 
@@ -2809,21 +2809,21 @@ snapshots:
 
   tslib@2.6.3: {}
 
-  twoslash-protocol@0.2.6: {}
+  twoslash-protocol@0.2.7: {}
 
-  twoslash-vue@0.2.6(typescript@5.4.5):
+  twoslash-vue@0.2.7(typescript@5.4.5):
     dependencies:
       '@vue/language-core': 1.8.27(typescript@5.4.5)
-      twoslash: 0.2.6(typescript@5.4.5)
-      twoslash-protocol: 0.2.6
+      twoslash: 0.2.7(typescript@5.4.5)
+      twoslash-protocol: 0.2.7
       typescript: 5.4.5
     transitivePeerDependencies:
       - supports-color
 
-  twoslash@0.2.6(typescript@5.4.5):
+  twoslash@0.2.7(typescript@5.4.5):
     dependencies:
       '@typescript/vfs': 1.5.0
-      twoslash-protocol: 0.2.6
+      twoslash-protocol: 0.2.7
       typescript: 5.4.5
     transitivePeerDependencies:
       - supports-color
@@ -2969,6 +2969,6 @@ snapshots:
       string-width: 7.1.0
       strip-ansi: 7.1.0
 
-  yaml@2.4.3: {}
+  yaml@2.4.5: {}
 
   zwitch@2.0.4: {}

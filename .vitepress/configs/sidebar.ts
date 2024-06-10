@@ -40,7 +40,6 @@ export function Sidebar_record() {
         { text: 'VS Code 使用技巧', link: 'vscode' },
         { text: '为项目添加 Prettier 格式化代码', link: 'prettier' },
         { text: 'NPM 使用国内镜像及恢复默认源', link: 'npm-mirror' },
-        { text: 'oh-my-zsh 安装 & 配置', link: 'oh-my-zsh' },
         { text: '使用 GPG 签名 Git Commit', link: 'gpg' },
         { text: '使用 nvm 管理不同版本的 node', link: 'nvm' },
         { text: '优化 iOS/Android 来电信息界面', link: 'vcards' },
@@ -49,7 +48,6 @@ export function Sidebar_record() {
           link: '1Panel-third-party-app-store'
         },
         { text: 'Tabby 配置同步', link: 'tabby-sync' },
-        { text: 'Ubuntu 开机自动挂载 NAS磁盘', link: 'ubuntu-mount-nas' },
         {
           text: '添加 群晖DSM7.X 第三方套件源',
           link: 'Synology-third-party-suite'
@@ -125,7 +123,7 @@ export function Sidebar_vps() {
   return [
     {
       // 分组名称
-      text: '基础设置',
+      text: 'Debian/Ubuntu',
       // 下拉开关
       // collapsed: true,
       // 分组路径
@@ -133,11 +131,14 @@ export function Sidebar_vps() {
       // 分组页面
       items: [
         {
-          text: 'Ubuntu 系统优化设置',
+          text: '系统优化设置',
           link: 'Ubuntu'
         },
-        { text: '甲骨文云防火墙设置', link: 'Oracle-Cloud' },
-        { text: '开启防火墙端口', link: 'firewall-port' }
+        { text: '更改中文语言', link: 'Chinese' },
+        { text: '开启防火墙端口', link: 'firewall-port' },
+        { text: 'Debian12 安装使用 Cloud 内核', link: 'Debian12-Cloud' },
+        { text: 'oh-my-zsh 安装 & 配置', link: 'oh-my-zsh' },
+        { text: '开机自动挂载 NAS磁盘', link: 'ubuntu-mount-nas' }
       ]
     },
     {
@@ -149,8 +150,8 @@ export function Sidebar_vps() {
       base: '/vps/',
       // 分组页面
       items: [
-        { text: '简化重装系统', link: 'Simplify-system-reinstallation' },
-        { text: '一键脚本部署开ARM机器', link: 'One-click-script' },
+        { text: '简化重装系统', link: 'dd.sh' },
+        { text: '一键脚本部署开ARM机器', link: 'R-Bot' },
         { text: 'VPS全能工具箱', link: 'All-purpose-toolbox' }
       ]
     },
@@ -197,7 +198,7 @@ export function Sidebar_ESXi() {
     },
     {
       // 分组名称
-      text: 'OpenWrt / iStore OS 把玩记录',
+      text: 'OpenWrt/iStoreOS',
       // 下拉开关
       // collapsed: true,
       // 分组路径
