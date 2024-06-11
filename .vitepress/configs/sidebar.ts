@@ -328,7 +328,6 @@ export function Sidebar_serve() {
       // 分组页面
       items: [
         { text: '银河录像局', link: 'sharing/nf-video' },
-        { text: '蜜糖商店', link: 'sharing/metshop' },
         { text: '奈飞小铺', link: 'sharing/ihezu' }
       ]
     },

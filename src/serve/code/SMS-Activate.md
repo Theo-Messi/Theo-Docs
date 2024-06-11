@@ -3,7 +3,7 @@ title: SMS-Activate
 head:
   - - meta
     - name: keywords
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局 接码平台 验证码 海外短信
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局 接码平台 验证码 海外短信
   - - meta
     - name: description
       content: 国外接码平台 SMS-Activate 是一个俄罗斯的服务商，提供虚拟手机号码，可以接收短信验证码，可以用于注册海外服务
