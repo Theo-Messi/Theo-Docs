@@ -21,7 +21,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   },
   {
     text: '流媒体观影',
-    link: '/streaming/Netflix-introduce',
+    link: '/streaming/Netflix-guide',
     activeMatch: '^/streaming/'
   },
   {

@@ -282,8 +282,7 @@ export function Sidebar_streaming() {
   return [
     {
       // 分组名称
-      text: 'Netflix 观看指南',
-      link: 'Netflix-introduce',
+      // text: 'Netflix 观看指南',
       // 下拉菜单
       // collapsed: true,
       // 分组路径
@@ -291,85 +290,26 @@ export function Sidebar_streaming() {
       // 分组页面
       items: [
         {
-          text: '如何看4K及适配硬件',
-          link: 'Netflix-watch-4K-and-adapting-hardware'
+          text: `Netflix 观看指南`,
+          link: 'Netflix-guide',
+          items: [
+            { text: '秘密分类的技巧', link: 'Netflix-secret-classification' },
+            {
+              text: '全球各国影视剧数量',
+              link: 'Netflix-Number-of-movies-and-TV-series'
+            },
+            {
+              text: '常用浏览器插件汇总',
+              link: 'Netflix-Browser-plug-in-summary'
+            }
+          ]
         },
-        {
-          text: '常见使用问题及答案',
-          link: 'Netflix-Frequently-asked-questions-and-answers'
-        },
-        {
-          text: '常见错误提示及解决方案',
-          link: 'Netflix-Common-error-tips-and-solutions'
-        },
-        { text: '秘密分类的技巧', link: 'Netflix-secret-classification' },
-        {
-          text: '全球各国影视剧数量',
-          link: 'Netflix-Number-of-movies-and-TV-series'
-        },
-        { text: '常用浏览器插件汇总', link: 'Netflix-Browser-plug-in-summary' },
-        { text: '总结与建议', link: 'Netflix-Summarize' }
+        { text: 'Disney+ 观看指南', link: 'Disney-introduce' },
+        { text: 'Spotify Premium 指南', link: 'Spotify' },
+        { text: 'YouTube Premium 会员权益及订阅指南', link: 'YouTube' },
+        { text: 'Hulu 国内观看指南', link: 'Hulu' },
+        { text: 'HBO Max 国内观看指南', link: 'HBO-Max' }
       ]
-    },
-    {
-      // 分组名称
-      text: 'Disney+ 观看指南',
-      link: 'Disney-introduce',
-      // 下拉菜单
-      // collapsed: true,
-      // 分组路径
-      base: '/streaming/',
-      // 分组页面
-      items: [
-        { text: '订阅指南', link: 'Disney-Subscription-Guide' },
-        { text: '合租介绍', link: 'Disney-Introduction-to-shared-housing' },
-        { text: '会员使用指南', link: 'Disney-Member-User-Guide' },
-        { text: '总结与建议', link: 'Disney-Summary-and-suggestions' }
-      ]
-    },
-    {
-      // 分组名称
-      text: 'Spotify Premium 指南',
-      link: 'Spotify',
-      // 下拉菜单
-      // collapsed: true,
-      // 分组路径
-      base: '/streaming/',
-      // 分组页面
-      items: []
-    },
-    {
-      // 分组名称
-      text: 'YouTube Premium 会员权益及订阅指南',
-      link: 'YouTube',
-      // 下拉菜单
-      // collapsed: true,
-      // 分组路径
-      base: '/streaming/',
-      // 分组页面
-      items: []
-    },
-    {
-      // 分组名称
-      text: 'Hulu 国内观看指南',
-      link: 'Hulu',
-      // 下拉菜单
-      // collapsed: true,
-      // 分组路径
-      base: '/streaming/',
-      // 分组页面
-      items: []
-    },
-    {
-      // 分组名称
-      text: 'HBO Max 国内观看指南',
-      link: 'HBO-Max',
-      // 下拉菜单
-      // collapsed: true,
-      // 分组路径
-      base: '/streaming/',
-      // 分组页面
-      items: []
     }
   ]
 }

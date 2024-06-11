@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 立即开始
-      link: /streaming/Netflix-introduce
+      link: /streaming/Netflix-guide
     - theme: alt
       text: 账号合租
       link: /serve/sharing/Account-sharing-guide
@@ -35,7 +35,7 @@ features:
       width: 30
       height: 30
     details: Netflix 、Disney+ 、Spotify会员 和 YouTube各平台使用指南
-    link: /streaming/Netflix-introduce
+    link: /streaming/Netflix-guide
   - title: 合租平台
     icon:
       src: index/youtube.svg
