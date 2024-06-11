@@ -154,25 +154,15 @@ git touch .gitignore
 
 ## 缩减 git 仓库
 
-#### 清除垃圾文件
-
-大量无用的 mp3 文件
-
 ```bash
+# 清除垃圾文件 - 大量无用的 mp3 文件
 git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.mp3' --prune-empty --tag-name-filter cat -- --all
-```
 
-#### 提交到远程仓库
-
-如 GitHub, 我再次从 git clone GitHub 代码库会变小为 1.3M
-
-```bash
+# 提交到远程仓库
+# 如 GitHub, 我再次从 git clone GitHub 代码库会变小为 1.3M
 git push origin --force --all
-```
 
-#### 必须回收垃圾,本地仓库才变小
-
-```bash
+# 必须回收垃圾,本地仓库才变小
 git for-each-ref --format='delete %(refname)' refs/original | git update-ref --stdin
 git reflog expire --expire=now --all
 git gc --prune=now
@@ -181,4 +171,27 @@ rm -rf .git/refs/original
 git reflog expire --expire=now --all
 git gc --prune=now
 git gc --aggressive --prune=now
+```
+
+## Github删除分支下所有提交记录
+
+有时候，我们提交了一些隐私的数据例如密码等到 Github 仓库，就算更新了仓库文件，但依旧会在 commit 历史记录中保存这部分数据。这个时候，我们就需要一种方法，可以把Github分支下所有提交记录进行删除！
+
+一般使用新建分支，都会在当前 master 分支的基础上克隆一份，如下图所示：
+![](https://m.theovan.cn/docs/202406112003627.png)
+
+```sh
+# 所以，我们需要新建一个空白的分支：
+git checkout --orphan latest_branch
+
+# 添加你想提交的所有文件到这个新分支：
+git add -A
+git commit -m "commit message"
+
+# 先将旧分支删除
+git branch -D main
+# 再将新分支的名字改为旧分支的名字
+git branch -m main
+# 最后提交所有本地操作到Github仓库
+git push -f origin main
 ```
