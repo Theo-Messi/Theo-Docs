@@ -3,19 +3,18 @@ title: 账号合租指南
 head:
   - - meta
     - name: keywords
-      content: 机场 流媒体 解锁 线路 科学上网 Netflix Disney YouTube Premium HOB GO Spotify Hulu 奈飞小铺 蜜糖商店 银河录像局
+      content: 机场 流媒体 解锁 线路 科学上网 Netflix Disney YouTube Premium HOB GO Spotify Hulu 奈飞小铺 银河录像局
   - - meta
     - name: description
-      content: 奈飞小铺、蜜糖商店、银河录像局等账号合租平台，稳定好用的 Netflix 合租平台推荐
+      content: 奈飞小铺、银河录像局等账号合租平台，稳定好用的 Netflix 合租平台推荐
 ---
 
 ## 稳定好用的 Netflix 合租平台推荐
 
-|    合租平台    |                        官方网站                        |    优惠码    |            价格表             |
-| :------------: | :----------------------------------------------------: | :----------: | :---------------------------: |
-|  **奈飞小铺**  |         [官方网站](https://ihezu.love/UKTer6)          | **`theonf`** |  [查看](ihezu#奈飞小铺定价)   |
-|  **蜜糖商店**  | [官方网站](https://metshop.cn?referrerUserNo=MTU51076) |  **`————`**  | [查看](metshop#蜜糖商店定价)  |
-| **银河录像局** |           [官方网站](https://nf.video/kaIuE)           |  **`Theo`**  | [查看](nf-video#chatgpt-plus) |
+|    合租平台    |               官方网站                |    优惠码    |            价格表             |
+| :------------: | :-----------------------------------: | :----------: | :---------------------------: |
+|  **奈飞小铺**  | [官方网站](https://ihezu.love/UKTer6) | **`theonf`** |  [查看](ihezu#奈飞小铺定价)   |
+| **银河录像局** |  [官方网站](https://nf.video/kaIuE)   |  **`Theo`**  | [查看](nf-video#chatgpt-plus) |
 
 ## 省心之选：Netflix 账号合租
 

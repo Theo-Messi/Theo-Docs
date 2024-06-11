@@ -3,10 +3,10 @@ title: Disney+ 介绍
 head:
   - - meta
     - name: keywords
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
 ![Disney+](https://m.theovan.cn/docs/202406111458794.webp)
@@ -63,11 +63,10 @@ Disney+ 是一家流行的在线视频平台，提供丰富的电影和电视剧
 
 ### Disney+ 账号合租
 
-|  合租平台  |                        官方网站                        |    优惠码    |      价格       |
-| :--------: | :----------------------------------------------------: | :----------: | :-------------: |
-|  奈飞小铺  |         [官方网站](https://ihezu.love/UKTer6)          | **`theonf`** |  **114** 元/年  |
-|  蜜糖商店  | [官方网站](https://metshop.cn?referrerUserNo=MTU51076) |  **`————`**  |  **118** 元/年  |
-| 银河录像局 |           [官方网站](https://nf.video/kaIuE)           |  **`Theo`**  | **136.8** 元/年 |
+|  合租平台  |               官方网站                |    优惠码    |      价格       |
+| :--------: | :-----------------------------------: | :----------: | :-------------: |
+|  奈飞小铺  | [官方网站](https://ihezu.love/UKTer6) | **`theonf`** |  **114** 元/年  |
+| 银河录像局 |  [官方网站](https://nf.video/kaIuE)   |  **`Theo`**  | **136.8** 元/年 |
 
 ## Disney+ 会员使用指南
 

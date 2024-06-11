@@ -3,10 +3,10 @@ title: YouTube Premium 会员权益及订阅终极指南
 head:
   - - meta
     - name: keywords
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
 ![YouTube](https://m.theovan.cn/docs/202406111509751.png)
@@ -66,11 +66,10 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
 
 ## YouTube 账号合租
 
-|  合租平台  |                        官方网站                        |    优惠码    |     价格      |
-| :--------: | :----------------------------------------------------: | :----------: | :-----------: |
-|  奈飞小铺  |         [官方网站](https://ihezu.love/UKTer6)          | **`theonf`** | **178** 元/年 |
-|  蜜糖商店  | [官方网站](https://metshop.cn?referrerUserNo=MTU51076) |  **`————`**  | **198** 元/年 |
-| 银河录像局 |           [官方网站](https://nf.video/kaIuE)           |  **`Theo`**  | **114** 元/年 |
+|  合租平台  |               官方网站                |    优惠码    |     价格      |
+| :--------: | :-----------------------------------: | :----------: | :-----------: |
+|  奈飞小铺  | [官方网站](https://ihezu.love/UKTer6) | **`theonf`** | **178** 元/年 |
+| 银河录像局 |  [官方网站](https://nf.video/kaIuE)   |  **`Theo`**  | **114** 元/年 |
 
 ## 加入 YouTube 家庭组会员流程
 
@@ -89,7 +88,7 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
 完成了账号的准备工作后，你可以通过以下方式购买家庭组会员资格：
 
 - 奈飞小铺：访问我们推荐的“[奈飞小铺](https://ihezu.love/UKTer6)”网站，进行付款购买家庭组会员资格。
-- 蜜糖商店：访问“[蜜糖商店](https://metshop.cn?referrerUserNo=MTU51076)”网站，进行付款购买家庭组会员资格。
+- 银河录像局：访问“[银河录像局](https://nf.video/kaIuE)”网站，进行付款购买家庭组会员资格。
 
 ### 3\. 确认权益
 
@@ -103,6 +102,6 @@ YouTube Premium 是 YouTube 提供的付费会员计划，为用户带来了丰�
 
 YouTube Premium 提供了多种会员计划，以满足不同用户的需求。个人计划适合单个用户，每月费用为 $11.99。家庭计划可以与最多五名家庭成员共享，适合家庭或者朋友团体使用，每月费用为 $22.99。对于学生用户，YouTube Premium 提供了特殊的学生计划，每月费用仅为 $6.99，是学生们专注学习、避免干扰的理想选择。
 
-加入 YouTube 家庭组会员的流程相对简单，首先需要进行 Google 账号的准备工作，确保地区设置正确，并关闭付款资料锁区功能。然后，通过奈飞小铺或蜜糖商店进行付款购买家庭组会员资格。耐心等待会员生效后，就可以享受 YouTube Premium 带来的快乐体验了。
+加入 YouTube 家庭组会员的流程相对简单，首先需要进行 Google 账号的准备工作，确保地区设置正确，并关闭付款资料锁区功能。然后，通过奈飞小铺或银河录像局进行付款购买家庭组会员资格。耐心等待会员生效后，就可以享受 YouTube Premium 带来的快乐体验了。
 
 无论选择哪种会员计划，用户都将享受无广告观看、后台播放和离线下载等特权。升级到 YouTube Premium，让你的观看体验更上一层楼吧！

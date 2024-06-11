@@ -3,10 +3,10 @@ title: Spotify Premium 账号合租终极指南
 head:
   - - meta
     - name: keywords
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
 ![Spotify](https://m.theovan.cn/docs/202406111508204.png)
@@ -70,16 +70,15 @@ Spotify 免费版与付费版在曲库方面没有差异。不过，不同地区
 
 ## 优选 Spotify Premium 合租平台
 
-|  合租平台  |                        官方网站                        |    优惠码    |      价格       |
-| :--------: | :----------------------------------------------------: | :----------: | :-------------: |
-|  奈飞小铺  |         [官方网站](https://ihezu.love/UKTer6)          | **`theonf`** |  **108** 元/年  |
-|  蜜糖商店  | [官方网站](https://metshop.cn?referrerUserNo=MTU51076) | **`—————`**  |  **118** 元/年  |
-| 银河录像局 |           [官方网站](https://nf.video/kaIuE)           |  **`Theo`**  | **136.8** 元/年 |
+|  合租平台  |               官方网站                |    优惠码    |      价格       |
+| :--------: | :-----------------------------------: | :----------: | :-------------: |
+|  奈飞小铺  | [官方网站](https://ihezu.love/UKTer6) | **`theonf`** |  **108** 元/年  |
+| 银河录像局 |  [官方网站](https://nf.video/kaIuE)   |  **`Theo`**  | **136.8** 元/年 |
 
 ## 总结
 
 在本文中，我们为您全面解析了 Spotify Premium 账号合租的各个方面，包括会员权益、账号类型、合租平台、合租价格以及最新优惠等信息。
 
-我们为您推荐了奈飞小铺和蜜糖商店这两家值得信赖的合租平台，它们均提供多种支付方式和优惠折扣，满足您的需求。
+我们为您推荐了奈飞小铺和银河录像局这两家值得信赖的合租平台，它们均提供多种支付方式和优惠折扣，满足您的需求。
 
 希望通过本文的指引，您能在合租市场中做出明智的选择，尽情享受 Spotify Premium 带来的无限音乐体验。

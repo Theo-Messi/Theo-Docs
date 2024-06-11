@@ -16,7 +16,6 @@
     <a href="https://fbinv01.fbaff.cc/auth/register?code=RZP3">FlyingBird</a> -
     <a href="https://patriot.ninja/aff.php?aff=1471">Bridge the Wise</a>
 </br>
-    <a href="https://metshop.cn?referrerUserNo=MTU51076">蜜糖商店</a> -
     <a href="https://ihezu.love/UKTer6">奈飞小铺</a> -
     <a href="https://nf.video/kaIuE">银河录像局</a> -
     <a href="https://sms-activate.org/?ref=8170513">SMS海外接码平台</a>
