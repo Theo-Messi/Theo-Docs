@@ -9,6 +9,8 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 蜜糖商店 银河录像局
 ---
 
+![HBO Max](https://m.theovan.cn/docs/202406111505373.png)
+
 `HBO Max`是华纳和 AT&T 合作的新服务，此项服务主要用于点播流媒体。除了你可以在`HBO Go`上访问的内容之外，`HBO Max `还拥有自己的原创作品以及来自其他提供商和工作室（如 CNN、Boomerang、Cartoon Network 或 Sony Pictures）的电影。
 
 `HBO Max`是一个很棒的流媒体平台，但如果你不是来自美国，则很难访问该平台。然而，通过更改你的虚拟位置以使其判断你居住在美国也无法让新用户获得访问权限。HBO Max 只接受来自美国的信用卡付款，所以如果你订阅 HBO Max 而缺少美国信用卡，那么，你不得不越过一些障碍。
