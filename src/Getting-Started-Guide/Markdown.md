@@ -92,12 +92,12 @@ _斜体文本_
 **输入**
 
 ```
-![alt 属性文本](/index/home.png)
+![home-img](/index/home.png =300x300)
 ```
 
 **输出**
 
-![alt 属性文本](/index/home.png)
+![home-img](/index/home.png =300x300)
 
 ## 视频
 
