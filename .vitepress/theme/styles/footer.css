@@ -36,7 +36,9 @@ footer a:hover {
 .ma4 {
   margin: 1.5rem;
 }
-
+.ma2 {
+  margin: 1rem;
+}
 .ml0 {
   margin-left: 0.5rem;
 }
@@ -53,7 +55,7 @@ footer a:hover {
 }
 
 .f14 {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .fw6 {
