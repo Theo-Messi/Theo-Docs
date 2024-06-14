@@ -36,6 +36,9 @@ importers:
         specifier: ^3.4.27
         version: 3.4.27(typescript@5.4.5)
     devDependencies:
+      '@mdit/plugin-img-size':
+        specifier: ^0.12.0
+        version: 0.12.0
       '@nolebase/vitepress-plugin-git-changelog':
         specifier: ^2.1.1
         version: 2.1.1(vitepress@1.2.3(@algolia/client-search@4.23.3)(@types/node@20.14.2)(less@4.2.0)(postcss@8.4.38)(sass@1.77.4)(search-insights@2.14.0)(typescript@5.4.5))(vue@3.4.27(typescript@5.4.5))
@@ -317,6 +320,15 @@ packages:
 
   '@jridgewell/sourcemap-codec@1.4.15':
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
+
+  '@mdit/plugin-img-size@0.12.0':
+    resolution: {integrity: sha512-fCcF5gc+ba6gQ5ebrKuI8bK/gFbj8mbeN45FHmBsFDFsfTHa0Xij2v8iok0nP8YEIVj71y8XYojsqCWs6avong==}
+    engines: {node: '>= 18'}
+    peerDependencies:
+      markdown-it: ^14.1.0
+    peerDependenciesMeta:
+      markdown-it:
+        optional: true
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1684,6 +1696,10 @@ snapshots:
   '@iconify/types@2.0.0': {}
 
   '@jridgewell/sourcemap-codec@1.4.15': {}
+
+  '@mdit/plugin-img-size@0.12.0':
+    dependencies:
+      '@types/markdown-it': 14.1.1
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:

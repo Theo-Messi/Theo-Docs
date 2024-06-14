@@ -1,12 +1,9 @@
 import { defineConfig } from 'vitepress'
-import { algolia, head, nav, sidebar, table, socialLinks } from './configs'
-import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
+import { algolia, head, nav, sidebar, markdown, socialLinks } from './configs'
 import {
   GitChangelog,
   GitChangelogMarkdownSection
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
-import footnote_plugin from 'markdown-it-footnote'
-import taskLists from 'markdown-it-task-checkbox'
 
 // 导出默认配置
 export default defineConfig({
@@ -28,30 +25,7 @@ export default defineConfig({
   },
 
   // markdown-it插件配置
-  markdown: {
-    theme: {
-      light: 'catppuccin-latte',
-      dark: 'dracula-soft'
-    },
-    image: {
-      // 默认禁用图片懒加载
-      lazyLoading: true
-    },
-    container: {
-      infoLabel: '信息',
-      noteLabel: '信息',
-      tipLabel: '提示',
-      importantLabel: '重要',
-      warningLabel: '警告',
-      cautionLabel: '警告',
-      dangerLabel: '危险',
-      detailsLabel: '详细信息'
-    },
-    codeTransformers: [transformerTwoslash()],
-    config(md) {
-      table(md), md.use(footnote_plugin), md.use(taskLists)
-    }
-  },
+  markdown,
 
   // 插件配置
   vite: {
