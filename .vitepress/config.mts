@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url'
 import { algolia, head, nav, sidebar, markdown, socialLinks } from './configs'
 import {
   GitChangelog,
@@ -29,6 +30,16 @@ export default defineConfig({
 
   // 插件配置
   vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^.*\/VPFooter\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./theme/components/Footer.vue', import.meta.url)
+          )
+        }
+      ]
+    },
     plugins: [
       GitChangelog({
         // 填写在此处填写您的仓库链接
