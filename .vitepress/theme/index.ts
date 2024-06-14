@@ -34,18 +34,12 @@ export default {
           name: 'Theo',
           username: 'Theo-messi',
           mapByNameAliases: ['Theo', 'vanhiupun'],
-          mapByEmailAliases: [
-            'fanxiaobin422@gmail.com',
-            'fanxiaobin422@sina.com',
-            '771720405@qq.com'
-          ]
+          mapByEmailAliases: ['fanxiaobin422@gmail.com', 'fanxiaobin422@sina.com', '771720405@qq.com']
         },
         {
           name: 'dependabot',
           username: 'dependabot',
-          mapByEmailAliases: [
-            '49699333+dependabot[bot]@users.noreply.github.com'
-          ]
+          mapByEmailAliases: ['49699333+dependabot[bot]@users.noreply.github.com']
         }
       ]
     })
