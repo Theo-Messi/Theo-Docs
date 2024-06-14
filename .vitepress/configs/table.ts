@@ -1,8 +1,6 @@
 import type { UserConfig } from 'vitepress'
 
-export const table: NonNullable<
-  NonNullable<UserConfig<any>['markdown']>['config']
-> = (md) => {
+export const table: NonNullable<NonNullable<UserConfig<any>['markdown']>['config']> = (md) => {
   const render = md.renderer.render.bind(md.renderer)
   md.renderer.render = (tokens, options, environment) => {
     const filteredTokens: typeof tokens = []
