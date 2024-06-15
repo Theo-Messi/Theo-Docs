@@ -89,14 +89,15 @@
     </div>
 
     <!-- 底部信息栏 -->
-
-    <div class="flex ma4" style="display: inline-block">
-      <span class="ml1"
-        >Copyright © 2019 - {{ new Date().getFullYear() }}
-        <a target="_blank" href="https://github.com/Theo-messi">Theo-Messi</a>. All Rights Reserved</span
-      >
+    <div class="flex" style="display: inline-block">
       <span class="ml1">ICP备粤<a target="_blank" href="https://theovan.cn/">B2-20090059号</a></span>
       <span class="ml1">粤公网安备<a target="_blank" href="https://theovan.cn/">44030002000001号</a></span>
+    </div>
+    <div class="flex ma4" style="display: inline-block">
+      <span class="ml1">
+        Copyright © 2019 - {{ new Date().getFullYear() }}
+        <a target="_blank" href="https://github.com/Theo-messi">Theo-Messi</a>. All Rights Reserved
+      </span>
     </div>
   </footer>
 </template>
