@@ -54,7 +54,7 @@ export function Nav_Vps() {
       items: [
         { text: 'Debian/Ubuntu', link: '/vps/Ubuntu' },
         { text: '系统工具', link: '/vps/dd.sh' },
-        { text: '搭建服务', link: '/vps/Install-Nezha-panel' },
+        { text: '搭建服务', link: '/vps/X-ui' },
         { text: '青龙面板', link: '/vps/ql/Install-Qinglong-panel' }
       ]
     }

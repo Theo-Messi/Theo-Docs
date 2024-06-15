@@ -11,9 +11,17 @@ head:
 
 ##### 安装下载工具
 
-```sh
+::: code-group
+
+```sh [Debian/Ubuntu]
 apt update -y  && apt install -y curl
 ```
+
+```sh [CentOS]
+yum update && yum install curl
+```
+
+:::
 
 ##### 一键脚本
 
