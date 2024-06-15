@@ -84,3 +84,11 @@ footer a:hover {
     display: flex;
   }
 }
+@media screen and (max-width: 768px) {
+  .ma4 {
+    margin-left: auto; /* 左边距自动 */
+    margin-right: auto; /* 右边距自动 */
+    width: 100%; /* 宽度100% */
+    max-width: 95%; /* 最大宽度为屏幕宽度的70% */
+  }
+}
