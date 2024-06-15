@@ -89,14 +89,111 @@
     </div>
 
     <!-- 底部信息栏 -->
-
-    <div class="flex ma4" style="display: inline-block">
-      <span class="ml1"
-        >Copyright © 2019 - {{ new Date().getFullYear() }}
-        <a target="_blank" href="https://github.com/Theo-messi">Theo-Messi</a>. All Rights Reserved</span
-      >
+    <div class="flex" style="display: inline-block">
       <span class="ml1">ICP备粤<a target="_blank" href="https://theovan.cn/">B2-20090059号</a></span>
       <span class="ml1">粤公网安备<a target="_blank" href="https://theovan.cn/">44030002000001号</a></span>
     </div>
+    <div class="flex ma4" style="display: inline-block">
+      <span class="ml1">
+        Copyright © 2019 - {{ new Date().getFullYear() }}
+        <a target="_blank" href="https://github.com/Theo-messi">Theo-Messi</a>. All Rights Reserved
+      </span>
+    </div>
   </footer>
 </template>
+<style>
+/* 页脚 */
+footer {
+  width: 100%;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.has-sidebar ~ footer {
+  display: none;
+}
+
+.external-link {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.external-link::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 1px;
+  right: 0;
+  background-color: var(--vp-c-text-3);
+  mask-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" height="24px" viewBox="0 0 24 24" width="24px" class="vt-link-icon"%3E%3Cpath d="M0 0h24v24H0V0z" fill="none"%3E%3C/path%3E%3Cpath d="M9 5v2h6.59L4 18.59 5.41 20 17 8.41V15h2V5H9z"%3E%3C/path%3E%3C/svg%3E');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+
+.bg-alt {
+  background: var(--vp-c-bg-alt);
+}
+
+.lh-normal {
+  line-height: normal;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.ma4 {
+  margin: 1.5rem;
+}
+.ma2 {
+  margin: 1rem;
+}
+.ml0 {
+  margin-left: 0.5rem;
+}
+
+.ml1 {
+  margin-left: 1rem;
+}
+.mb2 {
+  margin-bottom: 0.5rem;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.f14 {
+  font-size: 13px;
+}
+
+.fw6 {
+  font-weight: 600;
+}
+
+.fb6 {
+  flex-basis: 20rem;
+}
+
+@media screen and (min-width: 960px) {
+  .flex-l {
+    display: flex;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ma4 {
+    margin-left: auto; /* 左边距自动 */
+    margin-right: auto; /* 右边距自动 */
+    width: 100%; /* 宽度100% */
+    max-width: 95%; /* 最大宽度为屏幕宽度的70% */
+  }
+}
+</style>
