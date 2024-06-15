@@ -150,9 +150,12 @@ export function Sidebar_vps() {
       base: '/vps/',
       // 分组页面
       items: [
-        { text: '简化重装系统', link: 'dd.sh' },
-        { text: '一键脚本部署开ARM机器', link: 'R-Bot' },
-        { text: 'VPS全能工具箱', link: 'All-purpose-toolbox' }
+        { text: '全能工具箱', link: 'All-purpose-toolbox' },
+        { text: 'dd.sh 重装系统', link: 'dd.sh' },
+        { text: 'R 探长开机脚本', link: 'R-Bot' },
+        { text: 'IP 质量体检脚本', link: 'IPQuality' },
+        { text: '一键检测流媒体解锁', link: 'Streaming-Unlocked' },
+        { text: '一键检测机场奈飞解锁', link: 'Netflix-Unlocked' }
       ]
     },
     {
@@ -164,13 +167,11 @@ export function Sidebar_vps() {
       base: '/vps/',
       // 分组页面
       items: [
-        { text: '安装哪吒面板', link: 'Install-Nezha-panel' },
-        { text: 'V2Ray搭建详细教程', link: 'V2Ray' },
-        { text: 'X-ui搭建详细教程', link: 'X-ui' },
-        { text: 'VPS一键检测流媒体解锁', link: 'Streaming-Unlocked' },
-        { text: '一键检测机场奈飞解锁', link: 'Netflix-Unlocked' },
-        { text: '搭建独角数卡网站', link: 'Unicorn-Number-Card' },
-        { text: '安装 1Panel 面板', link: 'Install-1Panel' },
+        { text: 'X-ui', link: 'X-ui' },
+        { text: 'V2Ray', link: 'V2Ray' },
+        { text: '哪吒面板', link: 'Install-Nezha-panel' },
+        { text: '1Panel 面板', link: 'Install-1Panel' },
+        { text: '独角数卡网站', link: 'Unicorn-Number-Card' },
         { text: 'Docker 搭建 aria2+AriaNg', link: 'aria2+AriaNg' },
         { text: '一键安装 小雅Xiaoya全家桶', link: 'xiaoya-alist' }
       ]
