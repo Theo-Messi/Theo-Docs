@@ -9,6 +9,25 @@ head:
       content: Markdown 入门使用
 ---
 
+## 自定义盒子
+
+<div class="box-container next-steps">
+  <a class="box" href="/streaming/Netflix-guide">
+    <p class="next-steps-link">
+    <!-- <img src="https://theme-hope-assets.vuejs.press/logo.svg" alt="" class="next-steps-icon"> -->
+    流媒体观影</p>
+    <p class="next-steps-caption">点击跳转</p>
+  </a>
+  <a class="box" href="/serve/sharing/Account-sharing-guide">
+    <p class="next-steps-link">服务推荐</p>
+    <p class="next-steps-caption">点击跳转</p>
+  </a>
+    <a class="box" href="/serve/sharing/Account-sharing-guide">
+    <p class="next-steps-link">服务推荐</p>
+    <p class="next-steps-caption">点击跳转</p>
+  </a>
+</div>
+
 ## 待办列表
 
 - [x] 事项 1
