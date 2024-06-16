@@ -1,0 +1,53 @@
+/* box容器 */
+.next-steps {
+  margin-top: 3rem;
+}
+
+.next-steps .vp-box {
+  border: 1px solid var(--vp-c-bg-soft);
+}
+
+.next-steps .vp-box:hover {
+  border-color: var(--vp-c-green-light);
+  transition: border-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.vp-doc .next-steps-link {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.75em;
+  display: block;
+  color: var(--vp-c-brand-1);
+}
+
+.vp-doc .next-steps-caption {
+  margin-bottom: 0;
+  color: var(--vp-c-text-2);
+  transition: color 0.5s;
+}
+
+.vp-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vp-box-container .vp-box {
+  background-color: var(--vp-c-bg-soft);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  padding: 28px 36px;
+  border-radius: 8px;
+  flex: 0 32%; /* default 3 column */
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .vp-box-container .vp-box {
+    flex: 0 100%;
+    margin-bottom: 20px;
+  }
+}
