@@ -9,18 +9,22 @@ head:
       content: Markdown 入门使用
 ---
 
+## 自定义盒子
+
 <div class="box-container next-steps">
-  <a class="box" href="/tutorial/">
-    <p class="next-steps-link">Try the Tutorial</p>
-    <p class="next-steps-caption">For those who prefer learning things hands-on.</p>
+  <a class="box" href="/streaming/Netflix-guide">
+    <p class="next-steps-link">
+    <!-- <img src="https://theme-hope-assets.vuejs.press/logo.svg" alt="" class="next-steps-icon"> -->
+    流媒体观影</p>
+    <p class="next-steps-caption">点击跳转</p>
   </a>
-  <a class="box" href="/guide/quick-start.html">
-    <p class="next-steps-link">Read the Guide</p>
-    <p class="next-steps-caption">The guide walks you through every aspect of the framework in full detail.</p>
+  <a class="box" href="/serve/sharing/Account-sharing-guide">
+    <p class="next-steps-link">服务推荐</p>
+    <p class="next-steps-caption">点击跳转</p>
   </a>
-  <a class="box" href="/examples/">
-    <p class="next-steps-link">Check out the Examples</p>
-    <p class="next-steps-caption">Explore examples of core features and common UI tasks.</p>
+    <a class="box" href="/serve/sharing/Account-sharing-guide">
+    <p class="next-steps-link">服务推荐</p>
+    <p class="next-steps-caption">点击跳转</p>
   </a>
 </div>
 
