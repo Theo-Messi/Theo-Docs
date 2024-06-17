@@ -19,7 +19,7 @@ head:
 
 仓库必须是 `public` 的，否则存储的图片不能正常访问。
 
-![PicGo](https://m.theovan.cn/img/20230902143628.png)
+![PicGo](https://m.theovan.cn/docs/20230902143628.png)
 
 ## 生成 Token
 
@@ -27,7 +27,7 @@ head:
 - 点击左侧的`Tokens（classic）`
 - 再点击`Generate new token（classic）`
 
-![PicGo](https://m.theovan.cn/img/20230902144325.png)
+![PicGo](https://m.theovan.cn/docs/20230902144325.png)
 
 填写`Note`，勾选`repo`，点击生成`Token`
 :::tip 注意
@@ -44,11 +44,11 @@ head:
 - `设置Token`:创建的 Token
 - `设定存储路径`:可以设置为文件夹,如:`img/`;也可忽略
   :::
-  ![PicGo](https://m.theovan.cn/img/20230902150820.png)
+  ![PicGo](https://m.theovan.cn/docs/20230902150820.png)
 
 ## 配置 [imgbot](https://github.com/apps/imgbot) 无损压缩图片
 
-![PicGo](https://m.theovan.cn/img/20240102215655.png)
+![PicGo](https://m.theovan.cn/docs/20240102215655.png)
 
 然后选择 **Open Source** (也就是免费的那个方案)，然后点击 **Install it for free**
 
@@ -56,7 +56,7 @@ head:
 
 确认一下 ImgBot 可以访问的仓库 (默认 All)，以及授予给 ImgBot 的权限，点击 **Install**
 
-![PicGo](https://m.theovan.cn/img/20240102215814.png)
+![PicGo](https://m.theovan.cn/docs/20240102215814.png)
 
 ### 设置 ImgBot 频率与压缩方式
 
@@ -125,9 +125,9 @@ jobs:
 
 在仓库的设置中，找到 Github Actions 选项，点击 `Actions - General` 选项卡，勾选 `Read and write permissions`
 
-![PicGo](https://m.theovan.cn/img/20240102223146.png)
+![PicGo](https://m.theovan.cn/docs/20240102223146.png)
 
-![PicGo](https://m.theovan.cn/img/20240102223417.png)
+![PicGo](https://m.theovan.cn/docs/20240102223417.png)
 
 ## JsDelivr 加速访问(二选一)
 
@@ -154,20 +154,20 @@ jobs:
 
 ### 添加项目
 
-![PicGo](https://m.theovan.cn/img/20240102212030.png)
+![PicGo](https://m.theovan.cn/docs/20240102212030.png)
 
 ### 导入图床仓库
 
-![PicGo](https://m.theovan.cn/img/20240102212537.png)
+![PicGo](https://m.theovan.cn/docs/20240102212537.png)
 
 ### 部署项目
 
-![PicGo](https://m.theovan.cn/img/20240102212624.png)
+![PicGo](https://m.theovan.cn/docs/20240102212624.png)
 
 ### 配置自定义域名
 
-![PicGo](https://m.theovan.cn/img/20240102213512.png)
+![PicGo](https://m.theovan.cn/docs/20240102213512.png)
 
 ### 复制域名添加到picgo
 
-![PicGo](https://m.theovan.cn/img/20240102214339.png)
+![PicGo](https://m.theovan.cn/docs/20240102214339.png)

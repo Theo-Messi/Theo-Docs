@@ -123,12 +123,12 @@ _斜体文本_
 **输入**
 
 ```
-<video src="https://m.theovan.cn/img/video.mp4" controls="controls" width="500" height="300"></video>
+<video src="https://m.theovan.cn/docs/video.mp4" controls="controls" width="500" height="300"></video>
 ```
 
 **输出**
 
-<video src="https://m.theovan.cn/img/video.mp4" controls="controls" width="500" height="300"></video>
+<video src="https://m.theovan.cn/docs/video.mp4" controls="controls" width="500" height="300"></video>
 
 ## 音乐
 
