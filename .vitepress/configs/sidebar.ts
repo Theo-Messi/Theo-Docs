@@ -12,12 +12,9 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   // 青龙面板
   '/vps/ql/': { base: '/vps/ql/', items: Sidebar_ql() },
   // 入门指南
-  '/Getting-Started-Guide/': {
-    base: '/Getting-Started-Guide/',
-    items: Sidebar_Guide()
-  },
+  '/Getting-Started-Guide/': { base: '/Getting-Started-Guide/', items: Sidebar_Guide() },
   // 文档记录
-  '/record/': { base: '/record/', items: Sidebar_record() },
+  '/notes/': { base: '/notes/', items: Sidebar_notes() },
   // 服务推荐
   '/serve/': { base: '/serve/', items: Sidebar_serve() },
   // 流媒体观影指南
@@ -25,7 +22,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
 }
 
 // 文档记录
-export function Sidebar_record() {
+export function Sidebar_notes() {
   return [
     {
       // 分组名称
@@ -33,25 +30,20 @@ export function Sidebar_record() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/record/',
+      base: '/notes/',
       // 分组页面
       items: [
         { text: 'PicGo + Github 搭建图床', link: 'build-picture-bed' },
+        { text: 'GitHub Actions 工作流程', link: 'github-actions' },
         { text: 'VS Code 使用技巧', link: 'vscode' },
         { text: '为项目添加 Prettier 格式化代码', link: 'prettier' },
         { text: 'NPM 使用国内镜像及恢复默认源', link: 'npm-mirror' },
         { text: '使用 GPG 签名 Git Commit', link: 'gpg' },
         { text: '使用 nvm 管理不同版本的 node', link: 'nvm' },
         { text: '优化 iOS/Android 来电信息界面', link: 'vcards' },
-        {
-          text: '添加 1Panel 第三方应用商店',
-          link: '1Panel-third-party-app-store'
-        },
+        { text: '添加 1Panel 第三方应用商店', link: '1Panel-third-party-app-store' },
         { text: 'Tabby 配置同步', link: 'tabby-sync' },
-        {
-          text: '添加 群晖DSM7.X 第三方套件源',
-          link: 'Synology-third-party-suite'
-        }
+        { text: '添加 群晖DSM7.X 第三方套件源', link: 'Synology-third-party-suite' }
       ]
     },
     {
@@ -60,7 +52,7 @@ export function Sidebar_record() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/record/vitepress/',
+      base: '/notes/vitepress/',
       // 分组页面
       items: [
         { text: '添加 Giscu评论', link: 'giscu' },
@@ -214,10 +206,7 @@ export function Sidebar_ESXi() {
         { text: '刷新 DNS 缓存', link: 'clear-dns-cache' },
         { text: 'iStoreOS 文件共享步骤', link: 'iStoreOS-file-sharing-steps' },
         { text: 'H3C NX30Pro 刷 openwrt', link: 'H3C-NX30Pro' },
-        {
-          text: 'openwrt 安装 clouddrive2',
-          link: 'openwrt-install-clouddrive2'
-        },
+        { text: 'openwrt 安装 clouddrive2', link: 'openwrt-install-clouddrive2' },
         { text: '旁路由设置', link: 'Bypass' }
       ]
     }
@@ -295,14 +284,8 @@ export function Sidebar_streaming() {
           link: 'Netflix-guide',
           items: [
             { text: '秘密分类的技巧', link: 'Netflix-secret-classification' },
-            {
-              text: '全球各国影视剧数量',
-              link: 'Netflix-Number-of-movies-and-TV-series'
-            },
-            {
-              text: '常用浏览器插件汇总',
-              link: 'Netflix-Browser-plug-in-summary'
-            }
+            { text: '全球各国影视剧数量', link: 'Netflix-Number-of-movies-and-TV-series' },
+            { text: '常用浏览器插件汇总', link: 'Netflix-Browser-plug-in-summary' }
           ]
         },
         { text: 'Disney+ 观看指南', link: 'Disney-introduce' },
