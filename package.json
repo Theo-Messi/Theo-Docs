@@ -23,7 +23,7 @@
     "simple-git-hooks": "^2.11.1",
     "viewerjs": "^1.11.6",
     "vitepress-plugin-image-viewer": "^1.1.4",
-    "vue": "^3.4.27"
+    "vue": "^3.4.29"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
