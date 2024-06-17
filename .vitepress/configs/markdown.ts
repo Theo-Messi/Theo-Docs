@@ -6,7 +6,7 @@ import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 import { table } from './index.ts'
 
 export const markdown: UserConfig['markdown'] = {
-  theme: { light: 'catppuccin-latte', dark: 'dracula-soft' },
+  theme: { light: 'one-light', dark: 'dracula-soft' },
   image: { lazyLoading: true },
   codeTransformers: [transformerTwoslash()],
   container: {

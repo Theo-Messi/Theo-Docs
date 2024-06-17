@@ -15,119 +15,20 @@ export const head: HeadConfig[] = [
   ['link', { rel: 'apple-touch-icon', sizes: '60x60', href: '/apple-icon-60x60.png' }],
   ['link', { rel: 'apple-touch-icon', sizes: '72x72', href: '/apple-icon-72x72.png' }],
   ['link', { rel: 'apple-touch-icon', sizes: '76x76', href: '/apple-icon-76x76.png' }],
-  [
-    'link',
-    {
-      rel: 'apple-touch-icon',
-      sizes: '114x114',
-      href: '/apple-icon-114x114.png'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'apple-touch-icon',
-      sizes: '120x120',
-      href: '/apple-icon-120x120.png'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'apple-touch-icon',
-      sizes: '144x144',
-      href: '/apple-icon-144x144.png'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'apple-touch-icon',
-      sizes: '152x152',
-      href: '/apple-icon-152x152.png'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'apple-touch-icon',
-      sizes: '180x180',
-      href: '/apple-icon-180x180.png'
-    }
-  ],
+  ['link', { rel: 'apple-touch-icon', sizes: '114x114', href: '/apple-icon-114x114.png' }],
+  ['link', { rel: 'apple-touch-icon', sizes: '120x120', href: '/apple-icon-120x120.png' }],
+  ['link', { rel: 'apple-touch-icon', sizes: '144x144', href: '/apple-icon-144x144.png' }],
+  ['link', { rel: 'apple-touch-icon', sizes: '152x152', href: '/apple-icon-152x152.png' }],
+  ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-icon-180x180.png' }],
   ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '16x16',
-      href: '/favicon-16x16.png'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '32x32',
-      href: '/favicon-32x32.png'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '36x36',
-      href: '/android-icon-36x36.png'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '48x48',
-      href: '/android-icon-48x48.png'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '72x72',
-      href: '/android-icon-72x72.png'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '96x96',
-      href: '/android-icon-96x96.png'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '144x144',
-      href: '/android-icon-144x144.png'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '192x192',
-      href: '/android-icon-192x192.png'
-    }
-  ],
+  ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
+  ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
+  ['link', { rel: 'icon', type: 'image/png', sizes: '36x36', href: '/android-icon-36x36.png' }],
+  ['link', { rel: 'icon', type: 'image/png', sizes: '48x48', href: '/android-icon-48x48.png' }],
+  ['link', { rel: 'icon', type: 'image/png', sizes: '72x72', href: '/android-icon-72x72.png' }],
+  ['link', { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/android-icon-96x96.png' }],
+  ['link', { rel: 'icon', type: 'image/png', sizes: '144x144', href: '/android-icon-144x144.png' }],
+  ['link', { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/android-icon-192x192.png' }],
   ['meta', { name: 'author', content: 'Theo-messi' }],
   ['meta', { name: 'copyright', content: 'Theo-messi' }],
   ['meta', { name: 'og:type', content: 'website' }],
@@ -138,13 +39,7 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'evisit-after', content: '1 day' }],
   ['meta', { name: 'description', content: 'zh-CN' }],
   ['meta', { name: 'baidu-site-verification', content: 'codeva-SMUPLYe8bP' }],
-  [
-    'meta',
-    {
-      name: 'viewport',
-      content: 'width=device-width, initial-scale=1, maximum-scale=1'
-    }
-  ],
+  ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' }],
   ['meta', { name: 'format-detection', content: 'telephone=no' }],
   ['meta', { name: 'google-site-verification', content: '16826854815998093032' }],
   [
