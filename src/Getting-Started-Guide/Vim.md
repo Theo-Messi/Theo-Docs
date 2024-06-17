@@ -19,7 +19,7 @@ Vim 是从 vi 发展出来的一个文本编辑器。代码补全、编译及错
 
 ## vim 键盘图
 
-![](https://m.theovan.cn/img/vi-vim-cheat-sheet-sch.gif)
+![](https://m.theovan.cn/docs/vi-vim-cheat-sheet-sch.gif)
 
 ## vi/vim 的使用
 
@@ -86,7 +86,7 @@ Vim 是从 vi 发展出来的一个文本编辑器。代码补全、编译及错
 
 简单的说，我们可以将这三个模式想成底下的图标来表示：
 
-![](https://m.theovan.cn/img/vim-vi-workmodel.png)
+![](https://m.theovan.cn/docs/vim-vi-workmodel.png)
 
 ## vi/vim 使用实例
 
@@ -100,7 +100,7 @@ vim runoob.txt
 
 直接输入 `vi 文件名` 就能够进入 vi 的一般模式了。请注意，记得 vi 后面一定要加文件名，不管该文件存在与否！
 
-![](https://m.theovan.cn/img/078207F0-B204-4464-AAEF-982F45EDDAE9.jpg)
+![](https://m.theovan.cn/docs/078207F0-B204-4464-AAEF-982F45EDDAE9.jpg)
 
 ### 按下 i 进入输入模式(也称为编辑模式)，开始编辑文字
 
@@ -109,7 +109,7 @@ vim runoob.txt
 在编辑模式当中，你可以发现在左下角状态栏中会出现 `–INSERT-` 的字样，那就是可以输入任意字符的提示。
 
 这个时候，键盘上除了 Esc 这个按键之外，其他的按键都可以视作为一般的输入按钮了，所以你可以进行任何的编辑。
-![](https://m.theovan.cn/img/1C928383-471E-4AF1-A61E-9E2CCBD5A913.jpg)
+![](https://m.theovan.cn/docs/1C928383-471E-4AF1-A61E-9E2CCBD5A913.jpg)
 
 ### 按下 ESC 按钮回到一般模式
 
@@ -118,7 +118,7 @@ vim runoob.txt
 ### 在一般模式中按下 :wq 储存后离开 vi
 
 OK，我们要存档了，存盘并离开的指令很简单，输入 :wq 即可保存离开！
-![](https://m.theovan.cn/img/20240108132714.png)
+![](https://m.theovan.cn/docs/20240108132714.png)
 OK! 这样我们就成功创建了一个 runoob.txt 的文件。
 
 ## vi/vim 按键说明

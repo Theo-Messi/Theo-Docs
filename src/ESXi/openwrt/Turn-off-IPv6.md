@@ -16,7 +16,7 @@ head:
 - **网络** > **网卡** 中
 - 删除名为**WAN6**的接口
 
-![](https://m.theovan.cn/img/v6-1.nuexini)
+![](https://m.theovan.cn/docs/v6-1.nuexini)
 
 ### 编辑 IPV6 设置
 
@@ -24,21 +24,21 @@ head:
 - 点击 **DHCP 服务器 > IPv6 设置**
 - RA 服务 & DHCPv6 服务 & NDP 代理 选择 **已禁用**
 
-![](https://m.theovan.cn/img/v6-2.nuexini)
+![](https://m.theovan.cn/docs/v6-2.nuexini)
 
 ### **高级设置**
 
 - 把 **IPv6 分配长度** 选择 **已禁用**
 
-![](https://m.theovan.cn/img/v6-3.nuexini)
+![](https://m.theovan.cn/docs/v6-3.nuexini)
 
 ### 取消勾选 - **使用内置的 IPv6 管理**
 
-![](https://m.theovan.cn/img/v6-4.nuexini)
+![](https://m.theovan.cn/docs/v6-4.nuexini)
 
 ### **保存**
 
-![](https://m.theovan.cn/img/v6-5.nuexini)
+![](https://m.theovan.cn/docs/v6-5.nuexini)
 
 ## LAN 口设置
 
@@ -51,7 +51,7 @@ head:
 - 还有最后一步，在`全局网络选项` 中 `IPv6 ULA 前缀` 内容清除
 - 点击保存并应用，即可完成操作
 
-![](https://m.theovan.cn/img/v6-7.nuexini)
+![](https://m.theovan.cn/docs/v6-7.nuexini)
 
 ## 防火墙设置
 
@@ -59,18 +59,18 @@ head:
 - 把所有为**入站 IPv6** 或 **转发 IPv6** 或 **出站 IPv6** 的 **启用** 放弃勾选
 - 不启用之后，点击**保存并应用**
 
-![](https://m.theovan.cn/img/v6-9.nuexini)
+![](https://m.theovan.cn/docs/v6-9.nuexini)
 
 ## DHCP/DNS 设置
 
 - 在 **网络 > DHCP/DNS** 中，选择 **高级设置**
 - 在大雕的 OpenWrt (lede)中，是有 **禁止解析 IPv6 DNS 记录** 的，但是在原版的 OpenWrt 中，是没有这个选项的
 
-![](https://m.theovan.cn/img/v6-11.webp)
+![](https://m.theovan.cn/docs/v6-11.webp)
 
 - 下图为原版 **OpenWrt > 网络 > DHCP/DNS > 高级设置**
 
-![](https://m.theovan.cn/img/v6-12.nuexini)
+![](https://m.theovan.cn/docs/v6-12.nuexini)
 
 ## 下面需要用到 SSH 操作（如何开启 SSH 请自己解决）
 

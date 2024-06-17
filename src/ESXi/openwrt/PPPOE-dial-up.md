@@ -19,7 +19,7 @@ head:
 - 填写用户名和密码进行登录，
 - 大部分的登录账号：root，密码：password，个别密码为空。
 
-![](https://m.theovan.cn/img/bh-2.webp)
+![](https://m.theovan.cn/docs/bh-2.webp)
 
 ## 打开网络 -> 接口
 
@@ -27,14 +27,14 @@ head:
 - 选择打开网络 -> 接口，
 - 进入接口总览页面。
 
-![](https://m.theovan.cn/img/bh-2.webp)
+![](https://m.theovan.cn/docs/bh-2.webp)
 
 ## 编辑 WAN 接口
 
 - 进入接口总览选项后
 - 点击 WAN 接口后面的修改，进行编辑。
 
-![](https://m.theovan.cn/img/bh-3.webp)
+![](https://m.theovan.cn/docs/bh-3.webp)
 
 ## 选择 PPPoE 拨号
 
@@ -42,7 +42,7 @@ head:
 - 点击 DHCP 客户端
 - 选择 PPPoE 拨号
 
-![](https://m.theovan.cn/img/bh-4.webp)
+![](https://m.theovan.cn/docs/bh-4.webp)
 
 ## 切换 PPPoe 协议
 
@@ -50,7 +50,7 @@ head:
 - 点击确定切换 PPPoe 协议，
 - 一定要记得点击，如下图：
 
-![](https://m.theovan.cn/img/bh-5.webp)
+![](https://m.theovan.cn/docs/bh-5.webp)
 
 ## 填写账密并保存
 
@@ -58,4 +58,4 @@ head:
 - 填好宽带账号密码，
 - 保存应用，等待 1 分钟就会联网。
 
-![](https://m.theovan.cn/img/bh-6.webp)
+![](https://m.theovan.cn/docs/bh-6.webp)

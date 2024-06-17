@@ -112,11 +112,11 @@ cdromBoot runweasel autoPartitionOSDataSize=4096
 
 ### 配置 - Configure Management Network
 
-![](https://m.theovan.cn/img/v2-e4aff21e700228ae0ec283e9847089b1_1440w.webp)
+![](https://m.theovan.cn/docs/v2-e4aff21e700228ae0ec283e9847089b1_1440w.webp)
 
 #### 1. 选择`Network Adapters`,配置管理口
 
-![](https://m.theovan.cn/img/v2-d4053e9e9c9effc2d55f8a9027c9d0b2_1440w.webp)
+![](https://m.theovan.cn/docs/v2-d4053e9e9c9effc2d55f8a9027c9d0b2_1440w.webp)
 
 #### 2. 进入后会发现，其中一个网卡状态为`connected`，就是接入网线的网口
 
@@ -128,13 +128,13 @@ cdromBoot runweasel autoPartitionOSDataSize=4096
 
 ### 配置 - IPv4 Configuration
 
-![](https://m.theovan.cn/img/v2-6000431802b9b7f1ef8c2ecc11f3ff8f_1440w.webp)
+![](https://m.theovan.cn/docs/v2-6000431802b9b7f1ef8c2ecc11f3ff8f_1440w.webp)
 
 #### 1.选择静态 IP，配置为你网络环境中的内网网段 IP 即可
 
 #### 2.一般配置为`孤僻IP`，可随意配置，网关为你路由器的 IP
 
-![](https://m.theovan.cn/img/v2-42a37dc2ded65a10cadf32f33968deb5_1440w.webp)
+![](https://m.theovan.cn/docs/v2-42a37dc2ded65a10cadf32f33968deb5_1440w.webp)
 
 #### 3.如果将`Openwrt`做入`ESXi`中的话，就配置为`Openwrt`路由的 IP
 
@@ -157,39 +157,39 @@ cdromBoot runweasel autoPartitionOSDataSize=4096
 
 ### 步骤 3 - 开启自动启动策略
 
-![](https://m.theovan.cn/img/v2-e508b300fc8fa1eff4e7de8b4904500a_1440w.webp)
+![](https://m.theovan.cn/docs/v2-e508b300fc8fa1eff4e7de8b4904500a_1440w.webp)
 
 ### 步骤 4 - 电源管理中，启用高性能
 
-![](https://m.theovan.cn/img/v2-84959304493c26da1a90ca881f456064_1440w.webp)
+![](https://m.theovan.cn/docs/v2-84959304493c26da1a90ca881f456064_1440w.webp)
 
 ### 步骤 5 - 网络设置
 
 #### 1. 虚拟交换机，系统默认带了一个虚拟交换机，需要再继续添加其余三个
 
-![](https://m.theovan.cn/img/v2-29987dd12070b29205393e18f227d234_1440w.webp)
+![](https://m.theovan.cn/docs/v2-29987dd12070b29205393e18f227d234_1440w.webp)
 
 #### 2. 例如 vSwitch0 虚拟交换绑定的上行链路为物理网卡 0 口
 
-![](https://m.theovan.cn/img/v2-8f38d0f1f3edaa89d4343e3f9dde17c2_1440w.webp)
+![](https://m.theovan.cn/docs/v2-8f38d0f1f3edaa89d4343e3f9dde17c2_1440w.webp)
 
 #### 3. 同理，vSwitch1 虚拟交换绑定的上行链路为物理网卡 1 口，按照这个逻辑，将剩余的网口一次绑定到独立的虚拟交换机上
 
-![](https://m.theovan.cn/img/v2-e3ebe6f441baa56cda13c3f07c2cdb45_1440w.webp)
+![](https://m.theovan.cn/docs/v2-e3ebe6f441baa56cda13c3f07c2cdb45_1440w.webp)
 
 #### 4. 每一个 vSwitch 虚拟交换中的安全选项中，都需要开启混杂模式、MAC 地址变更、伪传输。如果不开启会出现问题，造成网卡间不能通讯，网络故障等。
 
-![](https://m.theovan.cn/img/20230927203137.png)
+![](https://m.theovan.cn/docs/20230927203137.png)
 
 #### 5. 虚拟交换机维护完毕后，回到端口组，对应添加四个虚拟网络。
 
-![](https://m.theovan.cn/img/20230927203201.png)
+![](https://m.theovan.cn/docs/20230927203201.png)
 
 #### 6. 例如 VM Network 绑定交换机 vSwitch0,VM Network1 绑定交换机 vSwitch1。
 
-![](https://m.theovan.cn/img/20230927203241.png)
-![](https://m.theovan.cn/img/20230927203306.png)
+![](https://m.theovan.cn/docs/20230927203241.png)
+![](https://m.theovan.cn/docs/20230927203306.png)
 
 #### 7. 最终的效果就是物理网卡 0 口，通过 vSwitch0 虚拟交换机绑定到 VM Network 虚拟网络上，最后虚拟机使用 VM Network 虚拟网络进行通信
 
-![](https://m.theovan.cn/img/20230927203344.png)
+![](https://m.theovan.cn/docs/20230927203344.png)
