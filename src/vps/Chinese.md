@@ -31,11 +31,11 @@ sudo dpkg-reconfigure locales
 - `zh_CN.GBK GBK`
 - `zh_CN.UTF-8`
 
-![](https://m.theovan.cn/docs/202406101154079.png)
+![](https://i.theovan.cn/docs/202406101154079.png)
 
 再次选择 `zh_CN.UTF-8`, 然后回车完成设置
 
-![](https://m.theovan.cn/docs/202406101155372.png)
+![](https://i.theovan.cn/docs/202406101155372.png)
 
 ## 3.重启系统
 

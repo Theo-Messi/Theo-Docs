@@ -4,7 +4,7 @@
   "silver": [
     {
       "alt": "成为赞助商",
-      "href": "https://m.theovan.cn/docs/202405201759098.jpg",
+      "href": "https://i.theovan.cn/docs/202405201759098.jpg",
       "imgSrcDark": "/svg.svg",
       "imgSrcLight": "/svg.svg"
     }
@@ -12,9 +12,9 @@
   "bronze": [
     {
       "alt": "赞助商",
-      "href": "https://m.theovan.cn/docs/202405201759098.jpg",
-      "imgSrcDark": "https://m.theovan.cn/docs/202405201759098.jpg",
-      "imgSrcLight": "https://m.theovan.cn/docs/202405201759098.jpg"
+      "href": "https://i.theovan.cn/docs/202405201759098.jpg",
+      "imgSrcDark": "https://i.theovan.cn/docs/202405201759098.jpg",
+      "imgSrcLight": "https://i.theovan.cn/docs/202405201759098.jpg"
     }
   ]
 }
