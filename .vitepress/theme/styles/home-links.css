@@ -15,7 +15,7 @@ a.cta.pan::before {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background-image: url('https://m.theovan.cn/docs/202405101119004.png');
+  background-image: url('https://i.theovan.cn/docs/202405101119004.png');
   background-size: 24px;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -28,7 +28,7 @@ a.cta.xx::before {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background-image: url('https://m.theovan.cn/avatar.png');
+  background-image: url('https://i.theovan.cn/avatar.png');
   background-size: 24px;
   background-repeat: no-repeat;
   background-position: bottom;

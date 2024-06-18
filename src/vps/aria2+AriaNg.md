@@ -80,9 +80,9 @@ p3terx/ariang
 
 访问 http://你的服务器ip:16880 访问AriaNg的web管理界面，点击`AriaNg 设置`菜单，再点击`全局`右边的标签
 
-![](https://m.theovan.cn/docs/202404290014327.png)
+![](https://i.theovan.cn/docs/202404290014327.png)
 
-![](https://m.theovan.cn/docs/202404290015325.png)
+![](https://i.theovan.cn/docs/202404290015325.png)
 
 - RPC别名随意填就好
 - RPC地址填写你服务器的域名或IP，后面的端口号就是前面启动的aria2的RPC通讯端口

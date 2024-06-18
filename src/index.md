@@ -52,7 +52,7 @@ features:
     link: /serve/airport/FlyingBird
   - title: 云盘资源分享
     icon:
-      src: https://m.theovan.cn/docs/202405101119004.png
+      src: https://i.theovan.cn/docs/202405101119004.png
       width: 30
       height: 30
     details: 热门资源/电视剧/电影/综艺/动漫/大陆/日本/韩国/欧美

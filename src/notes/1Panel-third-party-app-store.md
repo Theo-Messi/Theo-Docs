@@ -116,6 +116,6 @@ cat ./data/hbbs/id_ed25519.pub
 
 ## 应用一览图
 
-[点击查看原图](https://m.theovan.cn/docs/app-list.png)
+[点击查看原图](https://i.theovan.cn/docs/app-list.png)
 
-![](https://m.theovan.cn/docs/app-list.png)
+![](https://i.theovan.cn/docs/app-list.png)
