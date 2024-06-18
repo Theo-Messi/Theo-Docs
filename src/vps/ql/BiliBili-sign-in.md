@@ -55,16 +55,16 @@ head:
 
 如果正常，拉库成功后，同时也会自动添加bilibili相关的task任务。
 
-![](https://m.theovan.cn/docs/qinglong-tasks.png)
+![](https://i.theovan.cn/docs/qinglong-tasks.png)
 
 ### 登录
 
 在青龙定时任务中，点击运行`bili扫码登录`任务，查看运行日志，扫描日志中的二维码进行登录。
-![](https://m.theovan.cn/docs/qinglong-login.png)
+![](https://i.theovan.cn/docs/qinglong-login.png)
 
 登录成功后，会将cookie保存到青龙的环境变量中：
 
-![](https://m.theovan.cn/docs/qinglong-env.png)
+![](https://i.theovan.cn/docs/qinglong-env.png)
 
 首次运行会自动安装dotnet环境，时间久点，之后就不需要重复安装了。
 

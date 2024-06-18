@@ -23,7 +23,7 @@ head:
 - 按 F12 打开开发者工具
 - 然后点下图中的图标，切换到触屏版界面浏览
 
-![](https://m.theovan.cn/docs/20230910183043.png)
+![](https://i.theovan.cn/docs/20230910183043.png)
 
 ## 步骤二
 
@@ -34,20 +34,20 @@ head:
 
 - 登录后，选择**Network**,有很多链接的话点箭头这里清空下
 
-![](https://m.theovan.cn/docs/20230910183211.png)
+![](https://i.theovan.cn/docs/20230910183211.png)
 
 ## 步骤四
 
 - 点击`我的`
 
-![](https://m.theovan.cn/docs/20230910183240.png)
+![](https://i.theovan.cn/docs/20230910183240.png)
 
 ## 步骤五
 
 - 点击`log.gif`进去
 - **找到 Cookie，复制出来，新建一个 TXT 文本临时保存一下，下面需要用到 。**
 
-![](https://m.theovan.cn/docs/20230910183306.png)
+![](https://i.theovan.cn/docs/20230910183306.png)
 
 ## 步骤六
 

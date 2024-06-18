@@ -24,13 +24,13 @@ SMS-Activate 是俄罗斯的一个付费接码平台，网站使用过程还算�
 
 在网站的右上角将语言切换成中文，然后点击注册。
 
-![SMS-Activate](https://m.theovan.cn/docs/20240113215937.png)
+![SMS-Activate](https://i.theovan.cn/docs/20240113215937.png)
 
 使用Email邮箱注册，国外国外邮箱均可，或者使用telegram帐号登录。
 
 注册后登陆账户，右上角点击充值，页面下拉可使用支付宝充值。也支持其他很多充值方式，比如BTC、比特币、虚拟币等。
 
-![SMS-Activate](https://m.theovan.cn/docs/20240113220010.png)
+![SMS-Activate](https://i.theovan.cn/docs/20240113220010.png)
 
 国内用户使用支付宝充值比较方便快捷，正常充值2-5美元就可以满足各种平台的注册，包括电报机器人TG，和谷歌帐号、Gmail邮箱等等。如果你只想探索一下Chatgpt的聊天功能，欢迎使用 sms-activate 接码平台的临时接码功能。
 
@@ -42,29 +42,29 @@ SMS-Activate 是俄罗斯的一个付费接码平台，网站使用过程还算�
 
 支付宝充值手续费 0.03$ + 3% 最低付款金额为 2 美元。差不多15人民币左右。
 
-![SMS-Activate](https://m.theovan.cn/docs/20240113220109.png)
+![SMS-Activate](https://i.theovan.cn/docs/20240113220109.png)
 
 ## 国外接码平台 选择注册业务
 
 充值完成后，选择对应的业务，sms-activate 这个平台必须选择你对应的注册业务，不要乱选。否则不会显示验证码。
 
-![SMS-Activate](https://m.theovan.cn/docs/20240113220135.png)
+![SMS-Activate](https://i.theovan.cn/docs/20240113220135.png)
 
 例如：注册openai。就可以在左侧搜索openai，然后选择openai。
 
-![SMS-Activate](https://m.theovan.cn/docs/20240113220155.png)
+![SMS-Activate](https://i.theovan.cn/docs/20240113220155.png)
 
 ## 选择号码归属地
 
 选择号码国家，点击对应国家后面的购物车图片即可。目前选择印度的比较多，因为价格便宜。
 
-![SMS-Activate](https://m.theovan.cn/docs/20240113220219.png)
+![SMS-Activate](https://i.theovan.cn/docs/20240113220219.png)
 
 ## 接收短信
 
 在网站上填写手机号时，需要去掉前面的国别代码。
 
-![SMS-Activate](https://m.theovan.cn/docs/20240113220246.png)
+![SMS-Activate](https://i.theovan.cn/docs/20240113220246.png)
 
 输入手机号进行验证之后，验证码会出现在等待短信的位置。一般一分钟之内就可以收到验证码，如果无法收到验证码，点击后面的X关闭，重新选取其他号码再次进行激活。
 

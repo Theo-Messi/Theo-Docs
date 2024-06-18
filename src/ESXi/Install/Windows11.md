@@ -15,31 +15,31 @@ https://www.microsoft.com/zh-cn/software-download/windows11
 
 ## 选择创建新的虚拟机
 
-![](https://m.theovan.cn/docs/20240421192959.png)
+![](https://i.theovan.cn/docs/20240421192959.png)
 
-![](https://m.theovan.cn/docs/20240421193033.png)
+![](https://i.theovan.cn/docs/20240421193033.png)
 
 此选项将指导您完成创建新虚拟机的过程。您可以自定义处理器、内存、网络连接和存储。创建之后您需要安装客户机操作系统。
 
 填写虚拟机的相关信息
 
-![](https://m.theovan.cn/docs/20240421193110.png)
+![](https://i.theovan.cn/docs/20240421193110.png)
 
 选择虚拟机存储位置
 
-![](https://m.theovan.cn/docs/20240421193200.png)
+![](https://i.theovan.cn/docs/20240421193200.png)
 
 配置虚拟机的内存，CPU等
 
-![](https://m.theovan.cn/docs/20240421193238.png)
+![](https://i.theovan.cn/docs/20240421193238.png)
 
 ## 开启虚拟机
 
-![](https://m.theovan.cn/docs/20240421193304.png)
+![](https://i.theovan.cn/docs/20240421193304.png)
 
-![](https://m.theovan.cn/docs/20240421193558.png)
+![](https://i.theovan.cn/docs/20240421193558.png)
 
-![](https://m.theovan.cn/docs/20240421193618.png)
+![](https://i.theovan.cn/docs/20240421193618.png)
 
 ::: tip 全新安装Windows 11跳过TPM检查
 **如果你是从微软官方下载的 ISO 镜像则在`提示需要输入密钥阶段`进入到命令提示符**
@@ -63,16 +63,16 @@ REG ADD HKLM\SYSTEM\Setup\LabConfig /v BypassSecureBootCheck /t REG_DWORD /d 1
 
 **保存退出后，无法安装的提示就消失了。**
 :::
-![](https://m.theovan.cn/docs/20240421194515.png)
+![](https://i.theovan.cn/docs/20240421194515.png)
 
-![](https://m.theovan.cn/docs/20240421194619.png)
+![](https://i.theovan.cn/docs/20240421194619.png)
 
 选择自定义
 
-![](https://m.theovan.cn/docs/20240421194638.png)
+![](https://i.theovan.cn/docs/20240421194638.png)
 
 直接下一步系统会自动分区
 
-![](https://m.theovan.cn/docs/20240421194724.png)
+![](https://i.theovan.cn/docs/20240421194724.png)
 
 安装完会自动重启即可

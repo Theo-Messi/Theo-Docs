@@ -188,33 +188,33 @@ tx：华硕天选青色皮肤
 
 ### 第 1 步 - 打开梅林固件「软件中心」的「科学上网」插件
 
-![](https://m.theovan.cn/docs/image_1k10u2w.png)
+![](https://i.theovan.cn/docs/image_1k10u2w.png)
 
 ### 第 2 步 - 清空配置
 
 :::tip
 首次配置，请看第 3 步。如之前有进行过配置，强烈建议「清空配置」后再参照教程继续设置，以确保配置正确性。
 :::
-![](https://m.theovan.cn/docs/image_18vardl.png)
+![](https://i.theovan.cn/docs/image_18vardl.png)
 
 ### 第 3 步 - 订阅节点
 
 :::tip
 弹框选择「订阅节点」。如没弹框，直接看第 4 步，手动选择「更新管理」选项卡。
 :::
-![](https://m.theovan.cn/docs/image_upeb6r.png)
+![](https://i.theovan.cn/docs/image_upeb6r.png)
 
 ### 第 4 步 - 订阅节点配置「更新管理」
 
-![](https://m.theovan.cn/docs/image_2vj9pj.png)
+![](https://i.theovan.cn/docs/image_2vj9pj.png)
 
 ### 第 5 步 - 配置「DNS 设定」
 
-![](https://m.theovan.cn/docs/image_18d55uv.png)
+![](https://i.theovan.cn/docs/image_18d55uv.png)
 
 ### 第 6 步 - 启动设置
 
-![](https://m.theovan.cn/docs/image_1fhyjy6.png)
+![](https://i.theovan.cn/docs/image_1fhyjy6.png)
 
 ## 其他事项
 
@@ -226,7 +226,7 @@ tx：华硕天选青色皮肤
 :::tip
 因为节点可能会定期调整，为了确保订阅的节点信息与官网所提供的节点信息一致，请定期（1~2 周）更新订阅。由于梅林的科学上网插件不会覆盖节点，直接更新订阅会导致节点排序混乱。推荐按照上述步骤操作。
 :::
-![](https://m.theovan.cn/docs/image_1d6qvr3.png)
+![](https://i.theovan.cn/docs/image_1d6qvr3.png)
 
 ## DNS服务工作异常，无法解析域名
 
