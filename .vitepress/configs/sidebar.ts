@@ -6,13 +6,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   // VPS使用指南
   '/vps/': { base: '/vps/', items: Sidebar_vps() },
   // 华硕路由器固件
-  '/ASUS-Router/': { base: '/ASUS-Router/', items: Sidebar_Asus() },
+  '/asus/': { base: '/asus/', items: Sidebar_Asus() },
   // ESXi安装指南
   '/ESXi/': { base: '/ESXi/', items: Sidebar_ESXi() },
   // 青龙面板
   '/vps/ql/': { base: '/vps/ql/', items: Sidebar_ql() },
   // 入门指南
-  '/Getting-Started-Guide/': { base: '/Getting-Started-Guide/', items: Sidebar_Guide() },
+  '/FE/': { base: '/FE/', items: Sidebar_FE() },
   // 文档记录
   '/notes/': { base: '/notes/', items: Sidebar_notes() },
   // 服务推荐
@@ -72,7 +72,7 @@ export function Sidebar_Asus() {
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/ASUS-Router/',
+      base: '/asus/',
       // 分组页面
       items: [
         { text: '刷机需知', link: 'Flashing-prerequisites' },
@@ -87,25 +87,89 @@ export function Sidebar_Asus() {
 }
 
 // 入门指南
-export function Sidebar_Guide() {
+export function Sidebar_FE() {
   return [
+    {
+      // 分组名称
+      text: 'HomeBrew',
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: '/FE/HomeBrew/',
+      // 分组页面
+      items: [
+        { text: 'HomeBrew 简介与安装', link: 'install' },
+        { text: 'HomeBrew 安装软件', link: 'software' },
+        { text: 'HomeBrew tap使用', link: 'tap' },
+        { text: 'HomeBrew 切换镜像源', link: 'mirror-source' }
+      ]
+    },
+    {
+      // 分组名称
+      text: 'Docker',
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: '/FE/Docker/',
+      // 分组页面
+      items: [
+        { text: 'Docker 简介与安装', link: 'install' },
+        { text: 'Docker 进程相关操作', link: 'process' },
+        { text: 'Docker 国内镜像加速', link: 'mirror-source' },
+        { text: 'Docker 镜像相关操作', link: 'mirror' },
+        { text: 'Docker 容器相关操作', link: 'container' }
+        // { text: 'HomeBrew 切换镜像源', link: 'mirror-source' }
+      ]
+    },
+    {
+      // 分组名称
+      text: 'Git',
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: '/FE/Git/',
+      // 分组页面
+      items: [
+        { text: 'Git 简介与安装', link: 'install' },
+        { text: 'Git 设置用户信息', link: 'user' },
+        { text: 'Git 常用命令', link: 'command' },
+        { text: 'Git 版本回退', link: 'reset' },
+        { text: 'Git 合并commit', link: 'commit' },
+        { text: 'Git 缩减仓库', link: 'clean-up' },
+        { text: 'Git 重置提交记录', link: 'reset-commit' }
+      ]
+    },
+    {
+      // 分组名称
+      text: 'Linux',
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: '/FE/Linux/',
+      // 分组页面
+      items: [
+        { text: 'Linux 目录结构', link: 'directory' },
+        { text: 'Linux 文件操作', link: 'file' },
+        { text: 'Linux 文件权限', link: 'file-permission' },
+        { text: 'Linux 常用网络操作', link: 'network' },
+        { text: 'Linux 进程管理', link: 'process' },
+        { text: 'Linux 管道命令', link: 'pipe' },
+        { text: 'Linux 打包与拆包', link: 'tar' },
+        { text: 'Linux VIM 编辑器', link: 'vim' }
+      ]
+    },
     {
       // 分组名称
       text: '入门指南',
       // 下拉开关
       // collapsed: true,
       // 分组路径
-      base: '/Getting-Started-Guide/',
+      base: '/FE/',
       // 分组页面
       items: [
         { text: 'Vercel-CLI', link: 'Vercel-CLI' },
-        { text: 'HomeBrew', link: 'Homebrew' },
-        { text: 'Git', link: 'Git' },
-        { text: 'Docker', link: 'Docker' },
-        { text: 'Linux', link: 'Linux' },
         { text: 'Markdown', link: 'Markdown' },
-        { text: 'Pnpm', link: 'PNPM' },
-        { text: 'Vim', link: 'Vim' }
+        { text: 'Pnpm', link: 'PNPM' }
       ]
     }
   ]

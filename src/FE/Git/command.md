@@ -1,5 +1,5 @@
 ---
-title: Git 入门使用
+title: Git 常用命令
 head:
   - - meta
     - name: keywords
@@ -8,23 +8,6 @@ head:
     - name: description
       content: GIT 入门使用
 ---
-
-## 设置用户信息
-
-```sh
-git config --global user.name “用户名”
-git config --global user.email “邮箱”
-# 用户名：建议使用注册 GitHub 时用的用户名
-# 邮箱：建议使用注册 GitHub 时用的邮箱
-```
-
-## 查看配置信息
-
-```sh
-git config --list
-git config user.name
-git config user.email
-```
 
 ## 创建目录
 
@@ -61,55 +44,6 @@ mkdir "目录名称"
 - 移除远程仓库（只移除本地远程仓库的记录，不会真正影响到远程仓库）
 
   - `git remote rm`
-
-## 版本回退
-
-#### 查看版本，确定要回退的时刻
-
-```sh
-git log
-git log --pretty=oneline
-```
-
-#### 回退操作
-
-```sh
-git reset --hard 提交编号
-```
-
-#### 在回退成功后，又想回到回退之前的状态，则需要使用指令查看历史提交信息
-
-```sh
-git reflog
-```
-
-#### 强制提交到远程
-
-```sh
-git push -f origin <branch name>
-```
-
-## 合并 commit
-
-#### 查看 commit 历史
-
-```sh
-git log
-```
-
-#### 合并多条提交
-
-```sh
-git rebase -i 提交编号
-```
-
-## 使用 SSH 的方式
-
-```sh
-ssh-keygen -t rsa -C “邮箱地址”
-公钥：id_rsa.pub
-私钥：id_rsa
-```
 
 ## Git 分支操作
 
@@ -151,47 +85,3 @@ git touch .gitignore
 | `git push origin 标签名` 例如:`git push origin v1.0` | 将标签推送到远程 |
 | `git tag -d 标签名`                                  | 删除本地标签     |
 | `git push origin:refs/tags/标签名`                   | 删除远程标签     |
-
-## 缩减 git 仓库
-
-```bash
-# 清除垃圾文件 - 大量无用的 mp3 文件
-git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.mp3' --prune-empty --tag-name-filter cat -- --all
-
-# 提交到远程仓库
-# 如 GitHub, 我再次从 git clone GitHub 代码库会变小为 1.3M
-git push origin --force --all
-
-# 必须回收垃圾,本地仓库才变小
-git for-each-ref --format='delete %(refname)' refs/original | git update-ref --stdin
-git reflog expire --expire=now --all
-git gc --prune=now
-
-rm -rf .git/refs/original
-git reflog expire --expire=now --all
-git gc --prune=now
-git gc --aggressive --prune=now
-```
-
-## Github删除分支下所有提交记录
-
-有时候，我们提交了一些隐私的数据例如密码等到 Github 仓库，就算更新了仓库文件，但依旧会在 commit 历史记录中保存这部分数据。这个时候，我们就需要一种方法，可以把Github分支下所有提交记录进行删除！
-
-一般使用新建分支，都会在当前 master 分支的基础上克隆一份，如下图所示：
-![](https://i.theovan.cn/docs/202406112003627.png)
-
-```sh
-# 所以，我们需要新建一个空白的分支：
-git checkout --orphan latest_branch
-
-# 添加你想提交的所有文件到这个新分支：
-git add -A
-git commit -m "commit message"
-
-# 先将旧分支删除
-git branch -D main
-# 再将新分支的名字改为旧分支的名字
-git branch -m main
-# 最后提交所有本地操作到Github仓库
-git push -f origin main
-```

@@ -1,12 +1,12 @@
 ---
-title: Vim 入门使用
+title: Linux VIM 编辑器
 head:
   - - meta
     - name: keywords
-      content: Vim
+      content: Linux
   - - meta
     - name: description
-      content: Vim 入门使用
+      content: Linux 命令合集
 ---
 
 ## 什么是 vim？

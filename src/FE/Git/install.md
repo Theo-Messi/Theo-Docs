@@ -1,0 +1,40 @@
+---
+title: Git 简介与安装
+head:
+  - - meta
+    - name: keywords
+      content: GIT
+  - - meta
+    - name: description
+      content: GIT 入门使用
+---
+
+## Git 是什么？
+
+那么，简单地说，Git 究竟是怎样的一个系统呢？ 请注意接下来的内容非常重要，若你理解了 Git 的思想和基本工作原理，用起来就会知其所以然，游刃有余。 在学习 Git 时，请尽量理清你对其它版本管理系统已有的认识，如 CVS、Subversion 或 Perforce， 这样能帮助你使用工具时避免发生混淆。尽管 Git 用起来与其它的版本控制系统非常相似， 但它在对信息的存储和认知方式上却有很大差异，理解这些差异将有助于避免使用中的困惑。
+
+## 在 Linux 上安装
+
+如果你想在 Linux 上用二进制安装程序来安装基本的 Git 工具，可以使用发行版包含的基础软件包管理工具来安装。 以 Fedora 为例，如果你在使用它（或与之紧密相关的基于 RPM 的发行版，如 RHEL 或 CentOS），你可以使用 `dnf`：
+
+::: code-group
+
+```sh [Debian/Ubuntu]
+sudo apt install git-all
+```
+
+```sh [Fedora/RHEL/CentOS]
+sudo dnf install git-all
+```
+
+:::
+
+## 在 macOS 上安装
+
+```sh
+brew install git
+```
+
+## 在 Windows 上安装
+
+在 Windows 上安装 Git 同样轻松，请参考[官方指南](https://git-scm.com/download/win)。
