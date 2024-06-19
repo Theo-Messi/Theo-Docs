@@ -3,10 +3,10 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '文档记录', link: '/notes/build-picture-bed', activeMatch: '^/notes/' },
-  { text: '入门指南', link: '/Getting-Started-Guide/Vercel-CLI', activeMatch: '^/Getting-Started-Guide/' },
+  { text: '前端文档', link: '/FE/HomeBrew/install', activeMatch: '^/FE/' },
   { text: 'VMware ESXi', items: Nav_ESXi(), activeMatch: '^/ESXi/' },
   { text: '把玩服务器', items: Nav_Vps(), activeMatch: '^/vps/' },
-  { text: 'ASUS Router', link: '/ASUS-Router/Flashing-prerequisites', activeMatch: '^/ASUS-Router/' },
+  { text: 'ASUS', link: '/asus/Flashing-prerequisites', activeMatch: '^/asus/' },
   { text: '流媒体观影', link: '/streaming/Netflix-guide', activeMatch: '^/streaming/' },
   { text: '服务推荐', link: '/serve/sharing/Account-sharing-guide', activeMatch: '^/serve/' },
   { text: '阿里云盘分享', link: 'https://share.theovan.cn/' }
