@@ -35,29 +35,3 @@ Caskroom 是 Homebrew 下一个非常出名的 tap ，有了 caskroom，我们�
 brew tap homebrew/cask-fonts
 brew cask install font-source-code-pro
 ```
-
-## 切换国内的镜像源
-
-### 使用中科大的镜像
-
-```sh
-cd "$(brew --repo)"
-git remote set-url origin git://mirrors.ustc.edu.cn/brew.git
-cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git
-```
-
-### 使用清华大学的镜像
-
-```sh
-git -C "$(brew --repo)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
-git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
-```
-
-## 使用 Brewfile 完成环境迁移
-
-设备用久了，我们的电脑中会有大量的软件，如果你需要迁移环境，重新安装会是一个大麻烦，好在 Homebrew 本身为我们提供了一个非常好用的环境迁移的工具 —— `Homebrew Bundle`
-
-你首先需要在之前的电脑中执行 `brew bundle dump` 来完成当前环境的导出,导出完成后，你会得到一个 Brewfile。
-
-然后将 Brewfile 复制到新的电脑中，并执行 `brew bundle` 来开始安装的过程。
