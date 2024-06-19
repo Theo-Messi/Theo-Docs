@@ -3,7 +3,7 @@ title: Homebrew 切换镜像源
 head:
   - - meta
     - name: keywords
-      content: Homebrew
+      content: Homebrew 镜像源
   - - meta
     - name: description
       content: Homebrew 是由 Mac 开发团队开发的包管理器工具，它可以帮助我们快速安装和卸载软件，并且可以方便的进行软件的升级。

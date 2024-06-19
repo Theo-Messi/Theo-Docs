@@ -37,7 +37,6 @@ export function Sidebar_notes() {
         { text: 'GitHub Actions 工作流程', link: 'github-actions' },
         { text: 'VS Code 使用技巧', link: 'vscode' },
         { text: '为项目添加 Prettier 格式化代码', link: 'prettier' },
-        { text: 'NPM 使用国内镜像及恢复默认源', link: 'npm-mirror' },
         { text: '使用 GPG 签名 Git Commit', link: 'gpg' },
         { text: '使用 nvm 管理不同版本的 node', link: 'nvm' },
         { text: '优化 iOS/Android 来电信息界面', link: 'vcards' },
@@ -91,57 +90,7 @@ export function Sidebar_FE() {
   return [
     {
       // 分组名称
-      text: 'HomeBrew',
-      // 下拉开关
-      collapsed: true,
-      // 分组路径
-      base: '/FE/HomeBrew/',
-      // 分组页面
-      items: [
-        { text: 'HomeBrew 简介与安装', link: 'install' },
-        { text: 'HomeBrew 安装软件', link: 'software' },
-        { text: 'HomeBrew tap使用', link: 'tap' },
-        { text: 'HomeBrew 切换镜像源', link: 'mirror-source' }
-      ]
-    },
-    {
-      // 分组名称
-      text: 'Docker',
-      // 下拉开关
-      collapsed: true,
-      // 分组路径
-      base: '/FE/Docker/',
-      // 分组页面
-      items: [
-        { text: 'Docker 简介与安装', link: 'install' },
-        { text: 'Docker 进程相关操作', link: 'process' },
-        { text: 'Docker 国内镜像加速', link: 'mirror-source' },
-        { text: 'Docker 镜像相关操作', link: 'mirror' },
-        { text: 'Docker 容器相关操作', link: 'container' }
-        // { text: 'HomeBrew 切换镜像源', link: 'mirror-source' }
-      ]
-    },
-    {
-      // 分组名称
-      text: 'Git',
-      // 下拉开关
-      collapsed: true,
-      // 分组路径
-      base: '/FE/Git/',
-      // 分组页面
-      items: [
-        { text: 'Git 简介与安装', link: 'install' },
-        { text: 'Git 设置用户信息', link: 'user' },
-        { text: 'Git 常用命令', link: 'command' },
-        { text: 'Git 版本回退', link: 'reset' },
-        { text: 'Git 合并commit', link: 'commit' },
-        { text: 'Git 缩减仓库', link: 'clean-up' },
-        { text: 'Git 重置提交记录', link: 'reset-commit' }
-      ]
-    },
-    {
-      // 分组名称
-      text: 'Linux',
+      text: 'Linux 文档',
       // 下拉开关
       collapsed: true,
       // 分组路径
@@ -160,16 +109,85 @@ export function Sidebar_FE() {
     },
     {
       // 分组名称
-      text: '入门指南',
+      text: 'Docker 文档',
       // 下拉开关
-      // collapsed: true,
+      collapsed: true,
       // 分组路径
-      base: '/FE/',
+      base: '/FE/Docker/',
       // 分组页面
       items: [
-        { text: 'Vercel-CLI', link: 'Vercel-CLI' },
-        { text: 'Markdown', link: 'Markdown' },
-        { text: 'Pnpm', link: 'PNPM' }
+        { text: 'Docker 简介与安装', link: 'install' },
+        { text: 'Docker 进程相关操作', link: 'process' },
+        { text: 'Docker 国内镜像加速', link: 'mirror-source' },
+        { text: 'Docker 镜像相关操作', link: 'mirror' },
+        { text: 'Docker 容器相关操作', link: 'container' }
+        // { text: 'HomeBrew 切换镜像源', link: 'mirror-source' }
+      ]
+    },
+    {
+      // 分组名称
+      text: 'Git 文档',
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: '/FE/Git/',
+      // 分组页面
+      items: [
+        { text: 'Git 简介与安装', link: 'install' },
+        { text: 'Git 设置用户信息', link: 'user' },
+        { text: 'Git 常用命令', link: 'command' },
+        { text: 'Git 版本回退', link: 'reset' },
+        { text: 'Git 合并commit', link: 'commit' },
+        { text: 'Git 缩减仓库', link: 'clean-up' },
+        { text: 'Git 重置提交记录', link: 'reset-commit' }
+      ]
+    },
+    {
+      // 分组名称
+      text: 'HomeBrew 文档',
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: '/FE/HomeBrew/',
+      // 分组页面
+      items: [
+        { text: 'HomeBrew 简介与安装', link: 'install' },
+        { text: 'HomeBrew 安装软件', link: 'software' },
+        { text: 'HomeBrew tap使用', link: 'tap' },
+        { text: 'HomeBrew 切换镜像源', link: 'mirror-source' }
+      ]
+    },
+    {
+      // 分组名称
+      text: 'Vercel-CLI 文档',
+      link: 'Vercel-CLI',
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: '/FE/',
+      items: []
+    },
+    {
+      // 分组名称
+      text: 'Markdown 演示',
+      link: 'Markdown',
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: '/FE/',
+      items: []
+    },
+    {
+      // 分组名称
+      text: 'pnpm 文档',
+      // 下拉开关
+      collapsed: true,
+      // 分组路径
+      base: '/FE/pnpm/',
+      items: [
+        { text: 'pnpm 安装', link: 'install' },
+        { text: 'pnpm 切换镜像及恢复默认源', link: 'mirror' },
+        { text: 'pnpm 管理依赖项', link: 'package' }
       ]
     }
   ]
@@ -289,7 +307,6 @@ export function Sidebar_ql() {
       base: '/vps/ql/',
       // 分组页面
       items: [
-        { text: '安装 Docker', link: 'Install-Docker' },
         { text: '安装 青龙面板', link: 'Install-Qinglong-panel' },
         { text: '阿里云盘签到', link: 'Alipan-sign-in' },
         { text: '京东签到', link: 'JD-sign-in' },

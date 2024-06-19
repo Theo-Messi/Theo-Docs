@@ -13,6 +13,8 @@ head:
 
 ### Docker
 
+[安装Docker点此查看](/FE/Docker/install#一键安装-docker)
+
 - `latest` 镜像是基于 `alpine` 构建，
 - `debian` 镜像是基于 `debian-slim` 构建。
 - 如果需要使用 `alpine` 不支持的依赖，建议使用 `debian` 镜像

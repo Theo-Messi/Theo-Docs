@@ -3,10 +3,10 @@ title: Linux VIM 编辑器
 head:
   - - meta
     - name: keywords
-      content: Linux
+      content: Linux VIM 编辑器
   - - meta
     - name: description
-      content: Linux 命令合集
+      content: Linux VIM 编辑器
 ---
 
 ## 什么是 vim？

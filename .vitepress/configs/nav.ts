@@ -3,7 +3,7 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '文档记录', link: '/notes/build-picture-bed', activeMatch: '^/notes/' },
-  { text: '前端文档', link: '/FE/Vercel-CLI', activeMatch: '^/FE/' },
+  { text: '前端文档', link: '/FE/HomeBrew/install', activeMatch: '^/FE/' },
   { text: 'VMware ESXi', items: Nav_ESXi(), activeMatch: '^/ESXi/' },
   { text: '把玩服务器', items: Nav_Vps(), activeMatch: '^/vps/' },
   { text: 'ASUS', link: '/asus/Flashing-prerequisites', activeMatch: '^/asus/' },

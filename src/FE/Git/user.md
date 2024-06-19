@@ -1,12 +1,12 @@
 ---
-title: Git 入门使用
+title: Git 设置用户信息
 head:
   - - meta
     - name: keywords
-      content: GIT
+      content: git pull push status clone fetch reset branch merge revert tag rm mv log diff grep
   - - meta
     - name: description
-      content: GIT 入门使用
+      content: GIT 设置用户信息
 ---
 
 ### 查看git配置信息

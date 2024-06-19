@@ -3,10 +3,10 @@ title: Git 版本回退
 head:
   - - meta
     - name: keywords
-      content: GIT
+      content: git pull push status clone fetch reset branch merge revert tag rm mv log diff grep
   - - meta
     - name: description
-      content: GIT 入门使用
+      content: Git 版本回退
 ---
 
 | 命令     | 特点                                                             |
