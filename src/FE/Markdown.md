@@ -99,12 +99,12 @@ _斜体文本_
 **输入**
 
 ```
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 ```
 
 **输出**
 
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 
 ## 图片
 
@@ -211,45 +211,45 @@ _斜体文本_
 
 ```
 ::: info
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 
 ::: tip
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 
 ::: warning
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 
 ::: danger
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 
 ::: details
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 ```
 
 **输出**
 ::: info
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 
 ::: tip
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 
 ::: warning
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 
 ::: danger
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 
 ::: details
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 
 ## 自定义容器
@@ -258,7 +258,7 @@ _斜体文本_
 
 ````
 ::: danger STOP
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 
 ::: details Click me to view the code
@@ -272,7 +272,7 @@ console.log('Hello, VitePress!')
 
 **输出**
 ::: danger STOP
-[这是一个链接](https://theovan.cn/)
+[这是一个链接](https://doc.theovan.cn/)
 :::
 
 ::: details Click me to view the code

@@ -19,7 +19,7 @@ export default defineConfig({
 
   // 站点地图
   sitemap: {
-    hostname: 'https://theovan.cn'
+    hostname: 'https://doc.theovan.cn'
   },
 
   // markdown-it插件配置

@@ -34,7 +34,7 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'og:type', content: 'website' }],
   ['meta', { name: 'og:locale', content: 'zh-CN' }],
   ['meta', { name: 'og:site_name', content: 'Theo Docs' }],
-  ['meta', { name: 'og:image', content: 'https://theovan.cn/avatar.png' }],
+  ['meta', { name: 'og:image', content: 'https://doc.theovan.cn/avatar.png' }],
   ['meta', { name: 'robots', content: 'index, follow' }],
   ['meta', { name: 'evisit-after', content: '1 day' }],
   ['meta', { name: 'description', content: 'zh-CN' }],
