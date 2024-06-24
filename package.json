@@ -10,7 +10,7 @@
     "@nolebase/vitepress-plugin-git-changelog": "^2.1.1",
     "@shikijs/vitepress-twoslash": "^1.6.5",
     "prettier": "3.3.2",
-    "sass": "^1.77.5",
+    "sass": "^1.77.6",
     "vitepress": "1.2.3",
     "vitepress-plugin-google-analytics": "^1.0.2"
   },
