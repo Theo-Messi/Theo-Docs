@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@mdit/plugin-img-size": "^0.12.0",
-    "@nolebase/vitepress-plugin-git-changelog": "^2.1.1",
+    "@nolebase/vitepress-plugin-git-changelog": "^2.2.0",
     "@shikijs/vitepress-twoslash": "^1.6.5",
     "prettier": "3.3.2",
     "sass": "^1.77.5",
