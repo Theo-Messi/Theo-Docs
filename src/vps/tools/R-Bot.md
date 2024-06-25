@@ -13,8 +13,20 @@ head:
 
 - **VPS 系统：** VPS（可以科学上网）推荐系统 Ubuntu、Debian
 - **端口检查：** 确保 VPS 的 `9527` 端口开放！可以通过 [这里](https://tool.chinaz.com/port) 检测
-- Telegram 关注 机器人[R 探长的小助理](https://t.me/radiance_helper_bot)[R 探长](https://t.me/agentONE_R)
-- 项目地址：[点击访问](https://github.com/semicons/java_oci_manage)
+
+**Telegram 关注 机器人**
+
+<Box :items="[
+{ l: 'https://t.me/radiance_helper_bot', i: 'https://i.theovan.cn/logo/telegram.svg', t: 'R探长的小助理', ct: 'BOT' },
+{ l: 'https://t.me/agentONE_R', i: 'https://i.theovan.cn/logo/telegram.svg', t: 'R探长', ct: '频道' }
+]"/>
+
+<div style="margin-top: 10px;"></div>
+<Links 
+l="https://github.com/semicons/java_oci_manage"
+i="https://i.theovan.cn/logo/github.svg"
+t="Github 项目地址"
+/>
 
 ## 获取 VPS INFO
 

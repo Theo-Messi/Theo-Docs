@@ -22,7 +22,11 @@ head:
 - 宝塔面板
 - 一个域名
 
-**项目地址：<https://github.com/naiba/nezha>**
+<Links 
+  l="https://github.com/naiba/nezha"
+  i='https://i.theovan.cn/logo/github.svg'
+  t="项目地址"
+/>
 
 ## 获取 Github 的 Client ID 和密钥
 

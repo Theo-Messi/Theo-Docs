@@ -11,7 +11,10 @@ head:
 
 ## 系统下载
 
-- [Ubuntu](https://cn.ubuntu.com/download/desktop) | [Debian](https://www.debian.org/download.zh-cn.html)
+<Box :items="[
+{ l: 'https://cn.ubuntu.com/download/desktop', i: 'https://i.theovan.cn/logo/ubuntu.svg', t: 'Ubuntu', ct: '24.04 LTS' },
+{ l: 'https://github.com/AUK9527/Are-u-ok/tree/main/x86', i: 'https://i.theovan.cn/logo/debian.svg', t: 'Debian', ct: '12.5' }
+]"/>
 
 ## 开启SSH服务远程登录
 

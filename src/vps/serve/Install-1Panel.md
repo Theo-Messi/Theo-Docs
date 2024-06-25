@@ -50,7 +50,11 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 
 :::
 
-- **GitHub release 链接**: https://github.com/1Panel-dev/1Panel/releases
+<Links 
+  l="https://github.com/1Panel-dev/1Panel/releases"
+  i='https://i.theovan.cn/logo/github.svg'
+  t="GitHub release 链接"
+/>
 
 安装成功后，控制台会打印面板访问信息，可通过浏览器访问 1Panel：
 

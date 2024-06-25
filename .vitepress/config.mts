@@ -100,7 +100,7 @@ export default defineConfig({
     darkModeSwitchLabel: '主题模式',
 
     // markdown 外部链接图标
-    externalLinkIcon: true,
+    // externalLinkIcon: true,
     // 语言切换
     langMenuLabel: '切换语言',
 

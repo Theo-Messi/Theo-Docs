@@ -5,6 +5,8 @@ import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 import { inject } from '@vercel/analytics'
 import AsideSponsors from './components/pendant.vue'
+import Box from './components/Box.vue'
+import Links from './components/Links.vue'
 import { h } from 'vue'
 import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client'
 import imageViewer from 'vitepress-plugin-image-viewer'
@@ -12,8 +14,9 @@ import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue'
 
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import '@shikijs/vitepress-twoslash/style.css'
-import './styles/index.css'
+import './styles/index.scss'
 import 'viewerjs/dist/viewer.min.css'
+import '@fortawesome/fontawesome-free/css/all.css'
 
 inject()
 
@@ -28,6 +31,8 @@ export default {
     app.use(TwoslashFloatingVue)
     googleAnalytics({ id: 'G-6QN23XNMXB' })
     app.component('vImageViewer', vImageViewer)
+    app.component('Box', Box)
+    app.component('Links', Links)
     app.use(NolebaseGitChangelogPlugin, {
       mapAuthors: [
         {

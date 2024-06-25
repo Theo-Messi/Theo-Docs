@@ -13,7 +13,13 @@ head:
 
 ### Docker
 
-[安装Docker点此查看](/FE/Docker/install#一键安装-docker)
+<div style="margin-top: 10px">
+<Links 
+  l="/FE/Docker/install#一键安装-docker"
+  i='https://i.theovan.cn/logo/docker.svg'
+  t="安装 Docker"
+/>
+</div>
 
 - `latest` 镜像是基于 `alpine` 构建，
 - `debian` 镜像是基于 `debian-slim` 构建。
