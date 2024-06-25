@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@fortawesome/fontawesome-free':
+        specifier: ^6.5.2
+        version: 6.5.2
       '@types/node':
         specifier: ^20.14.8
         version: 20.14.8
@@ -311,6 +314,10 @@ packages:
 
   '@floating-ui/utils@0.2.2':
     resolution: {integrity: sha512-J4yDIIthosAsRZ5CPYP/jQvUAQtlZTTD/4suA08/FEnlxqW3sKS9iAhgsa9VYLZ6vDHn/ixJgIqRQPotoBjxIw==}
+
+  '@fortawesome/fontawesome-free@6.5.2':
+    resolution: {integrity: sha512-hRILoInAx8GNT5IMkrtIt9blOdrqHOnPBH+k70aWUAqPZPgopb9G5EQJFpaBx/S8zp2fC+mPW349Bziuk1o28Q==}
+    engines: {node: '>=6'}
 
   '@iconify-json/octicon@1.1.55':
     resolution: {integrity: sha512-TWVO7olfquviijdmdrEbvpjPTxBmVvU0ZoR9BBx9pIhvEsG7emefrLg7eZm1CYGYM+9StkksDbqha8HCy/6kzQ==}
@@ -1687,6 +1694,8 @@ snapshots:
       '@floating-ui/core': 1.6.2
 
   '@floating-ui/utils@0.2.2': {}
+
+  '@fortawesome/fontawesome-free@6.5.2': {}
 
   '@iconify-json/octicon@1.1.55':
     dependencies:

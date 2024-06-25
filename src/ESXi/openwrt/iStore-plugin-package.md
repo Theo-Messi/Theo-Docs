@@ -11,8 +11,10 @@ head:
 
 ## iStore插件包
 
-- [aarch64_cortex-a53平台](https://github.com/AUK9527/Are-u-ok/tree/main/apps)
-- [x86_64平台](https://github.com/AUK9527/Are-u-ok/tree/main/x86)
+<Box :items="[
+{ l: 'https://github.com/AUK9527/Are-u-ok/tree/main/apps', i: 'https://i.theovan.cn/logo/istoreos.png', t: 'iStore插件包', ct: 'ARM 平台' },
+{ l: 'https://github.com/AUK9527/Are-u-ok/tree/main/x86', i: 'https://i.theovan.cn/logo/istoreos.png', t: 'iStore插件包', ct: 'x86_64平台' }
+]"/>
 
 ## 常用代理软件包
 

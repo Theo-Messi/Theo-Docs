@@ -11,9 +11,13 @@ head:
 
 ## 准备工作
 
-- [openwrt固件/uboot](https://github.com/Theo-messi/H3C-NX30Pro)
-- [termius](https://termius.com/download/)
-- [winscp](https://winscp.net/eng/download.php)/[FinalShell](https://www.hostbuf.com/)
+<Box :items="[
+  { t: '固件/UBOOT', ct: 'Github' ,l: 'https://github.com/Theo-Messi/H3C-NX30Pro', i: 'https://i.theovan.cn/logo/openwrt.png'},
+  { t: 'termius', ct: '官网下载' ,l: 'https://termius.com/download/', i: 'https://i.theovan.cn/logo/termius.svg'},
+  { t: 'winscp', ct: '官网下载' ,l: 'https://winscp.net/eng/download.php', i: 'https://i.theovan.cn/logo/winscp.png'},
+  { t: 'FinalShell', ct: '官网下载' ,l: 'https://www.hostbuf.com/', i: 'https://i.theovan.cn/logo/FinalShell.png'},
+]"/>
+
 - H3C NX30 Pro 路由器
 - 有网口的电脑（主要用 telnet、ssh）
 

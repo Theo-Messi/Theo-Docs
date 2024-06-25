@@ -11,9 +11,17 @@ head:
 
 ### 自动获取
 
-- 登录[阿里云盘](https://www.aliyundrive.com/drive/)后，控制台粘贴
+<div style="margin-top: 10px">
+
+<Links
+  l="https://www.aliyundrive.com/drive/"
+  i='https://i.theovan.cn/logo/alipan.svg'
+  t="登录阿里云盘"/>
+
+</div>
 
 ```sh
+# 控制台粘贴
 copy(JSON.parse(localStorage.token).refresh_token); console.log(JSON.parse(localStorage.token).refresh_token);
 ```
 

@@ -82,7 +82,7 @@ const asideSponsors = computed(() => {
   </a>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .VPDocAsideSponsors {
   margin-top: 8px !important;
 }
@@ -122,72 +122,76 @@ const asideSponsors = computed(() => {
   background-color: var(--vp-c-bg-soft);
   border: 2px solid var(--vp-c-bg-soft);
   transition: border-color 0.5s;
-}
 
-.banner:last-of-type {
-  margin-bottom: 1rem;
-}
+  &:last-of-type {
+    margin-bottom: 1rem;
+  }
 
-.banner:hover {
-  border: 2px solid var(--vp-c-brand-1);
-}
+  &:hover {
+    border: 2px solid var(--vp-c-brand-1);
+  }
 
-.banner.cert:hover {
-  border: 2px solid var(--vp-c-green-1);
-}
+  &.cert:hover {
+    border: 2px solid var(--vp-c-green-1);
+  }
 
-.banner img {
-  transition: transform 0.5s;
-  transform: scale(1.25);
-}
+  img {
+    transition: transform 0.5s;
+    transform: scale(1.25);
+  }
 
-.banner:hover img {
-  transform: scale(1.75);
-}
+  &:hover img {
+    transform: scale(1.75);
+  }
 
-.banner .extra-info {
-  color: var(--vp-c-text-1);
-  opacity: 0;
-  font-size: 0.7rem;
-  padding-left: 0.1rem;
-  transition: opacity 0.5s;
-}
+  .extra-info {
+    color: var(--vp-c-text-1);
+    opacity: 0;
+    font-size: 0.7rem;
+    padding-left: 0.1rem;
+    transition: opacity 0.5s;
+  }
 
-.banner .extra {
-  color: var(--vp-c-text-3);
-  /* opacity: 0; */
-  font-size: 0.7rem;
-  padding-left: 0.1rem;
-  /* transition: opacity 0.5s; */
-}
+  .extra {
+    color: var(--vp-c-text-3);
+    /* opacity: 0; */
+    font-size: 0.7rem;
+    padding-left: 0.1rem;
+    /* transition: opacity 0.5s; */
+  }
 
-.banner .heading {
-  background-image: linear-gradient(120deg, var(--vp-c-brand-3) 32%, var(--vp-c-brand-2), var(--vp-c-brand-1));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  .heading {
+    background-image: linear-gradient(120deg, var(--vp-c-brand-3) 32%, var(--vp-c-brand-2), var(--vp-c-brand-1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-.banner .Activity {
-  background-image: linear-gradient(120deg, #b047ff 16%, #646cff, #747bff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  .Activity {
+    background-image: linear-gradient(120deg, #b047ff 16%, #646cff, #747bff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-.banner.mp .heading {
-  background-image: linear-gradient(120deg, var(--vp-c-brand-3) 32%, var(--vp-c-brand-2), var(--vp-c-brand-1));
-}
+  &.mp {
+    .heading {
+      background-image: linear-gradient(120deg, var(--vp-c-brand-3) 32%, var(--vp-c-brand-2), var(--vp-c-brand-1));
+    }
 
-.banner.mp .Activity {
-  background-image: linear-gradient(120deg, #b047ff 16%, #646cff, #747bff);
-}
+    .Activity {
+      background-image: linear-gradient(120deg, #b047ff 16%, #646cff, #747bff);
+    }
+  }
 
-.banner:hover .extra-info {
-  opacity: 0.9;
-}
+  &:hover {
+    .extra-info {
+      opacity: 0.9;
+    }
 
-.banner:hover .extra {
-  opacity: 0.9;
+    .extra {
+      opacity: 0.9;
+    }
+  }
 }
 </style>

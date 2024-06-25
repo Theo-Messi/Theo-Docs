@@ -20,12 +20,15 @@ opkg install tcpdump
 
 ### 2. 安装 Wireshark
 
-> 下载地址: https://www.wireshark.org/download.html
+<Box :items="[
+  { t: 'Wireshark', ct: '官网下载' ,l: 'https://www.wireshark.org/download.html', i: 'https://i.theovan.cn/logo/wireshark.svg'},
+]"/>
 
 ### 3. 安装终端工具
 
-- Mac os / [FinalShell](https://www.hostbuf.com/)
-- Windows / [PuTTY](https://www.putty.org/)
+<Box :items="[
+  { t: 'Tabby', ct: '官网下载' ,l: 'https://tabby.sh/', i: 'https://i.theovan.cn/logo/tabby.svg'},
+]"/>
 
 ## 实时抓包
 

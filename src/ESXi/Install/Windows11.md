@@ -9,9 +9,11 @@ head:
       content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt Windows11 Windows10 Windows12
 ---
 
-## 下载 Windows 11
-
-https://www.microsoft.com/zh-cn/software-download/windows11
+<Links 
+  l="https://www.starwindsoftware.com/starwind-v2v-converter"
+  i='<svg t="1719407269517" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6517" ><path d="M74.873 70.383h416.025q4.424 0 4.424 4.424v416.025q0 4.423-4.424 4.423H74.873q-4.424 0-4.424-4.423V74.807q0-4.424 4.424-4.424z" fill="#0099FF" p-id="6518"></path><path d="M530.536 70.383h421.157q1.858 0 1.858 1.858v421.156q0 1.858-1.858 1.858H530.536q-1.858 0-1.858-1.858V72.241q0-1.858 1.858-1.858z" fill="#00D9FC" p-id="6519"></path><path d="M74.873 528.745h416.025q4.424 0 4.424 4.423v416.025q0 4.424-4.424 4.424H74.873q-4.424 0-4.424-4.424V533.168q0-4.423 4.424-4.423z" fill="#0053FF" p-id="6520"></path><path d="M530.536 528.745h421.157q1.858 0 1.858 1.858v421.156q0 1.858-1.858 1.858H530.536q-1.858 0-1.858-1.858V530.603q0-1.858 1.858-1.858z" fill="#00B1EF" p-id="6521"></path></svg>'
+  t="官网下载 Windows 11 "
+/>
 
 ## 选择创建新的虚拟机
 

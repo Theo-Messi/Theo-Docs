@@ -1,6 +1,6 @@
 import type { DefaultTheme } from 'vitepress'
-// 导航栏设置
 
+// 导航栏设置
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '文档记录', link: '/notes/build-picture-bed', activeMatch: '^/notes/' },
   { text: '前端文档', link: '/FE/Linux/directory', activeMatch: '^/FE/' },
