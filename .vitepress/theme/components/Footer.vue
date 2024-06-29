@@ -92,18 +92,18 @@
     <div class="flex" style="display: inline-block">
       <span class="ml1">
         <a target="_blank" href="https://beian.miit.gov.cn/">
-          <i class="fa-solid fa-earth-americas" style="margin-right: 4px"></i>鄂ICP备2024060426号</a
+          <i class="fas fa-earth-americas" style="margin-right: 4px"></i>鄂ICP备2024060426号</a
         >
       </span>
       <span class="ml1">
         <a target="_blank" href="https://beian.mps.gov.cn/">
-          <i class="fa-solid fa-shield" style="margin-right: 4px"></i>粤公网安备44200102445439号</a
+          <i class="fas fa-shield" style="margin-right: 4px"></i>粤公网安备44200102445439号</a
         >
       </span>
     </div>
     <div class="flex ma4" style="display: inline-block">
       <span class="ml1">
-        Copyright <i class="fa-regular fa-copyright fa-xs"></i> 2019 - {{ new Date().getFullYear() }}
+        Copyright <i class="far fa-copyright"></i> 2019 - {{ new Date().getFullYear() }}
         <a target="_blank" href="https://github.com/Theo-messi">Theo-Messi</a>. All Rights Reserved
       </span>
     </div>
@@ -130,16 +130,13 @@ footer {
   padding-right: 10px;
 
   &::after {
-    content: '';
-    width: 10px;
-    height: 10px;
+    content: '\f061';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 0.5rem;
     position: absolute;
-    top: 1px;
-    right: 0;
-    background-color: var(--vp-c-text-3);
-    mask-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" height="24px" viewBox="0 0 24 24" width="24px" class="vt-link-icon"%3E%3Cpath d="M0 0h24v24H0V0z" fill="none"%3E%3C/path%3E%3Cpath d="M9 5v2h6.59L4 18.59 5.41 20 17 8.41V15h2V5H9z"%3E%3C/path%3E%3C/svg%3E');
-    mask-size: contain;
-    mask-repeat: no-repeat;
+    color: var(--vp-c-text-3);
+    transform: rotate(-45deg);
   }
 }
 
