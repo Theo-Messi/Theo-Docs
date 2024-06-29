@@ -17,17 +17,6 @@ head:
   t="阿里云盘资源分享"
 />
 
-<Box
-  l1="/streaming/Netflix-guide"
-  i1="https://i.theovan.cn/logo/netflix.svg"
-  t1="流媒体观影"
-  l2="/serve/sharing/Account-sharing-guide"
-  i2="https://www.kd010.com/static/vecloud/web/img/cloudlink/sdwan.png"
-  t2="服务推荐"
-  l3="/serve/sharing/Account-sharing-guide"
-  i3=''
-  t3="服务推荐"
-/>
 <Box :items="[
 { l: '/streaming/Netflix-guide', i: 'https://i.theovan.cn/logo/netflix.svg', t: '流媒体观影', ct: '自定义标签' },
 { l: '/serve/sharing/Account-sharing-guide', i: 'https://www.kd010.com/static/vecloud/web/img/cloudlink/sdwan.png', t: '服务推荐', ct: 'Tag' },
