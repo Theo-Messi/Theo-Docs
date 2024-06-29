@@ -115,6 +115,7 @@ footer {
   width: 100%;
 
   a:hover {
+    -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted;
   }
 
