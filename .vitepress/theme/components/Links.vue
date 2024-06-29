@@ -3,7 +3,7 @@
     <span class="img">
       <img v-if="isImage" :src="i" class="block-icon" alt="Icon" />
       <span v-else-if="i" v-html="i" class="block-icon svg-icon"></span>
-      <i v-else class="fa-solid fa-arrow-up-right-from-square block-icon"></i>
+      <i v-else class="fas fa-arrow-up-right-from-square block-icon"></i>
     </span>
     <span>{{ t }}</span>
   </a>
