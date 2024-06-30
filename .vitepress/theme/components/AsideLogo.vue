@@ -1,52 +1,16 @@
-<script setup lang="ts">
-import { computed } from 'vue'
-import { VPDocAsideSponsors } from 'vitepress/theme'
-import sponsors from './sharing-platform.json'
-
-// 避免 json 中的 never[] 类型
-interface Sponsor {
-  alt: string
-  href: string
-  imgSrcDark: string
-  imgSrcLight: string
-}
-
-const asideSponsors = computed(() => {
-  return [
-    // {
-    //   size: 'mini',
-    //   items: sponsors.silver.map((sponsor: Sponsor) => ({
-    //     name: sponsor.alt,
-    //     url: sponsor.href,
-    //     img: sponsor.imgSrcLight
-    //   }))
-    // },
-    // {
-    //   size: 'xmini',
-    //   items: sponsors.bronze.map((sponsor: Sponsor) => ({
-    //     name: sponsor.alt,
-    //     url: sponsor.href,
-    //     img: sponsor.imgSrcLight
-    //   }))
-    // }
-  ]
-})
-</script>
-
 <template>
-  <VPDocAsideSponsors :data="asideSponsors" />
-  <a class="banner mp" href="https://fbinv01.fbaff.cc/auth/register?code=RZP3" target="_blank">
-    <!-- <img
+  <!-- <a class="banner mp" href="https://fbinv01.fbaff.cc/auth/register?code=RZP3" target="_blank">
+    <img
       width="22"
       height="22"
       src="https://flyingbirdlimo.com/wp-content/uploads/2022/03/Flying-Bird-Logo-cropped.png"
-    /> -->
+    />
     <span>
       <p class="Activity">FlyingBird 618活动来了</p>
       <p class="extra">月付 85折 优惠码：2461885</p>
       <p class="extra">年付 64折 优惠码：2461880</p>
     </span>
-  </a>
+  </a> -->
 
   <a class="banner mp" href="https://xx.theovan.cn/" target="_blank">
     <img width="22" height="22" src="https://i.theovan.cn/avatar.png" />
@@ -69,7 +33,7 @@ const asideSponsors = computed(() => {
     <span>
       <p class="extra-info">流媒体账号合租</p>
       <p class="heading">流媒体帐号合租</p>
-      <p class="extra-info">转存观看!</p>
+      <p class="extra-info">共享车位</p>
     </span>
   </a>
   <a class="banner mp" href="https://github.com/sponsors/Theo-messi" target="_blank">
@@ -97,14 +61,14 @@ const asideSponsors = computed(() => {
   max-height: 32px;
 }
 
-/* :deep(.vp-sponsor-grid.xmini img) {
+:deep(.vp-sponsor-grid.xmini img) {
   transition: transform 0.5s;
   transform: scale(1);
 }
 
 :deep(.vp-sponsor-grid.xmini:hover img) {
   transform: scale(1.15);
-} */
+}
 
 .banner {
   margin: 0.25rem 0;
@@ -119,8 +83,8 @@ const asideSponsors = computed(() => {
   justify-content: center;
   width: 100%;
   gap: 1rem;
-  background-color: var(--vp-c-bg-soft);
-  border: 2px solid var(--vp-c-bg-soft);
+  background-color: var(--vp-c-bg-alt);
+  border: 2px solid var(--vp-c-bg-alt);
   transition: border-color 0.5s;
 
   &:last-of-type {
@@ -129,10 +93,6 @@ const asideSponsors = computed(() => {
 
   &:hover {
     border: 2px solid var(--vp-c-brand-1);
-  }
-
-  &.cert:hover {
-    border: 2px solid var(--vp-c-green-1);
   }
 
   img {
@@ -153,11 +113,9 @@ const asideSponsors = computed(() => {
   }
 
   .extra {
-    color: var(--vp-c-text-3);
-    /* opacity: 0; */
+    color: var(--vp-c-text-2);
     font-size: 0.7rem;
     padding-left: 0.1rem;
-    /* transition: opacity 0.5s; */
   }
 
   .heading {
@@ -172,16 +130,6 @@ const asideSponsors = computed(() => {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-
-  &.mp {
-    .heading {
-      background-image: linear-gradient(120deg, var(--vp-c-brand-3) 32%, var(--vp-c-brand-2), var(--vp-c-brand-1));
-    }
-
-    .Activity {
-      background-image: linear-gradient(120deg, #b047ff 16%, #646cff, #747bff);
-    }
   }
 
   &:hover {

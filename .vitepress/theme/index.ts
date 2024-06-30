@@ -4,7 +4,7 @@ import { EnhanceAppContext, useRoute } from 'vitepress'
 import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 import { inject } from '@vercel/analytics'
-import AsideSponsors from './components/pendant.vue'
+import AsideLogo from './components/AsideLogo.vue'
 import Box from './components/Box.vue'
 import Links from './components/Links.vue'
 import { h } from 'vue'
@@ -24,7 +24,7 @@ export default {
   extends: DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
-      'aside-ads-before': () => h(AsideSponsors)
+      'aside-ads-before': () => h(AsideLogo)
     })
   },
   enhanceApp: ({ app }: EnhanceAppContext, ctx) => {
