@@ -24,7 +24,8 @@ head:
 
 <Links 
   l="https://github.com/naiba/nezha"
-  i='https://i.theovan.cn/logo/github.svg'
+  light="https://i.theovan.cn/logo/github.svg"
+  dark="https://i.theovan.cn/logo/github-dark.svg"
   t="项目地址"
 />
 

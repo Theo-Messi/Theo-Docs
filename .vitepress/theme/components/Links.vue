@@ -1,9 +1,13 @@
 <template>
   <a v-if="l && t" :href="l" target="_blank" class="custom-link">
     <span class="img">
-      <img v-if="isImage" :src="i" class="block-icon" alt="Icon" />
-      <span v-else-if="i" v-html="i" class="block-icon svg-icon"></span>
-      <i v-else class="fas fa-arrow-up-right-from-square block-icon"></i>
+      <img v-if="isImage && light && dark" :src="light" class="light-only" alt="Icon" />
+      <img v-if="isImage && light && dark" :src="dark" class="dark-only" alt="Icon" />
+      <img v-else-if="isImage" :src="i" alt="Icon" />
+      <span v-else-if="i" class="icon-container">
+        <i :class="i + ' fa-lg'" :style="{ color: color }"></i>
+      </span>
+      <i v-else class="fas fa-arrow-up-right-from-square"></i>
     </span>
     <span>{{ t }}</span>
   </a>
@@ -15,22 +19,35 @@ export default {
   props: {
     l: { type: String, required: true },
     i: { type: String, default: '' },
-    t: { type: String, required: true }
+    t: { type: String, required: true },
+    light: { type: String, default: '' },
+    dark: { type: String, default: '' },
+    color: { type: String, default: '' }
   },
   computed: {
     isImage() {
-      // 检查 i 是否是图片路径（假设以 .png, .jpg, .gif, .svg 结尾）
-      return typeof this.i === 'string' && /\.(png|jpe?g|gif|svg)(\?.*)?$/.test(this.i)
+      return (
+        (this.light || this.dark || this.i) &&
+        /\.(png|jpe?g|gif|svg|webp|bmp|tiff?|ico)(\?.*)?$/.test(this.light || this.dark || this.i)
+      )
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
+:root:not(.dark) .dark-only {
+  display: none;
+}
+
+:root:is(.dark) .light-only {
+  display: none;
+}
+
 a {
+  margin-top: 1rem;
   border: 1px solid var(--vp-c-bg-soft);
   background-color: var(--vp-c-bg-alt);
-  /* padding: 12px 24px; */
   border-radius: 8px;
   text-decoration: none !important;
   display: flex;
@@ -42,9 +59,7 @@ a {
     background-color 0.5s;
 
   &:hover {
-    border-color: var(--vp-c-brand-1); /* 边框颜色在悬停时渐变到这个颜色 */
-    /* background-color: var(--vp-c-brand-soft); */ /* 如果需要背景颜色渐变，可以取消注释这一行 */
-    text-decoration: none;
+    border-color: var(--vp-c-brand-1);
   }
 }
 
@@ -64,9 +79,10 @@ a {
   }
 }
 
-.svg-icon {
-  width: 18px;
-  height: 18px;
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 576px) {

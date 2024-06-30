@@ -1,3 +1,22 @@
+<template>
+  <div class="box-container">
+    <a v-for="(item, index) in items" :key="index" :href="item.l" class="box" target="_blank">
+      <div class="box-content">
+        <span v-if="item.ct" class="ct">{{ item.ct }}</span>
+        <span v-if="isImage(item.i)" class="icon-container">
+          <img :src="item.i" alt="icon" class="i" />
+        </span>
+        <span v-else class="icon-container">
+          <i :class="item.i + ' fa-2xl'" :style="{ color: item.color }"></i>
+        </span>
+        <img v-if="item.light" :src="item.light" alt="icon" class="i light-only" />
+        <img v-if="item.dark" :src="item.dark" alt="icon" class="i dark-only" />
+        <p class="t">{{ item.t }}</p>
+      </div>
+    </a>
+  </div>
+</template>
+
 <script>
 export default {
   name: 'Box',
@@ -12,27 +31,29 @@ export default {
             item.hasOwnProperty('l') &&
             item.hasOwnProperty('i') &&
             item.hasOwnProperty('t') &&
-            item.hasOwnProperty('ct')
+            item.hasOwnProperty('ct') &&
+            (item.hasOwnProperty('light') || item.hasOwnProperty('dark'))
         )
       }
+    }
+  },
+  methods: {
+    isImage(url) {
+      return typeof url === 'string' && /\.(png|jpe?g|gif|svg|webp)(\?.*)?$/.test(url)
     }
   }
 }
 </script>
 
-<template>
-  <div class="box-container">
-    <a v-for="(item, index) in items" :key="index" :href="item.l" class="box" target="_blank">
-      <div class="box-content">
-        <span v-if="item.ct" class="ct">{{ item.ct }}</span>
-        <img v-if="item.i" :src="item.i" alt="" class="i" />
-        <p class="t">{{ item.t }}</p>
-      </div>
-    </a>
-  </div>
-</template>
-
 <style lang="scss" scoped>
+:root:not(.dark) .dark-only {
+  display: none;
+}
+
+:root:is(.dark) .light-only {
+  display: none;
+}
+
 .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -99,6 +120,13 @@ export default {
   justify-content: center;
   align-items: center;
   border-radius: 6px;
+}
+
+.icon-container {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  margin-right: 8px;
 }
 
 .t {

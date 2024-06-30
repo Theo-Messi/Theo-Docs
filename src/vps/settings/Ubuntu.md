@@ -12,8 +12,8 @@ head:
 ## 系统下载
 
 <Box :items="[
-{ l: 'https://cn.ubuntu.com/download/desktop', i: 'https://i.theovan.cn/logo/ubuntu.svg', t: 'Ubuntu', ct: '24.04 LTS' },
-{ l: 'https://github.com/AUK9527/Are-u-ok/tree/main/x86', i: 'https://i.theovan.cn/logo/debian.svg', t: 'Debian', ct: '12.5' }
+{ l: 'https://cn.ubuntu.com/download/desktop', i: 'fab fa-ubuntu', t: 'Ubuntu', color: '#E95420', ct: '24.04 LTS' },
+{ l: 'https://github.com/AUK9527/Are-u-ok/tree/main/x86', i: 'fab fa-debian', color: '#A81D33', t: 'Debian', ct: '12.5' }
 ]"/>
 
 ## 开启SSH服务远程登录

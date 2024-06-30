@@ -52,7 +52,8 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 
 <Links 
   l="https://github.com/1Panel-dev/1Panel/releases"
-  i='https://i.theovan.cn/logo/github.svg'
+  light="https://i.theovan.cn/logo/github.svg"
+  dark="https://i.theovan.cn/logo/github-dark.svg"
   t="GitHub release 链接"
 />
 

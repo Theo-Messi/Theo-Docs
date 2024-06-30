@@ -16,7 +16,8 @@ head:
 <div style="margin-top: 10px">
 <Links 
   l="/FE/Docker/install#一键安装-docker"
-  i='https://i.theovan.cn/logo/docker.svg'
+  i='fab fa-docker'
+  color="#2496ED"
   t="安装 Docker"
 />
 </div>
