@@ -17,14 +17,15 @@ head:
 **Telegram 关注 机器人**
 
 <Box :items="[
-{ l: 'https://t.me/radiance_helper_bot', i: 'https://i.theovan.cn/logo/telegram.svg', t: 'R探长的小助理', ct: 'BOT' },
-{ l: 'https://t.me/agentONE_R', i: 'https://i.theovan.cn/logo/telegram.svg', t: 'R探长', ct: '频道' }
+{ l: 'https://t.me/radiance_helper_bot', i: 'fab fa-telegram',  color: '#26A5E4', t: 'R探长的小助理', ct: 'BOT' },
+{ l: 'https://t.me/agentONE_R', i: 'fab fa-telegram',  color: '#26A5E4',  t: 'R探长', ct: '频道' }
 ]"/>
 
 <div style="margin-top: 10px;"></div>
 <Links 
 l="https://github.com/semicons/java_oci_manage"
-i="https://i.theovan.cn/logo/github.svg"
+light="https://i.theovan.cn/logo/github.svg"
+dark="https://i.theovan.cn/logo/github-dark.svg"
 t="Github 项目地址"
 />
 

@@ -9,18 +9,38 @@ head:
       content: Markdown 入门使用
 ---
 
-## Vue 组件
-
+**支持深色与浅色模式自动切换**
 <Links 
   l="https://share.theovan.cn/"
-  i="https://i.theovan.cn/docs/202405101119004.png"
-  t="阿里云盘资源分享"
+  light="https://i.theovan.cn/logo/github.svg"
+  dark="https://i.theovan.cn/logo/github-dark.svg"
+  t="GitHub"
 />
 
 <Box :items="[
-{ l: '/streaming/Netflix-guide', i: 'https://i.theovan.cn/logo/netflix.svg', t: '流媒体观影', ct: '自定义标签' },
-{ l: '/serve/sharing/Account-sharing-guide', i: 'https://www.kd010.com/static/vecloud/web/img/cloudlink/sdwan.png', t: '服务推荐', ct: 'Tag' },
-{ l: '', i: '', t: '空链接', ct: '' }
+{ l: 'https://github.com/Theo-messi', light: 'https://i.theovan.cn/logo/github.svg', dark: 'https://i.theovan.cn/logo/github-dark.svg', t: 'GitHub', ct: 'Github' },
+]"/>
+
+---
+
+**使用 FontAwesome 图标**
+<Links 
+  l="https://i.theovan.cn/docs/202405201752089.jpg"
+  i="fab fa-alipay"
+  t="支付宝"
+  color="#00a1e9"
+/>
+
+<Links 
+  l="https://i.theovan.cn/docs/202405201752087.jpg"
+  i="fab fa-weixin"
+  t="微信"
+  color="#03d16d"
+/>
+
+<Box :items="[
+  { l: 'https://i.theovan.cn/docs/202405201752089.jpg', i: 'fab fa-alipay', color: '#00a1e9', t: '支付宝', ct: '打赏' },
+  { l: 'https://i.theovan.cn/docs/202405201752087.jpg', i: 'fab fa-weixin', color: '#03d16d', t: '微信', ct: '打赏' }
 ]"/>
 
 ## 待办列表
