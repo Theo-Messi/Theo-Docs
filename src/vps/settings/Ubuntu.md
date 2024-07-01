@@ -21,8 +21,8 @@ head:
 #### 安装net-tools和openssh-server
 
 ```sh
-sudo apt-get install net-tools
-sudo apt-get install openssh-server
+sudo apt install net-tools
+sudo apt install openssh-server
 ```
 
 #### 查看是否开启ssh服务
@@ -43,7 +43,7 @@ sudo service ssh start
 ## 安装 vim 和 htop
 
 ```sh
-sudo apt-get install vim htop
+sudo apt install vim htop
 ```
 
 ## 更新软件源为国内源
@@ -101,7 +101,7 @@ sudo apt upgrade
 ## 删除系统自带软件
 
 ```sh
-sudo apt-get --purge remove thunderbird totem rhythmbox empathy brasero simple-scan gnome-mahjongg aisleriot gnome-mines cheese transmission-common gnome-orca gnome-sudoku remmina
+sudo apt --purge remove thunderbird totem rhythmbox empathy brasero simple-scan gnome-mahjongg aisleriot gnome-mines cheese transmission-common gnome-orca gnome-sudoku remmina
 ```
 
 根据个人习惯自行决定是否删除
@@ -125,28 +125,28 @@ sudo apt-get --purge remove thunderbird totem rhythmbox empathy brasero simple-s
 ## 自动卸载不需要的依赖
 
 ```sh
-sudo apt-get --purge autoremove
-sudo apt-get upgrade	#更新软件仓库
+sudo apt --purge autoremove
+sudo apt upgrade	#更新软件仓库
 ```
 
 ## 卸载桌面环境
 
 ```sh
 # 卸载 gnome-shell
-sudo apt-get remove gnome-shell
+sudo apt remove gnome-shell
 
 # 卸载 gnome
-sudo apt-get remove gnome
+sudo apt remove gnome
 
 # 卸载不需要的依赖关系
-sudo apt-get autoremove
+sudo apt autoremove
 
 # 彻底卸载删除gnome的相关配置文件
-sudo apt-get purge gnome
+sudo apt purge gnome
 
 # 清理安装gnome时候留下的缓存程序软件包
-sudo apt-get autoclean
-sudo apt-get clean
+sudo apt autoclean
+sudo apt clean
 ```
 
 ## 同步时间
@@ -154,7 +154,7 @@ sudo apt-get clean
 #### 安装 `ntpdate`
 
 ```sh
-sudo apt-get install ntpdate
+sudo apt install ntpdate
 ```
 
 #### 设置系统时间与网络时间同步
