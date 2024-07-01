@@ -23,7 +23,7 @@ chsh -s /bin/zsh
 ```
 
 ```sh [Linux]
-sudo apt-get install zsh
+sudo apt install zsh
 chsh -s /bin/zsh
 ```
 
@@ -41,7 +41,7 @@ brew install git
 ```
 
 ```sh [Linux]
-sudo apt-get install git
+sudo apt install git
 ```
 
 :::

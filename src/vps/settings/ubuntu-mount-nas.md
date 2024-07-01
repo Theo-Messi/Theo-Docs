@@ -20,7 +20,7 @@ mkdir /mnt/nas_share
 ### 安装 cifs-utils
 
 ```sh
-sudo apt-get install cifs-utils
+sudo apt install cifs-utils
 ```
 
 ### 查看用户的 uid 和 gid

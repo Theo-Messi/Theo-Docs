@@ -79,7 +79,7 @@ sudo yum remove docker \
 ```
 
 ```sh [Debian/Ubuntu]
-sudo apt-get remove docker docker-engine docker.io containerd runc
+sudo apt remove docker docker-engine docker.io containerd runc
 ```
 
 :::

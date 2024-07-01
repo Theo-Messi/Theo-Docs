@@ -19,7 +19,7 @@ head:
 - 填写用户名和密码进行登录，
 - 大部分的登录账号：root，密码：password，个别密码为空。
 
-![](https://i.theovan.cn/docs/bh-2.webp)
+![](https://i.theovan.cn/docs/bh-1.webp)
 
 ## 打开网络 -> 接口
 
