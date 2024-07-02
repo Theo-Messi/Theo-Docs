@@ -2,9 +2,6 @@
 title: oh-my-zsh 安装 & 配置
 head:
   - - meta
-    - name: keywords
-      content: oh-my-zsh 安装 & 配置
-  - - meta
     - name: description
       content: oh-my-zsh 安装 & 配置
 ---

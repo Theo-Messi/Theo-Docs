@@ -2,9 +2,6 @@
 title: Linux 管道命令
 head:
   - - meta
-    - name: keywords
-      content: Linux
-  - - meta
     - name: description
       content: Linux 管道命令
 ---

@@ -2,9 +2,6 @@
 title: ESXi 8.0 安装指南
 head:
   - - meta
-    - name: keywords
-      content: ESXi 虚拟机 虚拟化 X86 64 PVE
-  - - meta
     - name: description
       content: ESXi 虚拟机 虚拟化 X86 64 PVE
 ---

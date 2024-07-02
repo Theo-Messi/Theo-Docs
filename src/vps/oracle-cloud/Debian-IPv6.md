@@ -2,9 +2,6 @@
 title: 甲骨文云(Oracle Cloud) DD Debian系统自动获取IPv6
 head:
   - - meta
-    - name: keywords
-      content: Oracle Cloud IPv6 Debian
-  - - meta
     - name: description
       content: 甲骨文云(Oracle Cloud) DD Debian系统自动获取IPv6
 ---

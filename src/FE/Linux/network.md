@@ -2,9 +2,6 @@
 title: Linux 常用网络操作
 head:
   - - meta
-    - name: keywords
-      content: Linux
-  - - meta
     - name: description
       content: Linux 常用网络操作
 ---

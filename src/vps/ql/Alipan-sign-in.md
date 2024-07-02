@@ -2,9 +2,6 @@
 title: 阿里云盘签到
 head:
   - - meta
-    - name: keywords
-      content: 阿里云盘签到 阿里云盘签到脚本 阿里云盘签到教程 阿里云盘签到脚本
-  - - meta
     - name: description
       content: 阿里云盘签到 阿里云盘签到脚本 阿里云盘签到教程 阿里云盘签到脚本
 ---

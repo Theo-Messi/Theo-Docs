@@ -2,9 +2,6 @@
 title: 宝塔面板部署vitepress（自动发布静态）
 head:
   - - meta
-    - name: keywords
-      content: 宝塔面板部署vitepress（自动发布静态）
-  - - meta
     - name: description
       content: 宝塔面板部署vitepress（自动发布静态）
 ---

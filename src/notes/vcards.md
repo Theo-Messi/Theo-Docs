@@ -2,9 +2,6 @@
 title: 优化 iOS/Android 来电、信息界面体验
 head:
   - - meta
-    - name: keywords
-      content: CardDAV vCards 优化 iOS/Android 来电、信息界面体验
-  - - meta
     - name: description
       content: 优化 iOS/Android 来电、信息界面体验
 ---

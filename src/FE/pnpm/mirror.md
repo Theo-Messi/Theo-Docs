@@ -2,9 +2,6 @@
 title: pnpm 切换镜像及恢复默认源
 head:
   - - meta
-    - name: keywords
-      content: pnpm npm 国内镜像 恢复默认源
-  - - meta
     - name: description
       content: pnpm npm 使用国内镜像及恢复默认源
 ---

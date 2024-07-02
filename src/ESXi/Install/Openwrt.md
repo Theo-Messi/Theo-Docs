@@ -2,9 +2,6 @@
 title: 安装 Openwrt
 head:
   - - meta
-    - name: keywords
-      content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt
-  - - meta
     - name: description
       content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt
 ---

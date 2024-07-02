@@ -2,9 +2,6 @@
 title: Linux VIM 编辑器
 head:
   - - meta
-    - name: keywords
-      content: Linux VIM 编辑器
-  - - meta
     - name: description
       content: Linux VIM 编辑器
 ---

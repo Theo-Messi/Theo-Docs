@@ -2,9 +2,6 @@
 title: GitHub Actions 工作流程
 head:
   - - meta
-    - name: keywords
-      content: GitHub Actions 腾讯云 COS 自动化部署 fork docker pr pull request
-  - - meta
     - name: description
       content: 整理 GitHub Actions 工作流程
 ---

@@ -2,9 +2,6 @@
 title: 简化重装系统
 head:
   - - meta
-    - name: keywords
-      content: 简化重装系统
-  - - meta
     - name: description
       content: 简化重装系统
 ---

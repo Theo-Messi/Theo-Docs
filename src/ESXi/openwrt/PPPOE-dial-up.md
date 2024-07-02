@@ -2,9 +2,6 @@
 title: PPPOE拨号
 head:
   - - meta
-    - name: keywords
-      content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt PPPOE
-  - - meta
     - name: description
       content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt PPPOE
 ---

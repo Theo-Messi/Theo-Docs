@@ -2,9 +2,6 @@
 title: 更改中文语言
 head:
   - - meta
-    - name: keywords
-      content: 更改中文语言 Ubuntu Kali Linux Debian
-  - - meta
     - name: description
       content: 更改中文语言
 ---

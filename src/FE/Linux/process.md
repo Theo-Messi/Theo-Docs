@@ -2,9 +2,6 @@
 title: Linux 进程管理
 head:
   - - meta
-    - name: keywords
-      content: Linux
-  - - meta
     - name: description
       content: Linux 进程管理
 ---

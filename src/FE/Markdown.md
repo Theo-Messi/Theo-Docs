@@ -2,9 +2,6 @@
 title: Markdown 入门使用
 head:
   - - meta
-    - name: keywords
-      content: Markdown
-  - - meta
     - name: description
       content: Markdown 入门使用
 ---

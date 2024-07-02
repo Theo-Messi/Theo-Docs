@@ -2,9 +2,6 @@
 title: Homebrew 安装软件
 head:
   - - meta
-    - name: keywords
-      content: Homebrew 安装软件 brew install
-  - - meta
     - name: description
       content: Homebrew 是由 Mac 开发团队开发的包管理器工具，它可以帮助我们快速安装和卸载软件，并且可以方便的进行软件的升级。
 ---
