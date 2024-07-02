@@ -15,12 +15,3 @@
 :root:is(.dark) img[src$='#light'] {
   display: none;
 }
-
-/* 图片放大 */
-.medium-zoom-overlay {
-  z-index: 30;
-}
-
-.medium-zoom-image--opened {
-  z-index: 31;
-}
