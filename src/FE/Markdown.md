@@ -15,7 +15,7 @@ head:
 />
 
 <Box :items="[
-{ l: 'https://github.com/Theo-messi', light: 'https://i.theovan.cn/logo/github.svg', dark: 'https://i.theovan.cn/logo/github-dark.svg', t: 'GitHub', ct: 'Github' },
+{ l: 'https://github.com/Theo-Messi', light: 'https://i.theovan.cn/logo/github.svg', dark: 'https://i.theovan.cn/logo/github-dark.svg', t: 'GitHub', ct: 'Github' },
 ]"/>
 
 ---
@@ -676,11 +676,11 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: 'https://www.github.com/Theo-messi.png',
+    avatar: 'https://www.github.com/Theo-Messi.png',
     name: 'Theo',
     title: '作者',
     links: [
-      { icon: 'github', link: 'https://github.com/Theo-messi' },
+      { icon: 'github', link: 'https://github.com/Theo-Messi' },
     ]
   },
 ]
@@ -696,11 +696,11 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: 'https://www.github.com/Theo-messi.png',
+    avatar: 'https://www.github.com/Theo-Messi.png',
     name: 'Theo',
     title: '作者',
     links: [
-      { icon: 'github', link: 'https://github.com/Theo-messi' },
+      { icon: 'github', link: 'https://github.com/Theo-Messi' },
     ]
   },
 ]

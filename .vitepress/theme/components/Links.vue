@@ -1,8 +1,25 @@
 <template>
-  <a v-if="l && t" :href="l" target="_blank" class="custom-link">
+  <a
+    v-if="l && t"
+    :href="l"
+    target="_blank"
+    :name="t"
+    :title="t"
+    class="custom-link"
+  >
     <span class="img">
-      <img v-if="isImage && light && dark" :src="light" class="light-only" alt="Icon" />
-      <img v-if="isImage && light && dark" :src="dark" class="dark-only" alt="Icon" />
+      <img
+        v-if="isImage && light && dark"
+        :src="light"
+        class="light-only"
+        alt="Icon"
+      />
+      <img
+        v-if="isImage && light && dark"
+        :src="dark"
+        class="dark-only"
+        alt="Icon"
+      />
       <img v-else-if="isImage" :src="i" alt="Icon" />
       <span v-else-if="i" class="icon-container">
         <i :class="i + ' fa-lg'" :style="{ color: color }"></i>
@@ -28,7 +45,9 @@ export default {
     isImage() {
       return (
         (this.light || this.dark || this.i) &&
-        /\.(png|jpe?g|gif|svg|webp|bmp|tiff?|ico)(\?.*)?$/.test(this.light || this.dark || this.i)
+        /\.(png|jpe?g|gif|svg|webp|bmp|tiff?|ico)(\?.*)?$/.test(
+          this.light || this.dark || this.i
+        )
       )
     }
   }

@@ -21,7 +21,7 @@ hero:
       link: /serve/airport/FlyingBird
     - theme: brand
       text: ❤️ 成为赞助商
-      link: https://github.com/sponsors/Theo-messi
+      link: https://github.com/sponsors/Theo-Messi
     - theme: cta pan
       text: 云盘资源
       link: https://share.theovan.cn/

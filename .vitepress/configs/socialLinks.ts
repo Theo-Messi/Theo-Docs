@@ -4,7 +4,7 @@ import type { DefaultTheme } from 'vitepress'
 export const socialLinks: DefaultTheme.Config['socialLinks'] = [
   {
     icon: { svg: '<i class="fab fa-github"></i>' },
-    link: 'https://github.com/Theo-messi'
+    link: 'https://github.com/Theo-Messi'
   },
   {
     icon: { svg: '<i class="fas fa-envelope"></i>' },
@@ -16,6 +16,6 @@ export const socialLinks: DefaultTheme.Config['socialLinks'] = [
   },
   {
     icon: { svg: '<i class="fas fa-heart" style="color: #EA4AAA;"></i>' },
-    link: 'https://github.com/sponsors/Theo-messi'
+    link: 'https://github.com/sponsors/Theo-Messi'
   }
 ]

@@ -1,6 +1,14 @@
 <template>
   <div class="box-container">
-    <a v-for="(item, index) in items" :key="index" :href="item.l" class="box" target="_blank">
+    <a
+      v-for="(item, index) in items"
+      :key="index"
+      :href="item.l"
+      :name="item.t"
+      :title="item.t"
+      class="box"
+      target="_blank"
+    >
       <div class="box-content">
         <span v-if="item.ct" class="ct">{{ item.ct }}</span>
         <span v-if="isImage(item.i)" class="icon-container">
@@ -9,7 +17,12 @@
         <span v-else class="icon-container">
           <i :class="item.i + ' fa-2xl'" :style="{ color: item.color }"></i>
         </span>
-        <img v-if="item.light" :src="item.light" alt="icon" class="i light-only" />
+        <img
+          v-if="item.light"
+          :src="item.light"
+          alt="icon"
+          class="i light-only"
+        />
         <img v-if="item.dark" :src="item.dark" alt="icon" class="i dark-only" />
         <p class="t">{{ item.t }}</p>
       </div>
@@ -39,7 +52,10 @@ export default {
   },
   methods: {
     isImage(url) {
-      return typeof url === 'string' && /\.(png|jpe?g|gif|svg|webp)(\?.*)?$/.test(url)
+      return (
+        typeof url === 'string' &&
+        /\.(png|jpe?g|gif|svg|webp)(\?.*)?$/.test(url)
+      )
     }
   }
 }
