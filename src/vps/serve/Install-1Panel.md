@@ -2,9 +2,6 @@
 title: 安装 1Panel 面板
 head:
   - - meta
-    - name: keywords
-      content: 1Panel 1Panel 面板 1Panel 安装 1Panel 部署 1Panel 快速安装
-  - - meta
     - name: description
       content: 1Panel 是一个现代化、开源的 Linux 服务器运维管理面板。
 ---

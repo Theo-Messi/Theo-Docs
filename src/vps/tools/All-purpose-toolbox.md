@@ -2,9 +2,6 @@
 title: VPS全能工具箱
 head:
   - - meta
-    - name: keywords
-      content: VPS VPS一键脚本 VPS工具箱 VPS一键部署 VPS一键安装 VPS一键搭建 VPS一键安装脚本 VPS一键搭建脚本 VPS一键部署脚本 VPS一键安装搭建脚本
-  - - meta
     - name: description
       content: VPS VPS一键脚本 VPS工具箱 VPS一键部署 VPS一键安装 VPS一键搭建 VPS一键安装脚本 VPS一键搭建脚本 VPS一键部署脚本 VPS一键安装搭建脚本
 ---

@@ -2,9 +2,6 @@
 title: 安装 Windows 11
 head:
   - - meta
-    - name: keywords
-      content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt Windows11 Windows10 Windows12
-  - - meta
     - name: description
       content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt Windows11 Windows10 Windows12
 ---

@@ -2,9 +2,6 @@
 title: pnpm 管理依赖项
 head:
   - - meta
-    - name: keywords
-      content: pnpm 管理依赖项
-  - - meta
     - name: description
       content: pnpm 管理依赖项
 ---

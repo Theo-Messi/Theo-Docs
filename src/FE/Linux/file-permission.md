@@ -2,9 +2,6 @@
 title: Linux 文件权限
 head:
   - - meta
-    - name: keywords
-      content: Linux
-  - - meta
     - name: description
       content: Linux 文件权限
 ---

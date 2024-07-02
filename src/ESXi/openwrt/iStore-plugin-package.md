@@ -2,9 +2,6 @@
 title: iStore 插件包
 head:
   - - meta
-    - name: keywords
-      content: iStore openwrt 插件包
-  - - meta
     - name: description
       content: iStore openwrt 插件包
 ---

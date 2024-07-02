@@ -2,9 +2,6 @@
 title: H3C NX30Pro 刷 openwrt
 head:
   - - meta
-    - name: keywords
-      content: openwrt H3C NX30Pro uboot
-  - - meta
     - name: description
       content: openwrt H3C NX30Pro uboot
 ---

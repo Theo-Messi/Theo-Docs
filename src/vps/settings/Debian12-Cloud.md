@@ -2,9 +2,6 @@
 title: Debian12 安装使用 Cloud 内核
 head:
   - - meta
-    - name: keywords
-      content: Debian12 安装使用 Cloud 内核 cloud-amd64
-  - - meta
     - name: description
       content: Debian12 安装使用 Cloud 内核 cloud-amd64
 ---

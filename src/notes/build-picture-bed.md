@@ -2,9 +2,6 @@
 title: PicGo + Github 搭建图床
 head:
   - - meta
-    - name: keywords
-      content: PicGo Github 图床 图片上传 图片压缩 图片存储 图片加速 图片管理 图片上传工具 图片压缩工具 图片存储工具 图片加速工具 图片管理工具 图片上传工具 图片压缩工具 图片存储工具 图片加速工具 图片管理工具
-  - - meta
     - name: description
       content: PicGo Github 图床 图片上传 图片压缩 图片存储 图片加速 图片管理 图片上传工具 图片压缩工具 图片存储工具 图片加速工具 图片管理工具 图片上传工具 图片压缩工具 图片存储工具 图片加速工具 图片管理工具
 ---

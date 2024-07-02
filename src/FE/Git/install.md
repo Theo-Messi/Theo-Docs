@@ -2,9 +2,6 @@
 title: Git 简介与安装
 head:
   - - meta
-    - name: keywords
-      content: git pull push status clone fetch reset branch merge revert tag rm mv log diff grep
-  - - meta
     - name: description
       content: Git 简介与安装
 ---

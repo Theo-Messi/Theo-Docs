@@ -2,9 +2,6 @@
 title: VS Code 使用技巧
 head:
   - - meta
-    - name: keywords
-      content: VSCode 使用技巧
-  - - meta
     - name: description
       content: VSCode 使用技巧
 ---

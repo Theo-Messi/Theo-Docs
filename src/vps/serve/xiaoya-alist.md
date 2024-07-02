@@ -2,9 +2,6 @@
 title: 一键安装 小雅Xiaoya全家桶
 head:
   - - meta
-    - name: keywords
-      content: 小雅Alist TVbox Jellyfin EMBY
-  - - meta
     - name: description
       content: 小雅Alist TVbox Jellyfin EMBY
 ---

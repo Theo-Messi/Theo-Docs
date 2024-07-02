@@ -2,9 +2,6 @@
 title: Merlin Clash - 安装
 head:
   - - meta
-    - name: keywords
-      content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
-  - - meta
     - name: description
       content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
 ---

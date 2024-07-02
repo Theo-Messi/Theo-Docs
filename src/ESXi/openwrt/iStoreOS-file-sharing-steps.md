@@ -2,9 +2,6 @@
 title: iStoreOS 文件共享步骤
 head:
   - - meta
-    - name: keywords
-      content: iStoreOS 文件共享 NAS
-  - - meta
     - name: description
       content: iStoreOS 文件共享 NAS
 ---

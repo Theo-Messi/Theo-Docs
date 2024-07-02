@@ -2,9 +2,6 @@
 title: 添加 1Panel 第三方应用商店
 head:
   - - meta
-    - name: keywords
-      content: 1Panel 是一个现代化 开源的 Linux 服务器运维管理面板
-  - - meta
     - name: description
       content: 1Panel 是一个现代化 开源的 Linux 服务器运维管理面板
 ---

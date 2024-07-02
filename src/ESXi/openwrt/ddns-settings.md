@@ -2,9 +2,6 @@
 title: openwrt/istore os 动态DNS设置
 head:
   - - meta
-    - name: keywords
-      content: openwrt istore os 动态DNS 腾讯云 阿里云
-  - - meta
     - name: description
       content: openwrt istore os 动态DNS 腾讯云 阿里云
 ---

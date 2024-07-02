@@ -2,9 +2,6 @@
 title: 插件版
 head:
   - - meta
-    - name: keywords
-      content: 插件版
-  - - meta
     - name: description
       content: 插件版
 ---

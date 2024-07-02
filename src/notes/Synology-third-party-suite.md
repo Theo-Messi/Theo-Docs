@@ -2,9 +2,6 @@
 title: 添加 群晖DSM7.X 第三方套件源
 head:
   - - meta
-    - name: keywords
-      content: 群晖 DSM 套件 第三方套件源 群晖套件 群晖第三方套件源 Synology
-  - - meta
     - name: description
       content: 群晖 DSM 套件 第三方套件源 群晖套件 群晖第三方套件源 Synology
 ---

@@ -2,9 +2,6 @@
 title: 使用 Vercel CLI
 head:
   - - meta
-    - name: keywords
-      content: Vercel CLI
-  - - meta
     - name: description
       content: Vercel CLI
 ---

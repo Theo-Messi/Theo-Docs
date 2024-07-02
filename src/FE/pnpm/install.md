@@ -2,9 +2,6 @@
 title: pnpm 安装
 head:
   - - meta
-    - name: keywords
-      content: pnpm
-  - - meta
     - name: description
       content: pnpm 安装 install
 ---
