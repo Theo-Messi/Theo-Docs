@@ -2,9 +2,6 @@
 title: Docker 搭建 aria2+AriaNg
 head:
   - - meta
-    - name: keywords
-      content: Docker aria2 AriaNg
-  - - meta
     - name: description
       content: Docker aria2 AriaNg
 ---

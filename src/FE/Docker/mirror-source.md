@@ -2,9 +2,6 @@
 title: Docker 国内镜像加速
 head:
   - - meta
-    - name: keywords
-      content: Docker 虚拟化
-  - - meta
     - name: description
       content: Docker 虚拟化
 ---

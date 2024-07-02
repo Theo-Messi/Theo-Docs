@@ -2,9 +2,6 @@
 title: Git 版本回退
 head:
   - - meta
-    - name: keywords
-      content: git pull push status clone fetch reset branch merge revert tag rm mv log diff grep
-  - - meta
     - name: description
       content: Git 版本回退
 ---

@@ -2,9 +2,6 @@
 title: 安装青龙面板
 head:
   - - meta
-    - name: keywords
-      content: qinglong 青龙 面板 安装 部署 docker docker-compose podman
-  - - meta
     - name: description
       content: 本文档是介绍如何安装青龙面板的文档。
 ---

@@ -2,9 +2,6 @@
 title: Docker 进程相关操作
 head:
   - - meta
-    - name: keywords
-      content: Docker 虚拟化
-  - - meta
     - name: description
       content: Docker 虚拟化
 ---

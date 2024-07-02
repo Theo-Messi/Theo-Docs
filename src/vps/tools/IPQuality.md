@@ -2,9 +2,6 @@
 title: IP质量体检脚本
 head:
   - - meta
-    - name: keywords
-      content: IP质量体检脚本 中英文双语言支持 IPQuality 一键脚本
-  - - meta
     - name: description
       content: IP质量体检脚本 中英文双语言支持 IPQuality 一键脚本
 ---

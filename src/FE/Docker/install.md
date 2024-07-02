@@ -2,9 +2,6 @@
 title: Docker 简介与安装
 head:
   - - meta
-    - name: keywords
-      content: Docker 虚拟化
-  - - meta
     - name: description
       content: Docker 虚拟化
 ---

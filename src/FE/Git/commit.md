@@ -2,9 +2,6 @@
 title: Git 合并commit
 head:
   - - meta
-    - name: keywords
-      content: git pull push status clone fetch reset branch merge revert tag rm mv log diff grep
-  - - meta
     - name: description
       content: Git 合并commit
 ---

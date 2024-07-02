@@ -2,9 +2,6 @@
 title: openwrt 实时抓包
 head:
   - - meta
-    - name: keywords
-      content: openwrt 实时抓包
-  - - meta
     - name: description
       content: openwrt 实时抓包
 ---

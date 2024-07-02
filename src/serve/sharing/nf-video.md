@@ -2,9 +2,6 @@
 title: 银河录像局
 head:
   - - meta
-    - name: keywords
-      content: 机场 流媒体 解锁 线路 科学上网 Netflix Disney YouTube Premium HOB GO Spotify Hulu 奈飞小铺 银河录像局
-  - - meta
     - name: description
       content: 国内可靠的智能奈飞合租平台，提供 `Netflix` `Spotify` `YouTube` `Disney+` `HBO` 等流媒体服务以及 `ChatGPT Plus(OpenAI)`、`MidJourney` 等 AI 服务
 ---

@@ -2,9 +2,6 @@
 title: Ubuntu 开机自动挂载 NAS磁盘
 head:
   - - meta
-    - name: keywords
-      content: Ubuntu 开机自动挂载 NAS磁盘 cifs-utils
-  - - meta
     - name: description
       content: Ubuntu 开机自动挂载 NAS磁盘 cifs-utils
 ---

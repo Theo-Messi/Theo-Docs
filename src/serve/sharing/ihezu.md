@@ -2,9 +2,6 @@
 title: 奈飞小铺
 head:
   - - meta
-    - name: keywords
-      content: 机场 流媒体 解锁 线路 科学上网 Netflix Disney YouTube Premium HOB GO Spotify Hulu 奈飞小铺 银河录像局
-  - - meta
     - name: description
       content: 奈飞小铺是由国内首家以 独立站 + 微信公众号 + 自动发货 + 自助售后 + 无限续费 模式运营的独立 Netflix 合租账号售卖平台，目前也是业内最大的奈飞账号（及其他流媒体服务账号）合租平台。
 ---

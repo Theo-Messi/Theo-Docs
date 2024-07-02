@@ -2,9 +2,6 @@
 title: 甲骨文云(Oracle Cloud)免费服务器开启 IPv6
 head:
   - - meta
-    - name: keywords
-      content: Oracle Cloud IPv6
-  - - meta
     - name: description
       content: 甲骨文云(Oracle Cloud)免费服务器开启 IPv6
 ---

@@ -2,9 +2,6 @@
 title: 旁路由设置
 head:
   - - meta
-    - name: keywords
-      content: openwrt istore os DNS 旁路由
-  - - meta
     - name: description
       content: openwrt istore os DNS 旁路由
 ---

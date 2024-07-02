@@ -2,9 +2,6 @@
 title: VitePress 添加 Giscu评论
 head:
   - - meta
-    - name: keywords
-      content: VitePress 添加 Giscu评论
-  - - meta
     - name: description
       content: VitePress 添加 Giscu评论
 ---
