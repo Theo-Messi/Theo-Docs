@@ -24,7 +24,11 @@ const mapAuthors = [
     name: 'Theo-Messi',
     username: 'Theo-Messi',
     mapByNameAliases: ['Theo', 'vanhiupun'],
-    mapByEmailAliases: ['fanxiaobin422@gmail.com', 'fanxiaobin422@sina.com', '771720405@qq.com']
+    mapByEmailAliases: [
+      'fanxiaobin422@gmail.com',
+      'fanxiaobin422@sina.com',
+      '771720405@qq.com'
+    ]
   },
   {
     name: 'dependabot',

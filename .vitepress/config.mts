@@ -1,7 +1,10 @@
 import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 import { algolia, head, nav, sidebar, markdown, socialLinks } from './configs'
-import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
+import {
+  GitChangelog,
+  GitChangelogMarkdownSection
+} from '@nolebase/vitepress-plugin-git-changelog/vite'
 
 // 导出默认配置
 export default defineConfig({
@@ -31,7 +34,9 @@ export default defineConfig({
       alias: [
         {
           find: /^.*\/VPFooter\.vue$/,
-          replacement: fileURLToPath(new URL('./theme/components/Footer.vue', import.meta.url))
+          replacement: fileURLToPath(
+            new URL('./theme/components/Footer.vue', import.meta.url)
+          )
         }
       ]
     },
@@ -64,7 +69,7 @@ export default defineConfig({
 
     // GitHub编辑页面
     editLink: {
-      pattern: 'https://github.com/Theo-messi/Theo-Docs/blob/main/src/:path',
+      pattern: 'https://github.com/Theo-Messi/Theo-Docs/blob/main/src/:path',
       text: '为此页提供修改建议'
     },
 
@@ -118,8 +123,8 @@ export default defineConfig({
 
     // 底部信息
     footer: {
-      message: `<font size="2">Released under the <a href="https://github.com/Theo-messi/Theo-Docs/blob/main/license" target="_blank">MIT License</a>.</font size="2">`,
-      copyright: `<font size="2">Copyright © 2019 - ${new Date().getFullYear()} <a href="https://github.com/Theo-messi" target="_blank">Theo-Messi</a></br>
+      message: `<font size="2">Released under the <a href="https://github.com/Theo-Messi/Theo-Docs/blob/main/license" target="_blank">MIT License</a>.</font size="2">`,
+      copyright: `<font size="2">Copyright © 2019 - ${new Date().getFullYear()} <a href="https://github.com/Theo-Messi" target="_blank">Theo-Messi</a></br>
       <a href="" target="_blank">ICP备</a>｜<a href="" target="_blank">公网安备</a></font size="2">`
     }
   }
