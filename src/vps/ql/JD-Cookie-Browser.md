@@ -13,15 +13,9 @@ head:
 - 国产百分浏览器-CentBrower
 - 国产 360、QQ 浏览器切换到极速模式
 
-<div style="margin-top: 10px">
-
-<Links 
-  l="https://m.jd.com/"
-  i='https://i.theovan.cn/logo/jd.png'
-  t="电脑浏览器 打开京东网址"
-/>
-
-</div>
+<Links :items="[
+{ name: '电脑浏览器 打开京东网址', icon:'https://i.theovan.cn/logo/jd.png',link: 'https://m.jd.com/' },
+]" />
 
 ## 步骤一
 

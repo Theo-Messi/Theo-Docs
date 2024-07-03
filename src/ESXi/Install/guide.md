@@ -20,17 +20,15 @@ head:
 
 可直接下载 ISO 镜像即可，如果你需要封装驱动，那就下载`Offline Bundle离线捆绑包`
 
-<Links 
-  l="https://customerconnect.vmware.com/evalcenter?p=vsphere-eval-8"
-  i='https://i.theovan.cn/logo/ESXi.png'
-  t="ESXi 官网下载"
-/>
+<Links :items="[
+{ name: 'ESXi 官网下载', link: 'https://customerconnect.vmware.com/evalcenter?p=vsphere-eval-8', icon: 'https://i.theovan.cn/logo/ESXi.png' },
+]" />
 
 ### 写盘工具
 
 <Box :items="[
-{ l: 'https://github.com/ventoy/Ventoy/releases', i: 'https://i.theovan.cn/logo/ventoy.png', t: 'Ventoy', ct: '官网下载' },
-{ l: 'https://etcher.balena.io/', i: 'https://i.theovan.cn/logo/Balenaetcher.png', t: 'Balenaetcher', ct: '官网下载' }
+{ name: 'Ventoy',link: 'https://github.com/ventoy/Ventoy/releases', icon: 'https://i.theovan.cn/logo/ventoy.png',  tag: '官网下载' },
+{ name: 'Balenaetcher',link: 'https://etcher.balena.io/', icon: 'https://i.theovan.cn/logo/Balenaetcher.png',  tag: '官网下载' }
 ]"/>
 
 ### StarWind V2V Converter 程序
@@ -40,10 +38,10 @@ head:
 如果直接用 VMDK，ESXi 8.0 将无法挂载镜像。
 
 下载需要填写邮箱，下载地址会发送到你的邮箱里。
-<Links 
-  l="https://www.starwindsoftware.com/starwind-v2v-converter"
-  t="StarWind V2V Converter 官网下载"
-/>
+
+<Links :items="[
+{ name: 'StarWind V2V Converter 官网下载', link: 'https://www.starwindsoftware.com/starwind-v2v-converter' },
+]" />
 
 ## ESXi写盘
 

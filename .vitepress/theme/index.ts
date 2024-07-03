@@ -5,9 +5,12 @@ import { inject } from '@vercel/analytics'
 
 import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
-import AsideLogo from './components/AsideLogo.vue'
-import Box from './components/Box.vue'
-import Links from './components/Links.vue'
+import DocAsideLogo from './components/DocAsideLogo.vue'
+import HomeUnderline from './components/HomeUnderline.vue'
+import DocBox from './components/DocBox.vue'
+import DocLinks from './components/DocLinks.vue'
+import DocBoxCube from './components/DocBoxCube.vue'
+import DocVideoLink from './components/DocVideoLink.vue'
 import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client'
 import imageViewer from 'vitepress-plugin-image-viewer'
 import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue'
@@ -41,14 +44,17 @@ export default {
   extends: DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
-      'aside-ads-before': () => h(AsideLogo)
+      'aside-ads-before': () => h(DocAsideLogo)
     })
   },
   enhanceApp: ({ app }: EnhanceAppContext, ctx) => {
     googleAnalytics({ id: 'G-6QN23XNMXB' })
     app.component('vImageViewer', vImageViewer)
-    app.component('Box', Box)
-    app.component('Links', Links)
+    app.component('Home', HomeUnderline)
+    app.component('Box', DocBox)
+    app.component('Links', DocLinks)
+    app.component('BoxCube', DocBoxCube)
+    app.component('VideoLink', DocVideoLink)
     app.use(TwoslashFloatingVue)
     app.use(NolebaseGitChangelogPlugin, { mapAuthors })
   },

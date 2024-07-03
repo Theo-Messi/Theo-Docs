@@ -15,11 +15,9 @@ head:
 **活动时间：即日起至2024年6月29日23点59分**
 
 :::
-<Links
-  l="https://fbinv01.fbaff.cc/auth/register?code=RZP3"
-  i="https://flyingbirdlimo.com/wp-content/uploads/2022/03/Flying-Bird-Logo-cropped.png"
-  t="FlyingBird 注册链接"
-/> -->
+<Links :items="[
+{ name: 'FlyingBird 注册链接', icon:'https://flyingbirdlimo.com/wp-content/uploads/2022/03/Flying-Bird-Logo-cropped.png', link: 'https://fbinv01.fbaff.cc/auth/register?code=RZP3' },
+]" /> -->
 
 ## [FlyingBird 简介](https://fbinv01.fbaff.cc/auth/register?code=RZP3)
 

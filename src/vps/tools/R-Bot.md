@@ -14,17 +14,13 @@ head:
 **Telegram 关注 机器人**
 
 <Box :items="[
-{ l: 'https://t.me/radiance_helper_bot', i: 'fab fa-telegram',  color: '#26A5E4', t: 'R探长的小助理', ct: 'BOT' },
-{ l: 'https://t.me/agentONE_R', i: 'fab fa-telegram',  color: '#26A5E4',  t: 'R探长', ct: '频道' }
+{ name: 'R探长的小助理',link: 'https://t.me/radiance_helper_bot',icon: 'fab fa-telegram',color: '#26A5E4',tag: 'BOT' },
+{ name: 'R探长',link: 'https://t.me/agentONE_R',icon: 'fab fa-telegram',color: '#26A5E4',tag: '频道' }
 ]"/>
 
-<div style="margin-top: 10px;"></div>
-<Links 
-l="https://github.com/semicons/java_oci_manage"
-light="https://i.theovan.cn/logo/github.svg"
-dark="https://i.theovan.cn/logo/github-dark.svg"
-t="Github 项目地址"
-/>
+<Links :items="[
+{ name: 'GitHub 项目地址',   light:'https://i.theovan.cn/logo/github.svg',dark:'https://i.theovan.cn/logo/github-dark.svg',link: 'https://github.com/semicons/java_oci_manage' },
+]" />
 
 ## 获取 VPS INFO
 
