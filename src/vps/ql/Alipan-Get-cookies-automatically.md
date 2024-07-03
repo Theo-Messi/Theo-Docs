@@ -8,14 +8,9 @@ head:
 
 ### 自动获取
 
-<div style="margin-top: 10px">
-
-<Links
-  l="https://www.aliyundrive.com/drive/"
-  i='https://i.theovan.cn/logo/alipan.svg'
-  t="登录阿里云盘"/>
-
-</div>
+<Links :items="[
+{ name: '登录阿里云盘', icon:'https://i.theovan.cn/logo/alipan.svg',link: 'https://www.aliyundrive.com/drive/' },
+]" />
 
 ```sh
 # 控制台粘贴

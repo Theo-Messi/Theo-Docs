@@ -47,12 +47,9 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 
 :::
 
-<Links 
-  l="https://github.com/1Panel-dev/1Panel/releases"
-  light="https://i.theovan.cn/logo/github.svg"
-  dark="https://i.theovan.cn/logo/github-dark.svg"
-  t="GitHub release 链接"
-/>
+<Links :items="[
+{ name: 'GitHub release 链接',   light:'https://i.theovan.cn/logo/github.svg',dark:'https://i.theovan.cn/logo/github-dark.svg',link: 'https://github.com/1Panel-dev/1Panel/releases' },
+]" />
 
 安装成功后，控制台会打印面板访问信息，可通过浏览器访问 1Panel：
 

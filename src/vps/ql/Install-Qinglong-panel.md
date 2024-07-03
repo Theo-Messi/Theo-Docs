@@ -10,14 +10,9 @@ head:
 
 ### Docker
 
-<div style="margin-top: 10px">
-<Links 
-  l="/FE/Docker/install#一键安装-docker"
-  i='fab fa-docker'
-  color="#2496ED"
-  t="安装 Docker"
-/>
-</div>
+<Links :items="[
+{ name: '安装 Docker', icon:'fab fa-docker', color:'#2496ED',link: '/FE/Docker/install#一键安装-docker' },
+]" />
 
 - `latest` 镜像是基于 `alpine` 构建，
 - `debian` 镜像是基于 `debian-slim` 构建。

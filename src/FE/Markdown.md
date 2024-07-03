@@ -6,39 +6,42 @@ head:
       content: Markdown 入门使用
 ---
 
-**支持深色与浅色模式自动切换**
-<Links 
-  l="https://share.theovan.cn/"
-  light="https://i.theovan.cn/logo/github.svg"
-  dark="https://i.theovan.cn/logo/github-dark.svg"
-  t="GitHub"
-/>
-
-<Box :items="[
-{ l: 'https://github.com/Theo-Messi', light: 'https://i.theovan.cn/logo/github.svg', dark: 'https://i.theovan.cn/logo/github-dark.svg', t: 'GitHub', ct: 'Github' },
+<BoxCube :items="[
+//使用FontAwesome图标
+{ name: 'Github', link: '',icon:'fab fa-github'}, 
+//使用FontAwesome图标 + 副标题
+{ name: 'Vue.js', link: '', icon: 'fab fa-vuejs', secondary:'v3.4.31'}, 
+//使用自定义图标+副标题
+{ name: 'Node.js', link: '', icon: 'https://i.theovan.cn/logo/nodejs.svg',secondary:'v20.15.0'},
+//使用自定义图标+深浅模式+副标题
+{ name: 'Github', link: '', light: 'https://i.theovan.cn/logo/github.svg', dark:'https://i.theovan.cn/logo/github-dark.svg',secondary:'v20.15.0'},
 ]"/>
 
 ---
 
-**使用 FontAwesome 图标**
-<Links 
-  l="https://i.theovan.cn/docs/202405201752089.jpg"
-  i="fab fa-alipay"
-  t="支付宝"
-  color="#00a1e9"
-/>
-
-<Links 
-  l="https://i.theovan.cn/docs/202405201752087.jpg"
-  i="fab fa-weixin"
-  t="微信"
-  color="#03d16d"
-/>
-
 <Box :items="[
-  { l: 'https://i.theovan.cn/docs/202405201752089.jpg', i: 'fab fa-alipay', color: '#00a1e9', t: '支付宝', ct: '打赏' },
-  { l: 'https://i.theovan.cn/docs/202405201752087.jpg', i: 'fab fa-weixin', color: '#03d16d', t: '微信', ct: '打赏' }
+//使用FontAwesome图标 + 颜色
+{ name: 'Vue.js', link: '',  icon:'fab fa-vuejs', color:'#4FC08D'},
+//使用FontAwesome图标 + 标签
+{ name: 'GitHub', link: '',  icon:'fab fa-github', tag: 'Github'},
+//使用FontAwesome图标 + 标签 + 颜色
+{ name: '支付宝', link: 'https://i.theovan.cn/docs/202405201752089.jpg',  icon: 'fab fa-alipay', color: '#00a1e9', tag: '打赏' },
+{ name: '微信', link: 'https://i.theovan.cn/docs/202405201752087.jpg',  icon: 'fab fa-weixin', color: '#2ca83c',  tag: '打赏' },
+//使用自定义图标 + 标签
+{ name: 'GitHub', link: '',  icon: 'https://i.theovan.cn/logo/github.svg',  tag: 'Github' },
+//使用自定义图标 + 深浅模式 + 标签
+{ name: 'GitHub', link: '', light: 'https://i.theovan.cn/logo/github.svg', dark: 'https://i.theovan.cn/logo/github-dark.svg',  tag: 'Github' },
 ]"/>
+
+---
+
+<Links :items="[
+{ name: '支付宝', link: 'https://www.alipay.com', icon: 'fab fa-alipay', color: '#00a1e9' },
+{ name: '微信支付', link: 'https://pay.weixin.qq.com', icon: 'fab fa-weixin', color: '#2ca83c' },
+{ name: '支付宝', link: 'https://www.alipay.com', icon: 'https://i.theovan.cn/logo/github.svg', },
+{ name: '支付宝', link: 'https://www.alipay.com',light: 'https://i.theovan.cn/logo/github.svg', dark: 'https://i.theovan.cn/logo/github-dark.svg', },
+{ name: '支付宝', link: 'https://www.alipay.com',},
+]" />
 
 ## 待办列表
 
@@ -110,7 +113,7 @@ _斜体文本_
 
 **输入**
 
-```
+```md
 [这是一个链接](https://doc.theovan.cn/)
 ```
 
@@ -122,7 +125,7 @@ _斜体文本_
 
 **输入**
 
-```
+```md
 ![home-img](/index/home.png =300x300)
 ```
 
@@ -134,62 +137,92 @@ _斜体文本_
 
 **输入**
 
-```
-<video src="https://i.theovan.cn/docs/video.mp4" controls="controls" width="500" height="300"></video>
+```html
+<iframe
+  src="//player.bilibili.com/player.html?isOutside=true&aid=1205847484&bvid=BV1if421Q7mL&cid=1584505931&p=1"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true"
+></iframe>
 ```
 
 **输出**
 
-<video src="https://i.theovan.cn/docs/video.mp4" controls="controls" width="500" height="300"></video>
+<iframe
+  loading="lazy"
+  width="100%"
+  height="400"
+  src="//player.bilibili.com/player.html?isOutside=true&aid=1205847484&bvid=BV1if421Q7mL&cid=1584505931&p=1"
+  frameborder="0"
+  allowfullscreen="true"
+></iframe>
+
+### 或者使用组件
+
+**输入**
+
+```vue
+<VideoLink
+  href="//player.bilibili.com/player.html?isOutside=true&aid=1205847484&bvid=BV1if421Q7mL&cid=1584505931&p=1"
+  name="【MV】HELP!! - 可波·卡娜埃露"
+/>
+```
+
+**输出**
+<VideoLink href="//player.bilibili.com/player.html?isOutside=true&aid=1205847484&bvid=BV1if421Q7mL&cid=1584505931&p=1" name="【MV】HELP!! - 可波·卡娜埃露" />
 
 ## 音乐
 
 **输入**
 
-```
+```html
 <iframe
-    frameborder="no"
-    border="0"
-    marginwidth="0"
-    marginheight="0"
-    width=330
-    height=86
-    src="//music.163.com/outchain/player?type=2&id=393697&auto=1&height=66">
+  :frameborder="0"
+  :border="0"
+  :marginwidth="0"
+  :marginheight="0"
+  :width="330"
+  :height="86"
+  src="//music.163.com/outchain/player?type=2&id=393697&auto=1&height=66"
+>
 </iframe>
 ```
 
 **输出**
 
 <iframe
-    frameborder="no"
-    border="0"
-    marginwidth="0"
-    marginheight="0"
-    width=330
-    height=86
-    src="//music.163.com/outchain/player?type=2&id=393697&auto=1&height=66">
+  :frameborder="0"
+  :border="0"
+  :marginwidth="0"
+  :marginheight="0"
+  :width="330"
+  :height="86"
+  src="//music.163.com/outchain/player?type=2&id=393697&auto=1&height=66">
 </iframe>
 
 ## 设置字体颜色
 
 **输入**
 
-```
-<font color=gray > color=gray </font><br>
-<font color=#00ffff > color=#00ffff </font><br>
-<font color=#0099ff > color=#0099ff </font><br>
+```html
+<span :style="{ color: 'gray' }">color=gray</span><br />
+<span :style="{ color: '#00ffff' }">color=#00ffff</span><br />
+<span :style="{ color: '#0099ff' }">color=#0099ff</span><br />
 ```
 
 **输出**
-<font color=gray > color=gray </font><br>
-<font color=#00ffff > color=#00ffff </font><br>
-<font color=#0099ff > color=#0099ff </font><br>
+
+<span :style="{ color: 'gray' }">color=gray</span><br>
+<span :style="{ color: '#00ffff' }">color=#00ffff</span><br>
+<span :style="{ color: '#0099ff' }">color=#0099ff</span><br>
 
 ## 表格
 
 **输入**
 
-```
+```md
 | Tables        |      Are      |  Cool |
 | ------------- | :-----------: | ----: |
 | col 3 is      | right-aligned | $1600 |
@@ -209,7 +242,7 @@ _斜体文本_
 
 **输入**
 
-```
+```md
 :tada: :100:
 ```
 
@@ -221,7 +254,7 @@ _斜体文本_
 
 **输入**
 
-```
+```md
 ::: info
 [这是一个链接](https://doc.theovan.cn/)
 :::
@@ -268,7 +301,7 @@ _斜体文本_
 
 **输入**
 
-````
+````md
 ::: danger STOP
 [这是一个链接](https://doc.theovan.cn/)
 :::
@@ -337,7 +370,7 @@ console.log('Hello, VitePress!')
 
 **输入**
 
-````
+````md
 ```js
 export default {
   name: 'MyComponent'
@@ -371,7 +404,7 @@ export default {
 
 **输入**
 
-````
+````md
 ```js{4}
 export default {
   data () {
@@ -400,7 +433,7 @@ export default { // Highlighted
 export default {
   data() {
     return {
-      msg: 'Highlighted!' // [!code hl]
+      msg: 'Highlighted!' // [!!code hl] 这里多加一个!为了不被格式化
     }
   }
 }
@@ -467,13 +500,13 @@ export default {
 
 **输入**
 
-````
+````md
 ```js
 export default {
   data () {
     return {
-      msg: 'Removed' // [!code --]
-      msg: 'Added' // [!code ++]
+      msg: 'Removed' // [!!code --] 这里多加一个!为了不被格式化
+      msg: 'Added' // [!!code ++] 这里多加一个!为了不被格式化
     }
   }
 }
@@ -497,13 +530,13 @@ export default {
 
 **输入**
 
-````
+````md
 ```js
 export default {
   data() {
     return {
-      msg: 'Error', // [!code error]
-      msg: 'Warning' // [!code warning]
+      msg: 'Error', // [!!code error] 这里多加一个!为了不被格式化
+      msg: 'Warning' // [!!code warning] 这里多加一个!为了不被格式化
     }
   }
 }
@@ -527,21 +560,21 @@ export default {
 
 **输入**
 
-````
+````md
 ```ts {1}
-// line-numbers is disabled by default
+// 默认情况下禁用行号
 const line2 = 'This is line 2'
 const line3 = 'This is line 3'
 ```
 
 ```ts:line-numbers {1}
-// line-numbers is enabled
+// 行号已启用
 const line2 = 'This is line 2'
 const line3 = 'This is line 3'
 ```
 
 ```ts:line-numbers=2 {1}
-// line-numbers is enabled and start from 2
+// 行号已启用并从 2 开始
 const line3 = 'This is line 3'
 const line4 = 'This is line 4'
 ```
@@ -550,19 +583,19 @@ const line4 = 'This is line 4'
 **输出**
 
 ```ts {1}
-// line-numbers is disabled by default
+// 默认情况下禁用行号
 const line2 = 'This is line 2'
 const line3 = 'This is line 3'
 ```
 
 ```ts:line-numbers {1}
-// line-numbers is enabled
+// 行号已启用
 const line2 = 'This is line 2'
 const line3 = 'This is line 3'
 ```
 
 ```ts:line-numbers=2 {1}
-// line-numbers is enabled and start from 2
+// 行号已启用并从 2 开始
 const line3 = 'This is line 3'
 const line4 = 'This is line 4'
 ```
@@ -571,7 +604,7 @@ const line4 = 'This is line 4'
 
 **输入**
 
-````
+````md
 ::: code-group
 
 ```js [config.js]
@@ -628,7 +661,7 @@ export default config
 
 **输入**
 
-```
+```md
 <<< @/code/cs.ts
 <<< @/code/cs.ts{2}
 ```
@@ -642,7 +675,7 @@ export default config
 
 **输入**
 
-```
+```md
 <Badge type="info" text="default" />
 
 <Badge type="tip" text="^1.9.0" />
@@ -670,7 +703,7 @@ export default config
 
 **输入**
 
-```
+```vue
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
@@ -678,11 +711,9 @@ const members = [
   {
     avatar: 'https://www.github.com/Theo-Messi.png',
     name: 'Theo',
-    title: '作者',
-    links: [
-      { icon: 'github', link: 'https://github.com/Theo-Messi' },
-    ]
-  },
+    title: 'Author',
+    links: [{ icon: 'github', link: 'https://github.com/Theo-Messi' }]
+  }
 ]
 </script>
 
@@ -698,7 +729,7 @@ const members = [
   {
     avatar: 'https://www.github.com/Theo-Messi.png',
     name: 'Theo',
-    title: '作者',
+    title: 'Author',
     links: [
       { icon: 'github', link: 'https://github.com/Theo-Messi' },
     ]
@@ -712,7 +743,7 @@ const members = [
 
 **输入**
 
-```
+```md
 <!-- 浅色模式 -->
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-w7jYJD-PBaozaH5WdubTPnBdi-XcQ4N96w&usqp=CAU){.light-only}
@@ -722,7 +753,7 @@ const members = [
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCHxR2C_q8ugOMQzSmMovD3ni-z1QqTopSjg&usqp=CAU){.dark-only}
 ```
 
-```
+```md
 <!-- 深色模式 -->
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCHxR2C_q8ugOMQzSmMovD3ni-z1QqTopSjg&usqp=CAU#dark)

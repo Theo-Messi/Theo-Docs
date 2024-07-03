@@ -6,12 +6,9 @@ head:
       content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt Windows11 Windows10 Windows12
 ---
 
-<Links 
-  l="https://www.starwindsoftware.com/starwind-v2v-converter"
-  i='fab fa-windows'
-  t="官网下载 Windows 11 "
-  color="#0078D6"
-/>
+<Links :items="[
+{ name: '官网下载 Windows 11', icon:'fab fa-windows', color:'#0078D6', link: 'https://www.microsoft.com/zh-cn/software-download/windows11' },
+]" />
 
 ## 选择创建新的虚拟机
 

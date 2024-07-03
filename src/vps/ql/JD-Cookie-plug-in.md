@@ -12,15 +12,9 @@ head:
 - 新版 Edge 浏览器
 - 国产百分浏览器-CentBrower
 
-<div style="margin-top: 10px">
-
-<Links 
-  l="https://m.jd.com/"
-  i='https://i.theovan.cn/logo/jd.png'
-  t="电脑浏览器 打开京东网址"
-/>
-
-</div>
+<Links :items="[
+{ name: '电脑浏览器 打开京东网址', icon:'https://i.theovan.cn/logo/jd.png',link: 'https://m.jd.com/' },
+]" />
 
 ## Chrome 类浏览器安装**EditThisCookie**插件
 

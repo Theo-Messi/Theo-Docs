@@ -19,12 +19,9 @@ head:
 - 宝塔面板
 - 一个域名
 
-<Links 
-  l="https://github.com/naiba/nezha"
-  light="https://i.theovan.cn/logo/github.svg"
-  dark="https://i.theovan.cn/logo/github-dark.svg"
-  t="项目地址"
-/>
+<Links :items="[
+{ name: 'GitHub 项目地址',   light:'https://i.theovan.cn/logo/github.svg',dark:'https://i.theovan.cn/logo/github-dark.svg',link: 'https://github.com/naiba/nezha' },
+]" />
 
 ## 获取 Github 的 Client ID 和密钥
 

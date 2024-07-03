@@ -5,3 +5,4 @@ template
 temp
 !CHANGELOG.md
 .temp
+*.vue
