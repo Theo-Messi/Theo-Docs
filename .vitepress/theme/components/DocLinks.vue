@@ -21,8 +21,7 @@ import { defineComponent } from 'vue'
 interface Item {
   name: string
   link: string
-  target: string
-  color: string
+  color?: string
   icon?: string
   light?: string
   dark?: string
@@ -39,7 +38,6 @@ export default defineComponent({
           (item) =>
             item.hasOwnProperty('name') &&
             item.hasOwnProperty('link') &&
-            item.hasOwnProperty('target') &&
             item.hasOwnProperty('color') &&
             (item.hasOwnProperty('icon') ||
               item.hasOwnProperty('light') ||
@@ -78,7 +76,7 @@ export default defineComponent({
 .link {
   width: 100%;
   height: 3rem;
-  border: 1px solid var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-bg-alt);
   background-color: var(--vp-c-bg-alt);
   border-radius: 0.8rem;
   display: flex;
