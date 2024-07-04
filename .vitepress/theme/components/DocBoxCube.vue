@@ -23,9 +23,8 @@ interface Item {
   icon: string
   name: string
   link: string
-  target: string
-  secondary: string
-  color: string
+  secondary?: string
+  color?: string
   light?: string
   dark?: string
 }
@@ -42,7 +41,6 @@ export default defineComponent({
             item.hasOwnProperty('icon') &&
             item.hasOwnProperty('name') &&
             item.hasOwnProperty('link') &&
-            item.hasOwnProperty('target') &&
             item.hasOwnProperty('secondary') &&
             item.hasOwnProperty('color') &&
             (item.hasOwnProperty('light') || item.hasOwnProperty('dark'))
@@ -80,7 +78,7 @@ export default defineComponent({
   margin-top: 1rem;
   width: 7.5rem;
   height: 7.5rem;
-  border: 1px solid var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-bg-alt);
   background-color: var(--vp-c-bg-alt);
   border-radius: 0.8rem;
   display: flex;

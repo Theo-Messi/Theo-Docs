@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { defineProps, computed, ref } from 'vue'
+import { computed, ref } from 'vue'
 
 const props = defineProps<{
   href: string
-  title: string
   name: string
 }>()
 
@@ -59,7 +58,7 @@ const toggleVideo = () => {
       </template>
     </template>
     <template v-else>
-      <a :href="props.href" target="_blank" rel="noopener" :title="props.title" class="cta">
+      <a :href="props.href" target="_blank" rel="noopener" :title="props.name" class="cta">
         <div class="name">{{ props.name }}</div>
       </a>
     </template>
@@ -75,12 +74,12 @@ const toggleVideo = () => {
     transition: border-color 0.3s;
     padding: 1rem 1.25rem;
     height: 3.5rem;
-    background-color: var(--vp-c-bg-alt);
-    border-radius: 1rem;
+    border-radius: 0.8rem;
     border: 1px solid var(--vp-c-bg-alt);
+    background-color: var(--vp-c-bg-alt);
 
     &:hover {
-      border: 1px solid var(--vp-c-brand-1);
+      border-color: var(--vp-c-brand-1);
     }
   }
 }
@@ -115,17 +114,8 @@ const toggleVideo = () => {
 
   .fa-circle-play {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     left: 0;
-    display: inline-block;
-
-    &::before {
-      content: '\f144';
-      font-family: 'Font Awesome 5 Free';
-      font-weight: 900;
-      color: var(--vp-c-brand-1);
-    }
+    color: var(--vp-c-brand-1);
   }
 }
 </style>
