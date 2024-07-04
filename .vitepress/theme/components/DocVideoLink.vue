@@ -3,7 +3,6 @@ import { defineProps, computed, ref } from 'vue'
 
 const props = defineProps<{
   href: string
-  title: string
   name: string
 }>()
 
@@ -59,7 +58,7 @@ const toggleVideo = () => {
       </template>
     </template>
     <template v-else>
-      <a :href="props.href" target="_blank" rel="noopener" :title="props.title" class="cta">
+      <a :href="props.href" target="_blank" rel="noopener" :title="props.name" class="cta">
         <div class="name">{{ props.name }}</div>
       </a>
     </template>

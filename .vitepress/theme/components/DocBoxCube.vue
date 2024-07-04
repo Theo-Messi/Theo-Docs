@@ -23,9 +23,8 @@ interface Item {
   icon: string
   name: string
   link: string
-  target: string
-  secondary: string
-  color: string
+  secondary?: string
+  color?: string
   light?: string
   dark?: string
 }
@@ -42,7 +41,6 @@ export default defineComponent({
             item.hasOwnProperty('icon') &&
             item.hasOwnProperty('name') &&
             item.hasOwnProperty('link') &&
-            item.hasOwnProperty('target') &&
             item.hasOwnProperty('secondary') &&
             item.hasOwnProperty('color') &&
             (item.hasOwnProperty('light') || item.hasOwnProperty('dark'))
