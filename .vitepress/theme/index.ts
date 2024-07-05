@@ -1,7 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import { EnhanceAppContext, useRoute } from 'vitepress'
 import { h } from 'vue'
-import { inject } from '@vercel/analytics'
 
 import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
@@ -18,8 +17,6 @@ import '@shikijs/vitepress-twoslash/style.css'
 import './styles/index.scss'
 import 'viewerjs/dist/viewer.min.css'
 import '@fortawesome/fontawesome-free/css/all.css'
-
-inject()
 
 export default {
   extends: DefaultTheme,
