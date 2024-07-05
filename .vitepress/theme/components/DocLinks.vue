@@ -76,7 +76,7 @@ export default defineComponent({
 .link {
   width: 100%;
   height: 3rem;
-  border: 1px solid var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-bg-alt);
   background-color: var(--vp-c-bg-alt);
   border-radius: 0.8rem;
   display: flex;

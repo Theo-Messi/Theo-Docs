@@ -78,7 +78,7 @@ export default defineComponent({
   margin-top: 1rem;
   width: 7.5rem;
   height: 7.5rem;
-  border: 1px solid var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-bg-alt);
   background-color: var(--vp-c-bg-alt);
   border-radius: 0.8rem;
   display: flex;

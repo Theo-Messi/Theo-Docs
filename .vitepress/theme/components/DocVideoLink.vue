@@ -74,12 +74,12 @@ const toggleVideo = () => {
     transition: border-color 0.3s;
     padding: 1rem 1.25rem;
     height: 3.5rem;
-    background-color: var(--vp-c-bg-alt);
-    border-radius: 1rem;
+    border-radius: 0.8rem;
     border: 1px solid var(--vp-c-bg-alt);
+    background-color: var(--vp-c-bg-alt);
 
     &:hover {
-      border: 1px solid var(--vp-c-brand-1);
+      border-color: var(--vp-c-brand-1);
     }
   }
 }
@@ -114,17 +114,8 @@ const toggleVideo = () => {
 
   .fa-circle-play {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     left: 0;
-    display: inline-block;
-
-    &::before {
-      content: '\f144';
-      font-family: 'Font Awesome 5 Free';
-      font-weight: 900;
-      color: var(--vp-c-brand-1);
-    }
+    color: var(--vp-c-brand-1);
   }
 }
 </style>

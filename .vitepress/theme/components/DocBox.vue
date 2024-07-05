@@ -78,7 +78,7 @@ export default defineComponent({
 
 .box {
   position: relative;
-  border: 1px solid var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-bg-alt);
   background-color: var(--vp-c-bg-alt);
   padding: 0.8rem 1.6rem;
   border-radius: 0.8rem;
