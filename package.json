@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@mdit/plugin-img-size": "^0.12.0",
-    "@shikijs/vitepress-twoslash": "^1.10.0",
+    "@shikijs/vitepress-twoslash": "^1.10.1",
     "prettier": "3.3.2",
     "sass": "^1.77.6",
     "vitepress": "1.2.3",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
-    "@types/node": "^20.14.9",
+    "@types/node": "^20.14.10",
     "lint-staged": "^15.2.7",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-task-checkbox": "^1.0.6",
