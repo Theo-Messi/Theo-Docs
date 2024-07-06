@@ -10,7 +10,7 @@ head:
 
 <Box :items="[
 {name: 'Ubuntu', link: 'https://cn.ubuntu.com/download/desktop', icon: 'fab fa-ubuntu',  color: '#E95420', tag: '24.04 LTS' },
-{name: 'Debian',link: 'https://github.com/AUK9527/Are-u-ok/tree/main/x86', icon: 'fab fa-debian', color: '#A81D33',  tag: '12.5' }
+{name: 'Debian',link: 'https://www.debian.org/', icon: 'fab fa-debian', color: '#A81D33',  tag: '12.5' }
 ]"/>
 
 ## 开启SSH服务远程登录

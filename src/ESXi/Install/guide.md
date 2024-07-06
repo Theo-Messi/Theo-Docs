@@ -21,7 +21,7 @@ head:
 可直接下载 ISO 镜像即可，如果你需要封装驱动，那就下载`Offline Bundle离线捆绑包`
 
 <Links :items="[
-{ name: 'ESXi 官网下载', link: 'https://customerconnect.vmware.com/evalcenter?p=vsphere-eval-8', icon: 'https://i.theovan.cn/logo/ESXi.png' },
+{ name: 'ESXi 官网下载', link: 'https://www.broadcom.cn/', icon: 'https://i.theovan.cn/logo/ESXi.png' },
 ]" />
 
 ### 写盘工具

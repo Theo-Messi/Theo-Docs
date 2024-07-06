@@ -1,79 +1,72 @@
 <template>
-  <!-- <a class="banner" href="https://fbinv01.fbaff.cc/auth/register?code=RZP3" target="_blank">
-    <img width="22" height="22"
-      src="https://flyingbirdlimo.com/wp-content/uploads/2022/03/Flying-Bird-Logo-cropped.png" />
-    <span>
-      <p class="Activity">FlyingBird 618活动来了</p>
-      <p class="extra">月付 85折 优惠码：2461885</p>
-      <p class="extra">年付 64折 优惠码：2461880</p>
-    </span>
-  </a> -->
-
-  <a class="banner" href="https://xx.theovan.cn/" name="玄学宝典" title="玄学宝典" target="_blank">
-    <img width="22" height="22" src="https://i.theovan.cn/avatar.png" />
-    <span>
-      <p class="extra-info">传世经典著作</p>
-      <p class="heading">玄学宝典</p>
-      <p class="extra-info">山医命相卜</p>
-    </span>
-  </a>
-  <a class="banner" href="https://share.theovan.cn/" name="阿里云盘资源分享" title="阿里云盘资源分享" target="_blank">
-    <img width="22" height="22" src="https://i.theovan.cn/docs/202405101119004.png" />
-    <span>
-      <p class="extra-info">快速获取热门影视资源</p>
-      <p class="heading">阿里云盘资源分享</p>
-      <p class="extra-info">转存观看!</p>
-    </span>
-  </a>
-  <a class="banner" href="/serve/sharing/Account-sharing-guide" name="流媒体帐号合租" title="流媒体帐号合租" target="_blank">
-    <img width="22" height="22" src="https://cdn.iconscout.com/icon/free/png-256/free-netflix-2296042-1912001.png" />
-    <span>
-      <p class="extra-info">流媒体账号合租</p>
-      <p class="heading">流媒体帐号合租</p>
-      <p class="extra-info">共享车位</p>
-    </span>
-  </a>
-  <a class="banner" href="https://github.com/sponsors/Theo-Messi" name="赞助" title="赞助" target="_blank">
-    <img width="22" height="22" src="/爱心.png" />
-    <span>
-      <!-- <p class="extra-info">Sponsor for me</p> -->
-      <p class="heading">为我赞助</p>
-      <!-- <p class="extra-info">Sponsor now!</p> -->
-    </span>
-  </a>
+  <div>
+    <a v-for="(banner, index) in banners" :key="index" :href="banner.link" :name="`${banner.Activity || banner.name}`"
+      :title="`${banner.Activity || banner.name}`" class="banner" target="_blank">
+      <img :src="banner.icon" width="22" height="22" />
+      <span>
+        <p v-if="banner.Activity" class="Activity">{{ banner.Activity }}</p>
+        <p v-if="banner.hide1" class="hide">{{ banner.hide1 }}</p>
+        <p v-if="banner.info1" class="info">{{ banner.info1 }}</p>
+        <p v-if="banner.name" class="name">{{ banner.name }}</p>
+        <p v-if="banner.hide2" class="hide">{{ banner.hide2 }}</p>
+        <p v-if="banner.info2" class="info">{{ banner.info2 }}</p>
+      </span>
+    </a>
+  </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'BannerComponent',
-  setup() { }
-})
+  setup() {
+    const banners = [
+      // {
+      //   link: 'https://fbinv01.fbaff.cc/auth/register?code=RZP3',
+      //   icon: 'https://flyingbirdlimo.com/wp-content/uploads/2022/03/Flying-Bird-Logo-cropped.png',
+      //   Activity: 'FlyingBird 618活动来了',
+      //   info1: '月付 85折 优惠码  2461885',
+      //   info2: '年付 64折 优惠码  2461880',
+      // },
+      {
+        link: 'https://xx.theovan.cn/',
+        icon: 'https://i.theovan.cn/avatar.png',
+        name: '玄学宝典',
+        hide1: '传世经典著作',
+        hide2: '山医命相卜',
+      },
+      {
+        link: 'https://share.theovan.cn/',
+        icon: 'https://i.theovan.cn/docs/202405101119004.png',
+        name: '阿里云盘资源分享',
+        hide1: '快速获取热门影视资源',
+        hide2: '转存观看!',
+      },
+      {
+        link: '/serve/sharing/Account-sharing-guide',
+        icon: 'https://cdn.iconscout.com/icon/free/png-256/free-netflix-2296042-1912001.png',
+        name: '流媒体帐号合租',
+        hide1: '流媒体账号合租',
+        hide2: '共享车位',
+      },
+      {
+        link: 'https://github.com/sponsors/Theo-Messi',
+        icon: '/爱心.png',
+        name: '为我赞助',
+      },
+    ];
+
+    return {
+      banners,
+    };
+  },
+});
 </script>
 
 <style lang="scss" scoped>
 .VPDocAsideSponsors {
   margin-top: 8px !important;
-}
-
-:deep(.vp-sponsor-grid.mini .vp-sponsor-grid-image) {
-  max-width: 158px;
-  max-height: 48px;
-}
-
-:deep(.vp-sponsor-grid.xmini .vp-sponsor-grid-image) {
-  max-width: 80px;
-  max-height: 32px;
-}
-
-:deep(.vp-sponsor-grid.xmini img) {
-  transition: transform 0.5s;
-  transform: scale(1);
-}
-
-:deep(.vp-sponsor-grid.xmini:hover img) {
-  transform: scale(1.15);
 }
 
 .banner {
@@ -110,7 +103,7 @@ export default defineComponent({
     transform: scale(1.75);
   }
 
-  .extra-info {
+  .hide {
     color: var(--vp-c-text-1);
     opacity: 0;
     font-size: 0.7rem;
@@ -118,17 +111,14 @@ export default defineComponent({
     transition: opacity 0.5s;
   }
 
-  .extra {
+  .info {
     color: var(--vp-c-text-2);
     font-size: 0.7rem;
     padding-left: 0.1rem;
   }
 
-  .heading {
-    background-image: linear-gradient(120deg,
-        var(--vp-c-brand-3) 32%,
-        var(--vp-c-brand-2),
-        var(--vp-c-brand-1));
+  .name {
+    background-image: linear-gradient(120deg, var(--vp-c-brand-3) 32%, var(--vp-c-brand-2), var(--vp-c-brand-1));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -142,11 +132,11 @@ export default defineComponent({
   }
 
   &:hover {
-    .extra-info {
+    .hide {
       opacity: 0.9;
     }
 
-    .extra {
+    .info {
       opacity: 0.9;
     }
   }
