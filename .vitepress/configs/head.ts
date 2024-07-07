@@ -166,13 +166,6 @@ export const head: HeadConfig[] = [
     }
   ],
   ['meta', { name: 'baidu-site-verification', content: 'codeva-SMUPLYe8bP' }],
-  [
-    'meta',
-    {
-      name: 'viewport',
-      content: 'width=device-width, initial-scale=1, maximum-scale=1'
-    }
-  ],
   ['meta', { name: 'format-detection', content: 'telephone=no' }],
   [
     'meta',

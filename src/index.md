@@ -30,25 +30,25 @@ hero:
       link: https://xx.theovan.cn
 features:
   - title: 流媒体观影
-    icon: <img src="index/netflix.svg" width="30"></img>
+    icon: <img src="index/netflix.svg" width="30" alt="netflix"></img>
     details: Netflix 、Disney+ 、Spotify会员 和 YouTube各平台使用指南
     link: /streaming/Netflix-guide
     linkText: 查看更多
 
   - title: 合租平台
-    icon: <i class="fab fa-youtube" style="color:#FF0000"></i>
+    icon: <i class="fab fa-youtube" style="color:#FF0000" alt="youtube"></i>
     details: 稳定好用的 Netflix 合租平台推荐
     link: /serve/sharing/Account-sharing-guide
     linkText: 查看更多
 
   - title: 优质线路
-    icon: <i class="fas fa-plane" style="color:#538dd7"></i>
+    icon: <i class="fas fa-plane" style="color:#538dd7" alt="IPLC"></i>
     details: 全专线IPLC，不限速，不限设备数量，超稳晚高峰，流媒体全解锁！全节点解锁chatgpt！
     link: /serve/airport/FlyingBird
     linkText: 查看更多
 
   - title: 云盘资源分享
-    icon: <i class="fas fa-genderless fa-lg" style="color:#4a6ffd"></i>
+    icon: <i class="fas fa-genderless fa-lg" style="color:#4a6ffd" alt="aliyundrive"></i>
     details: 热门资源/电视剧/电影/综艺/动漫/大陆/日本/韩国/欧美
     link: https://share.theovan.cn/
     linkText: 查看更多

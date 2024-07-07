@@ -16,12 +16,12 @@ head:
 
 ## 奈飞小铺定价
 
-|  平台   | 3 个月 | 6 个月 | 12 个月 | 24 个月 | 每月价格 |    优惠码    |               合租链接                |                       扫码直达                        |
-| :-----: | :----: | :----: | :-----: | :-----: | :------: | :----------: | :-----------------------------------: | :---------------------------------------------------: |
-| Netflix |  ¥ 75  | ¥ 147  |  ¥ 270  |   N/A   |  ¥ 22.5  | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![](https://i.theovan.cn/logo/ihezu.png "ihezu" =50x) |
-| YouTube |  N/A   |  N/A   |  ¥ 198  |  ¥ 376  |  ¥ 15.3  | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![](https://i.theovan.cn/logo/ihezu.png "ihezu" =50x) |
-| Spotify |  N/A   |  N/A   |  ¥ 118  |  ¥ 199  |  ¥ 8.3   | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![](https://i.theovan.cn/logo/ihezu.png "ihezu" =50x) |
-| Disney+ |  N/A   |  N/A   |  ¥ 118  |  ¥ 199  |  ¥ 8.3   | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![](https://i.theovan.cn/logo/ihezu.png "ihezu" =50x) |
+|  平台   | 3 个月 | 6 个月 | 12 个月 | 24 个月 | 每月价格 |    优惠码    |               合租链接                |                          扫码直达                          |
+| :-----: | :----: | :----: | :-----: | :-----: | :------: | :----------: | :-----------------------------------: | :--------------------------------------------------------: |
+| Netflix |  ¥ 75  | ¥ 147  |  ¥ 270  |   N/A   |  ¥ 22.5  | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![ihezu](https://i.theovan.cn/logo/ihezu.png "ihezu" =50x) |
+| YouTube |  N/A   |  N/A   |  ¥ 198  |  ¥ 376  |  ¥ 15.3  | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![ihezu](https://i.theovan.cn/logo/ihezu.png "ihezu" =50x) |
+| Spotify |  N/A   |  N/A   |  ¥ 118  |  ¥ 199  |  ¥ 8.3   | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![ihezu](https://i.theovan.cn/logo/ihezu.png "ihezu" =50x) |
+| Disney+ |  N/A   |  N/A   |  ¥ 118  |  ¥ 199  |  ¥ 8.3   | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![ihezu](https://i.theovan.cn/logo/ihezu.png "ihezu" =50x) |
 
 ## 奈飞小铺特点
 
