@@ -154,6 +154,8 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'og:type', content: 'website' }],
   ['meta', { name: 'og:locale', content: 'zh-CN' }],
   ['meta', { name: 'og:site_name', content: 'Theo Docs' }],
+  ['meta', { name: 'og:title', content: 'Theo Docs' }],
+  ['meta', { name: 'og:url', content: 'https://doc.theovan.cn/' }],
   ['meta', { name: 'og:image', content: 'https://doc.theovan.cn/avatar.png' }],
   ['meta', { name: 'robots', content: 'index, follow' }],
   ['meta', { name: 'evisit-after', content: '1 day' }],
@@ -165,14 +167,7 @@ export const head: HeadConfig[] = [
         '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、Bridge the Wise、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
     }
   ],
-  ['meta', { name: 'baidu-site-verification', content: 'codeva-SMUPLYe8bP' }],
-  [
-    'meta',
-    {
-      name: 'viewport',
-      content: 'width=device-width, initial-scale=1, maximum-scale=1'
-    }
-  ],
+  ['meta', { name: 'baidu-site-verification', content: 'codeva-nZkdNKHljC' }],
   ['meta', { name: 'format-detection', content: 'telephone=no' }],
   [
     'meta',

@@ -40,8 +40,8 @@ importers:
         specifier: ^0.12.0
         version: 0.12.0
       '@shikijs/vitepress-twoslash':
-        specifier: ^1.10.1
-        version: 1.10.1(typescript@5.5.2)
+        specifier: ^1.10.3
+        version: 1.10.3(typescript@5.5.2)
       prettier:
         specifier: 3.3.2
         version: 3.3.2
@@ -49,8 +49,8 @@ importers:
         specifier: ^1.77.6
         version: 1.77.6
       vitepress:
-        specifier: 1.2.3
-        version: 1.2.3(@algolia/client-search@4.24.0)(@types/node@20.14.10)(less@4.2.0)(postcss@8.4.39)(sass@1.77.6)(search-insights@2.14.0)(typescript@5.5.2)
+        specifier: 1.3.0
+        version: 1.3.0(@algolia/client-search@4.24.0)(@types/node@20.14.10)(less@4.2.0)(postcss@8.4.39)(sass@1.77.6)(search-insights@2.14.0)(typescript@5.5.2)
       vitepress-plugin-google-analytics:
         specifier: ^1.0.2
         version: 1.0.2
@@ -414,20 +414,17 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@shikijs/core@1.10.0':
-    resolution: {integrity: sha512-BZcr6FCmPfP6TXaekvujZcnkFmJHZ/Yglu97r/9VjzVndQA56/F4WjUKtJRQUnK59Wi7p/UTAOekMfCJv7jnYg==}
+  '@shikijs/core@1.10.3':
+    resolution: {integrity: sha512-D45PMaBaeDHxww+EkcDQtDAtzv00Gcsp72ukBtaLSmqRvh0WgGMq3Al0rl1QQBZfuneO75NXMIzEZGFitThWbg==}
 
-  '@shikijs/core@1.10.1':
-    resolution: {integrity: sha512-qdiJS5a/QGCff7VUFIqd0hDdWly9rDp8lhVmXVrS11aazX8LOTRLHAXkkEeONNsS43EcCd7gax9LLoOz4vlFQA==}
+  '@shikijs/transformers@1.10.3':
+    resolution: {integrity: sha512-MNjsyye2WHVdxfZUSr5frS97sLGe6G1T+1P41QjyBFJehZphMcr4aBlRLmq6OSPBslYe9byQPVvt/LJCOfxw8Q==}
 
-  '@shikijs/transformers@1.10.0':
-    resolution: {integrity: sha512-5Eu/kuJu7/CzAjFlTJkyyPoLTLSVQZ31Ps81cjIeR/3PDJ2RUuX1/R8d0qFziBKToym1LXbNiXoJQq0mg5+Cwg==}
+  '@shikijs/twoslash@1.10.3':
+    resolution: {integrity: sha512-9HlQgvy51jnO46Tcr87A7v6gxlzdKzcpYk15/CQfO48svAslOf+6QYXf0Gao3HWPywOwVj2alMAe0zQhT59y9w==}
 
-  '@shikijs/twoslash@1.10.1':
-    resolution: {integrity: sha512-BtB7TnpZEHFAVhVU9yPLOhWznJ5NFtHX1b8AEr4UXxYBGAqsM2b0VkjAlfJ32gQxVyr121G8q4g0ZT5eV5bi9w==}
-
-  '@shikijs/vitepress-twoslash@1.10.1':
-    resolution: {integrity: sha512-bBFHGKMGW0ACa8jFjDK2V9sWSh6wh1R1/U5VbVUr0HBm7kLR/H0bbr9RZeD91wKZb9JI3zJRwiNrTCueLuBw8A==}
+  '@shikijs/vitepress-twoslash@1.10.3':
+    resolution: {integrity: sha512-rTfayHA8J4B0z9J9XspwQRg40m0xYLzBgNRhjBWGVGgfymh3OdM0CpEsqwGEFxGgRmDRYCEpf3jqdBejWMekgQ==}
 
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
@@ -1104,11 +1101,8 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  shiki@1.10.0:
-    resolution: {integrity: sha512-YD2sXQ+TMD/F9BimV9Jn0wj35pqOvywvOG/3PB6hGHyGKlM7TJ9tyJ02jOb2kF8F0HfJwKNYrh3sW7jEcuRlXA==}
-
-  shiki@1.10.1:
-    resolution: {integrity: sha512-uafV7WCgN4YYrccH6yxpnps6k38sSTlFRrwc4jycWmhWxJIm9dPrk+XkY1hZ2t0I7jmacMNb15Lf2fspa/Y3lg==}
+  shiki@1.10.3:
+    resolution: {integrity: sha512-eneCLncGuvPdTutJuLyUGS8QNPAVFO5Trvld2wgEq1e002mwctAhJKeMGWtWVXOIEzmlcLRqcgPSorR6AVzOmQ==}
 
   signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
@@ -1223,8 +1217,8 @@ packages:
   viewerjs@1.11.6:
     resolution: {integrity: sha512-TlhdSp2oEOLFXvEp4psKaeTjR5zBjTRcM/sHUN8PkV1UWuY8HKC8n7GaVdW5Xqnwdr/F1OmzLik1QwDjI4w/nw==}
 
-  vite@5.3.2:
-    resolution: {integrity: sha512-6lA7OBHBlXUxiJxbO5aAY2fsHHzDr1q7DvXYnyZycRs2Dz+dXBWuhpWHvmljTRTpQC2uvGmUFFkSHF2vGo90MA==}
+  vite@5.3.3:
+    resolution: {integrity: sha512-NPQdeCU0Dv2z5fu+ULotpuq5yfCS1BzKUIPhNbP3YBfAMGJXbt2nS+sbTFu+qchaqWTD+H3JK++nRwr6XIcp6A==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -1257,8 +1251,8 @@ packages:
   vitepress-plugin-image-viewer@1.1.4:
     resolution: {integrity: sha512-loV/g/Kgz+O3DNebtSg0UPTt+2IhSIzNtcVGz1kB+A3nuVygMoaLdhrrZFuF3+obIkYINe+HVX0BAacWtFMBkA==}
 
-  vitepress@1.2.3:
-    resolution: {integrity: sha512-GvEsrEeNLiDE1+fuwDAYJCYLNZDAna+EtnXlPajhv/MYeTjbNK6Bvyg6NoTdO1sbwuQJ0vuJR99bOlH53bo6lg==}
+  vitepress@1.3.0:
+    resolution: {integrity: sha512-Cbm2AgXcCrukUeV+/24g1ZDSvw8blamh/1uf2pz3ApFpaYb9T7mo4imWDZ6APn2uPo4bJ6sgOzvsJ4aH+oLbBA==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
@@ -1592,30 +1586,30 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.18.0':
     optional: true
 
-  '@shikijs/core@1.10.0': {}
-
-  '@shikijs/core@1.10.1': {}
-
-  '@shikijs/transformers@1.10.0':
+  '@shikijs/core@1.10.3':
     dependencies:
-      shiki: 1.10.0
+      '@types/hast': 3.0.4
 
-  '@shikijs/twoslash@1.10.1(typescript@5.5.2)':
+  '@shikijs/transformers@1.10.3':
     dependencies:
-      '@shikijs/core': 1.10.1
+      shiki: 1.10.3
+
+  '@shikijs/twoslash@1.10.3(typescript@5.5.2)':
+    dependencies:
+      '@shikijs/core': 1.10.3
       twoslash: 0.2.9(typescript@5.5.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  '@shikijs/vitepress-twoslash@1.10.1(typescript@5.5.2)':
+  '@shikijs/vitepress-twoslash@1.10.3(typescript@5.5.2)':
     dependencies:
-      '@shikijs/twoslash': 1.10.1(typescript@5.5.2)
+      '@shikijs/twoslash': 1.10.3(typescript@5.5.2)
       floating-vue: 5.2.2(vue@3.4.31(typescript@5.5.2))
       mdast-util-from-markdown: 2.0.1
       mdast-util-gfm: 3.0.0
       mdast-util-to-hast: 13.2.0
-      shiki: 1.10.1
+      shiki: 1.10.3
       twoslash: 0.2.9(typescript@5.5.2)
       twoslash-vue: 0.2.9(typescript@5.5.2)
       vue: 3.4.31(typescript@5.5.2)
@@ -1665,9 +1659,9 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-vue@5.0.5(vite@5.3.2(@types/node@20.14.10)(less@4.2.0)(sass@1.77.6))(vue@3.4.31(typescript@5.5.2))':
+  '@vitejs/plugin-vue@5.0.5(vite@5.3.3(@types/node@20.14.10)(less@4.2.0)(sass@1.77.6))(vue@3.4.31(typescript@5.5.2))':
     dependencies:
-      vite: 5.3.2(@types/node@20.14.10)(less@4.2.0)(sass@1.77.6)
+      vite: 5.3.3(@types/node@20.14.10)(less@4.2.0)(sass@1.77.6)
       vue: 3.4.31(typescript@5.5.2)
 
   '@volar/language-core@2.4.0-alpha.5':
@@ -2476,13 +2470,10 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  shiki@1.10.0:
+  shiki@1.10.3:
     dependencies:
-      '@shikijs/core': 1.10.0
-
-  shiki@1.10.1:
-    dependencies:
-      '@shikijs/core': 1.10.1
+      '@shikijs/core': 1.10.3
+      '@types/hast': 3.0.4
 
   signal-exit@3.0.7: {}
 
@@ -2597,7 +2588,7 @@ snapshots:
 
   viewerjs@1.11.6: {}
 
-  vite@5.3.2(@types/node@20.14.10)(less@4.2.0)(sass@1.77.6):
+  vite@5.3.3(@types/node@20.14.10)(less@4.2.0)(sass@1.77.6):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.39
@@ -2614,14 +2605,14 @@ snapshots:
     dependencies:
       viewerjs: 1.11.6
 
-  vitepress@1.2.3(@algolia/client-search@4.24.0)(@types/node@20.14.10)(less@4.2.0)(postcss@8.4.39)(sass@1.77.6)(search-insights@2.14.0)(typescript@5.5.2):
+  vitepress@1.3.0(@algolia/client-search@4.24.0)(@types/node@20.14.10)(less@4.2.0)(postcss@8.4.39)(sass@1.77.6)(search-insights@2.14.0)(typescript@5.5.2):
     dependencies:
       '@docsearch/css': 3.6.0
       '@docsearch/js': 3.6.0(@algolia/client-search@4.24.0)(search-insights@2.14.0)
-      '@shikijs/core': 1.10.0
-      '@shikijs/transformers': 1.10.0
+      '@shikijs/core': 1.10.3
+      '@shikijs/transformers': 1.10.3
       '@types/markdown-it': 14.1.1
-      '@vitejs/plugin-vue': 5.0.5(vite@5.3.2(@types/node@20.14.10)(less@4.2.0)(sass@1.77.6))(vue@3.4.31(typescript@5.5.2))
+      '@vitejs/plugin-vue': 5.0.5(vite@5.3.3(@types/node@20.14.10)(less@4.2.0)(sass@1.77.6))(vue@3.4.31(typescript@5.5.2))
       '@vue/devtools-api': 7.3.5
       '@vue/shared': 3.4.31
       '@vueuse/core': 10.11.0(vue@3.4.31(typescript@5.5.2))
@@ -2629,8 +2620,8 @@ snapshots:
       focus-trap: 7.5.4
       mark.js: 8.11.1
       minisearch: 6.3.0
-      shiki: 1.10.0
-      vite: 5.3.2(@types/node@20.14.10)(less@4.2.0)(sass@1.77.6)
+      shiki: 1.10.3
+      vite: 5.3.3(@types/node@20.14.10)(less@4.2.0)(sass@1.77.6)
       vue: 3.4.31(typescript@5.5.2)
     optionalDependencies:
       postcss: 8.4.39

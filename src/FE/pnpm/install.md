@@ -6,7 +6,7 @@ head:
       content: pnpm 安装 install
 ---
 
-![](https://i.theovan.cn/docs/pnpm-install-922fbb8bb4d96b8f602a40e6cd07ee13.svg)
+![pnpm](https://i.theovan.cn/docs/pnpm-install-922fbb8bb4d96b8f602a40e6cd07ee13.svg)
 
 ## 安装
 

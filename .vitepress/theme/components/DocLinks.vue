@@ -39,9 +39,7 @@ export default defineComponent({
             item.hasOwnProperty('name') &&
             item.hasOwnProperty('link') &&
             item.hasOwnProperty('color') &&
-            (item.hasOwnProperty('icon') ||
-              item.hasOwnProperty('light') ||
-              item.hasOwnProperty('dark'))
+            (item.hasOwnProperty('icon') || item.hasOwnProperty('light') || item.hasOwnProperty('dark'))
         )
       }
     }

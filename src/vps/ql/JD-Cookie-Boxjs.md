@@ -17,7 +17,7 @@ head:
 - 打开 Boxjs
 - 找到野比大佬的订阅库（如果没有，请先去添加然后用手机获取京东 CK）
 
-![](https://i.theovan.cn/docs/20230910183749.png)
+![JD-cookie](https://i.theovan.cn/docs/20230910183749.png)
 
 ## 步骤二
 
@@ -25,16 +25,16 @@ head:
 - 找到你已经保存在 Boxjs 中的 Cookie，点击保存设置，
 - 再保存生成的会话 1 右侧，点击 3 个点。
 
-![](https://i.theovan.cn/docs/20230910183806.png)
+![JD-cookie](https://i.theovan.cn/docs/20230910183806.png)
 
 ## 步骤三
 
 - 在弹出来的选项中，点击修改会话。
 
-![](https://i.theovan.cn/docs/20230910183823.png)
+![JD-cookie](https://i.theovan.cn/docs/20230910183823.png)
 
 ## 步骤四
 
 - 全选 Cookie 内容，点击拷贝，复制到 txt 文本或者其他地方备用。
 
-![](https://i.theovan.cn/docs/20230910183840.png)
+![JD-cookie](https://i.theovan.cn/docs/20230910183840.png)

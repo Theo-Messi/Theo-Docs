@@ -26,7 +26,7 @@ sudo apt install cifs-utils
 id root
 ```
 
-![](https://i.theovan.cn/docs/202404290023588.png)
+![Ubuntu](https://i.theovan.cn/docs/202404290023588.png)
 
 在此处要查看的用户，就是你希望使用 `Ubuntu`上的哪个用户去挂载NAS磁盘，
 
@@ -72,4 +72,4 @@ sudo mount -a
 
 挂载成功后进入 `/mnt/nas_share` 目录，查看文件权限如下，表明挂载成功，且对文件具有相应的读写和执行权限。
 
-![](https://i.theovan.cn/docs/202404290032107.png)
+![Ubuntu](https://i.theovan.cn/docs/202404290032107.png)
