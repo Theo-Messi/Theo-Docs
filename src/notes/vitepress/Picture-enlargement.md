@@ -63,8 +63,8 @@ export default {
 ```md
 // docs/index.md
 
-![](path/to/file.jpg){data-zoomable}
-![](path/to/file.jpg)
+![VitePress](path/to/file.jpg){data-zoomable}
+![VitePress](path/to/file.jpg)
 ```
 
 ## 2. vitepress-plugin-image-viewer

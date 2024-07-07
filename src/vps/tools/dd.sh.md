@@ -19,11 +19,11 @@ bash dd.sh #运行脚本
 
 ## 安装系统
 
-![](https://i.theovan.cn/docs/202309032043844.png)
+![简化重装系统](https://i.theovan.cn/docs/202309032043844.png)
 
 ## 输入 ssh 端口号和 root 密码信息
 
-![](https://i.theovan.cn/docs/202309032044215.png)
+![简化重装系统](https://i.theovan.cn/docs/202309032044215.png)
 
 输入 SSH 端口号和 Root 密码
 
@@ -34,7 +34,7 @@ bash dd.sh #运行脚本
 
 ## 完成安装
 
-![](https://i.theovan.cn/docs/202309032047391.png)
+![简化重装系统](https://i.theovan.cn/docs/202309032047391.png)
 
 等待脚本运行完成后，即可完成操作系统的安装。
 在安装完成后，会显示服务器的 IP 地址和 SSH 端口号，并提醒使用 SSH 连接到服务器。

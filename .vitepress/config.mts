@@ -16,10 +16,10 @@ export default defineConfig({
   //'force-dark'强制开启深色模式 false强制开启浅色模式
   // appearance: 'force-dark',
 
+  metaChunk: true,
+
   // 站点地图
-  sitemap: {
-    hostname: 'https://doc.theovan.cn'
-  },
+  sitemap: { hostname: 'https://doc.theovan.cn' },
 
   // markdown-it插件配置
   markdown,
@@ -108,13 +108,6 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: algolia
-    },
-
-    // 底部信息
-    footer: {
-      message: `<font size="2">Released under the <a href="https://github.com/Theo-Messi/Theo-Docs/blob/main/license" target="_blank">MIT License</a>.</font size="2">`,
-      copyright: `<font size="2">Copyright © 2019 - ${new Date().getFullYear()} <a href="https://github.com/Theo-Messi" target="_blank">Theo-Messi</a></br>
-      <a href="" target="_blank">ICP备</a>｜<a href="" target="_blank">公网安备</a></font size="2">`
     }
   }
 })

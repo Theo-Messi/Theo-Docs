@@ -115,4 +115,4 @@ cat ./data/hbbs/id_ed25519.pub
 
 [点击查看原图](https://i.theovan.cn/docs/app-list.png)
 
-![](https://i.theovan.cn/docs/app-list.png)
+![1Panel](https://i.theovan.cn/docs/app-list.png)
