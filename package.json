@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@mdit/plugin-img-size": "^0.12.0",
-    "@shikijs/vitepress-twoslash": "^1.10.1",
+    "@shikijs/vitepress-twoslash": "^1.10.3",
     "prettier": "3.3.2",
     "sass": "^1.77.6",
     "vitepress": "1.2.3",
