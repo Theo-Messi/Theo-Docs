@@ -10,23 +10,23 @@ head:
 
 ```sh
 # 清除垃圾文件 - 大量无用的 mp3 文件
-git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.mp3' --prune-empty --tag-name-filter cat -- --all
-```
+git filter-repo --path-glob '*.mp3' --invert-paths --force
 
-```sh
-# 提交到远程仓库
-# 如 GitHub, 我再次从 git clone GitHub 代码库会变小为 1.3M
+# 列出标签和分支，删除不需要的
+git tag -d <tag_name>
+git push origin --delete <tag_name>
+
+git branch -d <branch_name>
+git push origin --delete <branch_name>
+
+# 清理垃圾回收并重新打包对象
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+git repack -Ad
+git prune
+
+# 推送修改后的历史记录回远程仓库
+git remote add origin <https://github.com/username/repository.git>
 git push origin --force --all
-```
-
-```sh
-# 必须回收垃圾,本地仓库才变小
-git for-each-ref --format='delete %(refname)' refs/original | git update-ref --stdin
-git reflog expire --expire=now --all
-git gc --prune=now
-
-rm -rf .git/refs/original
-git reflog expire --expire=now --all
-git gc --prune=now
-git gc --aggressive --prune=now
+git push origin --force --tags
 ```
