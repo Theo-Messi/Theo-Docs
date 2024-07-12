@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-alt f12 lh-1" style="text-align: center; margin: 0 auto">
-    <div class="flex ma4" style="display: flex; justify-content: center; width: 100%">
+    <div class="flex ma4" style="display: flex; justify-content: center">
       <div class="fb6" v-for="(section, index) in sections" :key="index">
         <div class="mb2 fw6 f14">{{ section.title }}</div>
         <ul>

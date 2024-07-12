@@ -4,14 +4,16 @@ import { h } from 'vue'
 
 import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
-import DocAsideLogo from './components/DocAsideLogo.vue'
-import HomeUnderline from './components/HomeUnderline.vue'
-import DocBox from './components/DocBox.vue'
-import DocLinks from './components/DocLinks.vue'
-import DocBoxCube from './components/DocBoxCube.vue'
-import DocVideoLink from './components/DocVideoLink.vue'
 import imageViewer from 'vitepress-plugin-image-viewer'
 import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue'
+import {
+  DocBox,
+  DocLinks,
+  DocBoxCube,
+  DocAsideLogo,
+  DocVideoLink,
+  HomeUnderline
+} from './components'
 
 import '@shikijs/vitepress-twoslash/style.css'
 import './styles/index.scss'
