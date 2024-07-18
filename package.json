@@ -14,15 +14,15 @@
     "vitepress-plugin-google-analytics": "^1.0.2"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.5.2",
-    "@types/node": "^20.14.10",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@types/node": "^20.14.11",
     "lint-staged": "^15.2.7",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-task-checkbox": "^1.0.6",
     "simple-git-hooks": "^2.11.1",
     "viewerjs": "^1.11.6",
     "vitepress-plugin-image-viewer": "^1.1.4",
-    "vue": "^3.4.31"
+    "vue": "^3.4.32"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
