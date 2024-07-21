@@ -327,7 +327,8 @@ export function Sidebar_serve() {
       base: '/serve/',
       items: [
         { text: 'FlyingBird - 飞鸟机场', link: 'airport/FlyingBird' },
-        { text: 'Bridge the Wise', link: 'airport/Bridge-the-Wise' }
+        { text: 'Bridge the Wise', link: 'airport/Bridge-the-Wise' },
+        { text: '飞兔云', link: 'airport/feitucloud' }
       ]
     },
     {
