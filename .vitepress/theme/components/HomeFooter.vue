@@ -1,10 +1,10 @@
 <template>
-  <footer class="bg-alt f12 lh-1" style="text-align: center; margin: 0 auto">
-    <div class="flex ma4" style="display: flex; justify-content: center">
-      <div class="fb6" v-for="(section, index) in sections" :key="index">
-        <div class="mb2 fw6 f14">{{ section.title }}</div>
+  <footer class="ba">
+    <div class="ff">
+      <div class="sc" v-for="(section, index) in sections" :key="index">
+        <div class="st">{{ section.title }}</div>
         <ul>
-          <li class="mb2" v-for="(link, idx) in section.links" :key="idx">
+          <li v-for="(link, idx) in section.links" :key="idx">
             <a :class="{ 'external-link': !section.internal }" :target="section.internal ? '_self' : '_blank'"
               :name="link.name" :title="link.name" :href="link.href">
               {{ link.name }}
@@ -15,22 +15,21 @@
     </div>
 
     <!-- 底部信息栏 -->
-    <div class="flex" style="display: inline-block">
-      <span class="ml1">
+    <div class="ff" style="display: inline-block">
+      <span>
         <a target="_blank" href="https://beian.miit.gov.cn/" name="ICP备案" title="ICP备案">
-          <i class="fas fa-earth-americas" style="margin-right: 4px"></i>鄂ICP备2024060426号
+          <i class="fas fa-earth-americas"></i>鄂ICP备2024060426号
         </a>
       </span>
-      <span class="ml1">
+      <span>
         <a target="_blank" href="https://beian.mps.gov.cn/" name="公安备案" title="公安备案">
-          <i class="fas fa-shield" style="margin-right: 4px"></i>粤公网安备44200102445439号
+          <i class="fas fa-shield"></i>粤公网安备44200102445439号
         </a>
       </span>
     </div>
-    <div class="flex ma4" style="display: inline-block">
-      <span class="ml1">
-        Copyright <i class="far fa-copyright"></i> 2019 -
-        {{ new Date().getFullYear() }}
+    <div class="flex" style="display: inline-block">
+      <span>
+        Copyright<i class="far fa-copyright"></i>2019 - {{ new Date().getFullYear() }}
         <a target="_blank" name="GitHub" title="GitHub" href="https://github.com/Theo-Messi">Theo-Messi</a>. All Rights
         Reserved
       </span>
@@ -39,17 +38,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from 'vue'
 
 interface Link {
-  name: string;
-  href: string;
+  name: string
+  href: string
 }
 
 interface Section {
-  title: string;
-  links: Link[];
-  internal?: boolean;
+  title: string
+  links: Link[]
+  internal?: boolean
 }
 
 export default defineComponent({
@@ -59,10 +58,22 @@ export default defineComponent({
       {
         title: 'GitHub Source',
         links: [
-          { name: 'Theo-Docs', href: 'https://github.com/Theo-Messi/Theo-Docs' },
-          { name: '玄学宝典', href: 'https://github.com/Theo-Messi/xx.theovan.cn' },
-          { name: '阿里云盘资源分享', href: 'https://github.com/Theo-Messi/share.theovan.cn' },
-          { name: '常用配置文件', href: 'https://github.com/Theo-Messi/dotfiles' }
+          {
+            name: 'Theo-Docs',
+            href: 'https://github.com/Theo-Messi/Theo-Docs'
+          },
+          {
+            name: '玄学宝典',
+            href: 'https://github.com/Theo-Messi/xx.theovan.cn'
+          },
+          {
+            name: '阿里云盘资源分享',
+            href: 'https://github.com/Theo-Messi/share.theovan.cn'
+          },
+          {
+            name: '常用配置文件',
+            href: 'https://github.com/Theo-Messi/dotfiles'
+          }
         ]
       },
       {
@@ -70,9 +81,18 @@ export default defineComponent({
         links: [
           { name: '银河录像局', href: 'https://nf.video/kaIuE' },
           { name: '奈飞小铺', href: 'https://ihezu.love/UKTer6' },
-          { name: 'FlyingBird', href: 'https://fbinv01.fbaff.cc/auth/register?code=RZP3' },
-          { name: 'Bridge The Wise', href: 'https://patriot.ninja/aff.php?aff=1471' },
-          { name: 'SMS-Activate', href: 'https://sms-activate.org/?ref=8170513' }
+          {
+            name: 'FlyingBird',
+            href: 'https://fbinv01.fbaff.cc/auth/register?code=RZP3'
+          },
+          {
+            name: 'Bridge The Wise',
+            href: 'https://patriot.ninja/aff.php?aff=1471'
+          },
+          {
+            name: 'SMS-Activate',
+            href: 'https://sms-activate.org/?ref=8170513'
+          }
         ]
       },
       {
@@ -85,7 +105,7 @@ export default defineComponent({
           { name: 'YouTube Premium', href: '/streaming/YouTube' },
           { name: 'Hulu', href: '/streaming/Hulu' },
           { name: 'HBO Max', href: '/streaming/HBO-Max' }
-        ],
+        ]
       },
       {
         title: '相关链接',
@@ -96,13 +116,13 @@ export default defineComponent({
           { name: 'VitePress', href: 'https://vitepress.dev/' }
         ]
       }
-    ];
+    ]
 
     return {
       sections
-    };
+    }
   }
-});
+})
 </script>
 
 <style lang="scss" scoped>
@@ -120,6 +140,20 @@ footer {
   }
 }
 
+span {
+  margin-left: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  line-height: 1.2rem;
+}
+
+i {
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
+
 .external-link {
   position: relative;
   display: inline-block;
@@ -135,74 +169,40 @@ footer {
   }
 }
 
-.bg-alt {
+.ba {
   background: var(--vp-c-bg-alt);
+  font-size: 0.75rem;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.lh-1 {
-  line-height: 1.2rem;
-}
-
-.flex {
+.ff {
   display: flex;
+  justify-content: center;
+  margin: 1.25rem;
 
   &-grow-1 {
     flex-grow: 1;
   }
 }
 
-.ma4 {
-  margin: 1.5rem;
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+
+  &-grow-1 {
+    flex-grow: 1;
+  }
 }
 
-.ma2 {
-  margin: 1rem;
-}
-
-.ml0 {
-  margin-left: 0.5rem;
-}
-
-.ml1 {
-  margin-left: 1rem;
-}
-
-.mb2 {
-  margin-bottom: 0.5rem;
-}
-
-.f12 {
-  font-size: 12px;
-}
-
-.f14 {
-  font-size: 13px;
-}
-
-.fw6 {
-  font-weight: 600;
-}
-
-.fb6 {
+.sc {
   flex-basis: 20rem;
 }
 
-@media screen and (min-width: 960px) {
-  .flex-l {
-    display: flex;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .ma4 {
-    margin-left: auto;
-    /* 左边距自动 */
-    margin-right: auto;
-    /* 右边距自动 */
-    width: 100%;
-    /* 宽度100% */
-    max-width: 95%;
-    /* 最大宽度为屏幕宽度的95% */
-  }
+.st {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
 }
 </style>
