@@ -10,11 +10,11 @@ head:
 //使用FontAwesome图标
 { name: 'Github', link: '',icon:'fab fa-github'}, 
 //使用FontAwesome图标 + 副标题
-{ name: 'Vue.js', link: '', icon: 'fab fa-vuejs', secondary:'v3.4.31'}, 
+{ name: 'Vue.js', link: '', icon: 'fab fa-vuejs', desc:'v3.4.31'}, 
 //使用自定义图标+副标题
-{ name: 'Node.js', link: '', icon: 'https://i.theovan.cn/logo/nodejs.svg',secondary:'v20.15.0'},
+{ name: 'Node.js', link: '', icon: 'https://i.theovan.cn/logo/nodejs.svg',desc:'v20.15.0'},
 //使用自定义图标+深浅模式+副标题
-{ name: 'Github', link: '', light: 'https://i.theovan.cn/logo/github.svg', dark:'https://i.theovan.cn/logo/github-dark.svg',secondary:'v20.15.0'},
+{ name: 'Github', link: '', light: 'https://i.theovan.cn/logo/github.svg', dark:'https://i.theovan.cn/logo/github-dark.svg',desc:'v20.15.0'},
 ]"/>
 
 ---

@@ -11,7 +11,7 @@
       <img v-if="item.light" :src="item.light" alt="icon" class="img light-only" />
       <img v-if="item.dark" :src="item.dark" alt="icon" class="img dark-only" />
       <span class="name">{{ item.name }}</span>
-      <span class="secondary">{{ item.secondary }}</span>
+      <span class="desc">{{ item.desc }}</span>
     </a>
   </div>
 </template>
@@ -23,7 +23,7 @@ interface Item {
   icon: string
   name: string
   link: string
-  secondary?: string
+  desc?: string
   color?: string
   light?: string
   dark?: string
@@ -41,7 +41,7 @@ export default defineComponent({
             item.hasOwnProperty('icon') &&
             item.hasOwnProperty('name') &&
             item.hasOwnProperty('link') &&
-            item.hasOwnProperty('secondary') &&
+            item.hasOwnProperty('desc') &&
             item.hasOwnProperty('color') &&
             (item.hasOwnProperty('light') || item.hasOwnProperty('dark'))
         )
@@ -113,7 +113,7 @@ export default defineComponent({
   color: var(--vp-c-text-1);
 }
 
-.secondary {
+.desc {
   position: absolute;
   font-size: 0.75rem;
   bottom: 0.15rem;

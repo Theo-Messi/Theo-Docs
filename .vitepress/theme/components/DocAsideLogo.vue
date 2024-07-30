@@ -1,7 +1,7 @@
 <template>
   <div>
-    <a v-for="(banner, index) in banners" :key="index" :href="banner.link" :name="`${banner.Activity || banner.name}`"
-      :title="`${banner.Activity || banner.name}`" class="banner" target="_blank">
+    <a v-for="(banner, index) in banners" :key="index" :href="banner.link" :name="banner.Activity || banner.name"
+      :title="banner.Activity || banner.name" class="banner" target="_blank">
       <img :src="banner.icon" width="22" height="22" />
       <span>
         <p v-if="banner.Activity" class="Activity">{{ banner.Activity }}</p>
@@ -18,10 +18,21 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
+interface Banner {
+  link: string;
+  icon: string;
+  Activity?: string;
+  name?: string;
+  hide1?: string;
+  hide2?: string;
+  info1?: string;
+  info2?: string;
+}
+
 export default defineComponent({
   name: 'BannerComponent',
   setup() {
-    const banners = [
+    const banners: Banner[] = [
       // {
       //   link: 'https://fbinv01.fbaff.cc/auth/register?code=RZP3',
       //   icon: 'https://flyingbirdlimo.com/wp-content/uploads/2022/03/Flying-Bird-Logo-cropped.png',
@@ -65,10 +76,6 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-.VPDocAsideSponsors {
-  margin-top: 8px !important;
-}
-
 .banner {
   margin: 0.25rem 0;
   padding: 0.4rem 0;
@@ -92,15 +99,20 @@ export default defineComponent({
 
   &:hover {
     border: 2px solid var(--vp-c-brand-1);
+
+    img {
+      transform: scale(1.75);
+    }
+
+    .hide,
+    .info {
+      opacity: 0.9;
+    }
   }
 
   img {
     transition: transform 0.5s;
     transform: scale(1.25);
-  }
-
-  &:hover img {
-    transform: scale(1.75);
   }
 
   .hide {
@@ -129,16 +141,6 @@ export default defineComponent({
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-
-  &:hover {
-    .hide {
-      opacity: 0.9;
-    }
-
-    .info {
-      opacity: 0.9;
-    }
   }
 }
 </style>
