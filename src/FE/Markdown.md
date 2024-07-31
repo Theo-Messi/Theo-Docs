@@ -12,9 +12,9 @@ head:
 //使用FontAwesome图标 + 副标题
 { name: 'Vue.js', link: '', icon: 'fab fa-vuejs', desc:'v3.4.31'}, 
 //使用自定义图标+副标题
-{ name: 'Node.js', link: '', icon: 'https://i.theovan.cn/logo/nodejs.svg',desc:'v20.15.0'},
+{ name: 'Node.js', link: '', icon: 'https://i.theojs.cn/logo/nodejs.svg',desc:'v20.15.0'},
 //使用自定义图标+深浅模式+副标题
-{ name: 'Github', link: '', light: 'https://i.theovan.cn/logo/github.svg', dark:'https://i.theovan.cn/logo/github-dark.svg',desc:'v20.15.0'},
+{ name: 'Github', link: '', light: 'https://i.theojs.cn/logo/github.svg', dark:'https://i.theojs.cn/logo/github-dark.svg',desc:'v20.15.0'},
 ]"/>
 
 ---
@@ -25,12 +25,12 @@ head:
 //使用FontAwesome图标 + 标签
 { name: 'GitHub', link: '',  icon:'fab fa-github', tag: 'Github'},
 //使用FontAwesome图标 + 标签 + 颜色
-{ name: '支付宝', link: 'https://i.theovan.cn/docs/202405201752089.jpg',  icon: 'fab fa-alipay', color: '#00a1e9', tag: '打赏' },
-{ name: '微信', link: 'https://i.theovan.cn/docs/202405201752087.jpg',  icon: 'fab fa-weixin', color: '#2ca83c',  tag: '打赏' },
+{ name: '支付宝', link: 'https://i.theojs.cn/docs/202405201752089.jpg',  icon: 'fab fa-alipay', color: '#00a1e9', tag: '打赏' },
+{ name: '微信', link: 'https://i.theojs.cn/docs/202405201752087.jpg',  icon: 'fab fa-weixin', color: '#2ca83c',  tag: '打赏' },
 //使用自定义图标 + 标签
-{ name: 'GitHub', link: '',  icon: 'https://i.theovan.cn/logo/github.svg',  tag: 'Github' },
+{ name: 'GitHub', link: '',  icon: 'https://i.theojs.cn/logo/github.svg',  tag: 'Github' },
 //使用自定义图标 + 深浅模式 + 标签
-{ name: 'GitHub', link: '', light: 'https://i.theovan.cn/logo/github.svg', dark: 'https://i.theovan.cn/logo/github-dark.svg',  tag: 'Github' },
+{ name: 'GitHub', link: '', light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg',  tag: 'Github' },
 ]"/>
 
 ---
@@ -38,8 +38,8 @@ head:
 <Links :items="[
 { name: '支付宝', link: 'https://www.alipay.com', icon: 'fab fa-alipay', color: '#00a1e9' },
 { name: '微信支付', link: 'https://pay.weixin.qq.com', icon: 'fab fa-weixin', color: '#2ca83c' },
-{ name: '支付宝', link: 'https://www.alipay.com', icon: 'https://i.theovan.cn/logo/github.svg', },
-{ name: '支付宝', link: 'https://www.alipay.com',light: 'https://i.theovan.cn/logo/github.svg', dark: 'https://i.theovan.cn/logo/github-dark.svg', },
+{ name: '支付宝', link: 'https://www.alipay.com', icon: 'https://i.theojs.cn/logo/github.svg', },
+{ name: '支付宝', link: 'https://www.alipay.com',light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg', },
 { name: '支付宝', link: 'https://www.alipay.com',},
 ]" />
 
@@ -114,12 +114,12 @@ _斜体文本_
 **输入**
 
 ```md
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 ```
 
 **输出**
 
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 
 ## 图片
 
@@ -256,45 +256,45 @@ _斜体文本_
 
 ```md
 ::: info
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 
 ::: tip
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 
 ::: warning
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 
 ::: danger
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 
 ::: details
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 ```
 
 **输出**
 ::: info
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 
 ::: tip
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 
 ::: warning
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 
 ::: danger
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 
 ::: details
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 
 ## 自定义容器
@@ -303,7 +303,7 @@ _斜体文本_
 
 ````md
 ::: danger STOP
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 
 ::: details Click me to view the code
@@ -317,7 +317,7 @@ console.log('Hello, VitePress!')
 
 **输出**
 ::: danger STOP
-[这是一个链接](https://doc.theovan.cn/)
+[这是一个链接](https://doc.theojs.cn/)
 :::
 
 ::: details Click me to view the code

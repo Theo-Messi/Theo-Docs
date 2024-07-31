@@ -6,7 +6,7 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
-![Netflix](https://i.theovan.cn/docs/202406111420455.png)
+![Netflix](https://i.theojs.cn/docs/202406111420455.png)
 
 ## Netflix 是什么
 
@@ -22,8 +22,8 @@ Netflix 是一家美国的在线流媒体平台，成立于 1997 年，总部位
 
 想要在国内愉快都使用 Netflix 并获得最佳的观影体验，你需要做好以下几个方面的准备：
 <Box :items="[
-  { link: 'https://ihezu.love/UKTer6', icon: 'https://i.theovan.cn/logo/netflix.svg', name: 'Netflix 账号', tag: '合租平台' },
-  { link: '/serve/airport/FlyingBird', icon: 'https://i.theovan.cn/logo/netflix.svg', name: 'Netflix 线路', tag: '流媒体解锁' }
+  { link: 'https://ihezu.love/UKTer6', icon: 'https://i.theojs.cn/logo/netflix.svg', name: 'Netflix 账号', tag: '合租平台' },
+  { link: '/serve/airport/FlyingBird', icon: 'https://i.theojs.cn/logo/netflix.svg', name: 'Netflix 线路', tag: '流媒体解锁' }
   ]"/>
 
 ## Netflix 账号合租
@@ -70,7 +70,7 @@ Chrome、Firefox 等浏览器默认最高支持到 720P，不过你可以通过�
 软件：在 Google Play 搜索 `Netflix` 并下载即可
 
 <Links :items="[
-{ name: '或在 APKPURE 上下载最新版 Netflix APK', icon:'https://i.theovan.cn/logo/netflix.svg',link: 'https://apkpure.com/netflix/com.netflix.mediaclient' },
+{ name: '或在 APKPURE 上下载最新版 Netflix APK', icon:'https://i.theojs.cn/logo/netflix.svg',link: 'https://apkpure.com/netflix/com.netflix.mediaclient' },
 ]" />
 
 ### Windows 10/11 PC 电脑（最高支持 4K）

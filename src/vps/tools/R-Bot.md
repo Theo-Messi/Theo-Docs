@@ -19,7 +19,7 @@ head:
 ]"/>
 
 <Links :items="[
-{ name: 'GitHub 项目地址',   light:'https://i.theovan.cn/logo/github.svg',dark:'https://i.theovan.cn/logo/github-dark.svg',link: 'https://github.com/semicons/java_oci_manage' },
+{ name: 'GitHub 项目地址',   light:'https://i.theojs.cn/logo/github.svg',dark:'https://i.theojs.cn/logo/github-dark.svg',link: 'https://github.com/semicons/java_oci_manage' },
 ]" />
 
 ## 获取 VPS INFO
@@ -28,18 +28,18 @@ head:
 
 2. 发送指令 `/raninfo`，两次确认后获取 VPS 标识。
 
-![一键脚本部署开ARM机器](https://i.theovan.cn/docs/202309032107312.png)
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032107312.png)
 
 ## 获取甲骨文 API 密钥
 
 1. 登录甲骨文，访问会员中心。
 2. 找到 API 密钥并添加，下载 `.pem` 文件并妥善保存。
 
-![一键脚本部署开ARM机器](https://i.theovan.cn/docs/20230903211053.png)
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/20230903211053.png)
 
 3. 点击添加，会弹出 “配置文件预览” 的窗口，我们需要记录里面的：“配置文件预览”！
 
-![一键脚本部署开ARM机器](https://i.theovan.cn/docs/202309032112188.png)
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032112188.png)
 
 ## VPS 端部署
 
@@ -66,16 +66,16 @@ wget -O gz_client_bot.tar.gz  https://github.com/semicons/java_oci_manage/releas
 
 我们需要编辑 VPS 如下文件：`/root/client_config`，如下图所示：
 
-![一键脚本部署开ARM机器](https://i.theovan.cn/docs/202309032121395.png)
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032121395.png)
 
 确认配置文件无误以后，我们在 VPS 执行：`bash sh_client_bot.sh `
 
-![一键脚本部署开ARM机器](https://i.theovan.cn/docs/202309032126839.png)
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032126839.png)
 
 ## R 探长的小助理
 
 消息栏输入 `/oracle` (oracle 云管理)，如下图所示：
-![一键脚本部署开ARM机器](https://i.theovan.cn/docs/202309032123801.png)
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032123801.png)
 
 ## VPS-bot 相关命令
 

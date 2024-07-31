@@ -6,7 +6,7 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
-![Hulu](https://i.theovan.cn/docs/202406111506456.png)
+![Hulu](https://i.theojs.cn/docs/202406111506456.png)
 
 `Hulu`是一家美国的流媒体服务平台，提供各种系列的电影和连续剧。`Hulu`提供的影视作品包括你在`Netflix`以及其他流媒体平台上看到的所有内容，对于能够访问并在线观看的用户来说，`Hulu`是可选择的最佳的流媒体。遗憾的是，并不是全球各地的人们都可以在`Hulu`上观看视频。`Hulu`目前仅适用于位于美国和日本的计算机
 

@@ -14,7 +14,7 @@ head:
 - 国产 360、QQ 浏览器切换到极速模式
 
 <Links :items="[
-{ name: '电脑浏览器 打开京东网址', icon:'https://i.theovan.cn/logo/jd.png',link: 'https://m.jd.com/' },
+{ name: '电脑浏览器 打开京东网址', icon:'https://i.theojs.cn/logo/jd.png',link: 'https://m.jd.com/' },
 ]" />
 
 ## 步骤一
@@ -22,7 +22,7 @@ head:
 - 按 F12 打开开发者工具
 - 然后点下图中的图标，切换到触屏版界面浏览
 
-![JD-cookie](https://i.theovan.cn/docs/20230910183043.png)
+![JD-cookie](https://i.theojs.cn/docs/20230910183043.png)
 
 ## 步骤二
 
@@ -33,20 +33,20 @@ head:
 
 - 登录后，选择**Network**,有很多链接的话点箭头这里清空下
 
-![JD-cookie](https://i.theovan.cn/docs/20230910183211.png)
+![JD-cookie](https://i.theojs.cn/docs/20230910183211.png)
 
 ## 步骤四
 
 - 点击`我的`
 
-![JD-cookie](https://i.theovan.cn/docs/20230910183240.png)
+![JD-cookie](https://i.theojs.cn/docs/20230910183240.png)
 
 ## 步骤五
 
 - 点击`log.gif`进去
 - **找到 Cookie，复制出来，新建一个 TXT 文本临时保存一下，下面需要用到 。**
 
-![JD-cookie](https://i.theovan.cn/docs/20230910183306.png)
+![JD-cookie](https://i.theojs.cn/docs/20230910183306.png)
 
 ## 步骤六
 

@@ -23,7 +23,7 @@
       </span>
       <span>
         <a target="_blank" href="https://beian.mps.gov.cn/" name="公安备案" title="公安备案">
-          <i class="fas fa-shield"></i>粤公网安备44200102445439号
+          <i class="fas fa-shield"></i>粤公网安备44200102445449号
         </a>
       </span>
     </div>
@@ -64,11 +64,11 @@ export default defineComponent({
           },
           {
             name: '玄学宝典',
-            href: 'https://github.com/Theo-Messi/xx.theovan.cn'
+            href: 'https://github.com/Theo-Messi/xx.theojs.cn'
           },
           {
             name: '阿里云盘资源分享',
-            href: 'https://github.com/Theo-Messi/share.theovan.cn'
+            href: 'https://github.com/Theo-Messi/share.theojs.cn'
           },
           {
             name: '常用配置文件',
@@ -110,9 +110,9 @@ export default defineComponent({
       {
         title: '相关链接',
         links: [
-          { name: 'Theo-Docs', href: 'https://doc.theovan.cn/' },
-          { name: '玄学宝典', href: 'https://xx.theovan.cn/' },
-          { name: '阿里云盘资源分享', href: 'https://share.theovan.cn/' },
+          { name: 'Theo-Docs', href: 'https://doc.theojs.cn/' },
+          { name: '玄学宝典', href: 'https://xx.theojs.cn/' },
+          { name: '阿里云盘资源分享', href: 'https://share.theojs.cn/' },
           { name: 'VitePress', href: 'https://vitepress.dev/' }
         ]
       }

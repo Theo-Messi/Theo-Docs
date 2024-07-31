@@ -19,7 +19,7 @@ export default defineConfig({
   metaChunk: true,
 
   // 站点地图
-  sitemap: { hostname: 'https://doc.theovan.cn' },
+  sitemap: { hostname: 'https://doc.theojs.cn' },
 
   // markdown-it插件配置
   markdown,

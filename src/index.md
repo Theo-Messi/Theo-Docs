@@ -24,10 +24,10 @@ hero:
       link: https://github.com/sponsors/Theo-Messi
     - theme: cta pan
       text: 云盘资源
-      link: https://share.theovan.cn/
+      link: https://share.theojs.cn/
     - theme: cta xx
       text: 玄学宝典
-      link: https://xx.theovan.cn
+      link: https://xx.theojs.cn
 features:
   - title: 流媒体观影
     icon: <img src="index/netflix.svg" width="30" alt="netflix"></img>
@@ -50,7 +50,7 @@ features:
   - title: 云盘资源分享
     icon: <i class="fas fa-genderless fa-lg" style="color:#4a6ffd" alt="aliyundrive"></i>
     details: 热门资源/电视剧/电影/综艺/动漫/大陆/日本/韩国/欧美
-    link: https://share.theovan.cn/
+    link: https://share.theojs.cn/
     linkText: 查看更多
 ---
 

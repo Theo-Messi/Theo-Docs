@@ -9,7 +9,7 @@ head:
 ### 自动获取
 
 <Links :items="[
-{ name: '登录阿里云盘', icon:'https://i.theovan.cn/logo/alipan.svg',link: 'https://www.aliyundrive.com/drive/' },
+{ name: '登录阿里云盘', icon:'https://i.theojs.cn/logo/alipan.svg',link: 'https://www.aliyundrive.com/drive/' },
 ]" />
 
 ```sh

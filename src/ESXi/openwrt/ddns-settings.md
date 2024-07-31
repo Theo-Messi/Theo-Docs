@@ -52,9 +52,9 @@ Token	:3de14556b8a8bXXXXXXXXXXXXXX
 
 ### 基本设置
 
-- 查询主机名: 设置的子域名 如:`dev.theovan.cn`
+- 查询主机名: 设置的子域名 如:`dev.theojs.cn`
 - DDNS服务提供商: 腾讯云-`dnspod` / 阿里云-`aliyun.com`
-- 域名: 设置的子域名 如:`dev.theovan.cn`
+- 域名: 设置的子域名 如:`dev.theojs.cn`
 - 用户名: 腾讯云-`ID` / 阿里云-`AccessKey ID`
 - 密码: 腾讯云-`Token` / 阿里云-`AccessKey Secret`
 
@@ -73,7 +73,7 @@ Forbidden
 Rejected request from RFC1918 IP to public server address .
 ```
 
-![DDNS](https://i.theovan.cn/docs/20240419153456.png)
+![DDNS](https://i.theojs.cn/docs/20240419153456.png)
 
 ### 解决方法
 

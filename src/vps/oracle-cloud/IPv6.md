@@ -10,48 +10,48 @@ head:
 
 #### **1. 前往 `网络`-> `虚拟云网络` -> 选择`查看网络详情`**
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231818861.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231818861.png)
 
 ---
 
 #### **2. 在控制台面板上主要下面4个步骤**
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231819553.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231819553.png)
 
 ---
 
 #### **3. 打开 `CIDR块` -> 点击 `添加 IPv6 CIDR块`**
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231820587.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231820587.png)
 
 添加成功后如图
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231821399.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231821399.png)
 
 ---
 
 #### **4. 打开`子网`，`编辑`子网信息**
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231822211.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231822211.png)
 
 - 勾选 `启用IPV6 CIDR块`
 
 - 输入框随便输入一个值，例如：`ee`
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231823342.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231823342.png)
 
 **点击保存**
 
 ::: warning
 这里如果出现下面的错误：`NotAuthorizedOrNotFound`，请移步到 [处理错误](#处理错误) 部分内容解决！成功后再继续这里的步骤！！
-![Oracle IPv6](https://i.theovan.cn/docs/202406231824668.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231824668.png)
 :::
 
 ---
 
 #### **5. IPv6 CIDR块添加成功！如图！**
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231827273.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231827273.png)
 
 ---
 
@@ -60,7 +60,7 @@ head:
 - 目的地 CIDR 块：`::/0` (注意2个冒号)
 - 目标类型：`Internet网关`
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231831909.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231831909.png)
 
 ---
 
@@ -70,9 +70,9 @@ head:
 - 目的地 CIDR：`::/0` (注意2个冒号)
 - IP协议：`所有协议`
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231831385.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231831385.png)
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231831626.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231831626.png)
 
 ---
 
@@ -80,15 +80,15 @@ head:
 
 右侧可见多了一个IPv6地址 的选项！点击 `分配 IPv6 地址`
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231832850.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231832850.png)
 
 ---
 
 #### **9. 可以指定一个你想要的IPv6格式，不指定会随机分配一个。**
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231833826.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231833826.png)
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231833883.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231833883.png)
 
 ## 系统操作
 
@@ -112,7 +112,7 @@ dhclient -6 ens3
 ip add
 ```
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231836653.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231836653.png)
 
 ---
 
@@ -122,7 +122,7 @@ ip add
 ping6 google.com
 ```
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231837145.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231837145.png)
 
 ---
 
@@ -137,7 +137,7 @@ reboot
 添加IPv6的时候 提示：`NotAuthorizedOrNotFound`
 
 首选打开 `Cloud Shell` 执行命令
-![Oracle IPv6](https://i.theovan.cn/docs/202406231844976.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231844976.png)
 
 ---
 
@@ -147,7 +147,7 @@ reboot
 oci iam compartment list
 ```
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231844994.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231844994.png)
 
 ---
 
@@ -161,7 +161,7 @@ oci iam compartment list
 oci network subnet list --compartment-id [compartment_id]
 ```
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231846849.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231846849.png)
 
 如果你的子网是多个的话，这里会获取多个id，自己创建时间辨别一下到底你操作的是哪个？不知道咋辨别，那就2个ID都试一试！
 
@@ -169,7 +169,7 @@ oci network subnet list --compartment-id [compartment_id]
 
 #### 3. 获取 cidr，如图获取CIDR块地址！
 
-![Oracle IPv6](https://i.theovan.cn/docs/202406231846612.png)
+![Oracle IPv6](https://i.theojs.cn/docs/202406231846612.png)
 
 ---
 

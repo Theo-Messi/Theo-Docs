@@ -20,7 +20,7 @@ head:
 - 一个域名
 
 <Links :items="[
-{ name: 'GitHub 项目地址',   light:'https://i.theovan.cn/logo/github.svg',dark:'https://i.theovan.cn/logo/github-dark.svg',link: 'https://github.com/naiba/nezha' },
+{ name: 'GitHub 项目地址',   light:'https://i.theojs.cn/logo/github.svg',dark:'https://i.theojs.cn/logo/github-dark.svg',link: 'https://github.com/naiba/nezha' },
 ]" />
 
 ## 获取 Github 的 Client ID 和密钥

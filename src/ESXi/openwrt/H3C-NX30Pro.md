@@ -9,10 +9,10 @@ head:
 ## 准备工作
 
 <Box :items="[
-  { name: '固件/UBOOT', tag: 'Github' ,link: 'https://github.com/Theo-Messi/H3C-NX30Pro', icon: 'https://i.theovan.cn/logo/openwrt.png'},
-  { name: 'termius', tag: '官网下载' ,link: 'https://termius.com/download/', icon: 'https://i.theovan.cn/logo/termius.svg'},
-  { name: 'winscp', tag: '官网下载' ,link: 'https://winscp.net/eng/download.php', icon: 'https://i.theovan.cn/logo/winscp.png'},
-  { name: 'FinalShell', tag: '官网下载' ,link: 'https://www.hostbuf.com/', icon: 'https://i.theovan.cn/logo/FinalShell.png'},
+  { name: '固件/UBOOT', tag: 'Github' ,link: 'https://github.com/Theo-Messi/H3C-NX30Pro', icon: 'https://i.theojs.cn/logo/openwrt.png'},
+  { name: 'termius', tag: '官网下载' ,link: 'https://termius.com/download/', icon: 'https://i.theojs.cn/logo/termius.svg'},
+  { name: 'winscp', tag: '官网下载' ,link: 'https://winscp.net/eng/download.php', icon: 'https://i.theojs.cn/logo/winscp.png'},
+  { name: 'FinalShell', tag: '官网下载' ,link: 'https://www.hostbuf.com/', icon: 'https://i.theojs.cn/logo/FinalShell.png'},
 ]"/>
 
 - H3C NX30 Pro 路由器
@@ -24,11 +24,11 @@ head:
 
 打开 `termius` 选择 `New Host` 添加，`Address` 填写 `192.168.124.1`，取消勾选 `SSH`，勾选 `Telnet`，Port 端口填写上 `99`。
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420014737.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420014737.png)
 
 然后输入用户名和密码，输入密码不会显示，回车即可连上 Telnet。
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420014804.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420014804.png)
 
 然后复制下面的代码到终端里执行即可开启 SSH：
 
@@ -39,7 +39,7 @@ opkg install /tmp/dropbear.ipk
 /etc/init.d/dropbear start
 ```
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420014842.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420014842.png)
 
 ## 备份系统
 
@@ -49,15 +49,15 @@ opkg install /tmp/dropbear.ipk
 dd if=/dev/mtd5 of=/tmp/backup.img
 ```
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420014931.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420014931.png)
 
 然后打开 `WinSCP`，文件协议选择 `SCP`，主机名 `192.168.124.1`，端口号 `22`，用户名 `H3C`，然后登录输入密码就能连上。
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420015012.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420015012.png)
 
 登录后，将右侧 NX30Pro `tmp` 路径下的 `backup.img` 文件拖到左边电脑上保存，刷回官方固件需要用到。
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420015101.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420015101.png)
 
 ## 刷写 uboot
 
@@ -65,7 +65,7 @@ dd if=/dev/mtd5 of=/tmp/backup.img
 
 ### 方法一（更推荐）
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420015157.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420015157.png)
 
 将下载好的 `uboot.bin` 文件从左边电脑拖进右侧路由器 `tmp` 路径下。
 
@@ -81,7 +81,7 @@ mtd write /tmp/uboot.bin FIP
 **请确保MD5 校验结果和图中相同，再敲回车执行，否则会变砖**
 :::
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420015418.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420015418.png)
 
 ### 方法二
 
@@ -94,7 +94,7 @@ md5sum uboot.bin
 mtd write /tmp/uboot.bin FIP
 ```
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420015546.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420015546.png)
 
 ## 刷写 openwrt
 
@@ -102,15 +102,15 @@ mtd write /tmp/uboot.bin FIP
 
 电脑用网线连接路由器 `LAN1`，并设置好`静态 IP：192.168.1.2`，`子网掩码 255.255.255.0`，`网关 192.168.1.1`，`DNS 192.168.1.1`。
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420015709.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420015709.png)
 
 现在浏览器打开 `192.168.1.1` 就能打开 uboot 后台。
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420015743.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420015743.png)
 
 选择下载好的 `NX30pro` 的固件，`upload` 上传后，`update` 更新，写入即可。
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420015831.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420015831.png)
 
 更新完成后系统会重启进入 openwrt 的系统
 
@@ -121,4 +121,4 @@ mtd write /tmp/uboot.bin FIP
 
 刷回官方非常简单，进入 `uboot` 后选择之前备份的 `backup.img` 文件更新即可，系统就会重启进入官方的系统。
 
-![H3C NX30Pro](https://i.theovan.cn/docs/20240420015951.png)
+![H3C NX30Pro](https://i.theojs.cn/docs/20240420015951.png)

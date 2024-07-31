@@ -13,7 +13,7 @@ head:
 - 国产百分浏览器-CentBrower
 
 <Links :items="[
-{ name: '电脑浏览器 打开京东网址', icon:'https://i.theovan.cn/logo/jd.png',link: 'https://m.jd.com/' },
+{ name: '电脑浏览器 打开京东网址', icon:'https://i.theojs.cn/logo/jd.png',link: 'https://m.jd.com/' },
 ]" />
 
 ## Chrome 类浏览器安装**EditThisCookie**插件
@@ -32,7 +32,7 @@ head:
 - 点击搜索，输入`key`或`pin`，
 - 如下图所示的`pt\_key`，复制`pt\_key`的`value`值。此插件可以看到 Cookie 的有效期。
 
-![JD-cookie](https://i.theovan.cn/docs/20230910183701.png)
+![JD-cookie](https://i.theojs.cn/docs/20230910183701.png)
 
 ## 按照以下格式形成自己的 jd_cookie
 

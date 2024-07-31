@@ -25,5 +25,5 @@ export const nav: DefaultTheme.Config['nav'] = [
     link: '/serve/sharing/Account-sharing-guide',
     activeMatch: '^/serve/'
   },
-  { text: '阿里云盘分享', link: 'https://share.theovan.cn/' }
+  { text: '阿里云盘分享', link: 'https://share.theojs.cn/' }
 ]

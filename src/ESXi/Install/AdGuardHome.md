@@ -12,11 +12,11 @@ head:
 
 **新建exsi虚拟主机，2CPU 2G内存 10G硬盘**
 
-![AdGuardHome](https://i.theovan.cn/docs/20231230203658.png)
+![AdGuardHome](https://i.theojs.cn/docs/20231230203658.png)
 
 **使用ubuntu x64 镜像**
 
-![AdGuardHome](https://i.theovan.cn/docs/20231230203757.png)
+![AdGuardHome](https://i.theojs.cn/docs/20231230203757.png)
 
 ### 官方一键安装脚本
 
@@ -48,7 +48,7 @@ sudo /opt/AdGuardHome/AdGuardHome -s start|stop|restart|status|install|uninstall
 
 安装完成之后访问地址为 http://ip:3000/ ,此为ubuntu的静态IP地址+3000端口号
 
-![AdGuardHome](https://i.theovan.cn/docs/20231230204830.png)
+![AdGuardHome](https://i.theojs.cn/docs/20231230204830.png)
 
 ## 配置 AdGuardHome
 
@@ -59,11 +59,11 @@ sudo /opt/AdGuardHome/AdGuardHome -s start|stop|restart|status|install|uninstall
 
 ### 设置账号密码
 
-![AdGuardHome](https://i.theovan.cn/docs/20231230205626.png)
+![AdGuardHome](https://i.theojs.cn/docs/20231230205626.png)
 
 ### 常规设置 部分
 
-![AdGuardHome](https://i.theovan.cn/docs/20231230205838.png)
+![AdGuardHome](https://i.theojs.cn/docs/20231230205838.png)
 
 ### DNS 设置
 
@@ -130,25 +130,25 @@ https://easylist-downloads.adblockplus.org/easyprivacy.txt
 
 **使用自定义的DNS服务器:**`AdGuardHome ip`
 
-![AdGuardHome](https://i.theovan.cn/docs/20231230210932.png)
+![AdGuardHome](https://i.theojs.cn/docs/20231230210932.png)
 
 ### 接口 - Lan - 高级设置 - DHCP - 高级设置
 
 **DHCP选项:** `6,+ AdGuardHome ip`
 
-![AdGuardHome](https://i.theovan.cn/docs/20231230211121.png)
+![AdGuardHome](https://i.theojs.cn/docs/20231230211121.png)
 
 ### 接口 - Wan - 高级设置
 
 **使用自定义的DNS服务器:** `AdGuardHome ip`
 
-![AdGuardHome](https://i.theovan.cn/docs/20231230211412.png)
+![AdGuardHome](https://i.theojs.cn/docs/20231230211412.png)
 
 ### 首先使虚拟机处于关闭状态,然后点击编辑
 
 修改内存为 25 GB 保存并开启虚拟机
 
-![AdGuardHome](https://i.theovan.cn/docs/20231231142111.png)
+![AdGuardHome](https://i.theojs.cn/docs/20231231142111.png)
 
 ## 扩容 AdGuardHome
 
@@ -158,7 +158,7 @@ https://easylist-downloads.adblockplus.org/easyprivacy.txt
 df -h
 ```
 
-![AdGuardHome](https://i.theovan.cn/docs/20231231142451.png)
+![AdGuardHome](https://i.theojs.cn/docs/20231231142451.png)
 
 ### 挂载扩容硬盘
 

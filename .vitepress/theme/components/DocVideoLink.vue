@@ -7,7 +7,7 @@ const props = defineProps<{
 }>()
 
 const videoDomains = [
-  'https://i.theovan.cn/',
+  'https://i.theojs.cn/',
   'https://www.youtube.com/',
   'https://youtu.be',
   '//player.bilibili.com/', // Updated Bilibili domain

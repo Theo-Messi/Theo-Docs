@@ -155,8 +155,8 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'og:locale', content: 'zh-CN' }],
   ['meta', { name: 'og:site_name', content: 'Theo Docs' }],
   ['meta', { name: 'og:title', content: 'Theo Docs' }],
-  ['meta', { name: 'og:url', content: 'https://doc.theovan.cn/' }],
-  ['meta', { name: 'og:image', content: 'https://doc.theovan.cn/avatar.png' }],
+  ['meta', { name: 'og:url', content: 'https://doc.theojs.cn/' }],
+  ['meta', { name: 'og:image', content: 'https://doc.theojs.cn/avatar.png' }],
   ['meta', { name: 'robots', content: 'index, follow' }],
   ['meta', { name: 'evisit-after', content: '1 day' }],
   [
