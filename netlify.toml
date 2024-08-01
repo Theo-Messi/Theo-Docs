@@ -5,6 +5,11 @@
   publish = ".vitepress/dist"
   command = "pnpm build"
 
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    cache-control = "max-age=31536000, immutable"
+
 [[redirects]]
   from = "https://doc.theovan.cn"
   to = "https://doc.theojs.cn"

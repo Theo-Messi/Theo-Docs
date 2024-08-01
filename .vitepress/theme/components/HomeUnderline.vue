@@ -1,3 +1,15 @@
+<script setup lang="ts">
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const p = document.querySelector('.VPHero .text') as HTMLElement | null
+  const s = document.querySelector('#hero-text') as HTMLElement | null
+  if (!p || !s) return
+  while (p.lastChild) p.lastChild.remove()
+  p.append(s)
+})
+</script>
+
 <template>
   <div id="hero-text">
     <span style="display: inline-block; position: relative"
@@ -23,15 +35,3 @@
     >一站式服务
   </div>
 </template>
-
-<script setup lang="ts">
-import { onMounted } from 'vue'
-
-onMounted(() => {
-  const p = document.querySelector('.VPHero .text') as HTMLElement | null
-  const s = document.querySelector('#hero-text') as HTMLElement | null
-  if (!p || !s) return
-  while (p.lastChild) p.lastChild.remove()
-  p.append(s)
-})
-</script>

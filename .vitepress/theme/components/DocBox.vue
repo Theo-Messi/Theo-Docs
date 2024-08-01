@@ -1,3 +1,35 @@
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+interface Item {
+  link: string
+  icon: string
+  name: string
+  tag?: string
+  light?: string
+  dark?: string
+  color?: string
+}
+
+export default defineComponent({
+  name: 'Box',
+  props: {
+    items: {
+      type: Array as () => Item[],
+      required: true
+    }
+  },
+  methods: {
+    isImage(url: string): boolean {
+      return (
+        typeof url === 'string' &&
+        /\.(png|jpe?g|gif|svg|webp|bmp|tif?f|tiff|ico)(\?.*)?$/.test(url)
+      )
+    }
+  }
+})
+</script>
+
 <template>
   <div class="box-container">
     <a
@@ -34,48 +66,6 @@
     </a>
   </div>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-interface Item {
-  link: string
-  icon: string
-  name: string
-  tag?: string
-  light?: string
-  dark?: string
-  color?: string
-}
-
-export default defineComponent({
-  name: 'Box',
-  props: {
-    items: {
-      type: Array as () => Item[],
-      required: true,
-      validator: (items: Item[]) => {
-        return items.every(
-          (item) =>
-            item.hasOwnProperty('link') &&
-            item.hasOwnProperty('icon') &&
-            item.hasOwnProperty('name') &&
-            (item.hasOwnProperty('tag') || true) &&
-            (item.hasOwnProperty('light') || item.hasOwnProperty('dark'))
-        )
-      }
-    }
-  },
-  methods: {
-    isImage(url: string): boolean {
-      return (
-        typeof url === 'string' &&
-        /\.(png|jpe?g|gif|svg|webp|bmp|tif?f|tiff|ico)(\?.*)?$/.test(url)
-      )
-    }
-  }
-})
-</script>
 
 <style lang="scss" scoped>
 :root:not(.dark) .dark-only {

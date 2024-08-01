@@ -10,7 +10,7 @@ const videoDomains = [
   'https://i.theojs.cn/',
   'https://www.youtube.com/',
   'https://youtu.be',
-  '//player.bilibili.com/', // Updated Bilibili domain
+  '//player.bilibili.com/',
   'https://v.youku.com/',
   'https://www.iqiyi.com/',
   'https://www.bilibili.com/',
