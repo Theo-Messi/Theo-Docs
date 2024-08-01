@@ -12,7 +12,8 @@ import {
   DocBoxCube,
   DocAsideLogo,
   DocVideoLink,
-  HomeUnderline
+  HomeUnderline,
+  Announcement
 } from './components'
 
 import '@shikijs/vitepress-twoslash/style.css'
@@ -24,6 +25,7 @@ export default {
   extends: DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
+      'home-hero-info-before': () => h(Announcement),
       'aside-ads-before': () => h(DocAsideLogo)
     })
   },

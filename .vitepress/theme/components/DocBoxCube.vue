@@ -1,14 +1,26 @@
 <template>
   <div class="container">
-    <a v-for="(item, index) in items" :key="item.name + index" class="link" :href="item.link" :name="item.name"
-      :title="item.name" target="_blank">
+    <a
+      v-for="(item, index) in items"
+      :key="item.name + index"
+      class="link"
+      :href="item.link"
+      :name="item.name"
+      :title="item.name"
+      target="_blank"
+    >
       <span v-if="isImage(item.icon)">
         <img :src="item.icon" alt="icon" class="img" />
       </span>
       <span v-else class="icon">
         <i :class="item.icon + ' fa-2xl'" :style="{ color: item.color }"></i>
       </span>
-      <img v-if="item.light" :src="item.light" alt="icon" class="img light-only" />
+      <img
+        v-if="item.light"
+        :src="item.light"
+        alt="icon"
+        class="img light-only"
+      />
       <img v-if="item.dark" :src="item.dark" alt="icon" class="img dark-only" />
       <span class="name">{{ item.name }}</span>
       <span class="desc">{{ item.desc }}</span>

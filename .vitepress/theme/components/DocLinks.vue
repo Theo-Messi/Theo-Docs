@@ -1,13 +1,42 @@
 <template>
   <div class="container">
-    <a v-for="(item, index) in items" :key="item.name + index" class="link" :href="item.link" :name="item.name"
-      :title="item.name" target="_blank">
+    <a
+      v-for="(item, index) in items"
+      :key="item.name + index"
+      class="link"
+      :href="item.link"
+      :name="item.name"
+      :title="item.name"
+      target="_blank"
+    >
       <span class="box">
-        <img v-if="item.icon && isImage(item.icon)" :src="item.icon" alt="Icon" class="icon" />
-        <i v-else-if="item.icon" :class="item.icon + ' fa-2xl icon'" :style="{ color: item.color }"></i>
-        <i v-else-if="!item.light && !item.dark" class="fas fa-arrow-up-right-from-square fa-lg fa-icon"></i>
-        <img v-if="item.light" :src="item.light" alt="icon" class="icon light-only" />
-        <img v-if="item.dark" :src="item.dark" alt="icon" class="icon dark-only" />
+        <img
+          v-if="item.icon && isImage(item.icon)"
+          :src="item.icon"
+          alt="Icon"
+          class="icon"
+        />
+        <i
+          v-else-if="item.icon"
+          :class="item.icon + ' fa-2xl icon'"
+          :style="{ color: item.color }"
+        ></i>
+        <i
+          v-else-if="!item.light && !item.dark"
+          class="fas fa-arrow-up-right-from-square fa-lg fa-icon"
+        ></i>
+        <img
+          v-if="item.light"
+          :src="item.light"
+          alt="icon"
+          class="icon light-only"
+        />
+        <img
+          v-if="item.dark"
+          :src="item.dark"
+          alt="icon"
+          class="icon dark-only"
+        />
       </span>
 
       <span class="name">{{ item.name }}</span>
@@ -39,7 +68,9 @@ export default defineComponent({
             item.hasOwnProperty('name') &&
             item.hasOwnProperty('link') &&
             item.hasOwnProperty('color') &&
-            (item.hasOwnProperty('icon') || item.hasOwnProperty('light') || item.hasOwnProperty('dark'))
+            (item.hasOwnProperty('icon') ||
+              item.hasOwnProperty('light') ||
+              item.hasOwnProperty('dark'))
         )
       }
     }

@@ -1,7 +1,14 @@
 <template>
   <div class="box-container">
-    <a v-for="(item, index) in items" :key="index" :href="item.link" :name="item.name" :title="item.name" class="box"
-      target="_blank">
+    <a
+      v-for="(item, index) in items"
+      :key="index"
+      :href="item.link"
+      :name="item.name"
+      :title="item.name"
+      class="box"
+      target="_blank"
+    >
       <div class="box-content">
         <span v-if="item.tag" class="tag">{{ item.tag }}</span>
         <span v-if="isImage(item.icon)" class="icon-container">
@@ -10,8 +17,18 @@
         <span v-else class="icon">
           <i :class="item.icon + ' fa-2xl'" :style="{ color: item.color }"></i>
         </span>
-        <img v-if="item.light" :src="item.light" alt="icon" class="icon-container light-only" />
-        <img v-if="item.dark" :src="item.dark" alt="icon" class="icon-container dark-only" />
+        <img
+          v-if="item.light"
+          :src="item.light"
+          alt="icon"
+          class="icon-container light-only"
+        />
+        <img
+          v-if="item.dark"
+          :src="item.dark"
+          alt="icon"
+          class="icon-container dark-only"
+        />
         <p class="name">{{ item.name }}</p>
       </div>
     </a>

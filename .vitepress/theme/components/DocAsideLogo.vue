@@ -1,7 +1,14 @@
 <template>
   <div>
-    <a v-for="(banner, index) in banners" :key="index" :href="banner.link" :name="banner.Activity || banner.name"
-      :title="banner.Activity || banner.name" class="banner" target="_blank">
+    <a
+      v-for="(banner, index) in banners"
+      :key="index"
+      :href="banner.link"
+      :name="banner.Activity || banner.name"
+      :title="banner.Activity || banner.name"
+      class="banner"
+      target="_blank"
+    >
       <img :src="banner.icon" width="22" height="22" />
       <span>
         <p v-if="banner.Activity" class="Activity">{{ banner.Activity }}</p>
@@ -16,17 +23,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from 'vue'
 
 interface Banner {
-  link: string;
-  icon: string;
-  Activity?: string;
-  name?: string;
-  hide1?: string;
-  hide2?: string;
-  info1?: string;
-  info2?: string;
+  link: string
+  icon: string
+  Activity?: string
+  name?: string
+  hide1?: string
+  hide2?: string
+  info1?: string
+  info2?: string
 }
 
 export default defineComponent({
@@ -45,34 +52,34 @@ export default defineComponent({
         icon: 'https://i.theojs.cn/avatar.png',
         name: '玄学宝典',
         hide1: '传世经典著作',
-        hide2: '山医命相卜',
+        hide2: '山医命相卜'
       },
       {
         link: 'https://share.theojs.cn/',
         icon: 'https://i.theojs.cn/docs/202405101119004.png',
         name: '阿里云盘资源分享',
         hide1: '快速获取热门影视资源',
-        hide2: '转存观看!',
+        hide2: '转存观看!'
       },
       {
         link: '/serve/sharing/Account-sharing-guide',
         icon: 'https://cdn.iconscout.com/icon/free/png-256/free-netflix-2296042-1912001.png',
         name: '流媒体帐号合租',
         hide1: '流媒体账号合租',
-        hide2: '共享车位',
+        hide2: '共享车位'
       },
       {
         link: 'https://github.com/sponsors/Theo-Messi',
         icon: '/爱心.png',
-        name: '为我赞助',
-      },
-    ];
+        name: '为我赞助'
+      }
+    ]
 
     return {
-      banners,
-    };
-  },
-});
+      banners
+    }
+  }
+})
 </script>
 
 <style lang="scss" scoped>
@@ -130,7 +137,12 @@ export default defineComponent({
   }
 
   .name {
-    background-image: linear-gradient(120deg, var(--vp-c-brand-3) 32%, var(--vp-c-brand-2), var(--vp-c-brand-1));
+    background-image: linear-gradient(
+      120deg,
+      var(--vp-c-brand-3) 32%,
+      var(--vp-c-brand-2),
+      var(--vp-c-brand-1)
+    );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

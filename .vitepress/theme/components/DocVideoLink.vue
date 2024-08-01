@@ -37,15 +37,22 @@ const toggleVideo = () => {
       <template v-if="isVideoOpen">
         <div class="video-embed">
           <div style="padding: 56.25% 0 0 0; position: relative">
-            <iframe loading="lazy" title="Gumlet video player" :src="props.href" style="
+            <iframe
+              loading="lazy"
+              title="Gumlet video player"
+              :src="props.href"
+              style="
                 border: none;
                 position: absolute;
                 top: 0;
                 left: 0;
                 height: 100%;
                 width: 100%;
-              " allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;"
-              frameborder="0" allowfullscreen>
+              "
+              allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;"
+              frameborder="0"
+              allowfullscreen
+            >
             </iframe>
           </div>
         </div>
@@ -58,7 +65,13 @@ const toggleVideo = () => {
       </template>
     </template>
     <template v-else>
-      <a :href="props.href" target="_blank" rel="noopener" :title="props.name" class="cta">
+      <a
+        :href="props.href"
+        target="_blank"
+        rel="noopener"
+        :title="props.name"
+        class="cta"
+      >
         <div class="name">{{ props.name }}</div>
       </a>
     </template>
