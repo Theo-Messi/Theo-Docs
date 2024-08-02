@@ -6,17 +6,23 @@
     color 0.5s,
     background-color 0.5s;
   position: relative;
-  color: rgba(0, 0, 0, 0.55);
-  background-color: var(--vp-c-bg-soft);
 
   &:before {
-    content: '\f06a';
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     font-size: 1rem;
     position: absolute;
     left: 1rem;
-    color: var(--vp-c-text-2);
+    color: var(--vp-c-text-1);
+  }
+
+  &.info,
+  &.note,
+  &.tip,
+  &.important {
+    &:before {
+      content: '\f06a';
+    }
   }
 
   &.warning,
@@ -28,6 +34,7 @@
   }
 
   &.details {
+    border: 1px solid var(--c-text-light-3);
     &:before {
       content: '\f059';
     }
@@ -37,8 +44,18 @@
     transition: color 0.5s;
   }
 
+  &.info,
+  &.note {
+    border: 1px solid var(--c-text-light-3);
+    color: var(--vp-c-text-2);
+    &:before {
+      color: var(--vp-c-text-1);
+    }
+  }
+
   &.tip {
     border: 1px solid var(--vp-c-green-1);
+    color: var(--vp-c-green-2);
     .custom-block-title,
     &:before {
       color: var(--vp-c-green-1);
@@ -47,6 +64,7 @@
 
   &.warning {
     border: 1px solid var(--vp-c-yellow-1);
+    color: var((--vp-c-yellow-2));
     .custom-block-title,
     &:before {
       color: var(--vp-c-yellow-1);
@@ -56,6 +74,7 @@
   &.danger,
   &.caution {
     border: 1px solid var(--vp-c-red-1);
+    color: var(--vp-c-red-2);
     .custom-block-title,
     &:before {
       color: var(--vp-c-red-1);
@@ -64,6 +83,7 @@
 
   &.important {
     border: 1px solid var(--vp-c-purple-1);
+    color: var(--vp-c-purple-2);
     .custom-block-title,
     &:before {
       color: var(--vp-c-purple-1);
