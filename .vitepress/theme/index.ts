@@ -10,14 +10,12 @@ import {
   DocBox,
   DocLinks,
   DocBoxCube,
-  DocAsideLogo,
   DocVideoLink,
-  HomeUnderline,
   Announcement
-} from './components'
-
+} from 'tmfe/vue'
+import { DocAsideLogo, HomeUnderline } from './components'
 import '@shikijs/vitepress-twoslash/style.css'
-import './styles/index.scss'
+import 'tmfe/scss/all.scss'
 import 'viewerjs/dist/viewer.min.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 
