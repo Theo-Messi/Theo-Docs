@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { fileURLToPath, URL } from 'node:url'
 import { algolia, head, nav, sidebar, markdown, socialLinks } from './configs'
 
 // 导出默认配置
@@ -27,14 +26,10 @@ export default defineConfig({
   // 插件配置
   vite: {
     resolve: {
-      alias: [
-        {
-          find: /^.*\/VPFooter\.vue$/,
-          replacement: fileURLToPath(
-            new URL('./theme/components/HomeFooter.vue', import.meta.url)
-          )
-        }
-      ]
+      alias: [{ find: /^.*\/VPFooter\.vue$/, replacement: 'tmfe/Footer' }]
+    },
+    define: {
+      FooterData: JSON.stringify(require('./data/footerData').Footer_Data)
     }
   },
   // 源目录

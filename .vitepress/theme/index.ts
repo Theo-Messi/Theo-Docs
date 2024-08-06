@@ -11,20 +11,21 @@ import {
   DocLinks,
   DocBoxCube,
   DocVideoLink,
-  Announcement
-} from 'tmfe/vue'
-import { DocAsideLogo, HomeUnderline } from './components'
+  Announcement,
+  DocAsideLogo,
+  HomeUnderline
+} from 'tmfe'
+import { Aside_Data } from '../data/AsideData'
 import '@shikijs/vitepress-twoslash/style.css'
-import 'tmfe/scss/all.scss'
+import 'tmfe/theme'
 import 'viewerjs/dist/viewer.min.css'
-import '@fortawesome/fontawesome-free/css/all.css'
 
 export default {
   extends: DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'home-hero-info-before': () => h(Announcement),
-      'aside-ads-before': () => h(DocAsideLogo)
+      'aside-ads-before': () => h(DocAsideLogo, { Aside_Data })
     })
   },
   enhanceApp: ({ app }: EnhanceAppContext, ctx) => {

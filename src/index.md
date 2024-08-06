@@ -4,11 +4,11 @@ title: Theo Docs
 titleTemplate: 流媒体观影一站式服务
 hero:
   name: Theo Docs
-  text: 流媒体观影一站式服务
+  text: 流媒体观影
   tagline: 引领您进入五彩斑斓的视听世界，并涵盖了 Netflix 、Disney+ 、Spotify会员 和 YouTube会员 的精彩领域
   image:
     src: index/home.png
-    alt: 流媒体观影一站式服务
+    alt: 一站式服务
   prelink:
     title: '🎉 站点迁移至 <u>https://doc.theojs.cn</u><div style="text-align: right; font-weight: bold;"><i class="fas fa-star" style="color: #FFD43B;"></i>Ctrl+D 快速收藏网址</div>'
     link: https://doc.theojs.cn/
