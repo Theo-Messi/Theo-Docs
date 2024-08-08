@@ -18,7 +18,7 @@
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-task-checkbox": "^1.0.6",
     "simple-git-hooks": "^2.11.1",
-    "tmfe": "^2.2.5",
+    "@theo-messi/tm-fe": "^2.2.5",
     "viewerjs": "^1.11.6",
     "vitepress-plugin-image-viewer": "^1.1.5",
     "vue": "^3.4.35"

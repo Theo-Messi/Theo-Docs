@@ -14,10 +14,10 @@ import {
   Announcement,
   DocAsideLogo,
   HomeUnderline
-} from 'tmfe'
+} from '@theo-messi/tm-fe'
 import { Aside_Data } from '../data/AsideData'
 import '@shikijs/vitepress-twoslash/style.css'
-import 'tmfe/theme'
+import '@theo-messi/tm-fe/theme'
 import 'viewerjs/dist/viewer.min.css'
 
 export default {
