@@ -27,6 +27,10 @@ export const Footer_Data = {
         {
           name: '常用配置文件',
           href: 'https://github.com/Theo-Messi/dotfiles'
+        },
+        {
+          name: 'TM-FE',
+          href: 'https://github.com/Theo-Messi/tm-fe'
         }
       ]
     },
@@ -42,6 +46,10 @@ export const Footer_Data = {
         {
           name: 'Bridge The Wise',
           href: 'https://patriot.ninja/aff.php?aff=1471'
+        },
+        {
+          name: '飞兔云',
+          href: 'https://xn--9kq10e0y7h.site/index.html?register=2cFF8mg4'
         },
         {
           name: 'SMS-Activate',
