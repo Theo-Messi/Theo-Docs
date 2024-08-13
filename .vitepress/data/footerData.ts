@@ -37,6 +37,10 @@ export const Footer_Data = {
     {
       title: '合作伙伴',
       links: [
+        {
+          name: '🔥 青云梯',
+          href: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd'
+        },
         { name: '银河录像局', href: 'https://nf.video/kaIuE' },
         { name: '奈飞小铺', href: 'https://ihezu.love/UKTer6' },
         {

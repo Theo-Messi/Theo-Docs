@@ -22,7 +22,7 @@ hero:
       link: /serve/sharing/Account-sharing-guide
     - theme: alt
       text: 机场推荐
-      link: /serve/airport/FlyingBird
+      link: /serve/airport/qingyunti
     - theme: brand
       text: ❤️ 成为赞助商
       link: https://github.com/sponsors/Theo-Messi
@@ -48,7 +48,7 @@ features:
   - title: 优质线路
     icon: <i class="fas fa-plane" style="color:#538dd7" alt="IPLC"></i>
     details: 全专线IPLC，不限速，不限设备数量，超稳晚高峰，流媒体全解锁！全节点解锁chatgpt！
-    link: /serve/airport/FlyingBird
+    link: /serve/airport/qingyunti
     linkText: 查看更多
 
   - title: 云盘资源分享

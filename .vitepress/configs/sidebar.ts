@@ -326,6 +326,7 @@ export function Sidebar_serve() {
       // collapsed: true,
       base: '/serve/',
       items: [
+        { text: '青云梯', link: 'airport/qingyunti' },
         { text: 'FlyingBird - 飞鸟机场', link: 'airport/FlyingBird' },
         { text: 'Bridge the Wise', link: 'airport/Bridge-the-Wise' },
         { text: '飞兔云', link: 'airport/feitucloud' }
