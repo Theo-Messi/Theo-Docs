@@ -1,0 +1,41 @@
+{
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "prettier": "prettier . --write",
+    "check": "prettier . --check"
+  },
+  "devDependencies": {
+    "@mdit/plugin-img-size": "^0.13.0",
+    "@shikijs/vitepress-twoslash": "^1.12.1",
+    "prettier": "3.3.3",
+    "vitepress": "1.3.2",
+    "vitepress-plugin-google-analytics": "^1.0.2"
+  },
+  "dependencies": {
+    "lint-staged": "^15.2.8",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-task-checkbox": "^1.0.6",
+    "simple-git-hooks": "^2.11.1",
+    "@theojs/lumen": "^2.4.5",
+    "viewerjs": "^1.11.6",
+    "vitepress-plugin-image-viewer": "^1.1.5",
+    "vue": "^3.4.37"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 80,
+    "trailingComma": "none"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown"
+    ]
+  },
+  "packageManager": "pnpm@9.5.0"
+}
