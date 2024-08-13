@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      '@theo-messi/tm-fe':
-        specifier: ^2.4.2
-        version: 2.4.2(typescript@5.5.4)
+      '@theojs/lumen':
+        specifier: ^2.4.5
+        version: 2.4.5(typescript@5.5.4)
       lint-staged:
         specifier: ^15.2.8
         version: 15.2.8
@@ -427,8 +427,8 @@ packages:
   '@shikijs/vitepress-twoslash@1.12.1':
     resolution: {integrity: sha512-zFW9im65bkyBUCLFA8wHte3QvOKyQybScqAZqaSuRm442KyKwGxAEpe+5F0Sj8BOPGNjekzMLJPtTDqUURuSYQ==}
 
-  '@theo-messi/tm-fe@2.4.2':
-    resolution: {integrity: sha512-kifY2dLGZJ0qxcfBEJgnabZIaYkp7iUomfo7B7SgftylK3BkHMqiHsxd64gzhbssi+CD3+lnFRdu2sz1wkeg0w==}
+  '@theojs/lumen@2.4.5':
+    resolution: {integrity: sha512-XdLWLck9B4pKxHeo9tunXltgckPhilkB6RB71GeNIobpfEGUvOJ8V2s1HUgYPdAuV4GCgn8uvj10sggYgy/FWQ==}
 
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
@@ -1808,16 +1808,14 @@ snapshots:
       - supports-color
       - typescript
 
-  '@theo-messi/tm-fe@2.4.2(typescript@5.5.4)':
+  '@theojs/lumen@2.4.5(typescript@5.5.4)':
     dependencies:
       '@fortawesome/fontawesome-free': 6.6.0
-      '@mdit/plugin-img-size': 0.13.0
       bumpp: 9.4.2
       sass: 1.77.8
       vue: 3.4.37(typescript@5.5.4)
     transitivePeerDependencies:
       - magicast
-      - markdown-it
       - typescript
 
   '@types/debug@4.1.12':

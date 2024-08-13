@@ -29,8 +29,8 @@ export const Footer_Data = {
           href: 'https://github.com/Theo-Messi/dotfiles'
         },
         {
-          name: 'TM-FE',
-          href: 'https://github.com/Theo-Messi/tm-fe'
+          name: 'Lumen',
+          href: 'https://github.com/Theo-Messi/tools'
         }
       ]
     },

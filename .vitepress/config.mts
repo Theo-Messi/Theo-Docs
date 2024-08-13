@@ -27,7 +27,7 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: [
-        { find: /^.*\/VPFooter\.vue$/, replacement: '@theo-messi/tm-fe/Footer' }
+        { find: /^.*\/VPFooter\.vue$/, replacement: '@theojs/lumen/Footer' }
       ]
     },
     define: {
