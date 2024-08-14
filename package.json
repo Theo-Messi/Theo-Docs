@@ -14,11 +14,12 @@
     "vitepress-plugin-google-analytics": "^1.0.2"
   },
   "dependencies": {
+    "@theojs/lumen": "^2.5.1",
     "lint-staged": "^15.2.8",
     "markdown-it-footnote": "^4.0.0",
+    "markdown-it-image-figures": "^2.1.1",
     "markdown-it-task-checkbox": "^1.0.6",
     "simple-git-hooks": "^2.11.1",
-    "@theojs/lumen": "^2.4.5",
     "viewerjs": "^1.11.6",
     "vitepress-plugin-image-viewer": "^1.1.5",
     "vue": "^3.4.37"
