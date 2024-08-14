@@ -13,7 +13,7 @@ head:
 - **网络** > **网卡** 中
 - 删除名为**WAN6**的接口
 
-![IPV6](https://i.theojs.cn/docs/v6-1.nuexini)
+![IPV6](https://i.theojs.cn/docs/v6-1.nuexini '删除 WAN6')
 
 ### 编辑 IPV6 设置
 
@@ -21,21 +21,15 @@ head:
 - 点击 **DHCP 服务器 > IPv6 设置**
 - RA 服务 & DHCPv6 服务 & NDP 代理 选择 **已禁用**
 
-![IPV6](https://i.theojs.cn/docs/v6-2.nuexini)
+![IPV6](https://i.theojs.cn/docs/v6-2.nuexini '编辑 IPV6 设置')
 
-### **高级设置**
+### 高级设置
 
-- 把 **IPv6 分配长度** 选择 **已禁用**
+![IPV6](https://i.theojs.cn/docs/v6-3.nuexini '把 **IPv6 分配长度** 选择 **已禁用**')
 
-![IPV6](https://i.theojs.cn/docs/v6-3.nuexini)
+![IPV6](https://i.theojs.cn/docs/v6-4.nuexini '取消勾选 - **使用内置的 IPv6 管理**')
 
-### 取消勾选 - **使用内置的 IPv6 管理**
-
-![IPV6](https://i.theojs.cn/docs/v6-4.nuexini)
-
-### **保存**
-
-![IPV6](https://i.theojs.cn/docs/v6-5.nuexini)
+![IPV6](https://i.theojs.cn/docs/v6-5.nuexini '高级设置')
 
 ## LAN 口设置
 
@@ -48,7 +42,7 @@ head:
 - 还有最后一步，在`全局网络选项` 中 `IPv6 ULA 前缀` 内容清除
 - 点击保存并应用，即可完成操作
 
-![IPV6](https://i.theojs.cn/docs/v6-7.nuexini)
+![IPV6](https://i.theojs.cn/docs/v6-7.nuexini '保存并应用')
 
 ## 防火墙设置
 
@@ -56,18 +50,18 @@ head:
 - 把所有为**入站 IPv6** 或 **转发 IPv6** 或 **出站 IPv6** 的 **启用** 放弃勾选
 - 不启用之后，点击**保存并应用**
 
-![IPV6](https://i.theojs.cn/docs/v6-9.nuexini)
+![IPV6](https://i.theojs.cn/docs/v6-9.nuexini '防火墙设置')
 
 ## DHCP/DNS 设置
 
 - 在 **网络 > DHCP/DNS** 中，选择 **高级设置**
 - 在大雕的 OpenWrt (lede)中，是有 **禁止解析 IPv6 DNS 记录** 的，但是在原版的 OpenWrt 中，是没有这个选项的
 
-![IPV6](https://i.theojs.cn/docs/v6-11.webp)
+![IPV6](https://i.theojs.cn/docs/v6-11.webp 'DHCP/DNS 设置')
 
 - 下图为原版 **OpenWrt > 网络 > DHCP/DNS > 高级设置**
 
-![IPV6](https://i.theojs.cn/docs/v6-12.nuexini)
+![IPV6](https://i.theojs.cn/docs/v6-12.nuexini 'DHCP/DNS 设置')
 
 ## 下面需要用到 SSH 操作（如何开启 SSH 请自己解决）
 

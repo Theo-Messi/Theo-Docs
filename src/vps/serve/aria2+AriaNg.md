@@ -79,7 +79,7 @@ p3terx/ariang
 
 ![aria2+AriaNg](https://i.theojs.cn/docs/202404290014327.png)
 
-![aria2+AriaNg](https://i.theojs.cn/docs/202404290015325.png)
+![aria2+AriaNg](https://i.theojs.cn/docs/202404290015325.png '配置RPC')
 
 - RPC别名随意填就好
 - RPC地址填写你服务器的域名或IP，后面的端口号就是前面启动的aria2的RPC通讯端口

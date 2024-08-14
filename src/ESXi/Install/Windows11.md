@@ -12,23 +12,17 @@ head:
 
 ## 选择创建新的虚拟机
 
-![install Windows11](https://i.theojs.cn/docs/20240421192959.png)
+![install Windows11](https://i.theojs.cn/docs/20240421192959.png '创建新的虚拟机')
 
-![install Windows11](https://i.theojs.cn/docs/20240421193033.png)
+![install Windows11](https://i.theojs.cn/docs/20240421193033.png '创建新的虚拟机')
 
 此选项将指导您完成创建新虚拟机的过程。您可以自定义处理器、内存、网络连接和存储。创建之后您需要安装客户机操作系统。
 
-填写虚拟机的相关信息
+![install Windows11](https://i.theojs.cn/docs/20240421193110.png '填写虚拟机的相关信息')
 
-![install Windows11](https://i.theojs.cn/docs/20240421193110.png)
+![install Windows11](https://i.theojs.cn/docs/20240421193200.png '选择虚拟机存储位置')
 
-选择虚拟机存储位置
-
-![install Windows11](https://i.theojs.cn/docs/20240421193200.png)
-
-配置虚拟机的内存，CPU等
-
-![install Windows11](https://i.theojs.cn/docs/20240421193238.png)
+![install Windows11](https://i.theojs.cn/docs/20240421193238.png '配置虚拟机的内存，CPU等')
 
 ## 开启虚拟机
 
@@ -64,12 +58,6 @@ REG ADD HKLM\SYSTEM\Setup\LabConfig /v BypassSecureBootCheck /t REG_DWORD /d 1
 
 ![install Windows11](https://i.theojs.cn/docs/20240421194619.png)
 
-选择自定义
+![install Windows11](https://i.theojs.cn/docs/20240421194638.png '选择自定义')
 
-![install Windows11](https://i.theojs.cn/docs/20240421194638.png)
-
-直接下一步系统会自动分区
-
-![install Windows11](https://i.theojs.cn/docs/20240421194724.png)
-
-安装完会自动重启即可
+![install Windows11](https://i.theojs.cn/docs/20240421194724.png '直接下一步系统会自动分区 安装完会自动重启即可')

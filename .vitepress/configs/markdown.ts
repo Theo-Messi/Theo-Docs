@@ -2,6 +2,7 @@ import { UserConfig } from 'vitepress'
 import footnote_plugin from 'markdown-it-footnote'
 import taskLists from 'markdown-it-task-checkbox'
 import { imgSize } from '@mdit/plugin-img-size'
+import mdImageFigures from 'markdown-it-image-figures'
 import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 import { table } from './index.ts'
 
@@ -24,5 +25,9 @@ export const markdown: UserConfig['markdown'] = {
     md.use(footnote_plugin)
     md.use(taskLists)
     md.use(imgSize)
+    md.use(mdImageFigures, {
+      figcaption: 'title',
+      copyAttrs: '^class$'
+    })
   }
 }

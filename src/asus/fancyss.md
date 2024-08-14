@@ -185,33 +185,33 @@ tx：华硕天选青色皮肤
 
 ### 第 1 步 - 打开梅林固件「软件中心」的「科学上网」插件
 
-![fancyss](https://i.theojs.cn/docs/image_1k10u2w.png)
+![fancyss](https://i.theojs.cn/docs/image_1k10u2w.png '打开“软件中心”——“科学上网”')
 
 ### 第 2 步 - 清空配置
 
 :::tip
 首次配置，请看第 3 步。如之前有进行过配置，强烈建议「清空配置」后再参照教程继续设置，以确保配置正确性。
 :::
-![fancyss](https://i.theojs.cn/docs/image_18vardl.png)
+![fancyss](https://i.theojs.cn/docs/image_18vardl.png '清空配置')
 
 ### 第 3 步 - 订阅节点
 
 :::tip
 弹框选择「订阅节点」。如没弹框，直接看第 4 步，手动选择「更新管理」选项卡。
 :::
-![fancyss](https://i.theojs.cn/docs/image_upeb6r.png)
+![fancyss](https://i.theojs.cn/docs/image_upeb6r.png '订阅节点')
 
 ### 第 4 步 - 订阅节点配置「更新管理」
 
-![fancyss](https://i.theojs.cn/docs/image_2vj9pj.png)
+![fancyss](https://i.theojs.cn/docs/image_2vj9pj.png '更新管理')
 
 ### 第 5 步 - 配置「DNS 设定」
 
-![fancyss](https://i.theojs.cn/docs/image_18d55uv.png)
+![fancyss](https://i.theojs.cn/docs/image_18d55uv.png 'DNS设定')
 
 ### 第 6 步 - 启动设置
 
-![fancyss](https://i.theojs.cn/docs/image_1fhyjy6.png)
+![fancyss](https://i.theojs.cn/docs/image_1fhyjy6.png '启动设置')
 
 ## 其他事项
 
@@ -223,7 +223,7 @@ tx：华硕天选青色皮肤
 :::tip
 因为节点可能会定期调整，为了确保订阅的节点信息与官网所提供的节点信息一致，请定期（1~2 周）更新订阅。由于梅林的科学上网插件不会覆盖节点，直接更新订阅会导致节点排序混乱。推荐按照上述步骤操作。
 :::
-![fancyss](https://i.theojs.cn/docs/image_1d6qvr3.png)
+![fancyss](https://i.theojs.cn/docs/image_1d6qvr3.png '更新订阅')
 
 ## DNS服务工作异常，无法解析域名
 

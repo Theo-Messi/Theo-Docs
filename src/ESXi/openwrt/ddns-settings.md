@@ -73,7 +73,7 @@ Forbidden
 Rejected request from RFC1918 IP to public server address .
 ```
 
-![DDNS](https://i.theojs.cn/docs/20240419153456.png)
+![DDNS](https://i.theojs.cn/docs/20240419153456.png 'Forbidden')
 
 ### 解决方法
 

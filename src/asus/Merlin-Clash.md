@@ -24,9 +24,11 @@ Merlin Clash 是一款运行在[KoolCenter](https://www.koolcenter.com/)软件�
 
 打开`软件中心`-`离线安装`，上传下载好的 `merlinclash` 的 `tar包`并安装。
 
-![梅林固件安装Clash](https://cdn.apphb.cn/bbs_applehub_cn/2023/02/01145d3043141842-1024x420.png)
+![梅林固件安装Clash](https://cdn.apphb.cn/bbs_applehub_cn/2023/02/01145d3043141842-1024x420.png '安装 Merlin Clash')
 
-要是提示含非法关键词，安装失败的，可查看[提示检测非法关键词](/asus/illegal-keywords)
+:::tip
+要是提示含非法关键词，安装失败的，可查看 [提示检测非法关键词](/asus/illegal-keywords)
+:::
 
 ## 安装补丁
 
@@ -50,25 +52,25 @@ Merlin Clash 是一款运行在 KoolCenter 软件中心上的 Clash GUI 插件�
 
 切换到配置文件页，在 `Clash-Yaml 配置下载` 一栏粘贴 clash 订阅地址。
 
-![Merlin Clash](https://i.theojs.cn/docs/MerlinClash2.jpeg)
+![Merlin Clash](https://i.theojs.cn/docs/MerlinClash2.jpeg '配置订阅')
 
 ---
 
 在下方 `重命名` 栏输入自定义配置文件名后(以命名为 Clash 为例)，点击 `Clash 订阅` 。如下图所示， Clash-Yaml 配置下载成功，并被命名为 Clash.yaml。
 
-![Merlin Clash](https://i.theojs.cn/docs/MerlinClash3.jpeg)
+![Merlin Clash](https://i.theojs.cn/docs/MerlinClash3.jpeg '配置订阅')
 
 ## 启动
 
 切换至 `首页功能` 页，打开 `Merlin Clash 开关` 选择配置文件 `Clash` 后`保存&启动`。
 
-![Merlin Clash](https://i.theojs.cn/docs/MerlinClash4.jpeg)
+![Merlin Clash](https://i.theojs.cn/docs/MerlinClash4.jpeg '保存&启动')
 
 ---
 
 启动成功后 `插件运行状态` 如下图所示。启动默认不选择节点，且 `连通性检查` 只检测当前浏览器情况，并非设备和插件网络情况。
 
-![Merlin Clash](https://i.theojs.cn/docs/MerlinClash5.jpeg)
+![Merlin Clash](https://i.theojs.cn/docs/MerlinClash5.jpeg '连通性检查')
 
 ## 代理
 
@@ -76,7 +78,7 @@ Merlin Clash 插件启动后，在 `首页功能` 页下方找到 `Clash 管理�
 
 通过 `Clash 管理面板` 可以快捷进行 `节点切换` `模式变更` 等常用功能设置。
 
-!Merlin Clash](https://i.theojs.cn/docs/MerlinClash6.jpeg)
+![Merlin Clash](https://i.theojs.cn/docs/MerlinClash6.jpeg 'Clash 管理面板')
 
 ---
 
@@ -84,12 +86,13 @@ Merlin Clash 插件启动后，在 `首页功能` 页下方找到 `Clash 管理�
 
 切换至 `代理` 页，点击 `手动选择` 展开节点列表并选择要连接使用的节点即启动代理。
 
-![Merlin Clash](https://i.theojs.cn/docs/MerlinClash7.png)
+![Merlin Clash](https://i.theojs.cn/docs/MerlinClash7.png 'YACD-Clash 面板')
 
 ---
 
 切换至 `配置` 页，点击 `Mode` 展开列表并选择要使用的代理模式。( 常用 Rule、Global )
-![Merlin Clash](https://i.theojs.cn/docs/MerlinClash8.png)
+
+![Merlin Clash](https://i.theojs.cn/docs/MerlinClash8.png '代理模式')
 
 :::tip
 在管理面板中的所有设置都立即生效。

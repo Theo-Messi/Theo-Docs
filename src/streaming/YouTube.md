@@ -6,7 +6,7 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
-![YouTube](https://i.theojs.cn/docs/202406111509751.png)
+![YouTube](https://i.theojs.cn/docs/202406111509751.png 'YouTube')
 
 YouTube Premium 是谷歌的流媒体服务套餐，提供无广告的 YouTube 体验以及 YouTube Music 和 Google Play Music 两项服务。开通 YouTube Premium 会员后，可享受以下核心权益：
 

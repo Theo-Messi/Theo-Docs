@@ -14,9 +14,9 @@ head:
 
 对于已经挂载好设备，可以点击 `...` 查看挂载点等信息。
 
-![iStoreOS](https://i.theojs.cn/docs/20240419230146.png)
+![iStoreOS](https://i.theojs.cn/docs/20240419230146.png '格式化并且挂载磁盘')
 
-![iStoreOS](https://i.theojs.cn/docs/20240419230348.png)
+![iStoreOS](https://i.theojs.cn/docs/20240419230348.png '格式化并且挂载磁盘')
 
 ## 共享文件目录
 
@@ -30,18 +30,19 @@ head:
 
 - `设置账号密码` - `保存并应用`
 
-![iStoreOS](https://i.theojs.cn/docs/20240419230656.png)
+![iStoreOS](https://i.theojs.cn/docs/20240419230656.png '添加用户')
 
 ### 添加共享目录
 
 #### 常规设置
 
 `统一文件共享` 中点击 `启用`，`取消匿名用户`（基于安全因素）
-![iStoreOS](https://i.theojs.cn/docs/20240419230812.png)
+
+![iStoreOS](https://i.theojs.cn/docs/20240419230812.png '取消匿名用户')
 
 #### 新增共享
 
-![iStoreOS](https://i.theojs.cn/docs/20240419230905.png)
+![iStoreOS](https://i.theojs.cn/docs/20240419230905.png '新增共享')
 
 #### 配置新增的共享目录
 
@@ -52,7 +53,8 @@ head:
 - **协议**：Samba和WebDAV均勾选
 
 然后点击 `保存` 后再点击 `保存并应用`
-![iStoreOS](https://i.theojs.cn/docs/20240419231041.png)
+
+![iStoreOS](https://i.theojs.cn/docs/20240419231041.png '保存并应用')
 
 ## 访问共享目录
 
@@ -74,7 +76,7 @@ Windows打开计算在地址栏中输入：
 
 4. 在弹出的对话框中输入用户名和密码
 
-![iStoreOS](https://i.theojs.cn/docs/20240419231359.png)
+![iStoreOS](https://i.theojs.cn/docs/20240419231359.png '用户名和密码')
 
 ## 其他设置
 
@@ -85,12 +87,14 @@ Windows打开计算在地址栏中输入：
 提示：不允许一个用户使用一个以上用户名与服务器或共享资源的多重连接
 
 请注销或者重启电脑，再次尝试访问共享目录。
-![iStoreOS](https://i.theojs.cn/docs/20240419231451.png)
+![iStoreOS](https://i.theojs.cn/docs/20240419231451.png '典型报错处理')
 
 ### 固定访问
 
 访问共享目录后，右击 `快速访问` 再弹出的菜单中 点击 `将当前文件夹固定到“快速访问”`
 
 以后就可以直接点击访问了
-![iStoreOS](https://i.theojs.cn/docs/20240419231548.png)
-![iStoreOS](https://i.theojs.cn/docs/20240419231600.png)
+
+![iStoreOS](https://i.theojs.cn/docs/20240419231548.png '固定访问')
+
+![iStoreOS](https://i.theojs.cn/docs/20240419231600.png '固定访问')

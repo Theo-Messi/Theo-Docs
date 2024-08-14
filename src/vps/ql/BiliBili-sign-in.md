@@ -50,20 +50,13 @@ head:
 
 保存成功后，找到该定时任务，点击运行按钮，运行拉库。
 
-如果正常，拉库成功后，同时也会自动添加bilibili相关的task任务。
-
-![BiliBili](https://i.theojs.cn/docs/qinglong-tasks.png)
+![BiliBili](https://i.theojs.cn/docs/qinglong-tasks.png '如果正常，拉库成功后，同时也会自动添加bilibili相关的task任务。')
 
 ### 登录
 
-在青龙定时任务中，点击运行`bili扫码登录`任务，查看运行日志，扫描日志中的二维码进行登录。
-![BiliBili](https://i.theojs.cn/docs/qinglong-login.png)
+![BiliBili](https://i.theojs.cn/docs/qinglong-login.png '在青龙定时任务中，点击运行`bili扫码登录`任务，查看运行日志，扫描日志中的二维码进行登录。')
 
-登录成功后，会将cookie保存到青龙的环境变量中：
-
-![BiliBili](https://i.theojs.cn/docs/qinglong-env.png)
-
-首次运行会自动安装dotnet环境，时间久点，之后就不需要重复安装了。
+![BiliBili](https://i.theojs.cn/docs/qinglong-env.png '登录成功后，会将cookie保存到青龙的环境变量中')
 
 ## 先行版
 

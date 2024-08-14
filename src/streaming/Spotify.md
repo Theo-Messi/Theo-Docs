@@ -6,7 +6,7 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
-![Spotify](https://i.theojs.cn/docs/202406111508204.png)
+![Spotify](https://i.theojs.cn/docs/202406111508204.png 'Spotify')
 
 Spotify，又名声田或声破天，是一家全球性的正版音乐服务平台，于 2008 年 10 月在瑞典首都斯德哥尔摩正式上线。与环球音乐集团、索尼音乐娱乐、华纳音乐集团等三大唱片公司及其他唱片公司合作，Spotify 是全球最大的流音乐服务商之一，提供受数字版权管理保护的音乐。
 

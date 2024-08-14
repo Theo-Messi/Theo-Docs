@@ -24,15 +24,15 @@ sudo dpkg-reconfigure locales
 选择以下选项并用空格键选中
 
 - `zh_CN GB2312`
-- ` zh_CN.GB18030 GB18030`
+- `zh_CN.GB18030 GB18030`
 - `zh_CN.GBK GBK`
 - `zh_CN.UTF-8`
 
-![1Panel](https://i.theojs.cn/docs/202406101154079.png)
+![locales](https://i.theojs.cn/docs/202406101154079.png '选择`zh_CN GB2312` `zh_CN GB2312` `zh_CN.GBK GBK` `zh_CN.UTF-8`选项并用空格键选中')
 
 再次选择 `zh_CN.UTF-8`, 然后回车完成设置
 
-![1Panel](https://i.theojs.cn/docs/202406101155372.png)
+![locales](https://i.theojs.cn/docs/202406101155372.png '再次选择 `zh_CN.UTF-8`, 然后回车完成设置')
 
 ## 3.重启系统
 

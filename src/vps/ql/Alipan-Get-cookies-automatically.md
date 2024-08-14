@@ -17,4 +17,4 @@ head:
 copy(JSON.parse(localStorage.token).refresh_token); console.log(JSON.parse(localStorage.token).refresh_token);
 ```
 
-![aliyundrive](https://github.com/mrabit/aliyundriveDailyCheck/raw/master/assets/refresh_token_1.png)
+![aliyundrive](https://github.com/mrabit/aliyundriveDailyCheck/raw/master/assets/refresh_token_1.png '自动获取 - refresh_token')

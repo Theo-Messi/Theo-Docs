@@ -26,19 +26,19 @@ openwrt一般只要不是自己DIY编译的很少有把docker分区编译够用�
 
 由于我自己的是虚拟机的环境，就直接添加一个分区，格式化后直接挂载了，如果是单个物理盘，而且已经安装了openwrt，请根据命令创建新分区，格式化ext4后挂载即可"
 
-![clouddrive2](https://i.theojs.cn/docs/20240420164209.png)
+![clouddrive2](https://i.theojs.cn/docs/20240420164209.png '创建分区或者添加新分区')
 
-![clouddrive2](https://i.theojs.cn/docs/20240420164237.png)
+![clouddrive2](https://i.theojs.cn/docs/20240420164237.png '创建分区或者添加新分区')
 
 选择好分区和挂载目录，勾选上 启用此挂载点
 
-![clouddrive2](https://i.theojs.cn/docs/20240420164352.png)
+![clouddrive2](https://i.theojs.cn/docs/20240420164352.png '启用此挂载点')
 
 **在高级选项里选择`ext4`，点击 保存&应用**
 
 然后重启openwrt，一定要重启，不然不生效，生效后如下
 
-![clouddrive2](https://i.theojs.cn/docs/20240420164746.png)
+![clouddrive2](https://i.theojs.cn/docs/20240420164746.png '重启生效')
 
 把分区挂载到opt目录后，也就是docker的目录达到了扩容的目的
 
@@ -70,7 +70,7 @@ EOF
 df -h
 ```
 
-![clouddrive2](https://i.theojs.cn/docs/20240420182231.png)
+![clouddrive2](https://i.theojs.cn/docs/20240420182231.png '查找挂载点目录')
 
 ### 选择一个目录挂载
 
@@ -106,8 +106,7 @@ docker run -d \
 
 ## 注意事项
 
-**重启路由docker启动失败解决**
-![clouddrive2](https://i.theojs.cn/docs/20240420165750.png)
+![clouddrive2](https://i.theojs.cn/docs/20240420165750.png '重启路由docker启动失败解决')
 
 找到`系统`---`启动项`---`本地启动脚本`（拉到最底部）
 按照上图，把下面参数填到指定位置，保存应用，重启即可！

@@ -17,7 +17,7 @@ head:
 
 根据个人需求任意安装一个，用于反向代理做域名绑定或80端口访问使用
 
-![宝塔面板](https://i.theojs.cn/docs/WX20240223-222305%402x.png)
+![宝塔面板](https://i.theojs.cn/docs/WX20240223-222305%402x.png 'Nginx/Apache')
 
 ### Node.js版本管理器
 
@@ -25,19 +25,15 @@ head:
 是Node.js版本管理器，不是PM2管理器
 :::
 
-![宝塔面板](https://i.theojs.cn/docs/WX20240223-222617%402x.png)
+![宝塔面板](https://i.theojs.cn/docs/WX20240223-222617%402x.png 'Node.js版本管理器')
 
-### 在Node.js版本管理器中安装Node版本版本
-
-![宝塔面板](https://i.theojs.cn/docs/WX20240223-222723%402x.png)
-
-### Node.js设置
+![宝塔面板](https://i.theojs.cn/docs/WX20240223-222723%402x.png '在Node.js版本管理器中安装Node版本版本')
 
 :::tip
 命令运行版本默认状态是：未设置，这里我们需要选择一下版本，否则后面安装vitepress无法使用命令行模式。
 :::
 
-![宝塔面板](https://i.theojs.cn/docs/WX20240223-222850%402x.png)
+![宝塔面板](https://i.theojs.cn/docs/WX20240223-222850%402x.png 'Node.js设置')
 
 ## 3.开放8080端口
 
@@ -55,27 +51,19 @@ head:
 
 ## 4.建立网站及运行目录
 
-### 添加站点
-
-![宝塔面板](https://i.theojs.cn/docs/WX20240223-223335%402x.png)
-
-### 添加站点配置
+![宝塔面板](https://i.theojs.cn/docs/WX20240223-223335%402x.png '添加站点')
 
 :::tip 注意
 数据库选择 【不创建】，PHP版本选择【纯静态】
 :::
-![宝塔面板](https://i.theojs.cn/docs/WX20240223-223817%402x.png)
+![宝塔面板](https://i.theojs.cn/docs/WX20240223-223817%402x.png '添加站点配置')
 
-### 删除网站目录下的默认文件
-
-![宝塔面板](https://i.theojs.cn/docs/WX20240223-223941%402x.png)
 ::: tip 注意
 user.ini文件无法被批量删除，就点击文件右侧的删除按钮进行删除
 :::
+![宝塔面板](https://i.theojs.cn/docs/WX20240223-223941%402x.png '删除网站目录下的默认文件')
 
-### 申请SSL证书
-
-![宝塔面板](https://i.theojs.cn/docs/WX20240223-224110%402x.png)
+![宝塔面板](https://i.theojs.cn/docs/WX20240223-224110%402x.png '申请SSL证书')
 
 ## 5.命令行部署vitepress
 
@@ -95,10 +83,9 @@ npm run docs:dev
 npm run docs:build
 ```
 
-### 设置完成后回到 【网站】，打开网站设置
+![宝塔面板](https://i.theojs.cn/docs/WX20240223-224612%402x.png '设置完成后回到 【网站】，打开网站设置')
 
-![宝塔面板](https://i.theojs.cn/docs/WX20240223-224612%402x.png)
-在网站设置中，重新设置网站目录，定位到：/www/wwwroot/你的网站目录/.vitepress/dist
+在网站设置中，重新设置网站目录，定位到：`/www/wwwroot/你的网站目录/.vitepress/dist`
 :::tip
 注意关闭放跨站攻击
 :::

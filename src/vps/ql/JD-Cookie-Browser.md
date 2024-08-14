@@ -17,40 +17,29 @@ head:
 { name: '电脑浏览器 打开京东网址', icon:'https://i.theojs.cn/logo/jd.png',link: 'https://m.jd.com/' },
 ]" />
 
-## 步骤一
+## 步骤一: 按 F12 打开开发者工具
 
-- 按 F12 打开开发者工具
-- 然后点下图中的图标，切换到触屏版界面浏览
+![JD-cookie](https://i.theojs.cn/docs/20230910183043.png '然后点下图中的图标，切换到触屏版界面浏览')
 
-![JD-cookie](https://i.theojs.cn/docs/20230910183043.png)
-
-## 步骤二
+::: tip
 
 - 此时是未登录状态(**建议使用手机短信验证码登录**)，如已登录请忽略此步骤
 - 使用手机短信验证码登录(此方式 cookie 有效时长大概 31 天，其他登录方式比较短)
 
-## 步骤三
+:::
 
-- 登录后，选择**Network**,有很多链接的话点箭头这里清空下
+## 步骤二: 登录
 
-![JD-cookie](https://i.theojs.cn/docs/20230910183211.png)
+![JD-cookie](https://i.theojs.cn/docs/20230910183211.png '登录后，选择**Network**,有很多链接的话点箭头这里清空下')
 
-## 步骤四
+## 步骤三：查找 Cookie
 
-- 点击`我的`
+![JD-cookie](https://i.theojs.cn/docs/20230910183240.png '点击`我的`-选择`Network`-刷新页面-找到`log.gif`')
 
-![JD-cookie](https://i.theojs.cn/docs/20230910183240.png)
+![JD-cookie](https://i.theojs.cn/docs/20230910183306.png '点击`log.gif`进去-**找到 Cookie，复制出来，新建一个 TXT 文本临时保存一下，下面需要用到 。**')
 
-## 步骤五
+## 步骤四：复制 cookie
 
-- 点击`log.gif`进去
-- **找到 Cookie，复制出来，新建一个 TXT 文本临时保存一下，下面需要用到 。**
-
-![JD-cookie](https://i.theojs.cn/docs/20230910183306.png)
-
-## 步骤六
-
-- 复制 cookie
 - 复制出来的 cookie 比较长，我们只需要`pt_pin=xxxx;`和  `pt_key=xxxx;`
 - 部分的内容即可(注:英文引号`;`是必要的)。可以用下面的脚本，在 Chrome 浏览器按 F12，console 里面输入下面脚本按 enter 回车键
 
