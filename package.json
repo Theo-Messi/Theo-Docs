@@ -3,8 +3,8 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "prettier": "prettier . --write",
-    "check": "prettier . --check"
+    "format": "prettier --write .",
+    "format:cheak": "prettier --check ."
   },
   "devDependencies": {
     "@shikijs/vitepress-twoslash": "^1.12.1",
