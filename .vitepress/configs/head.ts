@@ -1,8 +1,5 @@
 import type { HeadConfig } from 'vitepress'
 
-// 判断当前环境是否为开发环境
-const isDevelopment = process.env.NODE_ENV === 'development'
-
 // 导出head配置
 export const head: HeadConfig[] = [
   ['meta', { name: 'theme-color', content: '#ffffff' }],
@@ -167,7 +164,6 @@ export const head: HeadConfig[] = [
         '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、Bridge the Wise、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
     }
   ],
-  ['meta', { name: 'baidu-site-verification', content: 'codeva-nZkdNKHljC' }],
   ['meta', { name: 'format-detection', content: 'telephone=no' }],
   [
     'meta',
@@ -179,6 +175,39 @@ export const head: HeadConfig[] = [
       name: 'og:description',
       content:
         '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、Bridge the Wise、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
+    }
+  ],
+  ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+  ['meta', { name: 'twitter:site', content: '@TheoMessi_' }],
+  ['meta', { name: 'twitter:title', content: 'Theo-Docs' }],
+  [
+    'meta',
+    {
+      name: 'twitter:description',
+      content:
+        '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、Bridge the Wise、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
+    }
+  ],
+  [
+    'meta',
+    { name: 'twitter:image', content: 'https://doc.theojs.cn/avatar.png' }
+  ],
+  [
+    'script',
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        url: 'https://doc.theojs.cn/',
+        name: 'Theo-Docs',
+        description:
+          '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、Bridge the Wise、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。',
+        author: {
+          '@type': 'Person',
+          name: 'Theo-Messi'
+        }
+      })
     }
   ]
 ]
