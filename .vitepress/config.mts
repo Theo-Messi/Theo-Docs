@@ -35,7 +35,7 @@ export default defineConfig({
     }
   },
   // 源目录
-  srcDir: 'src',
+  srcDir: 'content',
 
   // 上次更新时间戳
   lastUpdated: true,
@@ -44,7 +44,7 @@ export default defineConfig({
   cleanUrls: true,
 
   themeConfig: {
-    // // logo
+    // logo
     logo: { src: '/avatar.png', width: 24, height: 24 },
 
     // 社交链接
@@ -55,7 +55,8 @@ export default defineConfig({
 
     // GitHub编辑页面
     editLink: {
-      pattern: 'https://github.com/Theo-Messi/Theo-Docs/blob/main/src/:path',
+      pattern:
+        'https://github.com/Theo-Messi/Theo-Docs/edit/main/content/:path',
       text: '为此页提供修改建议'
     },
 
