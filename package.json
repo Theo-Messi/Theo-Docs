@@ -10,7 +10,7 @@
     "@shikijs/vitepress-twoslash": "^1.14.1",
     "prettier": "3.3.3",
     "simple-git-hooks": "^2.11.1",
-    "vitepress": "^1.3.3",
+    "vitepress": "^1.3.4",
     "vitepress-plugin-google-analytics": "^1.0.2"
   },
   "dependencies": {
@@ -18,7 +18,7 @@
     "@mdit/plugin-footnote": "^0.13.0",
     "@mdit/plugin-img-size": "^0.13.0",
     "@mdit/plugin-tasklist": "^0.13.0",
-    "@theojs/lumen": "^2.6.3",
+    "@theojs/lumen": "^3.0.1",
     "lint-staged": "^15.2.9",
     "viewerjs": "^1.11.6",
     "vitepress-plugin-image-viewer": "^1.1.5",
@@ -38,5 +38,5 @@
       "prettier --write --ignore-unknown"
     ]
   },
-  "packageManager": "pnpm@9.7.1"
+  "packageManager": "pnpm@9.9.0"
 }

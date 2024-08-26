@@ -13,9 +13,10 @@ import {
   DocVideoLink,
   Announcement,
   DocAsideLogo,
-  HomeUnderline
+  HomeUnderline,
+  HomeFooter
 } from '@theojs/lumen'
-import { Aside_Data } from '../data/AsideData'
+import { Aside_Data, Footer_Data } from '../data'
 import '@shikijs/vitepress-twoslash/style.css'
 import '@theojs/lumen/theme'
 import 'viewerjs/dist/viewer.min.css'
@@ -25,7 +26,8 @@ export default {
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'home-hero-info-before': () => h(Announcement),
-      'aside-ads-before': () => h(DocAsideLogo, { Aside_Data })
+      'aside-ads-before': () => h(DocAsideLogo, { Aside_Data }),
+      'layout-bottom': () => h(HomeFooter, { Footer_Data })
     })
   },
   enhanceApp: ({ app }: EnhanceAppContext, ctx) => {
