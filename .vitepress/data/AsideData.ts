@@ -6,19 +6,26 @@ export const Aside_Data = [
   //   info1: '月付 85折 优惠码  2461885',
   //   info2: '年付 64折 优惠码  2461880'
   // },
-  {
-    link: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd',
-    icon: 'https://www.qingyunti.cc/images/qytlogo-144-49.png',
-    Activity: '青云梯·三周年专属优惠',
-    info1:
-      '月付 85折 优惠码 <span style="color: var(--vp-c-brand-3)">qyt85</span>',
-    info2:
-      '季付以上8折 优惠码 <span style="color: var(--vp-c-brand-3)">qyt8</span>'
-  },
+  // {
+  //   link: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd',
+  //   icon: 'https://www.qingyunti.cc/images/qytlogo-144-49.png',
+  //   Activity: '青云梯·三周年专属优惠',
+  //   info1:
+  //     '月付 85折 优惠码 <span style="color: var(--vp-c-brand-3)">qyt85</span>',
+  //   info2:
+  //     '季付以上8折 优惠码 <span style="color: var(--vp-c-brand-3)">qyt8</span>'
+  // },
   {
     link: 'https://github.com/sponsors/Theo-Messi',
     icon: 'https://doc.theojs.cn/爱心.png',
     name: '赞助我的项目'
+  },
+  {
+    link: 'https://github.com/Theo-Messi/tools',
+    icon: 'https://tools.theojs.cn/TM-FELogo.png',
+    name: '@theojs/Lumen',
+    hide1: '集成 Vue 功能组件',
+    hide2: 'VitePress 主题美化'
   },
   {
     link: 'https://xx.theojs.cn/',
