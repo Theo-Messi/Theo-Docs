@@ -18,11 +18,11 @@
     "@mdit/plugin-footnote": "^0.13.1",
     "@mdit/plugin-img-size": "^0.13.1",
     "@mdit/plugin-tasklist": "^0.13.1",
-    "@theojs/lumen": "^3.2.1",
+    "@theojs/lumen": "^3.3.0",
     "lint-staged": "^15.2.10",
     "viewerjs": "^1.11.6",
     "vitepress-plugin-image-viewer": "^1.1.5",
-    "vue": "^3.4.38"
+    "vue": "^3.5.0"
   },
   "prettier": {
     "semi": false,
