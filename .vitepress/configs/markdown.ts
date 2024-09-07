@@ -5,6 +5,7 @@ import { imgSize } from '@mdit/plugin-img-size'
 import { figure } from '@mdit/plugin-figure'
 import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 import { table } from './index.ts'
+import { groupIconMdPlugin } from 'vitepress-plugin-group-icons'
 
 export const markdown: UserConfig['markdown'] = {
   theme: { light: 'one-light', dark: 'dracula-soft' },
@@ -25,6 +26,7 @@ export const markdown: UserConfig['markdown'] = {
     md.use(footnote)
     md.use(tasklist)
     md.use(imgSize)
+    md.use(groupIconMdPlugin)
     md.use(figure, {
       figcaption: 'alt',
       copyAttrs: '^class$',
