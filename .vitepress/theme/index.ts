@@ -20,6 +20,7 @@ import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
 import '@shikijs/vitepress-twoslash/style.css'
 import '@theojs/lumen/theme'
 import 'viewerjs/dist/viewer.min.css'
+import 'virtual:group-icons.css'
 
 export default {
   extends: DefaultTheme,

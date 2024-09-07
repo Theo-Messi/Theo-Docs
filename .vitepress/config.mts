@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { algolia, head, nav, sidebar, markdown, socialLinks } from './configs'
+import { groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
 // 导出默认配置
 export default defineConfig({
@@ -31,6 +32,25 @@ export default defineConfig({
 
   // 开启后网址后缀无'html'
   cleanUrls: true,
+
+  // vite插件
+  vite: {
+    plugins: [
+      groupIconVitePlugin({
+        customIcon: {
+          debian: 'vscode-icons:file-type-debian',
+          bun: 'logos:ubuntu',
+          centos: 'logos:centos-icon',
+          windows: 'logos:microsoft-windows-icon',
+          homebrew: 'logos:homebrew',
+          mac: 'logos:apple',
+          linux: 'logos:linux-tux',
+          rhel: 'logos:redhat-icon',
+          android: 'logos:android-icon'
+        }
+      })
+    ]
+  },
 
   themeConfig: {
     // logo

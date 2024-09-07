@@ -62,21 +62,6 @@ sudo systemctl start docker
 
 ## 卸载 Docker
 
-::: code-group
-
-```sh [CentOS]
-sudo yum remove docker \
-                  docker-client \
-                  docker-client-latest \
-                  docker-common \
-                  docker-latest \
-                  docker-latest-logrotate \
-                  docker-logrotate \
-                  docker-engine
-```
-
-```sh [Debian/Ubuntu]
+```sh
 sudo apt remove docker docker-engine docker.io containerd runc
 ```
-
-:::

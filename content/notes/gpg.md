@@ -8,17 +8,11 @@ head:
 
 ## GPG 安装
 
-::: code-group
-
-```bash [gpg]
+```bash
 brew install gpg
-```
-
-```bash [keybase]
+# or
 brew cask install keybase
 ```
-
-:::
 
 ---
 

@@ -12,11 +12,15 @@ head:
 
 ## 在 Linux 上安装
 
-如果你想在 Linux 上用二进制安装程序来安装基本的 Git 工具，可以使用发行版包含的基础软件包管理工具来安装。 以 Fedora 为例，如果你在使用它（或与之紧密相关的基于 RPM 的发行版，如 RHEL 或 CentOS），你可以使用 `dnf`：
+如果你想在 Linux 上用二进制安装程序来安装基本的 Git 工具，可以使用发行版包含的基础软件包管理工具来安装。
 
 ::: code-group
 
-```sh [Debian/Ubuntu]
+```sh [Debian]
+sudo apt install git-all
+```
+
+```sh [ubuntu]
 sudo apt install git-all
 ```
 

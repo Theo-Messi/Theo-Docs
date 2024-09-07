@@ -21,6 +21,7 @@
     "@theojs/lumen": "^3.3.0",
     "lint-staged": "^15.2.10",
     "viewerjs": "^1.11.6",
+    "vitepress-plugin-group-icons": "^1.1.0",
     "vitepress-plugin-image-viewer": "^1.1.5",
     "vue": "^3.5.0"
   },
