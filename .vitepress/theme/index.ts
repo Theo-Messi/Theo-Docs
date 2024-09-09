@@ -14,7 +14,8 @@ import {
   DocAsideLogo,
   HomeUnderline,
   HomeFooter,
-  Twikoo
+  Twikoo,
+  ShareButton
 } from '@theojs/lumen'
 import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
 import '@shikijs/vitepress-twoslash/style.css'
@@ -29,7 +30,8 @@ export default {
       'home-hero-info-before': () => h(Announcement),
       'aside-ads-before': () => h(DocAsideLogo, { Aside_Data }),
       'layout-bottom': () => h(HomeFooter, { Footer_Data }),
-      'doc-after': () => h(Twikoo, { Twikoo_Data })
+      'doc-after': () => h(Twikoo, { Twikoo_Data }),
+      'aside-outline-before': () => h(ShareButton)
     })
   },
   enhanceApp: ({ app }: EnhanceAppContext, ctx) => {
