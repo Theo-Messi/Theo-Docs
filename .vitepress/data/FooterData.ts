@@ -11,6 +11,7 @@ export const Footer_Data = {
   group: [
     {
       title: 'GitHub Source',
+      icon: 'fab fa-github',
       links: [
         {
           name: 'Theo-Docs',
@@ -36,9 +37,12 @@ export const Footer_Data = {
     },
     {
       title: '合作伙伴',
+      icon: 'fas fa-handshake',
       links: [
         {
-          name: '🔥 青云梯',
+          name: '青云梯',
+          icon: 'fab fa-gripfire',
+          style: 'color: rgba(255, 87, 51, 1)',
           href: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd'
         },
         { name: '银河录像局', href: 'https://nf.video/kaIuE' },
@@ -64,6 +68,7 @@ export const Footer_Data = {
     {
       title: '观影指南',
       internal: true,
+      icon: 'fas fa-book-open',
       links: [
         { name: 'Netflix', href: '/streaming/Netflix-guide' },
         { name: 'Disney+', href: '/streaming/Disney-introduce' },
@@ -75,6 +80,7 @@ export const Footer_Data = {
     },
     {
       title: '相关链接',
+      icon: 'fas fa-link',
       links: [
         { name: 'Theo-Docs', href: 'https://doc.theojs.cn/' },
         { name: '玄学宝典', href: 'https://xx.theojs.cn/' },
