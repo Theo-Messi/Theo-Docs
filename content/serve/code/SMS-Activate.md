@@ -10,18 +10,18 @@ head:
 
 这是一个在这个星球上数以百万计的服务中注册帐户的网站。 我们提供世界上大多数国家的虚拟号码，以便您可以在线接收带有确认代码的短信。 在我们的服务中，还有虚拟号码的长期租赁，转发连接，电话验证等等。使用SMS-Activate的虚拟号码来在线接受短信。可以在600个多服务注册的一次性号码。短信即刻送到给你
 
-SMS-Activate官网：[https://sms-activate.org](https://sms-activate.org/?ref=8170513)
+SMS-Activate官网：[https://sms-activate.org](https://sms-activate.io/?ref=8170513)
 
 ## 如何使用 国外接码平台 SMS-Activate
 
 SMS-Activate 是俄罗斯的一个付费接码平台，网站使用过程还算简便。初次上手对于小白用户来说，可能会遇到一些问题，下面给大家介绍 SMS-Activate 的接码过程。
 国外接码平台 SMS-Activate 注册帐号
 
-首先访问 [https://sms-activate.org](https://sms-activate.org/?ref=8170513)
+首先访问 [https://sms-activate.org](https://sms-activate.io/?ref=8170513)
 
 在网站的右上角将语言切换成中文，然后点击注册。
 
-![SMS-Activate](https://i.theojs.cn/docs/20240113215937.png '注册 [SMS-Activate](https://sms-activate.org/?ref=8170513) 账号')
+![SMS-Activate](https://i.theojs.cn/docs/20240113215937.png '注册 [SMS-Activate](https://sms-activate.io/?ref=8170513) 账号')
 
 使用Email邮箱注册，国外国外邮箱均可，或者使用telegram帐号登录。
 
