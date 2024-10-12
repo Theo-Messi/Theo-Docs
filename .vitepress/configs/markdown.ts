@@ -3,14 +3,12 @@ import { footnote } from '@mdit/plugin-footnote'
 import { tasklist } from '@mdit/plugin-tasklist'
 import { imgSize } from '@mdit/plugin-img-size'
 import { figure } from '@mdit/plugin-figure'
-import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 import { table } from './index.ts'
 import { groupIconMdPlugin } from 'vitepress-plugin-group-icons'
 
 export const markdown: UserConfig['markdown'] = {
   theme: { light: 'one-light', dark: 'dracula-soft' },
   image: { lazyLoading: true },
-  codeTransformers: [transformerTwoslash()],
   container: {
     infoLabel: '信息',
     noteLabel: '信息',
