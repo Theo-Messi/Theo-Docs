@@ -1,8 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
-import { EnhanceAppContext, useRoute } from 'vitepress'
+import { useRoute } from 'vitepress'
 import { h } from 'vue'
 
-import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 import imageViewer from 'vitepress-plugin-image-viewer'
 import {
@@ -18,7 +17,6 @@ import {
   ShareButton
 } from '@theojs/lumen'
 import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
-import '@shikijs/vitepress-twoslash/style.css'
 import '@theojs/lumen/theme'
 import 'viewerjs/dist/viewer.min.css'
 import 'virtual:group-icons.css'
@@ -34,14 +32,13 @@ export default {
       'aside-outline-before': () => h(ShareButton)
     })
   },
-  enhanceApp: ({ app }: EnhanceAppContext, ctx) => {
+  enhanceApp: ({ app }, ctx) => {
     googleAnalytics({ id: 'G-6QN23XNMXB' })
     app.component('Home', HomeUnderline)
     app.component('Box', DocBox)
     app.component('Links', DocLinks)
     app.component('BoxCube', DocBoxCube)
     app.component('VideoLink', DocVideoLink)
-    app.use(TwoslashFloatingVue)
   },
   setup() {
     const route = useRoute()
