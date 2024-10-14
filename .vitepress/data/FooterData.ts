@@ -5,8 +5,7 @@ export const Footer_Data = {
   },
   author: {
     name: 'Theo-Messi',
-    link: 'https://github.com/Theo-Messi',
-    time: 2019
+    link: 'https://github.com/Theo-Messi'
   },
   group: [
     {
