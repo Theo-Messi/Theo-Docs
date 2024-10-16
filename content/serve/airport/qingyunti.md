@@ -21,7 +21,7 @@ head:
 { name: '青云梯 注册链接', icon:'https://www.qingyunti.cc/images/qytlogo-144-49.png', link: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd' },
 ]" /> -->
 
-## [青云梯 简介](https://ivt01.qytaff.cc/register?aff=jjgD79Jd)
+## 青云梯 简介
 
 青云梯采用IPLC纯专线内网传输线路，拥有最高2.5Gbps速率，确保您在网络使用过程中享受到稳定、高速的连接。覆盖的线路涵盖`香港、台湾、日本、新加坡、美国、韩国、越南、菲律宾、泰国、印度、德国、法国、英国、阿根廷等地`，所有专线高峰时段不卡顿，让您畅享流畅的网络环境。
 
@@ -29,16 +29,20 @@ head:
 
 除此之外，我们还解锁了诸如`ChatGPT、Tiktok、NBA、WWE等热门应用`，为您提供更广泛的网络体验。我们拥有强大的执行力海外技术团队和实时在线客服团队，能够及时维护线路并解决您在使用过程中遇到的问题，为您提供全方位的技术支持和服务保障。
 
-## [青云梯 定价](https://ivt01.qytaff.cc/register?aff=jjgD79Jd)
+## 青云梯 定价
 
-|   套餐类型    | 流量  | 月付 | 季付  | 年付  | 流媒体/Chatgpt 解锁 |                        套餐购买                         |
-| :-----------: | :---: | :--: | :---: | :---: | :-----------------: | :-----------------------------------------------------: |
-|  **青云·诀**  |  80G  | N/A  |  N/A  | ¥ 96  |         ✅          | [青云梯](https://ivt01.qytaff.cc/register?aff=jjgD79Jd) |
-| **青云·VIP1** | 150GG | ¥ 25 | ¥ 67  | ¥ 240 |         ✅          | [青云梯](https://ivt01.qytaff.cc/register?aff=jjgD79Jd) |
-| **青云·VIP2** | 300G  | ¥ 45 | ¥ 121 | ¥ 432 |         ✅          | [青云梯](https://ivt01.qytaff.cc/register?aff=jjgD79Jd) |
-| **青云·VIP3** | 600G  | ¥ 85 | ¥ 229 | ¥ 816 |         ✅          | [青云梯](https://ivt01.qytaff.cc/register?aff=jjgD79Jd) |
+::: tip
+年付**8**折/2年付**7**折/3年付**6**折 配合优惠码折上折，最高可达**65**折
+:::
 
-## [青云梯 特点](https://ivt01.qytaff.cc/register?aff=jjgD79Jd)
+|   套餐类型   |   流量   | 月付 | 季付  | 年付  |                                  原生解锁                                   |                                                     套餐购买                                                     |
+| :----------: | :------: | :--: | :---: | :---: | :-------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
+| **年付小包** | **60G**  | N/A  |  N/A  | ¥ 96  | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | <a href="https://ivt01.qytaff.cc/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **VIP1**   | **150G** | ¥ 25 | ¥ 67  | ¥ 240 | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | <a href="https://ivt01.qytaff.cc/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **VIP2**   | **300G** | ¥ 45 | ¥ 121 | ¥ 432 | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | <a href="https://ivt01.qytaff.cc/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **VIP3**   | **600G** | ¥ 85 | ¥ 229 | ¥ 816 | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | <a href="https://ivt01.qytaff.cc/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+
+## 青云梯 特点
 
 - 三年稳定优质机场，主打质量与服务
 - IPLC纯专线内网传输线路，速度快，高峰期稳定

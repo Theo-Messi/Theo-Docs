@@ -6,30 +6,24 @@ head:
       content: 本文主要为大家介绍 Bridge the Wise 这款机场，这是一家非常实用的机场，其名字来源于 People’s Daily 的名言：智者建桥，愚者建墙，而这个机场的创作者是一群在海外的中国人，因为他们最开始接触的中国电影并不好看，很多搞笑的剧情都无法正常播放，而自己又非常喜欢国外的那些搞笑级别的电影。同时也很理解下载资源很不方便的奈飞，所以他们就建立了一个中转机场，只为了能够给国内的同胞们提供便捷的观看服务。
 ---
 
-## [Bridge The Wise 简介](https://patriot.ninja/aff.php?aff=1471)
+## Bridge The Wise 简介
 
 大家应该都听说过 Bridge The Wise 这款机场，是一款非常实用的机场。其名字来源于 People’s Daily 的名言：智者建桥，愚者建墙，而这个机场的创作者是一群在海外的中国人，因为他们最开始接触的中国电影并不好看，很多搞笑的剧情都无法正常播放，而自己又非常喜欢国外的那些搞笑级别的电影。同时也很理解下载资源很不方便的奈飞，所以他们就建立了一个中转机场，只为了能够给国内的同胞们提供便捷的观看服务。
 
-:::tip
+## Bridge The Wise 定价
 
-- **使用`新浪`或者`163`邮箱注册**
-- [Bridge The Wise 注册链接](https://patriot.ninja/aff.php?aff=1471)
-  :::
+|     套餐类型     |   流量    |  月付   |   年付   |                                 流媒体解锁                                  |            套餐说明            |                                                 套餐购买                                                  |
+| :--------------: | :-------: | :-----: | :------: | :-------------------------------------------------------------------------: | :----------------------------: | :-------------------------------------------------------------------------------------------------------: |
+|  **ESSENTIAL**   | **100G**  |  $ 3.5  |   $ 35   | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> |    私有协议中转线路 57 台+     | <a href="https://patriot.ninja/aff.php?aff=1471" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **PREMIUM**    | **300G**  |   $ 6   |   $ 59   | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> |    私有协议中转线路 57 台+     | <a href="https://patriot.ninja/aff.php?aff=1471" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|    **ELITE**     | **1000G** |   $ 7   |   $ 69   | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> |    私有协议中转线路 76 台+     | <a href="https://patriot.ninja/aff.php?aff=1471" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **ULTIMATE**   | **1000G** |  $ 9.9  |   $ 98   | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | Elite 所有线路+IEPL 专线服务器 | <a href="https://patriot.ninja/aff.php?aff=1471" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+| **ULTIMATE - L** | **1700G** |  $ 14   |  $ 139   | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | Elite 所有线路+IEPL 专线服务器 | <a href="https://patriot.ninja/aff.php?aff=1471" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **EXTREME**    | **200G**  | $ 8.99  | $ 89.99  | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | Ultimate 所有线路+独占带宽专线 | <a href="https://patriot.ninja/aff.php?aff=1471" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **EXTREME**    | **512G**  | $ 12.99 | $ 129.99 | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | Ultimate 所有线路+独占带宽专线 | <a href="https://patriot.ninja/aff.php?aff=1471" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **EXTREME**    | **1000G** | $ 17.99 | $ 179.99 | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | Ultimate 所有线路+独占带宽专线 | <a href="https://patriot.ninja/aff.php?aff=1471" target="_blank"><Badge type="tip" text="立即购买" /></a> |
 
-## [Bridge The Wise 定价](https://patriot.ninja/aff.php?aff=1471)
-
-|     套餐类型     | 流量  |  月付   |   年付   | 流媒体解锁 |            套餐说明            |                         套餐购买                          |
-| :--------------: | :---: | :-----: | :------: | :--------: | :----------------------------: | :-------------------------------------------------------: |
-|  **ESSENTIAL**   | 100G  |  $ 3.5  |   $ 35   |     ✅     |    私有协议中转线路 57 台+     | [Bridge The Wise](https://patriot.ninja/aff.php?aff=1471) |
-|   **PREMIUM**    | 300G  |   $ 6   |   $ 59   |     ✅     |    私有协议中转线路 57 台+     | [Bridge The Wise](https://patriot.ninja/aff.php?aff=1471) |
-|    **ELITE**     | 1000G |   $ 7   |   $ 69   |     ✅     |    私有协议中转线路 76 台+     | [Bridge The Wise](https://patriot.ninja/aff.php?aff=1471) |
-|   **ULTIMATE**   | 1000G |  $ 9.9  |   $ 98   |     ✅     | Elite 所有线路+IEPL 专线服务器 | [Bridge The Wise](https://patriot.ninja/aff.php?aff=1471) |
-| **ULTIMATE - L** | 1700G |  $ 14   |  $ 139   |     ✅     | Elite 所有线路+IEPL 专线服务器 | [Bridge The Wise](https://patriot.ninja/aff.php?aff=1471) |
-|   **EXTREME**    | 200G  | $ 8.99  | $ 89.99  |     ✅     | Ultimate 所有线路+独占带宽专线 | [Bridge The Wise](https://patriot.ninja/aff.php?aff=1471) |
-|   **EXTREME**    | 512G  | $ 12.99 | $ 129.99 |     ✅     | Ultimate 所有线路+独占带宽专线 | [Bridge The Wise](https://patriot.ninja/aff.php?aff=1471) |
-|   **EXTREME**    | 1000G | $ 17.99 | $ 179.99 |     ✅     | Ultimate 所有线路+独占带宽专线 | [Bridge The Wise](https://patriot.ninja/aff.php?aff=1471) |
-
-## [Bridge The Wise 特点](https://patriot.ninja/aff.php?aff=1471)
+## Bridge The Wise 特点
 
 - 在使用过程当中，可以为大家提供多种不同的方案供大家选择；
 - 具有很多优势，比如连线稳定性、速度非常快、即使光看国外的奈飞也不会出现卡顿的现象；
