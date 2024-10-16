@@ -1,13 +1,13 @@
 export const Aside_Data = [
-  {
-    link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3',
-    icon: 'https://i.theojs.cn/docs/202409111237242.png',
-    Activity: 'FlyingBird 国庆大狂欢！',
-    info1:
-      '月付 85折 优惠码 <span style="color: var(--vp-c-brand-3)"> 24GQ85 </span>',
-    info2:
-      '年付 64折 优惠码 <span style="color: var(--vp-c-brand-3)"> 24GQ80 </span>'
-  },
+  // {
+  //   link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3',
+  //   icon: 'https://i.theojs.cn/docs/202409111237242.png',
+  //   Activity: 'FlyingBird 国庆大狂欢！',
+  //   info1:
+  //     '月付 85折 优惠码 <span style="color: var(--vp-c-brand-3)"> 24GQ85 </span>',
+  //   info2:
+  //     '年付 64折 优惠码 <span style="color: var(--vp-c-brand-3)"> 24GQ80 </span>'
+  // },
   // {
   //   link: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd',
   //   icon: 'https://www.qingyunti.cc/images/qytlogo-144-49.png',

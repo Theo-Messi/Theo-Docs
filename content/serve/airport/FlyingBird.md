@@ -6,7 +6,7 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
-:::tip 庆中秋，人团圆！ 飞鸟中秋活动开始啦！
+<!-- :::tip 庆中秋，人团圆！ 飞鸟中秋活动开始啦！
 
 1: 月/季/半年付 85折 , 优惠码：**`24GQ85`** 可重复使用3次
 
@@ -17,7 +17,7 @@ head:
 :::
 <Links :items="[
 { name: 'FlyingBird 注册链接', icon:'https://flyingbirdlimo.com/wp-content/uploads/2022/03/Flying-Bird-Logo-cropped.png', link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3' },
-]" />
+]" /> -->
 
 ## [FlyingBird 简介](https://fbinv02.fbaff.cc/auth/register?code=RZP3)
 
