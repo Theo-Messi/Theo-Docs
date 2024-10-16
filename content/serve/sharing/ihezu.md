@@ -6,7 +6,7 @@ head:
       content: 奈飞小铺是由国内首家以 独立站 + 微信公众号 + 自动发货 + 自助售后 + 无限续费 模式运营的独立 Netflix 合租账号售卖平台，目前也是业内最大的奈飞账号（及其他流媒体服务账号）合租平台。
 ---
 
-### 奈飞小铺简介
+## 奈飞小铺简介
 
 奈飞小铺业内首家以 独立站 + 微信公众号 + 自动发货 + 自助售后 + 无限续费 模式运营的独立 Netflix 合租账号售卖平台，目前也是业内最大的奈飞账号（及其他流媒体服务账号）合租平台。
 
@@ -16,12 +16,12 @@ head:
 
 ## 奈飞小铺定价
 
-|  平台   | 3 个月 | 6 个月 | 12 个月 | 24 个月 | 每月价格 |    优惠码    |               合租链接                |                         扫码直达                          |
-| :-----: | :----: | :----: | :-----: | :-----: | :------: | :----------: | :-----------------------------------: | :-------------------------------------------------------: |
-| Netflix |  ¥ 75  | ¥ 147  |  ¥ 270  |   N/A   |  ¥ 22.5  | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![ihezu](https://i.theojs.cn/logo/ihezu.png "ihezu" =50x) |
-| YouTube |  N/A   |  N/A   |  ¥ 198  |  ¥ 376  |  ¥ 15.3  | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![ihezu](https://i.theojs.cn/logo/ihezu.png "ihezu" =50x) |
-| Spotify |  N/A   |  N/A   |  ¥ 118  |  ¥ 199  |  ¥ 8.3   | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![ihezu](https://i.theojs.cn/logo/ihezu.png "ihezu" =50x) |
-| Disney+ |  N/A   |  N/A   |  ¥ 118  |  ¥ 199  |  ¥ 8.3   | **`theonf`** | [奈飞小铺](https://ihezu.love/UKTer6) | ![ihezu](https://i.theojs.cn/logo/ihezu.png "ihezu" =50x) |
+|  平台   | 3 个月 | 6 个月 | 12 个月 | 24 个月 | 每月价格 |    优惠码    |                                           合租链接                                           |                         扫码直达                          |
+| :-----: | :----: | :----: | :-----: | :-----: | :------: | :----------: | :------------------------------------------------------------------------------------------: | :-------------------------------------------------------: |
+| Netflix |  ¥ 75  | ¥ 147  |  ¥ 270  |   N/A   |  ¥ 22.5  | **`theonf`** | <a href="https://ihezu.love/UKTer6" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![ihezu](https://i.theojs.cn/logo/ihezu.png "ihezu" =50x) |
+| YouTube |  N/A   |  N/A   |  ¥ 198  |  ¥ 376  |  ¥ 15.3  | **`theonf`** | <a href="https://ihezu.love/UKTer6" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![ihezu](https://i.theojs.cn/logo/ihezu.png "ihezu" =50x) |
+| Spotify |  N/A   |  N/A   |  ¥ 118  |  ¥ 199  |  ¥ 8.3   | **`theonf`** | <a href="https://ihezu.love/UKTer6" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![ihezu](https://i.theojs.cn/logo/ihezu.png "ihezu" =50x) |
+| Disney+ |  N/A   |  N/A   |  ¥ 118  |  ¥ 199  |  ¥ 8.3   | **`theonf`** | <a href="https://ihezu.love/UKTer6" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![ihezu](https://i.theojs.cn/logo/ihezu.png "ihezu" =50x) |
 
 ## 奈飞小铺特点
 
@@ -32,7 +32,7 @@ head:
 - 售后方便（密码被改后能一键重置最佳）
 - 不跑路
 
-综合而言，[奈飞小铺](https://ihezu.love/UKTer6)提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
+综合而言，[奈飞小铺](https://ihezu.love/UKTer6) 提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
 
 ## 奈飞小铺购买参考
 
@@ -43,5 +43,3 @@ head:
 - 官方售后群：是 ✅
 - 是否亲自使用过：是 ✅
 - 推荐度：❤ ❤ ❤ ❤ ❤
-
-## [奈飞小铺注册链接](https://ihezu.love/UKTer6)

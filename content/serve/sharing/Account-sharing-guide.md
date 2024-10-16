@@ -8,10 +8,10 @@ head:
 
 ## 稳定好用的 Netflix 合租平台推荐
 
-|    合租平台    |               官方网站                |    优惠码    |            价格表             |                              扫码直达                              |
-| :------------: | :-----------------------------------: | :----------: | :---------------------------: | :----------------------------------------------------------------: |
-|  **奈飞小铺**  | [官方网站](https://ihezu.love/UKTer6) | **`theonf`** |  [查看](ihezu#奈飞小铺定价)   |     ![ihezu](https://i.theojs.cn/logo/ihezu.png "ihezu" =50x)      |
-| **银河录像局** |  [官方网站](https://nf.video/kaIuE)   |  **`Theo`**  | [查看](nf-video#chatgpt-plus) | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
+|    合租平台    |                                           官方网站                                           |    优惠码    |            价格表             |                              扫码直达                              |
+| :------------: | :------------------------------------------------------------------------------------------: | :----------: | :---------------------------: | :----------------------------------------------------------------: |
+|  **奈飞小铺**  | <a href="https://ihezu.love/UKTer6" target="_blank"><Badge type="tip" text="官网直达" /></a> | **`theonf`** |  [查看](ihezu#奈飞小铺定价)   |     ![ihezu](https://i.theojs.cn/logo/ihezu.png "ihezu" =50x)      |
+| **银河录像局** |  <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="官网直达" /></a>   |  **`Theo`**  | [查看](nf-video#chatgpt-plus) | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
 
 ## 省心之选：Netflix 账号合租
 
