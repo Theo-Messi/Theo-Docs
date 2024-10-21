@@ -30,8 +30,8 @@ importers:
         specifier: ^1.11.6
         version: 1.11.6
       vitepress-plugin-group-icons:
-        specifier: ^1.2.4
-        version: 1.2.4
+        specifier: ^1.3.0
+        version: 1.3.0
       vitepress-plugin-image-viewer:
         specifier: ^1.1.5
         version: 1.1.5
@@ -700,8 +700,8 @@ packages:
   '@vueuse/shared@11.1.0':
     resolution: {integrity: sha512-YUtIpY122q7osj+zsNMFAfMTubGz0sn5QzE5gPzAIiCmtt2ha3uQUY1+JPyL4gRCTsLPX82Y9brNbo/aqlA91w==}
 
-  acorn@8.12.1:
-    resolution: {integrity: sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==}
+  acorn@8.13.0:
+    resolution: {integrity: sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -1310,8 +1310,8 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
-  tinyexec@0.3.0:
-    resolution: {integrity: sha512-tVGE0mVJPGb0chKhqmsoosjsS+qUnJVGJpZgsHYQcGoPlG3B51R3PouqTgEGH2Dc9jjFyOqOpix6ZHNMXp1FZg==}
+  tinyexec@0.3.1:
+    resolution: {integrity: sha512-WiCJLEECkO18gwqIp6+hJg0//p23HXp4S+gGtAKu3mI2F2/sXC4FvHvXvB0zJVVaTPhx1/tOwdbRsa1sOBIKqQ==}
 
   to-fast-properties@2.0.0:
     resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
@@ -1400,8 +1400,8 @@ packages:
   vitepress-plugin-google-analytics@1.0.2:
     resolution: {integrity: sha512-ri8bFUAmt3c/DtPrALauGBIUr2gIJ11c1qNRhwd3/+aiuYZBfQpOosSxcO1AswgwRxP9FwBS6Z7jgdDVyXb2hA==}
 
-  vitepress-plugin-group-icons@1.2.4:
-    resolution: {integrity: sha512-pxYzphvRy0Jhpgl3lHszH9Z8Qaj83v4bVr0b8Oi4zSIOQW/uuqGAZ8SaYwkZ1f/8a6ckIeIwZiLfLHA6ySCScQ==}
+  vitepress-plugin-group-icons@1.3.0:
+    resolution: {integrity: sha512-E6Up5HyWh0gxmy2v1v1VVzQpL9UOZuHgoqOmSNBMTRv2rSwg6nk8MeIiJD0tJ0xtWrY5dwG69ENZPyFoD+fVoA==}
 
   vitepress-plugin-image-viewer@1.1.5:
     resolution: {integrity: sha512-XnAb7bhqRCJB3JsKmah6oTDMTQNUQmLID+SME9Zwg/IWbYT+zySt2HuHHeTJlfHMmYpFBhvu8ayvBM0Fu3hdVQ==}
@@ -1582,7 +1582,7 @@ snapshots:
   '@antfu/install-pkg@0.4.1':
     dependencies:
       package-manager-detector: 0.2.2
-      tinyexec: 0.3.0
+      tinyexec: 0.3.1
 
   '@antfu/utils@0.7.10': {}
 
@@ -2039,7 +2039,7 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  acorn@8.12.1: {}
+  acorn@8.13.0: {}
 
   algoliasearch@4.24.0:
     dependencies:
@@ -2473,7 +2473,7 @@ snapshots:
 
   mlly@1.7.2:
     dependencies:
-      acorn: 8.12.1
+      acorn: 8.13.0
       pathe: 1.1.2
       pkg-types: 1.2.1
       ufo: 1.5.4
@@ -2688,7 +2688,7 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  tinyexec@0.3.0: {}
+  tinyexec@0.3.1: {}
 
   to-fast-properties@2.0.0: {}
 
@@ -2755,7 +2755,7 @@ snapshots:
 
   vitepress-plugin-google-analytics@1.0.2: {}
 
-  vitepress-plugin-group-icons@1.2.4:
+  vitepress-plugin-group-icons@1.3.0:
     dependencies:
       '@iconify-json/logos': 1.2.3
       '@iconify-json/vscode-icons': 1.2.2
