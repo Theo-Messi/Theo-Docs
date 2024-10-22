@@ -71,7 +71,7 @@ export function Sidebar_FE() {
   return [
     {
       text: 'Linux 文档',
-      collapsed: true,
+      collapsed: false,
       base: '/FE/Linux/',
       items: [
         { text: 'Linux 目录结构', link: 'directory' },
@@ -86,7 +86,7 @@ export function Sidebar_FE() {
     },
     {
       text: 'Docker 文档',
-      collapsed: true,
+      collapsed: false,
       base: '/FE/Docker/',
       items: [
         { text: 'Docker 简介与安装', link: 'install' },
@@ -98,7 +98,7 @@ export function Sidebar_FE() {
     },
     {
       text: 'Git 文档',
-      collapsed: true,
+      collapsed: false,
       base: '/FE/Git/',
       items: [
         { text: 'Git 简介与安装', link: 'install' },
@@ -112,7 +112,7 @@ export function Sidebar_FE() {
     },
     {
       text: 'HomeBrew 文档',
-      collapsed: true,
+      collapsed: false,
       base: '/FE/HomeBrew/',
       items: [
         { text: 'HomeBrew 简介与安装', link: 'install' },
@@ -122,22 +122,8 @@ export function Sidebar_FE() {
       ]
     },
     {
-      text: 'Vercel-CLI 文档',
-      link: 'Vercel-CLI',
-      collapsed: true,
-      base: '/FE/',
-      items: []
-    },
-    {
-      text: 'Markdown 演示',
-      link: 'Markdown',
-      collapsed: true,
-      base: '/FE/',
-      items: []
-    },
-    {
       text: 'pnpm 文档',
-      collapsed: true,
+      collapsed: false,
       base: '/FE/pnpm/',
       items: [
         { text: 'pnpm 安装', link: 'install' },
@@ -152,7 +138,7 @@ export function Sidebar_vps() {
   return [
     {
       text: 'Debian/Ubuntu',
-      collapsed: true,
+      collapsed: false,
       base: '/vps/settings/',
       items: [
         { text: '系统优化设置', link: 'Ubuntu' },
@@ -165,7 +151,7 @@ export function Sidebar_vps() {
     },
     {
       text: '系统工具',
-      collapsed: true,
+      collapsed: false,
       base: '/vps/tools/',
       items: [
         { text: '全能工具箱', link: 'All-purpose-toolbox' },
@@ -178,61 +164,22 @@ export function Sidebar_vps() {
     },
     {
       text: '搭建服务',
-      collapsed: true,
+      collapsed: false,
       base: '/vps/serve/',
       items: [
-        { text: 'X-ui', link: 'X-ui' },
-        { text: 'V2Ray', link: 'V2Ray' },
         { text: '哪吒面板', link: 'Install-Nezha-panel' },
         { text: '1Panel 面板', link: 'Install-1Panel' },
-        { text: '独角数卡网站', link: 'Unicorn-Number-Card' },
         { text: 'Docker 搭建 aria2+AriaNg', link: 'aria2+AriaNg' },
         { text: '一键安装 小雅Xiaoya全家桶', link: 'xiaoya-alist' }
       ]
     },
     {
       text: 'Oracle Cloud 甲骨文云',
-      collapsed: true,
+      collapsed: false,
       base: '/vps/oracle-cloud/',
       items: [
         { text: '甲骨文云服务器 开启IPv6', link: 'IPv6' },
         { text: 'Debian系统自动获取IPv6', link: 'Debian-IPv6' }
-      ]
-    },
-    {
-      text: '青龙面板',
-      collapsed: true,
-      base: '/vps/ql/',
-      items: [
-        {
-          items: [
-            { text: '安装青龙面板', link: 'Install-Qinglong-panel' },
-            { text: '阿里云盘签到', link: 'Alipan-sign-in' },
-            { text: '京东签到', link: 'JD-sign-in' },
-            { text: 'BiliBili 签到', link: 'BiliBili-sign-in' }
-          ]
-        },
-        {
-          text: '获取京东Cookie',
-          items: [
-            { text: '插件版', link: 'JD-Cookie-plug-in' },
-            { text: '浏览器版', link: 'JD-Cookie-Browser' },
-            { text: 'Boxjs', link: 'JD-Cookie-Boxjs' }
-          ]
-        },
-        {
-          text: '获取阿里云盘Cookie',
-          items: [
-            {
-              text: '自动获取 - refresh_token',
-              link: 'Alipan-Get-cookies-automatically'
-            },
-            {
-              text: '手动获取 - refresh_token',
-              link: 'Alipan-Get-cookies-manually'
-            }
-          ]
-        }
       ]
     }
   ]
