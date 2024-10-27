@@ -13,7 +13,7 @@ head:
 **腾讯云控制台 - 访问管理 - 创建 API 密钥或者子用户**
 
 - 子用户权限策略 - `QcloudCOSDataFullControl`
-- 获取`SecretId`和`SecretKey`
+- 获取 `SecretId` 和 `SecretKey`
 
 ### 获取 COS 桶信息
 
@@ -26,13 +26,13 @@ head:
 
 **GitHub 仓库 - Settings - Secrets**
 
-添加上文创建的`SecretId` `SecretKey` `Bucket` `Region`
+添加上文创建的 `SecretId` `SecretKey` `Bucket` `Region`
 
 ### 创建workflow
 
 **GitHub 仓库 - Actions - Set up a workflow yourself**
 
-- 创建`sync.yml`
+- 创建 `sync.yml`
 - 提交sync.yml后,检测到 push 后将会自动 Upload 到腾讯云 COS
 
 ```yaml
@@ -155,7 +155,7 @@ jobs:
 
 ## 自动合并拉取请求
 
-将其中的`imgbot[bot]`修改成需要自动合并的作者
+将其中的 `imgbot[bot]` 修改成需要自动合并的作者
 
 ```yaml
 name: Merge pull request

@@ -36,10 +36,11 @@ sudo dpkg-reconfigure locales
 
 ## 3.重启系统
 
-完成上面设置使用`reboot`命令重启系统.
+完成上面设置使用 `reboot` 命令重启系统.
 
 重启后,如果有发现本该显示中文的地方出现了方块乱码,则还需要安装字体来支持中文
-::: tip Ubuntu没遇到过, 也是Debian 和 Kali Linux 遇到过的情况
+::: tip
+Ubuntu没遇到过, 也是Debian 和 Kali Linux 遇到过的情况
 :::
 
 ```sh

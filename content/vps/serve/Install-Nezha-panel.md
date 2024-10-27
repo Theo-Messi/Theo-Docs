@@ -1,26 +1,27 @@
 ---
-title: 安装哪吒面板
+title: 安装哪吒监控面板
 head:
   - - meta
     - name: description
-      content: 哪吒监控是一个轻量级监控系统，支持监控 Linux、Windows、AIX、ESXi、KVM、Docker、Ceph、Zabbix、OpenStack、MongoDB、MySQL、Redis、PostgreSQL、Docker、Kubernetes、Docker Swarm、HAProxy、Nginx、Tomcat、Apache 等主流服务器、数据库、中间件、云原生等监控。
+      content: 哪吒监控是一个开源、轻量、易用的服务器监控与运维工具
 ---
 
 ## 准备工作
 
 开始之前，请先确定你搭建探针的域名
 
-比如说`tz.llxx.cc`作为面板的域名，还有一个`tzz.llxx.cc`是用来记录面板服务器的 IP
+比如说 `tz.llxx.cc` 作为面板的域名，还有一个 `tzz.llxx.cc` 是用来记录面板服务器的 IP
 
 - 连接公网的 VPS
-- 防火墙和安全策略需要放行`8008` 和 `5555` 端口
+- 防火墙和安全策略需要放行 `8008` 和 `5555` 端口
 - 指向服务器 ip 的域名并设置好 A 记录
 - Github 账号
 - 宝塔面板
 - 一个域名
 
 <Links :items="[
-{ name: 'GitHub 项目地址',   light:'https://i.theojs.cn/logo/github.svg',dark:'https://i.theojs.cn/logo/github-dark.svg',link: 'https://github.com/naiba/nezha' },
+{ name: 'GitHub项目 - 哪吒监控', desc:'开源、轻量、易用的服务器监控与运维工具',  icon:'https://nezha.wiki/logo.png',link: 'https://github.com/naiba/nezha' },
+{ name: '官方WiKi - 哪吒监控', desc:'开源、轻量、易用的服务器监控与运维工具',  icon:'https://nezha.wiki/logo.png',link: 'https://nezha.wiki/' },
 ]" />
 
 ## 获取 Github 的 Client ID 和密钥
@@ -37,7 +38,7 @@ head:
 - 保存页面中的 Client ID，然后点击 “Generate a new client secret“，创建一个新的 Client Secret，新建的密钥仅会显示一次，请妥善保存
 - JihuLab 的应用创建入口为：https://jihulab.com/-/profile/applications
 - `Redirect URL` 中应填入回调地址
-- 在下方`范围`中勾选 `read_user` 和 `read_api`
+- 在下方 `范围` 中勾选 `read_user` 和 `read_api`
 - 创建完成后，保存好应用程序 ID 和密码
 
 ## 安装宝塔
@@ -69,7 +70,7 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && bash 
 
 ### 放行端口，解析域名
 
-在你的服务器上开放`8088`和`5555`端口。并且解析两个域名到服务器！
+在你的服务器上开放 `8088` 和 `5555` 端口。并且解析两个域名到服务器！
 
 ### 执行脚本
 

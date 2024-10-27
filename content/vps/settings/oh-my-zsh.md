@@ -263,7 +263,7 @@ source ~/.zshrc
 chmod go-w '/usr/local/share'
 ```
 
-这个命令的意思是修改`/usr/local/share`文件夹的权限，使得此文件夹对组成员用户和其他用户不可写。
+这个命令的意思是修改 `/usr/local/share` 文件夹的权限，使得此文件夹对组成员用户和其他用户不可写。
 :::
 
 ## 进阶修改

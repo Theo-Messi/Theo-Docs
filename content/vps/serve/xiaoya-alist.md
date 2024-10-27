@@ -38,7 +38,7 @@ bash -c "$(curl --insecure -fsSL https://raw.githubusercontent.com/DDS-Derek/xia
 | :-----------------: | :---------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
 |        token        |         `/etc/xiaoya/mytoken.txt`         | [token_1](https://aliyuntoken.vercel.app/) 或者 [token_2](https://alist.nn.ci/zh/guide/drivers/aliyundrive.html) |
 |     open token      |       `/etc/xiaoya/myopentoken.txt`       |                     [open token](https://alist.nn.ci/zh/guide/drivers/aliyundrive_open.html)                     |
-| 转存目录的folder id | `/etc/xiaoya/temp_transfer_folder_id.txt` |             [点击转存到资源盘](https://www.aliyundrive.com/s/rP9gP3h9asE)复制浏览器地址最后一串数值              |
+| 转存目录的folder id | `/etc/xiaoya/temp_transfer_folder_id.txt` |             [点击转存到资源盘](https://www.aliyundrive.com/s/rP9gP3h9asE) 复制浏览器地址最后一串数值             |
 
 ## 功能列表
 

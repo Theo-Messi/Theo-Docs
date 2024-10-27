@@ -18,7 +18,7 @@ head:
 
 **安装插件：**
 
-打开插件所在的 Chrome 网上应用商店，下载`NflxMultiSubs`插件安装即可。
+打开插件所在的 Chrome 网上应用商店，下载 `NflxMultiSubs` 插件安装即可。
 
 ## Super Netflix
 
@@ -30,7 +30,7 @@ head:
 
 **安装插件：**
 
-直接在 Chrome 应用商店下载安装`Super Netflix`插件。
+直接在 Chrome 应用商店下载安装 `Super Netflix` 插件。
 
 ## Netflix 1080p
 
@@ -44,8 +44,8 @@ head:
 
 由于此插件已经在 Chrome 应用商店下架，需要按照以下步骤开启。
 
-1.  在 Github 下载 zip 格式的插件压缩包，👉 去下载 [https://github.com/truedread/netflix-1080p](https://github.com/truedread/netflix-1080p)（点击 Code ，选择 Download ZIP），并解压缩 ZIP 文件；
-2.  在 Chrome 浏览器的标签页输入：👉 `chrome://extensions/` ，右上角：开启 `开发者模式`；
+1.  在 [Github](https://github.com/truedread/netflix-1080p) 下载 zip 格式的插件压缩包并解压缩 ZIP 文件；
+2.  在 Chrome 浏览器的标签页输入： `chrome://extensions/` ，右上角：开启 `开发者模式`；
 3.  左上角，选择 `加载已解压的扩展程序`，选择第一步解压好的文件夹
 
 经过以上三个步骤，在 Chrome 浏览器重新打开 Netflix 视频，就可以自动切换到 1080P 清晰度了。
@@ -64,7 +64,7 @@ head:
 
 **安装插件：**
 
-直接打开 Chrome 应用商店，下载`Netflix AutoSkip`插件安装后使用。
+直接打开 Chrome 应用商店，下载 `Netflix AutoSkip` 插件安装后使用。
 
 ## Aspect Ratio 21:9
 
@@ -76,7 +76,7 @@ head:
 
 **安装插件：**
 
-直接打开 Chrome 应用商店，下载`Aspect Ratio 21:9`插件安装后使用。
+直接打开 Chrome 应用商店，下载 `Aspect Ratio 21:9` 插件安装后使用。
 
 ## Film scores for Netflix
 
@@ -88,4 +88,4 @@ head:
 
 **安装插件：**
 
-直接打开 Chrome 应用商店，下载`Film scores for Netflix`插件安装后使用。
+直接打开 Chrome 应用商店，下载 `Film scores for Netflix` 插件安装后使用。

@@ -26,7 +26,7 @@ yarn add --dev --exact prettier
 
 ## 创建 Prettier 配置文件
 
-新建`.prettierrc.yml` 配置如下
+新建 `.prettierrc.yml` 配置如下
 
 ```yaml
 semi: false

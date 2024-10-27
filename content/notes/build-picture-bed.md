@@ -18,9 +18,9 @@ head:
 
 ## 生成 Token
 
-- 生成 Token:<https://github.com/settings/tokens>
-- 点击左侧的`Tokens（classic）`
-- 再点击`Generate new token（classic）`
+- [生成 Token](https://github.com/settings/tokens)
+- 点击左侧的 `Tokens（classic）`
+- 再点击 `Generate new token（classic）`
 
 ![PicGo](https://i.theojs.cn/docs/20230902144325.png '填写`Note`，勾选`repo`，点击生成`Token`')
 
@@ -36,7 +36,7 @@ head:
 - `设定仓库名`:为刚设置的存储库
 - `设定分支名`:存储库的分支名
 - `设置Token`:创建的 Token
-- `设定存储路径`:可以设置为文件夹,如:`img/`;也可忽略
+- `设定存储路径`:可以设置为文件夹,如: `img/` ;也可忽略
   :::
 
 ![PicGo](https://i.theojs.cn/docs/20230902150820.png '配置 PicGo')
@@ -79,7 +79,7 @@ ImgBot 默认是无损压缩的，可以按需进行配置为有损压缩，对�
 }
 ```
 
-还有更多配置项，完整说明请见[官方文档](https://imgbot.net/docs/#configuration)。
+还有更多配置项，完整说明请见 [官方文档](https://imgbot.net/docs/#configuration)。
 
 ### Github Actions 自动合并 ImgBot 的 pr
 
@@ -132,9 +132,9 @@ jobs:
 
 :::tip JsDelivr 储存库超过 50M 无法访问解决办法
 
-大小超过 50M 之后为存储库添加新分支,如`1.0`
+大小超过 50M 之后为存储库添加新分支,如 `1.0`
 
-相同为 PicGo 设置中修改分支为`1.0`
+相同为 PicGo 设置中修改分支为 `1.0`
 
 加速自定义域名也修改为新分支
 

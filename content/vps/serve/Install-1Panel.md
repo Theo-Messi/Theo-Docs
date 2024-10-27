@@ -47,16 +47,21 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 
 :::
 
-<Links :items="[
-{ name: 'GitHub release 链接',   light:'https://i.theojs.cn/logo/github.svg',dark:'https://i.theojs.cn/logo/github-dark.svg',link: 'https://github.com/1Panel-dev/1Panel/releases' },
-]" />
+<Links
+  :items="[
+    {
+      name: '1Panel GitHub release',
+      desc: '现代化、开源的 Linux 服务器运维管理面板。',
+      icon: 'https://www.1panel.wiki/favicon.png',
+      link: 'https://github.com/1Panel-dev/1Panel/releases'
+    }
+  ]"
+/>
 
-安装成功后，控制台会打印面板访问信息，可通过浏览器访问 1Panel：
+安装成功后，控制台会打印面板访问信息，可通过浏览器访问 1Panel：`http://目标服务器IP地址:目标端口/安全入口`
 
-`http://目标服务器 IP 地址:目标端口/安全入口`
-
-- 如果使用的是`云服务器`，请至`安全组`开放`目标端口`。
-- `ssh` 登录 `1Panel` 服务器后，执行 `1pctl user-info` 命令可获取`安全入口（entrance）`
+- 如果使用的是 `云服务器` ，请至 `安全组` 开放 `目标端口` 。
+- `ssh` 登录 `1Panel` 服务器后，执行 `1pctl user-info` 命令可获取 `安全入口（entrance）`
 
 安装成功后，可使用 `1pctl` 命令行工具来维护 1Panel
 
@@ -64,7 +69,7 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 
 ### 登录阿里云官方网站
 
-在您的浏览器中打开阿里云的官方网站（https://www.aliyun.com/） 并登录您的账号。
+在您的浏览器中打开 [阿里云的官方网站](https://www.aliyun.com) 并登录您的账号。
 
 ### 选择 ECS 实例
 
@@ -105,8 +110,9 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 
 #### 访问面板
 
-通过 http://服务器外网IP:8090/安全入口 访问面板管理页面，如：http://172.16.10.1:8090/mm4h9iucdn
-输入帐号密码
+通过 http://服务器外网IP:8090/安全入口 访问面板管理页面输入帐号密码，
+
+如：http://172.16.10.1:8090/mm4h9iucdn
 
 #### 面板设置
 
