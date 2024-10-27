@@ -18,7 +18,7 @@ Vim 是从 vi 发展出来的一个文本编辑器。代码补全、编译及错
 
 ## vi/vim 的使用
 
-基本上 vi/vim 共分为三种模式，`命令模式（Command Mode）`、`输入模式（Insert Mode）`和`命令行模式（Command-Line Mode）`。
+基本上 vi/vim 共分为三种模式，`命令模式（Command Mode）`、`输入模式（Insert Mode）` 和 `命令行模式（Command-Line Mode）`。
 
 ### 命令模式（Command Mode）
 

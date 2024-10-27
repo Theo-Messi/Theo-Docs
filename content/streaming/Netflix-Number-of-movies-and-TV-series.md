@@ -47,7 +47,7 @@ Netflix 制作了各种类型的原创内容，这些内容在其流媒体服务
 
 由于许可电影从 Netflix 中减少，Netflix 原创现在占据了 Netflix 内容库中更大的比例。截止到 2023 年 5 月，Netflix 原创作品（包括电影和电视剧）占据了整个内容库的 47%，预计到 2023 年 8 月这一比例将达到 50%。在电影方面，这个数字略低，截止到 2023 年 5 月初，Netflix 原创电影占据整个电影库的 30% 以上。
 
-目前，Netflix 原创电影数量接近 917 部，预计到 2023 年底将达到 1000 部。点击查看[维基百科](https://en.wikipedia.org/wiki/List_of_Netflix_original_programming)上完整的奈飞原创剧清单。
+目前，Netflix 原创电影数量接近 917 部，预计到 2023 年底将达到 1000 部。点击查看 [维基百科](https://en.wikipedia.org/wiki/List_of_Netflix_original_programming) 上完整的奈飞原创剧清单。
 
 ## 奈飞原创剧 IMDB TOP 10
 

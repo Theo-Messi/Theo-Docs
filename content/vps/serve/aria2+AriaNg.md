@@ -37,22 +37,22 @@ p3terx/aria2-pro
 
 **用户和组设定**
 
-`PUID=$UID`、`PGID=$GID`这2个定义用户和用户组的环境变量，限定了aria2以什么用户和用户组运行，不指定则默认使用`nobady用户`和`nogroup用户组`，但在使用`FileRun网盘`时，会因权限问题无法删除或改名aria2下载好的文件，所以`PUID`和`GUID`要指定为和`WEB环境的运行用户和用户组`一致，比如WEB环境运行的用户及对应的用户组都是WWW，对应的uid和gid都是1001，那就要指定PUID=1001、PGID=1001，这样在FileRun网盘中就可以正常的进行删除和修改操作了
+`PUID=$UID` 、`PGID=$GID` 这2个定义用户和用户组的环境变量，限定了aria2以什么用户和用户组运行，不指定则默认使用 `nobady用户` 和 `nogroup用户组`，但在使用 `FileRun网盘` 时，会因权限问题无法删除或改名aria2下载好的文件，所以 `PUID` 和 `GUID` 要指定为和 `WEB环境的运行用户和用户组` 一致，比如WEB环境运行的用户及对应的用户组都是WWW，对应的uid和gid都是1001，那就要指定PUID=1001、PGID=1001，这样在FileRun网盘中就可以正常的进行删除和修改操作了
 
 **环境变量**
 
-- `-e UMASK_SET=022`:设置umask，默认值022；
-- `-e RPC_SECRET=`:设置RPC密钥，用于AriaNg与Aria2的通讯验证使用；
-- `-e RPC_PORT=6800`:设置PRC通讯端口（与宿主主机的端口映射一致）；
-- `-e LISTEN_PORT=6888`:BT 监听端口（TCP）、DHT 监听端口（UDP）设置，即 Aria2 配置中listen-port与dht-listen-port选项定义的端口。如果没有设置，配置文件中的默认值为6888。
-- `-v /root/aria2/config:/config`:配置文件挂载到指定的宿主主机目录/root/aria2/config中，宿主主机的目录根据实际情况自行修改；
-- `-v /root/aria2/downloads:/downloads`:将/downloads挂载到宿主主机的/root/aria2/downloads:/downloads目录，即FileRun的数据目录中，方便下载完成直接在网盘中查看；
+- **`-e UMASK_SET=022`** : 设置umask，默认值022；
+- **`-e RPC_SECRET=`** : 设置RPC密钥，用于AriaNg与Aria2的通讯验证使用；
+- **`-e RPC_PORT=6800`** : 设置PRC通讯端口（与宿主主机的端口映射一致）；
+- **`-e LISTEN_PORT=6888`** : BT 监听端口（TCP）、DHT 监听端口（UDP）设置，即 Aria2 配置中listen-port与dht-listen-port选项定义的端口。如果没有设置，配置文件中的默认值为6888。
+- **`-v /root/aria2/config:/config`** : 配置文件挂载到指定的宿主主机目录/root/aria2/config中，宿主主机的目录根据实际情况自行修改；
+- **`-v /root/aria2/downloads:/downloads`** : 将/downloads挂载到宿主主机的/root/aria2/downloads:/downloads目录，即FileRun的数据目录中，方便下载完成直接在网盘中查看；
 
 **端口映射**
 
-- `-p 16800:6800`，为RPC 通讯端口映射
-- `-p 16888:6888`，为BT 监听端口（TCP）映射，即 Aria2 配置中listen-port选项定义的端口；
-- `-p 16888:6888/udp`，为DHT 监听端口（UDP）映射，即 Aria2 配置中dht-listen-port选项定义的端口。
+- **`-p 16800:6800`**，为RPC 通讯端口映射
+- **`-p 16888:6888`**，为BT 监听端口（TCP）映射，即 Aria2 配置中listen-port选项定义的端口；
+- **`-p 16888:6888/udp`**，为DHT 监听端口（UDP）映射，即 Aria2 配置中dht-listen-port选项定义的端口。
 
 ## Docker安装AriaNg
 
@@ -87,4 +87,4 @@ p3terx/ariang
 - RPC Http请求方法使用默认的POST
 - RPC密钥填写前面启动的aria2的RPC密钥
 
-配置完刷新一下页面，如果状态显示`已连接`就ok了
+配置完刷新一下页面，如果状态显示 `已连接` 就ok了

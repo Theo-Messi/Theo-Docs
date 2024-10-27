@@ -3,12 +3,12 @@ title: 银河录像局
 head:
   - - meta
     - name: description
-      content: 国内可靠的智能奈飞合租平台，提供 `Netflix` `Spotify` `YouTube` `Disney+` `HBO` 等流媒体服务以及 `ChatGPT Plus(OpenAI)`、`MidJourney` 等 AI 服务
+      content: 国内可靠的智能奈飞合租平台，提供 Netflix、Spotify、YouTube、Disney+、HBO 等流媒体服务以及 ChatGPT Plus(OpenAI)、MidJourney 等 AI 服务
 ---
 
 ## 银河录像局简介
 
-国内可靠的智能奈飞合租平台，提供 `Netflix` `Spotify` `YouTube` `Disney+` `HBO` 等流媒体服务以及 `ChatGPT Plus(OpenAI)`、`MidJourney` 等 AI 服务
+国内可靠的智能奈飞合租平台，提供 **Netflix、Spotify、YouTube、Disney+、HBO** 等流媒体服务以及 **ChatGPT Plus(OpenAI)、MidJourney** 等 AI 服务
 
 ## ChatGPT Plus
 
@@ -46,9 +46,9 @@ head:
 
 借助 Photoshop 中的 Adob​​e Firefly 生成式 AI 和其他人工智能驱动的工具，比以往更快地实现您的梦想，然后实现更大的梦想。
 
-|     产品     |     价格     |   优惠码   |                                                                          相关链接                                                                           |                                         合租链接                                          |                              扫码直达                              |
-| :----------: | :----------: | :--------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------: |
-| Photoshop AI | ￥ 60/3 个月 | **`Theo`** | [官方介绍](https://www.adobe.com/products/photoshop/ai.html)/[免费试用](https://www.adobe.com/products/photoshop/ai.html#mini-plans-web-cta-photoshop-card) | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
+|     产品     |     价格     |   优惠码   |                                                                           相关链接                                                                            |                                         合租链接                                          |                              扫码直达                              |
+| :----------: | :----------: | :--------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------: |
+| Photoshop AI | ￥ 60/3 个月 | **`Theo`** | [官方介绍](https://www.adobe.com/products/photoshop/ai.html) / [免费试用](https://www.adobe.com/products/photoshop/ai.html#mini-plans-web-cta-photoshop-card) | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
 
 ::: tip 更多人工智能驱动的 Photoshop 工具
 
@@ -91,7 +91,7 @@ head:
 1. [https://appleid.apple.com/account](https://appleid.apple.com/account)
 2. 国家或地区选择美国（United States/USA）
 3. 生日务必大于 18 岁
-4. 一个可用的[163 邮箱](https://mail.163.com/)/[Outlook 邮箱](https://outlook.live.com/)
+4. 一个可用的[163 邮箱](https://mail.163.com/) / [Outlook 邮箱](https://outlook.live.com/)
 5. 账单地址填写：如下
 
 ::: tip **可选择的五个免税州**

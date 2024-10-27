@@ -38,4 +38,4 @@ brew install git
 
 ## 在 Windows 上安装
 
-在 Windows 上安装 Git 同样轻松，请参考[官方指南](https://git-scm.com/download/win)。
+在 Windows 上安装 Git 同样轻松，请参考 [官方指南](https://git-scm.com/download/win)。

@@ -8,19 +8,19 @@ head:
 
 ## 简介
 
-这是一些适配`1Panel`商店`2.0`版本的`docker`应用配置。
+这是一些适配 `1Panel` 商店 `2.0` 版本的 `docker` 应用配置。
 
 致力于一键运行各种 `Docker` 应用。无需复杂配置，享受便利和高效。
 
 ## 使用方式
 
-默认`1Panel`安装在`/opt/`路径下，如果不是按需修改以下。
+默认 `1Panel` 安装在 `/opt/` 路径下，如果不是按需修改以下。
 
 ## 国内网络
 
 ### 使用 git 命令获取应用
 
-`1Panel`计划任务类型`Shell 脚本`的计划任务框里，添加并执行以下命令，或者终端运行以下命令
+`1Panel` 计划任务类型 `Shell 脚本` 的计划任务框里，添加并执行以下命令，或者终端运行以下命令
 
 ```sh
 git clone -b localApps https://mirror.ghproxy.com/https://github.com/okxlin/appstore /opt/1panel/resource/apps/local/appstore-localApps
@@ -34,7 +34,7 @@ rm -rf /opt/1panel/resource/apps/local/appstore-localApps
 
 ### 使用压缩包方式获取应用
 
-`1Panel`计划任务类型`Shell 脚本`的计划任务框里，添加并执行以下命令，或者终端运行以下命令
+`1Panel` 计划任务类型 `Shell 脚本` 的计划任务框里，添加并执行以下命令，或者终端运行以下命令
 
 ```sh
 wget -P /opt/1panel/resource/apps/local https://mirror.ghproxy.com/https://github.com/okxlin/appstore/archive/refs/heads/localApps.zip
@@ -54,7 +54,7 @@ rm -rf /opt/1panel/resource/apps/local/localApps.zip
 
 ### 使用 git 命令获取应用
 
-`1Panel`计划任务类型`Shell 脚本`的计划任务框里，添加并执行以下命令，或者终端运行以下命令
+`1Panel` 计划任务类型 `Shell 脚本` 的计划任务框里，添加并执行以下命令，或者终端运行以下命令
 
 ```sh
 git clone -b localApps https://github.com/okxlin/appstore /opt/1panel/resource/apps/local/appstore-localApps
@@ -68,7 +68,7 @@ rm -rf /opt/1panel/resource/apps/local/appstore-localApps
 
 ### 使用压缩包方式获取应用
 
-`1Panel`计划任务类型`Shell 脚本`的计划任务框里，添加并执行以下命令，或者终端运行以下命令
+`1Panel` 计划任务类型 `Shell 脚本` 的计划任务框里，添加并执行以下命令，或者终端运行以下命令
 
 ```sh
 wget -P /opt/1panel/resource/apps/local https://github.com/okxlin/appstore/archive/refs/heads/localApps.zip
@@ -92,7 +92,7 @@ rm -rf /opt/1panel/resource/apps/local/localApps.zip
 ::: tip
 本仓库应用基本支持直接 `docker-compose up` 运行
 :::
-以`rustdesk`为例
+以 `rustdesk` 为例
 
 ```sh
 # 进入 rustdesk 的最新版本目录

@@ -70,7 +70,7 @@ Chrome、Firefox 等浏览器默认最高支持到 720P，不过你可以通过�
 软件：在 Google Play 搜索 `Netflix` 并下载即可
 
 <Links :items="[
-{ name: '或在 APKPURE 上下载最新版 Netflix APK', icon:'https://i.theojs.cn/logo/netflix.svg',link: 'https://apkpure.com/netflix/com.netflix.mediaclient' },
+{ name: '在 APKPURE 上下载最新版 Netflix APK', icon:'https://i.theojs.cn/logo/netflix.svg',link: 'https://apkpure.com/netflix/com.netflix.mediaclient' },
 ]" />
 
 ### Windows 10/11 PC 电脑（最高支持 4K）
@@ -219,7 +219,7 @@ Netflix 与国内的爱奇艺、优酷、腾讯视频等平台有着“天壤之
 
 - 你的播放设备支持 4K（Mac 笔记本最高支持 4K ，Win 笔记 Edge 浏览器支持 1080P ）
 
-- 网速要足够快，建议最低 25Mbps，推荐使用 [FAST.COM](https://fast.com/) 测速（奈飞自家的测速网站）
+- 网速要足够快，建议最低 25Mbps，推荐使用 [fast.com](https://fast.com/) 测速（奈飞自家的测速网站）
 
 ### 用 Netflix 看视频每小时要消耗多少流量
 

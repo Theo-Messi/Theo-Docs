@@ -149,7 +149,7 @@ oci network subnet list --compartment-id [compartment_id]
 
 #### 4. 更新子网(subnet)信息
 
-将`[subnet_id]` 和 `[cidr]` 替换一下！
+将 `[subnet_id]` 和 `[cidr]` 替换一下！
 
 ```sh
 oci network subnet update --subnet-id [subnet_id] --ipv6-cidr-block [cidr]

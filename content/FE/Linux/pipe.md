@@ -6,7 +6,7 @@ head:
       content: Linux 管道命令
 ---
 
-管道命令操作符是：`|`,它仅能处理经由前面一个指令传出的正确输出信息，也就是 `standard output` 的信息，对于 `stdandard` `error` 信息没有直接处理能力。然后，传递给下一个命令，作为标准的输入 `standard input`.
+管道命令操作符是：`|` ,它仅能处理经由前面一个指令传出的正确输出信息，也就是 `standard output` 的信息，对于 `stdandard` `error` 信息没有直接处理能力。然后，传递给下一个命令，作为标准的输入 `standard input`.
 :::tip
 
 1. 管道命令只处理前一个命令正确输出，不处理错误输出

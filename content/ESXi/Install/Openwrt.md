@@ -13,24 +13,24 @@ head:
 ### 步骤 2 -选择创建类型
 
 - 如果有 IOS 文件可以直接选择创建新虚拟机
-- 有 `OVA/OVF/VDMK` 文件可以选择直接`从 OVA 或 OVF 文件部署虚拟机`
-- 之前已经有虚拟机可以选择`注册现有虚拟机`
+- 有 `OVA/OVF/VDMK` 文件可以选择直接 `从 OVA 或 OVF 文件部署虚拟机`
+- 之前已经有虚拟机可以选择 `注册现有虚拟机`
 
 ![install Openwrt](https://i.theojs.cn/docs/20230927203845.png '选择创建类型')
 
 ### 步骤 3 -选择名称和客户机操作系统
 
 - 名称随意
-- 兼容性:`ESXi 8.0 虚拟机`
-- 操作系统:`Linux`
-- 操作系统版本:`其他 5.x 或更高版本 Linux(64 位)`
+- 兼容性: `ESXi 8.0 虚拟机`
+- 操作系统: `Linux`
+- 操作系统版本: `其他 5.x 或更高版本 Linux(64 位)`
 
 ![install Openwrt](https://i.theojs.cn/docs/20230927203850.png '选择名称和客户机操作系统')
 
 ### 步骤 4 -自定义设置
 
 - 删掉硬盘
-- 删掉 CD 驱动器(`如果有 IOS 文件不需要删除`)
+- 删掉 CD 驱动器( `如果有 IOS 文件不需要删除` )
 
 ![install Openwrt](https://i.theojs.cn/docs/20230927203939.png '自定义设置')
 
@@ -65,7 +65,7 @@ opkg update && opkg install cfdisk fdisk lsblk block-mount
 
 或者在软件包里一个一个的安装也可以，安装完以后重启一下
 
-#### 3.用命令`cfdisk`来把刚才多出来的空间创建出来，输入:`cfdisk`
+#### 3.用命令 `cfdisk` 来把刚才多出来的空间创建出来，输入: `cfdisk`
 
 ![install Openwrt](https://i.theojs.cn/docs/2022112003.png '界面中绿色的 Free Space，用键盘上下`选中，回车，新建，写入，退出`。')
 
