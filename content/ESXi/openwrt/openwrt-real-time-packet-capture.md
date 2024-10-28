@@ -15,16 +15,11 @@ opkg update
 opkg install tcpdump
 ```
 
-### 2. 安装 Wireshark
+### 2. 安装 Wireshark 和 终端工具
 
 <Box :items="[
   { name: 'Wireshark', tag: '官网下载' ,link: 'https://www.wireshark.org/download.html', icon: 'https://i.theojs.cn/logo/wireshark.svg'},
-]"/>
-
-### 3. 安装终端工具
-
-<Box :items="[
-  { name: 'Tabby', tag: '官网下载' ,link: 'https://tabby.sh/', icon: 'https://i.theojs.cn/logo/tabby.svg'},
+    { name: 'Tabby', tag: '官网下载' ,link: 'https://tabby.sh/', icon: 'https://i.theojs.cn/logo/tabby.svg'},
 ]"/>
 
 ## 实时抓包

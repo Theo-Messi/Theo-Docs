@@ -128,7 +128,7 @@ https://easylist-downloads.adblockplus.org/easyprivacy.txt
 
 ### 接口 - Lan - 基本设置
 
-**使用自定义的DNS服务器:**`AdGuardHome ip`
+**使用自定义的DNS服务器:** `AdGuardHome ip`
 
 ![AdGuardHome](https://i.theojs.cn/docs/20231230210932.png 'Lan口设置')
 

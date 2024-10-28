@@ -10,9 +10,9 @@ head:
 
 ## 简介
 
-Merlin Clash 是一款运行在[KoolCenter](https://www.koolcenter.com/)软件中心(Arm 版)上的 Clash GUI 插件。
+Merlin Clash 是一款运行在 [KoolCenter](https://www.koolcenter.com/) 软件中心(Arm 版)上的 Clash GUI 插件。
 
-获取插件需加入 Telegram 群组-[merlinclashcat](https://t.me/merlinclashcat)
+获取插件需加入 Telegram 群组- [merlinclashcat](https://t.me/merlinclashcat)
 
 ## 插件下载
 
@@ -22,7 +22,7 @@ Merlin Clash 是一款运行在[KoolCenter](https://www.koolcenter.com/)软件�
 
 ## 安装
 
-打开`软件中心`-`离线安装`，上传下载好的 `merlinclash` 的 `tar包`并安装。
+打开 `软件中心` - `离线安装` ，上传下载好的 `merlinclash` 的 `tar包` 并安装。
 
 ![梅林固件安装Clash](https://cdn.apphb.cn/bbs_applehub_cn/2023/02/01145d3043141842-1024x420.png '安装 Merlin Clash')
 
@@ -36,7 +36,7 @@ Merlin Clash 是一款运行在[KoolCenter](https://www.koolcenter.com/)软件�
 
 ## 使用
 
-详细的使用和更多的技巧可参考[官方 WiKi](https://mcreadme.gitbook.io/mc/)。
+详细的使用和更多的技巧可参考 [官方 WiKi](https://mcreadme.gitbook.io/mc/)。
 
 ---
 
@@ -62,7 +62,7 @@ Merlin Clash 是一款运行在 KoolCenter 软件中心上的 Clash GUI 插件�
 
 ## 启动
 
-切换至 `首页功能` 页，打开 `Merlin Clash 开关` 选择配置文件 `Clash` 后`保存&启动`。
+切换至 `首页功能` 页，打开 `Merlin Clash 开关` 选择配置文件 `Clash` 后 `保存&启动`。
 
 ![Merlin Clash](https://i.theojs.cn/docs/MerlinClash4.jpeg '保存&启动')
 

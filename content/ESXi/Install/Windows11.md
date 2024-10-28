@@ -33,9 +33,9 @@ head:
 ![install Windows11](https://i.theojs.cn/docs/20240421193618.png)
 
 ::: tip 全新安装Windows 11跳过TPM检查
-**如果你是从微软官方下载的 ISO 镜像则在`提示需要输入密钥阶段`进入到命令提示符**
+**如果你是从微软官方下载的 ISO 镜像则在 `提示需要输入密钥阶段` 进入到命令提示符**
 
-在 Windows 11 安装界面按`Shift + F10`打开命令行界面
+在 Windows 11 安装界面按 `Shift + F10` 打开命令行界面
 
 1. **命令模式**
 

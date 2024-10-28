@@ -72,13 +72,13 @@ git touch .gitignore
 
 ## git 标签
 
-|                                                      |                  |
-| ---------------------------------------------------- | ---------------- |
-| `git tag 标签名` 例如:`git tag v1.0`                 | 创建标签         |
-| `git tag`                                            | 查看所有标签     |
-| `git push origin 标签名` 例如:`git push origin v1.0` | 将标签推送到远程 |
-| `git tag -d 标签名`                                  | 删除本地标签     |
-| `git push origin:refs/tags/标签名`                   | 删除远程标签     |
-| `git push origin 标签名` 例如:`git push origin v1.0` | 将标签推送到远程 |
-| `git tag -d 标签名`                                  | 删除本地标签     |
-| `git push origin:refs/tags/标签名`                   | 删除远程标签     |
+|                                                       |                  |
+| ----------------------------------------------------- | ---------------- |
+| `git tag 标签名` 例如: `git tag v1.0`                 | 创建标签         |
+| `git tag`                                             | 查看所有标签     |
+| `git push origin 标签名` 例如: `git push origin v1.0` | 将标签推送到远程 |
+| `git tag -d 标签名`                                   | 删除本地标签     |
+| `git push origin:refs/tags/标签名`                    | 删除远程标签     |
+| `git push origin 标签名` 例如: `git push origin v1.0` | 将标签推送到远程 |
+| `git tag -d 标签名`                                   | 删除本地标签     |
+| `git push origin:refs/tags/标签名`                    | 删除远程标签     |

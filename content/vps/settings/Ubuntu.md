@@ -29,7 +29,7 @@ dpkg -l | grep ssh
 
 ```
 
-如果看到`sshd`那说明`ssh-server`已经启动了 如果没有则可以这样启动：
+如果看到 `sshd` 那说明 `ssh-server` 已经启动了 如果没有则可以这样启动：
 
 ```sh
 sudo /etc/init.d/ssh start
@@ -173,7 +173,7 @@ vim /etc/hostname
 
 ```
 
-主机名存放在`/etc/hostname`文件中，编辑`hostname`并输入新的主机名保存即可。
+主机名存放在 `/etc/hostname` 文件中，编辑 `hostname` 并输入新的主机名保存即可。
 
 ```sh
 reboot #重启
@@ -200,7 +200,7 @@ PasswordAuthentication yes #默认为no，改为yes开启密码登陆
 ```
 
 :::tip
-按`i`进入编辑模式，按`esc`退出，输入`:wq`保存
+按 `i` 进入编辑模式，按 `esc` 退出，输入 `:wq` 保存
 :::
 
 ### 重启服务器

@@ -131,7 +131,7 @@ Github `Setting` -> `SSH and GPG keys` -> `New GPG Key` 导入即可
 
 ### 本地代码仓库启用GPG Sign
 
-通过`gpg --list-keys`查看`pub GPG key ID`，后设置`git签名`时用的`key`
+通过 `gpg --list-keys` 查看 `pub GPG key ID`，后设置 `git签名` 时用的 `key`
 
 #### 全局设置
 
@@ -187,7 +187,7 @@ git push origin develop
 
 然后我们可以在 `git` 中看到 `Verified` 的标识。
 
-如果不设置`git config --global commit.gpgsign true`，提交的时候加上一个 `-S` 参数就可以为提交签名：
+如果不设置 `git config --global commit.gpgsign true`，提交的时候加上一个 `-S` 参数就可以为提交签名：
 
 ```bash
 git commit -S -m `your commit message`

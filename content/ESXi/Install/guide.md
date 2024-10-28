@@ -14,11 +14,11 @@ head:
 
 ### ESXi 8 安装文件
 
-注意，你需要注册一个`VMWare`的`customer connect账号`
+注意，你需要注册一个 `VMWare` 的 `customer connect账号`
 
 注册登录完毕后，就可以下载 60 天试用版的 ESXi8.0
 
-可直接下载 ISO 镜像即可，如果你需要封装驱动，那就下载`Offline Bundle离线捆绑包`
+可直接下载 ISO 镜像即可，如果你需要封装驱动，那就下载 `Offline Bundle离线捆绑包`
 
 <Links :items="[
 { name: 'ESXi 官网下载', link: 'https://www.broadcom.cn/', icon: 'https://i.theojs.cn/logo/ESXi.png' },
@@ -40,7 +40,7 @@ head:
 下载需要填写邮箱，下载地址会发送到你的邮箱里。
 
 <Links :items="[
-{ name: 'StarWind V2V Converter 官网下载', link: 'https://www.starwindsoftware.com/starwind-v2v-converter' },
+{ name: 'StarWind V2V Converter 官网下载', link: 'https://www.starwindsoftware.com/starwind-v2v-converter',icon:'https://www.starwindsoftware.com/resource-library/wp-content/uploads/2022/02/favicon-16.png'  },
 ]" />
 
 ## ESXi写盘
@@ -65,7 +65,7 @@ head:
 
 ### 步骤 2 - 开启 VT-x
 
-进入 `BIOS` 后，首先打开`处理器的虚拟化`（即 `VT-x`）。
+进入 `BIOS` 后，首先打开 `处理器的虚拟化`（即 `VT-x`）。
 
 > VT-x 是 intel 运用 Virtualization 虚拟化技术中的一个指令集。提供 X86 平台的硬件辅助虚拟化解决方案。能够将单台电脑软件环境分割为多个独立分区，每个分区均可以按照需要模拟电脑的一项技术。将多种系统整合到一台服务器或电脑中，使同一个物理平台能够同时运行多个同类或不同类的操作系统，以分别作为不同业务和应用的支撑平台。
 
@@ -79,14 +79,14 @@ head:
 
 ### 步骤 5 - 开启睿频加速技术
 
-在 `CPU 技术设置选项`中，找到 `Intel Turbo Mode Tech` 选项，有的主板可能会显示 `Intel Turbo Boost Tech`。至于 `C-STATE`就先不开了。
+在 `CPU 技术设置选项`中，找到 `Intel Turbo Mode Tech` 选项，有的主板可能会显示 `Intel Turbo Boost Tech`。至于 `C-STATE` 就先不开了。
 
 > C-STATE 是 CPU 的电源管理功能，它会根据 CPU 的负载来管理 CPU 的能耗，和睿频加速技术结合，在运行单线程应用时，C-STATE 会关闭或降低其他核心的能耗，把这些能源加到执行程序的核心上提高 CPU 的执行效率。
 > C-STATE 的模式从 C0 开始，C0 表示 “正常” 的 CPU 运行模式（CPU 已 100% 激活）。C 后的数字越大，表示 CPU 进入休眠模式的程度越深。换言之，关闭的电路和时钟信号越多，完全唤醒 CPU 进入 C0 模式需要的时间越长。
 
 ### 步骤 6 - 设置 USB 启动
 
-在`BOOT`里把`U盘`设置为第一启动项。
+在 `BOOT` 里把 `U盘` 设置为第一启动项。
 
 ## ESXi 开始引导
 
@@ -110,7 +110,7 @@ cdromBoot runweasel autoPartitionOSDataSize=4096
 
 安装完成后，会进入一个后台配置界面。
 
-按`F2`进入后台配置界面，输入 root 账号密码，挑个网口作为管理口，与 PC 机连接
+按 `F2` 进入后台配置界面，输入 root 账号密码，挑个网口作为管理口，与 PC 机连接
 
 ### 配置 - Configure Management Network
 
@@ -120,7 +120,7 @@ cdromBoot runweasel autoPartitionOSDataSize=4096
 
 ![install ESXi](https://i.theojs.cn/docs/v2-d4053e9e9c9effc2d55f8a9027c9d0b2_1440w.webp '配置管理口')
 
-#### 2. 进入后会发现，其中一个网卡状态为`connected`，就是接入网线的网口
+#### 2. 进入后会发现，其中一个网卡状态为 `connected` ，就是接入网线的网口
 
 :::danger 注意
 **此处只能选择一个网口作为管理口，不要选择多个**
@@ -134,14 +134,14 @@ cdromBoot runweasel autoPartitionOSDataSize=4096
 
 #### 1.选择静态 IP，配置为你网络环境中的内网网段 IP 即可
 
-#### 2.一般配置为`孤僻IP`，可随意配置，网关为你路由器的 IP
+#### 2.一般配置为 `孤僻IP` ，可随意配置，网关为你路由器的 IP
 
 ![install ESXi](https://i.theojs.cn/docs/v2-42a37dc2ded65a10cadf32f33968deb5_1440w.webp '配置网络信息')
 
-#### 3.如果将`Openwrt`做入`ESXi`中的话，就配置为`Openwrt`路由的 IP
+#### 3.如果将 `Openwrt` 做入 `ESXi` 中的话，就配置为 `Openwrt` 路由的 IP
 
-比如我的固件`Openwrt`的默认 IP 为`10.10.0.253`，那么此处`Gateway`网关就填入`10.10.0.253`.
-最后`esc`退出，会弹出确认提示，Y 即可。
+比如我的固件 `Openwrt` 的默认 IP 为 `10.10.0.253` ，那么此处 `Gateway` 网关就填入 `10.10.0.253` .
+最后 `esc` 退出，会弹出确认提示，Y 即可。
 
 ## ESXi前台配置
 
