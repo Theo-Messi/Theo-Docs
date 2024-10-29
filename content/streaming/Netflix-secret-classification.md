@@ -3,7 +3,7 @@ title: Netflix 秘密分类的技巧
 head:
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
 当奈飞的大门向你徐徐打开时，绝不仅仅只有你在 `Netflix` 首页看到的电视节目、电影两个默认类别。除了这些默认展示的节目信息之外，奈飞还有额外大约**2.7 万**部的隐藏影片，不过这些片源默认并不展示，需要一点特殊技巧才能解锁。

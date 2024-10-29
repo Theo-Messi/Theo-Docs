@@ -3,7 +3,7 @@ title: Disney+ 介绍
 head:
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird Bridge the Wise HBO Max Spotify 奈飞小铺 银河录像局
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
 ![Disney+](https://i.theojs.cn/docs/202406111458794.webp 'Disney+ 梦幻般的流媒体世界')

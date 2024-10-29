@@ -51,10 +51,6 @@ export const Footer_Data = {
           href: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3'
         },
         {
-          name: 'Bridge The Wise',
-          href: 'https://patriot.ninja/aff.php?aff=1471'
-        },
-        {
           name: '飞兔云',
           href: 'https://xn--9kq10e0y7h.site/index.html?register=2cFF8mg4'
         },
