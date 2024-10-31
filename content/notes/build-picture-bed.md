@@ -122,26 +122,15 @@ jobs:
 
 ![PicGo](https://i.theojs.cn/docs/20240102223417.png '设置仓库 Github Actions 权限')
 
-## JsDelivr 加速访问(二选一)
+## GitHub Proxy 加速访问(二选一)
 
 在 PicGo 图床配置中添加如下自定义域名即可；
 
-`https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支名`
+`https://ghp.ci/https://github.com/GitHub用户名/仓库名/raw/分支名`
 
-例如：`https://cdn.jsdelivr.net/gh/Theo-messi/pic@master`
+例如：`https://ghp.ci/https://github.com/Theo-Messi/pic/raw/main`
 
-:::tip JsDelivr 储存库超过 50M 无法访问解决办法
-
-大小超过 50M 之后为存储库添加新分支,如 `1.0`
-
-相同为 PicGo 设置中修改分支为 `1.0`
-
-加速自定义域名也修改为新分支
-
-`https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支名`
-:::
-
-## Vercel 加速访问(二选一)
+## Vercel/Netlify 加速访问(二选一)
 
 **使用 GitHub 账户登陆** [Vercel](https://vercel.com/)
 
