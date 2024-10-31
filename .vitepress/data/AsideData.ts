@@ -1,4 +1,5 @@
-export const Aside_Data = [
+import type { AsideItem } from '@theojs/lumen'
+export const Aside_Data: AsideItem[] = [
   // {
   //   link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3',
   //   icon: 'https://i.theojs.cn/docs/202409111237242.png',

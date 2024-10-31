@@ -1,7 +1,7 @@
 import type { DefaultTheme } from 'vitepress'
 
 // 导航栏设置
-export const nav: DefaultTheme.Config['nav'] = [
+export const nav: DefaultTheme.NavItem[] = [
   {
     text: '文档记录',
     link: '/notes/build-picture-bed',
