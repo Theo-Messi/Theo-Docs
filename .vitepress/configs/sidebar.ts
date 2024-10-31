@@ -1,7 +1,9 @@
 import type { DefaultTheme } from 'vitepress'
 
+type SidebarItem = DefaultTheme.SidebarItem
+
 // 侧边栏配置
-export const sidebar: DefaultTheme.Config['sidebar'] = {
+export const sidebar: DefaultTheme.SidebarMulti = {
   '/vps/': { base: '/vps/', items: Sidebar_vps() },
   '/asus/': { base: '/asus/', items: Sidebar_Asus() },
   '/ESXi/': { base: '/ESXi/', items: Sidebar_ESXi() },
@@ -11,7 +13,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/streaming/': { base: '/streaming/', items: Sidebar_streaming() }
 }
 
-export function Sidebar_notes() {
+export function Sidebar_notes(): SidebarItem[] {
   return [
     {
       text: '文档记录',
@@ -49,7 +51,7 @@ export function Sidebar_notes() {
   ]
 }
 
-export function Sidebar_Asus() {
+export function Sidebar_Asus(): SidebarItem[] {
   return [
     {
       // text: '梅林操作文档',
@@ -67,7 +69,7 @@ export function Sidebar_Asus() {
   ]
 }
 
-export function Sidebar_FE() {
+export function Sidebar_FE(): SidebarItem[] {
   return [
     {
       text: 'Linux 文档',
@@ -134,7 +136,7 @@ export function Sidebar_FE() {
   ]
 }
 
-export function Sidebar_vps() {
+export function Sidebar_vps(): SidebarItem[] {
   return [
     {
       text: 'Debian/Ubuntu',
@@ -186,7 +188,7 @@ export function Sidebar_vps() {
 }
 
 // ESXi安装指南
-export function Sidebar_ESXi() {
+export function Sidebar_ESXi(): SidebarItem[] {
   return [
     {
       text: 'ESXi 8.0 部署指南',
@@ -223,7 +225,7 @@ export function Sidebar_ESXi() {
 }
 
 // 流媒体观影指南
-export function Sidebar_streaming() {
+export function Sidebar_streaming(): SidebarItem[] {
   return [
     {
       // text: 'Netflix 观看指南',
@@ -256,7 +258,7 @@ export function Sidebar_streaming() {
 }
 
 // 账号合租平台
-export function Sidebar_serve() {
+export function Sidebar_serve(): SidebarItem[] {
   return [
     {
       text: '账号合租平台',

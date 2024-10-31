@@ -1,4 +1,5 @@
-export const Footer_Data = {
+import type { FooterData } from '@theojs/lumen'
+export const Footer_Data: FooterData = {
   beian: {
     icp: '鄂ICP备2024060426号',
     police: '粤公网安备44200102445449号'

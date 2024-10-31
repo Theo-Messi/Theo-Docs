@@ -1,4 +1,4 @@
-import { UserConfig } from 'vitepress'
+import type { MarkdownOptions } from 'vitepress'
 import { footnote } from '@mdit/plugin-footnote'
 import { tasklist } from '@mdit/plugin-tasklist'
 import { imgSize } from '@mdit/plugin-img-size'
@@ -6,7 +6,7 @@ import { figure } from '@mdit/plugin-figure'
 import { table } from './index.ts'
 import { groupIconMdPlugin } from 'vitepress-plugin-group-icons'
 
-export const markdown: UserConfig['markdown'] = {
+export const markdown: MarkdownOptions = {
   theme: { light: 'one-light', dark: 'dracula-soft' },
   image: { lazyLoading: true },
   container: {
