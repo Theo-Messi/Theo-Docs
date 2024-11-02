@@ -15,3 +15,5 @@ updates:
       all-dependencies:
         patterns:
           - '*'
+    commit-message:
+      prefix: 'build(deps): bump all dependencies.'
