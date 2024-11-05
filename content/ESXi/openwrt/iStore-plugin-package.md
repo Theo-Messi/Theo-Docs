@@ -9,8 +9,8 @@ head:
 ## iStore插件包
 
 <Box :items="[
-{ name: 'iStore插件包',link: 'https://github.com/AUK9527/Are-u-ok/tree/main/apps', icon: 'https://i.theojs.cn/logo/istoreos.png',  tag:  'ARM 平台' },
-{ name: 'iStore插件包',link: 'https://github.com/AUK9527/Are-u-ok/tree/main/x86', icon: 'https://i.theojs.cn/logo/istoreos.png',  tag:  'x86_64平台' }
+{ name: 'iStore插件包',link: 'https://github.com/AUK9527/Are-u-ok/tree/main/apps', image: 'https://i.theojs.cn/logo/istoreos.png',  tag:  'ARM 平台' },
+{ name: 'iStore插件包',link: 'https://github.com/AUK9527/Are-u-ok/tree/main/x86', image: 'https://i.theojs.cn/logo/istoreos.png',  tag:  'x86_64平台' }
 ]"/>
 
 ## 常用代理软件包

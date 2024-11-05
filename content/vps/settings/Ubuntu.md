@@ -9,8 +9,8 @@ head:
 ## 系统下载
 
 <Box :items="[
-{name: 'Ubuntu', link: 'https://cn.ubuntu.com/download/desktop', icon: 'fab fa-ubuntu',  color: '#E95420', tag: '24.04 LTS' },
-{name: 'Debian',link: 'https://www.debian.org/', icon: 'fab fa-debian', color: '#A81D33',  tag: '12.5' }
+{name: 'Ubuntu', link: 'https://cn.ubuntu.com/download/desktop', icon: 'logos:ubuntu',  color: '#dd4814', tag: '24.04 LTS' },
+{name: 'Debian',link: 'https://www.debian.org/', icon: 'logos:debian', color: '#a80030',  tag: '12.5' }
 ]"/>
 
 ## 开启SSH服务远程登录

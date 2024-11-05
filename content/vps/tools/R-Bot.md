@@ -8,9 +8,18 @@ head:
 
 ## 准备工作
 
-<Links :items="[
-{ name: 'GitHub 项目地址',   light:'https://i.theojs.cn/logo/github.svg',dark:'https://i.theojs.cn/logo/github-dark.svg',link: 'https://github.com/semicons/java_oci_manage' },
-]" />
+<Links
+  :items="[
+    {
+      name: 'GitHub 项目地址',
+      image: {
+        light: 'https://i.theojs.cn/logo/github.svg',
+        dark: 'https://i.theojs.cn/logo/github-dark.svg'
+      },
+      link: 'https://github.com/semicons/java_oci_manage'
+    }
+  ]"
+/>
 
 - **VPS 系统：** VPS（可以科学上网）推荐系统 Ubuntu、Debian
 - **端口检查：** 确保 VPS 的 `9527` 端口开放！可以通过 [这里](https://tool.chinaz.com/port) 检测

@@ -15,7 +15,7 @@ head:
 
 :::
 <Links :items="[
-{ name: 'FlyingBird 双十一活动开启！', icon:'https://i.theojs.cn/docs/202409111237242.png', desc:'活动时间：即日起至2024年11月20日23点59分',link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3' },
+{ name: 'FlyingBird 双十一活动开启！', image:'https://i.theojs.cn/docs/202409111237242.png', desc:'活动时间：即日起至2024年11月20日23点59分',link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3' },
 ]" />
 
 ## FlyingBird 简介

@@ -52,7 +52,7 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
     {
       name: '1Panel GitHub release',
       desc: '现代化、开源的 Linux 服务器运维管理面板。',
-      icon: 'https://www.1panel.wiki/favicon.png',
+      image: 'https://www.1panel.wiki/favicon.png',
       link: 'https://github.com/1Panel-dev/1Panel/releases'
     }
   ]"

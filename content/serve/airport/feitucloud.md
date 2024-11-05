@@ -16,7 +16,7 @@ head:
 
 :::
 <Links :items="[
-{ name: 'FlyingBird 注册链接', icon:'https://flyingbirdlimo.com/wp-content/uploads/2022/03/Flying-Bird-Logo-cropped.png', link: 'https://xn--9kq10e0y7h.site/index.html?register=2cFF8mg4' },
+{ name: 'FlyingBird 注册链接', image:'https://flyingbirdlimo.com/wp-content/uploads/2022/03/Flying-Bird-Logo-cropped.png', link: 'https://xn--9kq10e0y7h.site/index.html?register=2cFF8mg4' },
 ]" /> -->
 
 ## 飞兔云简介
