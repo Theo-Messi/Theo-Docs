@@ -2,7 +2,8 @@ import type { FooterData } from '@theojs/lumen'
 export const Footer_Data: FooterData = {
   beian: {
     icp: '鄂ICP备2024060426号',
-    police: '粤公网安备44200102445449号'
+    police: '粤公网安备44200102445449号',
+    showIcon: true
   },
   author: {
     name: 'Theo-Messi',
@@ -41,8 +42,8 @@ export const Footer_Data: FooterData = {
       links: [
         {
           name: '青云梯',
-          icon: 'fab fa-gripfire',
-          style: 'color: rgba(255, 87, 51, 1)',
+          icon: 'el:fire',
+          style: 'rgba(255, 87, 51, 1)',
           href: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd'
         },
         { name: '银河录像局', href: 'https://nf.video/kaIuE' },

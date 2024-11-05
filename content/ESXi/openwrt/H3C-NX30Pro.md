@@ -9,10 +9,10 @@ head:
 ## 准备工作
 
 <Box :items="[
-  { name: '固件/UBOOT', tag: 'Github' ,link: 'https://github.com/Theo-Messi/H3C-NX30Pro', icon: 'https://i.theojs.cn/logo/openwrt.png'},
-  { name: 'termius', tag: '官网下载' ,link: 'https://termius.com/download/', icon: 'https://i.theojs.cn/logo/termius.svg'},
-  { name: 'winscp', tag: '官网下载' ,link: 'https://winscp.net/eng/download.php', icon: 'https://i.theojs.cn/logo/winscp.png'},
-  { name: 'FinalShell', tag: '官网下载' ,link: 'https://www.hostbuf.com/', icon: 'https://i.theojs.cn/logo/FinalShell.png'},
+  { name: '固件/UBOOT', tag: 'Github' ,link: 'https://github.com/Theo-Messi/H3C-NX30Pro', image: 'https://i.theojs.cn/logo/openwrt.png'},
+  { name: 'termius', tag: '官网下载' ,link: 'https://termius.com/download/', image: 'https://i.theojs.cn/logo/termius.svg'},
+  { name: 'winscp', tag: '官网下载' ,link: 'https://winscp.net/eng/download.php', image: 'https://i.theojs.cn/logo/winscp.png'},
+  { name: 'FinalShell', tag: '官网下载' ,link: 'https://www.hostbuf.com/', image: 'https://i.theojs.cn/logo/FinalShell.png'},
 ]"/>
 
 - H3C NX30 Pro 路由器

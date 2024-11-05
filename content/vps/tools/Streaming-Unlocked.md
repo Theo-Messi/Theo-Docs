@@ -17,9 +17,19 @@ head:
 ::: tip 注意事项
 Netflix CDN 分流测试依赖 DNS 解析。而如果您使用的本地设备开了 VPN 代理进行测试，将无法得到正确的 CDN 分流信息。
 :::
-<Links :items="[
-{ name: 'GitHub 项目地址',   light:'https://i.theojs.cn/logo/github.svg',dark:'https://i.theojs.cn/logo/github-dark.svg',link: 'https://github.com/lmc999/RegionRestrictionCheck' },
-]" />
+
+<Links
+  :items="[
+    {
+      name: 'GitHub 项目地址',
+      image: {
+        light: 'https://i.theojs.cn/logo/github.svg',
+        dark: 'https://i.theojs.cn/logo/github-dark.svg'
+      },
+      link: 'https://github.com/lmc999/RegionRestrictionCheck'
+    }
+  ]"
+/>
 
 ## 使用脚本前请确认 curl 已安装
 
