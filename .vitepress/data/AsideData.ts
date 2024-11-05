@@ -19,6 +19,15 @@ export const Aside_Data: AsideItem[] = [
       '年付 64折 优惠码 <span style="color: var(--vp-c-brand-3)"> 241180 </span>'
   },
   {
+    link: 'https://xn--9kq10e0y7h.site/index.html?register=2cFF8mg4',
+    icon: 'https://飞兔.com/img/logo.png',
+    Activity: '飞兔云 双11 狂欢来袭！',
+    info1:
+      '全场<span style="color: var(--vp-c-brand-3)"> 88 </span>折！全场<span style="color: var(--vp-c-brand-3)"> 88 </span>折！',
+    info2:
+      '优惠码 <span style="color: var(--vp-c-brand-3)"> 1111@88 </span>全场打折'
+  },
+  {
     link: 'https://github.com/sponsors/Theo-Messi',
     icon: 'https://doc.theojs.cn/爱心.png',
     name: '赞助我的项目'

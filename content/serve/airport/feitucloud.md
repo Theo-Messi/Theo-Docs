@@ -6,18 +6,18 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局 飞兔云
 ---
 
-<!-- :::tip 618活动！来了来了！最宠你们的，还是飞鸟！
+:::tip 飞兔云 双11狂欢，优惠来袭！
 
-1: 月/季/半年付 85折 , 优惠码：`2461885` 可重复使用3次
+- 全场**88**折！全场**88**折！全场**88**折！
+- 仅此一次全场打折哦！
+- 优惠券名称：`1111@88`
 
-2: 年付8折（站内折上折，高达64折 ）优惠码：`2461880` 可重复使用3次
-
-**活动时间：即日起至2024年6月29日23点59分**
+**活动时间：即日起至2024年11月11日23点00分**
 
 :::
 <Links :items="[
-{ name: 'FlyingBird 注册链接', image:'https://flyingbirdlimo.com/wp-content/uploads/2022/03/Flying-Bird-Logo-cropped.png', link: 'https://xn--9kq10e0y7h.site/index.html?register=2cFF8mg4' },
-]" /> -->
+{ name: '飞兔云 双11狂欢，优惠来袭！', image:'https://飞兔.com/img/logo.png', desc:'活动时间：即日起至2024年11月11日23点00分',link: 'https://xn--9kq10e0y7h.site/index.html?register=2cFF8mg4' },
+]" />
 
 ## 飞兔云简介
 
