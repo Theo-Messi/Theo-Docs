@@ -20,8 +20,8 @@ head:
 - 一个域名
 
 <Links :items="[
-{ name: 'GitHub项目 - 哪吒监控', desc:'开源、轻量、易用的服务器监控与运维工具',  icon:'https://nezha.wiki/logo.png',link: 'https://github.com/naiba/nezha' },
-{ name: '官方WiKi - 哪吒监控', desc:'开源、轻量、易用的服务器监控与运维工具',  icon:'https://nezha.wiki/logo.png',link: 'https://nezha.wiki/' },
+{ name: 'GitHub项目 - 哪吒监控', desc:'开源、轻量、易用的服务器监控与运维工具',  image:'https://nezha.wiki/logo.png',link: 'https://github.com/naiba/nezha' },
+{ name: '官方WiKi - 哪吒监控', desc:'开源、轻量、易用的服务器监控与运维工具',  image:'https://nezha.wiki/logo.png',link: 'https://nezha.wiki/' },
 ]" />
 
 ## 获取 Github 的 Client ID 和密钥

@@ -18,7 +18,7 @@ head:
 
 :::
 <Links :items="[
-{ name: '青云梯 双11 特惠折上折!', icon:'https://www.qingyunti.cc/images/qytlogo-144-49.png', desc:'活动时间：即日起至2024年11月17号晚上23点59分', link: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd' },
+{ name: '青云梯 双11 特惠折上折!', image:'https://www.qingyunti.cc/images/qytlogo-144-49.png', desc:'活动时间：即日起至2024年11月17号晚上23点59分', link: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd' },
 ]" />
 
 ## 青云梯 简介
