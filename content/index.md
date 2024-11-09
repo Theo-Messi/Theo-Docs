@@ -27,9 +27,6 @@ hero:
     - theme: brand
       text: ❤️ 成为赞助商
       link: https://github.com/sponsors/Theo-Messi
-    - theme: cta pan
-      text: 云盘资源
-      link: https://share.theojs.cn/
     - theme: cta xx
       text: 玄学宝典
       link: https://xx.theojs.cn
@@ -47,11 +44,6 @@ features:
   - title: '<span style="display: inline-flex; align-items: center;"><i class="fas fa-plane fa-xl" style="margin-right:0.5rem; color:#538dd7" alt="IPLC"></i>优质线路</span>'
     details: 全专线IPLC，不限速，不限设备数量，超稳晚高峰，流媒体全解锁！全节点解锁chatgpt！
     link: /serve/airport/qingyunti
-    linkText: 查看更多
-
-  - title: '<span style="display: inline-flex; align-items: center;"><i class="fas fa-genderless fa-2xl" style="margin-right:0.5rem; color:#4a6ffd" alt="aliyundrive"></i>云盘资源分享</span>'
-    details: 热门资源/电视剧/电影/综艺/动漫/大陆/日本/韩国/欧美
-    link: https://share.theojs.cn/
     linkText: 查看更多
 ---
 

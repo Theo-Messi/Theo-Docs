@@ -47,13 +47,6 @@ export const Aside_Data: AsideItem[] = [
     hide2: '山医命相卜'
   },
   {
-    link: 'https://share.theojs.cn/',
-    icon: 'https://i.theojs.cn/docs/202405101119004.png',
-    name: '阿里云盘资源分享',
-    hide1: '快速获取热门影视资源',
-    hide2: '转存观看!'
-  },
-  {
     link: '/serve/sharing/Account-sharing-guide',
     icon: 'https://cdn.iconscout.com/icon/free/png-256/free-netflix-2296042-1912001.png',
     name: '流媒体帐号合租',
