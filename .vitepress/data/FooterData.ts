@@ -60,7 +60,7 @@ export const Footer_Data: FooterData = {
     },
     {
       title: '观影指南',
-      internal: true,
+      target: '_self',
       icon: 'fas fa-book-open',
       links: [
         { name: 'Netflix', href: '/streaming/Netflix-guide' },
