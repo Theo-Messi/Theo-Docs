@@ -47,7 +47,7 @@ export const Aside_Data: AsideItem[] = [
     hide2: '山医命相卜'
   },
   {
-    link: '/serve/sharing/Account-sharing-guide',
+    link: '/serve/sharing/account-sharing-guide',
     icon: 'https://cdn.iconscout.com/icon/free/png-256/free-netflix-2296042-1912001.png',
     name: '流媒体帐号合租',
     hide1: '流媒体账号合租',

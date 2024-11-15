@@ -23,7 +23,7 @@ Netflix 是一家美国的在线流媒体平台，成立于 1997 年，总部位
 想要在国内愉快都使用 Netflix 并获得最佳的观影体验，你需要做好以下几个方面的准备：
 <Box :items="[
   { link: 'https://ihezu.love/UKTer6', image: 'https://i.theojs.cn/logo/netflix.svg', name: 'Netflix 账号', tag: '合租平台' },
-  { link: '/serve/airport/FlyingBird', image: 'https://i.theojs.cn/logo/netflix.svg', name: 'Netflix 线路', tag: '流媒体解锁' }
+  { link: '/serve/airport/qingyunti', image: 'https://i.theojs.cn/logo/netflix.svg', name: 'Netflix 线路', tag: '流媒体解锁' }
   ]"/>
 
 ## Netflix 账号合租

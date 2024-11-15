@@ -17,10 +17,10 @@ hero:
   actions:
     - theme: brand
       text: 立即开始
-      link: /streaming/Netflix-guide
+      link: /streaming/netflix-guide
     - theme: alt
       text: 账号合租
-      link: /serve/sharing/Account-sharing-guide
+      link: /serve/sharing/account-sharing-guide
     - theme: alt
       text: 机场推荐
       link: /serve/airport/qingyunti
@@ -33,12 +33,12 @@ hero:
 features:
   - title: '<span style="display: inline-flex; align-items: center;"><img src="index/netflix.svg" style="height:27px; margin-right:0.5rem;"/>流媒体观影</span>'
     details: Netflix 、Disney+ 、Spotify会员 和 YouTube各平台使用指南
-    link: /streaming/Netflix-guide
+    link: /streaming/netflix-guide
     linkText: 查看更多
 
   - title: '<span style="display: inline-flex; align-items: center;"><i class="fab fa-youtube fa-xl" style="margin-right:0.5rem; color:#FF0000" alt="youtube"></i>合租平台</span>'
     details: 稳定好用的 Netflix 合租平台推荐
-    link: /serve/sharing/Account-sharing-guide
+    link: /serve/sharing/account-sharing-guide
     linkText: 查看更多
 
   - title: '<span style="display: inline-flex; align-items: center;"><i class="fas fa-plane fa-xl" style="margin-right:0.5rem; color:#538dd7" alt="IPLC"></i>优质线路</span>'
