@@ -7,22 +7,34 @@ export const nav: DefaultTheme.NavItem[] = [
     link: '/notes/build-picture-bed',
     activeMatch: '^/notes/'
   },
-  { text: '前端文档', link: '/FE/Linux/directory', activeMatch: '^/FE/' },
-  { text: 'VMware ESXi', link: '/ESXi/Install/guide', activeMatch: '^/ESXi/' },
-  { text: '把玩服务器', link: '/vps/settings/Ubuntu', activeMatch: '^/vps/' },
+  {
+    text: '前端文档',
+    link: '/fe/linux/directory',
+    activeMatch: '^/fe/'
+  },
+  {
+    text: 'VMware ESXi',
+    link: '/esxi/install/guide',
+    activeMatch: '^/esxi/'
+  },
+  {
+    text: '把玩服务器',
+    link: '/vps/settings/ubuntu',
+    activeMatch: '^/vps/'
+  },
   {
     text: 'ASUS',
-    link: '/asus/Flashing-prerequisites',
+    link: '/asus/flashing-prerequisites',
     activeMatch: '^/asus/'
   },
   {
     text: '流媒体观影',
-    link: '/streaming/Netflix-guide',
+    link: '/streaming/netflix-guide',
     activeMatch: '^/streaming/'
   },
   {
     text: '服务推荐',
-    link: '/serve/sharing/Account-sharing-guide',
+    link: '/serve/sharing/account-sharing-guide',
     activeMatch: '^/serve/'
   }
 ]

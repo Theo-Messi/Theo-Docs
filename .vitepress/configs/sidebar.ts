@@ -6,8 +6,8 @@ type SidebarItem = DefaultTheme.SidebarItem
 export const sidebar: DefaultTheme.SidebarMulti = {
   '/vps/': { base: '/vps/', items: Sidebar_vps() },
   '/asus/': { base: '/asus/', items: Sidebar_Asus() },
-  '/ESXi/': { base: '/ESXi/', items: Sidebar_ESXi() },
-  '/FE/': { base: '/FE/', items: Sidebar_FE() },
+  '/esxi/': { base: '/esxi/', items: Sidebar_ESXi() },
+  '/fe/': { base: '/fe/', items: Sidebar_FE() },
   '/notes/': { base: '/notes/', items: Sidebar_notes() },
   '/serve/': { base: '/serve/', items: Sidebar_serve() },
   '/streaming/': { base: '/streaming/', items: Sidebar_streaming() }
@@ -29,12 +29,12 @@ export function Sidebar_notes(): SidebarItem[] {
         { text: '优化 iOS/Android 来电信息界面', link: 'vcards' },
         {
           text: '添加 1Panel 第三方应用商店',
-          link: '1Panel-third-party-app-store'
+          link: '1panel-third-party-app-store'
         },
         { text: 'Tabby 配置同步', link: 'tabby-sync' },
         {
           text: '添加 群晖DSM7.X 第三方套件源',
-          link: 'Synology-third-party-suite'
+          link: 'synology-third-party-suite'
         }
       ]
     },
@@ -44,8 +44,8 @@ export function Sidebar_notes(): SidebarItem[] {
       base: '/notes/vitepress/',
       items: [
         { text: '添加 Giscu评论', link: 'giscu' },
-        { text: '实现单击图片放大', link: 'Picture-enlargement' },
-        { text: '宝塔面板部署', link: 'aaPanel-deployment' }
+        { text: '实现单击图片放大', link: 'picture-enlargement' },
+        { text: '宝塔面板部署', link: 'aapanel-deployment' }
       ]
     }
   ]
@@ -58,10 +58,10 @@ export function Sidebar_Asus(): SidebarItem[] {
       // collapsed: true,
       base: '/asus/',
       items: [
-        { text: '刷机需知', link: 'Flashing-prerequisites' },
-        { text: '固件平台介绍', link: 'Firmware-platform-introduction' },
+        { text: '刷机需知', link: 'flashing-prerequisites' },
+        { text: '固件平台介绍', link: 'firmware-platform-introduction' },
         { text: 'fancyss', link: 'fancyss' },
-        { text: 'Merlin Clash', link: 'Merlin-Clash' },
+        { text: 'Merlin Clash', link: 'merlin-clash' },
         { text: '官改/梅林固件 常用命令集合', link: 'common-commands' },
         { text: '提示检测非法关键词', link: 'illegal-keywords' }
       ]
@@ -74,7 +74,7 @@ export function Sidebar_FE(): SidebarItem[] {
     {
       text: 'Linux 文档',
       collapsed: false,
-      base: '/FE/Linux/',
+      base: '/fe/linux/',
       items: [
         { text: 'Linux 目录结构', link: 'directory' },
         { text: 'Linux 文件操作', link: 'file' },
@@ -89,7 +89,7 @@ export function Sidebar_FE(): SidebarItem[] {
     {
       text: 'Docker 文档',
       collapsed: false,
-      base: '/FE/Docker/',
+      base: '/fe/docker/',
       items: [
         { text: 'Docker 简介与安装', link: 'install' },
         { text: 'Docker 进程相关操作', link: 'process' },
@@ -101,7 +101,7 @@ export function Sidebar_FE(): SidebarItem[] {
     {
       text: 'Git 文档',
       collapsed: false,
-      base: '/FE/Git/',
+      base: '/fe/git/',
       items: [
         { text: 'Git 简介与安装', link: 'install' },
         { text: 'Git 设置用户信息', link: 'user' },
@@ -115,7 +115,7 @@ export function Sidebar_FE(): SidebarItem[] {
     {
       text: 'HomeBrew 文档',
       collapsed: false,
-      base: '/FE/HomeBrew/',
+      base: '/fe/homebrew/',
       items: [
         { text: 'HomeBrew 简介与安装', link: 'install' },
         { text: 'HomeBrew 安装软件', link: 'software' },
@@ -126,7 +126,7 @@ export function Sidebar_FE(): SidebarItem[] {
     {
       text: 'pnpm 文档',
       collapsed: false,
-      base: '/FE/pnpm/',
+      base: '/fe/pnpm/',
       items: [
         { text: 'pnpm 安装', link: 'install' },
         { text: 'pnpm 切换镜像及恢复默认源', link: 'mirror' },
@@ -143,10 +143,10 @@ export function Sidebar_vps(): SidebarItem[] {
       collapsed: false,
       base: '/vps/settings/',
       items: [
-        { text: '系统优化设置', link: 'Ubuntu' },
-        { text: '更改中文语言', link: 'Chinese' },
+        { text: '系统优化设置', link: 'ubuntu' },
+        { text: '更改中文语言', link: 'chinese' },
         { text: '开启防火墙端口', link: 'firewall-port' },
-        { text: 'Debian12 安装使用 Cloud 内核', link: 'Debian12-Cloud' },
+        { text: 'Debian12 安装使用 Cloud 内核', link: 'debian12-cloud' },
         { text: 'oh-my-zsh 安装 & 配置', link: 'oh-my-zsh' },
         { text: '开机自动挂载 NAS磁盘', link: 'ubuntu-mount-nas' }
       ]
@@ -156,12 +156,12 @@ export function Sidebar_vps(): SidebarItem[] {
       collapsed: false,
       base: '/vps/tools/',
       items: [
-        { text: '全能工具箱', link: 'All-purpose-toolbox' },
+        { text: '全能工具箱', link: 'all-purpose-toolbox' },
         { text: 'dd.sh 重装系统', link: 'dd.sh' },
-        { text: 'R 探长开机脚本', link: 'R-Bot' },
-        { text: 'IP 质量体检脚本', link: 'IPQuality' },
-        { text: '一键检测流媒体解锁', link: 'Streaming-Unlocked' },
-        { text: '一键检测机场奈飞解锁', link: 'Netflix-Unlocked' }
+        { text: 'R 探长开机脚本', link: 'r-bot' },
+        { text: 'IP 质量体检脚本', link: 'ipquality' },
+        { text: '一键检测流媒体解锁', link: 'streaming-unlocked' },
+        { text: '一键检测机场奈飞解锁', link: 'netflix-unlocked' }
       ]
     },
     {
@@ -169,9 +169,9 @@ export function Sidebar_vps(): SidebarItem[] {
       collapsed: false,
       base: '/vps/serve/',
       items: [
-        { text: '哪吒面板', link: 'Install-Nezha-panel' },
-        { text: '1Panel 面板', link: 'Install-1Panel' },
-        { text: 'Docker 搭建 aria2+AriaNg', link: 'aria2+AriaNg' },
+        { text: '哪吒面板', link: 'install-nezha-panel' },
+        { text: '1Panel 面板', link: 'install-1panel' },
+        { text: 'Docker 搭建 aria2+AriaNg', link: 'aria2+ariang' },
         { text: '一键安装 小雅Xiaoya全家桶', link: 'xiaoya-alist' }
       ]
     },
@@ -180,8 +180,8 @@ export function Sidebar_vps(): SidebarItem[] {
       collapsed: false,
       base: '/vps/oracle-cloud/',
       items: [
-        { text: '甲骨文云服务器 开启IPv6', link: 'IPv6' },
-        { text: 'Debian系统自动获取IPv6', link: 'Debian-IPv6' }
+        { text: '甲骨文云服务器 开启IPv6', link: 'ipv6' },
+        { text: 'Debian系统自动获取IPv6', link: 'debian-ipv6' }
       ]
     }
   ]
@@ -193,32 +193,32 @@ export function Sidebar_ESXi(): SidebarItem[] {
     {
       text: 'ESXi 8.0 部署指南',
       // collapsed: true,
-      base: '/ESXi/Install/',
+      base: '/esxi/install/',
       items: [
         { text: 'ESXi 安装指南', link: 'guide' },
-        { text: '安装 Openwrt', link: 'Openwrt' },
-        { text: '安装 AdGuardHome', link: 'AdGuardHome' },
-        { text: '安装 Windows 11', link: 'Windows11' }
+        { text: '安装 Openwrt', link: 'openwrt' },
+        { text: '安装 AdGuardHome', link: 'adguardhome' },
+        { text: '安装 Windows 11', link: 'windows11' }
       ]
     },
     {
       text: 'OpenWrt/iStoreOS',
       // collapsed: true,
-      base: '/ESXi/openwrt/',
+      base: '/esxi/openwrt/',
       items: [
-        { text: 'iStore 插件包', link: 'iStore-plugin-package' },
-        { text: 'PPPOE拨号', link: 'PPPOE-dial-up' },
-        { text: '关闭IPV6', link: 'Turn-off-IPv6' },
+        { text: 'iStore 插件包', link: 'istore-plugin-package' },
+        { text: 'PPPOE拨号', link: 'pppoe-dial-up' },
+        { text: '关闭IPV6', link: 'turn-off-ipv6' },
         { text: '实时抓包', link: 'openwrt-real-time-packet-capture' },
         { text: '动态DNS设置', link: 'ddns-settings' },
         { text: '刷新 DNS 缓存', link: 'clear-dns-cache' },
-        { text: 'iStoreOS 文件共享步骤', link: 'iStoreOS-file-sharing-steps' },
-        { text: 'H3C NX30Pro 刷 openwrt', link: 'H3C-NX30Pro' },
+        { text: 'iStoreOS 文件共享步骤', link: 'istoreos-file-sharing-steps' },
+        { text: 'H3C NX30Pro 刷 openwrt', link: 'h3c-nx30pro' },
         {
           text: 'openwrt 安装 clouddrive2',
           link: 'openwrt-install-clouddrive2'
         },
-        { text: '旁路由设置', link: 'Bypass' }
+        { text: '旁路由设置', link: 'bypass' }
       ]
     }
   ]
@@ -233,25 +233,25 @@ export function Sidebar_streaming(): SidebarItem[] {
       base: '/streaming/',
       items: [
         {
-          text: `Netflix 观看指南`,
-          link: 'Netflix-guide',
+          text: 'Netflix 观看指南',
+          link: 'netflix-guide',
           items: [
-            { text: '秘密分类的技巧', link: 'Netflix-secret-classification' },
+            { text: '秘密分类的技巧', link: 'netflix-secret-classification' },
             {
               text: '全球各国影视剧数量',
-              link: 'Netflix-Number-of-movies-and-TV-series'
+              link: 'netflix-number-of-movies-and-tv-series'
             },
             {
               text: '常用浏览器插件汇总',
-              link: 'Netflix-Browser-plug-in-summary'
+              link: 'netflix-browser-plug-in-summary'
             }
           ]
         },
-        { text: 'Disney+ 观看指南', link: 'Disney-introduce' },
-        { text: 'Spotify Premium 指南', link: 'Spotify' },
-        { text: 'YouTube Premium 会员权益及订阅指南', link: 'YouTube' },
-        { text: 'Hulu 国内观看指南', link: 'Hulu' },
-        { text: 'HBO Max 国内观看指南', link: 'HBO-Max' }
+        { text: 'Disney+ 观看指南', link: 'disney-introduce' },
+        { text: 'Spotify Premium 指南', link: 'spotify' },
+        { text: 'YouTube Premium 会员权益及订阅指南', link: 'youtube' },
+        { text: 'Hulu 国内观看指南', link: 'hulu' },
+        { text: 'HBO Max 国内观看指南', link: 'hbo-max' }
       ]
     }
   ]
@@ -262,7 +262,7 @@ export function Sidebar_serve(): SidebarItem[] {
   return [
     {
       text: '账号合租平台',
-      link: 'sharing/Account-sharing-guide',
+      link: 'sharing/account-sharing-guide',
       // collapsed: true,
       base: '/serve/',
       items: [
@@ -272,11 +272,10 @@ export function Sidebar_serve(): SidebarItem[] {
     },
     {
       text: '优质机场',
-      // collapsed: true,
       base: '/serve/',
       items: [
         { text: '青云梯', link: 'airport/qingyunti' },
-        { text: 'FlyingBird - 飞鸟机场', link: 'airport/FlyingBird' },
+        { text: 'FlyingBird - 飞鸟机场', link: 'airport/flyingbird' },
         { text: '飞兔云', link: 'airport/feitucloud' }
       ]
     },
@@ -284,7 +283,7 @@ export function Sidebar_serve(): SidebarItem[] {
       text: '接码平台',
       // collapsed: true,
       base: '/serve/',
-      items: [{ text: 'SMS-Activate', link: 'code/SMS-Activate' }]
+      items: [{ text: 'SMS-Activate', link: 'code/sms-activate' }]
     }
   ]
 }

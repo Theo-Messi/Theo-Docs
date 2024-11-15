@@ -63,12 +63,12 @@ export const Footer_Data: FooterData = {
       target: '_self',
       icon: 'fas fa-book-open',
       links: [
-        { name: 'Netflix', href: '/streaming/Netflix-guide' },
-        { name: 'Disney+', href: '/streaming/Disney-introduce' },
-        { name: 'Spotify Premium', href: '/streaming/Spotify' },
-        { name: 'YouTube Premium', href: '/streaming/YouTube' },
-        { name: 'Hulu', href: '/streaming/Hulu' },
-        { name: 'HBO Max', href: '/streaming/HBO-Max' }
+        { name: 'Netflix', href: '/streaming/netflix-guide' },
+        { name: 'Disney+', href: '/streaming/disney-introduce' },
+        { name: 'Spotify Premium', href: '/streaming/spotify' },
+        { name: 'YouTube Premium', href: '/streaming/youtube' },
+        { name: 'Hulu', href: '/streaming/hulu' },
+        { name: 'HBO Max', href: '/streaming/hbo-max' }
       ]
     },
     {
