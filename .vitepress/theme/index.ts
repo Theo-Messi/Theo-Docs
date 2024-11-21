@@ -14,7 +14,8 @@ import {
   HomeFooter,
   Twikoo,
   ShareButton,
-  googleAnalytics
+  googleAnalytics,
+  umamiAnalytics
 } from '@theojs/lumen'
 import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
 import '@theojs/lumen/theme'
@@ -34,6 +35,10 @@ export default {
   },
   enhanceApp: ({ app }) => {
     googleAnalytics({ id: 'G-6QN23XNMXB' })
+    umamiAnalytics({
+      id: '775bf77b-37be-4ede-bffa-79f6cda45f94',
+      src: 'https://umami.theojs.cn/script.js'
+    })
     app.component('Home', HomeUnderline)
     app.component('Box', DocBox)
     app.component('Links', DocLinks)
