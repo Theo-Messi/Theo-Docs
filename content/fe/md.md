@@ -200,18 +200,43 @@ _斜体文本_
 **输入**
 
 ```vue
-<VideoLink
-  href="//player.bilibili.com/player.html?isOutside=true&aid=1205847484&bvid=BV1if421Q7mL&cid=1584505931&p=1"
-  name="【MV】HELP!! - 可波·卡娜埃露"
-/>
+YouTube 视频
+<Vid id="dQw4w9WgXcQ" />
+<!-- 或者 -->
+<Vid to="youtube" id="dQw4w9WgXcQ" />
+
+Bilibili 视频
+<Vid to="bilibili" id="1205847484" />
+
+腾讯视频
+<Vid to="tencent" id="y0035f2sc4s" />
+
+优酷视频
+<Vid to="youku" id="XNTE5NTc3NjIwMA==" />
+
+vimeo 视频
+<Vid to="vimeo" id="76979871" />
 ```
 
 **输出**
 
-<VideoLink
-  href="//player.bilibili.com/player.html?isOutside=true&aid=1205847484&bvid=BV1if421Q7mL&cid=1584505931&p=1"
-  name="【MV】HELP!! - 可波·卡娜埃露"
-/>
+YouTube 视频
+<Vid id="dQw4w9WgXcQ" />
+
+<!-- 或者 -->
+<Vid to="youtube" id="dQw4w9WgXcQ" />
+
+Bilibili 视频
+<Vid to="bilibili" id="1205847484" />
+
+腾讯视频
+<Vid to="tencent" id="y0035f2sc4s" />
+
+优酷视频
+<Vid to="youku" id="XNTE5NTc3NjIwMA==" />
+
+vimeo 视频
+<Vid to="vimeo" id="76979871" />
 
 ## 音乐
 
