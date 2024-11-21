@@ -3,17 +3,17 @@ import type { DefaultTheme } from 'vitepress'
 
 export const socialLinks: DefaultTheme.SocialLink[] = [
   {
-    icon: { svg: '<i class="fab fa-github fa-lg" alt="Github"></i>' },
+    icon: 'github',
     link: 'https://github.com/Theo-Messi/Theo-Docs',
     ariaLabel: 'Github'
   },
   {
-    icon: { svg: '<i class="fas fa-envelope fa-lg" alt="Gmail"></i>' },
+    icon: 'gmail',
     link: 'mailto:fanxiaobin422@gmail.com',
     ariaLabel: 'Gmail'
   },
   {
-    icon: { svg: '<i class="fab fa-telegram fa-lg" alt="Telegram"></i>' },
+    icon: 'telegram',
     link: 'https://t.me/Theo_Messi',
     ariaLabel: 'Telegram'
   },
