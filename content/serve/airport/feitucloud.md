@@ -6,7 +6,7 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局 飞兔云
 ---
 
-:::tip 飞兔云 双11狂欢，优惠来袭！
+<!-- :::tip 飞兔云 双11狂欢，优惠来袭！
 
 - 全场**88**折！全场**88**折！全场**88**折！
 - 仅此一次全场打折哦！
@@ -17,7 +17,7 @@ head:
 :::
 <Links :items="[
 { name: '飞兔云 双11狂欢，优惠来袭！', image:'https://飞兔.com/img/logo.png', desc:'活动时间：即日起至2024年11月11日23点00分',link: 'https://xn--9kq10e0y7h.site/index.html?register=2cFF8mg4' },
-]" />
+]" /> -->
 
 ## 飞兔云简介
 
