@@ -19,7 +19,7 @@ export const socialLinks: DefaultTheme.SocialLink[] = [
   },
   {
     icon: {
-      svg: '<i class="fas fa-heart fa-lg" style="color: #EA4AAA;" alt="Github Sponsors"></i>'
+      svg: '<iconify-icon icon="twemoji:red-heart" style="margin-right: 0.125em; margin-bottom: 0.125rem; font-size:1.2em" alt="Github Sponsors"></iconify-icon>'
     },
     link: 'https://github.com/sponsors/Theo-Messi',
     ariaLabel: 'Github Sponsors'
