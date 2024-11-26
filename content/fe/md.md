@@ -6,31 +6,10 @@ head:
       content: Markdown 入门使用
 ---
 
-<BoxCube
-  :items="[
-    //iconify图标
-    { name: 'iconify', link: '', icon: 'line-md:iconify1', color: '#1769AA' },
-    //图片
-    {
-      name: '支付宝',
-      link: 'https://i.theojs.cn/docs/202405201752089.jpg',
-      image: 'https://i.theojs.cn/logo/alipay.svg'
-    },
-    //深浅模式的图片
-    {
-      name: 'GitHub',
-      link: '',
-      image: { light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }
-    },
-  ]"
-/>
-
----
-
 <Box
   :items="[
     //iconify图标
-    { name: 'iconify', link: '', icon: 'line-md:iconify1', color: '#1769AA' },
+    { name: 'iconify', link: '#', icon: 'line-md:iconify1', color: '#1769AA' },
     //图片
     {
       name: '支付宝',
@@ -40,11 +19,11 @@ head:
     //深浅模式的图片
     {
       name: 'GitHub',
-      link: '',
+      link: '#',
       image: { light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }
     },
     //标签
-    { name: 'Vue', link: '', icon: 'vscode-icons:file-type-vue', tag: 'vuejs' }
+    { name: 'Vue', link: '#', icon: 'vscode-icons:file-type-vue', tag: 'vuejs' }
   ]"
 />
 
@@ -53,7 +32,7 @@ head:
 <Links
   :items="[
     //iconify图标
-    { name: 'iconify', link: '', icon: 'line-md:iconify1', color: '#1769AA' },
+    { name: 'iconify', link: '#', icon: 'line-md:iconify1', color: '#1769AA' },
     //图片
     {
       name: '支付宝',
@@ -63,11 +42,34 @@ head:
     //深浅模式的图片
     {
       name: 'GitHub',
-      link: '',
+      link: '#',
       image: { light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }
     },
     // 不使用图标 + 描述
     { name: 'Google', link: 'https://www.google.com', desc: '全球最大的搜索引擎' }
+  ]"
+/>
+
+---
+
+<BoxCube
+  :items="[
+    //iconify图标
+    { name: 'iconify', link: '#', icon: 'line-md:iconify1', color: '#1769AA' },
+    //图片
+    {
+      name: '支付宝',
+      link: 'https://i.theojs.cn/docs/202405201752089.jpg',
+      image: 'https://i.theojs.cn/logo/alipay.svg'
+    },
+    //深浅模式的图片
+    {
+      name: 'GitHub',
+      link: '#',
+      image: { light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }
+    },
+    //描述
+    { name: 'Vue.js', link: '#', icon: 'devicon:vuejs', desc: 'v3.4.31' }
   ]"
 />
 
@@ -208,6 +210,9 @@ Bilibili 视频
 
 vimeo 视频
 <Vid to="vimeo" id="76979871" />
+
+西瓜视频
+<Vid to="xigua" id="7421926380926927399" />
 ```
 
 **输出**
@@ -229,6 +234,9 @@ Bilibili 视频
 
 vimeo 视频
 <Vid to="vimeo" id="76979871" />
+
+西瓜视频
+<Vid to="xigua" id="7421926380926927399" />
 
 ## 音乐
 
