@@ -34,8 +34,8 @@ export const Aside_Data: AsideItem[] = [
     name: '赞助我的项目'
   },
   {
-    link: 'https://github.com/Theo-Messi/tools',
-    icon: 'https://tools.theojs.cn/Logo.png',
+    link: 'https://github.com/Theo-Messi/lumen',
+    icon: 'https://lumen.theojs.cn/Logo.png',
     name: '@theojs/Lumen',
     hide1: '集成 Vue 功能组件',
     hide2: 'VitePress 主题美化'

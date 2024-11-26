@@ -32,12 +32,12 @@ head:
 季付**9**折/半年**85**折/年付**8**折 配合优惠码折上折，最高可达**64**折
 :::
 
-| 月付套餐类型 |   流量    | 价格 |                                 流媒体解锁                                  |                                                      套餐购买                                                       |
-| :----------: | :-------: | :--: | :-------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
-|   **青铜**   | **100G**  | ¥15  | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **白银**   | **200G**  | ¥30  | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **黄金**   | **500G**  | ¥75  | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **钻石**   | **1000G** | ¥150 | <i class="fa-solid fa-square-check" style="color: var(--vp-c-green-1)"></i> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+| 月付套餐类型 |   流量    | 价格 |                                                   流媒体解锁                                                   |                                                      套餐购买                                                       |
+| :----------: | :-------: | :--: | :------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+|   **青铜**   | **100G**  | ¥15  | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **白银**   | **200G**  | ¥30  | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **黄金**   | **500G**  | ¥75  | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **钻石**   | **1000G** | ¥150 | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
 
 ## FlyingBird 特点
 

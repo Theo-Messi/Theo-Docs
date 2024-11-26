@@ -29,7 +29,7 @@ export const Footer_Data: FooterData = {
         },
         {
           name: 'Lumen',
-          href: 'https://github.com/Theo-Messi/tools'
+          href: 'https://github.com/Theo-Messi/lumen'
         }
       ]
     },
