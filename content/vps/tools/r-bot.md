@@ -25,8 +25,8 @@ head:
 - **端口检查：** 确保 VPS 的 `9527` 端口开放！可以通过 [这里](https://tool.chinaz.com/port) 检测
 
 <Box :items="[
-{ name: 'R探长的小助理',link: 'https://t.me/radiance_helper_bot',icon: 'fab fa-telegram',color: '#26A5E4',tag: 'BOT' },
-{ name: 'R探长',link: 'https://t.me/agentONE_R',icon: 'fab fa-telegram',color: '#26A5E4',tag: '频道' }
+{ name: 'R探长的小助理',link: 'https://t.me/radiance_helper_bot',icon: 'logos:telegram',tag: 'BOT' },
+{ name: 'R探长',link: 'https://t.me/agentONE_R',icon: 'logos:telegram',tag: '频道' }
 ]"/>
 
 ## 获取 VPS INFO

@@ -45,12 +45,12 @@ features:
     link: /streaming/netflix-guide
     linkText: 查看更多
 
-  - title: '<span style="display: inline-flex; align-items: center;"><i class="fab fa-youtube fa-xl" style="margin-right:0.5rem; color:#FF0000" alt="youtube"></i>合租平台</span>'
+  - title: '<span style="display: inline-flex; align-items: center;"><iconify-icon icon="logos:youtube-icon" style="margin-right:0.5rem; alt="IPLC"></iconify-icon>合租平台</span>'
     details: 稳定好用的 Netflix 合租平台推荐
     link: /serve/sharing/account-sharing-guide
     linkText: 查看更多
 
-  - title: '<span style="display: inline-flex; align-items: center;"><i class="fas fa-plane fa-xl" style="margin-right:0.5rem; color:#538dd7" alt="IPLC"></i>优质线路</span>'
+  - title: '<span style="display: inline-flex; align-items: center;"><iconify-icon icon="twemoji:airplane" style="margin-right:0.5rem; alt="IPLC"></iconify-icon>优质线路</span>'
     details: 全专线IPLC，不限速，不限设备数量，超稳晚高峰，流媒体全解锁！全节点解锁chatgpt！
     link: /serve/airport/qingyunti
     linkText: 查看更多

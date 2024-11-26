@@ -8,8 +8,6 @@ head:
 
 <BoxCube
   :items="[
-    //FontAwesome图标
-    { name: 'fontawesome', link: '', icon: 'fas fa-font-awesome', color: '#538DD7' },
     //iconify图标
     { name: 'iconify', link: '', icon: 'line-md:iconify1', color: '#1769AA' },
     //图片
@@ -24,8 +22,6 @@ head:
       link: '',
       image: { light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }
     },
-    //描述
-    { name: 'Vue.js', link: '', icon: 'fab fa-vuejs', desc: 'v3.4.31' }
   ]"
 />
 
@@ -33,8 +29,6 @@ head:
 
 <Box
   :items="[
-    //FontAwesome图标
-    { name: 'fontawesome', link: '', icon: 'fas fa-font-awesome', color: '#538DD7' },
     //iconify图标
     { name: 'iconify', link: '', icon: 'line-md:iconify1', color: '#1769AA' },
     //图片
@@ -58,8 +52,6 @@ head:
 
 <Links
   :items="[
-    //FontAwesome图标
-    { name: 'fontawesome', link: '', icon: 'fas fa-font-awesome', color: '#538DD7' },
     //iconify图标
     { name: 'iconify', link: '', icon: 'line-md:iconify1', color: '#1769AA' },
     //图片
