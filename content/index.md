@@ -14,7 +14,7 @@ hero:
     alt: home
 
   # prelink:
-  #   title: '🎉 活动不停歇，青云梯 双11 特惠折上折! </br>年付8折/2年付7折/3年付6折 配合优惠码折上折，最高可达48折<div><i class="fa-regular fa-hourglass-half" style="color: var(--vp-c-brand-3)"></i> 活动时间: 即日起至 <span style="color: var(--vp-c-brand-3);font-weight: bold;">2024年11月17日23点59分</span></div>'
+  #   title: '🎉 活动不停歇，青云梯 双11 特惠折上折! </br>年付8折/2年付7折/3年付6折 配合优惠码折上折，最高可达48折<div><iconify-icon icon="eos-icons:hourglass" style="font-size: 1rem;"></iconify-icon> 活动时间: 即日起至 <span style="color: var(--vp-c-brand-3); font-weight: bold;">2024年11月17日23点59分</span></div>'
   #   link: https://ivt01.qytaff.cc/register?aff=jjgD79Jd
   #   target: _blank
 
@@ -45,12 +45,12 @@ features:
     link: /streaming/netflix-guide
     linkText: 查看更多
 
-  - title: '<span style="display: inline-flex; align-items: center;"><i class="fab fa-youtube fa-xl" style="margin-right:0.5rem; color:#FF0000" alt="youtube"></i>合租平台</span>'
+  - title: '<span style="display: inline-flex; align-items: center;"><iconify-icon icon="logos:youtube-icon" style="margin-right:0.5rem; alt="IPLC"></iconify-icon>合租平台</span>'
     details: 稳定好用的 Netflix 合租平台推荐
     link: /serve/sharing/account-sharing-guide
     linkText: 查看更多
 
-  - title: '<span style="display: inline-flex; align-items: center;"><i class="fas fa-plane fa-xl" style="margin-right:0.5rem; color:#538dd7" alt="IPLC"></i>优质线路</span>'
+  - title: '<span style="display: inline-flex; align-items: center;"><iconify-icon icon="twemoji:airplane" style="margin-right:0.5rem; alt="IPLC"></iconify-icon>优质线路</span>'
     details: 全专线IPLC，不限速，不限设备数量，超稳晚高峰，流媒体全解锁！全节点解锁chatgpt！
     link: /serve/airport/qingyunti
     linkText: 查看更多
