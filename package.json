@@ -7,15 +7,15 @@
     "format:cheak": "prettier --check ."
   },
   "devDependencies": {
-    "prettier": "3.3.3",
+    "prettier": "3.4.1",
     "simple-git-hooks": "^2.11.1",
     "vitepress": "^1.5.0"
   },
   "dependencies": {
-    "@mdit/plugin-figure": "^0.13.1",
-    "@mdit/plugin-footnote": "^0.13.1",
-    "@mdit/plugin-img-size": "^0.13.1",
-    "@mdit/plugin-tasklist": "^0.13.1",
+    "@mdit/plugin-figure": "^0.14.0",
+    "@mdit/plugin-footnote": "^0.14.0",
+    "@mdit/plugin-img-size": "^0.14.0",
+    "@mdit/plugin-tasklist": "^0.14.0",
     "@theojs/lumen": "^5.0.0",
     "lint-staged": "^15.2.10",
     "viewerjs": "^1.11.7",
