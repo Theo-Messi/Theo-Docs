@@ -24,8 +24,6 @@ Merlin Clash 是一款运行在 [KoolCenter](https://www.koolcenter.com/) 软件
 
 打开 `软件中心` - `离线安装` ，上传下载好的 `merlinclash` 的 `tar包` 并安装。
 
-![梅林固件安装Clash](https://cdn.apphb.cn/bbs_applehub_cn/2023/02/01145d3043141842-1024x420.png '安装 Merlin Clash')
-
 :::tip
 要是提示含非法关键词，安装失败的，可查看 [提示检测非法关键词](/asus/illegal-keywords)
 :::
