@@ -2,7 +2,7 @@ import type { AsideItem } from '@theojs/lumen'
 
 export const Aside_Data: AsideItem[] = [
   // {
-  //   link: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd',
+  //   link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd',
   //   icon: 'https://www.qingyunti.cc/images/qytlogo-144-49.png',
   //   activity: '青云梯 双11 特惠折上折',
   //   info1:
@@ -20,7 +20,7 @@ export const Aside_Data: AsideItem[] = [
   //     '年付 64折 优惠码 <span style="color: var(--vp-c-brand-3)"> 241180 </span>'
   // },
   // {
-  //   link: 'https://xn--9kq10e0y7h.site/index.html?register=2cFF8mg4',
+  //   link: 'https://feitu.im/index.html?register=2cFF8mg4',
   //   icon: 'https://飞兔.com/img/logo.png',
   //   activity: '飞兔云 双11 狂欢来袭！',
   //   info1:
