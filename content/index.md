@@ -15,7 +15,7 @@ hero:
 
   # prelink:
   #   title: '🎉 活动不停歇，青云梯 双11 特惠折上折! </br>年付8折/2年付7折/3年付6折 配合优惠码折上折，最高可达48折<div><iconify-icon icon="eos-icons:hourglass" style="font-size: 1rem;"></iconify-icon> 活动时间: 即日起至 <span style="color: var(--vp-c-brand-3); font-weight: bold;">2024年11月17日23点59分</span></div>'
-  #   link: https://ivt01.qytaff.cc/register?aff=jjgD79Jd
+  #   link: https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd
   #   target: _blank
 
   actions:

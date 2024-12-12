@@ -41,7 +41,7 @@ export const Footer_Data: FooterData = {
           name: '青云梯',
           icon: 'el:fire',
           style: 'rgba(255, 87, 51, 1)',
-          href: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd'
+          href: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd'
         },
         { name: '银河录像局', href: 'https://nf.video/kaIuE' },
         { name: '奈飞小铺', href: 'https://ihezu.love/UKTer6' },
@@ -51,7 +51,7 @@ export const Footer_Data: FooterData = {
         },
         {
           name: '飞兔云',
-          href: 'https://xn--9kq10e0y7h.site/index.html?register=2cFF8mg4'
+          href: 'https://feitu.im/index.html?register=2cFF8mg4'
         },
         {
           name: 'SMS-Activate',

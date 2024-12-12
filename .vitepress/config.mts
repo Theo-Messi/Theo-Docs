@@ -49,14 +49,7 @@ export default defineConfig({
           android: 'logos:android-icon'
         }
       })
-    ],
-    css: {
-      preprocessorOptions: {
-        scss: {
-          api: 'modern'
-        }
-      }
-    }
+    ]
   },
 
   themeConfig: {

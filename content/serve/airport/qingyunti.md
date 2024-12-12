@@ -19,7 +19,7 @@ head:
 
 :::
 <Links :items="[
-{ name: '青云梯 双11 特惠折上折!', image:'https://www.qingyunti.cc/images/qytlogo-144-49.png', desc:'活动时间：即日起至2024年11月17号晚上23点59分', link: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd' },
+{ name: '青云梯 双11 特惠折上折!', image:'https://www.qingyunti.cc/images/qytlogo-144-49.png', desc:'活动时间：即日起至2024年11月17号晚上23点59分', link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd' },
 ]" /> -->
 
 ## 青云梯 简介
@@ -36,12 +36,12 @@ head:
 年付**8**折/2年付**7**折/3年付**6**折 配合优惠码折上折，最高可达**48**折
 :::
 
-|   套餐类型   |   流量   | 月付 | 季付  | 年付  |                                                    原生解锁                                                    |                                                     套餐购买                                                     |
-| :----------: | :------: | :--: | :---: | :---: | :------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
-| **年付小包** | **60G**  | N/A  |  N/A  | ¥ 96  | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://ivt01.qytaff.cc/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **VIP1**   | **150G** | ¥ 25 | ¥ 67  | ¥ 240 | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://ivt01.qytaff.cc/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **VIP2**   | **300G** | ¥ 45 | ¥ 121 | ¥ 432 | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://ivt01.qytaff.cc/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **VIP3**   | **600G** | ¥ 85 | ¥ 229 | ¥ 816 | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://ivt01.qytaff.cc/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   套餐类型   |   流量   | 月付 | 季付  | 年付  |                                                    原生解锁                                                    |                                                        套餐购买                                                        |
+| :----------: | :------: | :--: | :---: | :---: | :------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
+| **年付小包** | **60G**  | N/A  |  N/A  | ¥ 96  | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **VIP1**   | **150G** | ¥ 25 | ¥ 67  | ¥ 240 | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **VIP2**   | **300G** | ¥ 45 | ¥ 121 | ¥ 432 | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   **VIP3**   | **600G** | ¥ 85 | ¥ 229 | ¥ 816 | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
 
 ## 青云梯 特点
 
