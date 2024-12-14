@@ -6,33 +6,57 @@ head:
       content: 记录为项目添加 Prettier 格式化代码的过程
 ---
 
-## 安装 Prettier
+## 安装 Prettier 及插件
 
 ::: code-group
 
 ```shell [pnpm]
-pnpm add --save-dev --save-exact prettier
+pnpm add --save-dev --save-exact prettier @trivago/prettier-plugin-sort-imports prettier-plugin-jsdoc prettier-plugin-packagejson prettier-plugin-sort-json
 ```
 
 ```shell [npm]
-npm install --save-dev --save-exact prettier
+npm install --save-dev --save-exact prettier @trivago/prettier-plugin-sort-imports prettier-plugin-jsdoc prettier-plugin-packagejson prettier-plugin-sort-json
 ```
 
 ```shell [yarn]
-yarn add --dev --exact prettier
+yarn add --dev --exact prettier @trivago/prettier-plugin-sort-imports prettier-plugin-jsdoc prettier-plugin-packagejson prettier-plugin-sort-json
 ```
 
 :::
 
-## 创建 Prettier 配置文件
+## Prettier 配置
 
-新建 `.prettierrc.yml` 配置如下
+新建 `.prettierrc.yaml` 配置如下
 
 ```yaml
+plugins:
+  [
+    '@trivago/prettier-plugin-sort-imports',
+    'prettier-plugin-jsdoc',
+    'prettier-plugin-packagejson',
+    'prettier-plugin-sort-json'
+  ]
+printWidth: 80
 semi: false
 singleQuote: true
-printWidth: 80
-trailingComma: none
+trailingComma: 'none'
+importOrderSeparation: true
+importOrderSortSpecifiers: true
+importOrder:
+  [
+    '^vitepress$',
+    '^vitepress([-/].*)?$',
+    '^vue$',
+    '^vite$',
+    '^@[a-zA-Z0-9-]+/(.*)$',
+    '^@/(.*)$',
+    '^[./]',
+    '^(.*)$'
+  ]
+overrides:
+  - files: ['*.json']
+    options:
+      jsonRecursiveSort: true
 ```
 
 ## 创建 Prettier 忽略文件
@@ -79,12 +103,12 @@ pnpm install simple-git-hooks lint-staged
 #### **配置 `package.json`**
 
 ```json
+{
+  "lint-staged": {
+    "*": ["prettier --write --ignore-unknown"]
+  },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
-  },
-  "lint-staged": {
-    "*": [
-      "prettier --write --ignore-unknown"
-    ]
   }
+}
 ```

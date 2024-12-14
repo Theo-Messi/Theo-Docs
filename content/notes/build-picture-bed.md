@@ -69,13 +69,13 @@ ImgBot 默认是无损压缩的，可以按需进行配置为有损压缩，对�
 
 ```json
 {
-  "schedule": "daily", // daily|weekly|monthly
+  "aggressiveCompression": "true", // true|false
   "ignoredFiles": [
     "*.jpg", // ignore by extension
     "image1.png", // ignore by filename
     "public/special_images/*" // ignore by folderpath
   ],
-  "aggressiveCompression": "true" // true|false
+  "schedule": "daily" // daily|weekly|monthly
 }
 ```
 

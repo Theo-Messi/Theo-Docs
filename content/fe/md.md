@@ -674,9 +674,7 @@ const line4 = 'This is line 4'
 ::: code-group
 
 ```js [config.js]
-/**
- * @type {import('vitepress').UserConfig}
- */
+/** @type {import('vitepress').UserConfig} */
 const config = {
   // ...
 }
@@ -701,9 +699,7 @@ export default config
 ::: code-group
 
 ```js [config.js]
-/**
- * @type {import('vitepress').UserConfig}
- */
+/** @type {import('vitepress').UserConfig} */
 const config = {
   // ...
 }

@@ -16,12 +16,15 @@ pnpm i medium-zoom
 
 ```ts
 // .vitepress/theme/index.js
-import DefaultTheme from 'vitepress/theme'
-import { onMounted, watch, nextTick } from 'vue'
 import { useRoute } from 'vitepress'
-import mediumZoom from 'medium-zoom'
+
+import DefaultTheme from 'vitepress/theme'
+
+import { nextTick, onMounted, watch } from 'vue'
 
 import './index.css'
+
+import mediumZoom from 'medium-zoom'
 
 export default {
   ...DefaultTheme,
@@ -90,11 +93,13 @@ yarn add vitepress-plugin-image-viewer
 ### 配置index.js/index.ts
 
 ```ts
-import DefaultTheme from 'vitepress/theme'
-import 'viewerjs/dist/viewer.min.css'
+import { useRoute } from 'vitepress'
+
 import imageViewer from 'vitepress-plugin-image-viewer'
 import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue'
-import { useRoute } from 'vitepress'
+import DefaultTheme from 'vitepress/theme'
+
+import 'viewerjs/dist/viewer.min.css'
 
 export default {
   ...DefaultTheme,
