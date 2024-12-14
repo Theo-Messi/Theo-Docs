@@ -1,24 +1,28 @@
-import DefaultTheme from 'vitepress/theme'
 import { useRoute } from 'vitepress'
-import { h } from 'vue'
 
 import imageViewer from 'vitepress-plugin-image-viewer'
+import DefaultTheme from 'vitepress/theme'
+
+import { h } from 'vue'
+
 import {
-  DocBox,
-  DocLinks,
-  DocBoxCube,
-  DocVideoLink,
   Announcement,
   DocAsideLogo,
-  HomeUnderline,
+  DocBox,
+  DocBoxCube,
+  DocLinks,
+  DocVideoLink,
   HomeFooter,
-  Twikoo,
+  HomeUnderline,
   ShareButton,
+  Twikoo,
   googleAnalytics,
   umamiAnalytics
 } from '@theojs/lumen'
-import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
 import '@theojs/lumen/theme'
+
+import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
+
 import 'viewerjs/dist/viewer.min.css'
 import 'virtual:group-icons.css'
 

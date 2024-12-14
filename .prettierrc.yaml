@@ -1,0 +1,28 @@
+plugins:
+  [
+    '@trivago/prettier-plugin-sort-imports',
+    'prettier-plugin-jsdoc',
+    'prettier-plugin-packagejson',
+    'prettier-plugin-sort-json'
+  ]
+printWidth: 80
+semi: false
+singleQuote: true
+trailingComma: 'none'
+importOrderSeparation: true
+importOrderSortSpecifiers: true
+importOrder:
+  [
+    '^vitepress$',
+    '^vitepress([-/].*)?$',
+    '^vue$',
+    '^vite$',
+    '^@[a-zA-Z0-9-]+/(.*)$',
+    '^@/(.*)$',
+    '^[./]',
+    '^(.*)$'
+  ]
+overrides:
+  - files: ['*.json']
+    options:
+      jsonRecursiveSort: true
