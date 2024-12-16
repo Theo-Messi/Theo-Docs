@@ -8,8 +8,25 @@ head:
 
 <Box
   :items="[
-    //iconify图标
-    { name: 'iconify', link: '#', icon: 'line-md:iconify1', color: '#1769AA' },
+    // iconify图标
+    {
+      name: 'iconify',
+      link: '#',
+      icon: 'line-md:iconify2-static',
+      color: '#1769AA'
+    },
+    //深浅模式的iconify图标
+    {
+      name: 'Vercel',
+      link: '#',
+      icon: { light: 'ion:logo-vercel', dark: 'ion:logo-vercel' },
+      color: { light: '#000000', dark: '#FFFFFF' }
+    },
+    {
+      name: 'Vite',
+      link: '#',
+      icon: { light: 'skill-icons:vite-light', dark: 'skill-icons:vite-dark' }
+    },
     //图片
     {
       name: '支付宝',
@@ -20,33 +37,13 @@ head:
     {
       name: 'GitHub',
       link: '#',
-      image: { light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }
+      image: {
+        light: 'https://i.theojs.cn/logo/github.svg',
+        dark: 'https://i.theojs.cn/logo/github-dark.svg'
+      }
     },
     //标签
-    { name: 'Vue', link: '#', icon: 'vscode-icons:file-type-vue', tag: 'vuejs' }
-  ]"
-/>
-
----
-
-<Links
-  :items="[
-    //iconify图标
-    { name: 'iconify', link: '#', icon: 'line-md:iconify1', color: '#1769AA' },
-    //图片
-    {
-      name: '支付宝',
-      link: 'https://i.theojs.cn/docs/202405201752089.jpg',
-      image: 'https://i.theojs.cn/logo/alipay.svg'
-    },
-    //深浅模式的图片
-    {
-      name: 'GitHub',
-      link: '#',
-      image: { light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }
-    },
-    // 不使用图标 + 描述
-    { name: 'Google', link: 'https://www.google.com', desc: '全球最大的搜索引擎' }
+    { name: 'Vue', link: '#', icon: 'vscode-icons:file-type-vue', tag: 'new' }
   ]"
 />
 
@@ -55,7 +52,24 @@ head:
 <BoxCube
   :items="[
     //iconify图标
-    { name: 'iconify', link: '#', icon: 'line-md:iconify1', color: '#1769AA' },
+    {
+      name: 'iconify',
+      link: '#',
+      icon: 'line-md:iconify2-static',
+      color: '#1769AA'
+    },
+    //深浅模式的iconify图标
+    {
+      name: 'Vercel',
+      link: '#',
+      icon: { light: 'ion:logo-vercel', dark: 'ion:logo-vercel' },
+      color: { light: '#000000', dark: '#FFFFFF' }
+    },
+    {
+      name: 'Vite',
+      link: '#',
+      icon: { light: 'skill-icons:vite-dark', dark: 'skill-icons:vite-light' }
+    },
     //图片
     {
       name: '支付宝',
@@ -66,12 +80,117 @@ head:
     {
       name: 'GitHub',
       link: '#',
-      image: { light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }
+      image: {
+        light: 'https://i.theojs.cn/logo/github.svg',
+        dark: 'https://i.theojs.cn/logo/github-dark.svg'
+      }
     },
     //描述
-    { name: 'Vue.js', link: '#', icon: 'devicon:vuejs', desc: 'v3.4.31' }
+    { name: 'Vue.js', link: '#', icon: 'devicon:vuejs', desc: 'v3.4.31' },
+    //标签
+    {
+      name: 'Typescript',
+      link: '#',
+      icon: 'logos:typescript-icon',
+      tag: 'new'
+    }
   ]"
 />
+
+---
+
+<Links
+  :items="[
+    // iconify图标
+    {
+      name: 'iconify',
+      link: '#',
+      icon: 'line-md:iconify2-static',
+      color: '#1769AA'
+    },
+    //深浅模式的iconify图标
+    {
+      name: 'Vercel',
+      link: '#',
+      icon: { light: 'ion:logo-vercel', dark: 'ion:logo-vercel' },
+      color: { light: '#000000', dark: '#FFFFFF' }
+    },
+    {
+      name: 'Vite',
+      link: '#',
+      icon: { light: 'skill-icons:vite-dark', dark: 'skill-icons:vite-light' }
+    },
+    //图片
+    {
+      name: '支付宝',
+      link: 'https://i.theojs.cn/docs/202405201752089.jpg',
+      image: 'https://i.theojs.cn/logo/alipay.svg'
+    },
+    //深浅模式的图片
+    {
+      name: 'GitHub',
+      link: '#',
+      image: {
+        light: 'https://i.theojs.cn/logo/github.svg',
+        dark: 'https://i.theojs.cn/logo/github-dark.svg'
+      }
+    },
+    // 使用图标 + 描述
+    {
+      name: 'VitePress',
+      link: 'https://www.google.com',
+      image: 'https://vitepress.dev/vitepress-logo-large.webp',
+      desc: 'VitePress 是一个由 Vue 团队开发的静态网站生成器，基于 Vite 和 Vue 3，专注于文档、博客和轻量网站的构建。它支持 Markdown 和 Vue 组件，提供简洁的默认主题和灵活的自定义能力，适合快速创建高性能的技术文档和个人博客。'
+    },
+    // 不使用图标 + 描述
+    {
+      name: 'Google',
+      link: 'https://www.google.com',
+      desc: '全球最大的搜索引擎'
+    }
+  ]"
+/>
+
+---
+
+<!-- iconify图标 -->
+<Pill name="Iconify" link="#" icon="line-md:iconify2-static" color="#1769AA" />
+<Pill name="Vue" link="#" icon="vscode-icons:file-type-vue" />
+
+<!-- 深浅模式的iconify图标 -->
+
+<Pill
+  name="Vercel"
+  link="#"
+  :icon="{ light: 'ion:logo-vercel', dark: 'ion:logo-vercel' }"
+  :color="{ light: '#000000', dark: '#FFFFFF' }"
+/>
+<Pill
+  name="Vite"
+  link="#"
+  :icon="{ light: 'skill-icons:vite-dark', dark: 'skill-icons:vite-light' }"
+/>
+
+<!-- 图片 -->
+
+<Pill
+  name="支付宝"
+  link="https://i.theojs.cn/docs/202405201752089.jpg"
+  image="https://i.theojs.cn/logo/alipay.svg"
+/>
+
+<!-- 深浅模式的图片 -->
+
+<Pill
+  name="GitHub"
+  link="#"
+  :image="{
+    light: 'https://i.theojs.cn/logo/github.svg',
+    dark: 'https://i.theojs.cn/logo/github-dark.svg'
+  }"
+/>
+
+---
 
 ## 待办列表
 
@@ -200,7 +319,7 @@ YouTube 视频
 <Vid to="youtube" id="dQw4w9WgXcQ" />
 
 Bilibili 视频
-<Vid to="bilibili" id="1205847484" />
+<Vid to="bilibili" id="BV1if421Q7mL" />
 
 腾讯视频
 <Vid to="tencent" id="y0035f2sc4s" />
@@ -224,7 +343,7 @@ YouTube 视频
 <Vid to="youtube" id="dQw4w9WgXcQ" />
 
 Bilibili 视频
-<Vid to="bilibili" id="1205847484" />
+<Vid to="bilibili" id="BV1if421Q7mL" />
 
 腾讯视频
 <Vid to="tencent" id="y0035f2sc4s" />
@@ -321,6 +440,10 @@ vimeo 视频
 **输入**
 
 ```md
+> [这是一个链接](https://doc.theojs.cn/)
+>
+> 这是一段文字
+
 ::: info
 [这是一个链接](https://doc.theojs.cn/)
 :::
@@ -343,6 +466,11 @@ vimeo 视频
 ```
 
 **输出**
+
+> [这是一个链接](https://doc.theojs.cn/)
+>
+> 这是一段文字
+
 ::: info
 [这是一个链接](https://doc.theojs.cn/)
 :::
@@ -806,39 +934,21 @@ const members = [
 **输入**
 
 ```md
-<!-- 浅色模式 -->
+![浅色模式{.light-only}](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-w7jYJD-PBaozaH5WdubTPnBdi-XcQ4N96w&usqp=CAU)
 
-![浅色模式](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-w7jYJD-PBaozaH5WdubTPnBdi-XcQ4N96w&usqp=CAU){.light-only}
-
-<!-- 深色模式 -->
-
-![深色模式](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCHxR2C_q8ugOMQzSmMovD3ni-z1QqTopSjg&usqp=CAU){.dark-only}
-```
-
-```md
-<!-- 深色模式 -->
+![深色模式{.dark-only}](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCHxR2C_q8ugOMQzSmMovD3ni-z1QqTopSjg&usqp=CAU)
 
 ![深色模式](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCHxR2C_q8ugOMQzSmMovD3ni-z1QqTopSjg&usqp=CAU#dark)
-
-<!-- 浅色模式 -->
 
 ![浅色模式](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-w7jYJD-PBaozaH5WdubTPnBdi-XcQ4N96w&usqp=CAU#light)
 ```
 
 **输出**
 
-<!-- 浅色模式 -->
+![浅色模式{.light-only}](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-w7jYJD-PBaozaH5WdubTPnBdi-XcQ4N96w&usqp=CAU)
 
-![浅色模式](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-w7jYJD-PBaozaH5WdubTPnBdi-XcQ4N96w&usqp=CAU){.light-only}
-
-<!-- 深色模式 -->
-
-![深色模式](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCHxR2C_q8ugOMQzSmMovD3ni-z1QqTopSjg&usqp=CAU){.dark-only}
-
-<!-- 深色模式 -->
+![深色模式{.dark-only}](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCHxR2C_q8ugOMQzSmMovD3ni-z1QqTopSjg&usqp=CAU)
 
 ![深色模式](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCHxR2C_q8ugOMQzSmMovD3ni-z1QqTopSjg&usqp=CAU#dark)
-
-<!-- 浅色模式 -->
 
 ![浅色模式](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-w7jYJD-PBaozaH5WdubTPnBdi-XcQ4N96w&usqp=CAU#light)

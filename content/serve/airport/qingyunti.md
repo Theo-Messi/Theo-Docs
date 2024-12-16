@@ -6,8 +6,7 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局 飞兔云 青云梯
 ---
 
-<!--
-:::tip 青云梯 双11 特惠折上折!
+<!-- :::tip 青云梯 四周年双旦特惠!
 
 - 月付/季度/半年付享受85折优惠：**`qyt85`**
 - 年付以及以上享受8折优惠：**`qyt80`**
@@ -15,11 +14,11 @@ head:
 
 **特别注意: 青云梯年付小包不支持**
 
-**活动时间：即日起至2024年11月17号晚上23点59分**
+**活动时间：即日起至2025年1月7号晚上23点59分**
 
 :::
 <Links :items="[
-{ name: '青云梯 双11 特惠折上折!', image:'https://www.qingyunti.cc/images/qytlogo-144-49.png', desc:'活动时间：即日起至2024年11月17号晚上23点59分', link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd' },
+{ name: '青云梯 四周年双旦特惠!', image:'https://www.qingyunti.cc/images/qytlogo-144-49.png', desc:'活动时间：即日起至2025年1月7号晚上23点59分', link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd' },
 ]" /> -->
 
 ## 青云梯 简介
