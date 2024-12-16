@@ -27,7 +27,7 @@ export const markdown: MarkdownOptions = {
     md.use(footnote)
     md.use(tasklist)
     md.use(imgSize)
-    md.use(groupIconMdPlugin)
+    md.use(groupIconMdPlugin, { titleBar: { includeSnippet: true } })
     md.use(figure, {
       figcaption: 'alt',
       copyAttrs: '^class$',

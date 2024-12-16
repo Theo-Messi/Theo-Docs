@@ -10,9 +10,9 @@ head:
 
 ## 简介
 
-Merlin Clash 是一款运行在 [KoolCenter](https://www.koolcenter.com/) 软件中心(Arm 版)上的 Clash GUI 插件。
+Merlin Clash 是一款运行在 <Pill name="KoolCenter" link="https://www.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg"  /> 软件中心(Arm 版)上的 Clash GUI 插件。
 
-获取插件需加入 Telegram 群组- [merlinclashcat](https://t.me/merlinclashcat)
+获取插件需加入 **Telegram 群组** <Pill name="merlinclashcat" link="https://t.me/merlinclashcat" icon="logos:telegram"  />
 
 ## 插件下载
 

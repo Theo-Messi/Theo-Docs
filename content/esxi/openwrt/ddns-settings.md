@@ -10,7 +10,7 @@ head:
 
 ### 创建子域名
 
-在 [腾讯云控制台](https://console.dnspod.cn/dns/list)，选择要使用的域名
+在 <Pill name="腾讯云控制台" link="https://console.dnspod.cn/dns/list" image="https://avatars.githubusercontent.com/u/12334581?s=280&v=4"  />，选择要使用的域名
 
 在其下创建一个新的 `A` 记录，如 `dev`，记录值随便填写一个，后面会被 ddns 插件覆盖为正确的值。
 
@@ -18,7 +18,7 @@ head:
 
 ### 创建 API token
 
-由于 ddns 插件是通过 API token 来执行 dns 记录更新，因此需要提前创建 [API token](https://console.dnspod.cn/account/token/token)。
+由于 ddns 插件是通过 API token 来执行 dns 记录更新，因此需要提前创建 <Pill name="API token" link="https://console.dnspod.cn/account/token/token" icon="oui:token-key"  />。
 
 > 注意： 使用的 DNSPod Token，不是 腾讯云 API 密钥
 

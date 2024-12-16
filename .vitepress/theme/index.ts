@@ -11,6 +11,7 @@ import {
   DocBox,
   DocBoxCube,
   DocLinks,
+  DocPill,
   DocVideoLink,
   HomeFooter,
   HomeUnderline,
@@ -44,6 +45,7 @@ export default {
       src: 'https://umami.theojs.cn/script.js'
     })
     app.component('Home', HomeUnderline)
+    app.component('Pill', DocPill)
     app.component('Box', DocBox)
     app.component('Links', DocLinks)
     app.component('BoxCube', DocBoxCube)
