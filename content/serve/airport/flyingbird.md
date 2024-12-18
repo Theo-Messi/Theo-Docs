@@ -6,17 +6,17 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
-<!-- :::tip FlyingBird 双11 活动开启！
+:::tip FlyingBird 双旦活动开启！
 
-- 月/季/半年付 85折 , 优惠码：**`241185`** 可重复使用3次
-- 年付8折（站内折上折，高达64折 ）优惠码：**`241180`** 可重复使用3次
+- 月/季/半年付 85折 , 优惠码：**`122485`** 可重复使用3次
+- 年付8折（站内折上折，高达64折 ）优惠码：**`122480`** 可重复使用3次
 
-**活动时间：即日起至2024年11月20日23点59分**
+**活动时间：即日起至2025年1月8日23点59分**
 
 :::
 <Links :items="[
-{ name: 'FlyingBird 双十一活动开启！', image:'https://i.theojs.cn/docs/202409111237242.png', desc:'活动时间：即日起至2024年11月20日23点59分',link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3' },
-]" /> -->
+{ name: 'FlyingBird 双十一活动开启！', image:'https://i.theojs.cn/docs/202409111237242.png', desc:'活动时间：即日起至2025年1月8日23点59分',link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3' },
+]" />
 
 ## FlyingBird 简介
 

@@ -1,24 +1,24 @@
 import type { AsideItem } from '@theojs/lumen'
 
 export const Aside_Data: AsideItem[] = [
-  // {
-  //   link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd',
-  //   icon: 'https://www.qingyunti.cc/images/qytlogo-144-49.png',
-  //   activity: '青云梯 双11 特惠折上折',
-  //   info1:
-  //     '月付 85折 优惠码 <span style="color: var(--vp-c-brand-3)"> qyt85 </span>',
-  //   info2:
-  //     '年付以上 8折 优惠码 <span style="color: var(--vp-c-brand-3)"> qyt80 </span>'
-  // },
-  // {
-  //   link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3',
-  //   icon: 'https://i.theojs.cn/docs/202409111237242.png',
-  //   activity: 'FlyingBird 双11 活动开启！',
-  //   info1:
-  //     '月付 85折 优惠码 <span style="color: var(--vp-c-brand-3)"> 241185 </span>',
-  //   info2:
-  //     '年付 64折 优惠码 <span style="color: var(--vp-c-brand-3)"> 241180 </span>'
-  // },
+  {
+    link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd',
+    icon: 'https://www.qingyunti.cc/images/qytlogo-144-49.png',
+    activity: '青云梯 四周年双旦特惠',
+    info1:
+      '月付 85折 优惠码 <span style="color: var(--vp-c-brand-3)"> qyt85 </span>',
+    info2:
+      '年付以上 8折 优惠码 <span style="color: var(--vp-c-brand-3)"> qyt80 </span>'
+  },
+  {
+    link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3',
+    icon: 'https://i.theojs.cn/docs/202409111237242.png',
+    activity: 'FlyingBird 双旦活动开启',
+    info1:
+      '月付 85折 优惠码 <span style="color: var(--vp-c-brand-3)"> 122485 </span>',
+    info2:
+      '年付 64折 优惠码 <span style="color: var(--vp-c-brand-3)"> 122480 </span>'
+  },
   // {
   //   link: 'https://feitu.im/index.html?register=2cFF8mg4',
   //   icon: 'https://飞兔.com/img/logo.png',
