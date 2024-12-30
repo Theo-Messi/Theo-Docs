@@ -9,7 +9,7 @@ head:
 <Box
   :items="[
     //iconify图标
-    { name: 'iconify', link: '#', icon: 'line-md:iconify1', color: '#1769AA' },
+    { name: 'iconify', link: '#', icon: 'line-md:iconify2-static', color: '#1769AA' },
     //图片
     {
       name: '支付宝',
@@ -29,10 +29,20 @@ head:
 
 ---
 
+<Pill name="Iconify" link="#" icon="line-md:iconify2-static" color="#1769AA" /> 
+<Pill name="支付宝" link="https://i.theojs.cn/docs/202405201752089.jpg" image="https://i.theojs.cn/logo/alipay.svg" /> 
+<Pill
+  name="GitHub"
+  link="#"
+  :image="{ light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }"
+/>
+
+---
+
 <Links
   :items="[
     //iconify图标
-    { name: 'iconify', link: '#', icon: 'line-md:iconify1', color: '#1769AA' },
+    { name: 'iconify', link: '#', icon: 'line-md:iconify2-static', color: '#1769AA' },
     //图片
     {
       name: '支付宝',
@@ -55,7 +65,7 @@ head:
 <BoxCube
   :items="[
     //iconify图标
-    { name: 'iconify', link: '#', icon: 'line-md:iconify1', color: '#1769AA' },
+    { name: 'iconify', link: '#', icon: 'line-md:iconify2-static', color: '#1769AA' },
     //图片
     {
       name: '支付宝',
@@ -200,7 +210,7 @@ YouTube 视频
 <Vid to="youtube" id="dQw4w9WgXcQ" />
 
 Bilibili 视频
-<Vid to="bilibili" id="1205847484" />
+<Vid to="bilibili" id="BV1if421Q7mL" />
 
 腾讯视频
 <Vid to="tencent" id="y0035f2sc4s" />
@@ -224,7 +234,7 @@ YouTube 视频
 <Vid to="youtube" id="dQw4w9WgXcQ" />
 
 Bilibili 视频
-<Vid to="bilibili" id="1205847484" />
+<Vid to="bilibili" id="BV1if421Q7mL" />
 
 腾讯视频
 <Vid to="tencent" id="y0035f2sc4s" />

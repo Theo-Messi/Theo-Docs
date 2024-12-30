@@ -21,11 +21,9 @@ head:
 - 同时提供 full 版本和 lite 版本，hnd_lite 版本安装后占用不到 8MB 的空间，适合小 jffs 机型
 - armv8 机型支持 tcp fast open 和 ss/ssr/trojan 多核心运行
 
-## 支持机型/固件
+## 支持机型/固件 <Pill name="最新固件下载地址" link="https://fw.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg"  />
 
 > 以下为 fancyss 3.0 支持的机型/固件，点击机型可以前往相应固件下载地址
->
-> 最新固件下载地址：[https://fw.koolcenter.com/](https://fw.koolcenter.com/)
 
 | 机型/固件下载                                                                       | 类型 | 平台            | CPU       | 架构  | linux 内核 | fancyss 版本   |
 | ----------------------------------------------------------------------------------- | ---- | --------------- | --------- | ----- | ---------- | -------------- |
@@ -74,8 +72,7 @@ head:
 | GT-AX11000 PRO                                                                      | 官改 | 5.04axhnd.675x  | BCM4912   | armv8 | 4.19.183   | fancyss_hnd_v8 |
 | GT-AX11000 PRO                                                                      | 梅改 | 5.04axhnd.675x  | BCM4912   | armv8 | 4.19.183   | fancyss_hnd_v8 |
 | [RT-AX89X](https://www.koolcenter.com/posts/126)                                    | 官改 | qca-ipq806x     | ipq8074/a | armv7 | 4.4.60     | fancyss_qca    |
-| TX-TX6000                                                                           | 官改 | mtk-MT798X      | MT7986A   | armv8 | 5.4.182    | fancyss_mtk    |
-| TUF-AX4200Q                                                                         | 官改 | mtk-MT798X      | MT7986A   | armv8 | 5.4.182    | fancyss_mtk    |
+| TX-AX6000                                                                           | 官改 | mtk-MT798X      | MT7986A   | armv8 | 5.4.182    | fancyss_mtk    |
 
 ## 版本选择
 
@@ -111,7 +108,7 @@ RT-AX86U、GT-AX6000 等 armv8 机型（见上表），从 3.0.6 开始建议安
 插件下载有两种方式：
 
 1. 在 `packages` 目录下，点击 tar.gz 后缀文件，下载当前最新版本的离线安装包
-2. 在[fancyss_history_package](https://github.com/hq450/fancyss_history_package)项目中，包含**历史版本**和**最新版本**的离线安装包
+2. 在 <Pill name="fancyss_history_package" link="https://github.com/hq450/fancyss_history_package" :image="{ light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }" /> 项目中，包含**历史版本**和**最新版本**的离线安装包
 
 插件离线包下载导航：
 
@@ -163,10 +160,9 @@ tx：华硕天选青色皮肤
 
 ## 相关链接
 
-- **fancyss 3.0**更新日志：https://github.com/hq450/fancyss/blob/3.0/Changelog.txt
-
-- 官改/梅改固件下载【网方网站】（最新固件）：[https://www.koolcenter.com](https://www.koolcenter.com/)
-- 官改/梅改固件下载【固件镜像】（次新固件）：[https://fw.koolcenter.com](https://fw.koolcenter.com)
+- <Pill name="fancyss 更新日志" link="https://github.com/hq450/fancyss/blob/3.0/Changelog.txt" icon="catppuccin:changelog"  />
+- <Pill name="官改/梅改固件下载【官方网站】（最新固件）" link="https://www.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg"  />
+- <Pill name="官改/梅改固件下载【固件镜像】（次新固件）" link="https://fw.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg"  />
 
 ---
 

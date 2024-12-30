@@ -22,7 +22,7 @@ head:
 />
 
 - **VPS 系统：** VPS（可以科学上网）推荐系统 Ubuntu、Debian
-- **端口检查：** 确保 VPS 的 `9527` 端口开放！可以通过 [这里](https://tool.chinaz.com/port) 检测
+- **端口检查：** 确保 VPS 的 `9527` 端口开放！可以通过 <Pill name="端口扫描" link="https://tool.chinaz.com/port" image="https://csstools.chinaz.com/favicon.ico"  /> 检测
 
 <Box :items="[
 { name: 'R探长的小助理',link: 'https://t.me/radiance_helper_bot',icon: 'logos:telegram',tag: 'BOT' },

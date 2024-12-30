@@ -77,15 +77,15 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
 为了开始加入 YouTube 家庭组会员，首先需要进行以下准备：
 
 1.  连接香港 🇭🇰 节点 IP：由于地区限制，需要使用香港节点 IP 进行连接。
-2.  打开网址：[Play.Google.com](https://play.google.com/) 确保打开的网址底部显示的地区为香港，以确保地区设置准确。
+2.  打开网址：<Pill name="Play.Google.com" link="https://play.google.com/" icon="logos:google-play-icon"  /> 确保打开的网址底部显示的地区为香港，以确保地区设置准确。
 3.  关闭付款资料锁区：如果你的账号受到地区限制，需要在设置页面自行关闭付款资料锁区功能。
 
 ### 2\. 家庭组会员上车
 
 完成了账号的准备工作后，你可以通过以下方式购买家庭组会员资格：
 
-- **奈飞小铺**：访问我们推荐的 [奈飞小铺](https://ihezu.love/UKTer6) 网站，进行付款购买家庭组会员资格。
-- **银河录像局**：访问 [银河录像局](https://nf.video/kaIuE) 网站，进行付款购买家庭组会员资格。
+- **奈飞小铺**：访问我们推荐的 <Pill name="奈飞小铺" link="https://ihezu.love/UKTer6" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s"  /> 网站，进行付款购买家庭组会员资格。
+- **银河录像局**：访问 <Pill name="银河录像局" link="https://nf.video/kaIuE" image="https://nf.video/favicon.ico" /> 网站，进行付款购买家庭组会员资格。
 
 ### 3\. 确认权益
 

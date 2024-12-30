@@ -6,11 +6,10 @@ head:
       content: PicGo Github 图床 图片上传 图片压缩 图片存储 图片加速 图片管理 图片上传工具 图片压缩工具 图片存储工具 图片加速工具 图片管理工具 图片上传工具 图片压缩工具 图片存储工具 图片加速工具 图片管理工具
 ---
 
-:::tip 准备工作
+## 准备工作
 
-- **[注册 Github 账号](https://github.com/)**
-- **[下载 PicGo ](https://molunerfinn.com/PicGo/)**
-  :::
+<Pill name="注册 Github 账号" link="https://github.com/" :image="{ light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }" /> 
+<Pill name="下载 PicGo" link="https://molunerfinn.com/PicGo/" image="https://molunerfinn.com/PicGo/imgs/256x256--icons.png"  />
 
 ## 创建新仓库
 
@@ -18,7 +17,7 @@ head:
 
 ## 生成 Token
 
-- [生成 Token](https://github.com/settings/tokens)
+- <Pill name="生成 Token" link="https://github.com/settings/tokens" icon="oui:token-key"  />
 - 点击左侧的 `Tokens（classic）`
 - 再点击 `Generate new token（classic）`
 
@@ -79,7 +78,7 @@ ImgBot 默认是无损压缩的，可以按需进行配置为有损压缩，对�
 }
 ```
 
-还有更多配置项，完整说明请见 [官方文档](https://imgbot.net/docs/#configuration)。
+还有更多配置项，完整说明请见 <Pill name="官方文档" link="https://imgbot.net/docs/#configuration" image="https://imgbot.net/images/128x128_circle.png"  />。
 
 ### Github Actions 自动合并 ImgBot 的 pr
 
@@ -132,7 +131,7 @@ jobs:
 
 ## Vercel/Netlify 加速访问(二选一)
 
-**使用 GitHub 账户登陆** [Vercel](https://vercel.com/)
+**使用 GitHub 账户登陆** <Pill name="Vercel" link="https://vercel.com/" icon="logos:vercel-icon"  />
 
 ![PicGo](https://i.theojs.cn/docs/20240102212030.png '添加项目')
 

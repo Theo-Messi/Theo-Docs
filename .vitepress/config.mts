@@ -35,6 +35,13 @@ export default defineConfig({
   // 开启后网址后缀无'html'
   cleanUrls: true,
 
+  // vue配置
+  vue: {
+    template: {
+      compilerOptions: { isCustomElement: (tag) => tag === 'iconify-icon' }
+    }
+  },
+
   // vite插件
   vite: {
     plugins: [

@@ -28,51 +28,13 @@ yarn add --dev --exact prettier @trivago/prettier-plugin-sort-imports prettier-p
 
 新建 `.prettierrc.yaml` 配置如下
 
-```yaml
-plugins:
-  [
-    '@trivago/prettier-plugin-sort-imports',
-    'prettier-plugin-jsdoc',
-    'prettier-plugin-packagejson',
-    'prettier-plugin-sort-json'
-  ]
-printWidth: 80
-semi: false
-singleQuote: true
-trailingComma: 'none'
-importOrderSeparation: true
-importOrderSortSpecifiers: true
-importOrder:
-  [
-    '^vitepress$',
-    '^vitepress([-/].*)?$',
-    '^vue$',
-    '^vite$',
-    '^@[a-zA-Z0-9-]+/(.*)$',
-    '^@/(.*)$',
-    '^[./]',
-    '^(.*)$'
-  ]
-overrides:
-  - files: ['*.json']
-    options:
-      jsonRecursiveSort: true
-```
+<<< @/../.prettierrc.yaml
 
 ## 创建 Prettier 忽略文件
 
 新建 `.prettierignore` 配置如下
 
-```
-\*.vue
-dist
-pnpm-lock.yaml
-cache
-template
-temp
-!CHANGELOG.md
-.temp
-```
+<<< @/../.prettierignore
 
 ## 使用 Prettier 格式化所有文件
 
