@@ -14,7 +14,11 @@ hero:
     alt: home
 
   prelink:
-    title: '🎉 活动不停歇，青云梯四周年双旦特惠 </br>· 月/季/半年付85折 优惠码<span style="color: var(--vp-c-brand-3); font-weight: bold;"> qyt85 </span></br>· 年付以及年付以上8折 优惠码<span style="color: var(--vp-c-brand-3); font-weight: bold;"> qyt80</span></br>· 年付8折/2年付7折/3年付6折 配合优惠码折上折，最高可达<span style="color: var(--vp-c-brand-3); font-weight: bold;">48</span>折<div><iconify-icon icon="eos-icons:hourglass" style="font-size: 1rem;"></iconify-icon> 活动时间: 即日至 <span style="color: var(--vp-c-brand-3); font-weight: bold;">2025年1月7日23点59分</span></div>'
+    title: '🎉 活动不停歇，青云梯四周年双旦特惠'
+    content: '· 月/季/半年付85折 优惠码<span style="color: var(--vp-c-brand-3); font-weight: bold;"> qyt85 </span></br>· 年付以及年付以上8折 优惠码<span style="color: var(--vp-c-brand-3); font-weight: bold;"> qyt80</span></br>· 年付8折/2年付7折/3年付6折 配合优惠码折上折，最高可达<span style="color: var(--vp-c-brand-3); font-weight: bold;"> 48 </span>折'
+    date: '2025年1月7日23时59分'
+    # dateIcon: 'mdi:calendar-star'
+    # dateText: '活动截止日期'
     link: https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd
     target: _blank
 

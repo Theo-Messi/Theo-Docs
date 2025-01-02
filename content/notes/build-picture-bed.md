@@ -8,7 +8,7 @@ head:
 
 ## 准备工作
 
-<Pill name="注册 Github 账号" link="https://github.com/" :image="{ light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }" /> 
+<Pill name="注册 Github 账号" link="https://github.com/" :icon="{ light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', }" />
 <Pill name="下载 PicGo" link="https://molunerfinn.com/PicGo/" image="https://molunerfinn.com/PicGo/imgs/256x256--icons.png"  />
 
 ## 创建新仓库
@@ -131,7 +131,7 @@ jobs:
 
 ## Vercel/Netlify 加速访问(二选一)
 
-**使用 GitHub 账户登陆** <Pill name="Vercel" link="https://vercel.com/" icon="logos:vercel-icon"  />
+**使用 GitHub 账户登陆** <Pill name="Vercel" link="https://vercel.com/" :icon="{ light: 'skill-icons:vercel-dark', dark: 'skill-icons:vercel-light' }" />
 
 ![PicGo](https://i.theojs.cn/docs/20240102212030.png '添加项目')
 

@@ -12,10 +12,7 @@ head:
   :items="[
     {
       name: 'GitHub 项目地址',
-      image: {
-        light: 'https://i.theojs.cn/logo/github.svg',
-        dark: 'https://i.theojs.cn/logo/github-dark.svg'
-      },
+      icon: { light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', },
       link: 'https://github.com/semicons/java_oci_manage'
     }
   ]"
