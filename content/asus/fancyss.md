@@ -108,7 +108,7 @@ RT-AX86U、GT-AX6000 等 armv8 机型（见上表），从 3.0.6 开始建议安
 插件下载有两种方式：
 
 1. 在 `packages` 目录下，点击 tar.gz 后缀文件，下载当前最新版本的离线安装包
-2. 在 <Pill name="fancyss_history_package" link="https://github.com/hq450/fancyss_history_package" :image="{ light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }" /> 项目中，包含**历史版本**和**最新版本**的离线安装包
+2. 在 <Pill name="fancyss_history_package" link="https://github.com/hq450/fancyss_history_package" :icon="{ light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', }" /> 项目中，包含**历史版本**和**最新版本**的离线安装包
 
 插件离线包下载导航：
 

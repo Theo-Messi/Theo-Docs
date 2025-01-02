@@ -19,7 +19,7 @@
     "@mdit/plugin-footnote": "^0.14.0",
     "@mdit/plugin-img-size": "^0.14.0",
     "@mdit/plugin-tasklist": "^0.14.0",
-    "@theojs/lumen": "^5.1.1",
+    "@theojs/lumen": "^5.2.1",
     "@trivago/prettier-plugin-sort-imports": "^5.2.0",
     "lint-staged": "^15.3.0",
     "prettier": "3.4.2",

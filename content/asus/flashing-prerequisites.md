@@ -38,7 +38,7 @@ head:
 
 ## G 版梅林固件
 
-另外一位开发者：**gnuton 大神** <Pill name="G版梅林固件源码" link="https://github.com/gnuton/asuswrt-merlin.ng" :image="{ light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' }" />，在原版梅林代码的基础上，添加了更多机型的支持，最开始注意到他的项目是因为他做了 DSL-AX82U 的梅林固件。
+另外一位开发者：**gnuton 大神** <Pill name="G版梅林固件源码" link="https://github.com/gnuton/asuswrt-merlin.ng" :icon="{ light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', }" />，在原版梅林代码的基础上，添加了更多机型的支持，最开始注意到他的项目是因为他做了 DSL-AX82U 的梅林固件。
 
 后来 gnuton 大神在源代码和硬件上都得到了华硕的进一步支持。所以又相继做了 TUF-AX5400、RT-AX82U、ZenWiFi_XT8 的梅林固件，相对于原版梅林固件，这里我愿意称之为 **G 版梅林固件** 。
 
