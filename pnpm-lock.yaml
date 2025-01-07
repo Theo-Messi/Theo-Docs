@@ -3352,8 +3352,6 @@ snapshots:
       focus-trap: 7.6.2
       mark.js: 8.11.1
       minisearch: 7.1.1
-      shiki: 1.25.1
-      vite: 5.4.11(@types/node@22.10.5)
       shiki: 1.26.1
       vite: 5.4.11(@types/node@22.10.5)
       vue: 3.5.13(typescript@5.7.2)
