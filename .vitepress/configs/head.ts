@@ -209,5 +209,13 @@ export const head: HeadConfig[] = [
         }
       })
     }
+  ],
+  [
+    'meta',
+    {
+      name: 'keywords',
+      content:
+        '流媒体, Netflix, Disney+, HBO Max, Spotify, YouTube, 解锁, 流媒体观影, 奈飞, 青云梯, 奈飞小铺, 银河录像局'
+    }
   ]
 ]
