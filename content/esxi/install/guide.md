@@ -21,14 +21,14 @@ head:
 可直接下载 ISO 镜像即可，如果你需要封装驱动，那就下载 `Offline Bundle离线捆绑包`
 
 <Links :items="[
-{ name: 'ESXi 官网下载', link: 'https://www.broadcom.cn/', image: 'https://i.theojs.cn/logo/ESXi.png' },
+{ name: 'ESXi 官网下载', link: 'https://www.broadcom.cn/', image: 'https://i.theojs.cn/logo/ESXi.webp' },
 ]" />
 
 ### 写盘工具
 
 <Box :items="[
-{ name: 'Ventoy',link: 'https://github.com/ventoy/Ventoy/releases',image: 'https://i.theojs.cn/logo/ventoy.png',  tag: '官网下载' },
-{ name: 'Balenaetcher',link: 'https://etcher.balena.io/', image: 'https://i.theojs.cn/logo/Balenaetcher.png',  tag: '官网下载' }
+{ name: 'Ventoy',link: 'https://github.com/ventoy/Ventoy/releases',image: 'https://i.theojs.cn/logo/ventoy.webp',  tag: '官网下载' },
+{ name: 'Balenaetcher',link: 'https://etcher.balena.io/', image: 'https://i.theojs.cn/logo/Balenaetcher.webp',  tag: '官网下载' }
 ]"/>
 
 ### StarWind V2V Converter 程序
@@ -173,12 +173,12 @@ cdromBoot runweasel autoPartitionOSDataSize=4096
 
 ![install ESXi](https://i.theojs.cn/docs/v2-e3ebe6f441baa56cda13c3f07c2cdb45_1440w.webp '同理，vSwitch1 虚拟交换绑定的上行链路为物理网卡 1 口，按照这个逻辑，将剩余的网口一次绑定到独立的虚拟交换机上')
 
-![install ESXi](https://i.theojs.cn/docs/20230927203137.png '每一个 vSwitch 虚拟交换中的安全选项中，都需要开启混杂模式、MAC 地址变更、伪传输。如果不开启会出现问题，造成网卡间不能通讯，网络故障等。')
+![install ESXi](https://i.theojs.cn/docs/20230927203137.webp '每一个 vSwitch 虚拟交换中的安全选项中，都需要开启混杂模式、MAC 地址变更、伪传输。如果不开启会出现问题，造成网卡间不能通讯，网络故障等。')
 
-![install ESXi](https://i.theojs.cn/docs/20230927203201.png '虚拟交换机维护完毕后，回到端口组，对应添加四个虚拟网络。')
+![install ESXi](https://i.theojs.cn/docs/20230927203201.webp '虚拟交换机维护完毕后，回到端口组，对应添加四个虚拟网络。')
 
-![install ESXi](https://i.theojs.cn/docs/20230927203241.png)
+![install ESXi](https://i.theojs.cn/docs/20230927203241.webp)
 
-![install ESXi](https://i.theojs.cn/docs/20230927203306.png '例如 VM Network 绑定交换机 vSwitch0,VM Network1 绑定交换机 vSwitch1。')
+![install ESXi](https://i.theojs.cn/docs/20230927203306.webp '例如 VM Network 绑定交换机 vSwitch0,VM Network1 绑定交换机 vSwitch1。')
 
-![install ESXi](https://i.theojs.cn/docs/20230927203344.png '最终的效果就是物理网卡 0 口，通过 vSwitch0 虚拟交换机绑定到 VM Network 虚拟网络上，最后虚拟机使用 VM Network 虚拟网络进行通信')
+![install ESXi](https://i.theojs.cn/docs/20230927203344.webp '最终的效果就是物理网卡 0 口，通过 vSwitch0 虚拟交换机绑定到 VM Network 虚拟网络上，最后虚拟机使用 VM Network 虚拟网络进行通信')

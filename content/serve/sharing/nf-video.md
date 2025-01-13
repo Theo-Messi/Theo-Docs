@@ -14,10 +14,10 @@ head:
 
 如需购买**现成 ChatGPT 账号**及账号充值、**ChatGPT Plus**，可在 <Pill name="银河录像局" link="https://nf.video/kaIuE" image="https://nf.video/favicon.ico" /> 进行购买；
 
-|               产品               |  价格  |   优惠码   |                                         合租链接                                          |                              扫码直达                              |
-| :------------------------------: | :----: | :--------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------: |
-|        ChatGPT(普通账号)         | ￥ 50  | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
-| ChatGPT Plus(开通 Plus 独立账号) | ￥ 350 | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
+|               产品               |  价格  |   优惠码   |                                         合租链接                                          |                              扫码直达                               |
+| :------------------------------: | :----: | :--------: | :---------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+|        ChatGPT(普通账号)         | ￥ 50  | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.webp "nf-video" =50x) |
+| ChatGPT Plus(开通 Plus 独立账号) | ￥ 350 | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.webp "nf-video" =50x) |
 
 ::: tip 开通 ChatGPT Plus 后
 
@@ -30,9 +30,9 @@ head:
 
 ## Midjourney
 
-|    产品    |   价格   |   优惠码   |                                         合租链接                                          |                              扫码直达                              |
-| :--------: | :------: | :--------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------: |
-| Midjourney | ￥ 42/月 | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
+|    产品    |   价格   |   优惠码   |                                         合租链接                                          |                              扫码直达                               |
+| :--------: | :------: | :--------: | :---------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+| Midjourney | ￥ 42/月 | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.webp "nf-video" =50x) |
 
 ::: tip **Midjourney 介绍**
 是一个由同名研究实验室开发的人工智能程序，可根据文本生成图像，于 2022 年 7 月 12 日进入公开测试阶段，用户可透过 Discord 的机器人指令进行操作。该研究实验室由 Leap Motion 的创办人大卫·霍尔兹负责领导。
@@ -46,9 +46,9 @@ head:
 
 借助 Photoshop 中的 Adob​​e Firefly 生成式 AI 和其他人工智能驱动的工具，比以往更快地实现您的梦想，然后实现更大的梦想。
 
-|     产品     |     价格     |   优惠码   |                                                                           相关链接                                                                            |                                         合租链接                                          |                              扫码直达                              |
-| :----------: | :----------: | :--------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------: |
-| Photoshop AI | ￥ 60/3 个月 | **`Theo`** | [官方介绍](https://www.adobe.com/products/photoshop/ai.html) / [免费试用](https://www.adobe.com/products/photoshop/ai.html#mini-plans-web-cta-photoshop-card) | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
+|     产品     |     价格     |   优惠码   |                                                                           相关链接                                                                            |                                         合租链接                                          |                              扫码直达                               |
+| :----------: | :----------: | :--------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+| Photoshop AI | ￥ 60/3 个月 | **`Theo`** | [官方介绍](https://www.adobe.com/products/photoshop/ai.html) / [免费试用](https://www.adobe.com/products/photoshop/ai.html#mini-plans-web-cta-photoshop-card) | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.webp "nf-video" =50x) |
 
 ::: tip 更多人工智能驱动的 Photoshop 工具
 
@@ -67,13 +67,13 @@ head:
 
 ## Netflix/Disney+/HBO/Spotify/Youtube Premium（流媒体服务）
 
-|         产品          |   价格    |    折后     |    折合     |   优惠码   |                                         合租链接                                          |                              扫码直达                              |
-| :-------------------: | :-------: | :---------: | :---------: | :--------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------: |
-|     Netflix(年费)     | ￥ 240/年 |  ￥ 228/年  |  ￥ 19/月   | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
-|     Disney+(年费)     | ￥ 144/年 | ￥ 136.8/年 | ￥ 11.4/月  | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
-| Youtube Premium(年费) | ￥ 120/年 |  ￥ 114/年  |  ￥ 9.5/月  | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
-|     HBO GO(年费)      | ￥ 180/年 |  ￥ 171/年  | ￥ 14.25/月 | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
-|     Spotify(年费)     | ￥ 144/年 | ￥ 136.8/年 | ￥ 11.4/月  | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
+|         产品          |   价格    |    折后     |    折合     |   优惠码   |                                         合租链接                                          |                              扫码直达                               |
+| :-------------------: | :-------: | :---------: | :---------: | :--------: | :---------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+|     Netflix(年费)     | ￥ 240/年 |  ￥ 228/年  |  ￥ 19/月   | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.webp "nf-video" =50x) |
+|     Disney+(年费)     | ￥ 144/年 | ￥ 136.8/年 | ￥ 11.4/月  | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.webp "nf-video" =50x) |
+| Youtube Premium(年费) | ￥ 120/年 |  ￥ 114/年  |  ￥ 9.5/月  | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.webp "nf-video" =50x) |
+|     HBO GO(年费)      | ￥ 180/年 |  ￥ 171/年  | ￥ 14.25/月 | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.webp "nf-video" =50x) |
+|     Spotify(年费)     | ￥ 144/年 | ￥ 136.8/年 | ￥ 11.4/月  | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.webp "nf-video" =50x) |
 
 :::tip **选择银河录像局的优势**
 较之用爱发电，在茫茫人海找**合租搭子**，在银河录像局可以省去**花时间去找**的烦恼（由平台自行撮合，用户只管使用服务即可），一定程度上更方便快捷，服务质量更有保障；
@@ -82,9 +82,9 @@ head:
 
 ## 美区 Apple ID
 
-|     产品     | 价格  |   优惠码   |                                         合租链接                                          |                              扫码直达                              |
-| :----------: | :---: | :--------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------: |
-| 美区 AppleID | ￥ 30 | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.png "nf-video" =50x) |
+|     产品     | 价格  |   优惠码   |                                         合租链接                                          |                              扫码直达                               |
+| :----------: | :---: | :--------: | :---------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+| 美区 AppleID | ￥ 30 | **`Theo`** | <a href="https://nf.video/kaIuE" target="_blank"><Badge type="tip" text="立即购买" /></a> | ![nf-video](https://i.theojs.cn/logo/nf-video.webp "nf-video" =50x) |
 
 ### 自行注册
 

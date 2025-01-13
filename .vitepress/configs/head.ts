@@ -6,7 +6,7 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
   [
     'meta',
-    { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' }
+    { name: 'msapplication-TileImage', content: '/ms-icon-144x144.webp' }
   ],
   ['meta', { name: 'manifest', href: '/manifest.json' }],
   [
@@ -16,26 +16,26 @@ export const head: HeadConfig[] = [
   ['link', { rel: 'manifest', href: '/site.webmanifest' }],
   [
     'link',
-    { rel: 'apple-touch-icon', sizes: '57x57', href: '/apple-icon-57x57.png' }
+    { rel: 'apple-touch-icon', sizes: '57x57', href: '/apple-icon-57x57.webp' }
   ],
   [
     'link',
-    { rel: 'apple-touch-icon', sizes: '60x60', href: '/apple-icon-60x60.png' }
+    { rel: 'apple-touch-icon', sizes: '60x60', href: '/apple-icon-60x60.webp' }
   ],
   [
     'link',
-    { rel: 'apple-touch-icon', sizes: '72x72', href: '/apple-icon-72x72.png' }
+    { rel: 'apple-touch-icon', sizes: '72x72', href: '/apple-icon-72x72.webp' }
   ],
   [
     'link',
-    { rel: 'apple-touch-icon', sizes: '76x76', href: '/apple-icon-76x76.png' }
+    { rel: 'apple-touch-icon', sizes: '76x76', href: '/apple-icon-76x76.webp' }
   ],
   [
     'link',
     {
       rel: 'apple-touch-icon',
       sizes: '114x114',
-      href: '/apple-icon-114x114.png'
+      href: '/apple-icon-114x114.webp'
     }
   ],
   [
@@ -43,7 +43,7 @@ export const head: HeadConfig[] = [
     {
       rel: 'apple-touch-icon',
       sizes: '120x120',
-      href: '/apple-icon-120x120.png'
+      href: '/apple-icon-120x120.webp'
     }
   ],
   [
@@ -51,7 +51,7 @@ export const head: HeadConfig[] = [
     {
       rel: 'apple-touch-icon',
       sizes: '144x144',
-      href: '/apple-icon-144x144.png'
+      href: '/apple-icon-144x144.webp'
     }
   ],
   [
@@ -59,7 +59,7 @@ export const head: HeadConfig[] = [
     {
       rel: 'apple-touch-icon',
       sizes: '152x152',
-      href: '/apple-icon-152x152.png'
+      href: '/apple-icon-152x152.webp'
     }
   ],
   [
@@ -67,12 +67,16 @@ export const head: HeadConfig[] = [
     {
       rel: 'apple-touch-icon',
       sizes: '180x180',
-      href: '/apple-icon-180x180.png'
+      href: '/apple-icon-180x180.webp'
     }
   ],
   [
     'link',
-    { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }
+    {
+      rel: 'apple-touch-icon',
+      sizes: '180x180',
+      href: '/apple-touch-icon.webp'
+    }
   ],
   [
     'link',
@@ -80,7 +84,7 @@ export const head: HeadConfig[] = [
       rel: 'icon',
       type: 'image/png',
       sizes: '16x16',
-      href: '/favicon-16x16.png'
+      href: '/favicon-16x16.webp'
     }
   ],
   [
@@ -89,7 +93,7 @@ export const head: HeadConfig[] = [
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      href: '/favicon-32x32.png'
+      href: '/favicon-32x32.webp'
     }
   ],
   [
@@ -98,7 +102,7 @@ export const head: HeadConfig[] = [
       rel: 'icon',
       type: 'image/png',
       sizes: '36x36',
-      href: '/android-icon-36x36.png'
+      href: '/android-icon-36x36.webp'
     }
   ],
   [
@@ -107,7 +111,7 @@ export const head: HeadConfig[] = [
       rel: 'icon',
       type: 'image/png',
       sizes: '48x48',
-      href: '/android-icon-48x48.png'
+      href: '/android-icon-48x48.webp'
     }
   ],
   [
@@ -116,7 +120,7 @@ export const head: HeadConfig[] = [
       rel: 'icon',
       type: 'image/png',
       sizes: '72x72',
-      href: '/android-icon-72x72.png'
+      href: '/android-icon-72x72.webp'
     }
   ],
   [
@@ -125,7 +129,7 @@ export const head: HeadConfig[] = [
       rel: 'icon',
       type: 'image/png',
       sizes: '96x96',
-      href: '/android-icon-96x96.png'
+      href: '/android-icon-96x96.webp'
     }
   ],
   [
@@ -134,7 +138,7 @@ export const head: HeadConfig[] = [
       rel: 'icon',
       type: 'image/png',
       sizes: '144x144',
-      href: '/android-icon-144x144.png'
+      href: '/android-icon-144x144.webp'
     }
   ],
   [
@@ -143,7 +147,7 @@ export const head: HeadConfig[] = [
       rel: 'icon',
       type: 'image/png',
       sizes: '192x192',
-      href: '/android-icon-192x192.png'
+      href: '/android-icon-192x192.webp'
     }
   ],
   ['meta', { name: 'author', content: 'Theo-Messi' }],
@@ -153,7 +157,7 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'og:site_name', content: 'Theo Docs' }],
   ['meta', { name: 'og:title', content: 'Theo Docs' }],
   ['meta', { name: 'og:url', content: 'https://doc.theojs.cn/' }],
-  ['meta', { name: 'og:image', content: 'https://doc.theojs.cn/avatar.png' }],
+  ['meta', { name: 'og:image', content: 'https://doc.theojs.cn/avatar.webp' }],
   ['meta', { name: 'robots', content: 'index, follow' }],
   ['meta', { name: 'evisit-after', content: '1 day' }],
   [
@@ -190,7 +194,7 @@ export const head: HeadConfig[] = [
   ],
   [
     'meta',
-    { name: 'twitter:image', content: 'https://doc.theojs.cn/avatar.png' }
+    { name: 'twitter:image', content: 'https://doc.theojs.cn/avatar.webp' }
   ],
   [
     'script',

@@ -10,19 +10,19 @@ head:
 
 首先，到 `Tabby` 扩展界面安装 `cloud-settings-sync`
 
-![Tabby](https://i.theojs.cn/docs/202404281755529.png '安装插件')
+![Tabby](https://i.theojs.cn/docs/202404281755529.webp '安装插件')
 
 ## 新建 Github token
 
 访问 **Github token** 页面 <Pill name="生成 Token" link="https://github.com/settings/tokens" icon="oui:token-key"  />
 
-![Tabby](https://i.theojs.cn/docs/202404281757509.png '新建 Github token')
+![Tabby](https://i.theojs.cn/docs/202404281757509.webp '新建 Github token')
 
-![Tabby](https://i.theojs.cn/docs/202404281758078.png '勾选 gist 保存')
+![Tabby](https://i.theojs.cn/docs/202404281758078.webp '勾选 gist 保存')
 
 ## 配置 cloud-settings-sync
 
-![Tabby](https://i.theojs.cn/docs/202404281801350.png '配置 cloud-settings-sync')
+![Tabby](https://i.theojs.cn/docs/202404281801350.webp '配置 cloud-settings-sync')
 
 如上图，粘贴 `github token` 后，点击测试，就能自动创建 `gist` 了。
 

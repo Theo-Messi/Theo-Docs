@@ -8,8 +8,8 @@ head:
 
 ## iStore插件包
 
-<Pill name="ARM 平台" link="https://github.com/AUK9527/Are-u-ok/tree/main/apps" image="https://i.theojs.cn/logo/istoreos.png" /> 
-<Pill name="x86_64平台" link="https://github.com/AUK9527/Are-u-ok/tree/main/x86" image="https://i.theojs.cn/logo/istoreos.png" />
+<Pill name="ARM 平台" link="https://github.com/AUK9527/Are-u-ok/tree/main/apps" image="https://i.theojs.cn/logo/istoreos.webp" /> 
+<Pill name="x86_64平台" link="https://github.com/AUK9527/Are-u-ok/tree/main/x86" image="https://i.theojs.cn/logo/istoreos.webp" />
 
 ## 常用代理软件包
 

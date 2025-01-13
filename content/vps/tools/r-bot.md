@@ -32,18 +32,18 @@ head:
 
 2. 发送指令 `/raninfo`，两次确认后获取 VPS 标识。
 
-![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032107312.png '获取 VPS INFO')
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032107312.webp '获取 VPS INFO')
 
 ## 获取甲骨文 API 密钥
 
 1. 登录甲骨文，访问会员中心。
 2. 找到 API 密钥并添加，下载 `.pem` 文件并妥善保存。
 
-![一键脚本部署开ARM机器](https://i.theojs.cn/docs/20230903211053.png '下载甲骨文 API 密钥')
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/20230903211053.webp '下载甲骨文 API 密钥')
 
 3. 点击添加，会弹出 “配置文件预览” 的窗口，我们需要记录里面的：“配置文件预览”！
 
-![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032112188.png '配置文件预览')
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032112188.webp '配置文件预览')
 
 ## VPS 端部署
 
@@ -70,16 +70,16 @@ wget -O gz_client_bot.tar.gz  https://github.com/semicons/java_oci_manage/releas
 
 我们需要编辑 VPS 如下文件：`/root/client_config`，如下图所示：
 
-![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032121395.png '编辑`client_config`文件')
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032121395.webp '编辑`client_config`文件')
 
 确认配置文件无误以后，我们在 VPS 执行：`bash sh_client_bot.sh `
 
-![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032126839.png '执行：`bash sh_client_bot.sh `')
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032126839.webp '执行：`bash sh_client_bot.sh `')
 
 ## R 探长的小助理
 
 消息栏输入 `/oracle` (oracle 云管理)，如下图所示：
-![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032123801.png 'R 探长的小助理')
+![一键脚本部署开ARM机器](https://i.theojs.cn/docs/202309032123801.webp 'R 探长的小助理')
 
 ## VPS-bot 相关命令
 

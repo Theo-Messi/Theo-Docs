@@ -6,7 +6,7 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局
 ---
 
-![Netflix](https://i.theojs.cn/docs/202406111420455.png 'Netflix')
+![Netflix](https://i.theojs.cn/docs/202406111420455.webp 'Netflix')
 
 ## Netflix 是什么
 
