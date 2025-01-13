@@ -10,7 +10,7 @@ head:
 
 1Panel 是一个现代化、开源的 Linux 服务器运维管理面板。
 
-![1Panel](https://i.theojs.cn/docs/overview.png '1Panel - 服务器运维管理面板')
+![1Panel](https://i.theojs.cn/docs/overview.webp '1Panel - 服务器运维管理面板')
 
 ### 产品优势
 
@@ -107,7 +107,7 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 输入获取默认密码命令：1pctl user-info
 输入完，回车即可获取用户信息
 
-![1Panel](https://i.theojs.cn/docs/%25E7%2594%25A8%25E6%2588%25B7%25E4%25BF%25A1%25E6%2581%25AF.png '获取面板用户信息')
+![1Panel](https://i.theojs.cn/docs/%25E7%2594%25A8%25E6%2588%25B7%25E4%25BF%25A1%25E6%2581%25AF.webp '获取面板用户信息')
 
 #### 访问面板
 
@@ -124,7 +124,7 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 
 登录 1Panel Web 控制台，在页面右下角点击 `检查更新` 进行在线升级。
 
-![1Panel](https://i.theojs.cn/docs/%25E6%25A3%2580%25E6%259F%25A5%25E6%259B%25B4%25E6%2596%25B0.png '在线升级')
+![1Panel](https://i.theojs.cn/docs/%25E6%25A3%2580%25E6%259F%25A5%25E6%259B%25B4%25E6%2596%25B0.webp '在线升级')
 
 ## 命令行工具
 

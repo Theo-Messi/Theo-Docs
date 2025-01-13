@@ -10,7 +10,7 @@ hero:
   tagline: 引领您进入五彩斑斓的视听世界，并涵盖了 Netflix 、Disney+ 、Spotify会员 和 YouTube会员 的精彩领域
 
   image:
-    src: index/home.png
+    src: index/home.webp
     alt: home
 
   prelink:

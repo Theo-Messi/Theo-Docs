@@ -10,7 +10,7 @@ head:
 
 一般使用新建分支，都会在当前 master 分支的基础上克隆一份，如下图所示：
 
-![Git](https://i.theojs.cn/docs/202406112003627.png 'Git 重置提交记录')
+![Git](https://i.theojs.cn/docs/202406112003627.webp 'Git 重置提交记录')
 
 ```sh
 # 所以，我们需要新建一个空白的分支：

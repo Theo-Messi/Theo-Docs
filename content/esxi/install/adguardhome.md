@@ -12,11 +12,11 @@ head:
 
 **新建exsi虚拟主机，2CPU 2G内存 10G硬盘**
 
-![新建虚拟机](https://i.theojs.cn/docs/20231230203658.png '新建虚拟机')
+![新建虚拟机](https://i.theojs.cn/docs/20231230203658.webp '新建虚拟机')
 
 **使用ubuntu x64 镜像**
 
-![使用ubuntu x64 镜像](https://i.theojs.cn/docs/20231230203757.png '使用ubuntu x64 镜像')
+![使用ubuntu x64 镜像](https://i.theojs.cn/docs/20231230203757.webp '使用ubuntu x64 镜像')
 
 ### 官方一键安装脚本
 
@@ -48,7 +48,7 @@ sudo /opt/AdGuardHome/AdGuardHome -s start|stop|restart|status|install|uninstall
 
 安装完成之后访问地址为 http://ip:3000/ ,此为ubuntu的静态IP地址+3000端口号
 
-![AdGuardHome](https://i.theojs.cn/docs/20231230204830.png '访问 http://ip:3000/')
+![AdGuardHome](https://i.theojs.cn/docs/20231230204830.webp '访问 http://ip:3000/')
 
 ## 配置 AdGuardHome
 
@@ -59,11 +59,11 @@ sudo /opt/AdGuardHome/AdGuardHome -s start|stop|restart|status|install|uninstall
 
 ### 设置账号密码
 
-![AdGuardHome](https://i.theojs.cn/docs/20231230205626.png '设置账号密码')
+![AdGuardHome](https://i.theojs.cn/docs/20231230205626.webp '设置账号密码')
 
 ### 常规设置 部分
 
-![AdGuardHome](https://i.theojs.cn/docs/20231230205838.png '常规设置 部分')
+![AdGuardHome](https://i.theojs.cn/docs/20231230205838.webp '常规设置 部分')
 
 ### DNS 设置
 
@@ -130,19 +130,19 @@ https://easylist-downloads.adblockplus.org/easyprivacy.txt
 
 **使用自定义的DNS服务器:** `AdGuardHome ip`
 
-![AdGuardHome](https://i.theojs.cn/docs/20231230210932.png 'Lan口设置')
+![AdGuardHome](https://i.theojs.cn/docs/20231230210932.webp 'Lan口设置')
 
 ### 接口 - Lan - 高级设置 - DHCP - 高级设置
 
 **DHCP选项:** `6,+ AdGuardHome ip`
 
-![AdGuardHome](https://i.theojs.cn/docs/20231230211121.png 'Lan口设置')
+![AdGuardHome](https://i.theojs.cn/docs/20231230211121.webp 'Lan口设置')
 
 ### 接口 - Wan - 高级设置
 
 **使用自定义的DNS服务器:** `AdGuardHome ip`
 
-![AdGuardHome](https://i.theojs.cn/docs/20231230211412.png 'Wan口设置')
+![AdGuardHome](https://i.theojs.cn/docs/20231230211412.webp 'Wan口设置')
 
 ## 扩容 AdGuardHome
 
@@ -150,7 +150,7 @@ https://easylist-downloads.adblockplus.org/easyprivacy.txt
 
 修改内存为 25 GB 保存并开启虚拟机
 
-![AdGuardHome](https://i.theojs.cn/docs/20231231142111.png '扩容 AdGuardHome')
+![AdGuardHome](https://i.theojs.cn/docs/20231231142111.webp '扩容 AdGuardHome')
 
 ### SSH连接到 AdGuardHome
 
@@ -158,7 +158,7 @@ https://easylist-downloads.adblockplus.org/easyprivacy.txt
 df -h
 ```
 
-![AdGuardHome](https://i.theojs.cn/docs/20231231142451.png 'SSH连接到 AdGuardHome')
+![AdGuardHome](https://i.theojs.cn/docs/20231231142451.webp 'SSH连接到 AdGuardHome')
 
 ### 挂载扩容硬盘
 

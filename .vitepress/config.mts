@@ -63,7 +63,7 @@ export default defineConfig({
 
   themeConfig: {
     // logo
-    logo: { src: '/avatar.png', width: 24, height: 24 },
+    logo: { src: '/avatar.webp', width: 24, height: 24 },
 
     // 社交链接
     socialLinks,
