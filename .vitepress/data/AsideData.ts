@@ -43,7 +43,7 @@ export const Aside_Data: AsideItem[] = [
     activity: '飞兔云'
   },
   {
-    link: 'https://github.com/sponsors/Theo-Messi',
+    link: 'https://i.theojs.cn/docs/202405201759098.webp',
     icon: 'twemoji:red-heart',
     name: '赞助我的项目'
   },
