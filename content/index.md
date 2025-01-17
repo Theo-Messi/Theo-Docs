@@ -14,13 +14,16 @@ hero:
     alt: home
 
   prelink:
-    content: '<span style="display: inline-flex; align-items: center; color: var(--vp-c-brand-3); font-weight: bold; "><img src="https://www.qingyunti.cc/images/qytlogo-144-49.png" style="height:0.65rem; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
-    # title: '🎉 活动不停歇，青云梯四周年双旦特惠'
-    # content: '· 月/季/半年付85折 优惠码<span style="color: var(--vp-c-brand-3); font-weight: bold;"> qyt85 </span></br>· 年付以及年付以上8折 优惠码<span style="color: var(--vp-c-brand-3); font-weight: bold;"> qyt80</span></br>· 年付8折/2年付7折/3年付6折 配合优惠码折上折，最高可达<span style="color: var(--vp-c-brand-3); font-weight: bold;"> 48 </span>折'
-    # date: '2025年1月7日23时59分'
+    # content: '<span class="activity-text" style="display: inline-flex; align-items: center;"><img src="https://www.qingyunti.cc/images/qytlogo-144-49.png" style="height:0.65rem; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
+    title: '🎉 FlyingBird 新春活动开启咯！'
+    content: '
+    · 月/季/半年付<span class="activity-text"> 85折 </span>优惠码<span class="activity-text"> cny2585 </span></br>
+    · 年付<span class="activity-text"> 8折 </span>优惠码<span class="activity-text"> cny2580 </span></br>
+    · 站内折上折，高达 <span class="activity-text" > 64折 </span> ，可重复使用<span class="activity-text"> 5 </span>次'
+    date: '2025年2月16日23时59分'
     # dateIcon: 'mdi:calendar-star'
-    # dateText: '活动截止日期'
-    link: https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd
+    dateText: '活动截止日期'
+    link: https://fbinv02.fbaff.cc/auth/register?code=RZP3
 
   actions:
     - theme: brand
