@@ -21,8 +21,8 @@ importers:
         specifier: ^0.16.0
         version: 0.16.0(markdown-it@14.1.0)
       '@theojs/lumen':
-        specifier: ^5.3.5
-        version: 5.3.5(jiti@2.4.2)(yaml@2.6.1)
+        specifier: https://pkg.pr.new/@theojs/lumen@5a0b899
+        version: https://pkg.pr.new/@theojs/lumen@5a0b899(@types/node@22.10.5)(jiti@2.4.2)(typescript@5.7.3)(yaml@2.6.1)
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^5.2.1
         version: 5.2.1(@vue/compiler-sfc@3.5.13)(prettier@3.4.2)
@@ -688,8 +688,9 @@ packages:
   '@shikijs/vscode-textmate@10.0.1':
     resolution: {integrity: sha512-fTIQwLF+Qhuws31iw7Ncl1R3HUDtGwIipiJ9iU+UsDUwMhegFcQKQHd51nZjb7CArq0MvON8rbgCGQYWHUKAdg==}
 
-  '@theojs/lumen@5.3.5':
-    resolution: {integrity: sha512-dpAKQ+Fx7myss1ngA3sklPZCzcQkOBEGMgu/BdNyxGWoNR9Ei7pBWwRCIXgozrRljFL7huh9HDSZ0yaAC0MFSQ==}
+  '@theojs/lumen@https://pkg.pr.new/@theojs/lumen@5a0b899':
+    resolution: {tarball: https://pkg.pr.new/@theojs/lumen@5a0b899}
+    version: 5.3.5
 
   '@trivago/prettier-plugin-sort-imports@5.2.1':
     resolution: {integrity: sha512-NDZndt0fmVThIx/8cExuJHLZagUVzfGCoVrwH9x6aZvwfBdkrDFTYujecek6X2WpG4uUFsVaPg5+aNQPSyjcmw==}
@@ -872,8 +873,8 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
-  bumpp@9.10.0:
-    resolution: {integrity: sha512-gNY3tYEGKyqW8+qtpeLQ2UfQW7G81d/vhCWNGrMlvy0Toq1LZPRs8wk9woAw8o9Tzv7pvjaF/Gno+UN3qiqNxA==}
+  bumpp@9.10.1:
+    resolution: {integrity: sha512-KG7oQmv6cz7QQwOvM3x/yPcF8+VBEtuLEEecmohNyb4+bLbtSVpJp8brjzcZYQN7UOyR4i0qIIYThnsBgP8uCA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2230,18 +2231,17 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.1': {}
 
-  '@theojs/lumen@5.3.5(jiti@2.4.2)(yaml@2.6.1)':
+  '@theojs/lumen@https://pkg.pr.new/@theojs/lumen@5a0b899(@types/node@22.10.5)(jiti@2.4.2)(typescript@5.7.3)(yaml@2.6.1)':
     dependencies:
       '@iconify/vue': 4.3.0(vue@3.5.13(typescript@5.7.3))
-      '@types/node': 22.10.5
-      bumpp: 9.10.0
+      bumpp: 9.10.1
       dayjs: 1.11.13
       iconify-icon: 2.3.0
       twikoo: 1.6.41
-      typescript: 5.7.3
       vite: 6.0.7(@types/node@22.10.5)(jiti@2.4.2)(yaml@2.6.1)
       vue: 3.5.13(typescript@5.7.3)
     transitivePeerDependencies:
+      - '@types/node'
       - jiti
       - less
       - lightningcss
@@ -2252,6 +2252,7 @@ snapshots:
       - sugarss
       - terser
       - tsx
+      - typescript
       - yaml
 
   '@trivago/prettier-plugin-sort-imports@5.2.1(@vue/compiler-sfc@3.5.13)(prettier@3.4.2)':
@@ -2296,6 +2297,7 @@ snapshots:
   '@types/node@22.10.5':
     dependencies:
       undici-types: 6.20.0
+    optional: true
 
   '@types/unist@3.0.3': {}
 
@@ -2446,7 +2448,7 @@ snapshots:
     dependencies:
       fill-range: 7.1.1
 
-  bumpp@9.10.0:
+  bumpp@9.10.1:
     dependencies:
       c12: 2.0.1
       cac: 6.7.14
@@ -3266,13 +3268,15 @@ snapshots:
 
   twikoo@1.6.41: {}
 
-  typescript@5.7.3: {}
+  typescript@5.7.3:
+    optional: true
 
   uc.micro@2.1.0: {}
 
   ufo@1.5.4: {}
 
-  undici-types@6.20.0: {}
+  undici-types@6.20.0:
+    optional: true
 
   unist-util-is@6.0.0:
     dependencies:
