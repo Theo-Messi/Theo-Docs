@@ -18,10 +18,10 @@ head:
 
 :::
 <Links :items="[
-{ name: '青云梯 四周年双旦特惠!', image:'https://www.qingyunti.cc/images/qytlogo-144-49.png', desc:'活动时间：即日起至2025年1月7号晚上23点59分', link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd' },
+{ name: '青云梯 四周年双旦特惠!', image:'https://i.theojs.cn/logo/qyt.webp', desc:'活动时间：即日起至2025年1月7号晚上23点59分', link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd' },
 ]" /> -->
 
-## 青云梯 简介
+## 青云梯 简介 <Pill name="青云梯官网" link="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" image="https://i.theojs.cn/logo/qyt.webp" />
 
 青云梯采用IPLC纯专线内网传输线路，拥有最高2.5Gbps速率，确保您在网络使用过程中享受到稳定、高速的连接。覆盖的线路涵盖 **香港、台湾、日本、新加坡、美国、韩国、越南、菲律宾、泰国、印度、德国、法国、英国、阿根廷等地** ，所有专线高峰时段不卡顿，让您畅享流畅的网络环境。
 
@@ -35,12 +35,12 @@ head:
 年付**8**折/2年付**7**折/3年付**6**折 配合优惠码折上折，最高可达**48**折
 :::
 
-|   套餐类型   |   流量   | 月付 | 季付  | 年付  |                                                    原生解锁                                                    |                                                        套餐购买                                                        |
-| :----------: | :------: | :--: | :---: | :---: | :------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
-| **年付小包** | **60G**  | N/A  |  N/A  | ¥ 96  | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **VIP1**   | **150G** | ¥ 25 | ¥ 67  | ¥ 240 | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **VIP2**   | **300G** | ¥ 45 | ¥ 121 | ¥ 432 | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **VIP3**   | **600G** | ¥ 85 | ¥ 229 | ¥ 816 | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+|   套餐类型   |   流量   | 月付 | 季付 | 年付 |                                              原生解锁                                               |                                     套餐购买                                     |
+| :----------: | :------: | :--: | :--: | :--: | :-------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
+| **年付小包** | **60G**  | N/A  | N/A  | ¥96  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd) |
+|   **VIP1**   | **150G** | ¥25  | ¥67  | ¥240 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd) |
+|   **VIP2**   | **300G** | ¥45  | ¥121 | ¥432 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd) |
+|   **VIP3**   | **600G** | ¥85  | ¥229 | ¥816 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd) |
 
 ## 青云梯 特点
 
