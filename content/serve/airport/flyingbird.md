@@ -18,7 +18,7 @@ head:
 { name: 'FlyingBird 新春活动开启！', image:'https://i.theojs.cn/docs/202409111237242.webp', desc:'活动时间：即日起至2025年2月16日23点59分',link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3' },
 ]" />
 
-## FlyingBird 简介
+## FlyingBird 简介 <Pill name="FlyingBird官网" link="https://fbinv02.fbaff.cc/auth/register?code=RZP3" image="https://i.theojs.cn/docs/202409111237242.webp" />
 
 飞鸟机场的前身是多个老牌机场的融合衍生，主打快速稳定，全专线 IPLC，没有倍率，不限网速，不限客户端并且可以多用户同时使用。有着老牌机场的稳定、也有着新晋机场的诚意，目前活动买多少给多少，价格区间比较多，用户的选择比较多。从我自己使用来看，值得推荐为 2022 年的稳定机场。
 
@@ -32,12 +32,12 @@ head:
 季付**9**折/半年**85**折/年付**8**折 配合优惠码折上折，最高可达**64**折
 :::
 
-| 月付套餐类型 |   流量    | 价格 |                                                   流媒体解锁                                                   |                                                      套餐购买                                                       |
-| :----------: | :-------: | :--: | :------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
-|   **青铜**   | **100G**  | ¥15  | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **白银**   | **200G**  | ¥30  | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **黄金**   | **500G**  | ¥75  | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
-|   **钻石**   | **1000G** | ¥150 | <iconify-icon icon="tabler:square-check-filled" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | <a href="https://fbinv02.fbaff.cc/auth/register?code=RZP3" target="_blank"><Badge type="tip" text="立即购买" /></a> |
+| 月付套餐类型 |   流量    | 价格 |                                              原生解锁                                               |                                   套餐购买                                    |
+| :----------: | :-------: | :--: | :-------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
+|   **青铜**   | **100G**  | ¥15  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://fbinv02.fbaff.cc/auth/register?code=RZP3) |
+|   **白银**   | **200G**  | ¥30  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://fbinv02.fbaff.cc/auth/register?code=RZP3) |
+|   **黄金**   | **500G**  | ¥75  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://fbinv02.fbaff.cc/auth/register?code=RZP3) |
+|   **钻石**   | **1000G** | ¥150 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://fbinv02.fbaff.cc/auth/register?code=RZP3) |
 
 ## FlyingBird 特点
 

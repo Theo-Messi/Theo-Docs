@@ -3,7 +3,7 @@ import type { AsideItem } from '@theojs/lumen'
 export const Aside_Data: AsideItem[] = [
   // {
   //   link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd',
-  //   image: 'https://www.qingyunti.cc/images/qytlogo-144-49.png',
+  //   image: 'https://i.theojs.cn/logo/qyt.webp',
   //   activity: '青云梯 四周年双旦特惠',
   //   info1:
   //     '月付 85折 优惠码 <span style="color: var(--vp-c-brand-3)"> qyt85 </span>',
@@ -29,7 +29,7 @@ export const Aside_Data: AsideItem[] = [
   // },
   {
     link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd',
-    image: 'https://www.qingyunti.cc/images/qytlogo-144-49.png',
+    image: 'https://i.theojs.cn/logo/qyt.webp',
     activity: '青云梯'
   },
   // {

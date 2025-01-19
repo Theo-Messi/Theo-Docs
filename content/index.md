@@ -14,7 +14,7 @@ hero:
     alt: home
 
   prelink:
-    # content: '<span class="activity-text" style="display: inline-flex; align-items: center;"><img src="https://www.qingyunti.cc/images/qytlogo-144-49.png" style="height:0.65rem; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
+    # content: '<span class="activity-text" style="display: inline-flex; align-items: center;"><img src="https://i.theojs.cn/logo/qyt.webp" style="height:0.65rem; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
     title: '🎉 FlyingBird 新春活动开启咯！'
     content: '
     · 月/季/半年付<span class="activity-text"> 85折 </span>优惠码<span class="activity-text"> cny2585 </span></br>
@@ -47,20 +47,23 @@ hero:
       link: https://xx.theojs.cn
 
 features:
-  - title: '<span style="display: inline-flex; align-items: center;"><img src="index/netflix.svg" style="height:27px; margin-right:0.5rem;"/>流媒体观影</span>'
+  - title: '<iconify-icon icon="simple-icons:netflix" style="margin-right:0.25rem; color:#E50914;" alt="netflix"></iconify-icon>流媒体观影'
     details: Netflix 、Disney+ 、Spotify会员 和 YouTube各平台使用指南
     link: /streaming/netflix-guide
     linkText: 查看更多
+    rel: noreferrer
 
-  - title: '<span style="display: inline-flex; align-items: center;"><iconify-icon icon="logos:youtube-icon" style="margin-right:0.5rem; alt="IPLC"></iconify-icon>合租平台</span>'
+  - title: '<iconify-icon icon="logos:youtube-icon" style="margin-right:0.5rem;" alt="youtube"></iconify-icon>合租平台'
     details: 稳定好用的 Netflix 合租平台推荐
     link: /serve/sharing/account-sharing-guide
     linkText: 查看更多
+    rel: noreferrer
 
-  - title: '<span style="display: inline-flex; align-items: center;"><iconify-icon icon="twemoji:airplane" style="margin-right:0.5rem; alt="IPLC"></iconify-icon>优质线路</span>'
+  - title: '<iconify-icon icon="twemoji:airplane" style="margin-right:0.5rem;" alt="IPLC"></iconify-icon>优质线路'
     details: 全专线IPLC，不限速，不限设备数量，超稳晚高峰，流媒体全解锁！全节点解锁chatgpt！
     link: /serve/airport/qingyunti
     linkText: 查看更多
+    rel: noreferrer
 ---
 
 <Home />
