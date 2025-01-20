@@ -316,22 +316,22 @@ _斜体文本_
 YouTube 视频
 <Vid id="dQw4w9WgXcQ" />
 <!-- 或者 -->
-<Vid to="youtube" id="dQw4w9WgXcQ" />
+<Vid is="youtube" id="dQw4w9WgXcQ" />
 
 Bilibili 视频
-<Vid to="bilibili" id="BV1if421Q7mL" />
+<Vid is="bilibili" id="BV1if421Q7mL" />
 
 腾讯视频
-<Vid to="tencent" id="y0035f2sc4s" />
+<Vid is="tencent" id="y0035f2sc4s" />
 
 优酷视频
-<Vid to="youku" id="XNTE5NTc3NjIwMA==" />
+<Vid is="youku" id="XNTE5NTc3NjIwMA==" />
 
 vimeo 视频
-<Vid to="vimeo" id="76979871" />
+<Vid is="vimeo" id="76979871" />
 
 西瓜视频
-<Vid to="xigua" id="7421926380926927399" />
+<Vid is="xigua" id="7421926380926927399" />
 ```
 
 **输出**
@@ -340,22 +340,22 @@ YouTube 视频
 <Vid id="dQw4w9WgXcQ" />
 
 <!-- 或者 -->
-<Vid to="youtube" id="dQw4w9WgXcQ" />
+<Vid is="youtube" id="dQw4w9WgXcQ" />
 
 Bilibili 视频
-<Vid to="bilibili" id="BV1if421Q7mL" />
+<Vid is="bilibili" id="BV1if421Q7mL" />
 
 腾讯视频
-<Vid to="tencent" id="y0035f2sc4s" />
+<Vid is="tencent" id="y0035f2sc4s" />
 
 优酷视频
-<Vid to="youku" id="XNTE5NTc3NjIwMA==" />
+<Vid is="youku" id="XNTE5NTc3NjIwMA==" />
 
 vimeo 视频
-<Vid to="vimeo" id="76979871" />
+<Vid is="vimeo" id="76979871" />
 
 西瓜视频
-<Vid to="xigua" id="7421926380926927399" />
+<Vid is="xigua" id="7421926380926927399" />
 
 ## 音乐
 
