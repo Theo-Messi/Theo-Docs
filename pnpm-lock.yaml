@@ -1163,9 +1163,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  node-fetch-native@1.6.5:
-    resolution: {integrity: sha512-WvKUNz1fh7EjX9LzBAWgBQt+5BYbTtvElqkOlUsHZyr6yXlRPqfkXFyBwa7KN7LT0q07Uc+/ferkX0PUE9SiZw==}
-    deprecated: https://github.com/unjs/node-fetch-native/issues/135
+  node-fetch-native@1.6.6:
+    resolution: {integrity: sha512-8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==}
 
   npm-run-path@5.3.0:
     resolution: {integrity: sha512-ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==}
@@ -2335,7 +2334,7 @@ snapshots:
       citty: 0.1.6
       consola: 3.4.0
       defu: 6.1.4
-      node-fetch-native: 1.6.5
+      node-fetch-native: 1.6.6
       nypm: 0.3.12
       ohash: 1.1.4
       pathe: 1.1.2
@@ -2676,7 +2675,7 @@ snapshots:
 
   nanoid@3.3.8: {}
 
-  node-fetch-native@1.6.5: {}
+  node-fetch-native@1.6.6: {}
 
   npm-run-path@5.3.0:
     dependencies:
