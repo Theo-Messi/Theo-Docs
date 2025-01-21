@@ -19,7 +19,7 @@ head:
 { name: '飞兔云 双11狂欢，优惠来袭！', image:'https://飞兔.com/img/logo.png', desc:'活动时间：即日起至2024年11月11日23点00分',link: 'https://feitu.im/index.html?register=2cFF8mg4' },
 ]" /> -->
 
-## 飞兔云简介 <Pill name="飞兔云官网" link="https://feitu.im/index.html?register=2cFF8mg4" image="https://飞兔.com/img/logo.png" />
+## 飞兔云简介 <Pill style="font-size:1rem;" name="飞兔云官网" link="https://feitu.im/index.html?register=2cFF8mg4" image="https://飞兔.com/img/logo.png" />
 
 - <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> 年付特惠-98G/月
 - <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> 全中转1倍率(15-30个设备链接)

@@ -15,15 +15,14 @@ hero:
 
   prelink:
     # content: '<span class="activity-text" style="display: inline-flex; align-items: center;"><img src="https://i.theojs.cn/logo/qyt.webp" style="height:0.65em; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
-    title: '🎉 FlyingBird 新春活动开启咯！'
+    title: '🎉 青云梯 春节专属特惠!'
     content: '
-    · 月/季/半年付<span class="activity-text"> 85折 </span>优惠码<span class="activity-text"> cny2585 </span></br>
-    · 年付<span class="activity-text"> 8折 </span>优惠码<span class="activity-text"> cny2580 </span></br>
-    · 站内折上折，高达 <span class="activity-text" > 64折 </span> ，可重复使用<span class="activity-text"> 5 </span>次'
-    date: '2025年2月16日23时59分'
+    · 全场 <span class="activity-text"> 85折 </span>优惠码 <span class="activity-text"> qyt2025 </span></br>
+    · 站内折上折高达 <span class="activity-text" > 48折 </span> '
+    date: '2025年2月12日23时59分'
     # dateIcon: 'mdi:calendar-star'
     dateText: '活动截止日期'
-    link: https://fbinv02.fbaff.cc/auth/register?code=RZP3
+    link: https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd
 
   actions:
     - theme: brand
