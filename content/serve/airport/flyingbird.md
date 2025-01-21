@@ -18,7 +18,7 @@ head:
 { name: 'FlyingBird 新春活动开启！', image:'https://i.theojs.cn/docs/202409111237242.webp', desc:'活动时间：即日起至2025年2月16日23点59分',link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3' },
 ]" />
 
-## FlyingBird 简介 <Pill name="FlyingBird官网" link="https://fbinv02.fbaff.cc/auth/register?code=RZP3" image="https://i.theojs.cn/docs/202409111237242.webp" />
+## FlyingBird 简介 <Pill style="font-size:1rem;" name="FlyingBird官网" link="https://fbinv02.fbaff.cc/auth/register?code=RZP3" image="https://i.theojs.cn/docs/202409111237242.webp" />
 
 飞鸟机场的前身是多个老牌机场的融合衍生，主打快速稳定，全专线 IPLC，没有倍率，不限网速，不限客户端并且可以多用户同时使用。有着老牌机场的稳定、也有着新晋机场的诚意，目前活动买多少给多少，价格区间比较多，用户的选择比较多。从我自己使用来看，值得推荐为 2022 年的稳定机场。
 

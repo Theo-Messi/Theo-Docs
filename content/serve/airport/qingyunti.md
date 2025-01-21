@@ -6,22 +6,21 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局 飞兔云 青云梯
 ---
 
-<!-- :::tip 青云梯 四周年双旦特惠!
+:::tip 青云梯 春节专属特惠!
 
-- 月付/季度/半年付享受85折优惠：**`qyt85`**
-- 年付以及以上享受8折优惠：**`qyt80`**
+- 全场 **85折** 优惠码 **`qyt2025`**
 - 结账时输入优惠码，配合站内折扣最大 **`48`** 折
 
 **特别注意: 青云梯年付小包不支持**
 
-**活动时间：即日起至2025年1月7号晚上23点59分**
+**活动时间：即日起至2025年1月12号晚上23点59分**
 
 :::
 <Links :items="[
-{ name: '青云梯 四周年双旦特惠!', image:'https://i.theojs.cn/logo/qyt.webp', desc:'活动时间：即日起至2025年1月7号晚上23点59分', link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd' },
-]" /> -->
+{ name: '青云梯 春节专属特惠!', image:'https://i.theojs.cn/logo/qyt.webp', desc:'活动时间：即日起至2025年1月12号晚上23点59分', link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd' },
+]" />
 
-## 青云梯 简介 <Pill name="青云梯官网" link="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" image="https://i.theojs.cn/logo/qyt.webp" />
+## 青云梯 简介 <Pill style="font-size:1rem;" name="青云梯官网" link="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" image="https://i.theojs.cn/logo/qyt.webp" />
 
 青云梯采用IPLC纯专线内网传输线路，拥有最高2.5Gbps速率，确保您在网络使用过程中享受到稳定、高速的连接。覆盖的线路涵盖 **香港、台湾、日本、新加坡、美国、韩国、越南、菲律宾、泰国、印度、德国、法国、英国、阿根廷等地** ，所有专线高峰时段不卡顿，让您畅享流畅的网络环境。
 
