@@ -46,6 +46,10 @@ export const Footer_Data: FooterData = {
         { name: '银河录像局', link: 'https://nf.video/kaIuE' },
         { name: '奈飞小铺', link: 'https://ihezu.love/UKTer6' },
         {
+          name: '蜜糖商店',
+          link: 'https://metshop.cn?referrerUserNo=MTU51076'
+        },
+        {
           name: 'FlyingBird',
           link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3'
         },
