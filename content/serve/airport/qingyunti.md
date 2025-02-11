@@ -13,11 +13,11 @@ head:
 
 **特别注意: 青云梯年付小包不支持**
 
-**活动时间：即日起至2025年1月12号晚上23点59分**
+**活动时间：即日起至2025年2月12号晚上23点59分**
 
 :::
 <Links :items="[
-{ name: '青云梯 春节专属特惠!', image:'https://i.theojs.cn/logo/qyt.webp', desc:'活动时间：即日起至2025年1月12号晚上23点59分', link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd' },
+{ name: '青云梯 春节专属特惠!', image:'https://i.theojs.cn/logo/qyt.webp', desc:'活动时间：即日起至2025年2月12号晚上23点59分', link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd' },
 ]" />
 
 ## 青云梯 简介 <Pill style="font-size:1rem;" name="青云梯官网" link="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" image="https://i.theojs.cn/logo/qyt.webp" />
