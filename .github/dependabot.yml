@@ -13,3 +13,6 @@ updates:
           - '*'
     commit-message:
       prefix: 'build: bump deps.'
+    versioning-strategy: 'increase'
+    allow:
+      - dependency-type: 'all'
