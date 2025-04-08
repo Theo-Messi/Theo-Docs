@@ -8,6 +8,13 @@ export const Aside_Data: AsideItem[] = [
     info1:
       '全场 <span class="activity-text"> 85折 </span>优惠码 <span class="activity-text"> qyt85 </span>'
   },
+  {
+    link: 'https://w05.tntyunb01.cc/#/register?code=lN1ybwM8',
+    image: 'https://i.theojs.cn/docs/TNT.webp',
+    activity: 'TNT Cloud 新人特惠！',
+    info1:
+      '全场 <span class="activity-text"> 85折 </span>优惠码 <span class="activity-text"> TNT85 </span>'
+  },
   // {
   //   link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3',
   //   image: 'https://i.theojs.cn/docs/202409111237242.webp',
@@ -29,6 +36,11 @@ export const Aside_Data: AsideItem[] = [
   //   link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd',
   //   image: 'https://i.theojs.cn/logo/qyt.webp',
   //   activity: '青云梯'
+  // },
+  // {
+  //   link: 'https://w05.tntyunb01.cc/#/register?code=lN1ybwM8',
+  //   image: 'https://i.theojs.cn/docs/TNT.webp',
+  //   activity: 'TNT Cloud'
   // },
   {
     link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3',

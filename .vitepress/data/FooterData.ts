@@ -43,6 +43,10 @@ export const Footer_Data: FooterData = {
           color: 'rgba(255, 87, 51, 1)',
           link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd'
         },
+        {
+          name: 'TNT Cloud',
+          link: 'https://w05.tntyunb01.cc/#/register?code=lN1ybwM8'
+        },
         { name: '银河录像局', link: 'https://nf.video/kaIuE' },
         { name: '奈飞小铺', link: 'https://ihezu.love/UKTer6' },
         {
