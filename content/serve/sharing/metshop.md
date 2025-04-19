@@ -12,14 +12,14 @@ head:
 
 ## 蜜糖商店定价 <Badge text="优惠码: theomt" />
 
-|    平台     | 3 个月 | 半年 | 年付 | 每月价格 |                                合租链接                                 |
-| :---------: | :----: | :--: | :--: | :------: | :---------------------------------------------------------------------: |
-| **Netflix** |  ¥116  | ¥235 | ¥460 |   ¥38    | [<Badge text="立即购买" />](https://metshop.cn?referrerUserNo=MTU51076) |
-| **YouTube** |  N/A   | N/A  | ¥198 |  ¥16.5   | [<Badge text="立即购买" />](https://metshop.cn?referrerUserNo=MTU51076) |
-| **Spotify** |  N/A   | N/A  | ¥198 |   ¥9.8   | [<Badge text="立即购买" />](https://metshop.cn?referrerUserNo=MTU51076) |
-| **Disney+** |  N/A   | N/A  | ¥118 |   ¥15    | [<Badge text="立即购买" />](https://metshop.cn?referrerUserNo=MTU51076) |
-| **HBO MAX** |  N/A   | N/A  | ¥208 |   ¥18    | [<Badge text="立即购买" />](https://metshop.cn?referrerUserNo=MTU51076) |
-|  **Hulu**   |  ¥90   | ¥180 | ¥360 |   ¥25    | [<Badge text="立即购买" />](https://metshop.cn?referrerUserNo=MTU51076) |
+|    平台     | 3 个月 | 半年 | 年付 | 每月价格 |                          合租链接                          |
+| :---------: | :----: | :--: | :--: | :------: | :--------------------------------------------------------: |
+| **Netflix** |  ¥116  | ¥235 | ¥460 |   ¥38    | [<Badge text="立即购买" />](https://sho.theojs.cn/metshop) |
+| **YouTube** |  N/A   | N/A  | ¥198 |  ¥16.5   | [<Badge text="立即购买" />](https://sho.theojs.cn/metshop) |
+| **Spotify** |  N/A   | N/A  | ¥198 |   ¥9.8   | [<Badge text="立即购买" />](https://sho.theojs.cn/metshop) |
+| **Disney+** |  N/A   | N/A  | ¥118 |   ¥15    | [<Badge text="立即购买" />](https://sho.theojs.cn/metshop) |
+| **HBO MAX** |  N/A   | N/A  | ¥208 |   ¥18    | [<Badge text="立即购买" />](https://sho.theojs.cn/metshop) |
+|  **Hulu**   |  ¥90   | ¥180 | ¥360 |   ¥25    | [<Badge text="立即购买" />](https://sho.theojs.cn/metshop) |
 
 ## 蜜糖商店特点
 
@@ -29,7 +29,7 @@ head:
 - 📊 实时更新合租管理面板
 - 🛡️ 工信部 ICP 备案，正规可靠
 
-综合而言 <Pill name="蜜糖商店" link="https://metshop.cn?referrerUserNo=MTU51076" image="https://metshop.cn/img/simpLogo.1b5c58e1.png"  /> 提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
+综合而言 <Pill name="蜜糖商店" link="https://sho.theojs.cn/metshop" image="https://metshop.cn/img/simpLogo.1b5c58e1.png"  /> 提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
 
 ## 蜜糖商店购买参考
 
