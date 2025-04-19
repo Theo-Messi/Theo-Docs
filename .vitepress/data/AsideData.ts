@@ -15,6 +15,11 @@ export const Aside_Data: AsideItem[] = [
     info1:
       '全场 <span class="activity-text"> 85折 </span>优惠码 <span class="activity-text"> TNT85 </span>'
   },
+  {
+    link: 'https://inv03.lmaff01.cc/register?aff=UOk2VSk8',
+    image: 'https://i.theojs.cn/docs/20250419234613466.webp',
+    activity: 'Totoro Cloud - 龙猫云'
+  },
   // {
   //   link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3',
   //   image: 'https://i.theojs.cn/docs/202409111237242.webp',
