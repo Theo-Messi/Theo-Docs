@@ -26,6 +26,13 @@ head:
 
 飞鸟机场的节点目前针对奈飞、HBO、Spotify 等流媒体解锁，而且在稳定性方面有保障，速度更快。
 
+- 速度快，在专线的加持下开启代理后访问国际网站速度极快；
+- 安全系数好，所有线路使用物理专线出境传办理，安全性有确保；
+- 可靠性高，使用专线和多负载平衡，防止忽快忽慢的状况；
+- 极其稳定，网络丢包低，可确保 99.9%高可用；
+- 花费划算，虽然使用了昂贵的专线，但售价非常亲民；
+- 安裝便捷、灵便、便捷，支持 iOS，安卓 Android，Windoors，MAC 苹果电脑，Linux 等所有平台和系统。
+
 ## FlyingBird 定价
 
 ::: tip
@@ -38,12 +45,3 @@ head:
 |   **白银**   | **200G**  | ¥30  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://fbinv02.fbaff.cc/auth/register?code=RZP3) |
 |   **黄金**   | **500G**  | ¥75  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://fbinv02.fbaff.cc/auth/register?code=RZP3) |
 |   **钻石**   | **1000G** | ¥150 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://fbinv02.fbaff.cc/auth/register?code=RZP3) |
-
-## FlyingBird 特点
-
-- 速度快，在专线的加持下开启代理后访问国际网站速度极快；
-- 安全系数好，所有线路使用物理专线出境传办理，安全性有确保；
-- 可靠性高，使用专线和多负载平衡，防止忽快忽慢的状况；
-- 极其稳定，网络丢包低，可确保 99.9%高可用；
-- 花费划算，虽然使用了昂贵的专线，但售价非常亲民；
-- 安裝便捷、灵便、便捷，支持 iOS，安卓 Android，Windoors，MAC 苹果电脑，Linux 等所有平台和系统。

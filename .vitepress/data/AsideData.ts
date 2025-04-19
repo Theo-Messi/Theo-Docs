@@ -2,6 +2,15 @@ import type { AsideItem } from '@theojs/lumen'
 
 export const Aside_Data: AsideItem[] = [
   {
+    link: 'https://inv03.lmaff01.cc/register?aff=UOk2VSk8',
+    image: 'https://i.theojs.cn/docs/20250419234613466.webp',
+    activity: '龙猫云51大促-低至48折！',
+    info1:
+      '月付 <span class="activity-text"> 85折 </span>优惠码 <span class="activity-text"> spring85 </span>',
+    info2:
+      '年付 <span class="activity-text"> 8折 </span>优惠码 <span class="activity-text"> spring80 </span>'
+  },
+  {
     link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd',
     image: 'https://i.theojs.cn/logo/qyt.webp',
     activity: '青云梯 85折 特惠开启',
@@ -15,6 +24,11 @@ export const Aside_Data: AsideItem[] = [
     info1:
       '全场 <span class="activity-text"> 85折 </span>优惠码 <span class="activity-text"> TNT85 </span>'
   },
+  // {
+  //   link: 'https://inv03.lmaff01.cc/register?aff=UOk2VSk8',
+  //   image: 'https://i.theojs.cn/docs/20250419234613466.webp',
+  //   activity: 'Totoro Cloud - 龙猫云'
+  // },
   // {
   //   link: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3',
   //   image: 'https://i.theojs.cn/docs/202409111237242.webp',

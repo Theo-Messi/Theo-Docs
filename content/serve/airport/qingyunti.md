@@ -6,19 +6,17 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局 飞兔云 青云梯
 ---
 
-<!-- :::tip 青云梯 春节专属特惠!
+:::tip 青云梯 全场85折 特惠开启!
 
 - 全场 **85折** 优惠码 **`qyt2025`**
 - 结账时输入优惠码，配合站内折扣最大 **`48`** 折
 
 **特别注意: 青云梯年付小包不支持**
 
-**活动时间：即日起至2025年2月12号晚上23点59分**
-
 :::
 <Links :items="[
-{ name: '青云梯 春节专属特惠!', image:'https://i.theojs.cn/logo/qyt.webp', desc:'活动时间：即日起至2025年2月12号晚上23点59分', link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd' },
-]" /> -->
+{ name: '青云梯 全场85折 特惠开启!', image:'https://i.theojs.cn/logo/qyt.webp', link: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd' },
+]" />
 
 ## 青云梯 简介 <Pill style="font-size:1rem;" name="青云梯官网" link="https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd" image="https://i.theojs.cn/logo/qyt.webp" />
 
@@ -27,6 +25,13 @@ head:
 我们的所有节点都具有x1倍率，晚高峰时段更是不限速，让您尽情畅享网络资源。**青云梯主流节点支持解锁流媒体，包括Netflix、Disney+、HBO、动画疯等**，让您随时观看自己喜爱的影视节目。
 
 除此之外，我们还解锁了诸如**ChatGPT、Tiktok、NBA、WWE等热门应用**，为您提供更广泛的网络体验。我们拥有强大的执行力海外技术团队和实时在线客服团队，能够及时维护线路并解决您在使用过程中遇到的问题，为您提供全方位的技术支持和服务保障。
+
+- 三年稳定优质机场，主打质量与服务
+- IPLC纯专线内网传输线路，速度快，高峰期稳定
+- 不限制设备数在线，同时支持多个IP在线
+- 支持 **iOS、MAC、Android、Windoors、Linux** 所有平台和系统
+- 套餐有专为轻量化用户设计的年付小包，低至每月**8**元
+- 可为电商游戏直播等行业私人订制专属线路套餐
 
 ## 青云梯 定价
 
@@ -40,12 +45,3 @@ head:
 |   **VIP1**   | **150G** | ¥25  | ¥67  | ¥240 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd) |
 |   **VIP2**   | **300G** | ¥45  | ¥121 | ¥432 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd) |
 |   **VIP3**   | **600G** | ¥85  | ¥229 | ¥816 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd) |
-
-## 青云梯 特点
-
-- 三年稳定优质机场，主打质量与服务
-- IPLC纯专线内网传输线路，速度快，高峰期稳定
-- 不限制设备数在线，同时支持多个IP在线
-- 支持 **iOS、MAC、Android、Windoors、Linux** 所有平台和系统
-- 套餐有专为轻量化用户设计的年付小包，低至每月**8**元
-- 可为电商游戏直播等行业私人订制专属线路套餐

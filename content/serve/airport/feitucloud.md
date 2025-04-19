@@ -25,6 +25,12 @@ head:
 - <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> 全中转1倍率(15-30个设备链接)
 - <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> 多国家覆盖(70+节点)
 - <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> 支持流媒体/ChatGPT解锁
+- 速度快，在专线的加持下开启代理后访问国际网站速度极快；
+- 安全系数好，所有线路使用物理专线出境传办理，安全性有确保；
+- 可靠性高，使用专线和多负载平衡，防止忽快忽慢的状况；
+- 极其稳定，网络丢包低，可确保 99.9%高可用；
+- 花费划算，虽然使用了昂贵的专线，但售价非常亲民；
+- 安裝便捷、灵便、便捷，支持 iOS，安卓 Android，Windoors，MAC 苹果电脑，Linux 等所有平台和系统。
 
 ## 飞兔云 定价
 
@@ -54,12 +60,3 @@ head:
 | **100G-不限时** | **100G** | ¥29.9 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://feitu.im/index.html?register=2cFF8mg4) |
 | **200G-不限时** | **200G** | ¥59.9 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://feitu.im/index.html?register=2cFF8mg4) |
 | **500G-不限时** | **500G** | ¥99.9 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://feitu.im/index.html?register=2cFF8mg4) |
-
-## 飞兔云 特点
-
-- 速度快，在专线的加持下开启代理后访问国际网站速度极快；
-- 安全系数好，所有线路使用物理专线出境传办理，安全性有确保；
-- 可靠性高，使用专线和多负载平衡，防止忽快忽慢的状况；
-- 极其稳定，网络丢包低，可确保 99.9%高可用；
-- 花费划算，虽然使用了昂贵的专线，但售价非常亲民；
-- 安裝便捷、灵便、便捷，支持 iOS，安卓 Android，Windoors，MAC 苹果电脑，Linux 等所有平台和系统。
