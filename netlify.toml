@@ -12,3 +12,13 @@ for = "/assets/*"
 cache-control = '''
     max-age=31536000,
     immutable'''
+
+[[redirects]]
+  from = "/llms.md"
+  status = 301
+  to = "/llms.txt"
+
+[[redirects]]
+  from = "/llms-full.md"
+  status = 301
+  to = "/llms-full.txt"
