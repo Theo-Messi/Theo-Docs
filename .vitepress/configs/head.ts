@@ -152,12 +152,23 @@ export const head: HeadConfig[] = [
   ],
   ['meta', { name: 'author', content: 'Theo-Messi' }],
   ['meta', { name: 'copyright', content: 'Theo-Messi' }],
-  ['meta', { name: 'og:type', content: 'website' }],
-  ['meta', { name: 'og:locale', content: 'zh-CN' }],
-  ['meta', { name: 'og:site_name', content: 'Theo Docs' }],
-  ['meta', { name: 'og:title', content: 'Theo Docs' }],
-  ['meta', { name: 'og:url', content: 'https://doc.theojs.cn/' }],
-  ['meta', { name: 'og:image', content: 'https://doc.theojs.cn/avatar.webp' }],
+  ['meta', { property: 'og:type', content: 'website' }],
+  ['meta', { property: 'og:locale', content: 'zh-CN' }],
+  ['meta', { property: 'og:site_name', content: 'Theo Docs' }],
+  ['meta', { property: 'og:title', content: 'Theo Docs' }],
+  ['meta', { property: 'og:url', content: 'https://doc.theojs.cn/' }],
+  [
+    'meta',
+    { property: 'og:image', content: 'https://doc.theojs.cn/avatar.webp' }
+  ],
+  [
+    'meta',
+    {
+      property: 'og:description',
+      content:
+        '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、青云梯、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
+    }
+  ],
   ['meta', { name: 'robots', content: 'index, follow' }],
   ['meta', { name: 'evisit-after', content: '1 day' }],
   [
@@ -172,14 +183,6 @@ export const head: HeadConfig[] = [
   [
     'meta',
     { name: 'google-site-verification', content: '16826854815998093032' }
-  ],
-  [
-    'meta',
-    {
-      name: 'og:description',
-      content:
-        '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、青云梯、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
-    }
   ],
   ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ['meta', { name: 'twitter:site', content: '@TheoMessi_' }],
@@ -197,6 +200,15 @@ export const head: HeadConfig[] = [
     { name: 'twitter:image', content: 'https://doc.theojs.cn/avatar.webp' }
   ],
   [
+    'meta',
+    {
+      name: 'keywords',
+      content:
+        '流媒体, Netflix, Disney+, HBO Max, Spotify, YouTube, 解锁, 流媒体观影, 奈飞, 青云梯, 奈飞小铺, 银河录像局'
+    }
+  ],
+  ['link', { rel: 'canonical', href: 'https://doc.theojs.cn/' }],
+  [
     'script',
     {
       type: 'application/ld+json',
@@ -207,19 +219,13 @@ export const head: HeadConfig[] = [
         name: 'Theo-Docs',
         description:
           '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、青云梯、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。',
-        author: {
-          '@type': 'Person',
+        author: { '@type': 'Person', name: 'Theo-Messi' },
+        image: 'https://doc.theojs.cn/avatar.webp',
+        publisher: {
+          '@type': 'Organization',
           name: 'Theo-Messi'
         }
       })
-    }
-  ],
-  [
-    'meta',
-    {
-      name: 'keywords',
-      content:
-        '流媒体, Netflix, Disney+, HBO Max, Spotify, YouTube, 解锁, 流媒体观影, 奈飞, 青云梯, 奈飞小铺, 银河录像局'
     }
   ]
 ]
