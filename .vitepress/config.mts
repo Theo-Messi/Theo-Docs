@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 import { groupIconVitePlugin } from 'vitepress-plugin-group-icons'
+import llmstxt from 'vitepress-plugin-llms'
 
 import { algolia, head, markdown, nav, sidebar, socialLinks } from './configs'
 
@@ -57,7 +58,8 @@ export default defineConfig({
           rhel: 'logos:redhat-icon',
           android: 'logos:android-icon'
         }
-      })
+      }),
+      llmstxt({})
     ]
   },
 
