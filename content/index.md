@@ -15,16 +15,14 @@ hero:
 
   prelink:
     # content: '<span class="activity-text" style="display: inline-flex; align-items: center;"><img src="https://i.theojs.cn/logo/qyt.webp" style="height:0.65em; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
-    title: '🎉 龙猫云春季51大促来了-低至48折起！'
+    title: '🎉 TNT 五一特惠来了-低至48折起！'
     content: '
-    · 月付 <span class="activity-text"> 85折 </span>优惠码 <span class="activity-text"> spring85 </span></br>
-    · 年付 <span class="activity-text"> 8折 </span>优惠码 <span class="activity-text"> spring80 </span></br>
-    · 配合优惠码购买3年付即可享受<span class="activity-text">48</span>折优惠，非常划算哦</br>
-    · 每个账号活动周期内只能使用3次优惠码'
-    date: '2025年5月7号23点59分'
+    · 全套餐 <span class="activity-text"> 8折 </span>优惠码 <span class="activity-text"> MayDay80 </span></br>
+    · <span class="activity-text">3年付</span> 更可享受<span class="activity-text"> 4.8折优惠 </span>，非常划算哦</br>'
+    date: '2025年5月10号23点59分'
     # dateIcon: 'mdi:calendar-star'
     dateText: '活动截止日期'
-    link: https://sho.theojs.cn/totoro
+    link: https://sho.theojs.cn/tnt
 
   actions:
     - theme: brand
