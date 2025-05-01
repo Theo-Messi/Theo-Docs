@@ -21,7 +21,7 @@ head:
 - 同时提供 full 版本和 lite 版本，hnd_lite 版本安装后占用不到 8MB 的空间，适合小 jffs 机型
 - armv8 机型支持 tcp fast open 和 ss/ssr/trojan 多核心运行
 
-## 支持机型/固件 <Pill style="font-size:1rem;" name="最新固件下载地址" link="https://fw.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg"  />
+## 支持机型/固件 <Pill name="最新固件下载地址" link="https://fw.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg"  />
 
 > 以下为 fancyss 3.0 支持的机型/固件，点击机型可以前往相应固件下载地址
 

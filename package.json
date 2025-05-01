@@ -15,11 +15,11 @@
     ]
   },
   "devDependencies": {
-    "@mdit/plugin-figure": "^0.16.0",
-    "@mdit/plugin-footnote": "^0.16.8",
-    "@mdit/plugin-img-size": "^0.16.0",
-    "@mdit/plugin-tasklist": "^0.16.0",
-    "@theojs/lumen": "^5.4.0",
+    "@mdit/plugin-figure": "^0.17.0",
+    "@mdit/plugin-footnote": "^0.17.0",
+    "@mdit/plugin-img-size": "^0.17.0",
+    "@mdit/plugin-tasklist": "^0.17.0",
+    "@theojs/lumen": "^5.4.1",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "lint-staged": "^15.5.1",
     "prettier": "3.5.3",
@@ -31,8 +31,8 @@
     "vitepress": "2.0.0-alpha.5",
     "vitepress-plugin-group-icons": "^1.5.2",
     "vitepress-plugin-image-viewer": "^1.1.6",
-    "vitepress-plugin-llms": "^1.1.0",
+    "vitepress-plugin-llms": "^1.1.1",
     "vue": "^3.5.13"
   },
-  "packageManager": "pnpm@10.9.0"
+  "packageManager": "pnpm@10.10.0"
 }

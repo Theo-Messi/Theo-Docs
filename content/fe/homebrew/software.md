@@ -22,9 +22,7 @@ brew install nginx
  brew search [关键词]
 ```
 
-2. 使用网页搜索
-
-<https://formulae.brew.sh/>
+2. 使用网页搜索 <Pill name="https://formulae.brew.sh" link="https://formulae.brew.sh" icon="logos:homebrew" />
 
 ## 查看软件信息
 
