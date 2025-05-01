@@ -20,13 +20,13 @@ head:
 
 ### 步骤
 
-1. [iOS](https://support.apple.com/zh-sg/guide/iphone/ipha0d932e96/ios)：「设置」--「通讯录」--「账户」--「添加账户」-- 「其他」--「添加 CardDAV 账户」
-2. [Mac](https://support.apple.com/zh-cn/guide/contacts/adrb7e5aaa2a/mac)：「通讯录」--「设置」--「账户」--「其他通讯录账户」
+1. <Pill name="iOS" link="https://support.apple.com/zh-sg/guide/iphone/ipha0d932e96/ios" icon="lineicons:ios" />：「设置」--「通讯录」--「账户」--「添加账户」-- 「其他」--「添加 CardDAV 账户」
+2. <Pill name="Mac" link="https://support.apple.com/zh-cn/guide/contacts/adrb7e5aaa2a/mac" icon="wpf:mac-os" />：「通讯录」--「设置」--「账户」--「其他通讯录账户」
 
 ## 下载导入
 
-1. 到 https://github.com/metowolf/vCards/releases 下载最新的打包文件 `archive.zip`；
-2. 解压后，根据不同平台的指南导入 `vcf` 文件至 iCloud 中，推荐单独创建「黄页」分组方便管理和隐藏。
+1. 到 <Pill name="vCards" link="https://github.com/metowolf/vCards/releases" :image="{ light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg'}" /> 下载最新的打包文件 `archive.zip`；
+1. 解压后，根据不同平台的指南导入 `vcf` 文件至 iCloud 中，推荐单独创建「黄页」分组方便管理和隐藏。
 
 #### macOS
 

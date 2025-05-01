@@ -275,12 +275,12 @@ _斜体文本_
 **输入**
 
 ```md
-![home-img](/index/home.webp =300x300)
+![|300](/index/home.webp 'home-img')
 ```
 
 **输出**
 
-![home-img](/index/home.webp =300x300)
+![|300](/index/home.webp 'home-img')
 
 ## 视频
 

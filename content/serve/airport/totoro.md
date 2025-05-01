@@ -21,7 +21,7 @@ head:
 { name: '龙猫云春季51大促来了-低至48折起！', desc: '即日起至2025年5月7号23点59分', image:'https://i.theojs.cn/docs/20250419234613466.webp',link: 'https://sho.theojs.cn/totoro' },
 ]" />
 
-## 龙猫云简介 <Pill style="font-size:1rem;" name="龙猫云官网" link="https://sho.theojs.cn/totoro" image="https://i.theojs.cn/docs/20250419234613466.webp" />
+## 龙猫云简介 <Pill name="龙猫云官网" link="https://sho.theojs.cn/totoro" image="https://i.theojs.cn/docs/20250419234613466.webp" />
 
 Totoro Cloud 中文名为龙猫云，一家颇具实力的新机场，Shadowsocks 协议节点，IPLC 专线，对 Netflix、Disney+ 流媒体和 ChatGPT 提供很好的解锁支持。龙猫云机场官方提供了详细的视频、文档以及贴心的客服支持
 

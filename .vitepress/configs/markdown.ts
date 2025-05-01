@@ -28,10 +28,6 @@ export const markdown: MarkdownOptions = {
     md.use(tasklist)
     md.use(imgSize)
     md.use(groupIconMdPlugin, { titleBar: { includeSnippet: true } })
-    md.use(figure, {
-      figcaption: 'alt',
-      copyAttrs: '^class$',
-      lazy: true
-    })
+    md.use(figure)
   }
 }

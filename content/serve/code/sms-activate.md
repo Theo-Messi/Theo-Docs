@@ -6,7 +6,7 @@ head:
       content: 国外接码平台 SMS-Activate 是一个俄罗斯的服务商，提供虚拟手机号码，可以接收短信验证码，可以用于注册海外服务
 ---
 
-## 什么是 SMS-Activate <Pill style="font-size:1rem;" name="SMS-Activate官网" link="https://sho.theojs.cn/sms" image="https://smsactivate.s3.eu-central-1.amazonaws.com/assets/img/activate_favicon32.svg" />
+## 什么是 SMS-Activate <Pill name="SMS-Activate官网" link="https://sho.theojs.cn/sms" image="https://smsactivate.s3.eu-central-1.amazonaws.com/assets/img/activate_favicon32.svg" />
 
 这是一个在这个星球上数以百万计的服务中注册帐户的网站。 我们提供世界上大多数国家的虚拟号码，以便您可以在线接收带有确认代码的短信。 在我们的服务中，还有虚拟号码的长期租赁，转发连接，电话验证等等。使用SMS-Activate的虚拟号码来在线接受短信。可以在600个多服务注册的一次性号码。短信即刻送到给你
 
