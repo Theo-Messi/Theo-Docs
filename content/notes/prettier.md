@@ -34,7 +34,7 @@ yarn add --dev --exact prettier @trivago/prettier-plugin-sort-imports prettier-p
 
 新建 `.prettierignore` 配置如下
 
-<<< @/../.prettierignore
+<<< @/../.prettierignore{md}
 
 ## 使用 Prettier 格式化所有文件
 
