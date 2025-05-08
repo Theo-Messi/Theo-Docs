@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 import { groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 import llmstxt from 'vitepress-plugin-llms'
 
-import { algolia, head, markdown, nav, sidebar, socialLinks } from './configs'
+import { head, markdown, nav, search, sidebar, socialLinks } from './configs'
 
 // 导出默认配置
 export default defineConfig({
@@ -124,10 +124,10 @@ export default defineConfig({
     // 侧边栏
     sidebar,
 
-    // algolia搜索
+    // 本地搜索
     search: {
-      provider: 'algolia',
-      options: algolia
+      provider: 'local',
+      options: search
     },
 
     // 404
