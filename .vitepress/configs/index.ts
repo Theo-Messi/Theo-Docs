@@ -1,4 +1,4 @@
-export * from './algolia'
+export * from './search'
 export * from './head'
 export * from './markdown'
 export * from './nav'
