@@ -39,7 +39,7 @@ hero:
 
     - theme: brand
       text: ❤️ 成为赞助商
-      link: https://i.theojs.cn/docs/202405201759098.webp
+      link: https://i.theojs.cn/sponsor.webp
 
     - theme: custom-alt
       text: 玄学宝典

@@ -30,7 +30,7 @@ head:
     //图片
     {
       name: '支付宝',
-      link: 'https://i.theojs.cn/docs/202405201752089.webp',
+      link: 'https://i.theojs.cn/alipay.webp',
       image: 'https://i.theojs.cn/logo/alipay.svg'
     },
     //深浅模式的图片
@@ -73,7 +73,7 @@ head:
     //图片
     {
       name: '支付宝',
-      link: 'https://i.theojs.cn/docs/202405201752089.webp',
+      link: 'https://i.theojs.cn/alipay.webp',
       image: 'https://i.theojs.cn/logo/alipay.svg'
     },
     //深浅模式的图片
@@ -123,7 +123,7 @@ head:
     //图片
     {
       name: '支付宝',
-      link: 'https://i.theojs.cn/docs/202405201752089.webp',
+      link: 'https://i.theojs.cn/alipay.webp',
       image: 'https://i.theojs.cn/logo/alipay.svg'
     },
     //深浅模式的图片
@@ -175,7 +175,7 @@ head:
 
 <Pill
   name="支付宝"
-  link="https://i.theojs.cn/docs/202405201752089.webp"
+  link="https://i.theojs.cn/alipay.webp"
   image="https://i.theojs.cn/logo/alipay.svg"
 />
 
