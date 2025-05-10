@@ -63,11 +63,11 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
 
 ## YouTube 账号合租
 
-|  合租平台  |                 官方网站                  |    优惠码    |     价格      |
-| :--------: | :---------------------------------------: | :----------: | :-----------: |
-|  奈飞小铺  |  [官方网站](https://sho.theojs.cn/ihezu)  | **`theonf`** | **178** 元/年 |
-| 银河录像局 |   [官方网站](https://sho.theojs.cn/yh)    |  **`Theo`**  | **114** 元/年 |
-|  蜜糖商店  | [官方网站](https://sho.theojs.cn/metshop) | **`theomt`** | **198** 元/年 |
+|  合租平台  |                官方网站                 |    优惠码    |     价格      |
+| :--------: | :-------------------------------------: | :----------: | :-----------: |
+|  奈飞小铺  |  [官方网站](https://s.theojs.cn/ihezu)  | **`theonf`** | **178** 元/年 |
+| 银河录像局 |   [官方网站](https://s.theojs.cn/yh)    |  **`Theo`**  | **114** 元/年 |
+|  蜜糖商店  | [官方网站](https://s.theojs.cn/metshop) | **`theomt`** | **198** 元/年 |
 
 ## 加入 YouTube 家庭组会员流程
 
@@ -85,8 +85,8 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
 
 完成了账号的准备工作后，你可以通过以下方式购买家庭组会员资格：
 
-- **奈飞小铺**：访问我们推荐的 <Pill name="奈飞小铺" link="https://sho.theojs.cn/ihezu" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s"  /> 网站，进行付款购买家庭组会员资格。
-- **银河录像局**：访问 <Pill name="银河录像局" link="https://sho.theojs.cn/yh" image="https://nf.video/favicon.ico" /> 网站，进行付款购买家庭组会员资格。
+- **奈飞小铺**：访问我们推荐的 <Pill name="奈飞小铺" link="https://s.theojs.cn/ihezu" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s"  /> 网站，进行付款购买家庭组会员资格。
+- **银河录像局**：访问 <Pill name="银河录像局" link="https://s.theojs.cn/yh" image="https://nf.video/favicon.ico" /> 网站，进行付款购买家庭组会员资格。
 
 ### 3\. 确认权益
 

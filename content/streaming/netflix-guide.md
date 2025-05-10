@@ -22,17 +22,17 @@ Netflix 是一家美国的在线流媒体平台，成立于 1997 年，总部位
 
 想要在国内愉快都使用 Netflix 并获得最佳的观影体验，你需要做好以下几个方面的准备：
 <BoxCube :items="[
-  { link: 'https://sho.theojs.cn/ihezu', icon: 'material-symbols:account-box', name: 'Netflix 账号', desc: '合租平台' },
+  { link: 'https://s.theojs.cn/ihezu', icon: 'material-symbols:account-box', name: 'Netflix 账号', desc: '合租平台' },
   { link: '/serve/airport/qingyunti', icon: 'ic:twotone-vpn-lock', name: 'Netflix 线路', desc: '流媒体解锁' }
   ]"/>
 
 ## Netflix 账号合租
 
-|  合租平台  |                 官方网站                  |    优惠码    |     价格      |
-| :--------: | :---------------------------------------: | :----------: | :-----------: |
-|  奈飞小铺  |  [官方网站](https://sho.theojs.cn/ihezu)  | **`theonf`** | **270** 元/年 |
-| 银河录像局 |   [官方网站](https://sho.theojs.cn/yh)    |  **`Theo`**  | **247** 元/年 |
-|  蜜糖商店  | [官方网站](https://sho.theojs.cn/metshop) | **`theomt`** | **460** 元/年 |
+|  合租平台  |                官方网站                 |    优惠码    |     价格      |
+| :--------: | :-------------------------------------: | :----------: | :-----------: |
+|  奈飞小铺  |  [官方网站](https://s.theojs.cn/ihezu)  | **`theonf`** | **270** 元/年 |
+| 银河录像局 |   [官方网站](https://s.theojs.cn/yh)    |  **`Theo`**  | **247** 元/年 |
+|  蜜糖商店  | [官方网站](https://s.theojs.cn/metshop) | **`theomt`** | **460** 元/年 |
 
 ## Netflix 如何看 4K 高清
 

@@ -16,12 +16,12 @@ head:
 
 ## 奈飞小铺定价 <Badge text="优惠码: theonf" />
 
-|    平台     | 3 个月 | 半年 | 年付 | 2年付 | 每月价格 |                         合租链接                         |
-| :---------: | :----: | :--: | :--: | :---: | :------: | :------------------------------------------------------: |
-| **Netflix** |  ¥75   | ¥147 | ¥270 |  N/A  |  ¥22.5   | [<Badge text="立即购买" />](https://sho.theojs.cn/ihezu) |
-| **YouTube** |  N/A   | N/A  | ¥198 | ¥376  |  ¥15.3   | [<Badge text="立即购买" />](https://sho.theojs.cn/ihezu) |
-| **Spotify** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | [<Badge text="立即购买" />](https://sho.theojs.cn/ihezu) |
-| **Disney+** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | [<Badge text="立即购买" />](https://sho.theojs.cn/ihezu) |
+|    平台     | 3 个月 | 半年 | 年付 | 2年付 | 每月价格 |                        合租链接                        |
+| :---------: | :----: | :--: | :--: | :---: | :------: | :----------------------------------------------------: |
+| **Netflix** |  ¥75   | ¥147 | ¥270 |  N/A  |  ¥22.5   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) |
+| **YouTube** |  N/A   | N/A  | ¥198 | ¥376  |  ¥15.3   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) |
+| **Spotify** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) |
+| **Disney+** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) |
 
 ## 奈飞小铺特点
 
@@ -32,7 +32,7 @@ head:
 - 售后方便（密码被改后能一键重置最佳）
 - 不跑路
 
-综合而言 <Pill name="奈飞小铺" link="https://sho.theojs.cn/ihezu" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s"  /> 提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
+综合而言 <Pill name="奈飞小铺" link="https://s.theojs.cn/ihezu" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s"  /> 提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
 
 ## 奈飞小铺购买参考
 
