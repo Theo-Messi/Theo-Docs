@@ -16,10 +16,10 @@ head:
 
 :::
 <Links :items="[
-{ name: '飞兔云 双11狂欢，优惠来袭！', image:'https://飞兔.com/img/logo.png', desc:'活动时间：即日起至2024年11月11日23点00分',link: 'https://sho.theojs.cn/feitu' },
+{ name: '飞兔云 双11狂欢，优惠来袭！', image:'https://飞兔.com/img/logo.png', desc:'活动时间：即日起至2024年11月11日23点00分',link: 'https://s.theojs.cn/feitu' },
 ]" /> -->
 
-## 飞兔云简介 <Pill name="飞兔云官网" link="https://sho.theojs.cn/feitu" image="https://飞兔.com/img/logo.png" />
+## 飞兔云简介 <Pill name="飞兔云官网" link="https://s.theojs.cn/feitu" image="https://飞兔.com/img/logo.png" />
 
 - <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> 年付特惠-98G/月
 - <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> 全中转1倍率(15-30个设备链接)
@@ -36,27 +36,27 @@ head:
 
 ### 年付特惠
 
-|             套餐类型              | 流量/月  | 价格/年 |                                              原生解锁                                               |                         套餐购买                         |
-| :-------------------------------: | :------: | :-----: | :-------------------------------------------------------------------------------------------------: | :------------------------------------------------------: |
-|           **年付特惠**            | **98G**  |   ¥98   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
-| **年付特惠**<Badge text="推荐" /> | **198G** |  ¥138   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
-|           **年付特惠**            | **298G** |  ¥198   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
+|             套餐类型              | 流量/月  | 价格/年 |                                              原生解锁                                               |                        套餐购买                        |
+| :-------------------------------: | :------: | :-----: | :-------------------------------------------------------------------------------------------------: | :----------------------------------------------------: |
+|           **年付特惠**            | **98G**  |   ¥98   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
+| **年付特惠**<Badge text="推荐" /> | **198G** |  ¥138   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
+|           **年付特惠**            | **298G** |  ¥198   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
 
 ### 按月付费
 
-|     套餐类型     |       流量       | 价格/月 |                                              原生解锁                                               |                         套餐购买                         |
-| :--------------: | :--------------: | :-----: | :-------------------------------------------------------------------------------------------------: | :------------------------------------------------------: |
-|     **118G**     |     **118G**     |  ¥9.9   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
-| **盲盒100-200G** | **盲盒100-200G** |   ¥12   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
-|     **218G**     |     **218G**     |  ¥16.9  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
-|     **450G**     |     **450G**     |  ¥29.9  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
-|    **1000G**     |    **1000G**     |  ¥49.9  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
-|    **2000G**     |    **2000G**     |  ¥99.9  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
+|     套餐类型     |       流量       | 价格/月 |                                              原生解锁                                               |                        套餐购买                        |
+| :--------------: | :--------------: | :-----: | :-------------------------------------------------------------------------------------------------: | :----------------------------------------------------: |
+|     **118G**     |     **118G**     |  ¥9.9   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
+| **盲盒100-200G** | **盲盒100-200G** |   ¥12   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
+|     **218G**     |     **218G**     |  ¥16.9  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
+|     **450G**     |     **450G**     |  ¥29.9  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
+|    **1000G**     |    **1000G**     |  ¥49.9  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
+|    **2000G**     |    **2000G**     |  ¥99.9  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
 
 ### 不限时套餐(用完即止)
 
-|    套餐类型     |   流量   | 价格  |                                              原生解锁                                               |                         套餐购买                         |
-| :-------------: | :------: | :---: | :-------------------------------------------------------------------------------------------------: | :------------------------------------------------------: |
-| **100G-不限时** | **100G** | ¥29.9 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
-| **200G-不限时** | **200G** | ¥59.9 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
-| **500G-不限时** | **500G** | ¥99.9 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://sho.theojs.cn/feitu) |
+|    套餐类型     |   流量   | 价格  |                                              原生解锁                                               |                        套餐购买                        |
+| :-------------: | :------: | :---: | :-------------------------------------------------------------------------------------------------: | :----------------------------------------------------: |
+| **100G-不限时** | **100G** | ¥29.9 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
+| **200G-不限时** | **200G** | ¥59.9 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
+| **500G-不限时** | **500G** | ¥99.9 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://s.theojs.cn/feitu) |
