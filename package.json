@@ -15,10 +15,10 @@
     ]
   },
   "devDependencies": {
-    "@mdit/plugin-figure": "^0.17.0",
-    "@mdit/plugin-footnote": "^0.17.0",
-    "@mdit/plugin-img-size": "^0.17.0",
-    "@mdit/plugin-tasklist": "^0.17.0",
+    "@mdit/plugin-figure": "^0.18.0",
+    "@mdit/plugin-footnote": "^0.18.0",
+    "@mdit/plugin-img-size": "^0.18.0",
+    "@mdit/plugin-tasklist": "^0.18.0",
     "@theojs/lumen": "^5.4.1",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "lint-staged": "^15.5.1",
