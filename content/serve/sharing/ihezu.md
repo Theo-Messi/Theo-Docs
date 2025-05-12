@@ -16,12 +16,12 @@ head:
 
 ## 奈飞小铺定价 <Badge text="优惠码: theonf" />
 
-|    平台     | 3 个月 | 半年 | 年付 | 2年付 | 每月价格 |                        合租链接                        |
-| :---------: | :----: | :--: | :--: | :---: | :------: | :----------------------------------------------------: |
-| **Netflix** |  ¥75   | ¥147 | ¥270 |  N/A  |  ¥22.5   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) |
-| **YouTube** |  N/A   | N/A  | ¥198 | ¥376  |  ¥15.3   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) |
-| **Spotify** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) |
-| **Disney+** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) |
+|    平台     | 3 个月 | 半年 | 年付 | 2年付 | 每月价格 |                        合租链接                        |                      扫码直达                      |
+| :---------: | :----: | :--: | :--: | :---: | :------: | :----------------------------------------------------: | :------------------------------------------------: |
+| **Netflix** |  ¥75   | ¥147 | ¥270 |  N/A  |  ¥22.5   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) |
+| **YouTube** |  N/A   | N/A  | ¥198 | ¥376  |  ¥15.3   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) |
+| **Spotify** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) |
+| **Disney+** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | [<Badge text="立即购买" />](https://s.theojs.cn/ihezu) | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) |
 
 ## 奈飞小铺特点
 

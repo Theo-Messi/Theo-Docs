@@ -14,11 +14,11 @@ hero:
     alt: home
 
   prelink:
-    # content: '<span class="activity-text" style="display: inline-flex; align-items: center;"><img src="https://i.theojs.cn/logo/qyt.webp" style="height:0.65em; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
+    # content: '<span class="promo-text" style="display: inline-flex; align-items: center;"><img src="https://i.theojs.cn/logo/qyt.webp" style="height:0.65em; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
     title: '🎉 TNT 五一特惠来了-低至48折起！'
     content: '
-    · 全套餐 <span class="activity-text"> 8折 </span>优惠码 <span class="activity-text"> MayDay80 </span></br>
-    · <span class="activity-text">3年付</span> 更可享受<span class="activity-text"> 4.8折优惠 </span>，非常划算哦</br>'
+    · 全套餐 <span class="promo-text"> 8折 </span>优惠码 <span class="promo-text"> MayDay80 </span></br>
+    · <span class="promo-text">3年付</span> 更可享受<span class="promo-text"> 4.8折优惠 </span>，非常划算哦</br>'
     date: '2025年5月10号23点59分'
     # dateIcon: 'mdi:calendar-star'
     dateText: '活动截止日期'
@@ -46,23 +46,20 @@ hero:
       link: https://xx.theojs.cn
 
 features:
-  - title: '<iconify-icon icon="simple-icons:netflix" style="margin-right:0.25em; color:#E50914;" alt="netflix"></iconify-icon>流媒体观影'
+  - title: '<iconify-icon class="i-mr" icon="simple-icons:netflix" style="color:#E50914" alt="netflix"></iconify-icon>流媒体观影'
     details: Netflix 、Disney+ 、Spotify会员 和 YouTube各平台使用指南
     link: /streaming/netflix-guide
     linkText: 查看更多
-    rel: noreferrer
 
-  - title: '<iconify-icon icon="logos:youtube-icon" style="margin-right:0.5em;" alt="youtube"></iconify-icon>合租平台'
+  - title: '<iconify-icon class="i-mr" icon="logos:youtube-icon" alt="youtube"></iconify-icon>合租平台'
     details: 稳定好用的 Netflix 合租平台推荐
     link: /serve/sharing/account-sharing-guide
     linkText: 查看更多
-    rel: noreferrer
 
-  - title: '<iconify-icon icon="twemoji:airplane" style="margin-right:0.5em;" alt="IPLC"></iconify-icon>优质线路'
+  - title: '<iconify-icon class="i-mr" icon="twemoji:airplane" alt="IPLC"></iconify-icon>优质线路'
     details: 全专线IPLC，不限速，不限设备数量，超稳晚高峰，流媒体全解锁！全节点解锁chatgpt！
     link: /serve/airport/qingyunti
     linkText: 查看更多
-    rel: noreferrer
 ---
 
 <Home />
