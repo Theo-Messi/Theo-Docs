@@ -3,7 +3,10 @@ title: 安装哪吒监控面板
 head:
   - - meta
     - name: description
-      content: 哪吒监控是一个开源、轻量、易用的服务器监控与运维工具
+      content: 哪吒监控是一个开源、轻量、易用的服务器监控与运维工具，帮助管理员实时监控服务器状态和性能。
+  - - meta
+    - name: keywords
+      content: 哪吒监控 面板 服务器 监控 开源 运维 工具
 ---
 
 ## 准备工作

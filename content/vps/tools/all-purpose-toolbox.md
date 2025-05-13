@@ -3,7 +3,10 @@ title: VPS全能工具箱
 head:
   - - meta
     - name: description
-      content: VPS VPS一键脚本 VPS工具箱 VPS一键部署 VPS一键安装 VPS一键搭建 VPS一键安装脚本 VPS一键搭建脚本 VPS一键部署脚本 VPS一键安装搭建脚本
+      content: VPS 全能工具箱，提供一键安装、部署和搭建脚本，帮助快速配置和管理 VPS 服务器。
+  - - meta
+    - name: keywords
+      content: VPS 一键脚本 安装部署 工具箱 服务器搭建 VPS管理
 ---
 
 ##### 安装下载工具

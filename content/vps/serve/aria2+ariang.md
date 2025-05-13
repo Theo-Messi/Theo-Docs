@@ -3,7 +3,10 @@ title: Docker 搭建 aria2+AriaNg
 head:
   - - meta
     - name: description
-      content: Docker aria2 AriaNg
+      content: 本文介绍如何通过 Docker 搭建 aria2 和 AriaNg，实现高效的下载管理和图形化界面控制。
+  - - meta
+    - name: keywords
+      content: Docker aria2 AriaNg 下载管理 图形化界面
 ---
 
 ## Docker安装aria2
@@ -24,7 +27,7 @@ docker run -d \
 -e PUID=$UID \
 -e PGID=$GID \
 -e UMASK_SET=022 \
--e RPC_SECRET=prc_password \
+-e RPC_SECRET=password \
 -e RPC_PORT=6800 \
 -e LISTEN_PORT=6888 \
 -p 16800:6800 \

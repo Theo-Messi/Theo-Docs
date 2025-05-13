@@ -3,7 +3,10 @@ title: 安装 Openwrt
 head:
   - - meta
     - name: description
-      content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt
+      content: OpenWrt 是一个基于 Linux 的开源路由器操作系统，支持多种硬件平台
+  - - meta
+    - name: keywords
+      content: ESXi 虚拟机 虚拟化 X86 64 PVE OpenWrt
 ---
 
 ### 步骤 1 - 选择虚拟机选项卡，点击创建/注册虚拟机

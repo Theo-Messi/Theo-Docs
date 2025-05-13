@@ -1,9 +1,12 @@
 ---
-title: Linux 管道命令
+title: Linux 管道命令 | 高效处理数据流
 head:
   - - meta
     - name: description
-      content: Linux 管道命令
+      content: 了解并掌握 Linux 管道命令，学习如何高效地在命令行中传递数据和组合命令。
+  - - meta
+    - name: keywords
+      content: Linux 管道命令 数据流 管道操作 命令组合
 ---
 
 管道命令操作符是：`|` ,它仅能处理经由前面一个指令传出的正确输出信息，也就是 `standard output` 的信息，对于 `stdandard` `error` 信息没有直接处理能力。然后，传递给下一个命令，作为标准的输入 `standard input`.

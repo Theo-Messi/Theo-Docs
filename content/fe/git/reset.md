@@ -1,9 +1,12 @@
 ---
-title: Git 版本回退
+title: Git 版本回退 | 恢复历史版本 Git 回退操作
 head:
   - - meta
     - name: description
-      content: Git 版本回退
+      content: 学习如何使用 Git 进行版本回退，恢复历史提交版本，解决代码问题。
+  - - meta
+    - name: keywords
+      content: Git 版本回退 恢复历史版本 Git 回退操作 Git 恢复 提交版本
 ---
 
 | 命令     | 特点                                                             |

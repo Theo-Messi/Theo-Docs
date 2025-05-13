@@ -1,9 +1,12 @@
 ---
-title: Linux VIM 编辑器
+title: Linux VIM 编辑器 | 高效文本编辑工具
 head:
   - - meta
     - name: description
-      content: Linux VIM 编辑器
+      content: 学习如何使用 Linux 中的 VIM 编辑器，提升文本编辑效率，掌握常用快捷键和命令。
+  - - meta
+    - name: keywords
+      content: Linux VIM 编辑器 文本编辑 快捷键 编辑命令
 ---
 
 ## 什么是 vim？

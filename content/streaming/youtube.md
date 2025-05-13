@@ -3,7 +3,13 @@ title: YouTube Premium 会员权益及订阅终极指南
 head:
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局
+      content: 了解 YouTube Premium 会员权益、订阅方法、以及如何解锁全球内容，享受无广告、离线播放等高级功能。
+  - - meta
+    - name: keywords
+      content: YouTube Premium 会员 订阅权益 无广告 离线播放 流媒体解锁 科学上网 油管 影视内容
+  - - meta
+    - property: og:image
+      content: https://i.theojs.cn/docs/202406111509751.webp
 ---
 
 ![YouTube](https://i.theojs.cn/docs/202406111509751.webp 'YouTube')

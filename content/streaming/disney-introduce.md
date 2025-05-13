@@ -3,7 +3,13 @@ title: Disney+ 介绍
 head:
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局
+      content: Disney+ 是华特迪士尼公司推出的流媒体平台，提供丰富的电影和电视剧资源，支持包括 Marvel、星球大战、迪士尼经典等系列作品的在线播放，广受欢迎的影视内容包括《复仇者联盟》、《狮子王》、《曼达洛人》等。
+  - - meta
+    - name: keywords
+      content: Disney+ 流媒体 电影 电视剧 复仇者联盟 星球大战 迪士尼 狮子王 曼达洛人 在线观看
+  - - meta
+    - property: og:image
+      content: https://i.theojs.cn/docs/202406111458794.webp
 ---
 
 ![Disney+](https://i.theojs.cn/docs/202406111458794.webp 'Disney+ 梦幻般的流媒体世界')

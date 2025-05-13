@@ -3,7 +3,10 @@ title: Docker 镜像相关操作
 head:
   - - meta
     - name: description
-      content: Docker 虚拟化
+      content: 介绍 Docker 镜像的基本操作，包括拉取镜像、构建自定义镜像、镜像优化等常用操作，帮助提升 Docker 使用效率。
+  - - meta
+    - name: keywords
+      content: Docker 镜像管理 拉取镜像 构建镜像 镜像优化 虚拟化
 ---
 
 ### 镜像操作

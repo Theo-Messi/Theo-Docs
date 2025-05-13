@@ -3,6 +3,9 @@ title: 官改/梅林固件 常用命令集合
 head:
   - - meta
     - name: description
+      content: 官改/梅林固件常用命令集合，包含重置软件中心、清空JFFS空间、删除软件中心、重启软件中心等命令
+  - - meta
+    - name: keywords
       content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan 常用命令
 ---
 

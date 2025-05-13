@@ -3,7 +3,10 @@ title: 账号合租指南
 head:
   - - meta
     - name: description
-      content: 奈飞小铺、银河录像局等账号合租平台，稳定好用的 Netflix 合租平台推荐
+      content: 奈飞小铺、银河录像局等账号合租平台，稳定好用的 Netflix 合租平台推荐，助您轻松共享流媒体账号，享受优质娱乐内容。
+  - - meta
+    - name: keywords
+      content: Netflix 合租 奈飞小铺 银河录像局 账号合租 流媒体共享 Netflix账号 共享平台 娱乐内容
 ---
 
 ## 稳定好用的 Netflix 合租平台推荐

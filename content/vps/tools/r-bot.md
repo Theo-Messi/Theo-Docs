@@ -3,7 +3,10 @@ title: 一键脚本部署开ARM机器
 head:
   - - meta
     - name: description
-      content: R探长 java oci 甲骨文 脚本 部署
+      content: 使用一键脚本在VPS上部署并刷甲骨文云（Oracle Cloud）的ARM机器。
+  - - meta
+    - name: keywords
+      content: 一键脚本 VPS 部署 ARM 机器 甲骨文云 Oracle Cloud 刷机器
 ---
 
 ## 准备工作

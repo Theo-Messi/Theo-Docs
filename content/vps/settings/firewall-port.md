@@ -3,7 +3,10 @@ title: 开启防火墙端口
 head:
   - - meta
     - name: description
-      content: 本文介绍如何在VPS上开启防火墙端口
+      content: 本文介绍如何在 VPS 上开启防火墙端口，确保必要的服务可正常访问。
+  - - meta
+    - name: keywords
+      content: 防火墙 端口 开启 VPS Linux 系统 网络安全
 ---
 
 ## 对外开放端口
@@ -21,15 +24,14 @@ sudo netfilter-persistent save
 ```
 
 ```sh [Centos]
-# 停止并禁用不必要的服务
-sudo systemctl stop oracle-cloud-agent
-sudo systemctl disable oracle-cloud-agent
-sudo systemctl stop oracle-cloud-agent-updater
-sudo systemctl disable oracle-cloud-agent-updater
-
-# 停止并禁用防火墙
-sudo systemctl stop firewalld.service
-sudo systemctl disable firewalld.service
+# 确保 firewall 服务启用，并开启必要端口
+sudo systemctl start firewalld
+sudo systemctl enable firewalld
+# 开放端口示例 (如 80 和 443)
+sudo firewall-cmd --zone=public --add-port=80/tcp --permanent
+sudo firewall-cmd --zone=public --add-port=443/tcp --permanent
+# 重新加载防火墙规则
+sudo firewall-cmd --reload
 ```
 
 :::

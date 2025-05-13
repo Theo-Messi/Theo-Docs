@@ -3,6 +3,9 @@ title: 飞兔云
 head:
   - - meta
     - name: description
+      content: 飞兔云提供高速稳定的科学上网服务，解锁全球流媒体如奈飞 Netflix、YouTube、迪士尼、HBO Max等，支持多设备连接，适用于各类平台，价格亲民，提供流媒体加速和隐私保护。
+  - - meta
+    - name: keywords
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局 飞兔云
 ---
 

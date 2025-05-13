@@ -3,7 +3,13 @@ title: Spotify Premium 账号合租终极指南
 head:
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局
+      content: 探索如何高效合租 Spotify Premium 账号，享受无限音乐，降低费用，提升音乐体验。
+  - - meta
+    - name: keywords
+      content: Spotify Premium 合租 音乐流媒体 账号分享 解锁 音乐体验 科学上网
+  - - meta
+    - property: og:image
+      content: https://i.theojs.cn/docs/202406111508204.webp
 ---
 
 ![Spotify](https://i.theojs.cn/docs/202406111508204.webp 'Spotify')
