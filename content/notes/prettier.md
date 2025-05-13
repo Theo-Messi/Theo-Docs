@@ -3,7 +3,10 @@ title: 为项目添加 Prettier 格式化代码
 head:
   - - meta
     - name: description
-      content: 记录为项目添加 Prettier 格式化代码的过程
+      content: 记录为项目添加 Prettier 格式化代码的过程，提升代码的一致性和可读性。
+  - - meta
+    - name: keywords
+      content: Prettier 格式化代码 项目设置 代码风格 一致性 可读性
 ---
 
 ## 安装 Prettier 及插件

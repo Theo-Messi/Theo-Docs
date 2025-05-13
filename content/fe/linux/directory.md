@@ -1,9 +1,12 @@
 ---
-title: Linux 目录结构
+title: Linux 目录结构 | 了解 Linux 文件系统布局
 head:
   - - meta
     - name: description
-      content: Linux 目录结构
+      content: Linux 目录结构详细介绍了 Linux 系统的文件系统布局及常见目录的作用，帮助用户理解文件存储与管理。
+  - - meta
+    - name: keywords
+      content: Linux 目录结构 文件系统 布局 目录管理
 ---
 
 ## Linux 目录结构

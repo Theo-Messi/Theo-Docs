@@ -3,7 +3,13 @@ title: Netflix 观看全指南
 head:
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局
+      content: 提供 Netflix 观看的完整指南，涵盖流媒体解锁、地区限制绕过、最佳观看设置等内容。
+  - - meta
+    - name: keywords
+      content: Netflix 观看指南 流媒体解锁 观看设置 区域限制
+  - - meta
+    - property: og:image
+      content: https://i.theojs.cn/docs/202406111420455.webp
 ---
 
 ![Netflix](https://i.theojs.cn/docs/202406111420455.webp 'Netflix')

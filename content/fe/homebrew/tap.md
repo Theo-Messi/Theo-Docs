@@ -1,9 +1,12 @@
 ---
-title: Homebrew tap使用
+title: Homebrew tap使用 | 扩展 Homebrew 包源
 head:
   - - meta
     - name: description
-      content: Homebrew 是由 Mac 开发团队开发的包管理器工具，它可以帮助我们快速安装和卸载软件，并且可以方便的进行软件的升级。
+      content: Homebrew tap 允许用户为 Homebrew 添加自定义的软件源，以扩展可用的包和工具，提高软件管理的灵活性。
+  - - meta
+    - name: keywords
+      content: Homebrew tap 使用 自定义软件源 包管理 扩展包源
 ---
 
 ## 添加一个新的 tap

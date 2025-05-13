@@ -3,7 +3,10 @@ title: PPPOE拨号
 head:
   - - meta
     - name: description
-      content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt PPPOE
+      content: PPPOE拨号教程，适用于OpenWrt和Lede系统的软路由设置
+  - - meta
+    - name: keywords
+      content: PPPOE 拨号 OpenWrt Lede 软路由 设置 教程
 ---
 
 ## 前言

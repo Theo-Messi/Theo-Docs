@@ -1,9 +1,12 @@
 ---
-title: iStore 插件包
+title: iStore 插件包 | OpenWRT 插件包合集，PassWall, OpenClash 等插件安装教程
 head:
   - - meta
     - name: description
-      content: iStore openwrt 插件包
+      content: iStore 插件包为 OpenWRT 用户提供了丰富的插件选择，包括科学工具、DNS 拦截、内网穿透等功能插件，帮助优化网络使用体验。
+  - - meta
+    - name: keywords
+      content: iStore 插件包 OpenWRT PassWall OpenClash SSR-Plus 科学工具 DNS 拦截 网络优化
 ---
 
 ## iStore插件包

@@ -16,13 +16,12 @@ import {
   HomeFooter,
   HomeUnderline,
   ShareButton,
-  Twikoo,
   googleAnalytics,
   umamiAnalytics
 } from '@theojs/lumen'
 import '@theojs/lumen/theme'
 
-import { Aside_Data, Footer_Data, Twikoo_Data } from '../data'
+import { Aside_Data, Footer_Data } from '../data'
 
 import 'viewerjs/dist/viewer.min.css'
 import 'virtual:group-icons.css'
@@ -34,7 +33,6 @@ export default {
       'home-hero-info-before': () => h(Announcement),
       'aside-ads-before': () => h(DocAsideLogo, { Aside_Data }),
       'layout-bottom': () => h(HomeFooter, { Footer_Data }),
-      'doc-after': () => h(Twikoo, { Twikoo_Data }),
       'aside-outline-before': () => h(ShareButton)
     })
   },

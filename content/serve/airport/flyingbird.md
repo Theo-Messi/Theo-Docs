@@ -3,7 +3,10 @@ title: FlyingBird - 飞鸟机场
 head:
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局
+      content: FlyingBird 提供高速稳定的科学上网服务，解锁全球流媒体如奈飞 Netflix、HBO Max、YouTube、Spotify等，支持多设备同时连接，使用全专线线路，确保高安全性和可靠性。
+  - - meta
+    - name: keywords
+      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局 飞兔云
 ---
 
 :::tip FlyingBird 五一活动开启咯！

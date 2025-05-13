@@ -1,9 +1,12 @@
 ---
-title: Linux 打包与拆包
+title: Linux 打包与拆包 | 文件打包与解压命令
 head:
   - - meta
     - name: description
-      content: Linux 打包与拆包
+      content: 学习 Linux 打包与拆包命令，掌握如何压缩和解压文件，优化存储和传输。
+  - - meta
+    - name: keywords
+      content: Linux 打包 拆包 文件压缩 解压命令 tar gzip
 ---
 
 ## 打包与拆包

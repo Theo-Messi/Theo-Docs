@@ -3,6 +3,9 @@ title: 安装 Windows 11
 head:
   - - meta
     - name: description
+      content: Windows 11 是微软公司开发的操作系统，具有更好的性能和安全性
+  - - meta
+    - name: keywords
       content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt Windows11 Windows10 Windows12
 ---
 

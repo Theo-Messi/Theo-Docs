@@ -3,6 +3,9 @@ title: fancyss
 head:
   - - meta
     - name: description
+      content: fancyss 是一款基于梅林固件的科学上网插件，支持多种协议和平台，提供丰富的功能和灵活的配置选项
+  - - meta
+    - name: keywords
       content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
 ---
 

@@ -1,9 +1,12 @@
 ---
-title: openwrt 安装 clouddrive2
+title: OpenWrt安装CloudDrive2
 head:
   - - meta
     - name: description
-      content: openwrt clouddrive2 docker
+      content: OpenWrt安装CloudDrive2
+  - - meta
+    - name: keywords
+      content: OpenWrt CloudDrive2 Docker 扩容 安装
 ---
 
 ## 扩容 docker 空间

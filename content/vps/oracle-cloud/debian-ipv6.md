@@ -3,7 +3,10 @@ title: 甲骨文云(Oracle Cloud) DD Debian系统自动获取IPv6
 head:
   - - meta
     - name: description
-      content: 甲骨文云(Oracle Cloud) DD Debian系统自动获取IPv6
+      content: 了解如何在甲骨文云(Oracle Cloud)的DD Debian系统中自动获取IPv6地址的配置与操作方法。
+  - - meta
+    - name: keywords
+      content: 甲骨文云 Oracle Cloud DD Debian IPv6 自动获取 网络配置 系统设置
 ---
 
 甲骨文 DD Debian 系统后，IPv6 就无法使用了。因为 DD 系统后改变了网络配置，导致 Debian 无法获取到控制台中已经为它配置好的 IPv6。只用 IPv4 是没问题的，但甲骨文既然提供 IPv6，不用岂不是很可惜！

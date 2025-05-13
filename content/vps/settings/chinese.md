@@ -3,7 +3,10 @@ title: 更改中文语言
 head:
   - - meta
     - name: description
-      content: 更改中文语言
+      content: 在 Linux 系统中更改中文语言设置，轻松切换为中文环境。
+  - - meta
+    - name: keywords
+      content: Linux 更改中文语言 中文环境 设置 切换语言
 ---
 
 ## 1.安装区域设置 (locales)

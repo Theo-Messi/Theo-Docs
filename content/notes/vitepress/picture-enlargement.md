@@ -3,7 +3,10 @@ title: VitePress实现单击图片放大
 head:
   - - meta
     - name: description
-      content: VitePress实现单击图片放大
+      content: 学习如何在 VitePress 中实现单击图片放大功能，提升网站的用户体验。
+  - - meta
+    - name: keywords
+      content: VitePress 图片放大 功能实现 用户体验 提升
 ---
 
 ## 1. medium-zoom

@@ -3,7 +3,10 @@ title: 优化 iOS/Android 来电、信息界面体验
 head:
   - - meta
     - name: description
-      content: 优化 iOS/Android 来电、信息界面体验
+      content: 提升 iOS/Android 来电和信息界面的用户体验，优化界面设计与交互。
+  - - meta
+    - name: keywords
+      content: iOS Android 来电界面 信息界面 用户体验 界面优化 交互设计
 ---
 
 ![CardDAV](https://user-images.githubusercontent.com/2666735/59692672-0b6bdf00-9218-11e9-881e-5856e263f3aa.png '优化 iOS/Android 来电、信息界面体验')

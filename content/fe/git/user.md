@@ -1,9 +1,12 @@
 ---
-title: Git 设置用户信息
+title: Git 设置用户信息 | 配置 Git 用户名 和 邮箱
 head:
   - - meta
     - name: description
-      content: GIT 设置用户信息
+      content: 学习如何在 Git 中设置用户信息，包括用户名和邮箱，确保提交记录的正确性。
+  - - meta
+    - name: keywords
+      content: Git 设置用户信息 配置用户名 邮箱 设置 Git 配置 Git 用户信息
 ---
 
 ### 查看git配置信息

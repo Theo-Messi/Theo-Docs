@@ -3,8 +3,13 @@ title: 一键安装 小雅Xiaoya全家桶
 head:
   - - meta
     - name: description
-      content: 小雅Alist TVbox Jellyfin EMBY
+      content: 小雅Xiaoya全家桶提供了集成的Alist、TVbox、Jellyfin、EMBY等工具，帮助用户轻松搭建家庭影院和媒体服务。
+  - - meta
+    - name: keywords
+      content: 小雅 Xiaoya Alist TVbox Jellyfin EMBY 一键安装 媒体服务 家庭影院
 ---
+
+## 小雅Xiaoya全家桶
 
 - 适用于 NAS、iStoreOS、macOS、PC 等集成 Docker 的硬件。
 - Plex 不支持 .strm 文件，所以可以搜刮但是不能播放。

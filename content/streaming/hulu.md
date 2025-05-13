@@ -3,7 +3,13 @@ title: Hulu 国内观看指南
 head:
   - - meta
     - name: description
-      content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局
+      content: Hulu 提供丰富的美剧、电影和原创内容。
+  - - meta
+    - name: keywords
+      content: Hulu 流媒体 解锁 观看指南 科学上网 国内观看 流媒体服务
+  - - meta
+    - property: og:image
+      content: https://i.theojs.cn/docs/202406111506456.webp
 ---
 
 ![Hulu](https://i.theojs.cn/docs/202406111506456.webp 'Hulu')

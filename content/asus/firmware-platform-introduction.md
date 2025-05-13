@@ -3,6 +3,9 @@ title: 固件平台介绍
 head:
   - - meta
     - name: description
+      content: 华硕路由器固件平台介绍，包含hnd、axhnd、axhnd.675x、p1axhnd.675x等平台的介绍
+  - - meta
+    - name: keywords
       content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
 ---
 

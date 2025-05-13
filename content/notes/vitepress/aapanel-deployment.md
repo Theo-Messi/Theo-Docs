@@ -3,7 +3,10 @@ title: 宝塔面板部署vitepress（自动发布静态）
 head:
   - - meta
     - name: description
-      content: 宝塔面板部署vitepress（自动发布静态）
+      content: 学习如何在宝塔面板中部署 vitepress，自动发布静态网站，提升开发效率，简化部署流程。
+  - - meta
+    - name: keywords
+      content: 宝塔面板 VitePress 静态网站 自动发布 部署教程
 ---
 
 ## 1.部署环境

@@ -1,9 +1,12 @@
 ---
-title: Homebrew 切换镜像源
+title: Homebrew 切换镜像源 | 提升 Homebrew 安装速度
 head:
   - - meta
     - name: description
-      content: Homebrew 是由 Mac 开发团队开发的包管理器工具，它可以帮助我们快速安装和卸载软件，并且可以方便的进行软件的升级。
+      content: 通过切换镜像源，可以大幅提升 Homebrew 在中国地区的安装和更新速度，优化包管理体验。
+  - - meta
+    - name: keywords
+      content: Homebrew 镜像源 切换 安装速度 优化 软件管理
 ---
 
 ## 切换国内的镜像源

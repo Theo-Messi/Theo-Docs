@@ -3,6 +3,9 @@ title: 提示检测非法关键词
 head:
   - - meta
     - name: description
+      content: 提示检测非法关键词，离线安装包名有非法关键词，开启路由器的 SSH 功能，登录并输入以下命令后，再进行离线安装
+  - - meta
+    - name: keywords
       content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan 非法关键词
 ---
 

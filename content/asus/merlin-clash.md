@@ -3,6 +3,9 @@ title: Merlin Clash - 安装
 head:
   - - meta
     - name: description
+      content: Merlin Clash 是一款运行在 KoolCenter 软件中心上的 Clash GUI 插件，支持 SS/SSR/Trojan/V2Ray 等多种协议
+  - - meta
+    - name: keywords
       content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
 ---
 
@@ -46,7 +49,7 @@ Merlin Clash 是一款运行在 <Pill name="KoolCenter" link="https://www.koolce
 Merlin Clash 是一款运行在 KoolCenter 软件中心上的 Clash GUI 插件，支持 SS/SSR/Trojan/V2Ray 等多种协议。
 基于硬件限制，并非所有架构的路由器都能正常运行插件，请前往 Merlin Clash 官方文档中心查看自己路由器的软硬件版本是否支持，并前往其官方插件发布频道按照文档操作安装即可。
 
-### 配置订阅
+## 配置订阅
 
 切换到配置文件页，在 `Clash-Yaml 配置下载` 一栏粘贴 clash 订阅地址。
 

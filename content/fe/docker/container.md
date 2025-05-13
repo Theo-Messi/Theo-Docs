@@ -3,7 +3,10 @@ title: Docker 容器相关操作
 head:
   - - meta
     - name: description
-      content: Docker 虚拟化
+      content: Docker 容器相关操作，创建、启动、退出、进入容器，文件传递等
+  - - meta
+    - name: keywords
+      content: Docker 容器 相关操作 创建 启动 退出 进入 文件传递
 ---
 
 ### 运行容器的相关操作
