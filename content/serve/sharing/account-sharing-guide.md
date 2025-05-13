@@ -8,11 +8,11 @@ head:
 
 ## 稳定好用的 Netflix 合租平台推荐
 
-|    合租平台    |                         官方网站                         |    优惠码    |            价格表             |                         扫码直达                         |
-| :------------: | :------------------------------------------------------: | :----------: | :---------------------------: | :------------------------------------------------------: |
-|  **奈飞小铺**  |  [<Badge text="官网直达" />](https://s.theojs.cn/ihezu)  | **`theonf`** |  [查看](ihezu#奈飞小铺定价)   |    ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp)    |
-| **银河录像局** |   [<Badge text="官网直达" />](https://s.theojs.cn/yh)    |  **`Theo`**  | [查看](nf-video#chatgpt-plus) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
-|  **蜜糖商店**  | [<Badge text="官网直达" />](https://s.theojs.cn/metshop) | **`theomt`** | [查看](metshop#蜜糖商店定价)  |  ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp)  |
+|    合租平台    |                        官方网站                        |    优惠码    |            价格表             |                         扫码直达                         |
+| :------------: | :----------------------------------------------------: | :----------: | :---------------------------: | :------------------------------------------------------: |
+|  **奈飞小铺**  |  [<Badge text="官网直达" />](https://itheo.top/ihezu)  | **`theonf`** |  [查看](ihezu#奈飞小铺定价)   |    ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp)    |
+| **银河录像局** |   [<Badge text="官网直达" />](https://itheo.top/yh)    |  **`Theo`**  | [查看](nf-video#chatgpt-plus) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
+|  **蜜糖商店**  | [<Badge text="官网直达" />](https://itheo.top/metshop) | **`theomt`** | [查看](metshop#蜜糖商店定价)  |  ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp)  |
 
 ## 省心之选：Netflix 账号合租
 
