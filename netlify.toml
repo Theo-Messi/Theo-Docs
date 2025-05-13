@@ -14,11 +14,11 @@ cache-control = '''
     immutable'''
 
 [[redirects]]
-  from = "/llms.md"
-  status = 301
-  to = "/llms.txt"
+from = "/llms.md"
+status = 301
+to = "/llms.txt"
 
 [[redirects]]
-  from = "/llms-full.md"
-  status = 301
-  to = "/llms-full.txt"
+from = "/llms-full.md"
+status = 301
+to = "/llms-full.txt"

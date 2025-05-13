@@ -160,7 +160,7 @@ tx：华硕天选青色皮肤
 
 ## 相关链接
 
-- <Pill name="fancyss 更新日志" link="https://github.com/hq450/fancyss/blob/3.0/Changelog.txt" icon="catppuccin:changelog"  />
+- <Pill name="fancyss 更新日志" link="https://github.com/hq450/fancyss/blob/3.0/Changelog.txt" icon="mdi:github"  />
 - <Pill name="官改/梅改固件下载【官方网站】（最新固件）" link="https://www.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg"  />
 - <Pill name="官改/梅改固件下载【固件镜像】（次新固件）" link="https://fw.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg"  />
 

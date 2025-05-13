@@ -85,8 +85,9 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
 
 完成了账号的准备工作后，你可以通过以下方式购买家庭组会员资格：
 
-- **奈飞小铺**：访问我们推荐的 <Pill name="奈飞小铺" link="https://itheo.top/ihezu" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s"  /> 网站，进行付款购买家庭组会员资格。
+- **奈飞小铺**：访问 <Pill name="奈飞小铺" link="https://itheo.top/ihezu" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s"  /> 网站，进行付款购买家庭组会员资格。
 - **银河录像局**：访问 <Pill name="银河录像局" link="https://itheo.top/yh" image="https://nf.video/favicon.ico" /> 网站，进行付款购买家庭组会员资格。
+- **蜜糖商店**：访问 <Pill name="蜜糖商店" link="https://itheo.top/metshop" image="https://metshop.cn/img/simpLogo.1b5c58e1.png" /> 网站，进行付款购买家庭组会员资格。
 
 ### 3\. 确认权益
 
