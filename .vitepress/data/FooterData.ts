@@ -41,16 +41,16 @@ export const Footer_Data: FooterData = {
           name: '青云梯',
           icon: 'el:fire',
           color: '#FF5733',
-          link: 'https://s.theojs.cn/qyt'
+          link: 'https://itheo.top/qyt'
         },
-        { name: 'Totoro Cloud - 龙猫云', link: 'https://s.theojs.cn/totoro' },
-        { name: 'TNT Cloud', link: 'https://s.theojs.cn/tnt' },
-        { name: 'FlyingBird', link: 'https://s.theojs.cn/flyingbird' },
-        { name: '飞兔云', link: 'https://s.theojs.cn/feitu' },
-        { name: '银河录像局', link: 'https://s.theojs.cn/yh' },
-        { name: '奈飞小铺', link: 'https://s.theojs.cn/ihezu' },
-        { name: '蜜糖商店', link: 'https://s.theojs.cn/metshop' },
-        { name: 'SMS-Activate', link: 'https://s.theojs.cn/sms' }
+        { name: 'Totoro Cloud - 龙猫云', link: 'https://itheo.top/totoro' },
+        { name: 'TNT Cloud', link: 'https://itheo.top/tnt' },
+        { name: 'FlyingBird', link: 'https://itheo.top/flyingbird' },
+        { name: '飞兔云', link: 'https://itheo.top/feitu' },
+        { name: '银河录像局', link: 'https://itheo.top/yh' },
+        { name: '奈飞小铺', link: 'https://itheo.top/ihezu' },
+        { name: '蜜糖商店', link: 'https://itheo.top/metshop' },
+        { name: 'SMS-Activate', link: 'https://itheo.top/sms' }
       ]
     },
     {

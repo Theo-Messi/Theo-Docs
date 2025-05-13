@@ -22,7 +22,7 @@ hero:
     date: '2025年5月10号23点59分'
     # dateIcon: 'mdi:calendar-star'
     dateText: '活动截止日期'
-    link: https://s.theojs.cn/tnt
+    link: https://itheo.top/tnt
 
   actions:
     - theme: brand

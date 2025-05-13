@@ -14,10 +14,10 @@ head:
 
 :::
 <Links :items="[
-{ name: 'TNT Cloud 新人特惠85折！', desc: '活动即日起至2025年5月10号23时59分', image:'https://i.theojs.cn/docs/TNT.webp',link: 'https://s.theojs.cn/tnt' },
+{ name: 'TNT Cloud 新人特惠85折！', desc: '活动即日起至2025年5月10号23时59分', image:'https://i.theojs.cn/docs/TNT.webp',link: 'https://itheo.top/tnt' },
 ]" />
 
-## TNT Cloud简介 <Pill name="TNT Cloud官网" link="https://s.theojs.cn/tnt" image="https://i.theojs.cn/docs/TNT.webp" />
+## TNT Cloud简介 <Pill name="TNT Cloud官网" link="https://itheo.top/tnt" image="https://i.theojs.cn/docs/TNT.webp" />
 
 IPLC内网专线机场，原生 IP 节点，服务稳定可靠，是老牌机场的分站团队，也是海外团队，有专业的客服团队。全天在线维护客户，所有套餐不限速无倍率，所有套餐只有流量区别，有特色的季付限量包，低至10元每月，专门为用量小的用户设计（30元/季度，60G/月）
 
@@ -32,10 +32,10 @@ IPLC内网专线机场，原生 IP 节点，服务稳定可靠，是老牌机场
 季度以上自带折扣
 :::
 
-|  套餐类型  |  流量/月  | 价格/月 | 价格/季 | 价格/半年 | 价格/年 |                                              原生解锁                                               | 套餐购买                                         |
-| :--------: | :-------: | :-----: | :-----: | :-------: | :-----: | :-------------------------------------------------------------------------------------------------: | ------------------------------------------------ |
-| **轻量包** |  **60G**  |   N/A   |   ¥30   |    N/A    |   N/A   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://s.theojs.cn/tnt) |
-|  **VIP1**  | **110G**  |   ¥20   |   ¥54   |   ¥102    |  ¥192   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://s.theojs.cn/tnt) |
-|  **VIP2**  | **220G**  |   ¥40   |  ¥108   |   ¥204    |  ¥336   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://s.theojs.cn/tnt) |
-|  **VIP3**  | **460G**  |   ¥80   |  ¥216   |   ¥408    |  ¥768   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://s.theojs.cn/tnt) |
-|  **VIP4**  | **1100G** |  ¥160   |  ¥432   |   ¥816    |  ¥1536  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://s.theojs.cn/tnt) |
+|  套餐类型  |  流量/月  | 价格/月 | 价格/季 | 价格/半年 | 价格/年 |                                              原生解锁                                               | 套餐购买                                       |
+| :--------: | :-------: | :-----: | :-----: | :-------: | :-----: | :-------------------------------------------------------------------------------------------------: | ---------------------------------------------- |
+| **轻量包** |  **60G**  |   N/A   |   ¥30   |    N/A    |   N/A   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://itheo.top/tnt) |
+|  **VIP1**  | **110G**  |   ¥20   |   ¥54   |   ¥102    |  ¥192   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://itheo.top/tnt) |
+|  **VIP2**  | **220G**  |   ¥40   |  ¥108   |   ¥204    |  ¥336   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://itheo.top/tnt) |
+|  **VIP3**  | **460G**  |   ¥80   |  ¥216   |   ¥408    |  ¥768   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://itheo.top/tnt) |
+|  **VIP4**  | **1100G** |  ¥160   |  ¥432   |   ¥816    |  ¥1536  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://itheo.top/tnt) |

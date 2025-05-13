@@ -18,10 +18,10 @@ head:
 
 :::
 <Links :items="[
-{ name: '龙猫云春季51大促来了-低至48折起！', desc: '即日起至2025年5月7号23点59分', image:'https://i.theojs.cn/docs/20250419234613466.webp',link: 'https://s.theojs.cn/totoro' },
+{ name: '龙猫云春季51大促来了-低至48折起！', desc: '即日起至2025年5月7号23点59分', image:'https://i.theojs.cn/docs/20250419234613466.webp',link: 'https://itheo.top/totoro' },
 ]" />
 
-## 龙猫云简介 <Pill name="龙猫云官网" link="https://s.theojs.cn/totoro" image="https://i.theojs.cn/docs/20250419234613466.webp" />
+## 龙猫云简介 <Pill name="龙猫云官网" link="https://itheo.top/totoro" image="https://i.theojs.cn/docs/20250419234613466.webp" />
 
 Totoro Cloud 中文名为龙猫云，一家颇具实力的新机场，Shadowsocks 协议节点，IPLC 专线，对 Netflix、Disney+ 流媒体和 ChatGPT 提供很好的解锁支持。龙猫云机场官方提供了详细的视频、文档以及贴心的客服支持
 
@@ -39,9 +39,9 @@ Totoro Cloud 中文名为龙猫云，一家颇具实力的新机场，Shadowsock
 季度以上自带折扣
 :::
 
-| 套餐类型 |  流量/月  | 价格/月 | 价格/季 | 价格/半年 | 价格/年 |                                              原生解锁                                               | 套餐购买                                            |
-| :------: | :-------: | :-----: | :-----: | :-------: | :-----: | :-------------------------------------------------------------------------------------------------: | --------------------------------------------------- |
-| **VIP1** | **100G**  |   ¥15   |   ¥41   |    ¥77    |  ¥144   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://s.theojs.cn/totoro) |
-| **VIP2** | **200G**  |   ¥30   |   ¥81   |   ¥153    |  ¥288   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://s.theojs.cn/totoro) |
-| **VIP3** | **400G**  |   ¥60   |  ¥162   |   ¥306    |  ¥576   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://s.theojs.cn/totoro) |
-| **VIP4** | **1000G** |  ¥120   |  ¥324   |   ¥697    |  ¥1152  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://s.theojs.cn/totoro) |
+| 套餐类型 |  流量/月  | 价格/月 | 价格/季 | 价格/半年 | 价格/年 |                                              原生解锁                                               | 套餐购买                                          |
+| :------: | :-------: | :-----: | :-----: | :-------: | :-----: | :-------------------------------------------------------------------------------------------------: | ------------------------------------------------- |
+| **VIP1** | **100G**  |   ¥15   |   ¥41   |    ¥77    |  ¥144   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://itheo.top/totoro) |
+| **VIP2** | **200G**  |   ¥30   |   ¥81   |   ¥153    |  ¥288   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://itheo.top/totoro) |
+| **VIP3** | **400G**  |   ¥60   |  ¥162   |   ¥306    |  ¥576   | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://itheo.top/totoro) |
+| **VIP4** | **1000G** |  ¥120   |  ¥324   |   ¥697    |  ¥1152  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="购买" />](https://itheo.top/totoro) |

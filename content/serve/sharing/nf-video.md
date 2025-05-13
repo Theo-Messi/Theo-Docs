@@ -12,12 +12,12 @@ head:
 
 ## ChatGPT Plus <Badge text="优惠码: Theo" />
 
-如需购买**现成 ChatGPT 账号**及账号充值、**ChatGPT Plus**，可在 <Pill name="银河录像局" link="https://s.theojs.cn/yh" image="https://nf.video/favicon.ico" /> 进行购买；
+如需购买**现成 ChatGPT 账号**及账号充值、**ChatGPT Plus**，可在 <Pill name="银河录像局" link="https://itheo.top/yh" image="https://nf.video/favicon.ico" /> 进行购买；
 
-|                 产品                 | 价格  |                      合租链接                       |                         扫码直达                         |
-| :----------------------------------: | :---: | :-------------------------------------------------: | :------------------------------------------------------: |
-|        **ChatGPT**(普通账号)         | ￥50  | [<Badge text="立即购买" />](https://s.theojs.cn/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
-| **ChatGPT Plus**(开通 Plus 独立账号) | ￥350 | [<Badge text="立即购买" />](https://s.theojs.cn/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
+|                 产品                 | 价格  |                     合租链接                      |                         扫码直达                         |
+| :----------------------------------: | :---: | :-----------------------------------------------: | :------------------------------------------------------: |
+|        **ChatGPT**(普通账号)         | ￥50  | [<Badge text="立即购买" />](https://itheo.top/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
+| **ChatGPT Plus**(开通 Plus 独立账号) | ￥350 | [<Badge text="立即购买" />](https://itheo.top/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
 
 ::: tip 开通 ChatGPT Plus 后
 
@@ -30,9 +30,9 @@ head:
 
 ## Midjourney <Badge text="优惠码: Theo" />
 
-|      产品      |  价格   |                      合租链接                       |                         扫码直达                         |
-| :------------: | :-----: | :-------------------------------------------------: | :------------------------------------------------------: |
-| **Midjourney** | ￥42/月 | [<Badge text="立即购买" />](https://s.theojs.cn/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
+|      产品      |  价格   |                     合租链接                      |                         扫码直达                         |
+| :------------: | :-----: | :-----------------------------------------------: | :------------------------------------------------------: |
+| **Midjourney** | ￥42/月 | [<Badge text="立即购买" />](https://itheo.top/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
 
 ::: tip **Midjourney 介绍**
 是一个由同名研究实验室开发的人工智能程序，可根据文本生成图像，于 2022 年 7 月 12 日进入公开测试阶段，用户可透过 Discord 的机器人指令进行操作。该研究实验室由 Leap Motion 的创办人大卫·霍尔兹负责领导。
@@ -46,9 +46,9 @@ head:
 
 借助 Photoshop 中的 Adob​​e Firefly 生成式 AI 和其他人工智能驱动的工具，比以往更快地实现您的梦想，然后实现更大的梦想。
 
-|       产品       |    价格     |                      合租链接                       |                         扫码直达                         |
-| :--------------: | :---------: | :-------------------------------------------------: | :------------------------------------------------------: |
-| **Photoshop AI** | ￥60/3 个月 | [<Badge text="立即购买" />](https://s.theojs.cn/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
+|       产品       |    价格     |                     合租链接                      |                         扫码直达                         |
+| :--------------: | :---------: | :-----------------------------------------------: | :------------------------------------------------------: |
+| **Photoshop AI** | ￥60/3 个月 | [<Badge text="立即购买" />](https://itheo.top/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
 
 **相关链接** :<Pill name="官方介绍" link="https://www.adobe.com/products/photoshop/ai.html" icon="logos:adobe-photoshop" /><Pill name="免费试用" link="https://www.adobe.com/products/photoshop/ai.html#mini-plans-web-cta-photoshop-card" icon="logos:adobe-photoshop" />
 
@@ -69,13 +69,13 @@ head:
 
 ## Netflix/Disney+/HBO/Spotify/Youtube Premium（流媒体服务） <Badge text="优惠码: Theo" />
 
-|        产品         | 价格/年 | 折后/年 | 折合/月 |                      合租链接                       |                         扫码直达                         |
-| :-----------------: | :-----: | :-----: | :-----: | :-------------------------------------------------: | :------------------------------------------------------: |
-|     **Netflix**     |  ￥240  |  ￥228  |  ￥19   | [<Badge text="立即购买" />](https://s.theojs.cn/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
-|     **Disney+**     |  ￥144  | ￥136.8 | ￥11.4  | [<Badge text="立即购买" />](https://s.theojs.cn/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
-| **Youtube Premium** |  ￥120  |  ￥114  |  ￥9.5  | [<Badge text="立即购买" />](https://s.theojs.cn/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
-|     **HBO GO**      |  ￥180  |  ￥171  | ￥14.25 | [<Badge text="立即购买" />](https://s.theojs.cn/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
-|     **Spotify**     |  ￥144  | ￥136.8 | ￥11.4  | [<Badge text="立即购买" />](https://s.theojs.cn/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
+|        产品         | 价格/年 | 折后/年 | 折合/月 |                     合租链接                      |                         扫码直达                         |
+| :-----------------: | :-----: | :-----: | :-----: | :-----------------------------------------------: | :------------------------------------------------------: |
+|     **Netflix**     |  ￥240  |  ￥228  |  ￥19   | [<Badge text="立即购买" />](https://itheo.top/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
+|     **Disney+**     |  ￥144  | ￥136.8 | ￥11.4  | [<Badge text="立即购买" />](https://itheo.top/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
+| **Youtube Premium** |  ￥120  |  ￥114  |  ￥9.5  | [<Badge text="立即购买" />](https://itheo.top/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
+|     **HBO GO**      |  ￥180  |  ￥171  | ￥14.25 | [<Badge text="立即购买" />](https://itheo.top/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
+|     **Spotify**     |  ￥144  | ￥136.8 | ￥11.4  | [<Badge text="立即购买" />](https://itheo.top/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
 
 :::tip **选择银河录像局的优势**
 较之用爱发电，在茫茫人海找**合租搭子**，在银河录像局可以省去**花时间去找**的烦恼（由平台自行撮合，用户只管使用服务即可），一定程度上更方便快捷，服务质量更有保障；
@@ -84,9 +84,9 @@ head:
 
 ## 美区 Apple ID <Badge text="优惠码: Theo" />
 
-|       产品       | 价格 |                      合租链接                       |                         扫码直达                         |
-| :--------------: | :--: | :-------------------------------------------------: | :------------------------------------------------------: |
-| **美区 AppleID** | ￥30 | [<Badge text="立即购买" />](https://s.theojs.cn/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
+|       产品       | 价格 |                     合租链接                      |                         扫码直达                         |
+| :--------------: | :--: | :-----------------------------------------------: | :------------------------------------------------------: |
+| **美区 AppleID** | ￥30 | [<Badge text="立即购买" />](https://itheo.top/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
 
 ### 自行注册
 
