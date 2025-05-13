@@ -11,9 +11,10 @@ head:
 <Links
   :items="[
     {
-      name: 'GitHub 项目地址',
+      name: 'R探长Bot GitHub 项目地址',
       icon: { light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', },
-      link: 'https://github.com/semicons/java_oci_manage'
+      link: 'https://github.com/semicons/java_oci_manage',
+      desc: 'R探长Bot(oracle云/azure云)',
     }
   ]"
 />
@@ -21,10 +22,8 @@ head:
 - **VPS 系统：** VPS（可以科学上网）推荐系统 Ubuntu、Debian
 - **端口检查：** 确保 VPS 的 `9527` 端口开放！可以通过 <Pill name="端口扫描" link="https://tool.chinaz.com/port" image="https://csstools.chinaz.com/favicon.ico"  /> 检测
 
-<Box :items="[
-{ name: 'R探长的小助理',link: 'https://t.me/radiance_helper_bot',icon: 'logos:telegram',tag: 'BOT' },
-{ name: 'R探长',link: 'https://t.me/agentONE_R',icon: 'logos:telegram',tag: '频道' }
-]"/>
+<Pill name="R探长" link="https://t.me/agentONE_R" icon='logos:telegram' />
+<Pill name="R探长的小助理" link="https://t.me/radiance_helper_bot" icon='logos:telegram' />
 
 ## 获取 VPS INFO
 
