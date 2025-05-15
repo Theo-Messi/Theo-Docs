@@ -52,10 +52,10 @@ There is NO WARRANTY, to the extent permitted by law.
 
 GnuPG 需要构建用户标识以辨认您的密钥。
 
-真实姓名： Theo-messi
+真实姓名： Theo
 电子邮件地址： fanxiaobin422@gmail.com
 您选定了此用户标识：
-    “Theo-messi <fanxiaobin422@gmail.com>”
+    “Theo <fanxiaobin422@gmail.com>”
 
 更改姓名（N）、注释（C）、电子邮件地址（E）或确定（O）/退出（Q）？ o
 我们需要生成大量的随机字节。在质数生成期间做些其他操作（敲打键盘
