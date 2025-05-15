@@ -16,7 +16,6 @@ import {
   HomeFooter,
   HomeUnderline,
   ShareButton,
-  googleAnalytics,
   umamiAnalytics
 } from '@theojs/lumen'
 import '@theojs/lumen/theme'
@@ -37,7 +36,6 @@ export default {
     })
   },
   enhanceApp: ({ app }) => {
-    googleAnalytics({ id: 'G-6QN23XNMXB' })
     umamiAnalytics({
       id: 'ede95de6-e37d-4364-b1cb-bc4af35b5318',
       src: 'https://u.theojs.cn/script.js'
