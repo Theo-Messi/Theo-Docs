@@ -14,6 +14,7 @@ head:
 | `Merge`        | 合并两个分支，保留所有历史记录。                                                   |
 | `Rebase`       | 将一个分支的更改应用到另一个分支的顶部，形成线性历史。                             |
 | `Reset --soft` | 撤销最后一次提交，但保留更改在工作目录和暂存区，适合需要撤销合并但保留修改的场景。 |
+| `Fixup`        | 创建修复某次提交的临时提交，可配合 `rebase -i` 自动合并，简化历史记录。            |
 
 ## Merge 的使用方法
 
@@ -31,7 +32,7 @@ git add file.txt
 git commit -m "Changes on temp-branch"
 ```
 
-**切换回main并合并临时分支**
+**切换回 main 并合并临时分支**
 
 ```sh
 git checkout main
@@ -66,7 +67,7 @@ git add file.txt
 git commit -m "Changes on temp-branch"
 ```
 
-**切换回main并进行rebase**
+**切换回 main 并进行 rebase**
 
 ```sh
 git checkout main
@@ -85,9 +86,9 @@ git push origin main
 git branch -d temp-branch
 ```
 
-## Reset --soft的使用方法
+## Reset --soft 的使用方法
 
-**在main分支上做更改并提交**
+**在 main 分支上做更改并提交**
 
 ```sh
 echo "Some changes" > file.txt
@@ -110,3 +111,39 @@ git commit -m "Updated changes on main"
 
 git push origin main
 ```
+
+## Fixup 的使用方法
+
+**查看提交历史并找到要修复的提交的哈希**
+
+```sh
+git log --oneline
+```
+
+**进行修改并创建 fixup 提交**
+
+```sh
+# 修改代码
+git add .
+
+# 用 --fixup 创建修复指定提交的临时提交
+git commit --fixup <commit-hash>
+```
+
+**使用自动 rebase 将 fixup 合并进目标提交**
+
+```sh
+git rebase -i --autosquash <commit-hash>^
+```
+
+> 注意：将 `<commit-hash>` 替换为目标提交的哈希值。git rebase 会自动把 fixup 提交合并到该目标提交中。
+
+**强制推送更新后的历史**
+
+```sh
+git push --force-with-lease
+```
+
+---
+
+通过合理使用 `fixup` 与 `rebase --autosquash`，可以让 Git 历史更简洁、易读。
