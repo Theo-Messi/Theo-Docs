@@ -150,10 +150,10 @@ export const head: HeadConfig[] = [
       href: '/android-icon-192x192.webp'
     }
   ],
-  ['meta', { name: 'author', content: 'Theo-Messi' }],
-  ['meta', { name: 'copyright', content: 'Theo-Messi' }],
+  ['meta', { name: 'author', content: 'Theo' }],
+  ['meta', { name: 'copyright', content: 'Theo' }],
   ['meta', { property: 'og:type', content: 'website' }],
-  ['meta', { property: 'og:locale', content: 'zh-CN' }],
+  ['meta', { property: 'og:locale', content: 'zh-Hans' }],
   ['meta', { property: 'og:site_name', content: 'Theo Docs' }],
   ['meta', { property: 'og:title', content: 'Theo Docs' }],
   ['meta', { property: 'og:url', content: 'https://doc.theojs.cn/' }],
@@ -169,8 +169,6 @@ export const head: HeadConfig[] = [
         '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、青云梯、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
     }
   ],
-  ['meta', { name: 'robots', content: 'index, follow' }],
-  ['meta', { name: 'evisit-after', content: '1 day' }],
   [
     'meta',
     {
@@ -207,25 +205,12 @@ export const head: HeadConfig[] = [
         '流媒体, Netflix, Disney+, HBO Max, Spotify, YouTube, 解锁, 流媒体观影, 奈飞, 青云梯, 奈飞小铺, 银河录像局'
     }
   ],
-  ['link', { rel: 'canonical', href: 'https://doc.theojs.cn/' }],
+
   [
-    'script',
+    'meta',
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        url: 'https://doc.theojs.cn/',
-        name: 'Theo-Docs',
-        description:
-          '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、青云梯、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。',
-        author: { '@type': 'Person', name: 'Theo-Messi' },
-        image: 'https://doc.theojs.cn/avatar.webp',
-        publisher: {
-          '@type': 'Organization',
-          name: 'Theo-Messi'
-        }
-      })
+      name: 'google-site-verification',
+      content: 'bOXLe1lrqePxxyksBSbMgqbELMkTX9Q_FkyEuVwTobI'
     }
   ]
 ]
