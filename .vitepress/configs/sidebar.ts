@@ -23,7 +23,7 @@ export function Sidebar_notes(): SidebarItem[] {
         { text: 'PicGo + Github 搭建图床', link: 'build-picture-bed' },
         { text: 'GitHub Actions 工作流程', link: 'github-actions' },
         { text: 'VS Code 使用技巧', link: 'vscode' },
-        { text: '为项目添加 Prettier 格式化代码', link: 'prettier' },
+        { text: '为项目添加 Prettier 及规范提交信息工具', link: 'prettier' },
         { text: '使用 GPG 签名 Git Commit', link: 'gpg' },
         { text: '使用 nvm 管理不同版本的 node', link: 'nvm' },
         { text: '优化 iOS/Android 来电信息界面', link: 'vcards' },
