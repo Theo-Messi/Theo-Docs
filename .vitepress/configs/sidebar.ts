@@ -63,7 +63,8 @@ export function Sidebar_Asus(): SidebarItem[] {
         { text: 'fancyss', link: 'fancyss' },
         { text: 'Merlin Clash', link: 'merlin-clash' },
         { text: '官改/梅林固件 常用命令集合', link: 'common-commands' },
-        { text: '提示检测非法关键词', link: 'illegal-keywords' }
+        { text: '提示检测非法关键词', link: 'illegal-keywords' },
+        { text: '关闭降级检查', link: 'disable-downgrade-check' }
       ]
     }
   ]
