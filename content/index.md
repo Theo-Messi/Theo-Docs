@@ -12,6 +12,10 @@ hero:
   image:
     src: index/home.webp
     alt: home
+    loading: eager
+    fetchpriority: high
+    width: 320
+    height: 320
 
   prelink:
     # content: '<span class="promo-text" style="display: inline-flex; align-items: center;"><img src="https://i.theojs.cn/logo/qyt.webp" style="height:0.65em; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
