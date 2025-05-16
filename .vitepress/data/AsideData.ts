@@ -3,7 +3,7 @@ import type { AsideItem } from '@theojs/lumen'
 export const Aside_Data: AsideItem[] = [
   {
     link: 'https://itheo.top/totoro',
-    image: 'https://i.theojs.cn/docs/20250419234613466.webp',
+    image: 'https://i.theojs.cn/logo/totoro.webp',
     promo: '龙猫云51大促-低至48折！',
     info1:
       '月付 <span class="promo-text"> 85折 </span>优惠码 <span class="promo-text"> spring85 </span>',
@@ -28,7 +28,7 @@ export const Aside_Data: AsideItem[] = [
   },
   {
     link: 'https://itheo.top/flyingbird',
-    image: 'https://i.theojs.cn/docs/202409111237242.webp',
+    image: 'https://i.theojs.cn/logo/flyingbird.webp',
     promo: 'FlyingBird 五一活动开启咯',
     info1:
       '月付 <span class="promo-text"> 85折 </span>优惠码 <span class="promo-text"> fb255185 </span>',
@@ -37,12 +37,12 @@ export const Aside_Data: AsideItem[] = [
   },
   // {
   //   link: 'https://itheo.top/totoro',
-  //   image: 'https://i.theojs.cn/docs/20250419234613466.webp',
+  //   image: 'https://i.theojs.cn/logo/totoro.webp',
   //   promo: 'Totoro Cloud - 龙猫云'
   // },
   // {
   //   link: 'https://itheo.top/feitu',
-  //   image: 'https://飞兔.com/img/logo.png',
+  //   image: 'https://i.theojs.cn/logo/feitu.webp',
   //   promo: '飞兔云 双11 狂欢来袭！',
   //   info1:
   //     '全场<span style="color: var(--vp-c-brand-3)"> 88 </span>折！全场<span style="color: var(--vp-c-brand-3)"> 88 </span>折！',
@@ -60,12 +60,12 @@ export const Aside_Data: AsideItem[] = [
   // },
   // {
   //   link: 'https://itheo.top/flyingbird',
-  //   image: 'https://i.theojs.cn/docs/202409111237242.webp',
+  //   image: 'https://i.theojs.cn/logo/flyingbird.webp',
   //   promo: 'FlyingBird'
   // },
   {
     link: 'https://itheo.top/feitu',
-    image: 'https://飞兔.com/img/logo.png',
+    image: 'https://i.theojs.cn/logo/feitu.webp',
     promo: '飞兔云'
   },
   {
@@ -75,7 +75,7 @@ export const Aside_Data: AsideItem[] = [
   },
   {
     link: 'https://github.com/Theo-Messi/lumen',
-    image: 'https://lumen.theojs.cn/Logo.webp',
+    image: 'https://i.theojs.cn/logo/Lumen-Logo.webp',
     name: '@theojs/Lumen',
     hide1: '集成 Vue 功能组件',
     hide2: 'VitePress 主题美化'
