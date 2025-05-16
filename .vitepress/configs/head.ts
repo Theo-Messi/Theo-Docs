@@ -212,5 +212,12 @@ export const head: HeadConfig[] = [
       name: 'google-site-verification',
       content: 'bOXLe1lrqePxxyksBSbMgqbELMkTX9Q_FkyEuVwTobI'
     }
+  ],
+  [
+    'meta',
+    {
+      name: 'google-site-verification',
+      content: 'bOXLe1lrqePxxyksBSbMgqbELMkTX9Q_FkyEuVwTobI'
+    }
   ]
 ]
