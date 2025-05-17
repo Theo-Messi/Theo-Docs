@@ -9,7 +9,7 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局 飞兔云 TNT Cloud
 ---
 
-:::tip TNT Cloud 2025五一特惠！！！
+<!-- :::tip TNT Cloud 2025五一特惠！！！
 
 - 全套餐推出8折优惠，优惠码：**`MayDay80`**
 - 商店套餐月付以上自带折扣，配合优惠码购买可以享受折上折，3年付更可享受**4.8**折优惠，心动不如行动
@@ -18,7 +18,7 @@ head:
 :::
 <Links :items="[
 { name: 'TNT Cloud 新人特惠85折！', desc: '活动即日起至2025年5月10号23时59分', image:'https://i.theojs.cn/docs/TNT.webp',link: 'https://itheo.top/tnt' },
-]" />
+]" /> -->
 
 ## TNT Cloud简介 <Pill name="TNT Cloud官网" link="https://itheo.top/tnt" image="https://i.theojs.cn/docs/TNT.webp" />
 
