@@ -19,9 +19,11 @@ head:
 
 - 每个账号活动周期内只能使用3次优惠码
 
+**活动时间：即日至2025年5月31号23点59分**
 :::
+
 <Links :items="[
-{ name: '龙猫云春季51大促来了-低至48折起！', desc: '即日起至2025年5月7号23点59分', image:'https://i.theojs.cn/logo/totoro.webp',link: 'https://itheo.top/totoro' },
+{ name: '龙猫云春季51大促来了-低至48折起！', desc: '即日起至2025年5月31号23点59分', image:'https://i.theojs.cn/logo/totoro.webp',link: 'https://itheo.top/totoro' },
 ]" />
 
 ## 龙猫云简介 <Pill name="龙猫云官网" link="https://itheo.top/totoro" image="https://i.theojs.cn/logo/totoro.webp" />

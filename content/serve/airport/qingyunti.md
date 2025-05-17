@@ -9,7 +9,7 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局 飞兔云 青云梯
 ---
 
-:::tip 青云梯 51劳动节活动开启!
+<!-- :::tip 青云梯 51劳动节活动开启!
 
 - 月/季/半年付 85折 , 优惠码：**`wuyi85`**
 - 年付8折（站内折上折，高达64折 ）优惠码：**`wuyi80`**
@@ -20,7 +20,7 @@ head:
 :::
 <Links :items="[
 { name: '青云梯 51劳动节活动开启!', desc:'2025年04月21号0点0分至2025年05月07号', image:'https://i.theojs.cn/logo/qyt.webp', link: 'https://itheo.top/qyt' },
-]" />
+]" /> -->
 
 ## 青云梯 简介 <Pill name="青云梯官网" link="https://itheo.top/qyt" image="https://i.theojs.cn/logo/qyt.webp" />
 

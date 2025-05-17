@@ -9,16 +9,16 @@ head:
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局 飞兔云
 ---
 
-:::tip FlyingBird 五一活动开启咯！
+:::tip FlyingBird 520&618 活动继续启航！
 
-- 月/季/半年付 85折 , 优惠码：**`fb255185`** 可重复使用5次
-- 年付8折（站内折上折，高达64折 ）优惠码：**`fb255180`** 可重复使用5次
+- 月/季/半年付 85折 , 优惠码：**`fb2561885`** 可重复使用5次
+- 年付8折（站内折上折，高达64折 ）优惠码：**`fb2561880`** 可重复使用5次
 
-**活动时间：即日至2025年5月16日23点59分**
+**活动时间：即日至2025年6月20号23点59分**
 
 :::
 <Links :items="[
-{ name: 'FlyingBird 五一活动开启咯！', image:'https://i.theojs.cn/logo/flyingbird.webp', desc:'活动时间：即日至2025年5月16日23点59分',link: 'https://itheo.top/flyingbird' },
+{ name: 'FlyingBird 520&618 活动继续启航！', image:'https://i.theojs.cn/logo/flyingbird.webp', desc:'活动时间：即日至2025年6月20号23点59分',link: 'https://itheo.top/flyingbird' },
 ]" />
 
 ## FlyingBird 简介 <Pill name="FlyingBird官网" link="https://itheo.top/flyingbird" image="https://i.theojs.cn/logo/flyingbird.webp" />
