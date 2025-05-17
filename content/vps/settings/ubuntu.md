@@ -14,23 +14,21 @@ head:
 <Pill name="Ubuntu" link="https://cn.ubuntu.com/download/desktop" :icon="{ light: 'skill-icons:ubuntu-light', dark: 'skill-icons:ubuntu-dark' }"/>
 <Pill name="Debian" link="https://www.debian.org/" :icon="{ light: 'skill-icons:debian-light', dark: 'skill-icons:debian-dark' }"/>
 
-## 开启SSH服务远程登录
+## 开启 SSH 服务远程登录
 
-#### 安装net-tools和openssh-server
+#### 安装 net-tools 和 openssh-server
 
 ```sh
-sudo apt install net-tools
-sudo apt install openssh-server
+sudo apt install net-tools openssh-server
 ```
 
-#### 查看是否开启ssh服务
+#### 查看是否开启 ssh 服务
 
 ```sh
 dpkg -l | grep ssh
-
 ```
 
-如果看到 `sshd` 那说明 `ssh-server` 已经启动了 如果没有则可以这样启动：
+如果看到 `sshd`，说明 `ssh-server` 已经启动。如果没有可执行以下命令启动：
 
 ```sh
 sudo /etc/init.d/ssh start
@@ -48,15 +46,23 @@ sudo apt install vim htop
 
 ### 编辑文件
 
-```sh
-vi /etc/apt/sources.list
+::: code-group
+
+```sh [Ubuntu]
+sudo vim /etc/apt/sources.list.d/ubuntu.sources
 ```
+
+```sh [Debian]
+sudo vim /etc/apt/sources.list
+```
+
+:::
 
 ### 镜像源地址
 
 ::: code-group
 
-```sh [Ubuntu镜像源]
+```sh [Ubuntu]
 deb https://mirrors.aliyun.com/ubuntu/ noble main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ noble main restricted universe multiverse
 
@@ -71,18 +77,20 @@ deb-src https://mirrors.aliyun.com/ubuntu/ noble-updates main restricted univers
 
 deb https://mirrors.aliyun.com/ubuntu/ noble-backports main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ noble-backports main restricted universe multiverse
-
 ```
 
-```sh [Debian镜像源]
-deb https://mirrors.aliyun.com/debian/ bullseye main non-free contrib
-deb-src https://mirrors.aliyun.com/debian/ bullseye main non-free contrib
-deb https://mirrors.aliyun.com/debian-security/ bullseye-security main
-deb-src https://mirrors.aliyun.com/debian-security/ bullseye-security main
-deb https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib
-deb-src https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib
-deb https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib
-deb-src https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib
+```sh [Debian]
+deb https://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+
+deb https://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+deb-src https://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+
+deb https://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
+
+deb https://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware
 ```
 
 :::
@@ -101,24 +109,6 @@ sudo apt upgrade
 ```sh
 sudo apt --purge remove thunderbird totem rhythmbox empathy brasero simple-scan gnome-mahjongg aisleriot gnome-mines cheese transmission-common gnome-orca gnome-sudoku remmina
 ```
-
-根据个人习惯自行决定是否删除
-
-- remmina 远程桌面
-- libreoffice 办公软件
-- thunderbird 邮件客户端
-- totem 视频播放
-- rhythmbox 音乐播放器
-- \*empathy 即时通讯软件
-- \*brasero 光盘刻录软件
-- simple-scan 文档扫描仪
-- gnome-mahjongg 对对碰游戏
-- aisleriot 接龙游戏
-- gnome-mines 扫雷
-- cheese 茄子(拍照)
-- transmission-common bt下载
-- \*gnome-orca 屏幕阅读器
-- gnome-sudoku 数独
 
 ## 自动卸载不需要的依赖
 
@@ -195,7 +185,7 @@ passwd #修改密码
 ### 修改 ssh 配置文件
 
 ```bash
-vi /etc/ssh/sshd_config #编辑文件
+vim /etc/ssh/sshd_config #编辑文件
 PermitRootLogin yes #默认为no，需要开启root用户访问改为yes
 PasswordAuthentication yes #默认为no，改为yes开启密码登陆
 ```
@@ -214,15 +204,59 @@ reboot    #重启服务器
 
 ### 备份当前的软件源列表
 
-```sh
+::: code-group
+
+```sh [Ubuntu]
+sudo cp /etc/apt/sources.list.d/ubuntu.sources /etc/apt/sources.list.d/ubuntu.sources.bak
+```
+
+```sh [Debian]
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 ```
 
+:::
+
+### 编辑源配置文件
+
+::: code-group
+
+```sh [Ubuntu]
+sudo vim /etc/apt/sources.list.d/ubuntu.sources
+```
+
+```sh [Debian]
+sudo vim /etc/apt/sources.list
+```
+
+:::
+
 ### 恢复默认的软件源
 
-```sh
-sudo sh -c 'echo "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main restricted universe multiverse" > /etc/apt/sources.list'
+::: code-group
+
+```sh [Ubuntu]
+Types: deb-src
+URIs: http://archive.ubuntu.com/ubuntu
+Suites: noble noble-updates noble-backports noble-security
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 ```
+
+```sh [Debian]
+deb https://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+
+deb https://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+deb-src https://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+
+deb https://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
+
+deb https://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware
+```
+
+:::
 
 ### 更新软件包缓存
 
