@@ -20,7 +20,7 @@ const config: CzVinylConfig = {
   typeQuestion: '请选择提交类型:',
   scopeQuestion: '请选择修改范围（可选）:',
   skipScope: false,
-  scopes: ['', 'types', 'hooks', 'utils', 'components', 'views', 'store'],
+  // scopes: ['', 'types', 'hooks', 'utils', 'components', 'views', 'store'],
   ticketIdQuestion: '请输入关联的任务号（可选）:',
   skipTicketId: true,
   subjectQuestion: '请简要描述提交内容（必填）:',
