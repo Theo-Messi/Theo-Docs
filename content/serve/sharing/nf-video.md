@@ -15,7 +15,7 @@ head:
 
 ## ChatGPT Plus <Badge text="优惠码: Theo" />
 
-如需购买**现成 ChatGPT 账号**及账号充值、**ChatGPT Plus**，可在 <Pill name="银河录像局" link="https://itheo.top/yh" image="https://nf.video/favicon.ico" /> 进行购买；
+如需购买**现成 ChatGPT 账号**及账号充值、**ChatGPT Plus**，可在 <Pill name="银河录像局" link="https://itheo.top/yh" image="https://nf.video/favicon.ico" alt="银河录像局图标" /> 进行购买；
 
 |                 产品                 | 价格  |                     合租链接                      |                         扫码直达                         |
 | :----------------------------------: | :---: | :-----------------------------------------------: | :------------------------------------------------------: |
@@ -53,7 +53,7 @@ head:
 | :--------------: | :---------: | :-----------------------------------------------: | :------------------------------------------------------: |
 | **Photoshop AI** | ￥60/3 个月 | [<Badge text="立即购买" />](https://itheo.top/yh) | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
 
-**相关链接** :<Pill name="官方介绍" link="https://www.adobe.com/products/photoshop/ai.html" icon="logos:adobe-photoshop" /><Pill name="免费试用" link="https://www.adobe.com/products/photoshop/ai.html#mini-plans-web-cta-photoshop-card" icon="logos:adobe-photoshop" />
+**相关链接** :<Pill name="官方介绍" link="https://www.adobe.com/products/photoshop/ai.html" icon="logos:adobe-photoshop" alt="photoshop图标" /><Pill name="免费试用" link="https://www.adobe.com/products/photoshop/ai.html#mini-plans-web-cta-photoshop-card" icon="logos:adobe-photoshop" alt="photoshop图标" />
 
 ::: tip 更多人工智能驱动的 Photoshop 工具
 
@@ -93,10 +93,10 @@ head:
 
 ### 自行注册
 
-1. <Pill name="Apple ID" link="https://appleid.apple.com/account" icon="simple-icons:apple"  />
+1. <Pill name="Apple ID" link="https://appleid.apple.com/account" icon="simple-icons:apple" alt="apple logo" />
 2. 国家或地区选择美国（United States/USA）
 3. 生日务必大于 18 岁
-4. 一个可用的 <Pill name="163 邮箱" link="https://mail.163.com/" icon="arcticons:netease-mail" color="#f41d1d" />/<Pill name="Outlook 邮箱" link="https://outlook.live.com/" icon="vscode-icons:file-type-outlook"  />
+4. 一个可用的 <Pill name="163 邮箱" link="https://mail.163.com/" icon="arcticons:netease-mail" color="#f41d1d" alt="邮箱图标" />/<Pill name="Outlook 邮箱" link="https://outlook.live.com/" icon="vscode-icons:file-type-outlook" alt="outlook图标" />
 5. 账单地址填写：如下
 
 ::: tip **可选择的五个免税州**

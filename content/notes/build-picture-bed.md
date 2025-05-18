@@ -11,8 +11,8 @@ head:
 
 ## 准备工作
 
-<Pill name="注册 Github 账号" link="https://github.com/" :icon="{ light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', }" />
-<Pill name="下载 PicGo" link="https://molunerfinn.com/PicGo/" image="https://molunerfinn.com/PicGo/imgs/256x256--icons.png"  />
+<Pill name="注册 Github 账号" link="https://github.com/" :icon="{ light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', }" alt="github图标" />
+<Pill name="下载 PicGo" link="https://molunerfinn.com/PicGo/" image="https://molunerfinn.com/PicGo/imgs/256x256--icons.png"  alt="picgo图标" />
 
 ## 创建新仓库
 
@@ -20,7 +20,7 @@ head:
 
 ## 生成 Token
 
-- <Pill name="生成 Token" link="https://github.com/settings/tokens" icon="oui:token-key"  />
+- <Pill name="生成 Token" link="https://github.com/settings/tokens" icon="oui:token-key"  alt="github token logo" />
 - 点击左侧的 `Tokens（classic）`
 - 再点击 `Generate new token（classic）`
 
@@ -81,7 +81,7 @@ ImgBot 默认是无损压缩的，可以按需进行配置为有损压缩，对�
 }
 ```
 
-还有更多配置项，完整说明请见 <Pill name="官方文档" link="https://imgbot.net/docs/#configuration" image="https://imgbot.net/images/128x128_circle.png"  />。
+还有更多配置项，完整说明请见 <Pill name="官方文档" link="https://imgbot.net/docs/#configuration" image="https://imgbot.net/images/128x128_circle.png"  alt="imgbot图标" />。
 
 ### Github Actions 自动合并 ImgBot 的 pr
 
@@ -134,7 +134,7 @@ jobs:
 
 ## Vercel/Netlify 加速访问(二选一)
 
-**使用 GitHub 账户登陆** <Pill name="Vercel" link="https://vercel.com/" :icon="{ light: 'skill-icons:vercel-dark', dark: 'skill-icons:vercel-light' }" />
+**使用 GitHub 账户登陆** <Pill name="Vercel" link="https://vercel.com/" :icon="{ light: 'skill-icons:vercel-dark', dark: 'skill-icons:vercel-light' }" alt="vercel图标" />
 
 ![PicGo](https://i.theojs.cn/docs/20240102212030.webp '添加项目')
 

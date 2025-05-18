@@ -11,13 +11,13 @@ head:
 
 ## 华硕原厂固件
 
-华硕原厂固件即华硕路由器官方固件，其代号为 Asuswrt，官方固件可以在 <Pill name="华硕官方下载中心" link="https://www.asus.com.cn/support/Download-Center/" icon="simple-icons:asus"  /> 下载到。
+华硕原厂固件即华硕路由器官方固件，其代号为 Asuswrt，官方固件可以在 <Pill name="华硕官方下载中心" link="https://www.asus.com.cn/support/Download-Center/" icon="simple-icons:asus" alt="asus icon" /> 下载到。
 
 一般华硕官方固件的版本号格式为： `3.0.0.4.384.9173` 、 `3.0.0.4.386.41700`
 
 当然也有类似这样的版本号： `9.0.0.4_386_55919` ，`9.0.0.4` 字样开头的固件版本，是华硕官方出品的测试固件
 
-一般也能在华硕官方下载中心下载到，或者在 <Pill name="Small Net Builder 论坛的 Asuswrt 板块" link="https://www.snbforums.com/forums/asuswrt-official.51/" image="https://www.snbforums.com/data/assets/logo/snb_new_round.jpg"  /> 下载到。
+一般也能在华硕官方下载中心下载到，或者在 <Pill name="Small Net Builder 论坛的 Asuswrt 板块" link="https://www.snbforums.com/forums/asuswrt-official.51/" image="https://www.snbforums.com/data/assets/logo/snb_new_round.jpg"  alt="Small Net Builder icon" /> 下载到。
 
 ## 华硕官改固件
 
@@ -41,7 +41,7 @@ head:
 
 ## G 版梅林固件
 
-另外一位开发者：**gnuton 大神** <Pill name="G版梅林固件源码" link="https://github.com/gnuton/asuswrt-merlin.ng" :icon="{ light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', }" />，在原版梅林代码的基础上，添加了更多机型的支持，最开始注意到他的项目是因为他做了 DSL-AX82U 的梅林固件。
+另外一位开发者：**gnuton 大神** <Pill name="G版梅林固件源码" link="https://github.com/gnuton/asuswrt-merlin.ng" :icon="{ light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', }" alt="github icon" />，在原版梅林代码的基础上，添加了更多机型的支持，最开始注意到他的项目是因为他做了 DSL-AX82U 的梅林固件。
 
 后来 gnuton 大神在源代码和硬件上都得到了华硕的进一步支持。所以又相继做了 TUF-AX5400、RT-AX82U、ZenWiFi_XT8 的梅林固件，相对于原版梅林固件，这里我愿意称之为 **G 版梅林固件** 。
 
@@ -106,5 +106,5 @@ JFFS 分区是华硕路由器的一个重要分区，因为该分区的可读写
 ## SSH 使用
 
 1.  **启用 SSH：** 在路由器后台的 `[系统管理]` - `[系统设置]` 里，将[启用 SSH]更改为 `LAN only` ，将端口号设置为 `22` 或者其它数字，点击页面下方 `[应用本页面设置]` 保存更改；
-2.  **登录 SSH：** 下载 SSH 软件，如 <Pill name="putty" link="https://the.earth.li/~sgtatham/putty/0.74/w64/putty.exe" icon="devicon:putty" /> ，运行后在 Host Name（or IP address）处输入路由器的局域网 IP 地址，如：`192.168.50.1` 或者 `router.asus.com` ，端口为上一步中[SSH 端口]中的端口，如果没有更改，则为 `22` ，点击[Open]，如果有弹出 Putty Security Alert，点击[是]；在界面的 `login as` 后面输入 `路由器的登录帐号` 后回车，然后在 password: 提示符后输入 `路由器登录密码` 后回车（记住：输入密码的时候不会有任何显示，输入完成后直接回车即可），完成登录。
+2.  **登录 SSH：** 下载 SSH 软件，如 <Pill name="putty" link="https://the.earth.li/~sgtatham/putty/0.74/w64/putty.exe" icon="devicon:putty" alt="putty icon" /> ，运行后在 Host Name（or IP address）处输入路由器的局域网 IP 地址，如：`192.168.50.1` 或者 `router.asus.com` ，端口为上一步中[SSH 端口]中的端口，如果没有更改，则为 `22` ，点击[Open]，如果有弹出 Putty Security Alert，点击[是]；在界面的 `login as` 后面输入 `路由器的登录帐号` 后回车，然后在 password: 提示符后输入 `路由器登录密码` 后回车（记住：输入密码的时候不会有任何显示，输入完成后直接回车即可），完成登录。
 3.  **键入命令：** 键入命令时建议将系统输入法切换为英文，也可以复制命令后使用右键即可粘贴命令，粘贴完毕后按回车即可执行命令。

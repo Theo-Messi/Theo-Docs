@@ -17,10 +17,10 @@ head:
 
 :::
 <Links :items="[
-{ name: 'TNT Cloud 新人特惠85折！', desc: '活动即日起至2025年5月10号23时59分', image:'https://i.theojs.cn/docs/TNT.webp',link: 'https://itheo.top/tnt' },
+{ name: 'TNT Cloud 新人特惠85折！', desc: '活动即日起至2025年5月10号23时59分', image:'https://i.theojs.cn/docs/TNT.webp',link: 'https://itheo.top/tnt', alt:'TNT Cloud logo' },
 ]" /> -->
 
-## TNT Cloud简介 <Pill name="TNT Cloud官网" link="https://itheo.top/tnt" image="https://i.theojs.cn/docs/TNT.webp" />
+## TNT Cloud简介 <Pill name="TNT Cloud官网" link="https://itheo.top/tnt" image="https://i.theojs.cn/docs/TNT.webp" alt="TNT Cloud logo" />
 
 IPLC内网专线机场，原生 IP 节点，服务稳定可靠，是老牌机场的分站团队，也是海外团队，有专业的客服团队。全天在线维护客户，所有套餐不限速无倍率，所有套餐只有流量区别，有特色的季付限量包，低至10元每月，专门为用量小的用户设计（30元/季度，60G/月）
 

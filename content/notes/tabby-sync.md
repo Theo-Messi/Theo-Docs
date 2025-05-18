@@ -17,7 +17,7 @@ head:
 
 ## 新建 Github token
 
-访问 **Github token** 页面 <Pill name="生成 Token" link="https://github.com/settings/tokens" icon="oui:token-key"  />
+访问 **Github token** 页面 <Pill name="生成 Token" link="https://github.com/settings/tokens" icon="oui:token-key" alt="github token icon" />
 
 ![Tabby](https://i.theojs.cn/docs/202404281757509.webp '新建 Github token')
 

@@ -24,14 +24,14 @@ head:
 可直接下载 ISO 镜像即可，如果你需要封装驱动，那就下载 `Offline Bundle离线捆绑包`
 
 <Links :items="[
-{ name: 'ESXi 官网下载', link: 'https://www.broadcom.cn/', image: 'https://i.theojs.cn/logo/ESXi.webp' },
+{ name: 'ESXi 官网下载', link: 'https://www.broadcom.cn/', image: 'https://i.theojs.cn/logo/ESXi.webp', alt:'esxi logo' },
 ]" />
 
 ### 写盘工具
 
 <Box :items="[
-{ name: 'Ventoy',link: 'https://github.com/ventoy/Ventoy/releases',image: 'https://i.theojs.cn/logo/ventoy.webp',  tag: '官网下载' },
-{ name: 'Balenaetcher',link: 'https://etcher.balena.io/', image: 'https://i.theojs.cn/logo/Balenaetcher.webp',  tag: '官网下载' }
+{ name: 'Ventoy',link: 'https://github.com/ventoy/Ventoy/releases',image: 'https://i.theojs.cn/logo/ventoy.webp',  tag: '官网下载', alt:'ventoy logo' },
+{ name: 'Balenaetcher',link: 'https://etcher.balena.io/', icon: 'logos:balena',  tag: '官网下载', alt:'Balenaetcher logo' }
 ]"/>
 
 ### StarWind V2V Converter 程序
@@ -43,7 +43,7 @@ head:
 下载需要填写邮箱，下载地址会发送到你的邮箱里。
 
 <Links :items="[
-{ name: 'StarWind V2V Converter 官网下载', link: 'https://www.starwindsoftware.com/starwind-v2v-converter',image:'https://www.starwindsoftware.com/resource-library/wp-content/uploads/2022/02/favicon-16.png'  },
+{ name: 'StarWind V2V Converter 官网下载', link: 'https://www.starwindsoftware.com/starwind-v2v-converter',image:'https://www.starwindsoftware.com/resource-library/wp-content/uploads/2022/02/favicon-16.png', alt: 'StarWind V2V Converter logo'  },
 ]" />
 
 ## ESXi写盘

@@ -10,7 +10,7 @@ head:
 ---
 
 <Links :items="[
-{ name: '官网下载 Windows 11', icon:'logos:microsoft-windows-icon', link: 'https://www.microsoft.com/zh-cn/software-download/windows11' },
+{ name: '官网下载 Windows 11', icon:'logos:microsoft-windows-icon', link: 'https://www.microsoft.com/zh-cn/software-download/windows11', alt: 'win11 logo' },
 ]" />
 
 ## 选择创建新的虚拟机
