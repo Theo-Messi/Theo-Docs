@@ -84,7 +84,8 @@ export function Sidebar_FE(): SidebarItem[] {
         { text: 'Linux 进程管理', link: 'process' },
         { text: 'Linux 管道命令', link: 'pipe' },
         { text: 'Linux 打包与拆包', link: 'tar' },
-        { text: 'Linux VIM 编辑器', link: 'vim' }
+        { text: 'Linux VIM 编辑器', link: 'vim' },
+        { text: 'Linux nano 编辑器', link: 'nano' }
       ]
     },
     {
