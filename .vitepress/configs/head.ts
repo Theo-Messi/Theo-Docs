@@ -5,151 +5,26 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'theme-color', content: '#ffffff' }],
   ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
   [
-    'meta',
-    { name: 'msapplication-TileImage', content: '/ms-icon-144x144.webp' }
-  ],
-  ['meta', { name: 'manifest', href: '/manifest.json' }],
-  [
     'link',
     { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }
   ],
+  [
+    'link',
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon-96x96.png',
+      sizes: '96x96'
+    }
+  ],
+  ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+  ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
+  [
+    'link',
+    { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }
+  ],
+  ['meta', { name: 'apple-mobile-web-app-title', content: 'Theo-Docs' }],
   ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-  [
-    'link',
-    { rel: 'apple-touch-icon', sizes: '57x57', href: '/apple-icon-57x57.webp' }
-  ],
-  [
-    'link',
-    { rel: 'apple-touch-icon', sizes: '60x60', href: '/apple-icon-60x60.webp' }
-  ],
-  [
-    'link',
-    { rel: 'apple-touch-icon', sizes: '72x72', href: '/apple-icon-72x72.webp' }
-  ],
-  [
-    'link',
-    { rel: 'apple-touch-icon', sizes: '76x76', href: '/apple-icon-76x76.webp' }
-  ],
-  [
-    'link',
-    {
-      rel: 'apple-touch-icon',
-      sizes: '114x114',
-      href: '/apple-icon-114x114.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'apple-touch-icon',
-      sizes: '120x120',
-      href: '/apple-icon-120x120.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'apple-touch-icon',
-      sizes: '144x144',
-      href: '/apple-icon-144x144.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'apple-touch-icon',
-      sizes: '152x152',
-      href: '/apple-icon-152x152.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'apple-touch-icon',
-      sizes: '180x180',
-      href: '/apple-icon-180x180.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'apple-touch-icon',
-      sizes: '180x180',
-      href: '/apple-touch-icon.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '16x16',
-      href: '/favicon-16x16.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '32x32',
-      href: '/favicon-32x32.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '36x36',
-      href: '/android-icon-36x36.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '48x48',
-      href: '/android-icon-48x48.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '72x72',
-      href: '/android-icon-72x72.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '96x96',
-      href: '/android-icon-96x96.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '144x144',
-      href: '/android-icon-144x144.webp'
-    }
-  ],
-  [
-    'link',
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '192x192',
-      href: '/android-icon-192x192.webp'
-    }
-  ],
   ['meta', { name: 'author', content: 'Theo' }],
   ['meta', { name: 'copyright', content: 'Theo' }],
   ['meta', { property: 'og:type', content: 'website' }],
@@ -159,7 +34,10 @@ export const head: HeadConfig[] = [
   ['meta', { property: 'og:url', content: 'https://doc.theojs.cn/' }],
   [
     'meta',
-    { property: 'og:image', content: 'https://doc.theojs.cn/avatar.webp' }
+    {
+      property: 'og:image',
+      content: 'https://i.theojs.cn/logo/Theo-Docs-og.webp'
+    }
   ],
   [
     'meta',
@@ -178,10 +56,6 @@ export const head: HeadConfig[] = [
     }
   ],
   ['meta', { name: 'format-detection', content: 'telephone=no' }],
-  [
-    'meta',
-    { name: 'google-site-verification', content: '16826854815998093032' }
-  ],
   ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ['meta', { name: 'twitter:site', content: '@TheoMessi_' }],
   ['meta', { name: 'twitter:title', content: 'Theo-Docs' }],
@@ -195,7 +69,10 @@ export const head: HeadConfig[] = [
   ],
   [
     'meta',
-    { name: 'twitter:image', content: 'https://doc.theojs.cn/avatar.webp' }
+    {
+      name: 'twitter:image',
+      content: 'https://i.theojs.cn/logo/Theo-Docs-og.webp'
+    }
   ],
   [
     'meta',
@@ -206,13 +83,6 @@ export const head: HeadConfig[] = [
     }
   ],
 
-  [
-    'meta',
-    {
-      name: 'google-site-verification',
-      content: 'bOXLe1lrqePxxyksBSbMgqbELMkTX9Q_FkyEuVwTobI'
-    }
-  ],
   [
     'meta',
     {

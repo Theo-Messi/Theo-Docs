@@ -93,7 +93,7 @@ export const Aside_Data: AsideItem[] = [
   },
   {
     link: 'https://xx.theojs.cn/',
-    image: 'https://i.theojs.cn/avatar.webp',
+    image: 'https://i.theojs.cn/logo/avatar.webp',
     // alt: '玄学宝典 Logo',
     name: '玄学宝典',
     hide1: '传世经典著作',
