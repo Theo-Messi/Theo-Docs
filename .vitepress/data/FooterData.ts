@@ -4,16 +4,20 @@ export const Footer_Data: FooterData = {
   beian: {
     icp: '鄂ICP备2024060426号',
     police: '粤公网安备44200102445449号',
-    showIcon: true
+    showIcon: true,
+    icpalt: 'ICP备案',
+    policealt: '公安备案'
   },
   author: {
     name: 'Theo',
-    link: 'https://github.com/Theo-Messi'
+    link: 'https://github.com/Theo-Messi',
+    alt: '版权'
   },
   group: [
     {
       title: 'GitHub Source',
       icon: 'mdi:github',
+      alt: 'github icon',
       links: [
         {
           name: 'Theo-Docs',
@@ -36,6 +40,7 @@ export const Footer_Data: FooterData = {
     {
       title: '合作伙伴',
       icon: 'heroicons:user-group-solid',
+      alt: '合作伙伴 icon',
       links: [
         {
           name: '青云梯',
@@ -56,6 +61,7 @@ export const Footer_Data: FooterData = {
     {
       title: '观影指南',
       icon: 'heroicons:film-16-solid',
+      alt: '观影 icon',
       links: [
         { name: 'Netflix', link: '/streaming/netflix-guide' },
         { name: 'Disney+', link: '/streaming/disney-introduce' },
@@ -68,6 +74,7 @@ export const Footer_Data: FooterData = {
     {
       title: '相关链接',
       icon: 'heroicons:link-16-solid',
+      alt: '链接 icon',
       links: [
         { name: 'Theo-Docs', link: 'https://doc.theojs.cn/' },
         { name: '玄学宝典', link: 'https://xx.theojs.cn/' },

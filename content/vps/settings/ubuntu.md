@@ -11,8 +11,8 @@ head:
 
 ## 系统下载
 
-<Pill name="Ubuntu" link="https://cn.ubuntu.com/download/desktop" :icon="{ light: 'skill-icons:ubuntu-light', dark: 'skill-icons:ubuntu-dark' }"/>
-<Pill name="Debian" link="https://www.debian.org/" :icon="{ light: 'skill-icons:debian-light', dark: 'skill-icons:debian-dark' }"/>
+<Pill name="Ubuntu" link="https://cn.ubuntu.com/download/desktop" :icon="{ light: 'skill-icons:ubuntu-light', dark: 'skill-icons:ubuntu-dark' }" alt="ubuntu图标" />
+<Pill name="Debian" link="https://www.debian.org/" :icon="{ light: 'skill-icons:debian-light', dark: 'skill-icons:debian-dark' }" alt="debian图标"/>
 
 ## 开启 SSH 服务远程登录
 

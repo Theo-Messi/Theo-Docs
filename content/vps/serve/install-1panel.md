@@ -57,7 +57,8 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
       desc: '现代化、开源的 Linux 服务器运维管理面板。',
       icon: 'simple-icons:1panel',
       color: '#007BFF',
-      link: 'https://github.com/1Panel-dev/1Panel/releases'
+      link: 'https://github.com/1Panel-dev/1Panel/releases',
+      alt: '1panel logo'
     }
   ]"
 />

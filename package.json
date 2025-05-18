@@ -27,9 +27,9 @@
     "@commitlint/types": "^19.8.1",
     "@mdit/plugin-figure": "^0.18.0",
     "@mdit/plugin-footnote": "^0.18.0",
-    "@mdit/plugin-img-size": "^0.18.0",
+    "@mdit/plugin-img-size": "^0.18.1",
     "@mdit/plugin-tasklist": "^0.18.0",
-    "@theojs/lumen": "^5.4.2",
+    "@theojs/lumen": "^5.4.3",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "commitizen": "^4.3.1",
     "cz-vinyl": "^2.5.4",
@@ -37,15 +37,15 @@
     "lint-staged": "^16.0.0",
     "prettier": "3.5.3",
     "prettier-plugin-jsdoc": "^1.3.2",
-    "prettier-plugin-packagejson": "^2.5.12",
+    "prettier-plugin-packagejson": "^2.5.13",
     "prettier-plugin-sort-json": "^4.1.1",
     "simple-git-hooks": "^2.13.0",
     "viewerjs": "^1.11.7",
     "vitepress": "2.0.0-alpha.5",
-    "vitepress-plugin-group-icons": "^1.5.2",
+    "vitepress-plugin-group-icons": "^1.5.5",
     "vitepress-plugin-image-viewer": "^1.1.6",
-    "vitepress-plugin-llms": "^1.1.3",
-    "vue": "^3.5.13"
+    "vitepress-plugin-llms": "^1.2.0",
+    "vue": "^3.5.14"
   },
-  "packageManager": "pnpm@10.10.0"
+  "packageManager": "pnpm@10.11.0"
 }

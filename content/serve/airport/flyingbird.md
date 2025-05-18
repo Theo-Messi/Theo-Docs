@@ -18,10 +18,10 @@ head:
 
 :::
 <Links :items="[
-{ name: 'FlyingBird 520&618 活动继续启航！', image:'https://i.theojs.cn/logo/flyingbird.webp', desc:'活动时间：即日至2025年6月20号23点59分',link: 'https://itheo.top/flyingbird' },
+{ name: 'FlyingBird 520&618 活动继续启航！', image:'https://i.theojs.cn/logo/flyingbird.webp', desc:'活动时间：即日至2025年6月20号23点59分',link: 'https://itheo.top/flyingbird',alt:'FlyingBird logo' },
 ]" />
 
-## FlyingBird 简介 <Pill name="FlyingBird官网" link="https://itheo.top/flyingbird" image="https://i.theojs.cn/logo/flyingbird.webp" />
+## FlyingBird 简介 <Pill name="FlyingBird官网" link="https://itheo.top/flyingbird" image="https://i.theojs.cn/logo/flyingbird.webp" alt="FlyingBird logo" />
 
 飞鸟机场的前身是多个老牌机场的融合衍生，主打快速稳定，全专线 IPLC，没有倍率，不限网速，不限客户端并且可以多用户同时使用。有着老牌机场的稳定、也有着新晋机场的诚意，目前活动买多少给多少，价格区间比较多，用户的选择比较多。从我自己使用来看，值得推荐为 2022 年的稳定机场。
 

@@ -26,7 +26,8 @@ opkg install tcpdump
       name: 'Wireshark',
       tag: '官网下载',
       link: 'https://www.wireshark.org/download.html',
-      image: 'https://i.theojs.cn/logo/wireshark.svg'
+      icon: 'simple-icons:wireshark',
+      color: '#1679A7'
     },
     {
       name: 'Tabby',

@@ -28,8 +28,8 @@ Netflix 是一家美国的在线流媒体平台，成立于 1997 年，总部位
 
 想要在国内愉快都使用 Netflix 并获得最佳的观影体验，你需要做好以下几个方面的准备：
 <BoxCube :items="[
-  { link: 'https://itheo.top/ihezu', icon: 'material-symbols:account-box', name: 'Netflix 账号', desc: '合租平台' },
-  { link: '/serve/airport/qingyunti', icon: 'ic:twotone-vpn-lock', name: 'Netflix 线路', desc: '流媒体解锁' }
+  { link: 'https://itheo.top/ihezu', icon: 'material-symbols:account-box', name: 'Netflix 账号', desc: '合租平台', alt:'账号图标' },
+  { link: '/serve/airport/qingyunti', icon: 'ic:twotone-vpn-lock', name: 'Netflix 线路', desc: '流媒体解锁', alt:'线路图标' }
   ]"/>
 
 ## Netflix 账号合租
@@ -75,7 +75,7 @@ Chrome、Firefox 等浏览器默认最高支持到 720P，不过你可以通过�
 硬件：最低安卓 5.0 系统以上的手机，基本都可以正常使用奈飞 APP。
 
 软件：
-<Pill name="在 Google Play 搜索 Netflix 并下载即可" link="https://play.google.com/store/search?q=netflix&c=apps&hl=zh"  icon="logos:google-play-icon" /> 或者 <Pill name="在 APKPURE 上下载最新版 Netflix APK" link="https://apkpure.com/netflix/com.netflix.mediaclient"  icon="arcticons:apkpure" />
+<Pill name="在 Google Play 搜索 Netflix 并下载即可" link="https://play.google.com/store/search?q=netflix&c=apps&hl=zh"  icon="logos:google-play-icon" alt="谷歌商店图标" /> 或者 <Pill name="在 APKPURE 上下载最新版 Netflix APK" link="https://apkpure.com/netflix/com.netflix.mediaclient"  icon="arcticons:apkpure" alt="APKPURE商店图标" />
 
 ### Windows 10/11 PC 电脑（最高支持 4K）
 
@@ -223,7 +223,7 @@ Netflix 与国内的爱奇艺、优酷、腾讯视频等平台有着“天壤之
 
 - 你的播放设备支持 4K（Mac 笔记本最高支持 4K ，Win 笔记 Edge 浏览器支持 1080P ）
 
-- 网速要足够快，建议最低 25Mbps，推荐使用 <Pill name="fast.com" link="https://fast.com/" icon="arcticons:fast" color="#E50914" /> 测速（奈飞自家的测速网站）
+- 网速要足够快，建议最低 25Mbps，推荐使用 <Pill name="fast.com" link="https://fast.com/" icon="arcticons:fast" color="#E50914" alt="fast图标" /> 测速（奈飞自家的测速网站）
 
 ### 用 Netflix 看视频每小时要消耗多少流量
 

@@ -12,10 +12,10 @@ head:
 ## 准备工作
 
 <Box :items="[
-  { name: '固件/UBOOT', tag: 'Github' ,link: 'https://github.com/Theo-Messi/H3C-NX30Pro', image: 'https://i.theojs.cn/logo/openwrt.webp'},
-  { name: 'termius', tag: '官网下载' ,link: 'https://termius.com/download/', image: 'https://i.theojs.cn/logo/termius.svg'},
-  { name: 'winscp', tag: '官网下载' ,link: 'https://winscp.net/eng/download.php', image: 'https://i.theojs.cn/logo/winscp.webp'},
-  { name: 'FinalShell', tag: '官网下载' ,link: 'https://www.hostbuf.com/', image: 'https://i.theojs.cn/logo/FinalShell.webp'},
+  { name: '固件/UBOOT', tag: 'Github' ,link: 'https://github.com/Theo-Messi/H3C-NX30Pro', icon: 'simple-icons:openwrt', color: '#00B5E2', alt: 'openwrt'},
+  { name: 'termius', tag: '官网下载' ,link: 'https://termius.com/download/', icon: 'simple-icons:termius', color: '#000000', alt: 'termius'},
+  { name: 'winscp', tag: '官网下载' ,link: 'https://winscp.net/eng/download.php', image: 'https://i.theojs.cn/logo/winscp.webp', alt: 'winscp'},
+  { name: 'FinalShell', tag: '官网下载' ,link: 'https://www.hostbuf.com/', image: 'https://i.theojs.cn/logo/FinalShell.webp', alt: 'FinalShell'},
 ]"/>
 
 - H3C NX30 Pro 路由器
