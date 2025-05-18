@@ -80,7 +80,12 @@ export default defineConfig({
 
   themeConfig: {
     // logo
-    logo: { src: '/avatar.webp', width: 24, height: 24 },
+    logo: {
+      src: 'https://i.theojs.cn/logo/avatar-mini.webp',
+      width: 24,
+      height: 24,
+      alt: 'avatar'
+    },
 
     // 社交链接
     socialLinks,
