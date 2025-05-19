@@ -43,9 +43,9 @@ head:
 年付**8**折/2年付**7**折/3年付**6**折 配合优惠码折上折，最高可达**48**折
 :::
 
-|   套餐类型   |   流量   | 月付 | 季付 | 年付 |                                              原生解锁                                               |                      套餐购买                      |
-| :----------: | :------: | :--: | :--: | :--: | :-------------------------------------------------------------------------------------------------: | :------------------------------------------------: |
-| **年付小包** | **60G**  | N/A  | N/A  | ¥96  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://itheo.top/qyt) |
-|   **VIP1**   | **150G** | ¥25  | ¥67  | ¥240 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://itheo.top/qyt) |
-|   **VIP2**   | **300G** | ¥45  | ¥121 | ¥432 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://itheo.top/qyt) |
-|   **VIP3**   | **600G** | ¥85  | ¥229 | ¥816 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://itheo.top/qyt) |
+|   套餐类型   |   流量   | 月付 | 季付 | 年付 |                                              原生解锁                                               |                      套餐购买                      |                                                支付方式                                                |
+| :----------: | :------: | :--: | :--: | :--: | :-------------------------------------------------------------------------------------------------: | :------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
+| **年付小包** | **60G**  | N/A  | N/A  | ¥96  | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://itheo.top/qyt) | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
+|   **VIP1**   | **150G** | ¥25  | ¥67  | ¥240 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://itheo.top/qyt) | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
+|   **VIP2**   | **300G** | ¥45  | ¥121 | ¥432 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://itheo.top/qyt) | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
+|   **VIP3**   | **600G** | ¥85  | ¥229 | ¥816 | <iconify-icon icon="fa:check-square" style="color: var(--vp-c-green-1)" alt="check"></iconify-icon> | [<Badge text="立即购买" />](https://itheo.top/qyt) | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
