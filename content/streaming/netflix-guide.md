@@ -34,11 +34,7 @@ Netflix 是一家美国的在线流媒体平台，成立于 1997 年，总部位
 
 ## Netflix 账号合租
 
-|  合租平台  |               官方网站                |    优惠码    |     价格      |
-| :--------: | :-----------------------------------: | :----------: | :-----------: |
-|  奈飞小铺  |  [官方网站](https://itheo.top/ihezu)  | **`theonf`** | **270** 元/年 |
-| 银河录像局 |   [官方网站](https://itheo.top/yh)    |  **`Theo`**  | **247** 元/年 |
-|  蜜糖商店  | [官方网站](https://itheo.top/metshop) | **`theomt`** | **460** 元/年 |
+<!--@include: @/serve/sharing/account-sharing-guide.md{14,18}-->
 
 ## Netflix 如何看 4K 高清
 

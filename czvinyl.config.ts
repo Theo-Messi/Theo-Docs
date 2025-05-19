@@ -1,7 +1,7 @@
 import type { CzVinylConfig } from 'cz-vinyl'
 
 const config: CzVinylConfig = {
-  headerFormat: '{type}({scope}): {subject}',
+  headerFormat: '{type}{scope}: {subject}',
   bodyFormat: '{body}',
   commitTypes: [
     { value: 'feat', description: '新增功能' },

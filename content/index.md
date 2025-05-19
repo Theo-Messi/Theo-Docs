@@ -41,7 +41,7 @@ hero:
 
     - theme: alt
       text: 机场推荐
-      link: /serve/airport/qingyunti
+      link: /serve/airport/flyingbird
 
     - theme: brand
       text: ❤️ 成为赞助商
@@ -64,7 +64,7 @@ features:
 
   - title: '<iconify-icon class="i-mr" icon="twemoji:airplane" alt="IPLC"></iconify-icon>优质线路'
     details: 全专线IPLC，不限速，不限设备数量，超稳晚高峰，流媒体全解锁！全节点解锁chatgpt！
-    link: /serve/airport/qingyunti
+    link: /serve/airport/flyingbird
     linkText: 查看更多
 ---
 

@@ -69,11 +69,7 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
 
 ## YouTube 账号合租
 
-|  合租平台  |               官方网站                |    优惠码    |     价格      |
-| :--------: | :-----------------------------------: | :----------: | :-----------: |
-|  奈飞小铺  |  [官方网站](https://itheo.top/ihezu)  | **`theonf`** | **178** 元/年 |
-| 银河录像局 |   [官方网站](https://itheo.top/yh)    |  **`Theo`**  | **114** 元/年 |
-|  蜜糖商店  | [官方网站](https://itheo.top/metshop) | **`theomt`** | **198** 元/年 |
+<!--@include: @/serve/sharing/account-sharing-guide.md{14,18}-->
 
 ## 加入 YouTube 家庭组会员流程
 

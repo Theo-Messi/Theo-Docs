@@ -15,14 +15,14 @@ head:
 
 ## 蜜糖商店定价 <Badge text="优惠码: theomt" />
 
-|    平台     | 3 个月 | 半年 | 年付 | 每月价格 |                        合租链接                        |                        扫码直达                        |
-| :---------: | :----: | :--: | :--: | :------: | :----------------------------------------------------: | :----------------------------------------------------: |
-| **Netflix** |  ¥116  | ¥235 | ¥460 |   ¥38    | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) |
-| **YouTube** |  N/A   | N/A  | ¥198 |  ¥16.5   | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) |
-| **Spotify** |  N/A   | N/A  | ¥198 |   ¥9.8   | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) |
-| **Disney+** |  N/A   | N/A  | ¥118 |   ¥15    | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) |
-| **HBO MAX** |  N/A   | N/A  | ¥208 |   ¥18    | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) |
-|  **Hulu**   |  ¥90   | ¥180 | ¥360 |   ¥25    | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) |
+|    平台     | 3 个月 | 半年 | 年付 | 每月价格 |                        合租链接                        |                        扫码直达                        |                                                支付方式                                                |
+| :---------: | :----: | :--: | :--: | :------: | :----------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
+| **Netflix** |  ¥116  | ¥235 | ¥460 |   ¥38    | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
+| **YouTube** |  N/A   | N/A  | ¥198 |  ¥16.5   | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
+| **Spotify** |  N/A   | N/A  | ¥198 |   ¥9.8   | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
+| **Disney+** |  N/A   | N/A  | ¥118 |   ¥15    | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
+| **HBO MAX** |  N/A   | N/A  | ¥208 |   ¥18    | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
+|  **Hulu**   |  ¥90   | ¥180 | ¥360 |   ¥25    | [<Badge text="立即购买" />](https://itheo.top/metshop) | ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp) | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
 
 ## 蜜糖商店特点
 

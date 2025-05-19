@@ -73,11 +73,7 @@ Spotify 免费版与付费版在曲库方面没有差异。不过，不同地区
 
 ## 优选 Spotify Premium 合租平台
 
-|  合租平台  |               官方网站                |    优惠码    |      价格       |
-| :--------: | :-----------------------------------: | :----------: | :-------------: |
-|  奈飞小铺  |  [官方网站](https://itheo.top/ihezu)  | **`theonf`** |  **108** 元/年  |
-| 银河录像局 |   [官方网站](https://itheo.top/yh)    |  **`Theo`**  | **136.8** 元/年 |
-|  蜜糖商店  | [官方网站](https://itheo.top/metshop) | **`theomt`** |  **198** 元/年  |
+<!--@include: @/serve/sharing/account-sharing-guide.md{14,18}-->
 
 ## 总结
 
