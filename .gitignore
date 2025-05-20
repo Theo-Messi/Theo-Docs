@@ -27,6 +27,7 @@ tmp/
 # 环境变量文件
 .env.local
 .env.*.local
+.env
 
 # 编辑器和IDE生成的文件
 .vscode/
