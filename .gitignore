@@ -1,0 +1,46 @@
+# macOS系统生成的文件和目录
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS缓存文件
+*.swp
+*.swo
+._*
+
+# Node.js模块
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Vitepress生成的文件
+.vitepress/dist
+.vitepress/cache
+
+# Vite缓存文件
+dist/
+.cache/
+.vite/
+tmp/
+
+# 环境变量文件
+.env.local
+.env.*.local
+.env
+
+# 编辑器和IDE生成的文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# TypeScript生成的文件
+*.tsbuildinfo
+
+# 日志文件
+*.log
+
+# 覆盖率报告文件
+coverage/
+*.lcov
