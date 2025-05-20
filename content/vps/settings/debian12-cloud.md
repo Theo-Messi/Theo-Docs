@@ -9,6 +9,8 @@ head:
       content: Debian 12 Cloud 内核 安装 使用 cloud-amd64 cloud-arm64 云端优化 内核升级 ARM 架构
 ---
 
+# Debian12 安装使用 Cloud 内核
+
 ## 什么是 Cloud 内核
 
 Cloud 内核是专为云环境优化的 Linux 内核版本，包含针对虚拟化、文件系统性能、网络性能和系统资源管理的优化，适合在云环境中运行应用。

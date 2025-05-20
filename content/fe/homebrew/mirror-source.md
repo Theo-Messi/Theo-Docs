@@ -1,5 +1,5 @@
 ---
-title: Homebrew 切换镜像源 | 提升 Homebrew 安装速度
+title: Homebrew 切换镜像源 提升 Homebrew 安装速度
 head:
   - - meta
     - name: description
@@ -9,9 +9,9 @@ head:
       content: Homebrew 镜像源 切换 安装速度 优化 软件管理
 ---
 
-## 切换国内的镜像源
+# Homebrew 切换镜像源 提升 Homebrew 安装速度
 
-### 使用中科大的镜像
+## 使用中科大的镜像
 
 ```sh
 cd "$(brew --repo)"
@@ -20,7 +20,7 @@ cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
 git remote set-url origin git://mirrors.ustc.edu.cn/homebrew-core.git
 ```
 
-### 使用清华大学的镜像
+## 使用清华大学的镜像
 
 ```sh
 git -C "$(brew --repo)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git

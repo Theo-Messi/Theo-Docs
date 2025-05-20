@@ -9,6 +9,8 @@ head:
       content: Prettier 格式化代码 项目设置 代码风格 提交信息规范 commitizen cz-vinyl commitlint
 ---
 
+# 为项目添加 Prettier 及规范提交信息工具
+
 ## 1. 配置 Prettier 格式化代码
 
 ### 安装 Prettier 及相关插件

@@ -9,17 +9,17 @@ head:
       content: Docker 国内镜像加速, 阿里云加速器, DaoCloud, 镜像加速, Docker 配置
 ---
 
-### docker 加速
+# Docker 国内镜像加速
 
 默认情况下，docker 下载镜像是从官网下载，下载速度特别慢，我们可以使用阿里云加速器可已提升获取 Docker 官网镜像的速度。
 
-1.  **执行目录创建文件（如已存在请忽略此步）**
+## 执行目录创建文件（如已存在请忽略此步
 
 ```bash
 sudo touch /etc/docker/daemon.json
 ```
 
-2.  **修改文件内容为**
+## 修改文件内容为
 
 ::: code-group
 
@@ -45,7 +45,7 @@ sudo touch /etc/docker/daemon.json
 
 注意：此网址是从阿里云控制台复制过来的，每个登录用户都不一样。当然用这个也是可以的。
 
-3.  **重启 docker 服务**
+## 重启 docker 服务
 
 配置完成后，重启 Docker 服务使设置生效。
 
@@ -53,7 +53,7 @@ sudo touch /etc/docker/daemon.json
 sudo systemctl restart docker
 ```
 
-4. 验证配置
+## 验证配置
 
 可以使用以下命令来验证 Docker 是否使用了镜像加速器：
 

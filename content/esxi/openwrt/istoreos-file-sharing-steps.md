@@ -1,5 +1,5 @@
 ---
-title: iStoreOS 文件共享教程 | 如何格式化磁盘并设置共享目录
+title: iStoreOS 文件共享教程 如何格式化磁盘并设置共享目录
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: iStoreOS, 文件共享, NAS, Samba, WebDAV, 网络存储, 挂载磁盘, 共享目录
 ---
+
+# iStoreOS 文件共享教程 如何格式化磁盘并设置共享目录
 
 ## 格式化并且挂载磁盘
 

@@ -11,9 +11,7 @@ head:
 
 # Netflix 常用浏览器插件汇总
 
-## NflxMultiSubs
-
-### 奈飞双语字幕 Chrome 插件
+## NflxMultiSubs - 奈飞双语字幕 Chrome 插件
 
 **插件介绍：**
 
@@ -23,9 +21,7 @@ head:
 
 打开插件所在的 Chrome 网上应用商店，下载 `NflxMultiSubs` 插件安装即可。
 
-## Super Netflix
-
-### 奈飞功能增强 Chrome 插件
+## Super Netflix - 奈飞功能增强 Chrome 插件
 
 **插件介绍：**
 
@@ -35,9 +31,7 @@ head:
 
 直接在 Chrome 应用商店下载安装 `Super Netflix` 插件。
 
-## Netflix 1080p
-
-### 奈飞强制 1080P Chrome 插件
+## Netflix 1080p - 奈飞强制 1080P Chrome 插件
 
 **插件介绍：**
 
@@ -57,9 +51,7 @@ head:
 
 备注：如果安装 1080P 插件后，出现"服务中断，M7111-1331"的错误提示，建议屏蔽此插件后再试。我在本地测试时，出现类似错误，停用插件后才正常。
 
-## Netflix AutoSkip
-
-### 奈飞自动跳过片头、片尾 Chrome 插件
+## Netflix AutoSkip - 奈飞自动跳过片头片尾 Chrome 插件
 
 **插件介绍：**
 
@@ -69,9 +61,7 @@ head:
 
 直接打开 Chrome 应用商店，下载 `Netflix AutoSkip` 插件安装后使用。
 
-## Aspect Ratio 21:9
-
-### 奈飞宽屏显示调整 Chrome 插件
+## Aspect Ratio 21:9 - 奈飞宽屏显示调整 Chrome 插件
 
 **插件介绍：**
 
@@ -81,9 +71,7 @@ head:
 
 直接打开 Chrome 应用商店，下载 `Aspect Ratio 21:9` 插件安装后使用。
 
-## Film scores for Netflix
-
-### 奈飞影片评分 Chrome 插件
+## Film scores for Netflix - 奈飞影片评分 Chrome 插件
 
 **插件介绍：**
 

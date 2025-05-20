@@ -1,5 +1,5 @@
 ---
-title: Linux nano 编辑器 | 简洁高效的终端文本编辑器
+title: Linux nano 编辑器 简洁高效的终端文本编辑器
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: Linux nano 编辑器 终端文本编辑 快捷键 nano命令
 ---
+
+# Linux nano 编辑器 简洁高效的终端文本编辑器
 
 ![nano](https://i.theojs.cn/docs/nano.webp 'nano')
 

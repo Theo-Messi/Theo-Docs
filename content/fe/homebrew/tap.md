@@ -1,5 +1,5 @@
 ---
-title: Homebrew tap使用 | 扩展 Homebrew 包源
+title: Homebrew tap使用 扩展 Homebrew 包源
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: Homebrew tap 使用 自定义软件源 包管理 扩展包源
 ---
+
+# Homebrew tap使用 扩展 Homebrew 包源
 
 ## 添加一个新的 tap
 

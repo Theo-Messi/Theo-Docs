@@ -9,7 +9,9 @@ head:
       content: VPS 一键脚本 安装部署 工具箱 服务器搭建 VPS管理
 ---
 
-##### 安装下载工具
+# VPS 全能工具箱
+
+## 安装下载工具
 
 ::: code-group
 
@@ -23,7 +25,7 @@ yum update && yum install curl
 
 :::
 
-##### 一键脚本
+## 一键脚本
 
 ::: code-group
 

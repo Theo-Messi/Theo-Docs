@@ -9,7 +9,7 @@ head:
       content: 防火墙 端口 开启 VPS Linux 系统 网络安全
 ---
 
-## 对外开放端口
+# 开启防火墙端口 对外开放端口
 
 ::: code-group
 

@@ -9,7 +9,9 @@ head:
       content: Docker aria2 AriaNg 下载管理 图形化界面
 ---
 
-## Docker安装aria2
+# Docker 搭建 aria2+AriaNg
+
+## 安装aria2
 
 ### 使用拉取aria2镜像
 
@@ -57,7 +59,7 @@ p3terx/aria2-pro
 - **`-p 16888:6888`**，为BT 监听端口（TCP）映射，即 Aria2 配置中listen-port选项定义的端口；
 - **`-p 16888:6888/udp`**，为DHT 监听端口（UDP）映射，即 Aria2 配置中dht-listen-port选项定义的端口。
 
-## Docker安装AriaNg
+## 安装AriaNg
 
 ### 拉取AriaNg镜像
 

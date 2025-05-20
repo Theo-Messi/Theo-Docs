@@ -1,5 +1,5 @@
 ---
-title: 安装 AdGuardHome
+title: Esxi 安装 AdGuardHome
 head:
   - - meta
     - name: description
@@ -9,9 +9,9 @@ head:
       content: AdGuardHome ESXi 虚拟机 虚拟化 X86 64 PVE
 ---
 
-## 安装 AdGuardHome
+# Esxi 安装 AdGuardHome
 
-### 新建虚拟主机
+## 新建虚拟主机
 
 **新建exsi虚拟主机，2CPU 2G内存 10G硬盘**
 
@@ -21,7 +21,7 @@ head:
 
 ![使用ubuntu x64 镜像](https://i.theojs.cn/docs/20231230203757.webp '使用ubuntu x64 镜像')
 
-### 官方一键安装脚本
+## 官方一键安装脚本
 
 ::: code-group
 
@@ -47,11 +47,11 @@ sudo /opt/AdGuardHome/AdGuardHome -s start|stop|restart|status|install|uninstall
 
 :::
 
-### 安装完成
+## 安装完成
 
-安装完成之后访问地址为 http://ip:3000/ ,此为ubuntu的静态IP地址+3000端口号
+安装完成之后访问地址为 `http://ip:3000/` ,此为ubuntu的静态IP地址+3000端口号
 
-![AdGuardHome](https://i.theojs.cn/docs/20231230204830.webp '访问 http://ip:3000/')
+![AdGuardHome](https://i.theojs.cn/docs/20231230204830.webp '访问 `http://ip:3000/`')
 
 ## 配置 AdGuardHome
 

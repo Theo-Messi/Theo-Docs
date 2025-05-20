@@ -9,6 +9,8 @@ head:
       content: ESXi 虚拟机 虚拟化 X86 64 PVE 安装指南
 ---
 
+# ESXi 8.0 安装指南
+
 ## 准备工作
 
 - ESXi 8 安装文件

@@ -9,6 +9,8 @@ head:
       content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
 ---
 
+# 梅林固件刷机需知
+
 ## 华硕原厂固件
 
 华硕原厂固件即华硕路由器官方固件，其代号为 Asuswrt，官方固件可以在 <Pill name="华硕官方下载中心" link="https://www.asus.com.cn/support/Download-Center/" icon="simple-icons:asus" alt="asus icon" /> 下载到。
@@ -37,7 +39,7 @@ head:
 
 其区别为：[这些功能](https://github.com/RMerl/asuswrt-merlin.ng/blob/master/README-merlin.txt#L64-L135)，比如一些系统修复、NFS 支持、AMTM、merlin-addon，多种开机启动项支持等等。
 
-通常我们说到**梅林固件**，就是指**梅林原版固件**，梅林原版固件目前其版本号一般为 `386.x` ，如： `386.1` 、 `386.2_6` ，梅林原版固件的下载地址为：<Pill name="梅林原版固件" link="https://www.asuswrt-merlin.net/" image="https://www.asuswrt-merlin.net/sites/default/files/Asuswrt-Merlin-smaller.png"  />
+通常我们说到**梅林固件**，就是指**梅林原版固件**，梅林原版固件目前其版本号一般为 `386.x` ，如： `386.1` 、 `386.2_6` ，梅林原版固件的下载地址为：<Pill name="梅林原版固件" link="https://www.asuswrt-merlin.net/" image="https://www.asuswrt-merlin.net/sites/default/files/Asuswrt-Merlin-smaller.png" alt="梅林 logo" />
 
 ## G 版梅林固件
 

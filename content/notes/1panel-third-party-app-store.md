@@ -9,6 +9,8 @@ head:
       content: 1Panel 第三方应用商店 添加 Linux 服务器 运维管理 面板
 ---
 
+# 添加 1Panel 第三方应用商店
+
 ## 简介
 
 这是一些适配 `1Panel` 商店 `2.0` 版本的 `docker` 应用配置。

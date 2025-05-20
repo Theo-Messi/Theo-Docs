@@ -9,6 +9,8 @@ head:
       content: VS Code 使用技巧 编辑器 快捷键 开发工具 提高效率 开发体验
 ---
 
+# VS Code 使用技巧
+
 ## 命令行工具
 
 `command+shift+p` 打开 `Command Palette` (`命令面板`) 输入 `shell command`，点击回车

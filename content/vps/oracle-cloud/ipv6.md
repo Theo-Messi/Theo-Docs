@@ -9,6 +9,8 @@ head:
       content: 甲骨文云 Oracle Cloud 免费服务器 IPv6 开启 网络配置
 ---
 
+# 甲骨文云(Oracle Cloud)免费服务器开启 IPv6
+
 ## 面板操作
 
 ![Oracle IPv6](https://i.theojs.cn/docs/202406231818861.webp '前往 `网络`-> `虚拟云网络` -> 选择`查看网络详情`')
@@ -76,7 +78,7 @@ head:
 - AMD机器网卡名称默认为 `ens3`
   :::
 
-#### 1. 获取IPv6
+### 1. 获取IPv6
 
 ```sh
 dhclient -6 ens3
@@ -84,7 +86,7 @@ dhclient -6 ens3
 
 ---
 
-#### 2. 查看IPv6是否生效
+### 2. 查看IPv6是否生效
 
 ```sh
 ip add
@@ -94,7 +96,7 @@ ip add
 
 ---
 
-#### 3. 测试一下IPv6网络情况！
+### 3. 测试一下IPv6网络情况！
 
 ```sh
 ping6 google.com
@@ -104,7 +106,7 @@ ping6 google.com
 
 ---
 
-#### 4. 重启服务器
+### 4. 重启服务器
 
 ```sh
 reboot
@@ -120,7 +122,7 @@ reboot
 
 ---
 
-#### 1. 获取 `compartment_id`
+### 1. 获取 `compartment_id`
 
 ```sh
 oci iam compartment list
@@ -130,7 +132,7 @@ oci iam compartment list
 
 ---
 
-#### 2. 查询子网(subnet)列表，获取到子网ID(红框内) subnet_id
+### 2. 查询子网(subnet)列表，获取到子网ID(红框内) subnet_id
 
 :::tip
 下面命令中的 `[compartment_id]` 替换为 上面的 `compartment_id`，不保留[]符号
@@ -144,13 +146,13 @@ oci network subnet list --compartment-id [compartment_id]
 
 ---
 
-#### 3. 获取 cidr
+### 3. 获取 cidr
 
 ![Oracle IPv6](https://i.theojs.cn/docs/202406231846612.webp '获取CIDR块地址')
 
 ---
 
-#### 4. 更新子网(subnet)信息
+### 4. 更新子网(subnet)信息
 
 将 `[subnet_id]` 和 `[cidr]` 替换一下！
 

@@ -1,5 +1,5 @@
 ---
-title: 安装 Windows 11
+title: Esxi 安装 Windows 11
 head:
   - - meta
     - name: description
@@ -9,9 +9,7 @@ head:
       content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt Windows11 Windows10 Windows12
 ---
 
-<Links :items="[
-{ name: '官网下载 Windows 11', icon:'logos:microsoft-windows-icon', link: 'https://www.microsoft.com/zh-cn/software-download/windows11', alt: 'win11 logo' },
-]" />
+# Esxi 安装 Windows 11 <Pill name="官网下载 Windows 11" link="https://www.microsoft.com/zh-cn/software-download/windows11" icon="logos:microsoft-windows-icon"  alt='win11 logo'/>
 
 ## 选择创建新的虚拟机
 

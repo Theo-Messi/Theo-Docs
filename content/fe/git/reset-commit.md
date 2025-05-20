@@ -1,5 +1,5 @@
 ---
-title: Git 重置提交记录 | 恢复历史 清理提交记录
+title: Git 重置提交记录 恢复历史 清理提交记录
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: Git 重置 提交记录 清理 Git 回退 历史版本 Git 优化
 ---
+
+# Git 重置提交记录 恢复历史 清理提交记录
 
 有时候，我们提交了一些隐私的数据例如密码等到 Github 仓库，就算更新了仓库文件，但依旧会在 commit 历史记录中保存这部分数据。这个时候，我们就需要一种方法，可以把Github分支下所有提交记录进行删除！
 

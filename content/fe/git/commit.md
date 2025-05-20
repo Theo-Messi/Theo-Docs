@@ -1,5 +1,5 @@
 ---
-title: Git 合并commit | 精简提交 历史记录管理
+title: Git 合并commit 精简提交 历史记录管理
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: Git 合并 commit 提交记录 清理历史提交 Git 提交优化 Git 历史管理
 ---
+
+# Git 合并commit 精简提交 历史记录管理
 
 | 命令           | 特点                                                                               |
 | -------------- | ---------------------------------------------------------------------------------- |

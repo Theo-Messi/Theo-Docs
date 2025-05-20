@@ -1,5 +1,5 @@
 ---
-title: PPPOE拨号
+title: OpenWrt PPPOE拨号设置
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: PPPOE 拨号 OpenWrt Lede 软路由 设置 教程
 ---
+
+# OpenWrt PPPOE拨号 设置
 
 ## 前言
 

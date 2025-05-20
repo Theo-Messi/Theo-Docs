@@ -1,5 +1,5 @@
 ---
-title: Linux 常用网络操作 | 网络配置与故障排除
+title: Linux 常用网络操作 网络配置与故障排除
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: Linux 网络操作 配置 网络命令 网络排查 IP 地址
 ---
+
+# Linux 常用网络操作 网络配置与故障排除
 
 ## Linux 常用网络操作
 

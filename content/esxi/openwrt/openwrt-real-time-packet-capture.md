@@ -9,6 +9,8 @@ head:
       content: openwrt, 实时抓包, tcpdump, 网络监控
 ---
 
+# openwrt 实时抓包
+
 ## 软件准备
 
 ### 1. Openwrt 安装 Tcpdump
@@ -27,13 +29,15 @@ opkg install tcpdump
       tag: '官网下载',
       link: 'https://www.wireshark.org/download.html',
       icon: 'simple-icons:wireshark',
-      color: '#1679A7'
+      color: '#1679A7',
+      alt: 'Wireshark'
     },
     {
       name: 'Tabby',
       tag: '官网下载',
       link: 'https://tabby.sh/',
-      image: 'https://i.theojs.cn/logo/tabby.svg'
+      image: 'https://i.theojs.cn/logo/tabby.svg',
+      alt: 'Tabby Terminal'
     }
   ]"
 />

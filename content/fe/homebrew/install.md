@@ -1,5 +1,5 @@
 ---
-title: Homebrew 简介与安装 | 快速安装与管理软件工具
+title: Homebrew 简介与安装 快速安装与管理软件工具
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: Homebrew 包管理器 安装 Homebrew Mac 软件管理 升级卸载
 ---
+
+# Homebrew 简介与安装 快速安装与管理软件工具
 
 ## 简介
 
