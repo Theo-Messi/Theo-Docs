@@ -9,9 +9,9 @@ head:
       content: Docker 容器 相关操作 创建 启动 退出 进入 文件传递
 ---
 
-### 运行容器的相关操作
+# Docker 容器相关操作
 
-**查看 docker run 命令 ，创建并且启动容器**
+## 查看 docker run 命令 ，创建并且启动容器
 
 ```bash
 docker run --help
@@ -25,19 +25,19 @@ docker run 后面的参数
 	# windows才可以访问 http://虚拟机ip:9099
 ```
 
-**创建容器，并且进入命令行**
+## 创建容器，并且进入命令行
 
 ```bash
 docker run -it --name=myTomcat2 tomcat /bin/bash
 ```
 
-**退出**
+### 退出
 
 ```bash
 exit
 ```
 
-**退出之后，重新进入容器**
+### 退出之后，重新进入容器
 
 ```bash
 # 创建一个守护的容器
@@ -46,7 +46,7 @@ docker run -id --name=myTomcat2 tomcat
 docker exec -it myTomcat2 /bin/bash
 ```
 
-**宿主机与 docker 容器的文件传递**
+## 宿主机与 docker 容器的文件传递
 
 ```bash
 1、在宿主机上创建一个文件
@@ -59,7 +59,7 @@ docker cp test.txt myTomcat2:/
 cd /
 ```
 
-**从容器中的文件 copy 到宿主机中**
+### 从容器中的文件 copy 到宿主机中
 
 ```bash
 touch abc.txt
@@ -71,7 +71,7 @@ exit
 docker cp myTomcat2:abc.txt /root
 ```
 
-### 访问 tomcat
+## 访问 tomcat
 
 ```bash
 # 启动并作为守护进程
@@ -85,7 +85,7 @@ http://虚拟机ip:9999
 # 微服务 k8s 容器式的性能测试
 ```
 
-### 容器之间的关联
+## 容器之间的关联
 
 ```bash
 docker run -di --name=tomcat2 -p 8080:8080 --link mysql

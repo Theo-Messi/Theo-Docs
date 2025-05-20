@@ -1,5 +1,5 @@
 ---
-title: 一键脚本部署开ARM机器
+title: 一键脚本部署甲骨文云开ARM机器
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: 一键脚本 VPS 部署 ARM 机器 甲骨文云 Oracle Cloud 刷机器
 ---
+
+# 一键脚本部署甲骨文云开ARM机器
 
 ## 准备工作
 

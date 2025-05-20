@@ -9,7 +9,7 @@ head:
       content: oh-my-zsh 安装 配置 Zsh shell 提高效率 命令行工具
 ---
 
-## zsh 安装 & 配置
+# oh-my-zsh 安装 & 配置
 
 ::: code-group
 

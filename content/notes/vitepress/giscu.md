@@ -9,6 +9,8 @@ head:
       content: VitePress Giscu 评论系统 网站互动 集成教程
 ---
 
+# VitePress 添加 Giscu评论
+
 ## 安装
 
 ::: code-group

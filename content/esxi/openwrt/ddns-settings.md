@@ -9,6 +9,8 @@ head:
       content: openwrt istore os 动态DNS 腾讯云 阿里云
 ---
 
+# openwrt/istore os 动态DNS设置
+
 ## 腾讯云设置
 
 ### 创建子域名

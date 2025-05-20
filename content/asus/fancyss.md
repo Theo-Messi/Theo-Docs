@@ -9,20 +9,20 @@ head:
       content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
 ---
 
-# fancyss - 安装
+# fancyss
 
 ## 插件特色
 
-- 多平台支持：博通 armv7，博通 arm64，联发科 Filogic 830 MT7986A
-- 多客户端支持：Shadowsocks、ShadowsocksR、V2ray、Xray、Trojan、NaïveProxy、tuic
-- shadowsocks 支持 SIP003 插件：simple-obfs 和 v2ray-plugin；V2ray 和 Xray 支持多种协议配置
-- 多种模式支持：gfwlist 模式、大陆白名单、游戏模式、全局模式、回国模式
-- 提供多种现成的 DNS 方案，并且可以自由方便的进行 DNS 方案自定义配置
-- 支持 SS/SSR/V2ray/Xray/Trojan 节点的在线订阅，支持节点生成二维码用以分享
+- 多平台支持：博通armv7，博通armv8，联发科Filogic 830 MT7986A，高通ipq系列
+- 多客户端支持：Shadowsocks、ShadowsocksR、V2ray、Xray、Trojan、NaïveProxy、TuicV5、Hysteria2
+- shadowsocks支持SIP003插件：simple-obfs；V2ray和Xray支持多种协议配置
+- 多种模式支持：gfwlist模式、大陆白名单、游戏模式、全局模式、回国模式
+- 提供多种现成的DNS方案，并且可以自由方便的进行DNS方案自定义配置
+- 支持SS/SSR/V2ray/Xray/Trojan节点的在线订阅，支持节点生成二维码用以分享
 - 故障转移、主备切换、负载均衡、定时重启、定时订阅、规则更新、二进制更新
-- 支持 kcptun、udpspeeder、udp2raw，可以实现代理加速，游戏加速，应对丢包等
-- 同时提供 full 版本和 lite 版本，hnd_lite 版本安装后占用不到 8MB 的空间，适合小 jffs 机型
-- armv8 机型支持 tcp fast open 和 ss/ssr/trojan 多核心运行
+- 支持kcptun、udpspeeder、udp2raw，可以实现代理加速，游戏加速，应对丢包等
+- 同时提供full版本和lite版本，hnd_lite版本安装后占用不到8MB的空间，适合小jffs机型
+- armv8机型支持tcp fast open和ss/ssr/trojan多核心运行
 
 ## 支持机型/固件 <Pill name="最新固件下载地址" link="https://fw.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg"  alt='koolcenter icon'/>
 
@@ -74,37 +74,48 @@ head:
 | RT-AX86U PRO                                                                        | 梅改 | 5.04axhnd.675x  | BCM4912   | armv8 | 4.19.183   | fancyss_hnd_v8 |
 | GT-AX11000 PRO                                                                      | 官改 | 5.04axhnd.675x  | BCM4912   | armv8 | 4.19.183   | fancyss_hnd_v8 |
 | GT-AX11000 PRO                                                                      | 梅改 | 5.04axhnd.675x  | BCM4912   | armv8 | 4.19.183   | fancyss_hnd_v8 |
+| RT-BE86U                                                                            | 官改 | 5.04behnd.4916  | BCM4916   | armv8 | 4.19.275   | fancyss_hnd_v8 |
+| RT-BE88U                                                                            | 官改 | 5.04behnd.4916  | BCM4916   | armv8 | 4.19.275   | fancyss_hnd_v8 |
+| GT-BE96                                                                             | 官改 | 5.04behnd.4916  | BCM4916   | armv8 | 4.19.275   | fancyss_hnd_v8 |
+| RT-BE96U                                                                            | 梅改 | 5.04behnd.4916  | BCM4916   | armv8 | 4.19.275   | fancyss_hnd_v8 |
+| GT-BE98_PRO                                                                         | 梅改 | 5.04behnd.4916  | BCM4916   | armv8 | 4.19.275   | fancyss_hnd_v8 |
 | [RT-AX89X](https://www.koolcenter.com/posts/126)                                    | 官改 | qca-ipq806x     | ipq8074/a | armv7 | 4.4.60     | fancyss_qca    |
+| ZenWiFi_BD4                                                                         | 官改 | qca-ipq53xx     | IPQ5322   | armv7 | 5.4.213    | fancyss_ipq32  |
+| TUF-BE6500                                                                          | 官改 | qca-ipq53xx     | IPQ5322   | armv8 | 5.4.213    | fancyss_ipq64  |
 | TX-AX6000                                                                           | 官改 | mtk-MT798X      | MT7986A   | armv8 | 5.4.182    | fancyss_mtk    |
+| TUF-AX4200Q                                                                         | 官改 | mtk-MT798X      | MT7986A   | armv8 | 5.4.182    | fancyss_mtk    |
+| GS7                                                                                 | 官改 | mtk-7988_7990   | MT7988D   | armv8 | 5.4.281    | fancyss_mtk    |
+| ZenWiFi_BT8P                                                                        | 官改 | mtk-7988_7990   | MT7988D   | armv8 | 5.4.281    | fancyss_mtk    |
 
 ## 版本选择
 
-fancyss 3.0 支持 hnd、hnd_v8、qca、arm、mtk 五个平台，每个平台又有 full 版本和 lite 版本
+fancyss 3.0支持hnd、hnd_v8、qca、arm、mtk 、ipq32、ipq64七个平台，每个平台又有full版本和lite版本
 
-full 版本为全功能版本，支持 SS、 SSR、V2ray、 Xray、Trojan、NaïveProxy 六种客户端，安装包体积较大
+full版本为全功能版本，支持SS、 SSR、V2ray、 Xray、Trojan、NaïveProxy、TuicV5、Hysteria2 八种客户端，安装包体积较大
 
-lite 版本为精简版本，支持 SS、 SSR、 V2ray、 Xray、 Trojan 五种客户端，安装包小巧，以下为 lite 版本精简内容：
+1. full版本虽然支持tuic，但因作者已放弃项目，所以默认不自带tuic二进制
+2. full版本虽然支持kcptun，但不提供kcptun二进制，如果使用kcptun加速，会提示下载二进制
+3. full版本默认不提供udp2raw和udpspeeder二进制，如需要使用，会提示下载二进制
 
-1. lite 版本移除了 v2ray、trojan 二进制文件，默认使用 xray-core 来运行 v2ray 和 trojan 协议
-2. lite 版本移除了 NaïveProxy 支持及其相关二进制文件：naive、ipt2socks
-3. lite 版本移除了 shadowsocks 的 v2ray-plugin 插件功能及其对应的二进制文件：v2ray-plugin
-4. lite 版本移除了 UDP 加速功能及其二进制文件：speederv1、speederv2、udp2raw
-5. lite 版本移除了 KCP 加速功能及其二进制文件：kcptun
-6. lite 版本移除了负载均衡支持及其页面和二进制文件：haproxy
-7. lite 版本移除了直连解析的 DNS 方案及其二进制：cdns、chinadns、chinadns1、smartdns、https_dns_proxyy
-8. lite 版本移除了 haveged，因为现在较新的固件系统自带了熵增软件
-9. lite 版本移除了 shadowsocks-rust 替换 shadowsocks-libev 功能，默认由 shadowsocks-libev 运行 ss 协议
-10. lite 版本移除了 socks5 页面及其脚本及其 acl 规则文件
+lite版本为精简版本，支持SS、 SSR、 V2ray、 Xray、 Trojan 五种客户端，安装包小巧，以下为lite版本精简内容：
 
-如果是不折腾以上被精简功能的用户，完全可以使用体积更小的 lite 版本
+1. lite版本移除了NaïveProxy支持及其相关二进制文件：naive、ipt2socks
+2. lite版本移除了UDP加速功能及其二进制文件：speederv1、speederv2、udp2raw
+3. lite版本移除了KCP加速功能及其二进制文件：kcptun
+4. lite版本移除了直连解析的DNS方案及其二进制：chinadns1、chinadns2、https_dns_proxy
+5. lite版本移除了haveged，因为现在较新的固件系统自带了熵增软件
+6. lite版本移除了shadowsocks-rust替换shadowsocks-libev功能，默认由shadowsocks-libev运行ss协议
+7. lite版本移除了socks5页面及其脚本及其acl规则文件
 
-RT-AX56U_V2、RT-AX57 这种 jffs 分区极小(15MB)的机型，直接使用 lite 版本即可
+如果是不折腾以上被精简功能的用户，完全可以使用体积更小的lite版本
 
-要切换为 lite 版本，直接安装 lite 版本的离线安装包即可，以后在线更新也会维持为 lite 版本
+RT-AX56U_V2、RT-AX57 这种jffs分区极小(15MB)的机型，直接使用lite版本即可
 
-要切换为 full 版本，直接安装 full 版本的离线安装包即可，以后在线更新也会维持为 full 版本
+要切换为lite版本，直接安装lite版本的离线安装包即可，以后在线更新也会维持为lite版本
 
-RT-AX86U、GT-AX6000 等 armv8 机型（见上表），从 3.0.6 开始建议安装 fancyss_hnd_v8 版本，当然 fancyss_hnd 同样兼容
+要切换为full版本，直接安装full版本的离线安装包即可，以后在线更新也会维持为full版本
+
+RT-AX86U、GT-AX6000等armv8机型（见上表），从3.0.6开始建议安装fancyss_hnd_v8版本，当然fancyss_hnd同样兼容
 
 ## 插件下载
 
@@ -115,13 +126,15 @@ RT-AX86U、GT-AX6000 等 armv8 机型（见上表），从 3.0.6 开始建议安
 
 插件离线包下载导航：
 
-| 平台   | 最新 full 版本下载                                                                                             | 最新 lite 版本下载                                                                                             | 历史版本下载（包含最新版）                                                                    |
+| 平台   | 最新full版本下载                                                                                               | 最新lite版本下载                                                                                               | 历史版本下载（包含最新版）                                                                    |
 | ------ | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | hnd    | [fancyss_hnd_full](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_hnd_full.tar.gz)       | [fancyss_hnd_lite](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_hnd_lite.tar.gz)       | [fancyss_hnd](https://github.com/hq450/fancyss_history_package/tree/master/fancyss_hnd)       |
 | hnd_v8 | [fancyss_hnd_v8_full](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_hnd_v8_full.tar.gz) | [fancyss_hnd_v8_lite](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_hnd_v8_lite.tar.gz) | [fancyss_hnd_v8](https://github.com/hq450/fancyss_history_package/tree/master/fancyss_hnd_v8) |
 | qca    | [fancyss_qca_full](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_qca_full.tar.gz)       | [fancyss_qca_lite](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_qca_lite.tar.gz)       | [fancyss_qca](https://github.com/hq450/fancyss_history_package/tree/master/fancyss_qca)       |
 | arm    | [fancyss_arm_full](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_arm_full.tar.gz)       | [fancyss_arm_lite](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_arm_lite.tar.gz)       | [fancyss_arm](https://github.com/hq450/fancyss_history_package/tree/master/fancyss_arm)       |
 | mtk    | [fancyss_mtk_full](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_mtk_full.tar.gz)       | [fancyss_mtk_lite](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_mtk_lite.tar.gz)       | [fancyss_mtk](https://github.com/hq450/fancyss_history_package/tree/master/fancyss_mtk)       |
+| ipq32  | [fancyss_ipq32_full](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_ipq32_full.tar.gz)   | [fancyss_ipq32_lite](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_ipq32_lite.tar.gz)   | [fancyss_ipq32](https://github.com/hq450/fancyss_history_package/tree/master/fancyss_ipq32)   |
+| ipq64  | [fancyss_ipq64_full](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_ipq64_full.tar.gz)   | [fancyss_ipq64_lite](https://raw.githubusercontent.com/hq450/fancyss/3.0/packages/fancyss_ipq64_lite.tar.gz)   | [fancyss_ipq64](https://github.com/hq450/fancyss_history_package/tree/master/fancyss_ipq64)   |
 
 ## 插件安装
 
@@ -167,19 +180,6 @@ tx：华硕天选青色皮肤
 - <Pill name="官改/梅改固件下载【官方网站】（最新固件）" link="https://www.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg"  alt="koolcenter icon" />
 - <Pill name="官改/梅改固件下载【固件镜像】（次新固件）" link="https://fw.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg" alt="koolcenter icon" />
 
----
-
-# fancyss - 配置
-
-## 应用概述
-
-**Koolshare Merlin 固件主要特色**
-
-- 使用 Asuswrt-merlin 固件源代码为基础（asuswrt-ml.ng 代码）修改；
-- 在 Asuswrt-merlin 固件基础上增加一些软件中心用到的功能，如 dnsmasq with ipset，base64，等功能；
-- koolshare 软件中心支持(众多使用插件)；
-- AiMesh 支持解锁。
-
 ## 配置使用
 
 ### 第 1 步 - 打开梅林固件「软件中心」的「科学上网」插件
@@ -224,7 +224,9 @@ tx：华硕天选青色皮肤
 :::
 ![fancyss](https://i.theojs.cn/docs/image_1d6qvr3.webp '更新订阅')
 
-## DNS服务工作异常，无法解析域名
+## 异常解决方案
+
+### DNS服务工作异常，无法解析域名
 
 - **DNS方案设置** - 进阶
 - **DNS主方案** - smartdns

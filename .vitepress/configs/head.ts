@@ -82,7 +82,14 @@ export const head: HeadConfig[] = [
         '流媒体, Netflix, Disney+, HBO Max, Spotify, YouTube, 解锁, 流媒体观影, 奈飞, 青云梯, 奈飞小铺, 银河录像局'
     }
   ],
-
+  [
+    'meta',
+    {
+      name: 'robots',
+      content:
+        'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'
+    }
+  ],
   [
     'meta',
     {

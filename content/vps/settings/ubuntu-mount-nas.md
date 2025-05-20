@@ -9,7 +9,9 @@ head:
       content: Ubuntu 自动挂载 NAS 磁盘 cifs-utils 网络存储 挂载配置
 ---
 
-### 新建目录
+# Ubuntu 开机自动挂载 NAS 磁盘
+
+## 新建目录
 
 首先在Ubuntu 的 /mnt 目录下新建一个 NAS 挂载目录 nas_share：
 
@@ -17,13 +19,13 @@ head:
 mkdir /mnt/nas_share
 ```
 
-### 安装 cifs-utils
+## 安装 cifs-utils
 
 ```sh
 sudo apt install cifs-utils
 ```
 
-### 查看用户的 uid 和 gid
+## 查看用户的 uid 和 gid
 
 ```sh
 id root
@@ -37,7 +39,7 @@ id root
 
 在此记下此用户的 uid 和 gid，分别是 0 和 0 ，在编辑 /etc/fstab 的时候要写进去。
 
-### 编辑启动挂载文件 fstab
+## 编辑启动挂载文件 fstab
 
 ```sh
 sudo vim /etc/fstab
@@ -67,7 +69,7 @@ sudo vim /etc/fstab
 
 - `0 2` fstab 的 `<dump>``<pass>` 选项。
 
-### 挂载
+## 挂载
 
 ```sh
 sudo mount -a

@@ -1,5 +1,5 @@
 ---
-title: Git 常用命令 | Git 基本操作 快速上手
+title: Git 常用命令 Git 基本操作 快速上手
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: Git 常用命令 Git 基本操作 版本控制 代码管理 Git 协作 Git 提交
 ---
+
+# Git 常用命令 Git 基本操作 快速上手
 
 ## 创建目录
 

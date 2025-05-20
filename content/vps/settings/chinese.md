@@ -1,5 +1,5 @@
 ---
-title: 更改中文语言
+title: Linux 系统中更改中文语言设置
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: Linux 更改中文语言 中文环境 设置 切换语言
 ---
+
+# Linux 系统中更改中文语言设置
 
 ## 1.安装区域设置 (locales)
 

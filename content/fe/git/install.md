@@ -1,5 +1,5 @@
 ---
-title: Git 简介与安装 | 版本控制工具 安装与配置
+title: Git 版本控制工具简介与安装
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: Git 简介 Git 安装 版本控制工具 Git 配置 项目管理 Git 使用
 ---
+
+# Git 版本控制工具简介与安装
 
 ## Git 是什么？
 

@@ -1,5 +1,5 @@
 ---
-title: 关闭IPV6
+title: OpenWrt 关闭IPV6设置
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: IPV6 IPV4 关闭IPV6 禁用IPV6
 ---
+
+# OpenWrt 关闭IPV6设置
 
 ## WAN 口设置
 

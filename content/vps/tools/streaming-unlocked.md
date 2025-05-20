@@ -9,6 +9,8 @@ head:
       content: VPS 一键检测 流媒体 解锁 Netflix 机场 科学上网
 ---
 
+# VPS 一键检测流媒体解锁
+
 ## 支持 OS/Platform
 
 - CentOS 6+

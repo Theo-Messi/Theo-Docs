@@ -1,5 +1,5 @@
 ---
-title: Linux VIM 编辑器 | 高效文本编辑工具
+title: Linux VIM 编辑器 高效文本编辑工具
 head:
   - - meta
     - name: description
@@ -7,7 +7,12 @@ head:
   - - meta
     - name: keywords
       content: Linux VIM 编辑器 文本编辑 快捷键 编辑命令
+  - - meta
+    - name: og:image
+      content: https://i.theojs.cn/docs/vi-vim-cheat-sheet-sch.gif
 ---
+
+# Linux VIM 编辑器 高效文本编辑工具
 
 ## 什么是 vim？
 

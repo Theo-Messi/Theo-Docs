@@ -1,5 +1,5 @@
 ---
-title: pnpm 切换镜像及恢复默认源 | 使用国内镜像加速安装
+title: pnpm 切换镜像及恢复默认源 使用国内镜像加速安装
 head:
   - - meta
     - name: description
@@ -9,13 +9,15 @@ head:
       content: pnpm 镜像切换 恢复默认源 npm 国内镜像 包管理 加速安装
 ---
 
-### 验证当前NPM源地址
+# pnpm 切换镜像及恢复默认源 使用国内镜像加速安装
+
+## 验证当前NPM源地址
 
 ```sh
 pnpm config get registry
 ```
 
-### 国内镜像
+## 国内镜像
 
 ::: code-group
 
@@ -33,13 +35,13 @@ pnpm config set registry https://mirrors.huaweicloud.com/repository/npm/
 
 :::
 
-### 恢复默认源
+## 恢复默认源
 
 ```sh
 pnpm config set registry=https://registry.npmjs.org
 ```
 
-### 通过使用淘宝定制的cnpm安装
+## 通过使用淘宝定制的cnpm安装
 
 ```sh
 pnpm install -g cnpm --registry=https://registry.npmmirror.com   # 安装cnpm

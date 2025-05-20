@@ -1,5 +1,5 @@
 ---
-title: H3C NX30Pro 刷 OpenWRT 固件教程 | Uboot 刷写与恢复操作指南
+title: H3C NX30Pro 刷 OpenWRT 固件教程 Uboot 刷写与恢复操作指南
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: H3C NX30Pro OpenWRT 刷机教程 固件更新 Uboot 路由器固件 恢复系统
 ---
+
+# H3C NX30Pro 刷 OpenWRT 固件教程 Uboot 刷写与恢复操作指南
 
 ## 准备工作
 

@@ -9,6 +9,8 @@ head:
       content: VitePress 图片放大 功能实现 用户体验 提升
 ---
 
+# VitePress实现单击图片放大
+
 ## 1. medium-zoom
 
 ```shell

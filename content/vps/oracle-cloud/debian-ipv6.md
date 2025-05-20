@@ -9,6 +9,8 @@ head:
       content: 甲骨文云 Oracle Cloud DD Debian IPv6 自动获取 网络配置 系统设置
 ---
 
+# 甲骨文云(Oracle Cloud) DD Debian系统自动获取IPv6
+
 甲骨文 DD Debian 系统后，IPv6 就无法使用了。因为 DD 系统后改变了网络配置，导致 Debian 无法获取到控制台中已经为它配置好的 IPv6。只用 IPv4 是没问题的，但甲骨文既然提供 IPv6，不用岂不是很可惜！
 
 Debian 默认由 `ifupdown` 负责网络配置，主要配置文件是 `/etc/network/interfaces`。

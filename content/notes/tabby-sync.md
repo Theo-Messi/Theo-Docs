@@ -9,6 +9,8 @@ head:
       content: Tabby 配置同步 第三方插件 Gist 配置管理 同步工具
 ---
 
+# Tabby 配置同步（第三方插件+gist）
+
 ## 安装插件
 
 首先，到 `Tabby` 扩展界面安装 `cloud-settings-sync`

@@ -1,5 +1,5 @@
 ---
-title: Homebrew 安装软件 | 快速安装与管理 Mac 软件
+title: Homebrew 安装软件 快速安装与管理 Mac 软件
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: Homebrew 安装软件 Mac 包管理 软件管理 快速安装
 ---
+
+# Homebrew 安装软件 快速安装与管理 Mac 软件
 
 ## 安装软件
 

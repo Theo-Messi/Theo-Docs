@@ -9,6 +9,8 @@ head:
       content: GPG 签名 Git Commit 安全性 提交验证 Git 安全 提升 Git 提交身份验证
 ---
 
+# 使用 GPG 签名 Git Commit
+
 ## GPG 安装
 
 ```bash

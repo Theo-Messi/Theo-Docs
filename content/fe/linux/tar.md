@@ -1,5 +1,5 @@
 ---
-title: Linux 打包与拆包 | 文件打包与解压命令
+title: Linux 打包与拆包 文件打包与解压命令
 head:
   - - meta
     - name: description
@@ -9,7 +9,7 @@ head:
       content: Linux 打包 拆包 文件压缩 解压命令 tar gzip
 ---
 
-## 打包与拆包
+# Linux 打包与拆包 文件打包与解压命令
 
 一般 Linux 上常用的压缩方式是选用 `tar` 将许多文件打包成一个文件，再以 `gzip` 压缩命令压缩成 `xxx.tat.gz(或者 xxx.tgz)` 的文件。
 

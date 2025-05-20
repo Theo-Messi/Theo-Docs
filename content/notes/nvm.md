@@ -9,6 +9,8 @@ head:
       content: nvm Node.js 版本管理 安装切换 Node.js 管理工具
 ---
 
+# 使用 nvm 管理不同版本的 node
+
 ## nvm 与 n 的区别
 
 node 版本管理工具还有一个是 TJ大神的 n 命令，n 命令是作为一个 node 的模块而存在，而 nvm 是一个独立于 node/npm 的外部 shell 脚本，因此 n 命令相比 nvm 更加局限。

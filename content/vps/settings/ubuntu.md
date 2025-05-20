@@ -9,6 +9,8 @@ head:
       content: Debian Ubuntu 系统优化 性能优化 内核调优 网络优化 服务管理
 ---
 
+# Debian/Ubuntu 系统优化设置
+
 ## 系统下载
 
 <Pill name="Ubuntu" link="https://cn.ubuntu.com/download/desktop" :icon="{ light: 'skill-icons:ubuntu-light', dark: 'skill-icons:ubuntu-dark' }" alt="ubuntu图标" />
@@ -16,13 +18,13 @@ head:
 
 ## 开启 SSH 服务远程登录
 
-#### 安装 net-tools 和 openssh-server
+### 安装 net-tools 和 openssh-server
 
 ```sh
 sudo apt install net-tools openssh-server
 ```
 
-#### 查看是否开启 ssh 服务
+### 查看是否开启 ssh 服务
 
 ```sh
 dpkg -l | grep ssh
@@ -139,19 +141,19 @@ sudo apt clean
 
 ## 同步时间
 
-#### 安装 `ntpdate`
+### 安装 `ntpdate`
 
 ```sh
 sudo apt install ntpdate
 ```
 
-#### 设置系统时间与网络时间同步
+### 设置系统时间与网络时间同步
 
 ```sh
 sudo ntpdate cn.pool.ntp.org
 ```
 
-#### 将时间更新到硬件
+### 将时间更新到硬件
 
 ```sh
 sudo hwclock --systohc

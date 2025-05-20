@@ -1,5 +1,5 @@
 ---
-title: Merlin Clash - 安装
+title: Merlin Clash
 head:
   - - meta
     - name: description
@@ -9,13 +9,13 @@ head:
       content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
 ---
 
-# Merlin Clash - 安装
+# Merlin Clash
 
 ## 简介
 
 Merlin Clash 是一款运行在 <Pill name="KoolCenter" link="https://www.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg" alt="koolcenter icon" /> 软件中心(Arm 版)上的 Clash GUI 插件。
 
-获取插件需加入 **Telegram 群组** <Pill name="merlinclashcat" link="https://t.me/merlinclashcat" icon="logos:telegram" alt="telegram logo" />
+获取插件需加入 **Telegram 群组** <Pill name="撸猫云魔法" link="https://t.me/merlinclashcat" icon="logos:telegram" alt="telegram logo" />
 
 ## 插件下载
 
@@ -37,11 +37,9 @@ Merlin Clash 是一款运行在 <Pill name="KoolCenter" link="https://www.koolce
 
 ## 使用
 
-详细的使用和更多的技巧可参考 [官方 WiKi](https://mcreadme.gitbook.io/mc/)。
+详细的使用和更多的技巧可参考 [撸猫云魔法官方 WiKi](https://mcreadme.gitbook.io/mc/)。
 
 ---
-
-# Merlin Clash - 配置
 
 :::tip 注意事项
 `Merlin Clash` 和 `科学上网` 插件不能同时启用，请确保配置和启动 `Merlin Clash` 插件前彻底关闭或卸载原有的 `科学上网` 插件。

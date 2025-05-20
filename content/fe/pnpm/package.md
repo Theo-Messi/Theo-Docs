@@ -1,5 +1,5 @@
 ---
-title: pnpm 管理依赖项 | 高效的依赖管理工具
+title: pnpm 管理依赖项 高效的依赖管理工具
 head:
   - - meta
     - name: description
@@ -9,7 +9,9 @@ head:
       content: pnpm 管理依赖项 Node.js 包管理 高效依赖管理 项目依赖
 ---
 
-### 安装包
+# pnpm 管理依赖项 高效的依赖管理工具
+
+## 安装包
 
 ```bash
 pnpm install [包]
@@ -19,7 +21,7 @@ pnpm add -D     # -D devDependencies
 pnpm add -g     # 全局安装
 ```
 
-### 移除包
+## 移除包
 
 ```bash
 pnpm remove 包                            //移除包

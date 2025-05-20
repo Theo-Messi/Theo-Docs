@@ -12,6 +12,8 @@ head:
       content: https://i.theojs.cn/docs/202406111509751.webp
 ---
 
+# YouTube Premium 会员权益及订阅终极指南
+
 ![YouTube](https://i.theojs.cn/docs/202406111509751.webp 'YouTube')
 
 YouTube Premium 是谷歌的流媒体服务套餐，提供无广告的 YouTube 体验以及 YouTube Music 和 Google Play Music 两项服务。开通 YouTube Premium 会员后，可享受以下核心权益：

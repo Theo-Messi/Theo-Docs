@@ -86,7 +86,8 @@ export const Aside_Data: AsideItem[] = [
   },
   {
     link: 'https://github.com/Theo-Messi/lumen',
-    image: 'https://i.theojs.cn/logo/Lumen-Logo.webp',
+    image: 'https://i.theojs.cn/logo/Lumen-Logo-mini.webp',
+    alt: '@theojs/Lumen Logo',
     name: '@theojs/Lumen',
     hide1: '集成 Vue 功能组件',
     hide2: 'VitePress 主题美化'

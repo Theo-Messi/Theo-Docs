@@ -9,6 +9,8 @@ head:
       content: PicGo Github 图床 图片上传 图片压缩 图片存储 图片加速 图片管理 工具
 ---
 
+# PicGo + Github 搭建图床
+
 ## 准备工作
 
 <Pill name="注册 Github 账号" link="https://github.com/" :icon="{ light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', }" alt="github图标" />

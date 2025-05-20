@@ -1,5 +1,5 @@
 ---
-title: iStore 插件包 | OpenWRT 插件包合集，PassWall, OpenClash 等插件安装教程
+title: iStore 插件包 OpenWRT 插件包合集，PassWall, OpenClash 等插件安装教程
 head:
   - - meta
     - name: description
@@ -8,6 +8,8 @@ head:
     - name: keywords
       content: iStore 插件包 OpenWRT PassWall OpenClash SSR-Plus 科学工具 DNS 拦截 网络优化
 ---
+
+# iStore 插件包 OpenWRT 插件包合集，PassWall, OpenClash 等插件安装教程
 
 ## iStore插件包
 

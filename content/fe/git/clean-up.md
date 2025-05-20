@@ -1,5 +1,5 @@
 ---
-title: Git 缩减仓库 | 优化 Git 仓库大小 提高性能
+title: Git 缩减仓库 优化 Git 仓库大小 提高性能
 head:
   - - meta
     - name: description
@@ -9,7 +9,7 @@ head:
       content: Git 缩减仓库 优化 Git 仓库大小 Git 清理 历史记录 仓库管理 Git 性能
 ---
 
-## 缩减 git 仓库
+# Git 缩减仓库 优化 Git 仓库大小 提高性能
 
 ```sh
 # 清除垃圾文件 - 大量无用的 mp3 文件
