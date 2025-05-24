@@ -39,7 +39,8 @@ export default {
     if ((import.meta as any).env.PROD) {
       umamiAnalytics({
         id: (import.meta as any).env.VITE_UMAMI_ID,
-        src: (import.meta as any).env.VITE_UMAMI_SRC
+        src: (import.meta as any).env.VITE_UMAMI_SRC,
+        domains: 'doc.theojs.cn'
       })
     }
     app.component('Home', HomeUnderline)

@@ -3,6 +3,7 @@ import type { AsideItem } from '@theojs/lumen'
 export const Aside_Data: AsideItem[] = [
   {
     link: 'https://itheo.top/flyingbird',
+    rel: 'sponsored',
     image: 'https://i.theojs.cn/logo/flyingbird.webp',
     alt: 'FlyingBird Logo',
     promo: 'FlyingBird 520&618 特惠',
@@ -13,12 +14,14 @@ export const Aside_Data: AsideItem[] = [
   },
   // {
   //   link: 'https://itheo.top/flyingbird',
+  //   rel: 'sponsored',
   //   image: 'https://i.theojs.cn/logo/flyingbird.webp',
   //  alt: 'FlyingBird Logo'
   //   promo: 'FlyingBird'
   // },
   {
     link: 'https://itheo.top/totoro',
+    rel: 'sponsored',
     image: 'https://i.theojs.cn/logo/totoro.webp',
     alt: '龙猫云 Logo',
     promo: '龙猫云51大促-低至48折！',
@@ -29,6 +32,7 @@ export const Aside_Data: AsideItem[] = [
   },
   // {
   //   link: 'https://itheo.top/totoro',
+  //   rel: 'sponsored',
   //   image: 'https://i.theojs.cn/logo/totoro.webp',
   //   alt: '龙猫云 Logo',
   //   promo: 'Totoro Cloud - 龙猫云'
@@ -45,12 +49,14 @@ export const Aside_Data: AsideItem[] = [
   // },
   {
     link: 'https://itheo.top/qyt',
+    rel: 'sponsored',
     image: 'https://i.theojs.cn/logo/qyt.webp',
     alt: '青云梯 Logo',
     promo: '青云梯'
   },
   // {
   //   link: 'https://itheo.top/tnt',
+  //   rel: 'sponsored',
   //   image: 'https://i.theojs.cn/docs/TNT.webp',
   //   alt: 'TNT Cloud Logo',
   //   promo: 'TNT Cloud 五一特惠!',
@@ -59,12 +65,14 @@ export const Aside_Data: AsideItem[] = [
   // },
   {
     link: 'https://itheo.top/tnt',
+    rel: 'sponsored',
     image: 'https://i.theojs.cn/docs/TNT.webp',
     alt: 'TNT Cloud Logo',
     promo: 'TNT Cloud'
   },
   // {
   //   link: 'https://itheo.top/feitu',
+  // rel: 'sponsored',
   //   image: 'https://i.theojs.cn/logo/feitu.webp',
   // alt: '飞兔云 Logo',
   //   promo: '飞兔云 双11 狂欢来袭！',
@@ -74,12 +82,14 @@ export const Aside_Data: AsideItem[] = [
   // },
   {
     link: 'https://itheo.top/feitu',
+    rel: 'sponsored',
     image: 'https://i.theojs.cn/logo/feitu.webp',
     alt: '飞兔云 Logo',
     promo: '飞兔云'
   },
   {
     link: 'https://i.theojs.cn/sponsor.webp',
+    rel: 'sponsored',
     icon: 'twemoji:red-heart',
     alt: '赞助图标',
     name: '赞助我的项目'
