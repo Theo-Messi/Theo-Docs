@@ -29,6 +29,7 @@ hero:
     # dateIcon: 'mdi:calendar-star'
     dateText: '活动截止日期'
     link: https://itheo.top/flyingbird
+    rel: sponsored
 
   actions:
     - theme: brand
@@ -46,10 +47,15 @@ hero:
     - theme: brand
       text: ❤️ 成为赞助商
       link: https://i.theojs.cn/sponsor.webp
+      rel: 'sponsored'
 
     - theme: custom-alt
       text: 玄学宝典
       link: https://xx.theojs.cn
+
+    - theme: custom-alt-lumen
+      text: Lumen
+      link: https://lumen.theojs.cn
 
 features:
   - title: '<iconify-icon class="i-mr" icon="simple-icons:netflix" style="color:#E50914" alt="netflix"></iconify-icon>流媒体观影'

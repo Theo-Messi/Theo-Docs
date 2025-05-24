@@ -75,7 +75,7 @@ Spotify 免费版与付费版在曲库方面没有差异。不过，不同地区
 
 ## 优选 Spotify Premium 合租平台
 
-<!--@include: @/serve/sharing/account-sharing-guide.md{14,18}-->
+<!--@include: @/serve/sharing/account-sharing-guide.md{15,18}-->
 
 ## 总结
 
