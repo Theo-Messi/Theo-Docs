@@ -52,3 +52,7 @@ Totoro Cloud 中文名为龙猫云，一家颇具实力的新机场，Shadowsock
 | **VIP2** | **200G**  |   ¥30   |   ¥81   |   ¥153    |  ¥288   |    ✅    | <Pill name="立即购买" link="https://itheo.top/totoro" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
 | **VIP3** | **400G**  |   ¥60   |  ¥162   |   ¥306    |  ¥576   |    ✅    | <Pill name="立即购买" link="https://itheo.top/totoro" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
 | **VIP4** | **1000G** |  ¥120   |  ¥324   |   ¥697    |  ¥1152  |    ✅    | <Pill name="立即购买" link="https://itheo.top/totoro" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
+
+## 龙猫云 测速图
+
+![龙猫云 测速图 =750x](https://i.theojs.cn/airport/totoro.webp)
