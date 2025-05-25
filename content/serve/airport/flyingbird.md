@@ -50,3 +50,7 @@ head:
 |   **白银**   | **200G**  | ¥30  |    ✅    | <Pill name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="cryptocurrency-color:usdt" width="24" height="24" ></iconify-icon> |
 |   **黄金**   | **500G**  | ¥75  |    ✅    | <Pill name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="cryptocurrency-color:usdt" width="24" height="24" ></iconify-icon> |
 |   **钻石**   | **1000G** | ¥150 |    ✅    | <Pill name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="cryptocurrency-color:usdt" width="24" height="24" ></iconify-icon> |
+
+## FlyingBird 测速图
+
+![FlyingBird 测速图 =750x](https://i.theojs.cn/airport/flyingbird.webp)

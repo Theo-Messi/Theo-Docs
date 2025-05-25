@@ -44,3 +44,7 @@ IPLC内网专线机场，原生 IP 节点，服务稳定可靠，是老牌机场
 |  **VIP2**  | **220G**  |   ¥40   |  ¥108   |   ¥204    |  ¥336   |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
 |  **VIP3**  | **460G**  |   ¥80   |  ¥216   |   ¥408    |  ¥768   |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
 |  **VIP4**  | **1100G** |  ¥160   |  ¥432   |   ¥816    |  ¥1536  |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
+
+## TNT Cloud 测速图
+
+![TNT Cloud 测速图 =750x](https://i.theojs.cn/airport/tnt.webp)

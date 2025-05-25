@@ -65,3 +65,7 @@ head:
 | **100G-不限时** | **100G** | ¥29.9 |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
 | **200G-不限时** | **200G** | ¥59.9 |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
 | **500G-不限时** | **500G** | ¥99.9 |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
+
+## 飞兔云测速图
+
+![飞兔云测速图 =750x](https://i.theojs.cn/airport/feitu.webp)
