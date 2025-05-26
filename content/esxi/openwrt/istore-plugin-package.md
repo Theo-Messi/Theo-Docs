@@ -1,5 +1,5 @@
 ---
-title: iStore 插件包 OpenWRT 插件包合集，PassWall, OpenClash 等插件安装教程
+title: iStore/OpenWRT插件包合集，PassWall, OpenClash 等
 head:
   - - meta
     - name: description
@@ -9,21 +9,27 @@ head:
       content: iStore 插件包 OpenWRT PassWall OpenClash SSR-Plus 科学工具 DNS 拦截 网络优化
 ---
 
-# iStore 插件包 OpenWRT 插件包合集，PassWall, OpenClash 等插件安装教程
+# iStore/OpenWRT插件包合集，PassWall, OpenClash 等
 
-## iStore插件包
+## iStore插件包列表
 
-<Pill name="ARM 平台" link="https://github.com/AUK9527/Are-u-ok/tree/main/apps" image="https://i.theojs.cn/logo/istoreos.webp" alt="istore os 图标" /> 
-<Pill name="x86_64平台" link="https://github.com/AUK9527/Are-u-ok/tree/main/x86" image="https://i.theojs.cn/logo/istoreos.webp" alt="istore os 图标" />
+|                                                常用代理软件包                                                |                                                      其他软件包                                                       |
+| :----------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
+|    <Pill name="适用于 22.03 版本" link="https://github.com/bcseputetto/Are-u-ok/releases/tag/iStoreOS" />    |    <Pill name="适用于 22.03 版本" link="https://github.com/bcseputetto/Are-u-ok/blob/master/packages/README.md" />    |
+| <Pill name="适用于 24.10 版本" link="https://github.com/bcseputetto/Are-u-ok/releases/tag/iStoreOS_24.10" /> | <Pill name="适用于 24.10 版本" link="https://github.com/bcseputetto/Are-u-ok/blob/master/packages_24.10/README.md" /> |
 
 ## 常用代理软件包
 
-| 插件名    | 功能     |
-| --------- | -------- |
-| PassWall  | 科学工具 |
-| PassWall2 | 科学工具 |
-| SSR-Plus  | 科学工具 |
-| OpenClash | 科学工具 |
+|    插件名     |               功能说明               |
+| :-----------: | :----------------------------------: |
+|   PassWall    |    科学上网（主流代理客户端之一）    |
+|   PassWall2   |  科学上网（PassWall 分支或增强版）   |
+|   SSR-Plus    |   科学上网（支持 SSR/SS 等多协议）   |
+|   OpenClash   |     科学上网（支持 Clash 核心）      |
+|   homeproxy   |     科学上网（轻量级代理客户端）     |
+| OpenWrt-nikki |  精简型科学上网整合包（适配多架构）  |
+|      dae      | 新一代代理后端（需 iStoreOS 新版本） |
+|     daed      |          dae 的守护进程组件          |
 
 - passwall、passwall2、ssr-plus均使用 22.03.X sdk编译，依旧使用libopenssl1.1，无需libopenssl3依赖，安装后在服务里。
 - 安装后passwall日志里提示一些依赖未安装属于正常现象，不影响使用，这些依赖固件里应该都自带的。可以到【系统】-【软件包】-【已安装】里确认。
@@ -36,20 +42,16 @@ head:
 
 ## 其它软件包
 
-| 插件名              | 功能                                     |
-| ------------------- | ---------------------------------------- |
-| AdGuardHome         | DNS/拦截                                 |
-| MosDNS              | DNS 转发/分流器                          |
-| UnblockNeteaseMusic | 解锁网易云灰色歌曲                       |
-| VSSR                | HelloWorld 科学工具                      |
-| ByPass              | ByPass 科学工具                          |
-| ikoolproxy          | koolproxy去广告(不适合高于5.4内核的固件) |
-| adblock             | adblock去广告                            |
-| adbyby              | adbyby去广告                             |
-| KMS                 | KMS服务器                                |
-| OpenVPN             | OpenVPN客户端                            |
-| OpenVPN-Server      | OpenVPN服务端                            |
-| NPS                 | Nps内网穿透                              |
+|       插件名        |         功能说明         |
+| :-----------------: | :----------------------: |
+| unblockneteasemusic |      网易云音乐解锁      |
+|       mosdns        |         DNS 分流         |
+|     AdGuardHome     |      DNS + 广告过滤      |
+|      taskplan       |         定时任务         |
+|      eqosplus       |         定时限速         |
+|      wrtbwmon       |       实时流量监控       |
+|       NekoBox       |        梯子客户端        |
+|       ByPass        | （已停止维护）梯子客户端 |
 
 ::: tip
 AdGuardHome如果想自己配置，而不是使用默认配置，请删除 `/etc/AdGuardHome.yaml` 配置文件后，自己进行用户名，密码，web以及dns相关配置
