@@ -1,9 +1,7 @@
 ---
 title: Docker 国内镜像加速
+description: 通过使用国内 Docker 镜像加速器（如阿里云、DaoCloud），可以显著提高镜像下载速度，优化 Docker 使用体验。
 head:
-  - - meta
-    - name: description
-      content: 通过使用国内 Docker 镜像加速器（如阿里云、DaoCloud），可以显著提高镜像下载速度，优化 Docker 使用体验。
   - - meta
     - name: keywords
       content: Docker 国内镜像加速, 阿里云加速器, DaoCloud, 镜像加速, Docker 配置

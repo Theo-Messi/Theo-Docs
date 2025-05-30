@@ -1,9 +1,7 @@
 ---
 title: 优化 iOS/Android 来电、信息界面体验
+description: 提升 iOS/Android 来电和信息界面的用户体验，优化界面设计与交互。
 head:
-  - - meta
-    - name: description
-      content: 提升 iOS/Android 来电和信息界面的用户体验，优化界面设计与交互。
   - - meta
     - name: keywords
       content: iOS Android 来电界面 信息界面 用户体验 界面优化 交互设计

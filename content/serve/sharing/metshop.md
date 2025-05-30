@@ -1,9 +1,7 @@
 ---
 title: 蜜糖商店
+description: 蜜糖商店是一个专注于提供各种流媒体账号的合租平台，包括 Netflix、YouTube、Spotify、Disney+ 等。
 head:
-  - - meta
-    - name: description
-      content: 蜜糖商店是一个专注于提供各种流媒体账号的合租平台，包括 Netflix、YouTube、Spotify、Disney+ 等。
   - - meta
     - name: keywords
       content: 蜜糖商店 流媒体账号 合租平台 Netflix YouTube Spotify Disney+

@@ -1,9 +1,7 @@
 ---
 title: OpenWrt 关闭IPV6设置
+description: 关闭 IPV6 的设置教程
 head:
-  - - meta
-    - name: description
-      content: 关闭 IPV6 的设置教程
   - - meta
     - name: keywords
       content: IPV6 IPV4 关闭IPV6 禁用IPV6

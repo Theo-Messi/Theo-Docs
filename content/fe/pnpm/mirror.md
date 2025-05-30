@@ -1,9 +1,7 @@
 ---
 title: pnpm 切换镜像及恢复默认源 使用国内镜像加速安装
+description: 学习如何使用 pnpm 切换国内镜像源，提升 Node.js 包管理速度，并恢复到默认源。
 head:
-  - - meta
-    - name: description
-      content: 学习如何使用 pnpm 切换国内镜像源，提升 Node.js 包管理速度，并恢复到默认源。
   - - meta
     - name: keywords
       content: pnpm 镜像切换 恢复默认源 npm 国内镜像 包管理 加速安装

@@ -1,9 +1,7 @@
 ---
 title: Homebrew 简介与安装 快速安装与管理软件工具
+description: Homebrew 是由 Mac 开发团队开发的包管理器工具，它可以帮助我们快速安装和卸载软件，并且可以方便的进行软件的升级。
 head:
-  - - meta
-    - name: description
-      content: Homebrew 是由 Mac 开发团队开发的包管理器工具，它可以帮助我们快速安装和卸载软件，并且可以方便的进行软件的升级。
   - - meta
     - name: keywords
       content: Homebrew 包管理器 安装 Homebrew Mac 软件管理 升级卸载

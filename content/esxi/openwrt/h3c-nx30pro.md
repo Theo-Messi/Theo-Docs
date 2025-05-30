@@ -1,9 +1,7 @@
 ---
 title: H3C NX30Pro 刷 OpenWRT 固件教程 Uboot 刷写与恢复操作指南
+description: 完整的 H3C NX30Pro 刷 OpenWRT 固件教程，包括 Uboot 刷写、固件备份与恢复操作步骤，适用于刷机前后常见问题解决。
 head:
-  - - meta
-    - name: description
-      content: 完整的 H3C NX30Pro 刷 OpenWRT 固件教程，包括 Uboot 刷写、固件备份与恢复操作步骤，适用于刷机前后常见问题解决。
   - - meta
     - name: keywords
       content: H3C NX30Pro OpenWRT 刷机教程 固件更新 Uboot 路由器固件 恢复系统

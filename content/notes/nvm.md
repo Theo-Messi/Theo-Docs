@@ -1,9 +1,7 @@
 ---
 title: 使用 nvm 管理不同版本的 node
+description: 学习如何使用 nvm 管理不同版本的 Node.js，轻松切换和安装所需版本。
 head:
-  - - meta
-    - name: description
-      content: 学习如何使用 nvm 管理不同版本的 Node.js，轻松切换和安装所需版本。
   - - meta
     - name: keywords
       content: nvm Node.js 版本管理 安装切换 Node.js 管理工具

@@ -1,9 +1,7 @@
 ---
 title: Netflix 常用浏览器插件汇总
+description: 介绍常用的 Netflix 浏览器插件，帮助用户提升观看体验，解决地区限制，优化流媒体播放。
 head:
-  - - meta
-    - name: description
-      content: 介绍常用的 Netflix 浏览器插件，帮助用户提升观看体验，解决地区限制，优化流媒体播放。
   - - meta
     - name: keywords
       content: Netflix 插件 流媒体 优化 解锁 浏览器插件 观看体验
