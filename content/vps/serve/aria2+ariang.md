@@ -1,9 +1,7 @@
 ---
 title: Docker 搭建 aria2+AriaNg
+description: 本文介绍如何通过 Docker 搭建 aria2 和 AriaNg，实现高效的下载管理和图形化界面控制。
 head:
-  - - meta
-    - name: description
-      content: 本文介绍如何通过 Docker 搭建 aria2 和 AriaNg，实现高效的下载管理和图形化界面控制。
   - - meta
     - name: keywords
       content: Docker aria2 AriaNg 下载管理 图形化界面

@@ -1,9 +1,7 @@
 ---
 title: 一键检测机场奈飞解锁
+description: 提供一键检测机场奈飞解锁功能，帮助用户快速确认奈飞是否能正常访问。
 head:
-  - - meta
-    - name: description
-      content: 提供一键检测机场奈飞解锁功能，帮助用户快速确认奈飞是否能正常访问。
   - - meta
     - name: keywords
       content: 机场 奈飞解锁 一键检测 流媒体 Netflix 解锁检测

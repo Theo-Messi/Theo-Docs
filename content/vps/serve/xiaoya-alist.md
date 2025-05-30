@@ -1,9 +1,7 @@
 ---
 title: 一键安装 小雅Xiaoya全家桶
+description: 小雅Xiaoya全家桶提供了集成的Alist、TVbox、Jellyfin、EMBY等工具，帮助用户轻松搭建家庭影院和媒体服务。
 head:
-  - - meta
-    - name: description
-      content: 小雅Xiaoya全家桶提供了集成的Alist、TVbox、Jellyfin、EMBY等工具，帮助用户轻松搭建家庭影院和媒体服务。
   - - meta
     - name: keywords
       content: 小雅 Xiaoya Alist TVbox Jellyfin EMBY 一键安装 媒体服务 家庭影院

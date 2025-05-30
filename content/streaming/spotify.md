@@ -1,9 +1,7 @@
 ---
 title: Spotify Premium 账号合租终极指南
+description: 探索如何高效合租 Spotify Premium 账号，享受无限音乐，降低费用，提升音乐体验。
 head:
-  - - meta
-    - name: description
-      content: 探索如何高效合租 Spotify Premium 账号，享受无限音乐，降低费用，提升音乐体验。
   - - meta
     - name: keywords
       content: Spotify Premium 合租 音乐流媒体 账号分享 解锁 音乐体验 科学上网

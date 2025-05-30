@@ -7,10 +7,8 @@ export const Aside_Data: AsideItem[] = [
     image: 'https://i.theojs.cn/logo/flyingbird.webp',
     alt: 'FlyingBird Logo',
     promo: 'FlyingBird 520&618 特惠',
-    info1:
-      '月付 <span class="promo-text"> 85折 </span>优惠码 <span class="promo-text"> fb2561885 </span>',
-    info2:
-      '年付 <span class="promo-text"> 64折 </span>优惠码 <span class="promo-text"> fb2561880 </span>'
+    info1: '月付 <span class="promo-text"> 85折 </span>优惠码 <span class="promo-text"> fb2561885 </span>',
+    info2: '年付 <span class="promo-text"> 64折 </span>优惠码 <span class="promo-text"> fb2561880 </span>'
   },
   // {
   //   link: 'https://itheo.top/flyingbird',
@@ -25,10 +23,8 @@ export const Aside_Data: AsideItem[] = [
     image: 'https://i.theojs.cn/logo/totoro.webp',
     alt: '龙猫云 Logo',
     promo: '龙猫云51大促-低至48折！',
-    info1:
-      '月付 <span class="promo-text"> 85折 </span>优惠码 <span class="promo-text"> spring85 </span>',
-    info2:
-      '年付 <span class="promo-text"> 8折 </span>优惠码 <span class="promo-text"> spring80 </span>'
+    info1: '月付 <span class="promo-text"> 85折 </span>优惠码 <span class="promo-text"> spring85 </span>',
+    info2: '年付 <span class="promo-text"> 8折 </span>优惠码 <span class="promo-text"> spring80 </span>'
   },
   // {
   //   link: 'https://itheo.top/totoro',
@@ -42,10 +38,8 @@ export const Aside_Data: AsideItem[] = [
     image: 'https://i.theojs.cn/logo/qyt.webp',
     alt: '青云梯 Logo',
     promo: '青云梯 51劳动节活动开启',
-    info1:
-      '月付 <span class="promo-text"> 85折 </span>优惠码 <span class="promo-text"> wuyi85 </span>',
-    info2:
-      '年付 <span class="promo-text"> 8折 </span>优惠码 <span class="promo-text"> wuyi80 </span>'
+    info1: '月付 <span class="promo-text"> 85折 </span>优惠码 <span class="promo-text"> wuyi85 </span>',
+    info2: '年付 <span class="promo-text"> 8折 </span>优惠码 <span class="promo-text"> wuyi80 </span>'
   },
   // {
   //   link: 'https://itheo.top/qyt',

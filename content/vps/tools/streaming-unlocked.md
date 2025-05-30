@@ -1,9 +1,8 @@
 ---
 title: VPS一键检测流媒体解锁
+description: 使用VPS一键脚本检测流媒体服务（如Netflix等）是否成功解锁。
+keywords: VPS 一键检测 流媒体 解锁 Netflix 机场 科学上网
 head:
-  - - meta
-    - name: description
-      content: 使用VPS一键脚本检测流媒体服务（如Netflix等）是否成功解锁。
   - - meta
     - name: keywords
       content: VPS 一键检测 流媒体 解锁 Netflix 机场 科学上网

@@ -1,9 +1,7 @@
 ---
 title: iStoreOS 文件共享教程 如何格式化磁盘并设置共享目录
+description: 本文介绍如何在 iStoreOS 上设置文件共享，涵盖格式化磁盘、挂载磁盘、添加用户和共享目录设置等步骤，适用于家庭和办公室 NAS 系统。
 head:
-  - - meta
-    - name: description
-      content: 本文介绍如何在 iStoreOS 上设置文件共享，涵盖格式化磁盘、挂载磁盘、添加用户和共享目录设置等步骤，适用于家庭和办公室 NAS 系统。
   - - meta
     - name: keywords
       content: iStoreOS, 文件共享, NAS, Samba, WebDAV, 网络存储, 挂载磁盘, 共享目录

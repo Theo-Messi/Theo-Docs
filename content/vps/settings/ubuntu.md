@@ -1,9 +1,7 @@
 ---
 title: Debian/Ubuntu 系统优化设置
+description: 本文介绍如何在 Debian 和 Ubuntu 系统上进行性能优化，包括内核调优、网络优化和服务管理等。
 head:
-  - - meta
-    - name: description
-      content: 本文介绍如何在 Debian 和 Ubuntu 系统上进行性能优化，包括内核调优、网络优化和服务管理等。
   - - meta
     - name: keywords
       content: Debian Ubuntu 系统优化 性能优化 内核调优 网络优化 服务管理

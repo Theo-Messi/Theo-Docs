@@ -3,15 +3,7 @@ import { defineConfig } from 'vitepress'
 import { groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 import llmstxt from 'vitepress-plugin-llms'
 
-import {
-  head,
-  markdown,
-  nav,
-  search,
-  sidebar,
-  socialLinks,
-  transformPageData
-} from './configs'
+import { head, markdown, nav, search, sidebar, socialLinks, transformPageData } from './configs'
 
 const baseUrl = 'https://doc.theojs.cn'
 
@@ -23,7 +15,7 @@ export default defineConfig({
   lang: 'zh-Hans',
   // 站点介绍
   description:
-    '网络技术,VPS,ESXi,OpenWrt,青龙面板,风水玄学,picgo,github,图床,梅林固件,华硕,fancyss,科学上网,clash,独角数卡,homebrew,git,docker,linux,markdown,甲骨文,谷歌云,防火墙,流媒体,京东,阿里云,YouTube,Premium,机场,流媒体,解锁,线路,科学上网,梯子,特殊服务,出国服务,奈飞,Netflix,迪士尼,YouTube,油管,hulu,FlyingBird,青云梯,HBO Max,Spotify,奈飞小铺,银河录像局',
+    '全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、青云梯、FlyingBird - 飞鸟机场、飞兔云、TNT Cloud、Totoro Cloud - 龙猫云、奈飞小铺、银河录像局、蜜糖商店）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。',
   // 网站头部
   head,
   //'force-dark'强制开启深色模式 false强制开启浅色模式
@@ -98,8 +90,7 @@ export default defineConfig({
 
     // GitHub编辑页面
     editLink: {
-      pattern:
-        'https://github.com/Theo-Messi/Theo-Docs/edit/main/content/:path',
+      pattern: 'https://github.com/Theo-Messi/Theo-Docs/edit/main/content/:path',
       text: '为此页提供修改建议'
     },
 

@@ -1,9 +1,7 @@
 ---
 title: HBO Max 国内观看指南
+description: HBO Max 提供丰富的影视内容，包括热门剧集、电影、原创节目等。
 head:
-  - - meta
-    - name: description
-      content: HBO Max 提供丰富的影视内容，包括热门剧集、电影、原创节目等。
   - - meta
     - name: keywords
       content: HBO Max 流媒体 解锁 观看指南 科学上网 国内观看 流媒体服务

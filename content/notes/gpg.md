@@ -1,9 +1,7 @@
 ---
 title: 使用 GPG 签名 Git Commit
+description: 学习如何使用 GPG 签名 Git Commit 提高代码安全性，验证提交的身份。
 head:
-  - - meta
-    - name: description
-      content: 学习如何使用 GPG 签名 Git Commit 提高代码安全性，验证提交的身份。
   - - meta
     - name: keywords
       content: GPG 签名 Git Commit 安全性 提交验证 Git 安全 提升 Git 提交身份验证

@@ -1,9 +1,7 @@
 ---
 title: pnpm 安装 快速管理 Node.js 包
+description: 学习如何安装 pnpm，提升 Node.js 包管理效率，快速安装和管理依赖。
 head:
-  - - meta
-    - name: description
-      content: 学习如何安装 pnpm，提升 Node.js 包管理效率，快速安装和管理依赖。
   - - meta
     - name: keywords
       content: pnpm 安装 Node.js 包管理 快速安装 依赖管理

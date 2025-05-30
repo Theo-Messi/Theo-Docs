@@ -1,9 +1,7 @@
 ---
 title: Netflix 秘密分类的技巧
+description: 探索 Netflix 的秘密分类技巧，快速解锁更多影视内容，提升观看体验，解锁全球影视资源。
 head:
-  - - meta
-    - name: description
-      content: 探索 Netflix 的秘密分类技巧，快速解锁更多影视内容，提升观看体验，解锁全球影视资源。
   - - meta
     - name: keywords
       content: Netflix 秘密分类 流媒体 解锁 观看技巧 科学上网 梯子 影视资源

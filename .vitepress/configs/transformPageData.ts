@@ -3,13 +3,9 @@ import type { UserConfig } from 'vitepress'
 const baseUrl = 'https://doc.theojs.cn'
 const defaultOgImage = 'https://i.theojs.cn/logo/Theo-Docs-og.webp'
 
-export const transformPageData: UserConfig['transformPageData'] = (
-  pageData
-) => {
+export const transformPageData: UserConfig['transformPageData'] = (pageData) => {
   // canonical URL
-  const DynamicUrl = `${baseUrl}/${pageData.relativePath}`
-    .replace(/index\.md$/, '')
-    .replace(/\.md$/, '')
+  const DynamicUrl = `${baseUrl}/${pageData.relativePath}`.replace(/index\.md$/, '').replace(/\.md$/, '')
 
   pageData.frontmatter.head ??= []
 
@@ -23,15 +19,10 @@ export const transformPageData: UserConfig['transformPageData'] = (
   )
 
   // 添加 canonical 链接
-  pageData.frontmatter.head.push([
-    'link',
-    { rel: 'canonical', href: DynamicUrl }
-  ])
+  pageData.frontmatter.head.push(['link', { rel: 'canonical', href: DynamicUrl }])
 
   // 提取 og:image，没有则用默认
-  const ogImageEntry = pageData.frontmatter.head.find(
-    (item) => item[0] === 'meta' && item[1]?.property === 'og:image'
-  )
+  const ogImageEntry = pageData.frontmatter.head.find((item) => item[0] === 'meta' && item[1]?.property === 'og:image')
   const ogImage = ogImageEntry?.[1]?.content || defaultOgImage
 
   const isHome = pageData.relativePath === 'index.md'
@@ -56,7 +47,7 @@ export const transformPageData: UserConfig['transformPageData'] = (
           }
         },
         description:
-          '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、青云梯、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。',
+          '全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、青云梯、FlyingBird - 飞鸟机场、飞兔云、TNT Cloud、Totoro Cloud - 龙猫云、奈飞小铺、银河录像局、蜜糖商店）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。',
         name: 'Theo-Docs'
       }
     : {
@@ -84,9 +75,5 @@ export const transformPageData: UserConfig['transformPageData'] = (
       }
 
   // 添加 JSON-LD
-  pageData.frontmatter.head.push([
-    'script',
-    { type: 'application/ld+json' },
-    JSON.stringify(jsonLd)
-  ])
+  pageData.frontmatter.head.push(['script', { type: 'application/ld+json' }, JSON.stringify(jsonLd)])
 }

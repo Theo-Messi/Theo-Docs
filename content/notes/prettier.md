@@ -1,9 +1,7 @@
 ---
 title: 为项目添加 Prettier 及规范提交信息工具
+description: 记录为项目添加 Prettier 格式化代码及规范提交信息工具的过程，提升代码一致性和提交规范。
 head:
-  - - meta
-    - name: description
-      content: 记录为项目添加 Prettier 格式化代码及规范提交信息工具的过程，提升代码一致性和提交规范。
   - - meta
     - name: keywords
       content: Prettier 格式化代码 项目设置 代码风格 提交信息规范 commitizen cz-vinyl commitlint
