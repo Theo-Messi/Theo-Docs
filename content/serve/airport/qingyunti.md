@@ -11,7 +11,7 @@ head:
 
 # 青云梯
 
-<!-- :::tip 青云梯 51劳动节活动开启!
+:::tip 青云梯 51劳动节活动开启!
 
 - 月/季/半年付 85折 , 优惠码：**`wuyi85`**
 - 年付8折（站内折上折，高达64折 ）优惠码：**`wuyi80`**
@@ -21,8 +21,8 @@ head:
 
 :::
 <Links :items="[
-{ name: '青云梯 51劳动节活动开启!', desc:'2025年04月21号0点0分至2025年05月07号', image:'https://i.theojs.cn/logo/qyt.webp', link: 'https://itheo.top/qyt', alt:'青云梯logo', rel: 'sponsored' },
-]" /> -->
+{ name: '青云梯 51劳动节活动开启!', desc:'活动时间：即日起至2025年06月30日23点59分', image:'https://i.theojs.cn/logo/qyt.webp', link: 'https://itheo.top/qyt', alt:'青云梯logo', rel: 'sponsored' },
+]" />
 
 ## 青云梯 简介 <Pill name="青云梯官网" link="https://itheo.top/qyt" image="https://i.theojs.cn/logo/qyt.webp" alt="青云梯logo" rel="sponsored"/>
 

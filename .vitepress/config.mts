@@ -57,6 +57,9 @@ export default defineConfig({
 
   // vite插件
   vite: {
+    optimizeDeps: {
+      include: ['recaptcha-v3']
+    },
     plugins: [
       groupIconVitePlugin({
         customIcon: {
