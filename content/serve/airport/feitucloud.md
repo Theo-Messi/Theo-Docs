@@ -11,18 +11,17 @@ head:
 
 # 飞兔云
 
-<!-- :::tip 飞兔云 双11狂欢，优惠来袭！
+:::tip 飞兔云 六一童趣 × 端午安康 双节同庆!
 
-- 全场**88**折！全场**88**折！全场**88**折！
-- 仅此一次全场打折哦！
-- 优惠券名称：`1111@88`
+- 月付、半年付、年付套餐 **85** 折 优惠券 `61@85`
+- 特惠套餐 & 一次性套餐除外）
 
-**活动时间：即日起至2024年11月11日23点00分**
+**活动时间：即日起至2025年06月03日23点59分**
 
 :::
 <Links :items="[
-{ name: '飞兔云 双11狂欢，优惠来袭！', image:'https://i.theojs.cn/logo/feitu.webp', desc:'活动时间：即日起至2024年11月11日23点00分', link: 'https://itheo.top/feitu', alt:'飞兔云logo', rel: 'sponsored' },
-]" />-->
+{ name: '飞兔云 六一童趣 × 端午安康 双节同庆！', image:'https://i.theojs.cn/logo/feitu.webp', desc:'活动时间：即日起至2025年06月03日23点59分', link: 'https://itheo.top/feitu', alt:'飞兔云logo', rel: 'sponsored' },
+]" />
 
 ## 飞兔云简介 <Pill name="飞兔云官网" link="https://itheo.top/feitu" image="https://i.theojs.cn/logo/feitu.webp" alt="飞兔云logo" rel="sponsored" />
 
