@@ -1,9 +1,7 @@
 ---
 title: oh-my-zsh 安装 & 配置
+description: 本文介绍了 oh-my-zsh 的安装步骤和常见的配置方法，帮助你提升命令行工作效率。
 head:
-  - - meta
-    - name: description
-      content: 本文介绍了 oh-my-zsh 的安装步骤和常见的配置方法，帮助你提升命令行工作效率。
   - - meta
     - name: keywords
       content: oh-my-zsh 安装 配置 Zsh shell 提高效率 命令行工具

@@ -1,9 +1,7 @@
 ---
 title: YouTube Premium 会员权益及订阅终极指南
+description: 了解 YouTube Premium 会员权益、订阅方法、以及如何解锁全球内容，享受无广告、离线播放等高级功能。
 head:
-  - - meta
-    - name: description
-      content: 了解 YouTube Premium 会员权益、订阅方法、以及如何解锁全球内容，享受无广告、离线播放等高级功能。
   - - meta
     - name: keywords
       content: YouTube Premium 会员 订阅权益 无广告 离线播放 流媒体解锁 科学上网 油管 影视内容

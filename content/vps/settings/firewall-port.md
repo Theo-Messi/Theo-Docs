@@ -1,9 +1,7 @@
 ---
 title: 开启防火墙端口
+description: 本文介绍如何在 VPS 上开启防火墙端口，确保必要的服务可正常访问。
 head:
-  - - meta
-    - name: description
-      content: 本文介绍如何在 VPS 上开启防火墙端口，确保必要的服务可正常访问。
   - - meta
     - name: keywords
       content: 防火墙 端口 开启 VPS Linux 系统 网络安全

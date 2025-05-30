@@ -1,9 +1,7 @@
 ---
 title: Docker 进程相关操作 容器进程管理 监控 优化
+description: 学习如何在 Docker 中管理容器进程，进行进程监控与优化，提高 Docker 容器的性能与效率。
 head:
-  - - meta
-    - name: description
-      content: 学习如何在 Docker 中管理容器进程，进行进程监控与优化，提高 Docker 容器的性能与效率。
   - - meta
     - name: keywords
       content: Docker 进程管理 Docker 容器进程 进程监控 Docker 优化 容器管理 虚拟化

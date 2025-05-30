@@ -1,9 +1,7 @@
 ---
 title: VS Code 使用技巧
+description: 探索 VS Code 的高效使用技巧，提升开发效率，优化开发体验。
 head:
-  - - meta
-    - name: description
-      content: 探索 VS Code 的高效使用技巧，提升开发效率，优化开发体验。
   - - meta
     - name: keywords
       content: VS Code 使用技巧 编辑器 快捷键 开发工具 提高效率 开发体验

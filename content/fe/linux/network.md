@@ -1,9 +1,7 @@
 ---
 title: Linux 常用网络操作 网络配置与故障排除
+description: 掌握 Linux 常用的网络操作命令，如配置 IP 地址、检查网络连接等。
 head:
-  - - meta
-    - name: description
-      content: 掌握 Linux 常用的网络操作命令，如配置 IP 地址、检查网络连接等。
   - - meta
     - name: keywords
       content: Linux 网络操作 配置 网络命令 网络排查 IP 地址

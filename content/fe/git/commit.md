@@ -1,9 +1,7 @@
 ---
 title: Git 合并commit 精简提交 历史记录管理
+description: 学习如何使用 Git 合并 commit，清理历史提交记录，优化代码库的版本历史。
 head:
-  - - meta
-    - name: description
-      content: 学习如何使用 Git 合并 commit，清理历史提交记录，优化代码库的版本历史。
   - - meta
     - name: keywords
       content: Git 合并 commit 提交记录 清理历史提交 Git 提交优化 Git 历史管理

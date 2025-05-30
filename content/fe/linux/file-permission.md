@@ -1,9 +1,7 @@
 ---
 title: Linux 文件权限 管理 Linux 文件访问控制
+description: 了解 Linux 文件权限的基本概念，掌握如何设置和管理文件的读写执行权限。
 head:
-  - - meta
-    - name: description
-      content: 了解 Linux 文件权限的基本概念，掌握如何设置和管理文件的读写执行权限。
   - - meta
     - name: keywords
       content: Linux 文件权限 访问控制 chmod 权限管理

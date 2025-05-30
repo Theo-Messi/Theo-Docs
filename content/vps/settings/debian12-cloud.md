@@ -1,9 +1,7 @@
 ---
 title: Debian12 安装使用 Cloud 内核
+description: 在 Debian 12 系统上安装并使用 Cloud 内核 (cloud-amd64 和 cloud-arm64)，提升性能和云端兼容性。
 head:
-  - - meta
-    - name: description
-      content: 在 Debian 12 系统上安装并使用 Cloud 内核 (cloud-amd64 和 cloud-arm64)，提升性能和云端兼容性。
   - - meta
     - name: keywords
       content: Debian 12 Cloud 内核 安装 使用 cloud-amd64 cloud-arm64 云端优化 内核升级 ARM 架构

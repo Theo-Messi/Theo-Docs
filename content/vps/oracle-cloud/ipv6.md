@@ -1,9 +1,7 @@
 ---
 title: 甲骨文云(Oracle Cloud)免费服务器开启 IPv6
+description: 本文介绍如何在甲骨文云(Oracle Cloud)免费服务器上开启IPv6，并配置相应网络设置。
 head:
-  - - meta
-    - name: description
-      content: 本文介绍如何在甲骨文云(Oracle Cloud)免费服务器上开启IPv6，并配置相应网络设置。
   - - meta
     - name: keywords
       content: 甲骨文云 Oracle Cloud 免费服务器 IPv6 开启 网络配置

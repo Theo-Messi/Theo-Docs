@@ -1,9 +1,7 @@
 ---
 title: Ubuntu 开机自动挂载 NAS磁盘
+description: 本文介绍如何在 Ubuntu 系统中设置开机自动挂载 NAS 磁盘，使用 cifs-utils 配置文件实现自动挂载。
 head:
-  - - meta
-    - name: description
-      content: 本文介绍如何在 Ubuntu 系统中设置开机自动挂载 NAS 磁盘，使用 cifs-utils 配置文件实现自动挂载。
   - - meta
     - name: keywords
       content: Ubuntu 自动挂载 NAS 磁盘 cifs-utils 网络存储 挂载配置

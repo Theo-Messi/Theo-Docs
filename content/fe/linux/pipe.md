@@ -1,9 +1,7 @@
 ---
 title: Linux 管道命令 高效处理数据流
+description: 了解并掌握 Linux 管道命令，学习如何高效地在命令行中传递数据和组合命令。
 head:
-  - - meta
-    - name: description
-      content: 了解并掌握 Linux 管道命令，学习如何高效地在命令行中传递数据和组合命令。
   - - meta
     - name: keywords
       content: Linux 管道命令 数据流 管道操作 命令组合

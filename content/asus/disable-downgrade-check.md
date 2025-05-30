@@ -1,9 +1,7 @@
 ---
 title: 关闭降级检查
+description: 关闭降级检查，刷入梅林固件前需关闭降级检查，ssh登录路由器后台后输入命令
 head:
-  - - meta
-    - name: description
-      content: 关闭降级检查，刷入梅林固件前需关闭降级检查，ssh登录路由器后台后输入命令
   - - meta
     - name: keywords
       content: 关闭降级检查 梅林固件 ssh登录

@@ -1,9 +1,7 @@
 ---
 title: 添加 1Panel 第三方应用商店
+description: 学习如何在 1Panel 面板中添加第三方应用商店，扩展管理功能，提升服务器管理效率。
 head:
-  - - meta
-    - name: description
-      content: 学习如何在 1Panel 面板中添加第三方应用商店，扩展管理功能，提升服务器管理效率。
   - - meta
     - name: keywords
       content: 1Panel 第三方应用商店 添加 Linux 服务器 运维管理 面板

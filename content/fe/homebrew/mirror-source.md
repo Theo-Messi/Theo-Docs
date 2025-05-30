@@ -1,9 +1,7 @@
 ---
 title: Homebrew 切换镜像源 提升 Homebrew 安装速度
+description: 通过切换镜像源，可以大幅提升 Homebrew 在中国地区的安装和更新速度，优化包管理体验。
 head:
-  - - meta
-    - name: description
-      content: 通过切换镜像源，可以大幅提升 Homebrew 在中国地区的安装和更新速度，优化包管理体验。
   - - meta
     - name: keywords
       content: Homebrew 镜像源 切换 安装速度 优化 软件管理

@@ -4,7 +4,7 @@ plugins:
   - 'prettier-plugin-packagejson'
   - 'prettier-plugin-sort-json'
 
-printWidth: 80
+printWidth: 120
 semi: false
 singleQuote: true
 trailingComma: 'none'

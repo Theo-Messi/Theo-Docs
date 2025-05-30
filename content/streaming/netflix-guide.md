@@ -1,9 +1,7 @@
 ---
 title: Netflix 观看全指南
+description: 提供 Netflix 观看的完整指南，涵盖流媒体解锁、地区限制绕过、最佳观看设置等内容。
 head:
-  - - meta
-    - name: description
-      content: 提供 Netflix 观看的完整指南，涵盖流媒体解锁、地区限制绕过、最佳观看设置等内容。
   - - meta
     - name: keywords
       content: Netflix 观看指南 流媒体解锁 观看设置 区域限制

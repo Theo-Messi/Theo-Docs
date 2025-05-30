@@ -1,9 +1,7 @@
 ---
 title: 青云梯
+description: 青云梯提供稳定高速的科学上网服务，解锁流媒体如奈飞 Netflix、HBO Max、Disney+等，支持多平台设备，并且拥有全球多个节点，特别适用于出国服务和流媒体加速。
 head:
-  - - meta
-    - name: description
-      content: 青云梯提供稳定高速的科学上网服务，解锁流媒体如奈飞 Netflix、HBO Max、Disney+等，支持多平台设备，并且拥有全球多个节点，特别适用于出国服务和流媒体加速。
   - - meta
     - name: keywords
       content: YouTube Premium 机场 流媒体 解锁 线路 科学上网 梯子 特殊服务 出国服务 奈飞 Netflix 迪士尼 YouTube 油管 hulu FlyingBird 青云梯 HBO Max Spotify 奈飞小铺 银河录像局 飞兔云 青云梯
