@@ -69,7 +69,7 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
 
 ## YouTube 账号合租
 
-<!--@include: @/serve/sharing/account-sharing-guide.md{15,18}-->
+<!--@include: @/serve/sharing/account-sharing-guide.md#price-->
 
 ## 加入 YouTube 家庭组会员流程
 

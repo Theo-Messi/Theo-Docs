@@ -46,7 +46,7 @@ Netflix 是一家美国的在线流媒体平台，成立于 1997 年，总部位
 
 ## Netflix 账号合租
 
-<!--@include: @/serve/sharing/account-sharing-guide.md{15,18}-->
+<!--@include: @/serve/sharing/account-sharing-guide.md#price-->
 
 ## Netflix 如何看 4K 高清
 

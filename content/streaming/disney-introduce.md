@@ -66,7 +66,7 @@ Disney+ 是一家流行的在线视频平台，提供丰富的电影和电视剧
 
 ### Disney+ 账号合租
 
-<!--@include: @/serve/sharing/account-sharing-guide.md{15,18}-->
+<!--@include: @/serve/sharing/account-sharing-guide.md#price-->
 
 ## Disney+ 会员使用指南
 
