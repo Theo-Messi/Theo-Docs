@@ -139,10 +139,7 @@ export default defineConfig({
     sidebar,
 
     // 本地搜索
-    search: {
-      provider: 'local',
-      options: search
-    },
+    search: { provider: 'algolia', options: search },
 
     // 404
     notFound: {
