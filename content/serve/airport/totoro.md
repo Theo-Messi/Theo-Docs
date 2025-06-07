@@ -9,7 +9,7 @@ head:
 
 # Totoro Cloud - 龙猫云
 
-:::tip 龙猫云春季51大促来了-低至48折起！
+:::tip 龙猫云618购物节大促来了-低至48折起！
 
 - 月付/季度/半年：享受**85**折优惠，优惠码：**`spring85`**
 
@@ -19,11 +19,11 @@ head:
 
 - 每个账号活动周期内只能使用3次优惠码
 
-**活动时间：即日至2025年5月31号23点59分**
+**活动时间：即日至2025年6月30号23点59分**
 :::
 
 <Links :items="[
-{ name: '龙猫云春季51大促来了-低至48折起！', desc: '即日起至2025年5月31号23点59分', image:'https://i.theojs.cn/logo/totoro.webp',link: 'https://itheo.top/totoro',alt:'龙猫云logo',rel: 'sponsored' },
+{ name: '龙猫云618购物节大促来了-低至48折起！', desc: '即日起至2025年6月30号23点59分', image:'https://i.theojs.cn/logo/totoro.webp',link: 'https://itheo.top/totoro',alt:'龙猫云logo',rel: 'sponsored' },
 ]" />
 
 ## 龙猫云简介 <Pill name="龙猫云官网" link="https://itheo.top/totoro" image="https://i.theojs.cn/logo/totoro.webp" alt="龙猫云logo" rel="sponsored"/>
@@ -44,12 +44,12 @@ Totoro Cloud 中文名为龙猫云，一家颇具实力的新机场，Shadowsock
 季度以上自带折扣
 :::
 
-| 套餐类型 |  流量/月  | 价格/月 | 价格/季 | 价格/半年 | 价格/年 | 原生解锁 |                                 套餐购买                                 |                                                支付方式                                                |
-| :------: | :-------: | :-----: | :-----: | :-------: | :-----: | :------: | :----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
-| **VIP1** | **100G**  |   ¥15   |   ¥41   |    ¥77    |  ¥144   |    ✅    | <Pill name="立即购买" link="https://itheo.top/totoro" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
-| **VIP2** | **200G**  |   ¥30   |   ¥81   |   ¥153    |  ¥288   |    ✅    | <Pill name="立即购买" link="https://itheo.top/totoro" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
-| **VIP3** | **400G**  |   ¥60   |  ¥162   |   ¥306    |  ¥576   |    ✅    | <Pill name="立即购买" link="https://itheo.top/totoro" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
-| **VIP4** | **1000G** |  ¥120   |  ¥324   |   ¥697    |  ¥1152  |    ✅    | <Pill name="立即购买" link="https://itheo.top/totoro" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> |
+| 套餐类型 |  流量/月  | 价格/月 | 价格/季 | 价格/半年 | 价格/年 | 原生解锁 |                                 套餐购买                                 |                                     支付方式                                     |
+| :------: | :-------: | :-----: | :-----: | :-------: | :-----: | :------: | :----------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
+| **VIP1** | **100G**  |   ¥15   |   ¥41   |    ¥77    |  ¥144   |    ✅    | <Pill name="立即购买" link="https://itheo.top/totoro" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> |
+| **VIP2** | **200G**  |   ¥30   |   ¥81   |   ¥153    |  ¥288   |    ✅    | <Pill name="立即购买" link="https://itheo.top/totoro" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> |
+| **VIP3** | **400G**  |   ¥60   |  ¥162   |   ¥306    |  ¥576   |    ✅    | <Pill name="立即购买" link="https://itheo.top/totoro" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> |
+| **VIP4** | **1000G** |  ¥120   |  ¥324   |   ¥697    |  ¥1152  |    ✅    | <Pill name="立即购买" link="https://itheo.top/totoro" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> |
 
 ## 龙猫云 测速图
 

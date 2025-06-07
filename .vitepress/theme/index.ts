@@ -15,7 +15,6 @@ import {
   DocVideoLink,
   HomeFooter,
   HomeUnderline,
-  ShareButton,
   umamiAnalytics
 } from '@theojs/lumen'
 import '@theojs/lumen/theme'
@@ -31,8 +30,7 @@ export default {
     return h(DefaultTheme.Layout, null, {
       'home-hero-info-before': () => h(Announcement),
       'aside-ads-before': () => h(DocAsideLogo, { Aside_Data }),
-      'layout-bottom': () => h(HomeFooter, { Footer_Data }),
-      'aside-outline-before': () => h(ShareButton)
+      'layout-bottom': () => h(HomeFooter, { Footer_Data })
     })
   },
   enhanceApp: ({ app }) => {
