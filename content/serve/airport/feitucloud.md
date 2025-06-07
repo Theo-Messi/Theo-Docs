@@ -9,7 +9,7 @@ head:
 
 # 飞兔云
 
-:::tip 飞兔云 六一童趣 × 端午安康 双节同庆!
+<!-- :::tip 飞兔云 六一童趣 × 端午安康 双节同庆!
 
 - 月付、半年付、年付套餐 **85** 折 优惠券 `61@85`
 - 特惠套餐 & 一次性套餐除外）
@@ -19,7 +19,7 @@ head:
 :::
 <Links :items="[
 { name: '飞兔云 六一童趣 × 端午安康 双节同庆！', image:'https://i.theojs.cn/logo/feitu.webp', desc:'活动时间：即日起至2025年06月03日23点59分', link: 'https://itheo.top/feitu', alt:'飞兔云logo', rel: 'sponsored' },
-]" />
+]" /> -->
 
 ## 飞兔云简介 <Pill name="飞兔云官网" link="https://itheo.top/feitu" image="https://i.theojs.cn/logo/feitu.webp" alt="飞兔云logo" rel="sponsored" />
 
@@ -38,30 +38,30 @@ head:
 
 ### 年付特惠
 
-|             套餐类型              | 流量/月  | 价格/年 | 原生解锁 |                                套餐购买                                 |                                                                                                   支付方式                                                                                                    |
-| :-------------------------------: | :------: | :-----: | :------: | :---------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|           **年付特惠**            | **98G**  |   ¥98   |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
-| **年付特惠**<Badge text="推荐" /> | **198G** |  ¥138   |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
-|           **年付特惠**            | **298G** |  ¥198   |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
+|   套餐类型   | 流量/月  | 价格/年 | 原生解锁 |                                套餐购买                                 |                                                                                  支付方式                                                                                  |
+| :----------: | :------: | :-----: | :------: | :---------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **年付特惠** | **98G**  |   ¥98   |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
+| **年付特惠** | **198G** |  ¥138   |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
+| **年付特惠** | **298G** |  ¥198   |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
 
 ### 按月付费
 
-|     套餐类型     |       流量       | 价格/月 | 原生解锁 |                                套餐购买                                 |                                                                                                   支付方式                                                                                                    |
-| :--------------: | :--------------: | :-----: | :------: | :---------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|     **118G**     |     **118G**     |  ¥9.9   |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
-| **盲盒100-200G** | **盲盒100-200G** |   ¥12   |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
-|     **218G**     |     **218G**     |  ¥16.9  |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
-|     **450G**     |     **450G**     |  ¥29.9  |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
-|    **1000G**     |    **1000G**     |  ¥49.9  |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
-|    **2000G**     |    **2000G**     |  ¥99.9  |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
+|     套餐类型     |       流量       | 价格/月 | 原生解锁 |                                套餐购买                                 |                                                                                  支付方式                                                                                  |
+| :--------------: | :--------------: | :-----: | :------: | :---------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|     **118G**     |     **118G**     |  ¥9.9   |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
+| **盲盒100-200G** | **盲盒100-200G** |   ¥12   |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
+|     **218G**     |     **218G**     |  ¥16.9  |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
+|     **450G**     |     **450G**     |  ¥29.9  |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
+|    **1000G**     |    **1000G**     |  ¥49.9  |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
+|    **2000G**     |    **2000G**     |  ¥99.9  |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
 
 ### 不限时套餐(用完即止)
 
-|    套餐类型     |   流量   | 价格  | 原生解锁 |                                套餐购买                                 |                                                                                                   支付方式                                                                                                    |
-| :-------------: | :------: | :---: | :------: | :---------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **100G-不限时** | **100G** | ¥29.9 |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
-| **200G-不限时** | **200G** | ¥59.9 |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
-| **500G-不限时** | **500G** | ¥99.9 |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:wechat" width="24" height="24" style="color: #07C160"></iconify-icon> |
+|    套餐类型     |   流量   | 价格  | 原生解锁 |                                套餐购买                                 |                                                                                  支付方式                                                                                  |
+| :-------------: | :------: | :---: | :------: | :---------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **100G-不限时** | **100G** | ¥29.9 |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
+| **200G-不限时** | **200G** | ¥59.9 |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
+| **500G-不限时** | **500G** | ¥99.9 |    ✅    | <Pill name="立即购买" link="https://itheo.top/feitu" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon> |
 
 ## 飞兔云测速图
 

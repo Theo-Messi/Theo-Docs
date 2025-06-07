@@ -42,12 +42,12 @@ head:
 季付**9**折/半年**85**折/年付**8**折 配合优惠码折上折，最高可达**64**折
 :::
 
-| 月付套餐类型 |   流量    | 价格 | 原生解锁 |                                   套餐购买                                   |                                                                                           支付方式                                                                                            |
-| :----------: | :-------: | :--: | :------: | :--------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|   **青铜**   | **100G**  | ¥15  |    ✅    | <Pill name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="cryptocurrency-color:usdt" width="24" height="24" ></iconify-icon> |
-|   **白银**   | **200G**  | ¥30  |    ✅    | <Pill name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="cryptocurrency-color:usdt" width="24" height="24" ></iconify-icon> |
-|   **黄金**   | **500G**  | ¥75  |    ✅    | <Pill name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="cryptocurrency-color:usdt" width="24" height="24" ></iconify-icon> |
-|   **钻石**   | **1000G** | ¥150 |    ✅    | <Pill name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored" /> | <iconify-icon icon="simple-icons:alipay" width="24" height="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="cryptocurrency-color:usdt" width="24" height="24" ></iconify-icon> |
+| 月付套餐类型 |   流量    | 价格 | 原生解锁 |                                   套餐购买                                   |                                                                          支付方式                                                                           |
+| :----------: | :-------: | :--: | :------: | :--------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   **青铜**   | **100G**  | ¥15  |    ✅    | <Pill name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|   **白银**   | **200G**  | ¥30  |    ✅    | <Pill name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|   **黄金**   | **500G**  | ¥75  |    ✅    | <Pill name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|   **钻石**   | **1000G** | ¥150 |    ✅    | <Pill name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
 
 ## FlyingBird 测速图
 
