@@ -1,6 +1,6 @@
 import type { AsideItem } from '@theojs/lumen'
 
-export const Aside_Data: AsideItem[] = [
+export const Aside_Data: AsideItem = [
   {
     link: 'https://itheo.top/flyingbird',
     rel: 'sponsored',
