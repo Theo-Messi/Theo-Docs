@@ -74,7 +74,9 @@ export default defineConfig({
       src: 'https://i.theojs.cn/logo/avatar-mini.webp',
       width: 24,
       height: 24,
-      alt: 'avatar'
+      alt: 'avatar',
+      loading: 'eager',
+      fetchpriority: 'high'
     },
 
     // 社交链接
