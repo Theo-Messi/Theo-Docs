@@ -21,8 +21,6 @@ export default defineConfig({
   //'force-dark'强制开启深色模式 false强制开启浅色模式
   // appearance: 'force-dark',
 
-  metaChunk: true,
-
   // 站点地图
   sitemap: { hostname: baseUrl },
 
