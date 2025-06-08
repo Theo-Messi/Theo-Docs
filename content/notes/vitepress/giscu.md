@@ -1,10 +1,6 @@
 ---
 title: VitePress 添加 Giscu评论
 description: 学习如何在 VitePress 中集成 Giscu 评论系统，增强网站互动功能，提升用户体验。
-head:
-  - - meta
-    - name: keywords
-      content: VitePress Giscu 评论系统 网站互动 集成教程
 ---
 
 # VitePress 添加 Giscu评论

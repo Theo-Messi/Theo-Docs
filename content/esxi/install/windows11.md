@@ -1,10 +1,6 @@
 ---
 title: Esxi 安装 Windows 11
 description: Esxi 安装 Windows 11 是微软公司开发的操作系统，具有更好的性能和安全性
-head:
-  - - meta
-    - name: keywords
-      content: ESXi 虚拟机 虚拟化 X86 64 PVE Openwrt Windows11 Windows10 Windows12
 ---
 
 # Esxi 安装 Windows 11 <Pill name="官网下载 Windows 11" link="https://www.microsoft.com/zh-cn/software-download/windows11" icon="logos:microsoft-windows-icon"  alt='win11 logo'/>

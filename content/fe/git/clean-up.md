@@ -1,10 +1,6 @@
 ---
 title: Git 缩减仓库 优化 Git 仓库大小 提高性能
 description: 学习如何使用 Git 缩减仓库大小，清理历史记录和不必要的文件，提高仓库的性能和效率。
-head:
-  - - meta
-    - name: keywords
-      content: Git 缩减仓库 优化 Git 仓库大小 Git 清理 历史记录 仓库管理 Git 性能
 ---
 
 # Git 缩减仓库 优化 Git 仓库大小 提高性能

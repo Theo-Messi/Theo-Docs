@@ -1,10 +1,6 @@
 ---
 title: Merlin Clash
 description: Merlin Clash 是一款运行在 KoolCenter 软件中心上的 Clash GUI 插件，支持 SS/SSR/Trojan/V2Ray 等多种协议
-head:
-  - - meta
-    - name: keywords
-      content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
 ---
 
 # Merlin Clash

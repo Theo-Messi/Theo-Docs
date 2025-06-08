@@ -3,9 +3,6 @@ title: Hulu 国内观看指南
 description: Hulu 提供丰富的美剧、电影和原创内容。
 head:
   - - meta
-    - name: keywords
-      content: Hulu 流媒体 解锁 观看指南 科学上网 国内观看 流媒体服务
-  - - meta
     - property: og:image
       content: https://i.theojs.cn/docs/202406111506456.webp
 ---

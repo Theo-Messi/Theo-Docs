@@ -1,10 +1,6 @@
 ---
 title: openwrt 实时抓包
 description: openwrt 实时抓包，使用 tcpdump 命令实时抓取数据包，并通过 Wireshark 进行分析
-head:
-  - - meta
-    - name: keywords
-      content: openwrt, 实时抓包, tcpdump, 网络监控
 ---
 
 # openwrt 实时抓包

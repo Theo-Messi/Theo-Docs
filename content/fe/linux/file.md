@@ -1,10 +1,6 @@
 ---
 title: Linux 文件操作 基本文件管理命令
 description: 掌握 Linux 文件操作的基本命令，如创建、删除、复制、移动文件等。
-head:
-  - - meta
-    - name: keywords
-      content: Linux 文件操作 文件管理 创建 删除 复制 移动
 ---
 
 # Linux 文件操作 基本文件管理命令

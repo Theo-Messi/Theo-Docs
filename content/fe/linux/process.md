@@ -1,10 +1,6 @@
 ---
 title: Linux 进程管理 进程监控与优化
 description: 学习 Linux 进程管理，掌握如何监控、控制和优化系统中的进程。
-head:
-  - - meta
-    - name: keywords
-      content: Linux 进程管理 进程监控 系统优化 命令行进程
 ---
 
 # Linux 进程管理 进程监控与优化

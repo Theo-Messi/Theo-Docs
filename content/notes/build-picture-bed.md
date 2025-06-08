@@ -1,10 +1,6 @@
 ---
 title: PicGo + Github 搭建图床
 description: 使用 PicGo 和 Github 搭建图床，实现图片上传、压缩、存储、加速与管理，提升图床效率与稳定性。
-head:
-  - - meta
-    - name: keywords
-      content: PicGo Github 图床 图片上传 图片压缩 图片存储 图片加速 图片管理 工具
 ---
 
 # PicGo + Github 搭建图床

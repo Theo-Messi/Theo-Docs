@@ -1,10 +1,6 @@
 ---
 title: Netflix 全球各国影视剧数量
 description: Netflix 提供丰富的影视内容，不同国家的影视剧数量各有不同。了解如何解锁全球不同地区的内容，享受更多影视选择。
-head:
-  - - meta
-    - name: keywords
-      content: Netflix 全球各国 影视剧数量 解锁 流媒体 科学上网 线路 特殊服务 出国服务 奈飞 Disney YouTube 油管 Hulu FlyingBird 青云梯 HBO Max Spotify 银河录像局
 ---
 
 # Netflix 全球各国影视剧数量

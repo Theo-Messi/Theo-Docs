@@ -1,10 +1,6 @@
 ---
 title: 梅林固件刷机需知
 description: 梅林固件刷机需知，包含梅林固件的介绍、刷机术语、常见问题等
-head:
-  - - meta
-    - name: keywords
-      content: fancyss 科学上网 插件 388 386 梅林 华硕 官改 固件 clash v2ray trojan
 ---
 
 # 梅林固件刷机需知

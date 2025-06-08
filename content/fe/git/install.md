@@ -1,10 +1,6 @@
 ---
 title: Git 版本控制工具简介与安装
 description: 了解 Git 版本控制工具的基本概念，学习如何安装和配置 Git，快速开始项目管理。
-head:
-  - - meta
-    - name: keywords
-      content: Git 简介 Git 安装 版本控制工具 Git 配置 项目管理 Git 使用
 ---
 
 # Git 版本控制工具简介与安装

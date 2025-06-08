@@ -1,10 +1,6 @@
 ---
 title: Esxi 安装 AdGuardHome
 description: Esxi 安装 DNS 过滤器，支持广告拦截、隐私保护等功能 - AdGuardHome
-head:
-  - - meta
-    - name: keywords
-      content: AdGuardHome ESXi 虚拟机 虚拟化 X86 64 PVE
 ---
 
 # Esxi 安装 AdGuardHome

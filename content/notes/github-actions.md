@@ -1,10 +1,6 @@
 ---
 title: GitHub Actions 工作流程
 description: 整理 GitHub Actions 工作流程，帮助您高效自动化项目构建、测试与部署过程。
-head:
-  - - meta
-    - name: keywords
-      content: GitHub Actions 工作流程 自动化 项目构建 测试 部署 自动化工作流
 ---
 
 # GitHub Actions 工作流程

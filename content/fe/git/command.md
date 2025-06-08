@@ -1,10 +1,6 @@
 ---
 title: Git 常用命令 Git 基本操作 快速上手
 description: 掌握 Git 常用命令，学习如何进行代码管理、版本控制和团队协作，提升开发效率。
-head:
-  - - meta
-    - name: keywords
-      content: Git 常用命令 Git 基本操作 版本控制 代码管理 Git 协作 Git 提交
 ---
 
 # Git 常用命令 Git 基本操作 快速上手
