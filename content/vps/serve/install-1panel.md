@@ -1,10 +1,6 @@
 ---
 title: 安装 1Panel 面板
 description: 1Panel 是一个现代化、开源的 Linux 服务器运维管理面板，提供高效的服务器管理和便捷的操作界面。
-head:
-  - - meta
-    - name: keywords
-      content: 1Panel 面板 Linux 服务器 管理 开源 运维
 ---
 
 # 安装 1Panel 面板

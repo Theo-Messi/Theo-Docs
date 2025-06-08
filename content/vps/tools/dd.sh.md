@@ -1,10 +1,6 @@
 ---
 title: 简化重装系统
 description: 介绍如何简化重装操作系统的流程，提高系统重装效率。
-head:
-  - - meta
-    - name: keywords
-      content: 重装系统 操作系统 安装流程 简化 重装教程 系统维护
 ---
 
 # 简化重装系统

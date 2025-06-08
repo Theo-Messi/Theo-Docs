@@ -1,10 +1,6 @@
 ---
 title: SMS-Activate
 description: 国外接码平台 SMS-Activate 是一个俄罗斯的服务商，提供虚拟手机号码，可以接收短信验证码，可以用于注册海外服务
-head:
-  - - meta
-    - name: keywords
-      content: SMS-Activate 接码平台 国外接码 虚拟手机号 在线接收短信 海外注册 验证码接收 OpenAI注册 电报TG接码 接码平台推荐 支付宝充值接码平台
 ---
 
 # 国外接码平台 SMS-Activate

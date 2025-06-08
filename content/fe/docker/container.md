@@ -1,10 +1,6 @@
 ---
 title: Docker 容器相关操作
 description: Docker 容器相关操作，创建、启动、退出、进入容器，文件传递等
-head:
-  - - meta
-    - name: keywords
-      content: Docker 容器 相关操作 创建 启动 退出 进入 文件传递
 ---
 
 # Docker 容器相关操作

@@ -1,10 +1,6 @@
 ---
 title: IP质量体检脚本
 description: 提供中英文双语言支持的IP质量体检脚本，帮助快速检查IP质量与稳定性。
-head:
-  - - meta
-    - name: keywords
-      content: IP质量 体检脚本 IPQuality 一键脚本 网络测试 脚本工具
 ---
 
 # IP质量体检脚本

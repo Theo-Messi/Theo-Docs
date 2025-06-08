@@ -1,10 +1,6 @@
 ---
 title: Tabby 配置同步（第三方插件+gist）
 description: 配置 Tabby 配置同步功能，通过第三方插件和 Gist 实现便捷同步。
-head:
-  - - meta
-    - name: keywords
-      content: Tabby 配置同步 第三方插件 Gist 配置管理 同步工具
 ---
 
 # Tabby 配置同步（第三方插件+gist）

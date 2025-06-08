@@ -1,10 +1,6 @@
 ---
 title: 银河录像局
 description: 国内可靠的智能奈飞合租平台，提供 Netflix、Spotify、YouTube、Disney+、HBO 等流媒体服务以及 ChatGPT Plus(OpenAI)、MidJourney 等 AI 服务
-head:
-  - - meta
-    - name: keywords
-      content: 银河录像局 Netflix Spotify YouTube Disney+ HBO ChatGPT Plus OpenAI MidJourney AI 合租平台
 ---
 
 # 银河录像局

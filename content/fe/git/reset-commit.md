@@ -1,10 +1,6 @@
 ---
 title: Git 重置提交记录 恢复历史 清理提交记录
 description: 学习如何使用 Git 重置提交记录，回退到历史版本，清理多余的提交记录，优化代码库。
-head:
-  - - meta
-    - name: keywords
-      content: Git 重置 提交记录 清理 Git 回退 历史版本 Git 优化
 ---
 
 # Git 重置提交记录 恢复历史 清理提交记录

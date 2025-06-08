@@ -1,10 +1,6 @@
 ---
 title: Esxi 安装 Openwrt
 description: Esxi 安装 OpenWrt 是一个基于 Linux 的开源路由器操作系统，支持多种硬件平台
-head:
-  - - meta
-    - name: keywords
-      content: ESXi 虚拟机 虚拟化 X86 64 PVE OpenWrt
 ---
 
 # Esxi 安装 Openwrt

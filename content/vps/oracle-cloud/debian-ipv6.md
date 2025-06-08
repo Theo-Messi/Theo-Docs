@@ -1,10 +1,6 @@
 ---
 title: 甲骨文云(Oracle Cloud) DD Debian系统自动获取IPv6
 description: 了解如何在甲骨文云(Oracle Cloud)的DD Debian系统中自动获取IPv6地址的配置与操作方法。
-head:
-  - - meta
-    - name: keywords
-      content: 甲骨文云 Oracle Cloud DD Debian IPv6 自动获取 网络配置 系统设置
 ---
 
 # 甲骨文云(Oracle Cloud) DD Debian系统自动获取IPv6

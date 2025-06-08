@@ -1,10 +1,6 @@
 ---
 title: OpenWrt PPPOE拨号设置
 description: PPPOE拨号教程，适用于OpenWrt和Lede系统的软路由设置
-head:
-  - - meta
-    - name: keywords
-      content: PPPOE 拨号 OpenWrt Lede 软路由 设置 教程
 ---
 
 # OpenWrt PPPOE拨号 设置
