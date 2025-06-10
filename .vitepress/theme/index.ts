@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 import { useRoute } from 'vitepress'
 
 import imageViewer from 'vitepress-plugin-image-viewer'
@@ -34,13 +35,11 @@ export default {
     })
   },
   enhanceApp: ({ app }) => {
-    if ((import.meta as any).env.PROD) {
-      umamiAnalytics({
-        id: (import.meta as any).env.VITE_UMAMI_ID,
-        src: (import.meta as any).env.VITE_UMAMI_SRC,
-        domains: 'doc.theojs.cn'
-      })
-    }
+    umamiAnalytics({
+      id: import.meta.env.VITE_UMAMI_ID,
+      src: import.meta.env.VITE_UMAMI_SRC,
+      domains: 'doc.theojs.cn'
+    })
     app.component('Home', HomeUnderline)
     app.component('Pill', DocPill)
     app.component('Box', DocBox)
