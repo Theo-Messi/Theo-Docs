@@ -65,6 +65,9 @@ importers:
       viewerjs:
         specifier: ^1.11.7
         version: 1.11.7
+      vite:
+        specifier: ^6.3.5
+        version: 6.3.5(@types/node@22.15.30)(jiti@2.4.2)(yaml@2.8.0)
       vitepress:
         specifier: 2.0.0-alpha.5
         version: 2.0.0-alpha.5(@algolia/client-search@5.27.0)(@types/node@22.15.30)(fuse.js@7.0.0)(jiti@2.4.2)(postcss@8.5.4)(search-insights@2.17.3)(typescript@5.8.3)(yaml@2.8.0)
