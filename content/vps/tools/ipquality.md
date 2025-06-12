@@ -31,6 +31,9 @@ bash <(curl -Ls IP.Check.Place) -4
 bash <(curl -Ls IP.Check.Place) -6
 ```
 
+:::
+::: code-group
+
 ```bash [指定检测网卡]
 bash <(curl -Ls IP.Check.Place) -i eth0
 ```
@@ -41,8 +44,31 @@ bash <(curl -Ls IP.Check.Place) -x https://username:password@proxyserver:port
 bash <(curl -Ls IP.Check.Place) -x socks5://username:password@socksproxy:port
 ```
 
-```bash [选择脚本语言为英文]
+```bash [选择脚本语言为英文（任选其一）]
+bash <(curl -Ls IP.Check.Place) -E
 bash <(curl -Ls IP.Check.Place) -l en
+```
+
+```bash [跳过检测系统及安装依赖]
+bash <(curl -Ls Net.Check.Place) -n
+```
+
+```bash [自动安装依赖]
+bash <(curl -Ls Net.Check.Place) -y
+```
+
+```bash [报告展示完整IP地址]
+bash <(curl -Ls IP.Check.Place) -f
+```
+
+```bash [输出JSON结果]
+bash <(curl -Ls IP.Check.Place) -j
+```
+
+```bash [输出报告ANSI/JSON/纯文本至文件]
+bash <(curl -Ls IP.Check.Place) -o /path/to/file.ansi
+bash <(curl -Ls IP.Check.Place) -o /path/to/file.json
+bash <(curl -Ls IP.Check.Place) -o /path/to/file.txtoranyother
 ```
 
 ```bash [基础信息多语言支持]
