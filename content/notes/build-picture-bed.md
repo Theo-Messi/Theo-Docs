@@ -7,8 +7,28 @@ description: 使用 PicGo 和 Github 搭建图床，实现图片上传、压缩�
 
 ## 准备工作
 
-<Pill name="注册 Github 账号" link="https://github.com/" :icon="{ light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', }" alt="github图标" />
-<Pill name="下载 PicGo" link="https://molunerfinn.com/PicGo/" image="https://molunerfinn.com/PicGo/imgs/256x256--icons.png"  alt="picgo图标" />
+<BoxCube
+  :items="[
+    {
+      name: '注册账号',
+      link: 'https://github.com/',
+      image: { light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' },
+      alt: 'github图标'
+    },
+    {
+      name: '下载 PicGo',
+      link: 'https://molunerfinn.com/PicGo/',
+      image: 'https://molunerfinn.com/PicGo/imgs/256x256--icons.png',
+      alt: 'PicGo图标'
+    },
+    {
+      name: '下载 PicList',
+      link: 'https://piclist.cn/',
+      image: 'https://pichoro.msq.pub/favicon/app_icon.png',
+      alt: 'PicList图标'
+    }
+  ]"
+/>
 
 ## 创建新仓库
 
