@@ -68,14 +68,14 @@ curl -L https://gitee.com/naibahq/scripts/raw/main/install.sh -o nezha.sh && chm
 
 默认密码为弱密码，对于高权限的面板来说，使用弱密码非常危险！
 
-建议安装后立即进入管理页面：点击头像 → “个人信息” → “更新个人资料”修改密码。
+建议安装后立即进入管理页面：`点击头像` → `个人信息` → `更新个人资料`修改密码。
 
 建议密码长度至少 18 位，并混合大小写字母、数字及符号。
 :::
 
 ## 安装1panel面板
 
-[安装1panel面板](./install-1panel.md)
+[跳转到安装1panel面板查看](./install-1panel.md)
 
 ## 配置反向代理
 
