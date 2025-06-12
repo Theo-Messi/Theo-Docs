@@ -8,22 +8,37 @@ description: 使用一键脚本在VPS上部署并刷甲骨文云（Oracle Cloud�
 ## 准备工作
 
 <Links
+  :grid="3"
   :items="[
     {
-      name: 'R探长Bot GitHub 项目地址',
-      icon: { light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', },
+      name: 'R探长 Bot',
+      desc: '在 GitHub 上查看 Oracle / Azure 云管理工具源码',
       link: 'https://github.com/semicons/java_oci_manage',
-      desc: 'R探长Bot(oracle云/azure云)',
-      alt: 'github 图标'
+      icon: {
+        light: 'skill-icons:github-dark',
+        dark: 'skill-icons:github-light'
+      },
+      alt: 'GitHub 图标'
+    },
+    {
+      name: 'R探长',
+      desc: 'Telegram 频道，分享 Oracle / Azure 云相关资源',
+      link: 'https://t.me/agentONE_R',
+      icon: 'logos:telegram',
+      alt: 'Telegram 图标'
+    },
+    {
+      name: 'R探长小助理',
+      desc: 'Telegram 智能 Bot，支持自动开通与查询服务',
+      link: 'https://t.me/radiance_helper_bot',
+      icon: 'logos:telegram',
+      alt: 'Telegram 图标'
     }
   ]"
 />
 
 - **VPS 系统：** VPS（可以科学上网）推荐系统 Ubuntu、Debian
 - **端口检查：** 确保 VPS 的 `9527` 端口开放！可以通过 <Pill name="端口扫描" link="https://tool.chinaz.com/port" image="https://csstools.chinaz.com/favicon.ico" alt="站长工具logo" /> 检测
-
-<Pill name="R探长" link="https://t.me/agentONE_R" icon='logos:telegram' alt="telegram图标" />
-<Pill name="R探长的小助理" link="https://t.me/radiance_helper_bot" icon='logos:telegram' alt="telegram图标" />
 
 ## 获取 VPS INFO
 

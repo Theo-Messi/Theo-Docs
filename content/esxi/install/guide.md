@@ -19,16 +19,40 @@ description: ESXi 8.0 安装指南，安装 ESXi 8.0 的详细步骤
 
 可直接下载 ISO 镜像即可，如果你需要封装驱动，那就下载 `Offline Bundle离线捆绑包`
 
-<Links :items="[
-{ name: 'ESXi 官网下载', link: 'https://www.broadcom.cn/', image: 'https://i.theojs.cn/logo/ESXi.webp', alt:'esxi logo' },
-]" />
+<Links
+  grid
+  :items="[
+    {
+      name: 'ESXi 官网下载',
+      desc: 'VMWare ESXi 8.0 官方下载页面，提供 ISO 镜像和离线捆绑包',
+      link: 'https://www.broadcom.cn/',
+      image: 'https://i.theojs.cn/logo/ESXi.webp',
+      alt: 'esxi logo'
+    }
+  ]"
+/>
 
 ### 写盘工具
 
-<Box :items="[
-{ name: 'Ventoy',link: 'https://github.com/ventoy/Ventoy/releases',image: 'https://i.theojs.cn/logo/ventoy.webp',  tag: '官网下载', alt:'ventoy logo' },
-{ name: 'Balenaetcher',link: 'https://etcher.balena.io/', icon: 'logos:balena',  tag: '官网下载', alt:'Balenaetcher logo' }
-]"/>
+<Links
+  grid
+  :items="[
+    {
+      name: 'Ventoy',
+      desc: '开源的 U 盘启动工具，可以将多个 ISO 镜像文件写入 U 盘，支持多种操作系统的安装',
+      link: 'https://github.com/ventoy/Ventoy/releases',
+      image: 'https://i.theojs.cn/logo/ventoy.webp',
+      alt: 'ventoy logo'
+    },
+    {
+      name: 'Balenaetcher',
+      desc: '跨平台的写盘工具，可以将 ISO 镜像文件写入 U 盘或 SD 卡，支持多种操作系统的安装',
+      link: 'https://etcher.balena.io/',
+      icon: 'logos:balena',
+      alt: 'Balenaetcher logo'
+    }
+  ]"
+/>
 
 ### StarWind V2V Converter 程序
 
@@ -38,9 +62,18 @@ description: ESXi 8.0 安装指南，安装 ESXi 8.0 的详细步骤
 
 下载需要填写邮箱，下载地址会发送到你的邮箱里。
 
-<Links :items="[
-{ name: 'StarWind V2V Converter 官网下载', link: 'https://www.starwindsoftware.com/starwind-v2v-converter',image:'https://www.starwindsoftware.com/resource-library/wp-content/uploads/2022/02/favicon-16.png', alt: 'StarWind V2V Converter logo'  },
-]" />
+<Links
+  grid
+  :items="[
+    {
+      name: 'StarWind',
+      desc: '免费的虚拟机转换工具，可以将虚拟机磁盘格式转换为 ESXi 支持的格式',
+      link: 'https://www.starwindsoftware.com/starwind-v2v-converter',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/StarWind_logo.svg/1280px-StarWind_logo.svg.png',
+      alt: 'StarWind V2V Converter logo'
+    }
+  ]"
+/>
 
 ## ESXi写盘
 
