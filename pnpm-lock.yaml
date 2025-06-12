@@ -69,8 +69,8 @@ importers:
         specifier: ^6.3.5
         version: 6.3.5(@types/node@24.0.1)(jiti@2.4.2)(yaml@2.8.0)
       vitepress:
-        specifier: 2.0.0-alpha.5
-        version: 2.0.0-alpha.5(@algolia/client-search@5.27.0)(@types/node@24.0.1)(fuse.js@7.0.0)(jiti@2.4.2)(postcss@8.5.5)(search-insights@2.17.3)(typescript@5.8.3)(yaml@2.8.0)
+        specifier: 2.0.0-alpha.6
+        version: 2.0.0-alpha.6(@algolia/client-search@5.27.0)(@types/node@24.0.1)(fuse.js@7.0.0)(jiti@2.4.2)(postcss@8.5.5)(search-insights@2.17.3)(typescript@5.8.3)(yaml@2.8.0)
       vitepress-plugin-group-icons:
         specifier: ^1.6.0
         version: 1.6.0(markdown-it@14.1.0)(vite@6.3.5(@types/node@24.0.1)(jiti@2.4.2)(yaml@2.8.0))
@@ -2482,14 +2482,17 @@ packages:
   vitepress-plugin-llms@1.5.0:
     resolution: {integrity: sha512-+7WPf7LRPcaWHyF1OcCusgfa6YI2D3WFQ/M+UzDTmxcmN7xyFwx9MDSw4gPtsicLpAGfbOL2MwpUHJ4bjEpGrw==}
 
-  vitepress@2.0.0-alpha.5:
-    resolution: {integrity: sha512-fhuGpJ4CETS/lrAHjKu3m88HwesZvAjZLFeIRr9Jejmewyogn1tm2L6lsVg7PWxPmOGoMfihzl3+L6jg6hrTnA==}
+  vitepress@2.0.0-alpha.6:
+    resolution: {integrity: sha512-k58ZsFJi+ml0eHM6skEC3wSUm0piDJJmNJu2LSa9BhGMge69vSN07qTBDK5Ad87aDyYhmkbiIFW2AG6bboMFcg==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
+      oxc-minify: ^0.72.3
       postcss: ^8
     peerDependenciesMeta:
       markdown-it-mathjax3:
+        optional: true
+      oxc-minify:
         optional: true
       postcss:
         optional: true
@@ -5088,7 +5091,7 @@ snapshots:
       - '@75lb/nature'
       - supports-color
 
-  vitepress@2.0.0-alpha.5(@algolia/client-search@5.27.0)(@types/node@24.0.1)(fuse.js@7.0.0)(jiti@2.4.2)(postcss@8.5.5)(search-insights@2.17.3)(typescript@5.8.3)(yaml@2.8.0):
+  vitepress@2.0.0-alpha.6(@algolia/client-search@5.27.0)(@types/node@24.0.1)(fuse.js@7.0.0)(jiti@2.4.2)(postcss@8.5.5)(search-insights@2.17.3)(typescript@5.8.3)(yaml@2.8.0):
     dependencies:
       '@docsearch/css': 3.9.0
       '@docsearch/js': 3.9.0(@algolia/client-search@5.27.0)(search-insights@2.17.3)
