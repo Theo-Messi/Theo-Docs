@@ -16,11 +16,12 @@ opkg install tcpdump
 
 ### 2. 安装 Wireshark 和 终端工具
 
-<Box
+<Links
+  grid
   :items="[
     {
       name: 'Wireshark',
-      tag: '官网下载',
+      desc: '网络协议分析工具，可以实时捕获和分析网络数据包',
       link: 'https://www.wireshark.org/download.html',
       icon: 'simple-icons:wireshark',
       color: '#1679A7',
@@ -28,7 +29,7 @@ opkg install tcpdump
     },
     {
       name: 'Tabby',
-      tag: '官网下载',
+      desc: '跨平台的终端模拟器，支持 SSH、Telnet 等协议，适用于连接 Openwrt 进行抓包操作',
       link: 'https://tabby.sh/',
       image: 'https://i.theojs.cn/logo/tabby.svg',
       alt: 'Tabby Terminal'

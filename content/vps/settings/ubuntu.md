@@ -7,8 +7,31 @@ description: 本文介绍如何在 Debian 和 Ubuntu 系统上进行性能优化
 
 ## 系统下载
 
-<Pill name="Ubuntu" link="https://cn.ubuntu.com/download/desktop" :icon="{ light: 'skill-icons:ubuntu-light', dark: 'skill-icons:ubuntu-dark' }" alt="ubuntu图标" />
-<Pill name="Debian" link="https://www.debian.org/" :icon="{ light: 'skill-icons:debian-light', dark: 'skill-icons:debian-dark' }" alt="debian图标"/>
+<Links
+  :grid="2"
+  :items="[
+    {
+      name: 'Ubuntu',
+      desc: '下载官方桌面版 Ubuntu 系统',
+      link: 'https://cn.ubuntu.com/download/desktop',
+      icon: {
+        light: 'skill-icons:ubuntu-light',
+        dark: 'skill-icons:ubuntu-dark'
+      },
+      alt: 'Ubuntu 图标'
+    },
+    {
+      name: 'Debian',
+      desc: '访问 Debian 官方网站了解和下载系统',
+      link: 'https://www.debian.org/',
+      icon: {
+        light: 'skill-icons:debian-light',
+        dark: 'skill-icons:debian-dark'
+      },
+      alt: 'Debian 图标'
+    }
+  ]"
+/>
 
 ## 开启 SSH 服务远程登录
 

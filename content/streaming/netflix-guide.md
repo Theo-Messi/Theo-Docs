@@ -25,20 +25,26 @@ Netflix 是一家美国的在线流媒体平台，成立于 1997 年，总部位
 
 想要在国内愉快都使用 Netflix 并获得最佳的观影体验，你需要做好以下几个方面的准备：
 
-<Pill
-  name="购买 Netflix 账号"
-  link="/serve/sharing/account-sharing-guide"
-  icon="simple-icons:netflix"
-  color="#E50914"
-  alt="Netflix 官方或共享账号"
-/>
-
-<Pill
-  name="购买解锁 Netflix 线路"
-  link="/serve/airport/qingyunti"
-  icon="fluent:shield-keyhole-20-filled"
-  alt="用于解锁 Netflix 的 VPN 或机场线路"
-  color="indigo"
+<Links
+  :grid="3"
+  :items="[
+    {
+      name: '购买 Netflix 账号',
+      desc: '官方/共享账号，支持多种支付方式',
+      link: '/serve/sharing/account-sharing-guide',
+      icon: 'simple-icons:netflix',
+      color: '#E50914',
+      alt: 'Netflix 官方或共享账号'
+    },
+    {
+      name: '解锁 Netflix 线路',
+      desc: '优质 VPN / 机场节点，畅看无障碍',
+      link: '/serve/airport/qingyunti',
+      icon: 'fluent:shield-keyhole-20-filled',
+      alt: '用于解锁 Netflix 的 VPN 或机场线路',
+      color: 'indigo'
+    }
+  ]"
 />
 
 ## Netflix 账号合租
@@ -80,7 +86,25 @@ Chrome、Firefox 等浏览器默认最高支持到 720P，不过你可以通过�
 硬件：最低安卓 5.0 系统以上的手机，基本都可以正常使用奈飞 APP。
 
 软件：
-<Pill name="在 Google Play 搜索 Netflix 并下载即可" link="https://play.google.com/store/search?q=netflix&c=apps&hl=zh"  icon="logos:google-play-icon" alt="谷歌商店图标" /> 或者 <Pill name="在 APKPURE 上下载最新版 Netflix APK" link="https://apkpure.com/netflix/com.netflix.mediaclient"  icon="arcticons:apkpure" alt="APKPURE商店图标" />
+<Links
+  :grid="2"
+  :items="[
+    {
+      name: 'Google Play',
+      desc: '通过官方渠道下载最新版 Netflix',
+      link: 'https://play.google.com/store/search?q=netflix&c=apps&hl=zh',
+      icon: 'logos:google-play-icon',
+      alt: 'Google Play 图标'
+    },
+    {
+      name: 'APKPure',
+      desc: '适用于无法访问 Google Play 的用户',
+      link: 'https://apkpure.com/netflix/com.netflix.mediaclient',
+      image: 'https://image.winudf.com/v2/upload/images/icon.png/image.webp?fakeurl=1&w=90&type=.webp',
+      alt: 'APKPure 图标'
+    }
+  ]"
+/>
 
 ### Windows 10/11 PC 电脑（最高支持 4K）
 
