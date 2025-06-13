@@ -1,5 +1,8 @@
 import type { HeadConfig } from 'vitepress'
 
+const description =
+  '全方位流媒体观影指南，涵盖 Netflix、Disney+、HBO Max、Spotify、YouTube Premium、奈飞、青云梯、Galaxy Cloud - 银河云、FlyingBird - 飞鸟机场、飞兔云、TNT Cloud、Totoro Cloud - 龙猫云、奈飞小铺、银河录像局、蜜糖商店等，畅享全球精彩内容与解锁服务'
+
 export const head: HeadConfig[] = [
   // 浏览器 UI 配置
   ['meta', { name: 'theme-color', content: '#ffffff' }],
@@ -26,28 +29,14 @@ export const head: HeadConfig[] = [
   ['meta', { property: 'og:title', content: 'Theo Docs' }],
   ['meta', { property: 'og:url', content: 'https://doc.theojs.cn/' }],
   ['meta', { property: 'og:image', content: 'https://i.theojs.cn/logo/Theo-Docs-og.webp' }],
-  [
-    'meta',
-    {
-      property: 'og:description',
-      content:
-        '全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、青云梯、FlyingBird - 飞鸟机场、飞兔云、TNT Cloud、Totoro Cloud - 龙猫云、奈飞小铺、银河录像局、蜜糖商店）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
-    }
-  ],
+  ['meta', { property: 'og:description', content: description }],
 
   // Twitter Card
   ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ['meta', { name: 'twitter:site', content: '@TheoMessi_' }],
   ['meta', { name: 'twitter:title', content: 'Theo-Docs' }],
   ['meta', { name: 'twitter:image', content: 'https://i.theojs.cn/logo/Theo-Docs-og.webp' }],
-  [
-    'meta',
-    {
-      name: 'twitter:description',
-      content:
-        '全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、青云梯、FlyingBird - 飞鸟机场、飞兔云、TNT Cloud、Totoro Cloud - 龙猫云、奈飞小铺、银河录像局、蜜糖商店）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
-    }
-  ],
+  ['meta', { name: 'twitter:description', content: description }],
 
   // 其他 meta
   ['meta', { name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' }],

@@ -37,6 +37,7 @@ export const Aside_Data: AsideItem = [
     link: 'https://itheo.top/qyt',
     image: 'https://i.theojs.cn/logo/qyt.webp',
     alt: '青云梯 Logo',
+    rel: 'sponsored',
     promo: '青云梯 618大促活动开启',
     info1: '月付 <span class="promo-text"> 85折 </span>优惠码 <span class="promo-text"> wuyi85 </span>',
     info2: '年付 <span class="promo-text"> 8折 </span>优惠码 <span class="promo-text"> wuyi80 </span>'
@@ -47,6 +48,22 @@ export const Aside_Data: AsideItem = [
   //   image: 'https://i.theojs.cn/logo/qyt.webp',
   //   alt: '青云梯 Logo',
   //   promo: '青云梯'
+  // },
+  {
+    link: 'https://itheo.top/yhy',
+    image: 'https://i.theojs.cn/logo/galaxy_transparent_square.webp',
+    alt: 'Galaxy Cloud - 银河云 Logo',
+    rel: 'sponsored',
+    promo: 'Galaxy 银河云 618购物节',
+    info1: '月付 <span class="promo-text"> 85折 </span>优惠码 <span class="promo-text"> wuyi85 </span>',
+    info2: '年付 <span class="promo-text"> 8折 </span>优惠码 <span class="promo-text"> wuyi80 </span>'
+  },
+  // {
+  //   link: 'https://itheo.top/yhy',
+  //   image: 'https://i.theojs.cn/logo/galaxy_transparent_square.webp',
+  //   alt: 'Galaxy Cloud - 银河云 Logo',
+  //   rel: 'sponsored',
+  //   promo: '银河云'
   // },
   {
     link: 'https://itheo.top/tnt',
