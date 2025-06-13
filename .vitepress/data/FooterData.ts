@@ -36,6 +36,7 @@ export const Footer_Data: FooterData = {
       icon: 'heroicons:globe-alt-solid',
       alt: '优质线路 icon',
       links: [
+        { name: '银河云', link: 'https://itheo.top/yhy', rel: 'sponsored' },
         { name: '青云梯', link: 'https://itheo.top/qyt', rel: 'sponsored' },
         {
           name: 'Totoro Cloud',
