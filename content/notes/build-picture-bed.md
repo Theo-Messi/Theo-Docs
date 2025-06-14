@@ -12,20 +12,21 @@ description: 使用 PicGo 和 Github 搭建图床，实现图片上传、压缩�
     {
       name: '注册账号',
       link: 'https://github.com/',
-      image: { light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg' },
-      alt: 'github图标'
+      image: {
+        light: 'https://i.theojs.cn/logo/github.svg',
+        dark: 'https://i.theojs.cn/logo/github-dark.svg',
+        alt: 'github图标'
+      }
     },
     {
       name: '下载 PicGo',
       link: 'https://molunerfinn.com/PicGo/',
-      image: 'https://molunerfinn.com/PicGo/imgs/256x256--icons.png',
-      alt: 'PicGo图标'
+      image: { src: 'https://molunerfinn.com/PicGo/imgs/256x256--icons.png', alt: 'PicGo图标' }
     },
     {
       name: '下载 PicList',
       link: 'https://piclist.cn/',
-      image: 'https://pichoro.msq.pub/favicon/app_icon.png',
-      alt: 'PicList图标'
+      image: { src: 'https://pichoro.msq.pub/favicon/app_icon.png', alt: 'PicList图标' }
     }
   ]"
 />
@@ -36,7 +37,7 @@ description: 使用 PicGo 和 Github 搭建图床，实现图片上传、压缩�
 
 ## 生成 Token
 
-- <Pill name="生成 Token" link="https://github.com/settings/tokens" icon="oui:token-key"  alt="github token logo" />
+- <Pill name="生成 Token" link="https://github.com/settings/tokens" icon="oui:token-key" alt="github token logo" />
 - 点击左侧的 `Tokens（classic）`
 - 再点击 `Generate new token（classic）`
 

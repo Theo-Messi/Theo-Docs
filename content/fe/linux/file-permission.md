@@ -46,7 +46,53 @@ Linux 操作系统中对权限的管理很严格。Linux 系统中不仅是对�
 root 账户不受文件权限的读写限制，执行权限受限制
 :::
 
-<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>权限项</td><td>文件类型</td><td>读</td><td>写</td><td>执行</td><td>读</td><td>写</td><td>执行</td><td>读</td><td>写</td></tr><tr><td>字符表示</td><td>(d|l|c|s|p)</td><td>（r）</td><td>（w）</td><td>(x)</td><td>(r)</td><td>(w)</td><td>(x)</td><td>(r)</td><td>(w)</td></tr><tr><td>数字表示</td><td></td><td>4</td><td>2</td><td>1</td><td>4</td><td>2</td><td>1</td><td>4</td><td>2</td></tr><tr><td>权限分配</td><td></td><td>文件所有者</td><td>文件所属组用户</td><td>其他用户</td></tr></tbody></table>
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal">
+  <tbody>
+    <tr>
+      <td>权限项</td>
+      <td>文件类型</td>
+      <td>读</td>
+      <td>写</td>
+      <td>执行</td>
+      <td>读</td>
+      <td>写</td>
+      <td>执行</td>
+      <td>读</td>
+      <td>写</td>
+    </tr>
+    <tr>
+      <td>字符表示</td>
+      <td>(d|l|c|s|p)</td>
+      <td>（r）</td>
+      <td>（w）</td>
+      <td>(x)</td>
+      <td>(r)</td>
+      <td>(w)</td>
+      <td>(x)</td>
+      <td>(r)</td>
+      <td>(w)</td>
+    </tr>
+    <tr>
+      <td>数字表示</td>
+      <td></td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+      <td>4</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>权限分配</td>
+      <td></td>
+      <td>文件所有者</td>
+      <td>文件所属组用户</td>
+      <td>其他用户</td>
+    </tr>
+  </tbody>
+</table>
 
 用户获取文件权限的顺序：先看是否为所有者，如果是，则后面权限不看；再看是否为所属组，如果是，则后面权限不看。
 

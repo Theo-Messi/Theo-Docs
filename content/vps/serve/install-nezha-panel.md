@@ -22,10 +22,24 @@ description: 哪吒监控是一个开源、轻量、易用的服务器监控与�
 
 本文档以 `dashboard.example.com` 和 `data.example.com` 为例。
 :::
-<Links :items="[
-{ name: 'GitHub项目 - 哪吒监控', desc:'开源、轻量、易用的服务器监控与运维工具',  image:'https://nezha.wiki/logo.png',link: 'https://github.com/naiba/nezha',alt: '哪吒监控logo' },
-{ name: '官方WiKi - 哪吒监控', desc:'开源、轻量、易用的服务器监控与运维工具',  image:'https://nezha.wiki/logo.png',link: 'https://nezha.wiki/',alt: '哪吒监控logo'  },
-]" />
+
+<Links
+  grid
+  :items="[
+    {
+      name: 'GitHub项目 - 哪吒监控',
+      desc: '开源、轻量、易用的服务器监控与运维工具',
+      link: 'https://github.com/naiba/nezha',
+      image: { src: 'https://nezha.wiki/logo.png', alt: '哪吒监控logo' }
+    },
+    {
+      name: '官方WiKi - 哪吒监控',
+      desc: '开源、轻量、易用的服务器监控与运维工具',
+      link: 'https://nezha.wiki/',
+      image: { src: 'https://nezha.wiki/logo.png', alt: '哪吒监控logo' }
+    }
+  ]"
+/>
 
 ## 在服务器中安装 Dashboard
 

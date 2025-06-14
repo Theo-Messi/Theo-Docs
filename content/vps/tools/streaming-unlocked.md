@@ -18,12 +18,12 @@ Netflix CDN 分流测试依赖 DNS 解析。而如果您使用的本地设备开
 :::
 
 <Links
+  grid
   :items="[
     {
       name: 'GitHub 项目地址',
-      icon: { light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', },
-      link: 'https://github.com/lmc999/RegionRestrictionCheck',
-      alt: 'github 图标'
+      icon: { light: 'skill-icons:github-dark', dark: 'skill-icons:github-light', alt: 'github 图标' },
+      link: 'https://github.com/lmc999/RegionRestrictionCheck'
     }
   ]"
 />

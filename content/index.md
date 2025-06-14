@@ -17,17 +17,15 @@ hero:
     width: 320
     height: 320
 
-  prelink:
-    # content: '<span class="promo-text" style="display: inline-flex; align-items: center"><img src="https://i.theojs.cn/logo/qyt.webp" style="height:0.65em; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
-    title: '<iconify-icon icon="streamline-emojis:wrapped-gift-2" ></iconify-icon> <span class="promo-title"> FlyingBird 520&618 活动继续启航！</span>'
-    content: '
-    · <span class="promo-text"> 优惠码可重复使用5次!!! </span></br>
-    · 月付 <span class="promo-text"> 85折 </span>优惠码 <span class="promo-text"> fb2561885 </span></br>
-    · 年付 <span class="promo-text"> 64折 </span>优惠码 <span class="promo-text"> fb2561880 </span></br>
+  Announcement:
+    title: '<iconify-icon icon="streamline-emojis:wrapped-gift-2" ></iconify-icon> <span class="promo-title"> FlyingBird 520&618 特惠</span>'
+    desc: '
+    · 月/季/半年付 <span class="promo-text">85折: fb2561885</span><br>
+    · 年付以上 <span class="promo-text">64折: fb2561880</span><br>
+    · <span class="promo-text">优惠码可用5次！</span><br>
     '
-    date: '2025年6月20号23点59分'
-    # dateIcon: 'mdi:calendar-star'
-    dateText: '活动截止日期'
+    date: '6月20号23点59分'
+    dateText: '活动截止至'
     link: https://itheo.top/flyingbird
     rel: sponsored
 

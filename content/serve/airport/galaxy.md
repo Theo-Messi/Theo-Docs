@@ -26,10 +26,9 @@ head:
     {
       name: '银河云 618大促活动开启!',
       desc: '活动时间：即日起至2025年06月30日23点59分',
-      image: 'https://i.theojs.cn/logo/galaxy_transparent_square.webp',
       link: 'https://itheo.top/yhy',
-      alt: '银河云logo',
-      rel: 'sponsored'
+      rel: 'sponsored',
+      image: { src: 'https://i.theojs.cn/logo/galaxy_transparent_square.webp', crop: true, alt: '银河云logo' }
     }
   ]"
 />
@@ -57,9 +56,9 @@ head:
 
 ### 不限时套餐<Badge type="danger" text="仅限前一万名用户!先到先得!!!"/>
 
-|         套餐类型         |   流量    |   价格   | 原生解锁 |                               套餐购买                                |                                                                                                                      支付方式                                                                                                                       |
-| :----------------------: | :-------: | :------: | :------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **不限时套餐(永久有效)** | **1000G** | **¥680** |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|         套餐类型         |   流量    |   价格   | 原生解锁 |                               套餐购买                                |                                                                                                                          支付方式                                                                                                                           |
+| :----------------------: | :-------: | :------: | :------: | :-------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **不限时套餐(永久有效)** | **1000G** | **¥680** |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
 
 ::: tip
 年付**8**折/2年付**7**折/3年付**6**折 配合优惠码折上折，最高可达**48**折
@@ -69,13 +68,13 @@ head:
 
 ### 月/年付套餐
 
-|   套餐类型   |   流量   | 月付 | 季付 | 年付  | 原生解锁 |                               套餐购买                                |                                                                                                                      支付方式                                                                                                                       |
-| :----------: | :------: | :--: | :--: | :---: | :------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **年付小包** | **50G**  | N/A  | N/A  |  ¥98  |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-| **星尘套餐** | **100G** | ¥18  | ¥49  | ¥173  |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-| **行星套餐** | **200G** | ¥35  | ¥95  | ¥336  |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-| **恒星套餐** | **400G** | ¥70  | ¥189 | ¥672  |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-| **星系套餐** | **800G** | ¥140 | ¥378 | ¥1344 |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" width="24" style="color: #07C160"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|   套餐类型   |   流量   | 月付 | 季付 | 年付  | 原生解锁 |                               套餐购买                                |                                                                                                                          支付方式                                                                                                                           |
+| :----------: | :------: | :--: | :--: | :---: | :------: | :-------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **年付小包** | **50G**  | N/A  | N/A  |  ¥98  |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+| **星尘套餐** | **100G** | ¥18  | ¥49  | ¥173  |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+| **行星套餐** | **200G** | ¥35  | ¥95  | ¥336  |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+| **恒星套餐** | **400G** | ¥70  | ¥189 | ¥672  |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+| **星系套餐** | **800G** | ¥140 | ¥378 | ¥1344 |    ✅    | <Pill name="立即购买" link="https://itheo.top/yhy" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
 
 ## 银河云 测速图
 

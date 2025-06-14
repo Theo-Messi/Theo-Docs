@@ -13,8 +13,6 @@ description: 梅林固件刷机需知，包含梅林固件的介绍、刷机术�
 
 当然也有类似这样的版本号： `9.0.0.4_386_55919` ，`9.0.0.4` 字样开头的固件版本，是华硕官方出品的测试固件
 
-一般也能在华硕官方下载中心下载到，或者在 <Pill name="Small Net Builder 论坛的 Asuswrt 板块" link="https://www.snbforums.com/forums/asuswrt-official.51/" image="https://www.snbforums.com/data/assets/logo/snb_new_round.jpg"  alt="Small Net Builder icon" /> 下载到。
-
 ## 华硕官改固件
 
 通常我们说的**官改固件**就是指的**华硕官改固件**
