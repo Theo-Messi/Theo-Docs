@@ -12,9 +12,18 @@ description: TNT Cloud 提供稳定高速的科学上网服务，解锁流媒体
 - 季付限量包不参与活动
 
 :::
-<Links :items="[
-{ name: 'TNT Cloud 618购物狂欢！！！最低三年48折', desc: '活动即日起至2025年6月30号23时59分', image:'https://i.theojs.cn/docs/TNT.webp',link: 'https://itheo.top/tnt', alt:'TNT Cloud logo',rel: 'sponsored' },
-]" />
+
+<Links
+  :items="[
+    {
+      name: 'TNT Cloud 618购物狂欢！！！最低三年48折',
+      desc: '活动即日起至2025年6月30号23时59分',
+      link: 'https://itheo.top/tnt',
+      rel: 'sponsored',
+      image: { src: 'https://i.theojs.cn/docs/TNT.webp', crop: true, alt: 'TNT Cloud logo' }
+    }
+  ]"
+/>
 
 ## TNT Cloud简介 <Pill name="TNT Cloud官网" link="https://itheo.top/tnt" image="https://i.theojs.cn/docs/TNT.webp" alt="TNT Cloud logo" rel="sponsored"/>
 
@@ -31,13 +40,13 @@ IPLC内网专线机场，原生 IP 节点，服务稳定可靠，是老牌机场
 季度以上自带折扣
 :::
 
-|  套餐类型  |  流量/月  | 价格/月 | 价格/季 | 价格/半年 | 价格/年 | 原生解锁 |                               套餐购买                                |                                     支付方式                                     |
-| :--------: | :-------: | :-----: | :-----: | :-------: | :-----: | :------: | :-------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
-| **轻量包** |  **60G**  |   N/A   |   ¥30   |    N/A    |   N/A   |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> |
-|  **VIP1**  | **110G**  |   ¥20   |   ¥54   |   ¥102    |  ¥192   |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> |
-|  **VIP2**  | **220G**  |   ¥40   |  ¥108   |   ¥204    |  ¥336   |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> |
-|  **VIP3**  | **460G**  |   ¥80   |  ¥216   |   ¥408    |  ¥768   |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> |
-|  **VIP4**  | **1100G** |  ¥160   |  ¥432   |   ¥816    |  ¥1536  |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> |
+|  套餐类型  |  流量/月  | 价格/月 | 价格/季 | 价格/半年 | 价格/年 | 原生解锁 |                               套餐购买                                |                                       支付方式                                       |
+| :--------: | :-------: | :-----: | :-----: | :-------: | :-----: | :------: | :-------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
+| **轻量包** |  **60G**  |   N/A   |   ¥30   |    N/A    |   N/A   |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
+|  **VIP1**  | **110G**  |   ¥20   |   ¥54   |   ¥102    |  ¥192   |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
+|  **VIP2**  | **220G**  |   ¥40   |  ¥108   |   ¥204    |  ¥336   |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
+|  **VIP3**  | **460G**  |   ¥80   |  ¥216   |   ¥408    |  ¥768   |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
+|  **VIP4**  | **1100G** |  ¥160   |  ¥432   |   ¥816    |  ¥1536  |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
 
 ## TNT Cloud 测速图
 

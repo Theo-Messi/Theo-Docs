@@ -14,17 +14,13 @@ description: 完整的 H3C NX30Pro 刷 OpenWRT 固件教程，包括 Uboot 刷�
       name: '固件/UBOOT',
       desc: 'H3C NX30Pro OpenWRT 固件和 UBOOT 下载链接',
       link: 'https://github.com/Theo-Messi/H3C-NX30Pro',
-      icon: 'simple-icons:openwrt',
-      color: '#00B5E2',
-      alt: 'openwrt'
+      icon: { icon: 'simple-icons:openwrt', color: '#00B5E2', alt: 'openwrt' }
     },
     {
       name: 'termius',
       desc: '跨平台的 SSH 客户端，支持 Telnet 和 SSH 协议，适用于连接路由器进行刷机操作',
       link: 'https://termius.com/download/',
-      icon: 'simple-icons:termius',
-      color: '#000000',
-      alt: 'termius'
+      icon: { icon: 'simple-icons:termius', color: '#000000', alt: 'termius' }
     },
     {
       name: 'winscp',

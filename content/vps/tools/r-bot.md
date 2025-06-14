@@ -16,23 +16,21 @@ description: 使用一键脚本在VPS上部署并刷甲骨文云（Oracle Cloud�
       link: 'https://github.com/semicons/java_oci_manage',
       icon: {
         light: 'skill-icons:github-dark',
-        dark: 'skill-icons:github-light'
-      },
-      alt: 'GitHub 图标'
+        dark: 'skill-icons:github-light',
+        alt: 'GitHub 图标'
+      }
     },
     {
       name: 'R探长',
       desc: 'Telegram 频道，分享 Oracle / Azure 云相关资源',
       link: 'https://t.me/agentONE_R',
-      icon: 'logos:telegram',
-      alt: 'Telegram 图标'
+      icon: { icon: 'logos:telegram', alt: 'Telegram 图标' }
     },
     {
       name: 'R探长小助理',
       desc: 'Telegram 智能 Bot，支持自动开通与查询服务',
       link: 'https://t.me/radiance_helper_bot',
-      icon: 'logos:telegram',
-      alt: 'Telegram 图标'
+      icon: { icon: 'logos:telegram', alt: 'Telegram 图标' }
     }
   ]"
 />

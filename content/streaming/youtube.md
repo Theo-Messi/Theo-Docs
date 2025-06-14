@@ -91,25 +91,25 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
       name: '奈飞小铺',
       desc: '购买 Netflix 家庭组会员，支持多种付款方式',
       link: 'https://itheo.top/ihezu',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s',
-      alt: '奈飞小铺图标',
-      rel: 'sponsored'
+      rel: 'sponsored',
+      image: {
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s',
+        alt: '奈飞小铺图标'
+      }
     },
     {
       name: '银河录像局',
       desc: '加入家庭组会员，便捷高效获取账号',
       link: 'https://itheo.top/yh',
-      image: 'https://nf.video/favicon.ico',
-      alt: '银河录像局图标',
-      rel: 'sponsored'
+      rel: 'sponsored',
+      image: { src: 'https://nf.video/favicon.ico', alt: '银河录像局图标' }
     },
     {
       name: '蜜糖商店',
       desc: '安全购买 Netflix 家庭组账号，售后完善',
       link: 'https://itheo.top/metshop',
-      image: 'https://metshop.cn/img/simpLogo.1b5c58e1.png',
-      alt: '蜜糖商店图标',
-      rel: 'sponsored'
+      rel: 'sponsored',
+      image: { src: 'https://metshop.cn/img/simpLogo.1b5c58e1.png', alt: '蜜糖商店图标' }
     }
   ]"
 />

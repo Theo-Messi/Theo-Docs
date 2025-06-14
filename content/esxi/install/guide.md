@@ -26,8 +26,7 @@ description: ESXi 8.0 安装指南，安装 ESXi 8.0 的详细步骤
       name: 'ESXi 官网下载',
       desc: 'VMWare ESXi 8.0 官方下载页面，提供 ISO 镜像和离线捆绑包',
       link: 'https://www.broadcom.cn/',
-      image: 'https://i.theojs.cn/logo/ESXi.webp',
-      alt: 'esxi logo'
+      image: { src: 'https://i.theojs.cn/logo/ESXi.webp', alt: 'esxi logo' }
     }
   ]"
 />
@@ -41,15 +40,13 @@ description: ESXi 8.0 安装指南，安装 ESXi 8.0 的详细步骤
       name: 'Ventoy',
       desc: '开源的 U 盘启动工具，可以将多个 ISO 镜像文件写入 U 盘，支持多种操作系统的安装',
       link: 'https://github.com/ventoy/Ventoy/releases',
-      image: 'https://i.theojs.cn/logo/ventoy.webp',
-      alt: 'ventoy logo'
+      image: { src: 'https://i.theojs.cn/logo/ventoy.webp', alt: 'ventoy logo' }
     },
     {
       name: 'Balenaetcher',
       desc: '跨平台的写盘工具，可以将 ISO 镜像文件写入 U 盘或 SD 卡，支持多种操作系统的安装',
       link: 'https://etcher.balena.io/',
-      icon: 'logos:balena',
-      alt: 'Balenaetcher logo'
+      icon: { icon: 'logos:balena', alt: 'Balenaetcher logo' }
     }
   ]"
 />
@@ -69,8 +66,10 @@ description: ESXi 8.0 安装指南，安装 ESXi 8.0 的详细步骤
       name: 'StarWind',
       desc: '免费的虚拟机转换工具，可以将虚拟机磁盘格式转换为 ESXi 支持的格式',
       link: 'https://www.starwindsoftware.com/starwind-v2v-converter',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/StarWind_logo.svg/1280px-StarWind_logo.svg.png',
-      alt: 'StarWind V2V Converter logo'
+      image: {
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/StarWind_logo.svg/1280px-StarWind_logo.svg.png',
+        alt: 'StarWind V2V Converter logo'
+      }
     }
   ]"
 />

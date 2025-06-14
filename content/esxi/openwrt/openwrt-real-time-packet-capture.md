@@ -23,9 +23,7 @@ opkg install tcpdump
       name: 'Wireshark',
       desc: '网络协议分析工具，可以实时捕获和分析网络数据包',
       link: 'https://www.wireshark.org/download.html',
-      icon: 'simple-icons:wireshark',
-      color: '#1679A7',
-      alt: 'Wireshark'
+      icon: { icon: 'simple-icons:wireshark', color: '#1679A7', alt: 'Wireshark' }
     },
     {
       name: 'Tabby',

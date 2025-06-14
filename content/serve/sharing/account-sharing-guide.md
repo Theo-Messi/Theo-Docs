@@ -9,21 +9,21 @@ description: 奈飞小铺、银河录像局、蜜糖商店等账号合租平台�
 
 <!-- #region price -->
 
-|    合租平台    |                                 官方网站                                  |    优惠码    |                         扫码直达                         |                                                                                  支付方式                                                                                   |
-| :------------: | :-----------------------------------------------------------------------: | :----------: | :------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|  **奈飞小铺**  |  <Pill name="官网直达" link="https://itheo.top/ihezu" rel="sponsored" />  | **`theonf`** |    ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp)    |                                              <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon>                                               |
-| **银河录像局** |   <Pill name="官网直达" link="https://itheo.top/yh" rel="sponsored" />    |  **`Theo`**  | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) | <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon> <iconify-icon icon="simple-icons:paypal" width="24" style="color: #003087"></iconify-icon> |
-|  **蜜糖商店**  | <Pill name="官网直达" link="https://itheo.top/metshop" rel="sponsored" /> | **`theomt`** |  ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp)  |                                              <iconify-icon icon="bi:alipay" width="24" style="color: #1677FF"></iconify-icon>                                               |
+|    合租平台    |                                 官方网站                                  |    优惠码    |                         扫码直达                         |                                                                                      支付方式                                                                                       |
+| :------------: | :-----------------------------------------------------------------------: | :----------: | :------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  **奈飞小铺**  |  <Pill name="官网直达" link="https://itheo.top/ihezu" rel="sponsored" />  | **`theonf`** |    ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp)    |                                                <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon>                                                 |
+| **银河录像局** |   <Pill name="官网直达" link="https://itheo.top/yh" rel="sponsored" />    |  **`Theo`**  | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> <iconify-icon icon="simple-icons:paypal" style="color: #003087;font-size:24px"></iconify-icon> |
+|  **蜜糖商店**  | <Pill name="官网直达" link="https://itheo.top/metshop" rel="sponsored" /> | **`theomt`** |  ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp)  |                                                <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon>                                                 |
 
 <!-- #endregion price -->
 
 ## 省心之选：Netflix 账号合租
 
-在<Pill name="Netflix" icon="simple-icons:netflix" color="#E50914" link="https://www.netflix.com/" alt="Netflix图标" />巩固其全球流媒体霸主地位的同时，其不菲的订阅费用也让许多观众望而却步。在这样的背景下，账号合租—通俗称作“拼车”服务—崭露头角，迅速成为热门话题和不可或缺的消费趋势。
+在<Pill name="Netflix" :icon="{ icon: 'simple-icons:netflix', color: '#E50914' }" link="https://www.netflix.com/" alt="Netflix图标" />巩固其全球流媒体霸主地位的同时，其不菲的订阅费用也让许多观众望而却步。在这样的背景下，账号合租—通俗称作“拼车”服务—崭露头角，迅速成为热门话题和不可或缺的消费趋势。
 
-账号合租不仅降低了观众门槛，使得您只需支付原来订阅费的约 1/5，就能全面体验<Pill name="Netflix" icon="simple-icons:netflix" color="#E50914" link="https://www.netflix.com/" alt="Netflix图标" />多达上万部的影视剧库，既简单又省钱。
+账号合租不仅降低了观众门槛，使得您只需支付原来订阅费的约 1/5，就能全面体验 <Pill name="Netflix" :icon="{ icon: 'simple-icons:netflix', color: '#E50914' }" link="https://www.netflix.com/" alt="Netflix图标" /> 多达上万部的影视剧库，既简单又省钱。
 
-本指南旨在为您提供一份深度而全面的解析，涵盖从合租渠道选择、购买流程，到风险和可靠性评估，以及如何作出明智的消费决策等各个方面。这一切都是为了让您在享受<Pill name="Netflix" icon="simple-icons:netflix" color="#E50914" link="https://www.netflix.com/" alt="Netflix图标" />的丰富娱乐内容时，能够更加省心、省力、省钱。
+本指南旨在为您提供一份深度而全面的解析，涵盖从合租渠道选择、购买流程，到风险和可靠性评估，以及如何作出明智的消费决策等各个方面。这一切都是为了让您在享受<Pill name="Netflix" :icon="{ icon: 'simple-icons:netflix', color: '#E50914' }" link="https://www.netflix.com/" alt="Netflix图标" />的丰富娱乐内容时，能够更加省心、省力、省钱。
 
 ## 流媒体与 Netflix
 
