@@ -1,15 +1,15 @@
 ---
-title: 奈飞小铺
-description: 奈飞小铺是由国内首家以 独立站 + 微信公众号 + 自动发货 + 自助售后 + 无限续费 模式运营的独立 Netflix 合租账号售卖平台，目前也是业内最大的奈飞账号（及其他流媒体服务账号）合租平台。
+title: 奈飞小铺- 智能账号合租平台
+description: 国内领先的智能账号合租平台，提供数百种合租品类，不仅能购买合租账号，还能发布闲置账号赚钱。快来加入，共享娱乐与收益！
 head:
   - - meta
     - property: og:image
       content: https://i.theojs.cn/docs/ihezu_og.webp
 ---
 
-# 奈飞小铺
+# 奈飞小铺- 智能账号合租平台
 
-![奈飞小铺](https://i.theojs.cn/docs/ihezu_og.webp '奈飞账号（及其他流媒体服务账号）合租平台')
+![奈飞小铺 =688x](https://i.theojs.cn/docs/ihezu_og.webp '奈飞账号（及其他流媒体服务账号）合租平台')
 
 ## 奈飞小铺简介
 

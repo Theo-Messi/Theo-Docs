@@ -1,6 +1,6 @@
 ---
 title: Disney+ 介绍
-description: Disney+ 是华特迪士尼公司推出的流媒体平台，提供丰富的电影和电视剧资源，支持包括 Marvel、星球大战、迪士尼经典等系列作品的在线播放，广受欢迎的影视内容包括《复仇者联盟》、《狮子王》、《曼达洛人》等。
+description: Disney+ 是华特迪士尼公司推出的流媒体平台，提供丰富的电影和电视剧资源，涵盖 Marvel、星球大战、迪士尼经典等系列作品，内容多样，广受全球用户欢迎。
 head:
   - - meta
     - property: og:image
@@ -9,7 +9,7 @@ head:
 
 # Disney+ 介绍
 
-![Disney+](https://i.theojs.cn/docs/202406111458794.webp 'Disney+ 梦幻般的流媒体世界')
+![Disney+ =688x](https://i.theojs.cn/docs/202406111458794.webp 'Disney+ 梦幻般的流媒体世界')
 
 ## Disney+ : 梦幻般的流媒体世界
 

@@ -1,6 +1,6 @@
 ---
 title: Spotify Premium 账号合租终极指南
-description: 探索如何高效合租 Spotify Premium 账号，享受无限音乐，降低费用，提升音乐体验。
+description: 探索如何高效合租 Spotify Premium 账号，享受无限音乐内容，降低费用，提升音质和个性化推荐，带来更好的音乐体验。
 head:
   - - meta
     - property: og:image
@@ -9,7 +9,7 @@ head:
 
 # Spotify Premium 账号合租终极指南
 
-![Spotify](https://i.theojs.cn/docs/202406111508204.webp 'Spotify')
+![Spotify =688x](https://i.theojs.cn/docs/202406111508204.webp 'Spotify')
 
 Spotify，又名声田或声破天，是一家全球性的正版音乐服务平台，于 2008 年 10 月在瑞典首都斯德哥尔摩正式上线。与环球音乐集团、索尼音乐娱乐、华纳音乐集团等三大唱片公司及其他唱片公司合作，Spotify 是全球最大的流音乐服务商之一，提供受数字版权管理保护的音乐。
 

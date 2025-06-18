@@ -1,6 +1,6 @@
 ---
 title: Galaxy Cloud - 银河云
-description: Galaxy Cloud - 银河云提供稳定高速的科学上网服务，解锁流媒体如奈飞 Netflix、HBO Max、Disney+等，支持多平台设备，并且拥有全球多个节点，特别适用于出国服务和流媒体加速。
+description: Galaxy Cloud 银河云提供稳定高速的科学上网服务，支持多平台设备同时连接，解锁奈飞 Netflix、HBO Max、Disney+、YouTube、Amazon Prime Video等主流全球流媒体，拥有遍布全球的多个高质量节点，特别适用于出国访问、流媒体加速和网络隐私保护，确保连接安全稳定，体验流畅无卡顿。
 head:
   - - meta
     - name: og:image
@@ -9,7 +9,7 @@ head:
 
 # Galaxy Cloud - 银河云
 
-![Galaxy Cloud - 银河云OG =750x](https://i.theojs.cn/logo/galaxy.webp 'Galaxy Cloud - 银河云')
+![Galaxy Cloud - 银河云OG =688x](https://i.theojs.cn/logo/galaxy.webp 'Galaxy Cloud - 银河云')
 
 :::tip 银河云 618大促活动开启!
 
@@ -78,14 +78,14 @@ head:
 
 ## 银河云 测速图
 
-![Galaxy Cloud - 银河云 解锁图 =750x](https://i.theojs.cn/airport/galaxy_unlock.webp)
+![Galaxy Cloud - 银河云 解锁图 =688x](https://i.theojs.cn/airport/galaxy_unlock.webp)
 
-![Galaxy Cloud - 银河云 拓扑图 =750x](https://i.theojs.cn/airport/galaxy_topology.webp)
+![Galaxy Cloud - 银河云 拓扑图 =688x](https://i.theojs.cn/airport/galaxy_topology.webp)
 
-![Galaxy Cloud - 银河云 广东电信晚高峰测速图 =750x](https://i.theojs.cn/airport/galaxy_guangdong_telecom.webp)
+![Galaxy Cloud - 银河云 广东电信晚高峰测速图 =688x](https://i.theojs.cn/airport/galaxy_guangdong_telecom.webp)
 
-![Galaxy Cloud - 银河云 广东移动晚高峰测速图 =750x](https://i.theojs.cn/airport/galaxy_guangdong_mobile.webp)
+![Galaxy Cloud - 银河云 广东移动晚高峰测速图 =688x](https://i.theojs.cn/airport/galaxy_guangdong_mobile.webp)
 
-![Galaxy Cloud - 银河云 湖北联通晚高峰测速图 =750x](https://i.theojs.cn/airport/galaxy_hubei_unicom.webp)
+![Galaxy Cloud - 银河云 湖北联通晚高峰测速图 =688x](https://i.theojs.cn/airport/galaxy_hubei_unicom.webp)
 
-![Galaxy Cloud - 银河云 江苏电信晚高峰测速图 =750x](https://i.theojs.cn/airport/galaxy_jiangsu_telecom.webp)
+![Galaxy Cloud - 银河云 江苏电信晚高峰测速图 =688x](https://i.theojs.cn/airport/galaxy_jiangsu_telecom.webp)

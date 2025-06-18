@@ -1,6 +1,6 @@
 ---
 title: Totoro Cloud - 龙猫云
-description: Totoro Cloud 龙猫云提供流媒体解锁服务，支持Netflix、Disney+、HBO、ChatGPT等流媒体和工具，专线高速，稳定可靠，适合科学上网，支持iOS、Android、Windows、Mac等多平台使用。
+description: Totoro Cloud 龙猫云提供高速稳定的科学上网和流媒体解锁服务，支持Netflix、Disney+、HBO、ChatGPT等多种流媒体与工具，采用专线加速，保障连接安全可靠，兼容iOS、Android、Windows、Mac等多平台，满足多场景需求。
 ---
 
 # Totoro Cloud - 龙猫云
@@ -57,4 +57,4 @@ Totoro Cloud 中文名为龙猫云，一家颇具实力的新机场，Shadowsock
 
 ## 龙猫云 测速图
 
-![龙猫云 测速图 =750x](https://i.theojs.cn/airport/totoro.webp)
+![龙猫云 测速图 =688x](https://i.theojs.cn/airport/totoro.webp)

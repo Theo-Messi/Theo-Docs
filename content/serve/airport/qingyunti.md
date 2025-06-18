@@ -1,6 +1,6 @@
 ---
-title: 青云梯
-description: 青云梯提供稳定高速的科学上网服务，解锁流媒体如奈飞 Netflix、HBO Max、Disney+等，支持多平台设备，并且拥有全球多个节点，特别适用于出国服务和流媒体加速。
+title: 青云梯 - 2.5Gbps高速稳定科学上网
+description: 青云梯提供稳定高速的科学上网服务，支持多平台设备，解锁Netflix、HBO Max、Disney+等全球流媒体，拥有多个全球节点，特别适用于出国访问和流媒体加速。
 head:
   - - meta
     - name: og:image
@@ -9,7 +9,7 @@ head:
 
 # 青云梯
 
-![青云梯og =500x](https://i.theojs.cn/logo/qyt_logo.webp '青云梯')
+![青云梯og =370x](https://i.theojs.cn/logo/qyt_logo.webp '青云梯')
 
 :::tip 青云梯 618大促活动开启!
 
@@ -64,14 +64,14 @@ head:
 
 ## 青云梯 测速图
 
-![青云梯 拓扑图 =750x](https://i.theojs.cn/airport/qyt_entrance.webp)
+![青云梯 拓扑图 =688x](https://i.theojs.cn/airport/qyt_entrance.webp)
 
-![青云梯 广东中山电信晚高峰测速图 =750x](https://i.theojs.cn/airport/qyt_telecom.webp)
+![青云梯 广东中山电信晚高峰测速图 =688x](https://i.theojs.cn/airport/qyt_telecom.webp)
 
-![青云梯 广东中山移动晚高峰测速图 =750x](https://i.theojs.cn/airport/qyt.webp)
+![青云梯 广东中山移动晚高峰测速图 =688x](https://i.theojs.cn/airport/qyt.webp)
 
-![青云梯 北京移动晚高峰测速图 =750x](https://i.theojs.cn/airport/qyt_mobile.webp)
+![青云梯 北京移动晚高峰测速图 =688x](https://i.theojs.cn/airport/qyt_mobile.webp)
 
-![青云梯 天津联通晚高峰测速图 =750x](https://i.theojs.cn/airport/qyt_unicom.webp)
+![青云梯 天津联通晚高峰测速图 =688x](https://i.theojs.cn/airport/qyt_unicom.webp)
 
-![青云梯 江苏电信晚高峰测速图 =750x](https://i.theojs.cn/airport/galaxy_jiangsu_telecom.webp)
+![青云梯 江苏电信晚高峰测速图 =688x](https://i.theojs.cn/airport/galaxy_jiangsu_telecom.webp)

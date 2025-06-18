@@ -1,6 +1,6 @@
 ---
-title: 飞兔云
-description: 飞兔云提供高速稳定的科学上网服务，解锁全球流媒体如奈飞 Netflix、YouTube、迪士尼、HBO Max等，支持多设备连接，适用于各类平台，价格亲民，提供流媒体加速和隐私保护。
+title: 飞兔云 - 高速稳定科学上网 畅享Netflix全球流媒体
+description: 飞兔云提供高速稳定的科学上网服务，支持多设备、多平台连接，解锁Netflix、YouTube、迪士尼、HBO Max等全球流媒体。价格亲民，保障隐私安全，专注流媒体加速，畅享无忧观影体验。
 ---
 
 # 飞兔云
@@ -70,4 +70,4 @@ description: 飞兔云提供高速稳定的科学上网服务，解锁全球流�
 
 ## 飞兔云测速图
 
-![飞兔云测速图 =750x](https://i.theojs.cn/airport/feitu.webp)
+![飞兔云测速图 =688x](https://i.theojs.cn/airport/feitu.webp)

@@ -1,6 +1,6 @@
 ---
 title: HBO Max 国内观看指南
-description: HBO Max 提供丰富的影视内容，包括热门剧集、电影、原创节目等。
+description: HBO Max 提供丰富多样的影视内容，包括热门剧集、电影和原创节目，满足各类观众的观影需求，体验极致娱乐。
 head:
   - - meta
     - property: og:image
@@ -9,7 +9,7 @@ head:
 
 # HBO Max 国内观看指南
 
-![HBO Max](https://i.theojs.cn/docs/202406111505373.webp 'HBO Max')
+![HBO Max =688x](https://i.theojs.cn/docs/202406111505373.webp 'HBO Max')
 
 `HBO Max` 是华纳和 AT&T 合作的新服务，此项服务主要用于点播流媒体。除了你可以在 `HBO Go` 上访问的内容之外，`HBO Max` 还拥有自己的原创作品以及来自其他提供商和工作室（如 CNN、Boomerang、Cartoon Network 或 Sony Pictures）的电影。
 

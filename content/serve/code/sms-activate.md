@@ -1,6 +1,6 @@
 ---
-title: SMS-Activate
-description: 国外接码平台 SMS-Activate 是一个俄罗斯的服务商，提供虚拟手机号码，可以接收短信验证码，可以用于注册海外服务
+title: SMS-Activate - 国外接码平台
+description: 国外接码平台 SMS-Activate 是一家俄罗斯服务商，提供虚拟手机号码，支持接收短信验证码，方便用户注册海外各类在线服务和应用，提升注册效率和隐私保护。
 head:
   - - meta
     - property: og:image
@@ -9,7 +9,7 @@ head:
 
 # 国外接码平台 SMS-Activate
 
-![SMS-Activate](https://i.theojs.cn/docs/sms_activate_og.webp '国外接码平台 SMS-Activate')
+![SMS-Activate =688x](https://i.theojs.cn/docs/sms_activate_og.webp '国外接码平台 SMS-Activate')
 
 ## 什么是 SMS-Activate <Pill name="SMS-Activate官网" link="https://itheo.top/sms" image="https://smsactivate.s3.eu-central-1.amazonaws.com/assets/img/activate_favicon32.svg" alt="SMS-Activate图标" />
 

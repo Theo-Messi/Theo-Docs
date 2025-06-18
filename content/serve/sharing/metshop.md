@@ -1,15 +1,15 @@
 ---
-title: 蜜糖商店
-description: 蜜糖商店是一个专注于提供各种流媒体账号的合租平台，包括 Netflix、YouTube、Spotify、Disney+ 等。
+title: 蜜糖商店MetShop - 一站式流媒体合租平台
+description: 国内一流的智能账号合租平台，支持Netflix、YouTube会员合租等，工信部ICP备案，安全可靠，快来体验便捷合租服务！
 head:
   - - meta
     - property: og:image
       content: https://i.theojs.cn/docs/meshop_og.webp
 ---
 
-# 蜜糖商店
+# 蜜糖商店MetShop - 一站式流媒体合租平台
 
-![蜜糖商店](https://i.theojs.cn/docs/meshop_og.webp '专注于提供各种流媒体账号的合租平台')
+![蜜糖商店 =688x](https://i.theojs.cn/docs/meshop_og.webp '专注于提供各种流媒体账号的合租平台')
 
 ## 蜜糖商店简介
 
