@@ -1,6 +1,6 @@
 ---
 title: Netflix 观看全指南
-description: 提供 Netflix 观看的完整指南，涵盖流媒体解锁、地区限制绕过、最佳观看设置等内容。
+description: 提供 Netflix 观看的完整指南，涵盖流媒体解锁、绕过地区限制、优化观看设置、提升画质与加载速度等，帮助用户畅享全球内容，获得更好的观影体验。
 head:
   - - meta
     - property: og:image
@@ -9,7 +9,7 @@ head:
 
 # Netflix 观看全指南
 
-![Netflix](https://i.theojs.cn/docs/202406111420455.webp 'Netflix')
+![Netflix =688x](https://i.theojs.cn/docs/202406111420455.webp 'Netflix')
 
 ## Netflix 是什么
 
@@ -30,13 +30,13 @@ Netflix 是一家美国的在线流媒体平台，成立于 1997 年，总部位
   :items="[
     {
       name: '购买 Netflix 账号',
-      desc: '官方/共享账号，支持多种支付方式',
+      desc: '官方/共享账号 支持多种支付方式',
       link: '/serve/sharing/account-sharing-guide',
       icon: { icon: 'simple-icons:netflix', color: '#E50914', alt: 'Netflix 官方或共享账号' }
     },
     {
       name: '解锁 Netflix 线路',
-      desc: '优质 VPN / 机场节点，畅看无障碍',
+      desc: '优质 VPN / 机场节点 畅看无障碍',
       link: '/serve/airport/qingyunti',
       icon: { icon: 'fluent:shield-keyhole-20-filled', alt: '用于解锁 Netflix 的 VPN 或机场线路', color: 'indigo' }
     }
@@ -250,7 +250,7 @@ Netflix 与国内的爱奇艺、优酷、腾讯视频等平台有着“天壤之
 
 - 你的播放设备支持 4K（Mac 笔记本最高支持 4K ，Win 笔记 Edge 浏览器支持 1080P ）
 
-- 网速要足够快，建议最低 25Mbps，推荐使用 <Pill name="fast.com" link="https://fast.com/" :icon="{ icon: 'arcticons:fast', color: '#E50914' }" alt="fast图标" /> 测速（奈飞自家的测速网站）
+- 网速要足够快，建议最低 25Mbps，推荐使用 <Pill name="fast.com" link="https://fast.com/" image="https://cdn.worldvectorlogo.com/logos/fast-6.svg" alt="fast图标" /> 测速（奈飞自家的测速网站）
 
 ### 用 Netflix 看视频每小时要消耗多少流量
 

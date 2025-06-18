@@ -9,7 +9,7 @@ head:
 
 # Linux nano 编辑器 简洁高效的终端文本编辑器
 
-![nano](https://i.theojs.cn/docs/nano.webp 'nano')
+![nano =688x](https://i.theojs.cn/docs/nano.webp 'nano')
 
 `nano` 是一款轻量级、易于使用的终端文本编辑器，适用于大多数 Linux 发行版。它比 `vi`/`vim` 更加直观，非常适合新手用户快速编辑文本文件，尤其常用于编辑配置文件和脚本。
 

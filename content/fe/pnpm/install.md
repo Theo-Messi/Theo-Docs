@@ -9,7 +9,7 @@ head:
 
 # pnpm 安装 快速管理 Node.js 包
 
-![pnpm](https://i.theojs.cn/docs/pnpm-install-922fbb8bb4d96b8f602a40e6cd07ee13.svg 'pnpm')
+![pnpm =688x](https://i.theojs.cn/docs/pnpm-install-922fbb8bb4d96b8f602a40e6cd07ee13.svg 'pnpm')
 
 ## 安装
 

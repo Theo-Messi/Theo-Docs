@@ -1,6 +1,6 @@
 ---
 title: FlyingBird - 飞鸟机场
-description: FlyingBird - 飞鸟机场提供高速稳定的科学上网服务，解锁全球流媒体如奈飞 Netflix、HBO Max、YouTube、Spotify等，支持多设备同时连接，使用全专线线路，确保高安全性和可靠性。
+description: FlyingBird 飞鸟机场提供高速稳定的科学上网服务，支持多设备同时连接，解锁Netflix、HBO Max、YouTube、Spotify等全球流媒体，采用专线线路，保障安全、稳定和流畅的连接体验。
 ---
 
 # FlyingBird - 飞鸟机场
@@ -56,4 +56,4 @@ description: FlyingBird - 飞鸟机场提供高速稳定的科学上网服务，
 
 ## FlyingBird 测速图
 
-![FlyingBird 测速图 =750x](https://i.theojs.cn/airport/flyingbird.webp)
+![FlyingBird 测速图 =688x](https://i.theojs.cn/airport/flyingbird.webp)

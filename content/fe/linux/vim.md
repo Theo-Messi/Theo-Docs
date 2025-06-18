@@ -17,7 +17,7 @@ Vim 是从 vi 发展出来的一个文本编辑器。代码补全、编译及错
 
 连 vim 的官方网站 (https://www.vim.org/) 自己也说 vim 是一个程序开发工具而不是文字处理软件。
 
-![vim](https://i.theojs.cn/docs/vi-vim-cheat-sheet-sch.gif 'vim 键盘图')
+![vim =688x](https://i.theojs.cn/docs/vi-vim-cheat-sheet-sch.gif 'vim 键盘图')
 
 ## vi/vim 的使用
 

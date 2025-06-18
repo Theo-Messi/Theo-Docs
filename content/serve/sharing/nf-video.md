@@ -1,15 +1,15 @@
 ---
-title: 银河录像局
-description: 国内可靠的智能奈飞合租平台，提供 Netflix、Spotify、YouTube、Disney+、HBO 等流媒体服务以及 ChatGPT Plus(OpenAI)、MidJourney 等 AI 服务
+title: 银河录像局 - 次世代合租平台
+description: 国内可靠的智能奈飞合租平台，提供Netflix、Spotify、YouTube、Disney+、HBO等流媒体账号合租服务，同时支持ChatGPT Plus（OpenAI）、MidJourney等AI服务，满足多样需求，安全稳定。
 head:
   - - meta
     - property: og:image
       content: https://i.theojs.cn/docs/nf_video_og.webp
 ---
 
-# 银河录像局
+# 银河录像局 - 次世代合租平台
 
-![银河录像局](https://i.theojs.cn/docs/nf_video_og.webp '国内可靠的智能奈飞合租平台')
+![银河录像局 =688x](https://i.theojs.cn/docs/nf_video_og.webp '国内可靠的智能奈飞合租平台')
 
 ## 银河录像局简介
 

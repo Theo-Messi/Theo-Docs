@@ -1,6 +1,6 @@
 ---
 title: TNT Cloud
-description: TNT Cloud 提供稳定高速的科学上网服务，解锁流媒体如奈飞 Netflix、HBO Max、Disney+等，支持多平台设备，适用于出国服务、流媒体加速及个人/企业定制服务。
+description: TNT Cloud 提供稳定高速的科学上网服务，支持多平台设备，解锁奈飞 Netflix、HBO Max、Disney+ 等主流流媒体，适用于出国服务、流媒体加速以及个人和企业定制化解决方案，保障连接安全稳定，畅享高速体验。
 ---
 
 # TNT Cloud
@@ -50,4 +50,4 @@ IPLC内网专线机场，原生 IP 节点，服务稳定可靠，是老牌机场
 
 ## TNT Cloud 测速图
 
-![TNT Cloud 测速图 =750x](https://i.theojs.cn/airport/tnt.webp)
+![TNT Cloud 测速图 =688x](https://i.theojs.cn/airport/tnt.webp)
