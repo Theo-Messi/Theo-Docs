@@ -25,10 +25,10 @@
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@commitlint/types": "^19.8.1",
-    "@mdit/plugin-figure": "^0.22.0",
-    "@mdit/plugin-footnote": "^0.22.0",
-    "@mdit/plugin-img-size": "^0.22.0",
-    "@mdit/plugin-tasklist": "^0.22.0",
+    "@mdit/plugin-figure": "^0.22.1",
+    "@mdit/plugin-footnote": "^0.22.2",
+    "@mdit/plugin-img-size": "^0.22.2",
+    "@mdit/plugin-tasklist": "^0.22.1",
     "@theojs/lumen": "5.8.0",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "commitizen": "^4.3.1",
@@ -47,7 +47,7 @@
     "vitepress-plugin-group-icons": "^1.6.0",
     "vitepress-plugin-image-viewer": "^1.1.6",
     "vitepress-plugin-llms": "^1.5.1",
-    "vue": "^3.5.16"
+    "vue": "^3.5.17"
   },
   "packageManager": "pnpm@10.12.1"
 }
