@@ -17,7 +17,7 @@ opkg install tcpdump
 ### 2. 安装 Wireshark 和 终端工具
 
 <Links
-  grid
+  :grid="2"
   :items="[
     {
       name: 'Wireshark',

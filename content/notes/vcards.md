@@ -38,7 +38,8 @@ head:
 
 ## 下载导入
 
-到 <Pill name="vCards" link="https://github.com/metowolf/vCards/releases" :image="{ light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg'}" alt="github图标" />下载最新的打包文件 `archive.zip`；
+到 <Pill name="vCards" link="https://github.com/metowolf/vCards/releases" :icon="{ icon: 'cib:github', color: { light: '#181717', dark: '#ffffff' }, alt: 'github图标' }" />
+下载最新的打包文件 `archive.zip`；
 解压后，根据不同平台的指南导入 `vcf` 文件至 iCloud 中，推荐单独创建「黄页」分组方便管理和隐藏。
 
 ### macOS

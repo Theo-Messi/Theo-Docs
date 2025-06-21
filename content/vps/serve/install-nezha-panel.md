@@ -24,7 +24,7 @@ description: 哪吒监控是一个开源、轻量、易用的服务器监控与�
 :::
 
 <Links
-  grid
+  :grid="2"
   :items="[
     {
       name: 'GitHub项目 - 哪吒监控',
