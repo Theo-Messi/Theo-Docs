@@ -12,9 +12,9 @@ description: 使用 PicGo 和 Github 搭建图床，实现图片上传、压缩�
     {
       name: '注册账号',
       link: 'https://github.com/',
-      image: {
-        light: 'https://i.theojs.cn/logo/github.svg',
-        dark: 'https://i.theojs.cn/logo/github-dark.svg',
+      icon: {
+        icon: 'cib:github',
+        color: { light: '#181717', dark: '#ffffff' },
         alt: 'github图标'
       }
     },

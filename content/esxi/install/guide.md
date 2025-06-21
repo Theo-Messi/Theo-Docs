@@ -20,7 +20,7 @@ description: ESXi 8.0 安装指南，安装 ESXi 8.0 的详细步骤
 可直接下载 ISO 镜像即可，如果你需要封装驱动，那就下载 `Offline Bundle离线捆绑包`
 
 <Links
-  grid
+  :grid="2"
   :items="[
     {
       name: 'ESXi 官网下载',
@@ -34,7 +34,7 @@ description: ESXi 8.0 安装指南，安装 ESXi 8.0 的详细步骤
 ### 写盘工具
 
 <Links
-  grid
+  :grid="2"
   :items="[
     {
       name: 'Ventoy',
@@ -60,7 +60,7 @@ description: ESXi 8.0 安装指南，安装 ESXi 8.0 的详细步骤
 下载需要填写邮箱，下载地址会发送到你的邮箱里。
 
 <Links
-  grid
+  :grid="2"
   :items="[
     {
       name: 'StarWind',

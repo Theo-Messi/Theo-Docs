@@ -14,11 +14,7 @@ description: 使用一键脚本在VPS上部署并刷甲骨文云（Oracle Cloud�
       name: 'R探长 Bot',
       desc: '在 GitHub 上查看 Oracle / Azure 云管理工具源码',
       link: 'https://github.com/semicons/java_oci_manage',
-      icon: {
-        light: 'skill-icons:github-dark',
-        dark: 'skill-icons:github-light',
-        alt: 'GitHub 图标'
-      }
+      icon: { icon: 'cib:github', color: { light: '#181717', dark: '#ffffff' }, alt: 'GitHub 图标' }
     },
     {
       name: 'R探长',
