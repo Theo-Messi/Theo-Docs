@@ -5,7 +5,7 @@ description: FlyingBird 飞鸟机场提供高速稳定的科学上网服务，�
 
 # FlyingBird - 飞鸟机场
 
-:::tip FlyingBird 520&618 活动继续启航！
+<!-- :::tip FlyingBird 520&618 活动继续启航！
 
 - 月/季/半年付 85折 , 优惠码：**`fb2561885`** 可重复使用5次
 - 年付8折（站内折上折，高达64折 ）优惠码：**`fb2561880`** 可重复使用5次
@@ -24,7 +24,7 @@ description: FlyingBird 飞鸟机场提供高速稳定的科学上网服务，�
       rel: 'sponsored'
     }
   ]"
-/>
+/> -->
 
 ## FlyingBird 简介 <Pill name="FlyingBird官网" link="https://itheo.top/flyingbird" image="https://i.theojs.cn/logo/flyingbird.webp" alt="FlyingBird logo" rel="sponsored"/>
 
