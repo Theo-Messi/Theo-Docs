@@ -1,20 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "dependencyDashboard": true,
   "extends": ["config:recommended"],
   "labels": ["dependencies"],
-  "npm": { "enabled": true },
   "packageRules": [
     {
-      "commitMessageAction": "bump",
-      "commitMessageExtra": "deps",
       "groupName": "deps",
       "matchPackageNames": ["/.*/"]
     }
   ],
   "rangeStrategy": "bump",
-  "semanticCommitScope": "deps",
-  "semanticCommitType": "build",
   "semanticCommits": "enabled",
   "timezone": "Asia/Shanghai"
 }
