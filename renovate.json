@@ -6,6 +6,10 @@
     {
       "groupName": "deps",
       "matchPackageNames": ["/.*/"]
+    },
+    {
+      "bumpVersion": "prerelease",
+      "matchPackageNames": ["vitepress"]
     }
   ],
   "rangeStrategy": "bump",
