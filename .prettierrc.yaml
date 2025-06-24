@@ -1,6 +1,5 @@
 plugins:
   - '@trivago/prettier-plugin-sort-imports'
-  - 'prettier-plugin-jsdoc'
   - 'prettier-plugin-packagejson'
   - 'prettier-plugin-sort-json'
   - 'prettier-plugin-vitepress'
