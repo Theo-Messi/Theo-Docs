@@ -42,7 +42,7 @@
     "prettier-plugin-vitepress": "^0.0.10",
     "simple-git-hooks": "^2.13.0",
     "viewerjs": "^1.11.7",
-    "vite": "^6.3.5",
+    "vite": "^7.0.0",
     "vitepress": "2.0.0-alpha.7",
     "vitepress-plugin-group-icons": "^1.6.0",
     "vitepress-plugin-image-viewer": "^1.1.6",
