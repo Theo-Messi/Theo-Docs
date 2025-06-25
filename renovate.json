@@ -1,18 +1,3 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
-  "labels": ["dependencies"],
-  "packageRules": [
-    {
-      "groupName": "deps",
-      "matchPackageNames": ["/.*/"]
-    },
-    {
-      "bumpVersion": "prerelease",
-      "matchPackageNames": ["vitepress"]
-    }
-  ],
-  "rangeStrategy": "bump",
-  "semanticCommits": "enabled",
-  "timezone": "Asia/Shanghai"
+  "extends": ["github>Theo-Messi/dotfiles"]
 }
