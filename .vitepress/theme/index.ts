@@ -17,7 +17,7 @@ import {
   HomeUnderline,
   umamiAnalytics
 } from '@theojs/lumen'
-import '@theojs/lumen/theme'
+import '@theojs/lumen/style'
 
 import { Aside_Data, Footer_Data } from '../data'
 
