@@ -5,7 +5,7 @@ description: Totoro Cloud 龙猫云提供高速稳定的科学上网和流媒体
 
 # Totoro Cloud - 龙猫云
 
-:::tip 龙猫云618购物节大促来了-低至48折起！
+<!-- :::tip 龙猫云618购物节大促来了-低至48折起！
 
 - 月付/季度/半年：享受**85**折优惠，优惠码：**`spring85`**
 
@@ -28,7 +28,7 @@ description: Totoro Cloud 龙猫云提供高速稳定的科学上网和流媒体
       image: { src: 'https://i.theojs.cn/logo/totoro.webp', alt: '龙猫云logo' }
     }
   ]"
-/>
+/> -->
 
 ## 龙猫云简介 <Pill name="龙猫云官网" link="https://itheo.top/totoro" image="https://i.theojs.cn/logo/totoro.webp" alt="龙猫云logo" rel="sponsored"/>
 

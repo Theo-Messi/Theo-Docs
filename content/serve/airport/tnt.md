@@ -5,7 +5,7 @@ description: TNT Cloud 提供稳定高速的科学上网服务，支持多平台
 
 # TNT Cloud
 
-:::tip TNT Cloud 618购物狂欢！！！最低三年48折
+<!-- :::tip TNT Cloud 618购物狂欢！！！最低三年48折
 
 - 全套餐推出8折优惠，优惠码：**`Crazy618`**
 - 商店套餐月付以上自带折扣，配合优惠码购买可以享受折上折，3年付更可享受**4.8**折优惠，心动不如行动
@@ -23,7 +23,7 @@ description: TNT Cloud 提供稳定高速的科学上网服务，支持多平台
       image: { src: 'https://i.theojs.cn/docs/TNT.webp', crop: true, alt: 'TNT Cloud logo' }
     }
   ]"
-/>
+/> -->
 
 ## TNT Cloud简介 <Pill name="TNT Cloud官网" link="https://itheo.top/tnt" image="https://i.theojs.cn/docs/TNT.webp" alt="TNT Cloud logo" rel="sponsored"/>
 

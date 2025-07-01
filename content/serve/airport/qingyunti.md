@@ -11,7 +11,7 @@ head:
 
 ![青云梯og =370x](https://i.theojs.cn/logo/qyt_logo.webp '青云梯')
 
-:::tip 青云梯 618大促活动开启!
+<!-- :::tip 青云梯 618大促活动开启!
 
 - 月/季/半年付 85折 , 优惠码：**`wuyi85`**
 - 年付8折（站内折上折，高达64折 ）优惠码：**`wuyi80`**
@@ -31,7 +31,7 @@ head:
       image: { src: 'https://i.theojs.cn/logo/qyt.webp', alt: '青云梯logo' }
     }
   ]"
-/>
+/> -->
 
 ## 青云梯 简介 <Pill name="青云梯官网" link="https://itheo.top/qyt" image="https://i.theojs.cn/logo/qyt.webp" alt="青云梯logo" rel="sponsored"/>
 
