@@ -11,7 +11,7 @@ head:
 
 ![Galaxy Cloud - 银河云OG =688x](https://i.theojs.cn/logo/galaxy.webp 'Galaxy Cloud - 银河云')
 
-:::tip 银河云 618大促活动开启!
+<!-- :::tip 银河云 618大促活动开启!
 
 - 月/季/半年付 85折 , 优惠码：**`wuyi85`**
 - 年付8折（站内折上折，高达64折 ）优惠码：**`wuyi80`**
@@ -31,7 +31,7 @@ head:
       image: { src: 'https://i.theojs.cn/logo/galaxy_transparent_square.webp', crop: true, alt: '银河云logo' }
     }
   ]"
-/>
+/> -->
 
 ## 银河云 简介 <Pill name="银河云官网" link="https://itheo.top/yhy" image="https://i.theojs.cn/logo/galaxy_transparent_square.webp" alt="银河云logo" rel="sponsored"/>
 
