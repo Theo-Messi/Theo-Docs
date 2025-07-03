@@ -173,8 +173,7 @@ tx：华硕天选青色皮肤
 <Pill
   name="fancyss 更新日志"
   link="https://github.com/hq450/fancyss/blob/3.0/Changelog.txt"
-  icon="mdi:github"
-  alt="github icon"
+  :icon="{ icon: 'cib:github', color: { light: '#181717', dark: '#ffffff' }, alt: 'GitHub 图标' }"
 />
 <br />
 <Pill
