@@ -27,7 +27,7 @@ const config: CzVinylConfig = {
   subjectMaxLength: 50,
   subjectMinLength: 5,
   bodyQuestion: '请输入详细描述（可选）:',
-  skipBody: true,
+  skipBody: false,
   skipBreakingChanges: true,
   issuesQuestion: '请输入要关闭的issue（可选，例如:#1）:',
   skipIssues: false,
