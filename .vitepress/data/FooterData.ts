@@ -27,6 +27,7 @@ export const Footer_Data: FooterData = {
         { name: '青云梯', link: 'https://itheo.top/qyt', rel: 'sponsored' },
         { name: 'Galaxy - 银河云', link: 'https://itheo.top/yhy', rel: 'sponsored' },
         { name: 'TNT Cloud', link: 'https://itheo.top/tnt', rel: 'sponsored' },
+        { name: '小蜜蜂', link: 'https://itheo.top/bee', rel: 'sponsored' },
         { name: '飞兔云', link: 'https://itheo.top/feitu', rel: 'sponsored' }
       ]
     },
