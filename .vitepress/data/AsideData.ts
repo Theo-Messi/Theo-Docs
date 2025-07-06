@@ -1,6 +1,14 @@
 import type { AsideItem } from '@theojs/lumen'
 
 export const Aside_Data: AsideItem = [
+  {
+    link: 'https://itheo.top/flyingbird',
+    rel: 'sponsored',
+    image: { src: 'https://i.theojs.cn/logo/bee_logo.webp', alt: '小蜜蜂 Logo' },
+    promo: '小蜜蜂 618购物狂欢',
+    info1: '全套餐推出8折优惠<span class="promo-text"> xmfxmf7 </span>',
+    info2: '3年付更可享受<span class="promo-text"> 4.8 </span>折'
+  },
   // {
   //   link: 'https://itheo.top/flyingbird',
   //   rel: 'sponsored',
