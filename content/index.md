@@ -25,7 +25,7 @@ hero:
     date: '7月31号23点59分'
     dateText: '活动截止至'
     link: https://itheo.top/bee
-    rel: sponsored
+    rel: sponsored noreferrer
 
   actions:
     - theme: brand
@@ -43,7 +43,7 @@ hero:
     - theme: brand
       text: ❤️ 成为赞助商
       link: https://i.theojs.cn/sponsor.webp
-      rel: 'sponsored'
+      rel: 'sponsored noreferrer'
 
     - theme: custom-alt
       text: 玄学宝典

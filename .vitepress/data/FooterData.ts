@@ -22,23 +22,23 @@ export const Footer_Data: FooterData = {
       title: '优质线路',
       icon: { icon: 'heroicons:globe-alt-solid', alt: '优质线路 icon' },
       links: [
-        { name: 'FlyingBird - 飞鸟机场', link: 'https://itheo.top/flyingbird', rel: 'sponsored' },
-        { name: 'Totoro - 龙猫云', link: 'https://itheo.top/totoro', rel: 'sponsored' },
-        { name: '青云梯', link: 'https://itheo.top/qyt', rel: 'sponsored' },
-        { name: 'Galaxy - 银河云', link: 'https://itheo.top/yhy', rel: 'sponsored' },
-        { name: 'TNT Cloud', link: 'https://itheo.top/tnt', rel: 'sponsored' },
-        { name: '小蜜蜂', link: 'https://itheo.top/bee', rel: 'sponsored' },
-        { name: '飞兔云', link: 'https://itheo.top/feitu', rel: 'sponsored' }
+        { name: 'FlyingBird - 飞鸟机场', link: 'https://itheo.top/flyingbird', rel: 'sponsored noreferrer' },
+        { name: 'Totoro - 龙猫云', link: 'https://itheo.top/totoro', rel: 'sponsored noreferrer' },
+        { name: '青云梯', link: 'https://itheo.top/qyt', rel: 'sponsored noreferrer' },
+        { name: 'Galaxy - 银河云', link: 'https://itheo.top/yhy', rel: 'sponsored noreferrer' },
+        { name: 'TNT Cloud', link: 'https://itheo.top/tnt', rel: 'sponsored noreferrer' },
+        { name: '小蜜蜂', link: 'https://itheo.top/bee', rel: 'sponsored noreferrer' },
+        { name: '飞兔云', link: 'https://itheo.top/feitu', rel: 'sponsored noreferrer' }
       ]
     },
     {
       title: '流媒体合租',
       icon: { icon: 'heroicons:tv-solid', alt: '流媒体合租 icon' },
       links: [
-        { name: '银河录像局', link: 'https://itheo.top/yh', rel: 'sponsored' },
-        { name: '奈飞小铺', link: 'https://itheo.top/ihezu', rel: 'sponsored' },
-        { name: '蜜糖商店', link: 'https://itheo.top/metshop', rel: 'sponsored' },
-        { name: 'SMS-Activate', link: 'https://itheo.top/sms', rel: 'sponsored' }
+        { name: '银河录像局', link: 'https://itheo.top/yh', rel: 'sponsored noreferrer' },
+        { name: '奈飞小铺', link: 'https://itheo.top/ihezu', rel: 'sponsored noreferrer' },
+        { name: '蜜糖商店', link: 'https://itheo.top/metshop', rel: 'sponsored noreferrer' },
+        { name: 'SMS-Activate', link: 'https://itheo.top/sms', rel: 'sponsored noreferrer' }
       ]
     },
     {
