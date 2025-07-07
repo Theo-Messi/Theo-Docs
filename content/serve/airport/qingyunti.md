@@ -27,13 +27,13 @@ head:
       name: '青云梯 618大促活动开启!',
       desc: '活动时间：即日起至2025年06月30日23点59分',
       link: 'https://itheo.top/qyt',
-      rel: 'sponsored',
+      rel: 'sponsored noreferrer',
       image: { src: 'https://i.theojs.cn/logo/qyt.webp', alt: '青云梯logo' }
     }
   ]"
 /> -->
 
-## 青云梯 简介 <Pill name="青云梯官网" link="https://itheo.top/qyt" image="https://i.theojs.cn/logo/qyt.webp" alt="青云梯logo" rel="sponsored"/>
+## 青云梯 简介 <Pill name="青云梯官网" link="https://itheo.top/qyt" image="https://i.theojs.cn/logo/qyt.webp" alt="青云梯logo" rel="sponsored noreferrer"/>
 
 青云梯采用IPLC纯专线内网传输线路，拥有最高2.5Gbps速率，确保您在网络使用过程中享受到稳定、高速的连接。覆盖的线路涵盖 **香港、台湾、日本、新加坡、美国、韩国、越南、菲律宾、泰国、印度、德国、法国、英国、阿根廷等地** ，所有专线高峰时段不卡顿，让您畅享流畅的网络环境。
 
@@ -54,13 +54,13 @@ head:
 年付**8**折/2年付**7**折/3年付**6**折 配合优惠码折上折，最高可达**48**折
 :::
 
-|   套餐类型   |   流量    | 月付 | 季付 | 年付  | 原生解锁 |                               套餐购买                                |                                                                                                                          支付方式                                                                                                                           |
-| :----------: | :-------: | :--: | :--: | :---: | :------: | :-------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **年付小包** |  **60G**  | N/A  | N/A  |  ¥96  |    ✅    | <Pill name="立即购买" link="https://itheo.top/qyt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-|   **VIP1**   | **150G**  | ¥25  | ¥67  | ¥240  |    ✅    | <Pill name="立即购买" link="https://itheo.top/qyt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-|   **VIP2**   | **300G**  | ¥45  | ¥121 | ¥432  |    ✅    | <Pill name="立即购买" link="https://itheo.top/qyt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-|   **VIP3**   | **600G**  | ¥85  | ¥229 | ¥816  |    ✅    | <Pill name="立即购买" link="https://itheo.top/qyt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-|   **VIP4**   | **1000G** | ¥150 | ¥400 | ¥1360 |    ✅    | <Pill name="立即购买" link="https://itheo.top/qyt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|   套餐类型   |   流量    | 月付 | 季付 | 年付  | 原生解锁 |                                     套餐购买                                     |                                                                                                                          支付方式                                                                                                                           |
+| :----------: | :-------: | :--: | :--: | :---: | :------: | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **年付小包** |  **60G**  | N/A  | N/A  |  ¥96  |    ✅    | <Pill name="立即购买" link="https://itheo.top/qyt" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|   **VIP1**   | **150G**  | ¥25  | ¥67  | ¥240  |    ✅    | <Pill name="立即购买" link="https://itheo.top/qyt" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|   **VIP2**   | **300G**  | ¥45  | ¥121 | ¥432  |    ✅    | <Pill name="立即购买" link="https://itheo.top/qyt" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|   **VIP3**   | **600G**  | ¥85  | ¥229 | ¥816  |    ✅    | <Pill name="立即购买" link="https://itheo.top/qyt" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|   **VIP4**   | **1000G** | ¥150 | ¥400 | ¥1360 |    ✅    | <Pill name="立即购买" link="https://itheo.top/qyt" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
 
 ## 青云梯 测速图
 

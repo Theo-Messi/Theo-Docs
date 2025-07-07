@@ -19,13 +19,13 @@ description: TNT Cloud 提供稳定高速的科学上网服务，支持多平台
       name: 'TNT Cloud 618购物狂欢！！！最低三年48折',
       desc: '活动即日起至2025年6月30号23时59分',
       link: 'https://itheo.top/tnt',
-      rel: 'sponsored',
+      rel: 'sponsored noreferrer',
       image: { src: 'https://i.theojs.cn/docs/TNT.webp', crop: true, alt: 'TNT Cloud logo' }
     }
   ]"
 /> -->
 
-## TNT Cloud简介 <Pill name="TNT Cloud官网" link="https://itheo.top/tnt" :image="{ src: 'https://i.theojs.cn/docs/TNT.webp', crop: true, alt: 'TNT Cloud logo' }" rel="sponsored" />
+## TNT Cloud简介 <Pill name="TNT Cloud官网" link="https://itheo.top/tnt" :image="{ src: 'https://i.theojs.cn/docs/TNT.webp', crop: true, alt: 'TNT Cloud logo' }" rel="sponsored noreferrer" />
 
 IPLC内网专线机场，原生 IP 节点，服务稳定可靠，是老牌机场的分站团队，也是海外团队，有专业的客服团队。全天在线维护客户，所有套餐不限速无倍率，所有套餐只有流量区别，有特色的季付限量包，低至10元每月，专门为用量小的用户设计（30元/季度，60G/月）
 
@@ -40,13 +40,13 @@ IPLC内网专线机场，原生 IP 节点，服务稳定可靠，是老牌机场
 季度以上自带折扣
 :::
 
-|  套餐类型  |  流量/月  | 月付 | 季付 | 半年付 | 年付  | 原生解锁 |                               套餐购买                                |                                                                                                                          支付方式                                                                                                                           |
-| :--------: | :-------: | :--: | :--: | :----: | :---: | :------: | :-------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **轻量包** |  **60G**  | N/A  | ¥30  |  ¥56   |  ¥98  |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-|  **VIP1**  | **110G**  | ¥20  | ¥54  |  ¥102  | ¥192  |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-|  **VIP2**  | **220G**  | ¥40  | ¥108 |  ¥204  | ¥336  |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-|  **VIP3**  | **460G**  | ¥80  | ¥216 |  ¥408  | ¥768  |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-|  **VIP4**  | **1100G** | ¥160 | ¥432 |  ¥816  | ¥1536 |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|  套餐类型  |  流量/月  | 月付 | 季付 | 半年付 | 年付  | 原生解锁 |                                     套餐购买                                     |                                                                                                                          支付方式                                                                                                                           |
+| :--------: | :-------: | :--: | :--: | :----: | :---: | :------: | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **轻量包** |  **60G**  | N/A  | ¥30  |  ¥56   |  ¥98  |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|  **VIP1**  | **110G**  | ¥20  | ¥54  |  ¥102  | ¥192  |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|  **VIP2**  | **220G**  | ¥40  | ¥108 |  ¥204  | ¥336  |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|  **VIP3**  | **460G**  | ¥80  | ¥216 |  ¥408  | ¥768  |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|  **VIP4**  | **1100G** | ¥160 | ¥432 |  ¥816  | ¥1536 |    ✅    | <Pill name="立即购买" link="https://itheo.top/tnt" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
 
 ## TNT Cloud 测速图
 

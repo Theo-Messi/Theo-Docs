@@ -19,13 +19,13 @@ description: 小蜜蜂 提供稳定高速的科学上网服务，支持多平台
       name: '小蜜蜂 618购物狂欢！！！最低三年48折',
       desc: '活动即日起至2025年7月31号23时59分',
       link: 'https://itheo.top/bee',
-      rel: 'sponsored',
+      rel: 'sponsored noreferrer',
       image: { src: 'https://i.theojs.cn/logo/bee_logo.webp', crop: true, alt: '小蜜蜂 logo' }
     }
   ]"
 />
 
-## 小蜜蜂简介 <Pill name="小蜜蜂官网" link="https://itheo.top/bee" :image="{ src: 'https://i.theojs.cn/logo/bee_logo.webp', crop: true, alt: '小蜜蜂 logo' }" rel="sponsored" />
+## 小蜜蜂简介 <Pill name="小蜜蜂官网" link="https://itheo.top/bee" :image="{ src: 'https://i.theojs.cn/logo/bee_logo.webp', crop: true, alt: '小蜜蜂 logo' }" rel="sponsored noreferrer" />
 
 全IEPL专线机场，原生IP节点，海外团队。有热门小众节点，还有特色年付小包低至8元每月，有不限时的流量包，全天客服在线
 
@@ -42,19 +42,19 @@ description: 小蜜蜂 提供稳定高速的科学上网服务，支持多平台
 
 ### 不限时套餐
 
-|         套餐类型         |   流量   |   价格   | 原生解锁 |                               套餐购买                                |                                                                                                                          支付方式                                                                                                                           |
-| :----------------------: | :------: | :------: | :------: | :-------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **不限时套餐(永久有效)** | **200G** | **¥125** |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|         套餐类型         |   流量   |   价格   | 原生解锁 |                                     套餐购买                                     |                                                                                                                          支付方式                                                                                                                           |
+| :----------------------: | :------: | :------: | :------: | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **不限时套餐(永久有效)** | **200G** | **¥125** |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
 
 ### 月/年付套餐
 
-|     套餐类型     |  流量/月  | 月付 | 季付 | 半年付 | 年付  | 原生解锁 |                               套餐购买                                |                                                                                                                          支付方式                                                                                                                           |
-| :--------------: | :-------: | :--: | :--: | :----: | :---: | :------: | :-------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **特惠年付小包** |  **60G**  | N/A  | N/A  |  N/A   |  ¥96  |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-| **小蜜蜂畅游版** | **120G**  | ¥20  | ¥54  |  ¥102  | ¥192  |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-|  **工蜂极速版**  | **240G**  | ¥40  | ¥108 |  ¥204  | ¥384  |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-|  **蜂王尊享版**  | **500G**  | ¥75  | ¥202 |  ¥382  | ¥720  |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
-|  **蜂群无界版**  | **1000G** | ¥140 | ¥378 |  ¥714  | ¥1344 |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|     套餐类型     |  流量/月  | 月付 | 季付 | 半年付 | 年付  | 原生解锁 |                                     套餐购买                                     |                                                                                                                          支付方式                                                                                                                           |
+| :--------------: | :-------: | :--: | :--: | :----: | :---: | :------: | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **特惠年付小包** |  **60G**  | N/A  | N/A  |  N/A   |  ¥96  |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+| **小蜜蜂畅游版** | **120G**  | ¥20  | ¥54  |  ¥102  | ¥192  |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|  **工蜂极速版**  | **240G**  | ¥40  | ¥108 |  ¥204  | ¥384  |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|  **蜂王尊享版**  | **500G**  | ¥75  | ¥202 |  ¥382  | ¥720  |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
+|  **蜂群无界版**  | **1000G** | ¥140 | ¥378 |  ¥714  | ¥1344 |    ✅    | <Pill name="立即购买" link="https://itheo.top/bee" rel="sponsored noreferrer" /> | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon><iconify-icon icon="ri:wechat-pay-fill" style="color: #07C160;font-size:24px"></iconify-icon><iconify-icon icon="cryptocurrency-color:usdt" width="24" ></iconify-icon> |
 
 ## 小蜜蜂 测速图
 

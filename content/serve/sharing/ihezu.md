@@ -21,12 +21,12 @@ head:
 
 ## 奈飞小铺定价 <Badge text="优惠码: theonf" />
 
-|    平台     | 3 个月 | 半年 | 年付 | 2年付 | 每月价格 |                                合租链接                                 |                      扫码直达                      |                                       支付方式                                       |
-| :---------: | :----: | :--: | :--: | :---: | :------: | :---------------------------------------------------------------------: | :------------------------------------------------: | :----------------------------------------------------------------------------------: |
-| **Netflix** |  ¥75   | ¥147 | ¥270 |  N/A  |  ¥22.5   | <Pill name="官网直达" link="https://itheo.top/ihezu" rel="sponsored" /> | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
-| **YouTube** |  N/A   | N/A  | ¥198 | ¥376  |  ¥15.3   | <Pill name="官网直达" link="https://itheo.top/ihezu" rel="sponsored" /> | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
-| **Spotify** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | <Pill name="官网直达" link="https://itheo.top/ihezu" rel="sponsored" /> | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
-| **Disney+** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | <Pill name="官网直达" link="https://itheo.top/ihezu" rel="sponsored" /> | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
+|    平台     | 3 个月 | 半年 | 年付 | 2年付 | 每月价格 |                                      合租链接                                      |                      扫码直达                      |                                       支付方式                                       |
+| :---------: | :----: | :--: | :--: | :---: | :------: | :--------------------------------------------------------------------------------: | :------------------------------------------------: | :----------------------------------------------------------------------------------: |
+| **Netflix** |  ¥75   | ¥147 | ¥270 |  N/A  |  ¥22.5   | <Pill name="官网直达" link="https://itheo.top/ihezu" rel="sponsored noreferrer" /> | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
+| **YouTube** |  N/A   | N/A  | ¥198 | ¥376  |  ¥15.3   | <Pill name="官网直达" link="https://itheo.top/ihezu" rel="sponsored noreferrer" /> | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
+| **Spotify** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | <Pill name="官网直达" link="https://itheo.top/ihezu" rel="sponsored noreferrer" /> | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
+| **Disney+** |  N/A   | N/A  | ¥118 | ¥199  |   ¥8.3   | <Pill name="官网直达" link="https://itheo.top/ihezu" rel="sponsored noreferrer" /> | ![ihezu =80x](https://i.theojs.cn/docs/ihezu.webp) | <iconify-icon icon="bi:alipay" style="color: #1677FF;font-size:24px"></iconify-icon> |
 
 ## 奈飞小铺特点
 
@@ -37,7 +37,7 @@ head:
 - 售后方便（密码被改后能一键重置最佳）
 - 不跑路
 
-综合而言 <Pill name="奈飞小铺" link="https://itheo.top/ihezu" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s" alt="奈飞小铺图标" rel="sponsored" /> 提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
+综合而言 <Pill name="奈飞小铺" link="https://itheo.top/ihezu" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s" alt="奈飞小铺图标" rel="sponsored noreferrer" /> 提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
 
 ## 奈飞小铺购买参考
 
