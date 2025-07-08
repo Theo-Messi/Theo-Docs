@@ -18,7 +18,7 @@ description: fancyss 是一款基于梅林固件的科学上网插件，支持�
 - 同时提供full版本和lite版本，hnd_lite版本安装后占用不到8MB的空间，适合小jffs机型
 - armv8机型支持tcp fast open和ss/ssr/trojan多核心运行
 
-## 支持机型/固件 <Pill name="最新固件下载地址" link="https://fw.koolcenter.com/" image="https://fw.koolcenter.com/theme/favicon.svg"  alt='koolcenter icon'/>
+## 支持机型/固件 <Pill name="最新固件下载地址" link="https://www.asusgo.com/firmware" image="https://www.asusgo.com/asusgo-favicon.ico"  alt='asusgo icon'/>
 
 > 以下为 fancyss 3.0 支持的机型/固件，点击机型可以前往相应固件下载地址
 
@@ -178,8 +178,8 @@ tx：华硕天选青色皮肤
 <br />
 <Pill
   name="官改/梅改固件下载【官方网站】（最新固件）"
-  link="https://www.koolcenter.com/"
-  image="https://fw.koolcenter.com/theme/favicon.svg"
+  link="https://www.asusgo.com/firmware"
+  image="https://www.asusgo.com/asusgo-favicon.ico"
   alt="koolcenter icon"
 />
 <br />
