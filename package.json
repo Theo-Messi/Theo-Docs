@@ -6,7 +6,9 @@
     "dev": "vitepress dev",
     "format": "prettier --experimental-cli --write .",
     "format:cheak": "prettier --experimental-cli --check .",
-    "preview": "vitepress preview"
+    "iall": "pnpm -r install",
+    "preview": "vitepress preview",
+    "upall": "pnpm -r update --latest"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
