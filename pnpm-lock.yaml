@@ -30,8 +30,8 @@ importers:
         specifier: ^0.22.1
         version: 0.22.1(markdown-it@14.1.0)
       '@theojs/lumen':
-        specifier: ^6.0.0
-        version: 6.0.0(vue@3.5.17(typescript@5.8.3))
+        specifier: ^6.1.0
+        version: 6.1.0(vue@3.5.17(typescript@5.8.3))
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^5.2.2
         version: 5.2.2(@vue/compiler-sfc@3.5.17)(prettier@3.6.2)
@@ -51,8 +51,8 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       prettier-plugin-packagejson:
-        specifier: ^2.5.17
-        version: 2.5.17(prettier@3.6.2)
+        specifier: ^2.5.18
+        version: 2.5.18(prettier@3.6.2)
       prettier-plugin-sort-json:
         specifier: ^4.1.1
         version: 4.1.1(prettier@3.6.2)
@@ -66,20 +66,20 @@ importers:
         specifier: ^1.11.7
         version: 1.11.7
       vite:
-        specifier: ^7.0.1
-        version: 7.0.1(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0)
+        specifier: ^7.0.3
+        version: 7.0.3(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0)
       vitepress:
-        specifier: 2.0.0-alpha.7
-        version: 2.0.0-alpha.7(@algolia/client-search@5.30.0)(@types/node@24.0.10)(fuse.js@7.0.0)(jiti@2.4.2)(postcss@8.5.6)(search-insights@2.17.3)(typescript@5.8.3)(yaml@2.8.0)
+        specifier: 2.0.0-alpha.8
+        version: 2.0.0-alpha.8(@algolia/client-search@5.30.0)(@types/node@24.0.10)(fuse.js@7.0.0)(jiti@2.4.2)(postcss@8.5.6)(search-insights@2.17.3)(typescript@5.8.3)(yaml@2.8.0)
       vitepress-plugin-group-icons:
         specifier: ^1.6.1
-        version: 1.6.1(markdown-it@14.1.0)(vite@7.0.1(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0))
+        version: 1.6.1(markdown-it@14.1.0)(vite@7.0.3(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0))
       vitepress-plugin-image-viewer:
         specifier: ^1.1.6
         version: 1.1.6
       vitepress-plugin-llms:
-        specifier: ^1.6.0
-        version: 1.6.0
+        specifier: ^1.7.0
+        version: 1.7.0
       vue:
         specifier: ^3.5.17
         version: 3.5.17(typescript@5.8.3)
@@ -446,8 +446,8 @@ packages:
   '@iconify-json/logos@1.2.4':
     resolution: {integrity: sha512-XC4If5D/hbaZvUkTV8iaZuGlQCyG6CNOlaAaJaGa13V5QMYwYjgtKk3vPP8wz3wtTVNVEVk3LRx1fOJz+YnSMw==}
 
-  '@iconify-json/simple-icons@1.2.41':
-    resolution: {integrity: sha512-4tt29cKzNsxvt6rjAOVhEgpZV0L8jleTDTMdtvIJjF14Afp9aH8peuwGYyX35l6idfFwuzbvjSVfVyVjJtfmYA==}
+  '@iconify-json/simple-icons@1.2.42':
+    resolution: {integrity: sha512-G/EED0hUV1wMNUsWaFdQYLibm6SO7rP2GZP1+CvhszB5WAFYYibD3zoWp3X96xSIWpYQFvccvE17ewpd0Q1hWQ==}
 
   '@iconify-json/vscode-icons@1.2.23':
     resolution: {integrity: sha512-gFTcKecKra2/b5SbGDgHGI/l8CuikHyBPmqGlK+YCmS8AK72dtDQbUekdoACsju/3TYS37QvdPoOQwnyx2LdYg==}
@@ -648,8 +648,8 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-  '@theojs/lumen@6.0.0':
-    resolution: {integrity: sha512-lZBxoL7jfgr/Q31teDV/NzOee5R4xrU3JjdGpfdE/+CyM6HDniItJd7uQ6qAJbcCID4mz3anmRPeXJBOp/QHBQ==}
+  '@theojs/lumen@6.1.0':
+    resolution: {integrity: sha512-a+GQbyKzCz3f2vPC11K0QTEfYuseUOmJ2cq0F2cEhZg2qsRHcP4t7Abc+gQKyQHV6mtnZIuUnzK5erl3qJgY0w==}
 
   '@trivago/prettier-plugin-sort-imports@5.2.2':
     resolution: {integrity: sha512-fYDQA9e6yTNmA13TLVSA+WMQRc5Bn/c0EUBditUHNfMMxN7M82c38b1kEggVE3pLpZ0FwkwJkUEKMiOi52JXFA==}
@@ -1998,8 +1998,8 @@ packages:
   preact@10.26.9:
     resolution: {integrity: sha512-SSjF9vcnF27mJK1XyFMNJzFd5u3pQiATFqoaDy03XuN00u4ziveVVEGt5RKJrDR8MHE/wJo9Nnad56RLzS2RMA==}
 
-  prettier-plugin-packagejson@2.5.17:
-    resolution: {integrity: sha512-1WYvhTix+4EMYZQYSjAxb6+KTCULINuHUTBcxYa2ipoUS9Y2zJVjE3kuZ5I7ZWIFqyK8xpwYIunXqN5eiT7Hew==}
+  prettier-plugin-packagejson@2.5.18:
+    resolution: {integrity: sha512-NKznPGcGrcj4NPGxnh+w78JXPyfB6I4RQSCM0v+CAXwpDG7OEpJQ5zMyfC5NBgKH1k7Skwcj5ak5by2mrHvC5g==}
     peerDependencies:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
@@ -2154,8 +2154,8 @@ packages:
   sort-object-keys@1.1.3:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
 
-  sort-package-json@3.3.1:
-    resolution: {integrity: sha512-awjhQR2Iy5UN3NuguAK5+RezcEuUg9Ra4O8y2Aj+DlJa7MywyHaipAPf9bu4qqFj0hsYHHoT9sS3aV7Ucu728g==}
+  sort-package-json@3.4.0:
+    resolution: {integrity: sha512-97oFRRMM2/Js4oEA9LJhjyMlde+2ewpZQf53pgue27UkbEXfHJnDzHlUxQ/DWUkzqmp7DFwJp8D+wi/TYeQhpA==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -2348,8 +2348,8 @@ packages:
   viewerjs@1.11.7:
     resolution: {integrity: sha512-0JuVqOmL5v1jmEAlG5EBDR3XquxY8DWFQbFMprOXgaBB0F7Q/X9xWdEaQc59D8xzwkdUgXEMSSknTpriq95igg==}
 
-  vite@7.0.1:
-    resolution: {integrity: sha512-BiKOQoW5HGR30E6JDeNsati6HnSPMVEKbkIWbCiol+xKeu3g5owrjy7kbk/QEMuzCV87dSUTvycYKmlcfGKq3Q==}
+  vite@7.0.3:
+    resolution: {integrity: sha512-y2L5oJZF7bj4c0jgGYgBNSdIu+5HF+m68rn2cQXFbGoShdhV1phX9rbnxy9YXj82aS8MMsCLAAFkRxZeWdldrQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -2397,15 +2397,15 @@ packages:
   vitepress-plugin-image-viewer@1.1.6:
     resolution: {integrity: sha512-ZfYy1s/bXju6vGVsE/5gPXT449+KaXZ6ZIPAvcmPM07VmC7Bv57bCvFar2II7C2EjexxfPQsxUh70vSBbe14kQ==}
 
-  vitepress-plugin-llms@1.6.0:
-    resolution: {integrity: sha512-5EjrMvtggY61fAnhC+rldzw1UqPxwdbtsh/w15Z/Gy7u/SOsPQgSdDzoQm1iFet6ofAzUB2TXA8wj5KZX9TKSA==}
+  vitepress-plugin-llms@1.7.0:
+    resolution: {integrity: sha512-J4va/lPTBcrlV5RXmuML8Lg1nzRR8cB1nJszqjITtayOrliR1jDbho31nkzJCdU/SmwdR7PFVQDRwwOTEDdoHA==}
 
-  vitepress@2.0.0-alpha.7:
-    resolution: {integrity: sha512-75xXvCWymnSgA7BFt1BmiXnusl4aeV4sM6DpIo9sf2OvkNER3cMLWN6xqZrLGu3SNaQccfS5u3ikCqAnA4p70w==}
+  vitepress@2.0.0-alpha.8:
+    resolution: {integrity: sha512-4LJZ7c/b68ch69gh6WaQgQGqkha/KxCFlSN7vCyIjxW7WbdI+pWe110+nnxXpvN43OH/3EoYNEPkV28z0WPSYA==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
-      oxc-minify: ^0.74.0
+      oxc-minify: ^0.75.1
       postcss: ^8
     peerDependenciesMeta:
       markdown-it-mathjax3:
@@ -2856,7 +2856,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/simple-icons@1.2.41':
+  '@iconify-json/simple-icons@1.2.42':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -3029,7 +3029,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@theojs/lumen@6.0.0(vue@3.5.17(typescript@5.8.3))':
+  '@theojs/lumen@6.1.0(vue@3.5.17(typescript@5.8.3))':
     dependencies:
       '@iconify/vue': 5.0.0(vue@3.5.17(typescript@5.8.3))
       '@waline/client': 3.5.7(typescript@5.8.3)
@@ -3100,10 +3100,10 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vitejs/plugin-vue@6.0.0(vite@7.0.1(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0))(vue@3.5.17(typescript@5.8.3))':
+  '@vitejs/plugin-vue@6.0.0(vite@7.0.3(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0))(vue@3.5.17(typescript@5.8.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.19
-      vite: 7.0.1(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0)
+      vite: 7.0.3(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0)
       vue: 3.5.17(typescript@5.8.3)
 
   '@vue/compiler-core@3.5.17':
@@ -4499,9 +4499,9 @@ snapshots:
 
   preact@10.26.9: {}
 
-  prettier-plugin-packagejson@2.5.17(prettier@3.6.2):
+  prettier-plugin-packagejson@2.5.18(prettier@3.6.2):
     dependencies:
-      sort-package-json: 3.3.1
+      sort-package-json: 3.4.0
       synckit: 0.11.8
     optionalDependencies:
       prettier: 3.6.2
@@ -4681,7 +4681,7 @@ snapshots:
 
   sort-object-keys@1.1.3: {}
 
-  sort-package-json@3.3.1:
+  sort-package-json@3.4.0:
     dependencies:
       detect-indent: 7.0.1
       detect-newline: 4.0.1
@@ -4867,7 +4867,7 @@ snapshots:
 
   viewerjs@1.11.7: {}
 
-  vite@7.0.1(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0):
+  vite@7.0.3(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.4.6(picomatch@4.0.2)
@@ -4881,13 +4881,13 @@ snapshots:
       jiti: 2.4.2
       yaml: 2.8.0
 
-  vitepress-plugin-group-icons@1.6.1(markdown-it@14.1.0)(vite@7.0.1(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0)):
+  vitepress-plugin-group-icons@1.6.1(markdown-it@14.1.0)(vite@7.0.3(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0)):
     dependencies:
       '@iconify-json/logos': 1.2.4
       '@iconify-json/vscode-icons': 1.2.23
       '@iconify/utils': 2.3.0
       markdown-it: 14.1.0
-      vite: 7.0.1(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0)
+      vite: 7.0.3(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4895,7 +4895,7 @@ snapshots:
     dependencies:
       viewerjs: 1.11.7
 
-  vitepress-plugin-llms@1.6.0:
+  vitepress-plugin-llms@1.7.0:
     dependencies:
       byte-size: 9.0.1
       gray-matter: 4.0.3
@@ -4914,15 +4914,15 @@ snapshots:
       - '@75lb/nature'
       - supports-color
 
-  vitepress@2.0.0-alpha.7(@algolia/client-search@5.30.0)(@types/node@24.0.10)(fuse.js@7.0.0)(jiti@2.4.2)(postcss@8.5.6)(search-insights@2.17.3)(typescript@5.8.3)(yaml@2.8.0):
+  vitepress@2.0.0-alpha.8(@algolia/client-search@5.30.0)(@types/node@24.0.10)(fuse.js@7.0.0)(jiti@2.4.2)(postcss@8.5.6)(search-insights@2.17.3)(typescript@5.8.3)(yaml@2.8.0):
     dependencies:
       '@docsearch/css': 3.9.0
       '@docsearch/js': 3.9.0(@algolia/client-search@5.30.0)(search-insights@2.17.3)
-      '@iconify-json/simple-icons': 1.2.41
+      '@iconify-json/simple-icons': 1.2.42
       '@shikijs/core': 3.7.0
       '@shikijs/transformers': 3.7.0
       '@shikijs/types': 3.7.0
-      '@vitejs/plugin-vue': 6.0.0(vite@7.0.1(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0))(vue@3.5.17(typescript@5.8.3))
+      '@vitejs/plugin-vue': 6.0.0(vite@7.0.3(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0))(vue@3.5.17(typescript@5.8.3))
       '@vue/devtools-api': 7.7.7
       '@vue/shared': 3.5.17
       '@vueuse/core': 13.5.0(vue@3.5.17(typescript@5.8.3))
@@ -4931,7 +4931,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 7.1.2
       shiki: 3.7.0
-      vite: 7.0.1(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0)
+      vite: 7.0.3(@types/node@24.0.10)(jiti@2.4.2)(yaml@2.8.0)
       vue: 3.5.17(typescript@5.8.3)
     optionalDependencies:
       postcss: 8.5.6
