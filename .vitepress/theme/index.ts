@@ -6,7 +6,7 @@ import DefaultTheme from 'vitepress/theme'
 
 import { h } from 'vue'
 
-import { Aside, BoxCube, Footer, Links, Notice, Pill, Underline, Vid, umamiAnalytics } from '@theojs/lumen'
+import { Aside, Footer, Links, Notice, Pill, Underline, umamiAnalytics } from '@theojs/lumen'
 import '@theojs/lumen/style'
 
 import { Aside_Data, Footer_Data } from '../data'
@@ -32,8 +32,6 @@ export default {
     app.component('Home', Underline)
     app.component('Pill', Pill)
     app.component('Links', Links)
-    app.component('BoxCube', BoxCube)
-    app.component('Vid', Vid)
   },
   setup() {
     const route = useRoute()

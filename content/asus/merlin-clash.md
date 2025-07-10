@@ -7,9 +7,9 @@ description: Merlin Clash 是一款运行在 KoolCenter 软件中心上的 Clash
 
 ## 简介
 
-Merlin Clash 是一款运行在 <Pill name="ASUSGO" link="https://www.asusgo.com/" image="https://www.asusgo.com/asusgo-favicon.ico" alt="asusgo icon" /> 软件中心(Arm 版)上的 Clash GUI 插件。
+Merlin Clash 是一款运行在 <Pill name="ASUSGO" link="https://www.asusgo.com/" :image="{ src: 'https://www.asusgo.com/asusgo-favicon.ico ', alt: 'asusgo icon' }" /> 软件中心(Arm 版)上的 Clash GUI 插件。
 
-获取插件需加入 **Telegram 群组** <Pill name="撸猫云魔法" link="https://t.me/merlinclashcat" icon="logos:telegram" alt="telegram logo" />
+获取插件需加入 **Telegram 群组** <Pill name="撸猫云魔法" link="https://t.me/merlinclashcat" icon="logos:telegram" />
 
 ## 插件下载
 

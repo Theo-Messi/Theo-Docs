@@ -54,17 +54,17 @@ hero:
       link: https://lumen.theojs.cn
 
 features:
-  - title: '<iconify-icon class="i-mr" icon="simple-icons:netflix" style="color:#E50914" alt="netflix"></iconify-icon>流媒体观影'
+  - title: '<iconify-icon class="i-mr" icon="simple-icons:netflix" style="color:#E50914"></iconify-icon>流媒体观影'
     details: Netflix 、Disney+ 、Spotify会员 和 YouTube各平台使用指南
     link: /streaming/netflix-guide
     linkText: 查看更多
 
-  - title: '<iconify-icon class="i-mr" icon="logos:youtube-icon" alt="youtube"></iconify-icon>合租平台'
+  - title: '<iconify-icon class="i-mr" icon="logos:youtube-icon"></iconify-icon>合租平台'
     details: 稳定好用的 Netflix 合租平台推荐
     link: /serve/sharing/account-sharing-guide
     linkText: 查看更多
 
-  - title: '<iconify-icon class="i-mr" icon="twemoji:airplane" alt="IPLC"></iconify-icon>优质线路'
+  - title: '<iconify-icon class="i-mr" icon="twemoji:airplane"></iconify-icon>优质线路'
     details: 全专线IPLC，不限速，不限设备数量，超稳晚高峰，流媒体全解锁！全节点解锁chatgpt！
     link: /serve/airport/flyingbird
     linkText: 查看更多

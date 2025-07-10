@@ -27,18 +27,16 @@ head:
   name="iOS"
   link="https://support.apple.com/zh-sg/guide/iphone/ipha0d932e96/ios"
   icon="lineicons:ios"
-  alt="ios图标"
 />：「设置」--「通讯录」--「账户」--「添加账户」-- 「其他」--「添加 CardDAV 账户」
 <Pill
   name="Mac"
   link="https://support.apple.com/zh-cn/guide/contacts/adrb7e5aaa2a/mac"
   icon="wpf:mac-os"
-  alt="mac os图标"
 />：「通讯录」--「设置」--「账户」--「其他通讯录账户」
 
 ## 下载导入
 
-到 <Pill name="vCards" link="https://github.com/metowolf/vCards/releases" :icon="{ icon: 'cib:github', color: { light: '#181717', dark: '#ffffff' }, alt: 'github图标' }" />
+到 <Pill name="vCards" link="https://github.com/metowolf/vCards/releases" :icon="{ icon: 'cib:github', color: { light: '#181717', dark: '#ffffff' } }" />
 下载最新的打包文件 `archive.zip`；
 解压后，根据不同平台的指南导入 `vcf` 文件至 iCloud 中，推荐单独创建「黄页」分组方便管理和隐藏。
 

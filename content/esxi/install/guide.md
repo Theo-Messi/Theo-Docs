@@ -46,7 +46,7 @@ description: ESXi 8.0 安装指南，安装 ESXi 8.0 的详细步骤
       name: 'Balenaetcher',
       desc: '跨平台的写盘工具，可以将 ISO 镜像文件写入 U 盘或 SD 卡，支持多种操作系统的安装',
       link: 'https://etcher.balena.io/',
-      icon: { icon: 'logos:balena', alt: 'Balenaetcher logo' }
+      icon: 'logos:balena'
     }
   ]"
 />

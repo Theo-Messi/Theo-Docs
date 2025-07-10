@@ -32,13 +32,13 @@ Netflix 是一家美国的在线流媒体平台，成立于 1997 年，总部位
       name: '购买 Netflix 账号',
       desc: '官方/共享账号 支持多种支付方式',
       link: '/serve/sharing/account-sharing-guide',
-      icon: { icon: 'simple-icons:netflix', color: '#E50914', alt: 'Netflix 官方或共享账号' }
+      icon: { icon: 'simple-icons:netflix', color: '#E50914' }
     },
     {
       name: '解锁 Netflix 线路',
       desc: '优质 VPN / 机场节点 畅看无障碍',
       link: '/serve/airport/qingyunti',
-      icon: { icon: 'fluent:shield-keyhole-20-filled', alt: '用于解锁 Netflix 的 VPN 或机场线路', color: 'indigo' }
+      icon: { icon: 'fluent:shield-keyhole-20-filled', color: 'indigo' }
     }
   ]"
 />
@@ -90,7 +90,7 @@ Chrome、Firefox 等浏览器默认最高支持到 720P，不过你可以通过�
       name: 'Google Play',
       desc: '通过官方渠道下载最新版 Netflix',
       link: 'https://play.google.com/store/search?q=netflix&c=apps&hl=zh',
-      icon: { icon: 'logos:google-play-icon', alt: 'Google Play 图标' }
+      icon: 'logos:google-play-icon'
     },
     {
       name: 'APKPure',
@@ -250,7 +250,7 @@ Netflix 与国内的爱奇艺、优酷、腾讯视频等平台有着“天壤之
 
 - 你的播放设备支持 4K（Mac 笔记本最高支持 4K ，Win 笔记 Edge 浏览器支持 1080P ）
 
-- 网速要足够快，建议最低 25Mbps，推荐使用 <Pill name="fast.com" link="https://fast.com/" image="https://cdn.worldvectorlogo.com/logos/fast-6.svg" alt="fast图标" /> 测速（奈飞自家的测速网站）
+- 网速要足够快，建议最低 25Mbps，推荐使用 <Pill name="fast.com" link="https://fast.com/" :image="{ src: 'https://cdn.worldvectorlogo.com/logos/fast-6.svg', alt: 'fast图标' }" /> 测速（奈飞自家的测速网站）
 
 ### 用 Netflix 看视频每小时要消耗多少流量
 

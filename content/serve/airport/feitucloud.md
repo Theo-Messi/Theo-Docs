@@ -26,7 +26,7 @@ description: 飞兔云提供高速稳定的科学上网服务，支持多设备�
   ]"
 /> -->
 
-## 飞兔云简介 <Pill name="飞兔云官网" link="https://itheo.top/feitu" image="https://i.theojs.cn/logo/feitu.webp" alt="飞兔云logo" rel="sponsored noreferrer" />
+## 飞兔云简介 <Pill name="飞兔云官网" link="https://itheo.top/feitu" :image="{ src: 'https://i.theojs.cn/logo/feitu.webp', alt: '飞兔云logo' }" rel="sponsored noreferrer" />
 
 - ✅ 年付特惠-98G/月
 - ✅ 全中转1倍率(15-30个设备链接)
