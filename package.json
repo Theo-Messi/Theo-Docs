@@ -29,7 +29,7 @@
     "@mdit/plugin-footnote": "^0.22.2",
     "@mdit/plugin-img-size": "^0.22.2",
     "@mdit/plugin-tasklist": "^0.22.1",
-    "@theojs/lumen": "^6.1.0",
+    "@theojs/lumen": "^6.1.1",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "commitizen": "^4.3.1",
     "cz-vinyl": "^2.5.4",
@@ -42,12 +42,12 @@
     "prettier-plugin-vitepress": "^0.0.10",
     "simple-git-hooks": "^2.13.0",
     "viewerjs": "^1.11.7",
-    "vite": "npm:rolldown-vite@^7.0.6",
+    "vite": "npm:rolldown-vite@^7.0.7",
     "vitepress": "2.0.0-alpha.8",
     "vitepress-plugin-group-icons": "^1.6.1",
     "vitepress-plugin-image-viewer": "^1.1.6",
     "vitepress-plugin-llms": "^1.7.0",
     "vue": "^3.5.17"
   },
-  "packageManager": "pnpm@10.12.4"
+  "packageManager": "pnpm@10.13.1"
 }
