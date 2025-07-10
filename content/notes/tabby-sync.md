@@ -13,7 +13,7 @@ description: 配置 Tabby 配置同步功能，通过第三方插件和 Gist 实
 
 ## 新建 Github token
 
-访问 **Github token** 页面 <Pill name="生成 Token" link="https://github.com/settings/tokens" icon="oui:token-key" alt="github token icon" />
+访问 **Github token** 页面 <Pill name="生成 Token" link="https://github.com/settings/tokens" icon="oui:token-key" />
 
 ![Tabby](https://i.theojs.cn/docs/202404281757509.webp '新建 Github token')
 

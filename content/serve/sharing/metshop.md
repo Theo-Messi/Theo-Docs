@@ -34,7 +34,7 @@ head:
 - 📊 实时更新合租管理面板
 - 🛡️ 工信部 ICP 备案，正规可靠
 
-综合而言 <Pill name="蜜糖商店" link="https://itheo.top/metshop" image="https://metshop.cn/img/simpLogo.1b5c58e1.png" alt="蜜糖商店图标" rel="sponsored noreferrer" /> 提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
+综合而言 <Pill name="蜜糖商店" link="https://itheo.top/metshop" rel="sponsored noreferrer" :image="{ src: 'https://metshop.cn/img/simpLogo.1b5c58e1.png', alt: '蜜糖商店图标' }" /> 提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
 
 ## 蜜糖商店购买参考
 

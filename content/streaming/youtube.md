@@ -77,7 +77,7 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
 为了开始加入 YouTube 家庭组会员，首先需要进行以下准备：
 
 1.  连接香港 🇭🇰 节点 IP：由于地区限制，需要使用香港节点 IP 进行连接。
-2.  打开网址：<Pill name="Play.Google.com" link="https://play.google.com/" icon="logos:google-play-icon" alt="谷歌商店图标" /> 确保打开的网址底部显示的地区为香港，以确保地区设置准确。
+2.  打开网址：<Pill name="Play.Google.com" link="https://play.google.com/" icon="logos:google-play-icon" /> 确保打开的网址底部显示的地区为香港，以确保地区设置准确。
 3.  关闭付款资料锁区：如果你的账号受到地区限制，需要在设置页面自行关闭付款资料锁区功能。
 
 ### 2\. 家庭组会员上车

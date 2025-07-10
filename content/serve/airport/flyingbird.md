@@ -26,7 +26,7 @@ description: FlyingBird 飞鸟机场提供高速稳定的科学上网服务，�
   ]"
 /> -->
 
-## FlyingBird 简介 <Pill name="FlyingBird官网" link="https://itheo.top/flyingbird" image="https://i.theojs.cn/logo/flyingbird.webp" alt="FlyingBird logo" rel="sponsored noreferrer"/>
+## FlyingBird 简介 <Pill name="FlyingBird官网" link="https://itheo.top/flyingbird" :image="{ src: 'https://i.theojs.cn/logo/flyingbird.webp', alt: 'FlyingBird logo' }" rel="sponsored noreferrer"/>
 
 飞鸟机场的前身是多个老牌机场的融合衍生，主打快速稳定，全专线 IPLC，没有倍率，不限网速，不限客户端并且可以多用户同时使用。有着老牌机场的稳定、也有着新晋机场的诚意，目前活动买多少给多少，价格区间比较多，用户的选择比较多。从我自己使用来看，值得推荐为 2022 年的稳定机场。
 
