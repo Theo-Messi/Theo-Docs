@@ -11,6 +11,8 @@ head:
 
 ![青云梯og =370x](https://i.theojs.cn/logo/qyt_logo.webp '青云梯')
 
+<!--@include: ./tip.md-->
+
 <!-- :::tip 青云梯 618大促活动开启!
 
 - 月/季/半年付 85折 , 优惠码：**`wuyi85`**

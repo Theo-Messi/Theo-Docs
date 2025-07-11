@@ -5,6 +5,8 @@ description: Totoro Cloud 龙猫云提供高速稳定的科学上网和流媒体
 
 # Totoro Cloud - 龙猫云
 
+<!--@include: ./tip.md-->
+
 <!-- :::tip 龙猫云618购物节大促来了-低至48折起！
 
 - 月付/季度/半年：享受**85**折优惠，优惠码：**`spring85`**
