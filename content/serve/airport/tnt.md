@@ -5,6 +5,8 @@ description: TNT Cloud 提供稳定高速的科学上网服务，支持多平台
 
 # TNT Cloud
 
+<!--@include: ./tip.md-->
+
 <!-- :::tip TNT Cloud 618购物狂欢！！！最低三年48折
 
 - 全套餐推出8折优惠，优惠码：**`Crazy618`**

@@ -11,6 +11,8 @@ head:
 
 ![Galaxy Cloud - 银河云OG =688x](https://i.theojs.cn/logo/galaxy.webp 'Galaxy Cloud - 银河云')
 
+<!--@include: ./tip.md-->
+
 <!-- :::tip 银河云 618大促活动开启!
 
 - 月/季/半年付 85折 , 优惠码：**`wuyi85`**

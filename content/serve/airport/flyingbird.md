@@ -5,6 +5,8 @@ description: FlyingBird 飞鸟机场提供高速稳定的科学上网服务，�
 
 # FlyingBird - 飞鸟机场
 
+<!--@include: ./tip.md-->
+
 <!-- :::tip FlyingBird 520&618 活动继续启航！
 
 - 月/季/半年付 85折 , 优惠码：**`fb2561885`** 可重复使用5次
