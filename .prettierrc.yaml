@@ -9,15 +9,18 @@ semi: false
 singleQuote: true
 trailingComma: 'none'
 
-importOrderSeparation: true
+importOrderSeparation: false
 importOrderSortSpecifiers: true
 importOrder:
+  - '<THIRD_PARTY_MODULES>'
   - '^vitepress$'
   - '^vitepress([-/].*)?$'
   - '^vue$'
   - '^vite$'
   - '^@[a-zA-Z0-9-]+/(.*)$'
   - '^@/(.*)$'
+  - '^./.*$'
+  - '^../.*$'
   - '^[./]'
   - '^(.*)$'
 
