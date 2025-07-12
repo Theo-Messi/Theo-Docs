@@ -16,6 +16,7 @@ import 'virtual:group-icons.css'
 
 export default {
   extends: DefaultTheme,
+
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'home-hero-info-before': () => h(Notice),
@@ -23,6 +24,7 @@ export default {
       'layout-bottom': () => h(Footer, { Footer_Data })
     })
   },
+
   enhanceApp: ({ app }) => {
     umamiAnalytics({
       id: import.meta.env.VITE_UMAMI_ID,
@@ -33,6 +35,7 @@ export default {
     app.component('Pill', Pill)
     app.component('Links', Links)
   },
+
   setup() {
     const route = useRoute()
     imageViewer(route)
