@@ -77,7 +77,7 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
 为了开始加入 YouTube 家庭组会员，首先需要进行以下准备：
 
 1.  连接香港 🇭🇰 节点 IP：由于地区限制，需要使用香港节点 IP 进行连接。
-2.  打开网址：<Pill name="Play.Google.com" link="https://play.google.com/" icon="logos:google-play-icon" /> 确保打开的网址底部显示的地区为香港，以确保地区设置准确。
+2.  打开<Pill icon="logos:google-play-icon" name="谷歌商店" link="https://play.google.com/" /> 确保打开的网址底部显示的地区为香港，以确保地区设置准确。
 3.  关闭付款资料锁区：如果你的账号受到地区限制，需要在设置页面自行关闭付款资料锁区功能。
 
 ### 2\. 家庭组会员上车
@@ -88,28 +88,25 @@ YouTube Premium 的家庭套餐允许最多 6 个人共享使用，其中包括 
   :grid="3"
   :items="[
     {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s',
       name: '奈飞小铺',
       desc: '购买 Netflix 家庭组会员，支持多种付款方式',
       link: 'https://itheo.top/ihezu',
-      rel: 'sponsored noreferrer',
-      image: {
-        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s',
-        alt: '奈飞小铺图标'
-      }
+      rel: 'sponsored noreferrer'
     },
     {
+      image: 'https://nf.video/favicon.ico',
       name: '银河录像局',
       desc: '加入家庭组会员，便捷高效获取账号',
       link: 'https://itheo.top/yh',
-      rel: 'sponsored noreferrer',
-      image: { src: 'https://nf.video/favicon.ico', alt: '银河录像局图标' }
+      rel: 'sponsored noreferrer'
     },
     {
+      image: 'https://metshop.cn/img/simpLogo.1b5c58e1.png',
       name: '蜜糖商店',
       desc: '安全购买 Netflix 家庭组账号，售后完善',
       link: 'https://itheo.top/metshop',
-      rel: 'sponsored noreferrer',
-      image: { src: 'https://metshop.cn/img/simpLogo.1b5c58e1.png', alt: '蜜糖商店图标' }
+      rel: 'sponsored noreferrer'
     }
   ]"
 />

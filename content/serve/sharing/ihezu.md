@@ -37,7 +37,7 @@ head:
 - 售后方便（密码被改后能一键重置最佳）
 - 不跑路
 
-综合而言 <Pill name="奈飞小铺" link="https://itheo.top/ihezu" rel="sponsored noreferrer" :image="{ src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s', alt: '奈飞小铺图标' }" /> 提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
+综合而言 <Pill name="奈飞小铺" link="https://itheo.top/ihezu" rel="sponsored noreferrer" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s" /> 提供的账号质量、发货速度、售后服务等方面体验都很不错。如果你恰好也需要一枚 Netflix 合租账号，那么这家很值得考虑。
 
 ## 奈飞小铺购买参考
 

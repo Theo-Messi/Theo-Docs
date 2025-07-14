@@ -11,28 +11,28 @@ description: 使用一键脚本在VPS上部署并刷甲骨文云（Oracle Cloud�
   :grid="3"
   :items="[
     {
+      icon: { icon: 'cib:github', color: { light: '#000', dark: '#fff' } },
       name: 'R探长 Bot',
       desc: '在 GitHub 上查看 Oracle / Azure 云管理工具源码',
-      link: 'https://github.com/semicons/java_oci_manage',
-      icon: { icon: 'cib:github', color: { light: '#181717', dark: '#ffffff' } }
+      link: 'https://github.com/semicons/java_oci_manage'
     },
     {
+      icon: 'logos:telegram',
       name: 'R探长',
       desc: 'Telegram 频道，分享 Oracle / Azure 云相关资源',
-      link: 'https://t.me/agentONE_R',
-      icon: 'logos:telegram'
+      link: 'https://t.me/agentONE_R'
     },
     {
+      icon: 'logos:telegram',
       name: 'R探长小助理',
       desc: 'Telegram 智能 Bot，支持自动开通与查询服务',
-      link: 'https://t.me/radiance_helper_bot',
-      icon: 'logos:telegram'
+      link: 'https://t.me/radiance_helper_bot'
     }
   ]"
 />
 
 - **VPS 系统：** VPS（可以科学上网）推荐系统 Ubuntu、Debian
-- **端口检查：** 确保 VPS 的 `9527` 端口开放！可以通过 <Pill name="端口扫描" link="https://tool.chinaz.com/port" :image="{ src: 'https://csstools.chinaz.com/favicon.ico', alt: '站长工具logo' }" /> 检测
+- **端口检查：** 确保 VPS 的 `9527` 端口开放！可以通过 <Pill image="https://csstools.chinaz.com/favicon.ico" name="端口扫描" link="https://tool.chinaz.com/port" /> 检测
 
 ## 获取 VPS INFO
 

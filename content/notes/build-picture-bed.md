@@ -11,20 +11,16 @@ description: 使用 PicGo 和 Github 搭建图床，实现图片上传、压缩�
   :grid="3"
   :items="[
     {
+      icon: { icon: 'cib:github', color: { light: '#000', dark: '#fff' } },
       name: '注册账号',
-      link: 'https://github.com/',
-      icon: { icon: 'cib:github', color: { light: '#181717', dark: '#ffffff' } }
+      link: 'https://github.com/'
     },
     {
+      image: 'https://molunerfinn.com/PicGo/imgs/256x256--icons.png',
       name: '下载 PicGo',
-      link: 'https://molunerfinn.com/PicGo/',
-      image: { src: 'https://molunerfinn.com/PicGo/imgs/256x256--icons.png', alt: 'PicGo图标' }
+      link: 'https://molunerfinn.com/PicGo/'
     },
-    {
-      name: '下载 PicList',
-      link: 'https://piclist.cn/',
-      image: { src: 'https://pichoro.msq.pub/favicon/app_icon.png', alt: 'PicList图标' }
-    }
+    { image: 'https://pichoro.msq.pub/favicon/app_icon.png', name: '下载 PicList', link: 'https://piclist.cn/' }
   ]"
 />
 
@@ -34,7 +30,7 @@ description: 使用 PicGo 和 Github 搭建图床，实现图片上传、压缩�
 
 ## 生成 Token
 
-- <Pill name="生成 Token" link="https://github.com/settings/tokens" icon="oui:token-key" />
+- <Pill icon="oui:token-key" name="生成 Token" link="https://github.com/settings/tokens" />
 - 点击左侧的 `Tokens（classic）`
 - 再点击 `Generate new token（classic）`
 
@@ -95,7 +91,7 @@ ImgBot 默认是无损压缩的，可以按需进行配置为有损压缩，对�
 }
 ```
 
-还有更多配置项，完整说明请见 <Pill name="官方文档" link="https://imgbot.net/docs/#configuration" :image="{ src: 'https://imgbot.net/images/128x128_circle.png', alt: 'imgbot图标' }" />。
+还有更多配置项，完整说明请见 <Pill image="https://imgbot.net/images/128x128_circle.png" name="官方文档" link="https://imgbot.net/docs/#configuration" />。
 
 ### Github Actions 自动合并 ImgBot 的 pr
 
