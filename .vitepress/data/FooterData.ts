@@ -1,16 +1,12 @@
 import type { FooterData } from '@theojs/lumen'
 
 export const Footer_Data: FooterData = {
-  beian: {
-    icp: { number: '鄂ICP备2024060426号' },
-    police: { number: '粤公网安备44200102445449号' },
-    showIcon: true
-  },
+  beian: { icp: { number: '鄂ICP备2024060426号' }, police: { number: '粤公网安备44200102445449号' }, showIcon: true },
   author: { name: 'Theo', link: 'https://github.com/Theo-Messi' },
   group: [
     {
-      title: 'GitHub Source',
       icon: 'mdi:github',
+      title: 'GitHub Source',
       links: [
         { name: 'Theo-Docs', link: 'https://github.com/Theo-Messi/Theo-Docs' },
         { name: '玄学宝典', link: 'https://github.com/Theo-Messi/xx.theojs.cn' },
@@ -19,8 +15,8 @@ export const Footer_Data: FooterData = {
       ]
     },
     {
-      title: '优质线路',
       icon: 'heroicons:globe-alt-solid',
+      title: '优质线路',
       links: [
         { name: 'FlyingBird - 飞鸟机场', link: 'https://itheo.top/flyingbird', rel: 'sponsored noreferrer' },
         { name: 'Totoro - 龙猫云', link: 'https://itheo.top/totoro', rel: 'sponsored noreferrer' },
@@ -32,8 +28,8 @@ export const Footer_Data: FooterData = {
       ]
     },
     {
-      title: '流媒体合租',
       icon: 'heroicons:tv-solid',
+      title: '流媒体合租',
       links: [
         { name: '银河录像局', link: 'https://itheo.top/yh', rel: 'sponsored noreferrer' },
         { name: '奈飞小铺', link: 'https://itheo.top/ihezu', rel: 'sponsored noreferrer' },
@@ -42,8 +38,8 @@ export const Footer_Data: FooterData = {
       ]
     },
     {
-      title: '相关链接',
       icon: 'heroicons:link-16-solid',
+      title: '相关链接',
       links: [
         { name: '玄学宝典', link: 'https://xx.theojs.cn/' },
         { name: 'VitePress', link: 'https://vitepress.dev/' },

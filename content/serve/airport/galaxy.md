@@ -26,16 +26,16 @@ head:
 <Links
   :items="[
     {
+      image: { src: 'https://i.theojs.cn/logo/galaxy_transparent_square.webp', crop: true },
       name: '银河云 618大促活动开启!',
       desc: '活动时间：即日起至2025年06月30日23点59分',
       link: 'https://itheo.top/yhy',
-      rel: 'sponsored noreferrer',
-      image: { src: 'https://i.theojs.cn/logo/galaxy_transparent_square.webp', crop: true, alt: '银河云logo' }
+      rel: 'sponsored noreferrer'
     }
   ]"
 /> -->
 
-## 银河云 简介 <Pill name="银河云官网" link="https://itheo.top/yhy" rel="sponsored noreferrer" :image="{ src: 'https://i.theojs.cn/logo/galaxy_transparent_square.webp', alt: '银河云logo' }" />
+## 银河云 简介 <Pill image="https://i.theojs.cn/logo/galaxy_transparent_square.webp" name="银河云官网" link="https://itheo.top/yhy" rel="sponsored noreferrer" />
 
 **Galaxy Cloud - 银河云** 采用IEPL trojan专线机场，成立与2024年6月，新加坡海外团队大机房产品，性价比专线，24h在线客服，专业且靠谱稳定，任何线路问题都是1h内修复处理，支持退款。
 

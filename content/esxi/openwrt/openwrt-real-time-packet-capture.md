@@ -20,16 +20,16 @@ opkg install tcpdump
   :grid="2"
   :items="[
     {
+      icon: { icon: 'simple-icons:wireshark', color: '#1679A7' },
       name: 'Wireshark',
       desc: '网络协议分析工具，可以实时捕获和分析网络数据包',
-      link: 'https://www.wireshark.org/download.html',
-      icon: { icon: 'simple-icons:wireshark', color: '#1679A7' }
+      link: 'https://www.wireshark.org/download.html'
     },
     {
+      image: 'https://i.theojs.cn/logo/tabby.svg',
       name: 'Tabby',
       desc: '跨平台的终端模拟器，支持 SSH、Telnet 等协议，适用于连接 Openwrt 进行抓包操作',
-      link: 'https://tabby.sh/',
-      image: { src: 'https://i.theojs.cn/logo/tabby.svg', alt: 'Tabby Terminal' }
+      link: 'https://tabby.sh/'
     }
   ]"
 />

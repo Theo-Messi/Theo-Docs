@@ -19,9 +19,7 @@ export const socialLinks: DefaultTheme.SocialLink[] = [
     ariaLabel: 'Telegram'
   },
   {
-    icon: {
-      svg: '<iconify-icon icon="twemoji:red-heart" style="font-size:1.2em" alt="Github Sponsors"></iconify-icon>'
-    },
+    icon: { svg: '<iconify-icon icon="twemoji:red-heart" width="20"></iconify-icon>' },
     link: 'https://i.theojs.cn/sponsor.webp',
     ariaLabel: 'Github Sponsors'
   }

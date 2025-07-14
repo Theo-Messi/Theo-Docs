@@ -49,9 +49,9 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 <Links
   :items="[
     {
+      icon: { icon: 'simple-icons:1panel', color: '#0854C1' },
       name: '1Panel GitHub release',
       desc: '现代化、开源的 Linux 服务器运维管理面板。',
-      icon: { icon: 'simple-icons:1panel', color: '#007BFF' },
       link: 'https://github.com/1Panel-dev/1Panel/releases'
     }
   ]"

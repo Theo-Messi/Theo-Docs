@@ -11,7 +11,7 @@ head:
 
 ![SMS-Activate =688x](https://i.theojs.cn/docs/sms_activate_og.webp '国外接码平台 SMS-Activate')
 
-## 什么是 SMS-Activate <Pill name="SMS-Activate官网" link="https://itheo.top/sms" rel="sponsored noreferrer" :image="{ src: 'https://smsactivate.s3.eu-central-1.amazonaws.com/assets/img/activate_favicon32.svg', alt: 'SMS-Activate图标' }" />
+## 什么是 SMS-Activate <Pill image="https://i.theojs.cn/logo/sms-activate_32.svg" name="SMS-Activate官网" link="https://itheo.top/sms" rel="sponsored noreferrer" />
 
 这是一个在这个星球上数以百万计的服务中注册帐户的网站。 我们提供世界上大多数国家的虚拟号码，以便您可以在线接收带有确认代码的短信。 在我们的服务中，还有虚拟号码的长期租赁，转发连接，电话验证等等。使用SMS-Activate的虚拟号码来在线接受短信。可以在600个多服务注册的一次性号码。短信即刻送到给你
 
@@ -20,7 +20,7 @@ head:
 SMS-Activate 是俄罗斯的一个付费接码平台，网站使用过程还算简便。初次上手对于小白用户来说，可能会遇到一些问题，下面给大家介绍 SMS-Activate 的接码过程。
 国外接码平台 SMS-Activate 注册帐号
 
-首先访问 <Pill name="SMS-Activate官网" link="https://itheo.top/sms" rel="sponsored noreferrer" :image="{ src: 'https://smsactivate.s3.eu-central-1.amazonaws.com/assets/img/activate_favicon32.svg', alt: 'SMS-Activate图标' }" />
+首先访问 <Pill image="https://i.theojs.cn/logo/sms-activate_32.svg" name="SMS-Activate官网" link="https://itheo.top/sms" rel="sponsored noreferrer" />
 
 在网站的右上角将语言切换成中文，然后点击注册。
 

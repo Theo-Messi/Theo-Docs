@@ -27,16 +27,16 @@ description: 哪吒监控是一个开源、轻量、易用的服务器监控与�
   :grid="2"
   :items="[
     {
+      image: 'https://nezha.wiki/logo.png',
       name: 'GitHub项目 - 哪吒监控',
       desc: '开源、轻量、易用的服务器监控与运维工具',
-      link: 'https://github.com/naiba/nezha',
-      image: { src: 'https://nezha.wiki/logo.png', alt: '哪吒监控logo' }
+      link: 'https://github.com/naiba/nezha'
     },
     {
+      image: 'https://nezha.wiki/logo.png',
       name: '官方WiKi - 哪吒监控',
       desc: '开源、轻量、易用的服务器监控与运维工具',
-      link: 'https://nezha.wiki/',
-      image: { src: 'https://nezha.wiki/logo.png', alt: '哪吒监控logo' }
+      link: 'https://nezha.wiki/'
     }
   ]"
 />

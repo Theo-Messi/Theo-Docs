@@ -26,16 +26,16 @@ head:
 <Links
   :items="[
     {
+      image: 'https://i.theojs.cn/logo/qyt.webp',
       name: '青云梯 618大促活动开启!',
       desc: '活动时间：即日起至2025年06月30日23点59分',
       link: 'https://itheo.top/qyt',
-      rel: 'sponsored noreferrer',
-      image: { src: 'https://i.theojs.cn/logo/qyt.webp', alt: '青云梯logo' }
+      rel: 'sponsored noreferrer'
     }
   ]"
 /> -->
 
-## 青云梯 简介 <Pill name="青云梯官网" link="https://itheo.top/qyt" rel="sponsored noreferrer" :image="{ src: 'https://i.theojs.cn/logo/qyt.webp', alt: '青云梯logo' }" />
+## 青云梯 简介 <Pill image="https://i.theojs.cn/logo/qyt.webp" name="青云梯官网" link="https://itheo.top/qyt" rel="sponsored noreferrer" />
 
 青云梯采用IPLC纯专线内网传输线路，拥有最高2.5Gbps速率，确保您在网络使用过程中享受到稳定、高速的连接。覆盖的线路涵盖 **香港、台湾、日本、新加坡、美国、韩国、越南、菲律宾、泰国、印度、德国、法国、英国、阿根廷等地** ，所有专线高峰时段不卡顿，让您畅享流畅的网络环境。
 

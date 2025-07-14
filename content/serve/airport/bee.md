@@ -18,16 +18,16 @@ description: 小蜜蜂 提供稳定高速的科学上网服务，支持多平台
 <Links
   :items="[
     {
+      image: 'https://i.theojs.cn/logo/bee_logo.webp',
       name: '小蜜蜂 618购物狂欢！！！最低三年48折',
       desc: '活动即日起至2025年7月31号23时59分',
       link: 'https://itheo.top/bee',
-      rel: 'sponsored noreferrer',
-      image: { src: 'https://i.theojs.cn/logo/bee_logo.webp', crop: true, alt: '小蜜蜂 logo' }
+      rel: 'sponsored noreferrer'
     }
   ]"
 />
 
-## 小蜜蜂简介 <Pill name="小蜜蜂官网" link="https://itheo.top/bee" :image="{ src: 'https://i.theojs.cn/logo/bee_logo.webp', crop: true, alt: '小蜜蜂 logo' }" rel="sponsored noreferrer" />
+## 小蜜蜂简介 <Pill image="https://i.theojs.cn/logo/bee_logo.webp" name="小蜜蜂官网" link="https://itheo.top/bee" rel="sponsored noreferrer" />
 
 全IEPL专线机场，原生IP节点，海外团队。有热门小众节点，还有特色年付小包低至8元每月，有不限时的流量包，全天客服在线
 
