@@ -11,28 +11,28 @@ description: 完整的 H3C NX30Pro 刷 OpenWRT 固件教程，包括 Uboot 刷�
   :grid="2"
   :items="[
     {
+      icon: { icon: 'simple-icons:openwrt', color: '#00B5E2' },
       name: '固件/UBOOT',
       desc: 'H3C NX30Pro OpenWRT 固件和 UBOOT 下载链接',
-      link: 'https://github.com/Theo-Messi/H3C-NX30Pro',
-      icon: { icon: 'simple-icons:openwrt', color: '#00B5E2' }
+      link: 'https://github.com/Theo-Messi/H3C-NX30Pro'
     },
     {
+      icon: { icon: 'simple-icons:termius', color: '#000' },
       name: 'termius',
       desc: '跨平台的 SSH 客户端，支持 Telnet 和 SSH 协议，适用于连接路由器进行刷机操作',
-      link: 'https://termius.com/download/',
-      icon: { icon: 'simple-icons:termius', color: '#000000' }
+      link: 'https://termius.com/download/'
     },
     {
+      image: 'https://i.theojs.cn/logo/winscp.webp',
       name: 'winscp',
       desc: 'Windows 下的 SCP/SFTP 客户端，用于文件传输和管理，适合刷机过程中备份和恢复系统',
-      link: 'https://winscp.net/eng/download.php',
-      image: { src: 'https://i.theojs.cn/logo/winscp.webp', alt: 'winscp' }
+      link: 'https://winscp.net/eng/download.php'
     },
     {
+      image: 'https://i.theojs.cn/logo/FinalShell.webp',
       name: 'FinalShell',
       desc: '跨平台的终端工具，支持 SSH、Telnet 等协议，适用于连接路由器进行刷机操作',
-      link: 'https://www.hostbuf.com/',
-      image: { src: 'https://i.theojs.cn/logo/FinalShell.webp', alt: 'FinalShell' }
+      link: 'https://www.hostbuf.com/'
     }
   ]"
 />

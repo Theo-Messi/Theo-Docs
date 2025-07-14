@@ -11,16 +11,16 @@ description: 本文介绍如何在 Debian 和 Ubuntu 系统上进行性能优化
   :grid="2"
   :items="[
     {
+      icon: 'logos:ubuntu',
       name: 'Ubuntu',
       desc: '下载官方桌面版 Ubuntu 系统',
-      link: 'https://cn.ubuntu.com/download/desktop',
-      icon: { light: 'skill-icons:ubuntu-light', dark: 'skill-icons:ubuntu-dark' }
+      link: 'https://cn.ubuntu.com/download/desktop'
     },
     {
+      icon: 'logos:debian',
       name: 'Debian',
       desc: '访问 Debian 官方网站了解和下载系统',
-      link: 'https://www.debian.org/',
-      icon: { light: 'skill-icons:debian-light', dark: 'skill-icons:debian-dark' }
+      link: 'https://www.debian.org/'
     }
   ]"
 />

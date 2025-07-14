@@ -18,7 +18,7 @@ description: fancyss 是一款基于梅林固件的科学上网插件，支持�
 - 同时提供full版本和lite版本，hnd_lite版本安装后占用不到8MB的空间，适合小jffs机型
 - armv8机型支持tcp fast open和ss/ssr/trojan多核心运行
 
-## 支持机型/固件 <Pill name="最新固件下载地址" link="https://www.asusgo.com/firmware" :image="{ src: 'https://www.asusgo.com/asusgo-favicon.ico', alt: 'asusgo icon' }" />
+## 支持机型/固件 <Pill image="https://www.asusgo.com/asusgo-favicon.ico" name="最新固件下载地址" link="https://www.asusgo.com/firmware" />
 
 > 以下为 fancyss 3.0 支持的机型/固件，点击机型可以前往相应固件下载地址
 
@@ -116,7 +116,7 @@ RT-AX86U、GT-AX6000等armv8机型（见上表），从3.0.6开始建议安装fa
 插件下载有两种方式：
 
 1. 在 `packages` 目录下，点击 tar.gz 后缀文件，下载当前最新版本的离线安装包
-2. 在 <Pill name="fancyss_history_package" link="https://github.com/hq450/fancyss_history_package" :icon="{ icon: 'cib:github', color: { light: '#181717', dark: '#ffffff' } }" /> 项目中，包含**历史版本**和**最新版本**的离线安装包
+2. 在 <Pill :icon="{ icon: 'cib:github', color: { light: '#000', dark: '#fff' } }" name="fancyss_history_package" link="https://github.com/hq450/fancyss_history_package" /> 项目中，包含**历史版本**和**最新版本**的离线安装包
 
 插件离线包下载导航：
 
@@ -171,21 +171,21 @@ tx：华硕天选青色皮肤
 ## 相关链接
 
 <Pill
+  :icon="{ icon: 'cib:github', color: { light: '#000', dark: '#fff' } }"
   name="fancyss 更新日志"
   link="https://github.com/hq450/fancyss/blob/3.0/Changelog.txt"
-  :icon="{ icon: 'cib:github', color: { light: '#181717', dark: '#ffffff' } }"
 />
 <br />
 <Pill
+  image="https://www.asusgo.com/asusgo-favicon.ico"
   name="官改/梅改固件下载【官方网站】（最新固件）"
   link="https://www.asusgo.com/firmware"
-  :image="{ src: 'https://www.asusgo.com/asusgo-favicon.ico', alt: 'asusgo icon' }"
 />
 <br />
 <Pill
+  image="https://fw.koolcenter.com/theme/favicon.svg"
   name="官改/梅改固件下载【固件镜像】（次新固件）"
   link="https://fw.koolcenter.com/"
-  :image="{ src: 'https://fw.koolcenter.com/theme/favicon.svg', alt: 'koolcenter icon' }"
 />
 
 ## 配置使用

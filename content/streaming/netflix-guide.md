@@ -29,16 +29,16 @@ Netflix 是一家美国的在线流媒体平台，成立于 1997 年，总部位
   :grid="3"
   :items="[
     {
+      icon: { icon: 'simple-icons:netflix', color: '#E50914' },
       name: '购买 Netflix 账号',
       desc: '官方/共享账号 支持多种支付方式',
-      link: '/serve/sharing/account-sharing-guide',
-      icon: { icon: 'simple-icons:netflix', color: '#E50914' }
+      link: '/serve/sharing/account-sharing-guide'
     },
     {
+      icon: { icon: 'fluent:shield-keyhole-20-filled', color: 'indigo' },
       name: '解锁 Netflix 线路',
       desc: '优质 VPN / 机场节点 畅看无障碍',
-      link: '/serve/airport/qingyunti',
-      icon: { icon: 'fluent:shield-keyhole-20-filled', color: 'indigo' }
+      link: '/serve/airport/qingyunti'
     }
   ]"
 />
@@ -87,19 +87,16 @@ Chrome、Firefox 等浏览器默认最高支持到 720P，不过你可以通过�
   :grid="2"
   :items="[
     {
+      icon: 'logos:google-play-icon',
       name: 'Google Play',
       desc: '通过官方渠道下载最新版 Netflix',
-      link: 'https://play.google.com/store/search?q=netflix&c=apps&hl=zh',
-      icon: 'logos:google-play-icon'
+      link: 'https://play.google.com/store/search?q=netflix&c=apps&hl=zh'
     },
     {
+      image: 'https://image.winudf.com/v2/upload/images/icon.png/image.webp?fakeurl=1&w=90&type=.webp',
       name: 'APKPure',
       desc: '适用于无法访问 Google Play 的用户',
-      link: 'https://apkpure.com/netflix/com.netflix.mediaclient',
-      image: {
-        src: 'https://image.winudf.com/v2/upload/images/icon.png/image.webp?fakeurl=1&w=90&type=.webp',
-        alt: 'APKPure 图标'
-      }
+      link: 'https://apkpure.com/netflix/com.netflix.mediaclient'
     }
   ]"
 />
@@ -250,7 +247,7 @@ Netflix 与国内的爱奇艺、优酷、腾讯视频等平台有着“天壤之
 
 - 你的播放设备支持 4K（Mac 笔记本最高支持 4K ，Win 笔记 Edge 浏览器支持 1080P ）
 
-- 网速要足够快，建议最低 25Mbps，推荐使用 <Pill name="fast.com" link="https://fast.com/" :image="{ src: 'https://cdn.worldvectorlogo.com/logos/fast-6.svg', alt: 'fast图标' }" /> 测速（奈飞自家的测速网站）
+- 网速要足够快，建议最低 25Mbps，推荐使用 <Pill image="https://i.theojs.cn/logo/fast.svg" name="fast.com" link="https://fast.com/" /> 测速（奈飞自家的测速网站）
 
 ### 用 Netflix 看视频每小时要消耗多少流量
 

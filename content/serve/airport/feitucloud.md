@@ -19,16 +19,16 @@ description: 飞兔云提供高速稳定的科学上网服务，支持多设备�
 <Links
   :items="[
     {
+      image: 'https://i.theojs.cn/logo/feitu.webp',
       name: '飞兔云 六一童趣 × 端午安康 双节同庆！',
       desc: '活动时间：即日起至2025年06月03日23点59分',
       link: 'https://itheo.top/feitu',
-      rel: 'sponsored noreferrer',
-      image: { src: 'https://i.theojs.cn/logo/feitu.webp', alt: '飞兔云logo' }
+      rel: 'sponsored noreferrer'
     }
   ]"
 /> -->
 
-## 飞兔云简介 <Pill name="飞兔云官网" link="https://itheo.top/feitu" :image="{ src: 'https://i.theojs.cn/logo/feitu.webp', alt: '飞兔云logo' }" rel="sponsored noreferrer" />
+## 飞兔云简介 <Pill image="https://i.theojs.cn/logo/feitu.webp" name="飞兔云官网" link="https://itheo.top/feitu" rel="sponsored noreferrer" />
 
 - ✅ 年付特惠-98G/月
 - ✅ 全中转1倍率(15-30个设备链接)
