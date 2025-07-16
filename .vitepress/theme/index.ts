@@ -1,16 +1,11 @@
 /// <reference types="vite/client" />
 import { useRoute } from 'vitepress'
-
 import imageViewer from 'vitepress-plugin-image-viewer'
 import DefaultTheme from 'vitepress/theme'
-
 import { h } from 'vue'
-
 import { Aside, Footer, Links, Notice, Pill, Underline, umamiAnalytics } from '@theojs/lumen'
 import '@theojs/lumen/style'
-
 import { Aside_Data, Footer_Data } from '../data'
-
 import 'viewerjs/dist/viewer.min.css'
 import 'virtual:group-icons.css'
 

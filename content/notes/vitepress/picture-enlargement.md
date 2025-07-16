@@ -16,13 +16,9 @@ pnpm i medium-zoom
 ```ts
 // .vitepress/theme/index.js
 import { useRoute } from 'vitepress'
-
 import DefaultTheme from 'vitepress/theme'
-
 import { nextTick, onMounted, watch } from 'vue'
-
 import './index.css'
-
 import mediumZoom from 'medium-zoom'
 
 export default {
@@ -93,11 +89,9 @@ yarn add vitepress-plugin-image-viewer
 
 ```ts
 import { useRoute } from 'vitepress'
-
 import imageViewer from 'vitepress-plugin-image-viewer'
 import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue'
 import DefaultTheme from 'vitepress/theme'
-
 import 'viewerjs/dist/viewer.min.css'
 
 export default {
