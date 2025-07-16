@@ -25,8 +25,8 @@ description: ESXi 8.0 安装指南，安装 ESXi 8.0 的详细步骤
     {
       image: 'https://i.theojs.cn/logo/ESXi.webp',
       name: 'ESXi 官网下载',
-      desc: 'VMWare ESXi 8.0 官方下载页面，提供 ISO 镜像和离线捆绑包',
-      link: 'https://www.broadcom.cn/'
+      desc: '下载前需注册 Broadcom 支持账号，并申请访问令牌以获取 ESXi 安装包',
+      link: 'https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20vSphere%20Hypervisor&freeDownloads=true'
     }
   ]"
 />

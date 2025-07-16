@@ -7,20 +7,27 @@ description: 使用 PicGo/PicList 和 Github 搭建图床，实现图片上传�
 
 ## 准备工作
 
-<links
+<Links
   :grid="3"
   :items="[
     {
       icon: { icon: 'cib:github', color: { light: '#000', dark: '#fff' } },
-      name: '注册账号',
+      name: '注册 GitHub 账号',
+      desc: '上传图片前需先拥有一个 GitHub 仓库',
       link: 'https://github.com/'
     },
     {
       image: 'https://molunerfinn.com/PicGo/imgs/256x256--icons.png',
-      name: '下载 PicGo',
+      name: 'PicGo',
+      desc: '用于快速上传图片并获取图片 URL 链接的工具',
       link: 'https://molunerfinn.com/PicGo/'
     },
-    { image: 'https://pichoro.msq.pub/favicon/app_icon.png', name: '下载 PicList', link: 'https://piclist.cn/' }
+    {
+      image: 'https://pichoro.msq.pub/favicon/app_icon.png',
+      name: 'PicList',
+      desc: '高效的云存储和图床平台管理工具，基于 PicGo 深度二次开发',
+      link: 'https://piclist.cn/'
+    }
   ]"
 />
 
