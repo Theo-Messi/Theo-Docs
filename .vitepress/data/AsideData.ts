@@ -93,12 +93,6 @@ export const Aside_Data: AsideItem = [
     rel: 'sponsored noreferrer'
   },
   {
-    icon: 'twemoji:red-heart',
-    name: '赞助我的项目',
-    link: 'https://i.theojs.cn/sponsor.webp',
-    rel: 'sponsored noreferrer'
-  },
-  {
     image: 'https://i.theojs.cn/logo/Lumen-Logo-128.webp',
     name: '@theojs/Lumen',
     hide1: '主题美化与 Vue 扩展组件库',

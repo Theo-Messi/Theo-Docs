@@ -74,7 +74,7 @@ p3terx/ariang
 
 ### 配置RPC
 
-访问 http://你的服务器ip:16880 访问AriaNg的web管理界面，点击`AriaNg 设置`菜单，再点击`全局`右边的标签
+访问 `http://你的服务器ip:16880` 访问AriaNg的web管理界面，点击`AriaNg 设置`菜单，再点击`全局`右边的标签
 
 ![aria2+AriaNg](https://i.theojs.cn/docs/202404290014327.webp)
 

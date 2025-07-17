@@ -40,11 +40,6 @@ hero:
       text: 机场推荐
       link: /serve/airport/flyingbird
 
-    - theme: brand
-      text: ❤️ 成为赞助商
-      link: https://i.theojs.cn/sponsor.webp
-      rel: 'sponsored noreferrer'
-
     - theme: custom-alt
       text: 玄学宝典
       link: https://xx.theojs.cn
