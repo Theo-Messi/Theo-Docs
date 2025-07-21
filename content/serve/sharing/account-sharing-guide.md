@@ -15,6 +15,33 @@ description: 奈飞小铺、银河录像局、蜜糖商店等优质账号合租�
 | [银河录像局](/serve/sharing/nf-video.md) |   <Pill icon="mdi:link-variant" name="官网直达" link="https://itheo.top/yh" rel="sponsored noreferrer" />    |  **`Theo`**  | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
 |  [蜜糖商店](/serve/sharing/metshop.md)   | <Pill icon="mdi:link-variant" name="官网直达" link="https://itheo.top/metshop" rel="sponsored noreferrer" /> | **`theomt`** |  ![MetShop =80x](https://i.theojs.cn/docs/MetShop.webp)  |
 
+<Links
+  :grid="3"
+  :items="[
+    {
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT5w-gXnmsI24DmoYkt-1EpkL_nY0O1p8p4Q&s',
+      name: '奈飞小铺',
+      desc: '支持多平台 自动发号 售后保障',
+      link: 'https://itheo.top/ihezu',
+      rel: 'sponsored noreferrer'
+    },
+    {
+      image: 'https://nf.video/favicon.ico',
+      name: '银河录像局',
+      desc: '资源稳定 支持AI工具 翻车必赔',
+      link: 'https://itheo.top/yh',
+      rel: 'sponsored noreferrer'
+    },
+    {
+      image: 'https://metshop.cn/img/simpLogo.1b5c58e1.png',
+      name: '蜜糖商店',
+      desc: '平台齐全 租期灵活 服务迅速',
+      link: 'https://itheo.top/metshop',
+      rel: 'sponsored noreferrer'
+    }
+  ]"
+/>
+
 <!-- #endregion price -->
 
 ## 省心之选：Netflix 账号合租
