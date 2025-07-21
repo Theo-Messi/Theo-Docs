@@ -38,13 +38,13 @@ head:
   :grid="3"
   :items="[
     {
-      icon: { icon: 'simple-icons:netflix', color: '#E50914' },
+      icon: { icon: 'cib:netflix', color: '#E50914' },
       name: '获取奈飞账号',
       desc: '拥有一个Netflix账号，是观影的前提。推荐合租账号，性价比高',
       link: '/serve/sharing/account-sharing-guide'
     },
     {
-      icon: { icon: 'fluent:shield-keyhole-20-filled', color: 'indigo' },
+      icon: 'twemoji:airplane',
       name: '选择优质奈飞机场',
       desc: ' 借助奈飞机场提供的专属线路，突破网络限制，稳定连接Netflix。',
       link: '/serve/airport/qingyunti'
@@ -120,15 +120,15 @@ head:
   :grid="2"
   :items="[
     {
-      icon: 'logos:netflix',
+      icon: { icon: 'cib:netflix', color: '#E50914' },
       name: 'Netflix UWP 应用 (推荐)',
-      desc: '官方应用，支持 4K 超高清画质，体验最佳。',
+      desc: '官方应用，支持 4K 超高清画质，播放流畅体验佳',
       link: 'https://apps.microsoft.com/detail/9wzdncrfj3tj?hl=zh-CN&gl=SG'
     },
     {
       icon: 'logos:microsoft-edge',
       name: 'Microsoft Edge 浏览器',
-      desc: '原生支持 4K 画质，无需安装额外应用，方便快捷，性能优化，观影流畅。',
+      desc: '原生支持 4K 画质，无需安装，观影流畅性能优',
       link: 'https://www.microsoft.com/zh-cn/edge/download?form=MA13FJ'
     }
   ]"

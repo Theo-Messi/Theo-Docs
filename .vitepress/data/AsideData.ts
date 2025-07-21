@@ -107,7 +107,7 @@ export const Aside_Data: AsideItem = [
     link: 'https://xx.theojs.cn/'
   },
   {
-    icon: { icon: 'cbi:netflix', color: '#E50914' },
+    icon: { icon: 'cib:netflix', color: '#E50914' },
     name: '流媒体帐号合租',
     hide1: '流媒体账号合租',
     hide2: '共享车位',

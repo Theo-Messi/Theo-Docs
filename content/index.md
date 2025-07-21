@@ -49,7 +49,7 @@ hero:
       link: https://lumen.theojs.cn
 
 features:
-  - title: '<iconify-icon class="i-mr" icon="simple-icons:netflix" style="color:#E50914"></iconify-icon>流媒体观影'
+  - title: '<iconify-icon class="i-mr" icon="cib:netflix" style="color:#E50914"></iconify-icon>流媒体观影'
     details: Netflix 、Disney+ 、Spotify会员 和 YouTube各平台使用指南
     link: /streaming/netflix-guide
     linkText: 查看更多
