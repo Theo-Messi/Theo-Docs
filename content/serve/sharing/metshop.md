@@ -15,7 +15,7 @@ head:
 
 蜜糖商店 也是一个非常受欢迎的流媒体合租平台，已经运营 5 年了，口碑一直不错。 蜜糖商店的优势在于 **支持全球各地区 Google 账号加入**，没有地域限制，而且 **智能验证系统** 可以自动处理账号问题，用起来更安心。
 
-## 蜜糖商店定价 <Badge text="优惠码: theomt" />
+## 蜜糖商店定价 <Copy type="tip" label="点击复制优惠码: theomt" text="theomt" bold />
 
 **支付方式** <pill :icon="{ icon: 'bi:alipay', color: '#1677ff' }" name="支付宝" />
 

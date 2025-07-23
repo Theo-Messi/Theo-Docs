@@ -9,7 +9,7 @@ description: 小蜜蜂 提供稳定高速的科学上网服务，支持多平台
 
 :::tip 小蜜蜂 618购物狂欢！！！最低三年48折
 
-- 全套餐推出8折优惠，优惠码：**`xmfxmf7`**
+- 全套餐推出8折优惠，<Copy type="tip" label="点击复制优惠码: xmfxmf7" text="xmfxmf7" bold />
 - 商店套餐月付以上自带折扣，配合优惠码购买可以享受折上折，3年付更可享受**4.8**折优惠，心动不如行动
 - 季付限量包不参与活动
 
@@ -27,7 +27,7 @@ description: 小蜜蜂 提供稳定高速的科学上网服务，支持多平台
   ]"
 />
 
-## 小蜜蜂简介 <Pill image="https://i.theojs.cn/logo/bee_logo.webp" name="小蜜蜂官网" link="https://itheo.top/bee" rel="sponsored noreferrer" />
+## 小蜜蜂简介 <Pill image="https://i.theojs.cn/logo/bee_logo.webp" name="小蜜蜂官网" link="https://itheo.top/bee" rel="sponsored noreferrer" /><Copy type="tip" label="点击复制优惠码: xmfxmf7" text="xmfxmf7" bold />
 
 全IEPL专线机场，原生IP节点，海外团队。有热门小众节点，还有特色年付小包低至8元每月，有不限时的流量包，全天客服在线
 

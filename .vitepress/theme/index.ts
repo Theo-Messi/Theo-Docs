@@ -3,7 +3,7 @@ import { useRoute } from 'vitepress'
 import imageViewer from 'vitepress-plugin-image-viewer'
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
-import { Aside, Footer, Links, Notice, Pill, Underline, umamiAnalytics } from '@theojs/lumen'
+import { Aside, CopyText, Footer, Links, Notice, Pill, Underline, umamiAnalytics } from '@theojs/lumen'
 import '@theojs/lumen/style'
 import { Aside_Data, Footer_Data } from '../data'
 import 'viewerjs/dist/viewer.min.css'
@@ -29,10 +29,13 @@ export default {
     app.component('Home', Underline)
     app.component('Pill', Pill)
     app.component('Links', Links)
+    app.component('Copy', CopyText)
   },
 
   setup() {
     const route = useRoute()
-    imageViewer(route)
+    imageViewer(route, '.vp-doc', {
+      filter: (img: HTMLImageElement) => !img.hasAttribute('data-no-viewer')
+    })
   }
 }

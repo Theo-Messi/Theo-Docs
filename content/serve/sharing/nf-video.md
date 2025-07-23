@@ -19,7 +19,7 @@ head:
 
 <pill :icon="{ icon: 'bi:alipay', color: '#1677ff' }" name="支付宝" /><pill icon="logos:paypal" name="PayPal" />
 
-## ChatGPT Plus <Badge text="优惠码: Theo" />
+## ChatGPT Plus <Copy type="tip" label="点击复制优惠码: Theo" text="Theo" bold />
 
 如需购买**现成 ChatGPT 账号**及账号充值、**ChatGPT Plus**，可在 <Pill image="https://nf.video/favicon.ico" name="银河录像局" link="https://itheo.top/yh" rel="sponsored noreferrer" /> 进行购买；
 
@@ -37,7 +37,7 @@ head:
 **注意:拍前确认网络可登录。**
 :::
 
-## Midjourney <Badge text="优惠码: Theo" />
+## Midjourney <Copy type="tip" label="点击复制优惠码: Theo" text="Theo" bold />
 
 |      产品      |  价格   |                                                   合租链接                                                    |                         扫码直达                         |
 | :------------: | :-----: | :-----------------------------------------------------------------------------------------------------------: | :------------------------------------------------------: |
@@ -49,7 +49,7 @@ head:
 也可以使用开源绘画 AI Stable Diffusion，效果一级棒
 :::
 
-## Photoshop AI <Badge text="优惠码: Theo" />
+## Photoshop AI <Copy type="tip" label="点击复制优惠码: Theo" text="Theo" bold />
 
 **在 Adob​​e Photoshop 中发挥 AI 的力量。**
 
@@ -76,7 +76,7 @@ head:
 - **神经过滤器：** 利用机器学习支持的过滤器库，将较大的工作流程减少到只需点击几下。
   :::
 
-## Netflix/Disney+/HBO/Spotify/Youtube Premium（流媒体服务） <Badge text="优惠码: Theo" />
+## Netflix/Disney+/HBO/Spotify/Youtube Premium（流媒体服务） <Copy type="tip" label="点击复制优惠码: Theo" text="Theo" bold />
 
 |        产品         | 价格/年 | 折后/年 | 折合/月 |                                                   合租链接                                                    |                         扫码直达                         |
 | :-----------------: | :-----: | :-----: | :-----: | :-----------------------------------------------------------------------------------------------------------: | :------------------------------------------------------: |
@@ -91,7 +91,7 @@ head:
 无论是从内容还是套餐定价，优爱腾都是无法与其比拟的；以及真正意义上的无广告，常年佳片不断；
 :::
 
-## 美区 Apple ID <Badge text="优惠码: Theo" />
+## 美区 Apple ID <Copy type="tip" label="点击复制优惠码: Theo" text="Theo" bold />
 
 |       产品       | 价格 |                                                   合租链接                                                    |                         扫码直达                         |
 | :--------------: | :--: | :-----------------------------------------------------------------------------------------------------------: | :------------------------------------------------------: |

@@ -40,11 +40,11 @@ hero:
       text: 机场推荐
       link: /serve/airport/flyingbird
 
-    - theme: custom-alt
+    - theme: alt author
       text: 玄学宝典
       link: https://xx.theojs.cn
 
-    - theme: custom-alt-lumen
+    - theme: alt logo
       text: Lumen
       link: https://lumen.theojs.cn
 
