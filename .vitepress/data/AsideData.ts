@@ -48,14 +48,6 @@ export const Aside_Data: AsideItem = [
   //   link: 'https://itheo.top/tnt',
   //   rel: 'sponsored noreferrer'
   // },
-  // {
-  //   image: 'https://i.theojs.cn/logo/feitu.webp',
-  //   promo: '飞兔云 六一&端午 特惠',
-  //   info1: '月/半年/年付 <span class="promo-text">85</span> 折 ',
-  //   info2: '优惠券 <span class="promo-text"> 61@85 </span>',
-  //   link: 'https://itheo.top/feitu',
-  //   rel: 'sponsored noreferrer'
-  // },
   {
     image: 'https://i.theojs.cn/logo/flyingbird.webp',
     promo: 'FlyingBird',
@@ -84,12 +76,6 @@ export const Aside_Data: AsideItem = [
     image: { src: 'https://i.theojs.cn/docs/TNT.webp', crop: true },
     promo: 'TNT Cloud',
     link: 'https://itheo.top/tnt',
-    rel: 'sponsored noreferrer'
-  },
-  {
-    image: 'https://i.theojs.cn/logo/feitu.webp',
-    promo: '飞兔云',
-    link: 'https://itheo.top/feitu',
     rel: 'sponsored noreferrer'
   },
   {

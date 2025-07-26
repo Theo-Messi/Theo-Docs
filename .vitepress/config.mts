@@ -12,7 +12,7 @@ export default defineConfig({
 
   // 站点介绍
   description:
-    '全方位流媒体观影指南，涵盖 Netflix、Disney+、HBO Max、Spotify、YouTube Premium、奈飞、青云梯、Galaxy Cloud - 银河云、FlyingBird - 飞鸟机场、飞兔云、TNT Cloud、Totoro Cloud - 龙猫云、奈飞小铺、银河录像局、蜜糖商店等，畅享全球精彩内容与解锁服务',
+    '全方位流媒体观影指南，涵盖 Netflix、Disney+、HBO Max、Spotify、YouTube Premium、奈飞、青云梯、Galaxy Cloud - 银河云、FlyingBird - 飞鸟机场、TNT Cloud、Totoro Cloud - 龙猫云、奈飞小铺、银河录像局、蜜糖商店等，畅享全球精彩内容与解锁服务',
   // 网站头部
   head,
 
