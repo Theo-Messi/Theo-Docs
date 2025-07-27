@@ -65,20 +65,20 @@ head:
 | **不限时套餐(永久有效)** | **1000G** | **¥680** |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yhy" rel="sponsored noreferrer" /> |
 
 ::: tip
-年付**8**折/2年付**7**折/3年付**6**折 配合优惠码折上折，最高可达**48**折
+季付**9**折/半年付**85**折/年付**8**折/2年付**7**折/3年付**6**折 配合优惠码折上折，最高可达**48**折
 
 使用 **微信/USDT** 支付请进入官网点击右下角联系客服处理
 :::
 
 ### 月/年付套餐
 
-|   套餐类型   |   流量   | 月付 | 季付 | 年付  | 原生解锁 |                                                    套餐购买                                                    |
-| :----------: | :------: | :--: | :--: | :---: | :------: | :------------------------------------------------------------------------------------------------------------: |
-| **年付小包** | **50G**  | N/A  | N/A  |  ¥98  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yhy" rel="sponsored noreferrer" /> |
-| **星尘套餐** | **100G** | ¥18  | ¥49  | ¥173  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yhy" rel="sponsored noreferrer" /> |
-| **行星套餐** | **200G** | ¥35  | ¥95  | ¥336  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yhy" rel="sponsored noreferrer" /> |
-| **恒星套餐** | **400G** | ¥70  | ¥189 | ¥672  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yhy" rel="sponsored noreferrer" /> |
-| **星系套餐** | **800G** | ¥140 | ¥378 | ¥1344 |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yhy" rel="sponsored noreferrer" /> |
+|   套餐类型   |   流量   | 月付 | 季付 | 半年付 | 年付  | 原生解锁 | 套餐购买                                                                                                       |
+| :----------: | :------: | :--: | :--: | :----: | :---: | :------: | -------------------------------------------------------------------------------------------------------------- |
+| **年付小包** | **50G**  | N/A  | N/A  |  N/A   |  ¥98  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yhy" rel="sponsored noreferrer" /> |
+| **星尘套餐** | **100G** | ¥18  | ¥49  |  ¥92   | ¥173  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yhy" rel="sponsored noreferrer" /> |
+| **行星套餐** | **200G** | ¥35  | ¥95  |  ¥179  | ¥336  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yhy" rel="sponsored noreferrer" /> |
+| **恒星套餐** | **400G** | ¥70  | ¥189 |  ¥357  | ¥672  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yhy" rel="sponsored noreferrer" /> |
+| **星系套餐** | **800G** | ¥140 | ¥378 |  ¥714  | ¥1344 |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yhy" rel="sponsored noreferrer" /> |
 
 ## 银河云 测速图
 

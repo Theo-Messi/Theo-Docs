@@ -41,7 +41,7 @@ IPLC内网专线机场，原生 IP 节点，服务稳定可靠，是老牌机场
 **支付方式** <pill :icon="{ icon: 'bi:alipay', color: '#1677ff' }" name="支付宝" /><pill :icon="{ icon: 'ri:wechat-pay-fill', color: '#07C160' }" name="微信支付" /><pill icon="cryptocurrency-color:usdt" name="USDT" />
 
 :::tip
-季度以上自带折扣
+季付以上自带折扣
 :::
 
 |  套餐类型  |   流量    | 月付 | 季付 | 半年付 | 年付  | 原生解锁 |                                                    套餐购买                                                    |

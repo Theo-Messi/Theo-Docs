@@ -51,12 +51,12 @@ description: FlyingBird 飞鸟机场提供高速稳定的科学上网服务，�
 季付**9**折/半年**85**折/年付**8**折 配合优惠码折上折，最高可达**64**折
 :::
 
-| 月付套餐类型 |   流量    | 价格 | 原生解锁 |                                                       套餐购买                                                        |
-| :----------: | :-------: | :--: | :------: | :-------------------------------------------------------------------------------------------------------------------: |
-|   **青铜**   | **100G**  | ¥15  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored noreferrer" /> |
-|   **白银**   | **200G**  | ¥30  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored noreferrer" /> |
-|   **黄金**   | **500G**  | ¥75  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored noreferrer" /> |
-|   **钻石**   | **1000G** | ¥150 |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored noreferrer" /> |
+| 套餐类型 |   流量    | 月付 | 季付 | 半年付 | 年付  | 原生解锁 | 套餐购买                                                                                                              |
+| :------: | :-------: | :--: | :--: | :----: | :---: | :------: | --------------------------------------------------------------------------------------------------------------------- |
+| **青铜** | **100G**  | ¥15  | ¥41  |  ¥77   | ¥144  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored noreferrer" /> |
+| **白银** | **200G**  | ¥30  | ¥81  |  ¥153  | ¥288  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored noreferrer" /> |
+| **黄金** | **500G**  | ¥75  | ¥203 |  ¥383  | ¥720  |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored noreferrer" /> |
+| **钻石** | **1000G** | ¥150 | ¥405 |  ¥765  | ¥1440 |    ✅    | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/flyingbird" rel="sponsored noreferrer" /> |
 
 ## FlyingBird 测速图
 
