@@ -57,7 +57,7 @@ description: 学习如何在宝塔面板中部署 vitepress，自动发布静态
 :::
 ![宝塔面板](https://i.theojs.cn/docs/WX20240223-223817%402x.webp '添加站点配置')
 
-::: tip 注意
+:::tip 注意
 user.ini文件无法被批量删除，就点击文件右侧的删除按钮进行删除
 :::
 ![宝塔面板](https://i.theojs.cn/docs/WX20240223-223941%402x.webp '删除网站目录下的默认文件')

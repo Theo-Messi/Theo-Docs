@@ -86,7 +86,7 @@ head:
 |     **HBO GO**      |  ￥180  |  ￥171  | ￥14.25 | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yh" rel="sponsored noreferrer" /> | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
 |     **Spotify**     |  ￥144  | ￥136.8 | ￥11.4  | <Pill icon="mdi:arrow-right-circle" name="立即购买" link="https://itheo.top/yh" rel="sponsored noreferrer" /> | ![nf-video =80x](https://i.theojs.cn/docs/nf-video.webp) |
 
-:::tip **选择银河录像局的优势**
+:::tip 选择银河录像局的优势
 较之用爱发电，在茫茫人海找**合租搭子**，在银河录像局可以省去**花时间去找**的烦恼（由平台自行撮合，用户只管使用服务即可），一定程度上更方便快捷，服务质量更有保障；
 无论是从内容还是套餐定价，优爱腾都是无法与其比拟的；以及真正意义上的无广告，常年佳片不断；
 :::
