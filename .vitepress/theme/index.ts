@@ -35,7 +35,13 @@ export default {
   setup() {
     const route = useRoute()
     imageViewer(route, '.vp-doc', {
-      filter: (img: HTMLImageElement) => !img.hasAttribute('data-no-viewer')
+      navbar: true,
+      toolbar: true,
+      filter: (img: HTMLImageElement) => {
+        const noViewer = !img.hasAttribute('data-no-viewer')
+        if (noViewer) img.style.cursor = 'zoom-in'
+        return noViewer
+      }
     })
   }
 }
