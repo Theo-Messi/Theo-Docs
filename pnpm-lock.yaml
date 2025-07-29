@@ -30,8 +30,8 @@ importers:
         specifier: ^0.22.1
         version: 0.22.1(markdown-it@14.1.0)
       '@theojs/lumen':
-        specifier: ^6.4.0
-        version: 6.4.0(vue@3.5.18(typescript@5.8.3))
+        specifier: ^6.4.1
+        version: 6.4.1(vue@3.5.18(typescript@5.8.3))
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^5.2.2
         version: 5.2.2(@vue/compiler-sfc@3.5.18)(prettier@3.6.2)
@@ -81,8 +81,8 @@ importers:
         specifier: ^1.1.6
         version: 1.1.6
       vitepress-plugin-llms:
-        specifier: ^1.7.1
-        version: 1.7.1
+        specifier: ^1.7.2
+        version: 1.7.2
       vue:
         specifier: ^3.5.18
         version: 3.5.18(typescript@5.8.3)
@@ -749,8 +749,8 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-  '@theojs/lumen@6.4.0':
-    resolution: {integrity: sha512-2gEfC5NmzWfyY3S0Di6J5PK73KGqO4cjfCfRPs4PpG5psGKRkkbRaqrUDu3vsGRO6l0Tcs5dbiuNALBrlIg1Jg==}
+  '@theojs/lumen@6.4.1':
+    resolution: {integrity: sha512-/2QmCM1T8L31a+VmM1jtVsgUJIDpzJUiEIYyC+ZKH/NKFhYlWNRhJXE+RwF8hXNQZbiSzbkt4baJxBCP9xYJcQ==}
 
   '@trivago/prettier-plugin-sort-imports@5.2.2':
     resolution: {integrity: sha512-fYDQA9e6yTNmA13TLVSA+WMQRc5Bn/c0EUBditUHNfMMxN7M82c38b1kEggVE3pLpZ0FwkwJkUEKMiOi52JXFA==}
@@ -2611,8 +2611,8 @@ packages:
   vitepress-plugin-image-viewer@1.1.6:
     resolution: {integrity: sha512-ZfYy1s/bXju6vGVsE/5gPXT449+KaXZ6ZIPAvcmPM07VmC7Bv57bCvFar2II7C2EjexxfPQsxUh70vSBbe14kQ==}
 
-  vitepress-plugin-llms@1.7.1:
-    resolution: {integrity: sha512-RF5hl2vGxKhbcGirLLUhIlnWNSaoscPKBVnKaGxrKzj76i+mI+HBvfi/DF7a1u2L05LAnf7KSBkEVsMexczsAg==}
+  vitepress-plugin-llms@1.7.2:
+    resolution: {integrity: sha512-4UxB3PXfRAfzbcKRXizRQajstjmYn1hoFOSCGIQBYyu3qYs9/TEAUe6oLGbiwaDD+wPQ/T1ow59pt2LAMR4/1A==}
 
   vitepress@2.0.0-alpha.9:
     resolution: {integrity: sha512-oUdZiT8ZCLf80Nw02Ha+v25aaabwik6iSMTEBXg46bMypNS/5i6AfMgFqpTuR5l3qG9XfNmau/SLT0sRiks2Zg==}
@@ -3241,7 +3241,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@theojs/lumen@6.4.0(vue@3.5.18(typescript@5.8.3))':
+  '@theojs/lumen@6.4.1(vue@3.5.18(typescript@5.8.3))':
     dependencies:
       '@iconify/vue': 5.0.0(vue@3.5.18(typescript@5.8.3))
       '@waline/client': 3.6.0(typescript@5.8.3)
@@ -5198,7 +5198,7 @@ snapshots:
     dependencies:
       viewerjs: 1.11.7
 
-  vitepress-plugin-llms@1.7.1:
+  vitepress-plugin-llms@1.7.2:
     dependencies:
       byte-size: 9.0.1
       gray-matter: 4.0.3
