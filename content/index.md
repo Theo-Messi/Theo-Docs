@@ -12,13 +12,12 @@ hero:
   image:
     src: index/home.webp
     alt: home
-    loading: eager
     fetchpriority: high
     width: 320
     height: 320
 
   Notice:
-    title: '<iconify-icon icon="streamline-emojis:wrapped-gift-2" ></iconify-icon> <span class="promo-title"> 小蜜蜂 618购物狂欢!!! 最低三年48折</span>'
+    title: '<span class="promo-title">小蜜蜂 618购物狂欢!!! 最低三年48折</span>'
     desc: |
       · 全套餐推出8折优惠 <span class="promo-text">xmfxmf7</span>
       · 3年付更可享受 <span class="promo-text">4.8</span>折优惠
@@ -54,8 +53,8 @@ features:
     link: /streaming/netflix-guide
     linkText: 查看更多
 
-  - title: '<iconify-icon class="i-mr" icon="logos:youtube-icon"></iconify-icon>合租平台'
-    details: 稳定好用的 Netflix 合租平台推荐
+  - title: '<iconify-icon class="i-mr" icon="logos:youtube-icon" style="margin-right: 0.7em;"></iconify-icon>合租平台'
+    details: 稳定好用的流媒体合租平台推荐
     link: /serve/sharing/account-sharing-guide
     linkText: 查看更多
 

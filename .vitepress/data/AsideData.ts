@@ -79,11 +79,11 @@ export const Aside_Data: AsideItem = [
     rel: 'sponsored noreferrer'
   },
   {
-    image: 'https://i.theojs.cn/logo/Lumen-Logo-128.webp',
-    name: '@theojs/Lumen',
-    hide1: '主题美化与 Vue 扩展组件库',
-    hide2: '专为 VitePress 打造',
-    link: 'https://github.com/Theo-Messi/lumen'
+    image: 'https://i.theojs.cn/logo/lumen-logo-large.svg',
+    name: '@theojs/lumen',
+    hide1: '专为 VitePress 打造',
+    hide2: '主题美化与 Vue 扩展组件库',
+    link: 'https://lumen.theojs.cn/'
   },
   {
     image: 'https://i.theojs.cn/logo/avatar-128.webp',

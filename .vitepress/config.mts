@@ -75,7 +75,6 @@ export default defineConfig({
       width: 24,
       height: 24,
       alt: 'avatar',
-      loading: 'eager',
       fetchpriority: 'high'
     },
 
