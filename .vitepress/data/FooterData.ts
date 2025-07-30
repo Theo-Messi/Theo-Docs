@@ -18,11 +18,11 @@ export const Footer_Data: FooterData = {
       icon: 'heroicons:globe-alt-solid',
       title: '优质线路',
       links: [
-        { name: 'FlyingBird - 飞鸟机场', link: 'https://itheo.top/flyingbird', rel: 'sponsored noreferrer' },
-        { name: 'Totoro - 龙猫云', link: 'https://itheo.top/totoro', rel: 'sponsored noreferrer' },
         { name: '青云梯', link: 'https://itheo.top/qyt', rel: 'sponsored noreferrer' },
         { name: 'Galaxy - 银河云', link: 'https://itheo.top/yhy', rel: 'sponsored noreferrer' },
         { name: 'TNT Cloud', link: 'https://itheo.top/tnt', rel: 'sponsored noreferrer' },
+        { name: 'FlyingBird - 飞鸟机场', link: 'https://itheo.top/flyingbird', rel: 'sponsored noreferrer' },
+        { name: 'Totoro - 龙猫云', link: 'https://itheo.top/totoro', rel: 'sponsored noreferrer' },
         { name: '小蜜蜂', link: 'https://itheo.top/bee', rel: 'sponsored noreferrer' }
       ]
     },

@@ -266,30 +266,30 @@ export function Sidebar_serve(): SidebarItem[] {
       text: '账号合租平台',
       link: 'sharing/account-sharing-guide',
       // collapsed: true,
-      base: '/serve/',
+      base: '/serve/sharing/',
       items: [
-        { text: '银河录像局', link: 'sharing/nf-video' },
-        { text: '奈飞小铺', link: 'sharing/ihezu' },
-        { text: '蜜糖商店', link: 'sharing/metshop' }
+        { text: '银河录像局', link: 'nf-video' },
+        { text: '奈飞小铺', link: 'ihezu' },
+        { text: '蜜糖商店', link: 'metshop' }
       ]
     },
     {
       text: '优质机场',
-      base: '/serve/',
+      base: '/serve/airport/',
       items: [
-        { text: 'FlyingBird - 飞鸟机场', link: 'airport/flyingbird' },
-        { text: '青云梯', link: 'airport/qingyunti' },
-        { text: 'Galaxy Cloud - 银河云', link: 'airport/galaxy' },
-        { text: 'TNT Cloud', link: 'airport/tnt' },
-        { text: '小蜜蜂', link: 'airport/bee' },
-        { text: 'Totoro Cloud - 龙猫云', link: 'airport/totoro' }
+        { text: '青云梯', link: 'qingyunti' },
+        { text: 'Galaxy Cloud - 银河云', link: 'galaxy' },
+        { text: 'TNT Cloud', link: 'tnt' },
+        { text: 'FlyingBird - 飞鸟机场', link: 'flyingbird' },
+        { text: 'Totoro Cloud - 龙猫云', link: 'totoro' },
+        { text: '小蜜蜂', link: 'bee' }
       ]
     },
     {
       text: '接码平台',
       // collapsed: true,
-      base: '/serve/',
-      items: [{ text: 'SMS-Activate', link: 'code/sms-activate' }]
+      base: '/serve/code/',
+      items: [{ text: 'SMS-Activate', link: 'sms-activate' }]
     }
   ]
 }

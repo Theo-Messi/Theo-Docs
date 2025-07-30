@@ -17,13 +17,14 @@ hero:
     height: 320
 
   Notice:
-    title: '<span class="promo-title">小蜜蜂 618购物狂欢!!! 最低三年48折</span>'
+    title: '<span class="promo-title">青云梯 优惠码大放送!</span>'
     desc: |
-      · 全套餐推出8折优惠 <span class="promo-text">xmfxmf7</span>
-      · 3年付更可享受 <span class="promo-text">4.8</span>折优惠
-    date: '7月31号23点59分'
-    dateText: '活动截止至'
-    link: https://itheo.top/bee
+      · 85折<span class="promo-text"> 优惠码: qyt85 </span>
+      · 8折<span class="promo-text"> 优惠码: qyt80 </span>
+      · 配合优惠码折上折，最高可达<span class="promo-text">48折</span>
+    # date: '7月31号23点59分'
+    # dateText: '活动截止至'
+    link: https://itheo.top/qyt
     rel: sponsored noreferrer
 
   actions:
@@ -37,7 +38,7 @@ hero:
 
     - theme: alt
       text: 机场推荐
-      link: /serve/airport/flyingbird
+      link: /serve/airport/qingyunti
 
     - theme: alt author
       text: 玄学宝典
@@ -60,7 +61,7 @@ features:
 
   - title: '<iconify-icon class="i-mr" icon="twemoji:airplane"></iconify-icon>优质线路'
     details: 全专线IPLC，不限速，不限设备数量，超稳晚高峰，流媒体全解锁！全节点解锁chatgpt！
-    link: /serve/airport/flyingbird
+    link: /serve/airport/qingyunti
     linkText: 查看更多
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Totoro Cloud - 龙猫云
-description: Totoro Cloud 龙猫云提供高速稳定的科学上网和流媒体解锁服务，支持Netflix、Disney+、HBO、ChatGPT等多种流媒体与工具，采用专线加速，保障连接安全可靠，兼容iOS、Android、Windows、Mac等多平台，满足多场景需求。
+description: Totoro Cloud 中文名为龙猫云，一家颇具实力的新机场，Shadowsocks 协议节点，IPLC 专线，对 Netflix、Disney+ 流媒体和 ChatGPT 提供很好的解锁支持。龙猫云机场官方提供了详细的视频、文档以及贴心的客服支持
 ---
 
 # Totoro Cloud - 龙猫云
@@ -34,15 +34,15 @@ description: Totoro Cloud 龙猫云提供高速稳定的科学上网和流媒体
 
 ## 龙猫云简介 <Pill image="https://i.theojs.cn/logo/totoro.webp" name="龙猫云官网" link="https://itheo.top/totoro" rel="sponsored noreferrer" />
 
-Totoro Cloud 中文名为龙猫云，一家颇具实力的新机场，Shadowsocks 协议节点，IPLC 专线，对 Netflix、Disney+ 流媒体和 ChatGPT 提供很好的解锁支持。龙猫云机场官方提供了详细的视频、文档以及贴心的客服支持
+Totoro Cloud 中文名为龙猫云，一家颇具实力的新机场，Shadowsocks 协议节点，IPLC 专线，对 **Netflix、Disney+ 流媒体和 ChatGPT** 提供很好的解锁支持。龙猫云机场官方提供了详细的视频、文档以及贴心的客服支持
 
-- ✅ IPLC全专线节点，原生IP , 最高速率可达到2000Mbps
-- ✅ 流媒体完美解锁（包括Netflix , Disney+, HBO等）
-- ✅ 完美解锁ChatGPT，支持Tiktok本土短视频运营和直播
-- ✅ 晚高峰不限速，所有套餐x1倍率
-- ✅ 可支持企业和个人独享IP和家宽定制
-- ✅ 真人客服实时在线，可远程协助新手用户完成配置
-- ✅ 机场主 ，技术背景，早已移民海外 ， 线路稳定风险小
+- **IPLC** 全专线节点，原生IP，**最高速率可达到2000Mbps**
+- 流媒体完美解锁 **（包括Netflix ，Disney+， HBO等）**
+- 完美解锁 **ChatGPT，支持Tiktok本土短视频运营和直播**
+- **晚高峰不限速**，所有套餐x1倍率
+- 可支持企业和个人独享IP和家宽定制
+- 真人客服实时在线，可远程协助新手用户完成配置
+- 机场主，技术背景，早已移民海外，线路稳定风险小
 
 ## 龙猫云 定价
 

@@ -11,7 +11,6 @@ export const head: HeadConfig[] = [
   ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
   ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
   ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-  ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }],
   ['link', { rel: 'manifest', href: '/site.webmanifest' }],
 
   // 站点基本信息
@@ -19,7 +18,7 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'copyright', content: 'Theo' }],
   ['meta', { name: 'apple-mobile-web-app-title', content: 'Theo-Docs' }],
 
-  // Open Graph (Facebook, LinkedIn 等)
+  // Open Graph
   ['meta', { property: 'og:type', content: 'website' }],
   ['meta', { property: 'og:locale', content: 'zh-Hans' }],
   ['meta', { property: 'og:site_name', content: 'Theo Docs' }],
