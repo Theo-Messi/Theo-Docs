@@ -2,6 +2,6 @@
 
 1. 切换至手机网络进行访问（大多数情况下可以正常访问）
 2. 修改 DNS 为 `8.8.8.8` 或 `1.1.1.1` 后重新访问
-3. 如果以上方法仍然无法解决问题，[请在此提交反馈](https://github.com/Theo-Messi/Theo-Docs/issues/new)
+3. 如果以上方法仍然无法解决问题，[请在此提交反馈](https://github.com/s-theo/Theo-Docs/issues/new)
 
 :::

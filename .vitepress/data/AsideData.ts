@@ -110,6 +110,6 @@ export const Aside_Data: AsideItem = [
     name: '常用配置 - dotfiles',
     hide1: 'zshrc、系统优化一键脚本',
     hide2: 'Clash/Loon/QX... 配置',
-    link: 'https://github.com/Theo-Messi/dotfiles'
+    link: 'https://github.com/s-theo/dotfiles'
   }
 ]

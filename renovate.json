@@ -1,3 +1,3 @@
 {
-  "extends": ["github>Theo-Messi/dotfiles"]
+  "extends": ["github>s-theo/dotfiles"]
 }

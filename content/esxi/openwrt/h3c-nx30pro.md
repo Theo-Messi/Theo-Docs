@@ -14,7 +14,7 @@ description: 完整的 H3C NX30Pro 刷 OpenWRT 固件教程，包括 Uboot 刷�
       icon: { icon: 'simple-icons:openwrt', color: '#00B5E2' },
       name: '固件/UBOOT',
       desc: 'H3C NX30Pro OpenWRT 固件和 UBOOT 下载链接',
-      link: 'https://github.com/Theo-Messi/H3C-NX30Pro'
+      link: 'https://github.com/s-theo/H3C-NX30Pro'
     },
     {
       icon: { icon: 'simple-icons:termius', color: '#000' },
